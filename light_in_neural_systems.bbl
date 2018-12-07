@@ -1,0 +1,18 @@
+\begin{thebibliography}{1}
+
+\bibitem{stra2018}
+V.~Stojanovic, R.~Ram, M.~Popovic, S.~Lin, S.~Moazeni, M.~Wade, C.~Sun,
+  L.~Alloatti, A.~Atabaki, F.~Pavanello, N.~Mehta, and P.~Bhargava.
+\newblock Monolithic silicon-photonic platforms in state-of-the-art cmos soi
+  processes.
+\newblock {\em Opt. Express}, 26:13106, 2018.
+
+\bibitem{suwa2015}
+C.~Sun, M.~Wade, Y.~Lee, J.~Orcutt, L.~Alloatti, M.~Georgas, A.~Waterman,
+  J.~Shainline, R.~Avizienis, S.~Lin, B.~Moss, R.~Kumar, F.~Pavanello,
+  A.~Atabaki, H.~Cook, A.~Ou, J.~Leu, Y.-H. Chen, K.~Asanovi{\' c}, R.~Ram,
+  M.~Popovi{\' c}, and V.~Stojanovi{\' c}.
+\newblock Single-chip microprocessor that communicates directly using light.
+\newblock {\em Nature}, 528:534, 2015.
+
+\end{thebibliography}

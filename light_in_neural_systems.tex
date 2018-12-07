@@ -1,0 +1,56 @@
+%\documentclass[aps,pra,reprint,longbibliography]{revtex4-1}
+\documentclass{article}
+
+\usepackage{geometry}
+\geometry{textwidth = 18cm,textheight = 24cm}
+
+\usepackage{multicol}
+
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{textcomp}
+\usepackage{lmodern}
+
+\begin{document}
+	
+	%-------------------- begin header -------------------%
+	\centerline{\LARGE Light in neural systems}
+	\vspace{0.75em}
+	\centerline{\Large Jeffrey M. Shainline}
+	\vspace{0.75em}
+	\centerline{\large National Institute of Standards and Technology}
+	\vspace{0.25em}
+	\centerline{\large Boulder, CO, 80305}
+	\vspace{0.65em}
+	\centerline{\large \today}
+	%-------------------- end header ---------------------%
+
+	
+%\author{Jeffrey M. Shainline\\National Institute of Standards and Technology, 325 Broadway, Boulder, CO, 80305}
+%\affiliation{National Institute of Standards and Technology, 325 Broadway, Boulder, CO, 80305}		
+	
+%\date{\today}
+	
+\begin{abstract}
+
+\end{abstract}
+
+\begin{multicols}{2}
+
+\section{\label{sec:introduction}Introduction}
+Light is excellent for communication. If we are going to signal to extraterrestrial civilizations, it will almost certainly be with electromagnetic radiation. On our own planet, fiber optic links carry by far the most information across continents and between data centers. An important question in modern computing is: what is the shortest distance over which photonic communication is sufficiently advantageous and practical to merit displacement of electronic interconnects? Optical links between racks in data centers are becoming common. Major companies are investing seriously in photonics in the package. Monolithic optical links between processor and memory fabricated in a 45-nm CMOS node with no in-line changes have been demonstrated \cite{suwa2015}, with integration in 32-nm technology looking promising as well \cite{stra2018}. A primary challenge affecting further chip-scale electronic-photonic integration is the continued difficulty of achieving a light source implemented on silicon that is robust, efficient, and economical.
+
+In parallel with the hardware considerations affecting optoelectronic integration are questions related to the future of computer architecture. A prominent theme emerging since clock speed leveled off in 2003 \cite{} is parallelism. Computation is increasingly distributed among more processor cores. Many-core architectures continue to expand into complex on-chip networks (OCNs), in some cases resulting in highly distributed, brain-inspired systems \cite{}. As compute grows more distributed, communication demands more from interconnect networks. The demand for energy efficient communication bandwidth has been a major driver of on-chip photonics.
+
+The major drivers for brain-inspired computers fall on a spectrum: energy and algorithmic efficiency for deployable applications (Internet of things, self-driving cars, mobile devices) reside on one side of the spectrum, and artificial general intelligence (AGI) resides on the other. Knowledge gained from neuroscience informs us that systems with general intelligence will benefit from very large numbers of computational elements as well as extreme communication between them. It is our perspective that hardware incorporating light for communication between electronic computational elements combined with an architecture of distributed optoelectronic spiking neurons will provide tremendous potential for AGI. Considerations pertinent to the realization of such a technology are the subject of this article.
+
+\section{\label{sec:neuro}Insights from Neuroscience}
+
+	
+\bibliographystyle{abbrv}	
+\bibliography{light_in_neural_systems}
+
+\end{multicols}
+
+\end{document}
