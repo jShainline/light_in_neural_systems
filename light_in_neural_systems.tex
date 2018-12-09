@@ -45,10 +45,29 @@ In parallel with the hardware considerations affecting optoelectronic integratio
 
 The major drivers for brain-inspired computers fall on a spectrum: energy and algorithmic efficiency for deployable applications (Internet of things, self-driving cars, mobile devices) reside on one side of the spectrum, and artificial general intelligence (AGI) resides on the other. Knowledge gained from neuroscience informs us that systems with general intelligence will benefit from very large numbers of computational elements as well as extreme communication between them. It is our perspective that hardware incorporating light for communication between electronic computational elements combined with an architecture of distributed optoelectronic spiking neurons will provide tremendous potential for AGI. Considerations pertinent to the realization of such a technology are the subject of this article.
 
-\section{\label{sec:neuro}Insights from Neuroscience}
+\section{\label{sec:neuro}Guided by neuroscience and VLSI}
+To guide the design of hardware for AGI, we must simultaneously consider the principles of neural information and principles of fabrication for very-large-scale integration. Regarding the principles of neural information, we know that computation in the brain makes efficient use of space and time by leveraging fractal scaling. [recap of general principles]
 
-	
-\bibliographystyle{abbrv}	
+Based on these considerations, we expect a hardware platform capable of AGI to display at least six traits:
+\begin{enumerate}
+\item Plasticity mechanisms (excitation, inhibition, stdp, meta, homeostatic)
+\item Dendritic nonlinearities (sequence detection and integration)
+\item Spiking neuronal dynamics
+\item Massive connectivity to enable short path lengths across big networks
+\item The ability to efficiently use space from the scale of a single synapse up to systems limited by light-speed communication, and the ability to efficiently use time with network oscillations across a wide range of frequencies
+\item Energy consumption and power density low enough to enable scaling to systems of this size
+\end{enumerate}
+
+Regarding the fabrication of large systems, we assume success developing AGI is most likely if the infrastructure developed for digital computing with silicon electronics can be utilized. This leads us to at least five traits that hardware must display if extreme scalability is to be achieved:
+\begin{enumerate}
+\item Most likely based on performing lithography on silicon wafers
+\item Patterning should not require features smaller than 193 nm lithography can achieve
+\item Materials that are rare, volatile, or incompatible with conventional processing should be avoided
+\item It is unlikely with any artificial technology that a human-level intelligence will fit on a single wafer. Straightforward assembly into multi-wafer modules should be achievable
+\item For very large systems with photonic connectivity, the ability to leverage fiber optic technology will likely be highly advantageous
+\end{enumerate}
+
+%\bibliographystyle{abbrv}	
 \bibliography{light_in_neural_systems}
 
 \end{multicols}

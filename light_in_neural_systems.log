@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  7 DEC 2018 11:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 DEC 2018 23:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -433,42 +433,29 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+[1
 
-LaTeX Warning: Citation `suwa2015' on page 1 undefined on input line 42.
-
-
-LaTeX Warning: Citation `stra2018' on page 1 undefined on input line 42.
-
-(./light_in_neural_systems.bbl) [1
-
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./ligh
-t_in_neural_systems.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./light_in_neural_systems.bbl) [2] (./light_in_neural_systems.aux) ) 
 Here is how much of TeX's memory you used:
- 3446 strings out of 493014
- 48261 string characters out of 6133351
- 124369 words of memory out of 5000000
- 6946 multiletter control sequences out of 15000+600000
- 31443 words of font info for 23 fonts, out of 8000000 for 9000
+ 3444 strings out of 493014
+ 48237 string characters out of 6133351
+ 118375 words of memory out of 5000000
+ 6945 multiletter control sequences out of 15000+600000
+ 28497 words of font info for 22 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,4n,26p,1090b,238s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/
-texlive/2016/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2016/texmf-d
-ist/fonts/type1/public/lm/lmbx9.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/public/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
-/lm/lmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr17.p
-fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmri10.pfb>
-Output written on light_in_neural_systems.pdf (1 page, 168213 bytes).
+ 38i,4n,26p,1085b,307s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/loca
+l/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2016
+/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2016/texmf-dis
+t/fonts/type1/public/lm/lmbx9.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/public/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/l
+m/lmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr17.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmri10.pfb>
+Output written on light_in_neural_systems.pdf (2 pages, 150692 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 36 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
