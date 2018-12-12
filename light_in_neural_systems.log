@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 DEC 2018 23:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 DEC 2018 12:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -489,34 +489,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--105
 [][]\OT1/lmr/bx/n/14.4 Communication with guided
  []
 
+
+LaTeX Warning: Citation `peth2009' on page 4 undefined on input line 106.
+
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
 \OT1/lmr/m/n/10 (glial cells/silicon ma-trix, den-dritic ar-
  []
 
 
-Underfull \hbox (badness 7685) in paragraph at lines 144--145
+Underfull \hbox (badness 7685) in paragraph at lines 153--154
 \OT1/lmr/m/n/10 bor/superconducting cir-cuitry, ax-onal ar-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
 \OT1/lmr/m/n/10 rons/pulsing light sources, neu-ro-mod-u-la-
  []
 
-(./light_in_neural_systems.bbl) [5] (./light_in_neural_systems.aux)
+[5] (./light_in_neural_systems.bbl) [6] (./light_in_neural_systems.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3550 strings out of 493014
- 50566 string characters out of 6133351
- 132399 words of memory out of 5000000
- 7016 multiletter control sequences out of 15000+600000
+ 3551 strings out of 493014
+ 50576 string characters out of 6133351
+ 123399 words of memory out of 5000000
+ 7017 multiletter control sequences out of 15000+600000
  41120 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,4n,26p,2462b,307s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,6n,26p,2462b,366s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
 16/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2016/texmf-d
@@ -533,10 +536,10 @@ r17.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr7.pfb></us
 r/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/public/lm/lmsy7.pfb>
-Output written on light_in_neural_systems.pdf (5 pages, 228379 bytes).
+Output written on light_in_neural_systems.pdf (6 pages, 232273 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 82 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
