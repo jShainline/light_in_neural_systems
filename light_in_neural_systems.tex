@@ -1,16 +1,21 @@
 %\documentclass[aps,pra,reprint,longbibliography]{revtex4-1}
-\documentclass{article}
+\documentclass[twocolumn]{article}
 
 \usepackage{geometry}
 \geometry{textwidth = 18cm,textheight = 24cm}
 
-\usepackage{multicol}
+%\usepackage{multicol}
+\usepackage{caption}
 
 \usepackage{graphicx}
 \usepackage{amsmath}
-\usepackage{amssymb}
+\usepackage{float}
+%\usepackage{amssymb}
 \usepackage{textcomp}
-\usepackage{lmodern}
+%\usepackage{lmodern}
+\newenvironment{figure_alt}
+  {\par\medskip\noindent\minipage{\linewidth}}
+  {\endminipage\par\medskip}
 
 \begin{document}
 	
@@ -36,7 +41,7 @@
 
 \end{abstract}
 
-\begin{multicols}{2}
+%\begin{multicols}{2}
 
 \section{\label{sec:introduction}Introduction}
 Light is excellent for communication. If we are going to signal to extraterrestrial civilizations, it will almost certainly be with electromagnetic radiation. On our own planet, fiber optic links carry by far the most information across continents and between data centers. An important question in modern computing is: what is the shortest distance over which photonic communication is sufficiently advantageous and practical to merit displacement of electronic interconnects? Optical links between racks in data centers are becoming common. Major companies are investing seriously in photonics in the package. Monolithic optical links between processor and memory fabricated in a 45-nm CMOS node with no in-line changes have been demonstrated \cite{suwa2015}, with integration in 32-nm technology looking promising as well \cite{stra2018}. A primary challenge affecting further chip-scale electronic-photonic integration is the continued difficulty of achieving a light source implemented on silicon that is robust, efficient, and economical.
@@ -109,6 +114,49 @@ discussion of frequency (each neuron cannot have its own frequency due to practi
 
 
 \section{\label{sec:communication}Communication with guided light}
+The central premise of our work is that photonic signals are superior to electronic signals for communication across large-scale neural systems. To explain why we place this conjecture at the center of hardware development, we briefly summarize the physical limitations of electrical interconnection networks \cite{hepa2012}.
+
+\subsection{\label{sec:electricalInterconnectionNetworks}Electrical interconnection networks}
+When using silicon electronics, information is represented by voltages. A voltage is achieved physically by accumulating charge on a capacitor. For one device to communicate information to another device, it must provide charge in the form of electrical current. This current must charge up the capacitors representing information at the target device as well as the capacitance of the wire over which the charge is transferred. There are fundamental and practical limits to how small the capacitance of the devices and wires can be \cite{}. As a rule of thumb, a wire in a CMOS process adds 200\,aF/\textmu m, so parasitic wire capacitance dominates when devices are separated by even a few microns. It becomes impracticable for a single device to source current to many other devices, so in practice a single transistor rarely drives more than four other transistors (fanout of four). For many applications, it is crucial for each device to be able to send information to many more than four destinations. Because all the devices requiring communication with one another cannot be directly wired to each other, a shared communication network is employed. In contemporary computing, switched media networks are used for this purpose. Each device must then only communicate to the nearest switch in the network. In a switched media network, devices communicate with one another by sending packets of information. The packet contains routing information (the address of the recipient) as well as the data to be communicated. The interconnect network determines a valid route for the information traverse across the network (referred to as routing), and the switches are configured accordingly to achieve that physical route of information transfer. 
+
+Because the communication infrastructure is shared devices must request access to the switch network to transmit messages. Multiple devices may request access simultaneously, in which case arbitration must be performed. Arbitration refers to the process of granting devices access to the switch network, and in general a packet will experience some delay while it waits in a queue to be granted access to the shared communication infrastructure. This process of serializing communication across a common interconnection network is referred to as time multiplexing. This approach to communication between electronic devices leverages the speed of electronic circuits to compensate for the difficulties in communication. For many applications this is adequate. The limitations are reached when many devices need to communicate with many other devices with a high frequency of communication events. Unfortunately, this is exactly the situation encountered in neural information processing. When implementing neural information processing with electronic communication infrastructure, neuron pulses are represented as packets of data called events. Some of the data in a packet representing an event must contain the addresses of the synapses to which the event should be communicated. This type of neural information processing is therefore referred to as address-event representation. One consequence of this approach is that as the size of the system grows, more information in each communication event must be allocated to specifying destinations. This leads to increased burden on memory and processors. But the more severe challenge is introduced by the connectivity/speed trade-off. As more neurons, each with many synapses, are added to the network, the average frequency of neuronal firing events must decrease due to the limitations of the interconnection network to handle communication requests. For electronic systems with a few hundred thousand neurons, average event rates in the kilohertz range can be maintained \cite{}. Systems with a few hundred million neurons will likely be limited to operation at 10 Hz or below \cite{}. 
+
+\subsection{\label{sec:photonicInterconnectionNetworks}Photonic interconnection networks}
+The requirement of utilizing a shared communication infrastructure results from the physics of electrons. Because electrons interact with each other due to their charge, they can be used to establish a voltage on a capacitor, which is useful for computing. But the charge-based interaction is also what makes it difficult to source sufficient current to directly communicate between many devices. The physics of light is complimentary. Photons, being uncharged bosons, interact with one another only through quantum interference, such as Hong-Ou-Mandel interference. Light-matter interaction is generally weak, especially at low light levels. Thus, photons can co-propagate on waveguides independently of one another without wiring capacitance. This enables a pulse of photons to fan out to many destinations without a charging penalty due to wiring. This is not to say photonic communication can address an arbitrarily large number of recipients without consequence. For each new recipient, the number of photons in the initial pulse must increase, and as destinations get further away, more energy is dissipated to propagation loss. These realities notwithstanding, it appears feasible for devices communicating with photons to make direct, physical, point-to-point connections to many thousands of destinations, thereby eliminating the need for shared communication infrastructure that we see as the primary impediment to achieving AGI with electrical interconnections.
+
+Having made this claim, the burden is upon us to provide evidence of the feasibility of photonic communication in large-scale neural systems. Much like electrical interconnection networks utilize different technologies at the scales of chips versus data centers, photonic interconnection technologies must enable communication from the scale of an on-chip network to a multi-wafer system the size of a data center. Further, the specific architectures suitable for neural information processing require that neurons be capable of communicating seamlessly across all scales of this network hierarchy. At the outset, the large wavelength of light relative to the size of electronic devices (and relative to the size of devices in the brain)  lead us to be concerned for the size of brain-scale networks. To begin building confidence for the feasibility of the endeavor, we sketch a vision of how a general optoelectronic neural system may be constructed.
+
+We emphasized above that a successful neural technology must leverage the fabrication infrastructure of silicon electronics. We therefore conjecture that silicon photonics technology will be utilized to move light between neurons. At the wafer scale, light will be guided in dielectric waveguides. Silicon photonics provides three primary dielectric materials that can be used for these passive waveguides: Si, SiN, and SiO$_2$. To two significant figures, the indices of refraction of these materials close to 1550\,nm are 3.5, 2.0, and 1.5, respectively. Perhaps not coincidentally, these are the three primary dielectrics used in CMOS technology as well. The highest index contrast of these materials is achieved if we construct waveguides with Si for the core and SiO$_2$ for the cladding. This will allow the smallest waveguide pitch and tightest bends, enabling dense connectivity. The trade-off is that with higher index contrast comes higher Rayleigh scattering from waveguide line-edge roughness. Si waveguides can be expected to have 1\,dB/cm propagation loss, so 30\,dB attenutation would be incurred propagating across a wafer. It may be possible to simply turn up the power of light sources to accommodate this loss, but it is more likely that longer-distance connections will be achieved with SiN waveguides clad with SiO$_2$. SiN waveguides are likely to have 0.2\,dB/cm propagation loss \cite{}. With this loss, 6\,dB of loss would be incurred propagating across a 300\,mm wafer. If this is too high, lower index contrast can be achieved with SiON$_x$ waveguides. Because we can choose to either turn of the power of the light sources while using smaller, high-index waveguides or save power by using smaller, low-index waveguides, we are faced with a power/size trade-off. Such a trade-off must be address after system-level considerations.
+
+Achieving the dense, complex routing required to connect large numbers of neurons on a wafer will require multiple planes of waveguides, just as integrated electronics requires multiple wiring layers. We anticipate that optoelectronic neural systems will utilize dielectric waveguide layers deposited in the back-end-of-line in the fabrication process, with lower layers having higher index and being utilized for local connections, and higher layers having gradually lower index used for more distant connections. We wish to approximate the area of such photonic interconnection networks. Following Keyes \cite{ke1982}, we approximate the area required for the waveguides entering a neuron as $A_{\mathrm{n}} = (n_{\mathrm{in}} w/k)^2$, where $n_{\mathrm{in}}$ is the number of waveguides entering the neuron (in-directed synaptic connections), $w$ is the waveguide pitch, and $k$ is the number of planes of waveguides. In general, $w$ will depend on index contrast, but for this analysis we treat it as constant and estimate area by considering low- and high-index limits. As will be discussed shortly, for tiling multi-wafer assemblies, wafers diced into Octagons may be advantageous, so we take the area of a wafer to be $A_8 = 2\sqrt{2}r^2$ with $r = 150$\,mm. The number of neurons that can be supported on a 300-mm wafer is given by the ratio,
+\begin{equation}
+\label{eq:numNeuronPerWafer}
+N_8 = \frac{A_8}{A_{\mathrm{n}}} = 2\sqrt{2}r^2\left(\frac{k}{wn_{\mathrm{in}}}\right)^2.
+\end{equation}
+%\begin{figure_alt} 
+%	\centering{\includegraphics[width=8.6cm]{neuronsOnWafer.pdf}}
+%	\captionof{figure}{\label{fig:neuronsOnWafer}Number of neurons on a wafer.}
+%\end{figure_alt}
+\begin{figure*}[] 
+	\centering{\includegraphics[width=14cm]{neuronsOnWafer.pdf}}
+	\captionof{figure}{\label{fig:neuronsOnWafer}Number of neurons on a wafer.}
+\end{figure*}
+This expression is plotted in Fig.\,\ref{fig:neuronsOnWafer}. This estimate informs us that a 300-mm wafer can support roughly one million neurons if they each have one thousand connections. As a point of comparison, Ref.\,\cite{kuwa2017} finds that through multi-layer, wafer-scale integration of logic and memory, 250 million electrical neurons could fit on a 300-mm wafer. The trade-off is, of course, speed, as the shared communication network would limit the electrical neurons studied in Ref.\,\ref{kuwa2017} to 10\,Hz operation. Nevertheless, the message of Fig.\,\ref{fig:neuronsOnWafer} is that photonic routing results in large area consumption. If two planes of routing waveguides are used, 100,000 neurons with 1000 connections each can fit on a wafer. With 18 routing planes, close to 10 million such neurons can fit on a wafer. The human cortex contains over 10 billion neurons. An optoelectronic brain will not fit on a wafer.
+
+\begin{figure*}[] 
+	\centering{\includegraphics[width=14cm]{communicationScales.pdf}}
+	\captionof{figure}{\label{fig:communicationScales}Photonic interconnection on various length scales.}
+\end{figure*}
+Optoelectronic intelligence will require communication between wafers. This can be accomplished through multiple means. Most simply, wafers can be stacked vertically, and free-space optical links can send photons from a source on one wafer, directed vertically by a beam-shaping grating coupler, to a detector on a wafer above or below, as illustrated in Fig.\,\ref{fig:communicationScales}(a). Such 3D techniques are being developed for electronics, but the ability of light to propagate through free space and the multi-micron alignment tolerances enabled by wide-area photodetectors \cite{mave2013} make such 3D integration feasible for photonic communication as well. In addition to free-space vertical coupling, inter-wafer communication can be achieved at wafer edges with in-plane waveguide couplers. In the oxtagonal tiling used here for illustration, each wafer could make such connections to neighbors in the cardinal directions.
+
+Next: say how many vertical links and horizontal links per wafer, address discontinuities in Rentian scaling, make analogy to columns
+
+
+
+\subsection{\label{sec:scalingToLargeSystems}Scaling to large systems}
+
+
+\vspace{4em}
 Neuronal avalanches and fractal scaling indicate that increases in network capacity are possible without fundamental reorganization of the system \cite{peth2009}. This form of self-similar information processing has no size limits, in principle. Ultimate limitations will be practical, and related to the inability to maintain continuous Rentian scaling across space and time.
 
 Must explain: level of devices $\longrightarrow$ synaptic, dendritic, neuronal functionalities for enabling diverse dynamical states, extracting maximal information from spike trains, and efficient retrieval and storage of memories.
@@ -175,13 +223,20 @@ Amdahl's law draws our attention to the general principle that we should not try
 \item AGI requires significant hardware improvements, but hardware alone will not be smart. that requires insight from device to architecture, neuron to network, across space and time.
 \end{itemize}
 
+
+\end{itemize}
+
 \vspace{4em}
 There are $10^{14}$ synapses in the human cortex. If it takes even 10\,nW to maintain the state of each synapse, the system will consume a megawatt just to remember. This is one reason superconducting synapses are attractive: they can maintain a memory indefinitely with no static power dissipation. Additionally, the strength of a synapse can be increased or decreased based on single-photon detection events. STDP appears possible with a single photon for each step of the update process. 
 
 \vspace{4em}
 Suppose we could get around fabrication considerations and construct arbitrary neural systems based on biological neurons. Would we then choose to pursue that technology for beyond-human intelligence instead of developing optoelectronic hardware? We think not, because the slow conduction velocity of axons presents a limit to communication, and this limit is likely already saturated near the scale of the human brain. If this argument is correct, we should not expect genetic engineering to achieve much smarter people than have already walked the earth.
 
-\end{itemize}
+\vspace{4em}
+Based on these estimates, it may take 10,000 interconnected wafers to achieve a human-scale brain. This may strike some as intractable, but we note several aspects of the technology that make the challenge surmountable, if ambitious. First and foremost, due to photonic signaing, it remains possible to achieve efficient communication across the network for systems with orders of magnitude more than 10,000 wafers. So such a system is physically possible to achieve. It is also practically possible to achieve. All the proposed circuits required to create superconducting optoelectronic loop neurons can be fabricated at the wafer scale with existing fabrication infrastructure (300 mm silicon-on-insulator substrates, 193 nm immersion lithography, equivalent of 45-nm CMOS node). A 45-nm CMOS foundry processes 10,000 wafers per day. If such a foundry were dedicated to fabrication optoelectronic intelligence, it may be able to produce multiple brain-scale systems per year. Assembly of the wafers into a functional system would be difficult, but probably not much more difficult than the construction of a contemporary supercomputer. The requirement for liquid-helium cooling does not appear to us to be a major impediment to implementation. From our perspective, the greatest unknown is the light source. If the silicon light sources that have already been demonstrated in cryogenic optical links \cite{buch2017} can be produced with internal quantum efficiency ($\eta_{\mathrm{qe}}$) of $10^{-3}$, we anticipate this project will be practically and economically viable. At present, $\eta_{\mathrm{qe}}$ of $5\times10^{-7}$ has been demonstrated in the first attempt with no optimization. Keep in mind, these light sources need not achieve high performance. We only require that they achieve incoherent pulses of 10,000 photons (fJ) at 20 MHz. If no silicon light source operating at 4\,K can meet these criteria, and integration of III-V light sources on silicon wafers is required, the cost and complexity of a project at this scale may become prohibitive.
+
+To summarize, we are asking the community to believe in a project that depends critically on wafer-scale integration, operation at 4\,K, and silicon light sources. Perhaps this is a lot to ask. Yet we have a lot to gain. Achieving truly intelligent artificial systems was never going to be easy. From our perspective, integrated optoelectronic hardware makes it possible. 
+
 
 
 \begin{equation}
@@ -199,6 +254,6 @@ d = \frac{1}{1-p}
 %\bibliographystyle{abbrv}	
 \bibliography{light_in_neural_systems}
 
-\end{multicols}
+%\end{multicols}
 
 \end{document}
