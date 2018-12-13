@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 DEC 2018 18:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  13 DEC 2018 14:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -445,60 +445,87 @@ Package pdftex.def Info: neuronsOnWafer.pdf used on input line 141.
 (pdftex.def)             Requested size: 398.33858pt x 307.81224pt.
 
 
-LaTeX Warning: Citation `peth2009' on page 6 undefined on input line 152.
+LaTeX Warning: Citation `kuwa2017' on page 6 undefined on input line 144.
 
-[6] [7 <./neuronsOnWafer.pdf, page is rotated 90 degrees>]
-Underfull \hbox (badness 6842) in paragraph at lines 199--200
+
+LaTeX Warning: Reference `kuwa2017' on page 6 undefined on input line 144.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 146.
+
+<communicationScales.pdf, id=29, 794.97pt x 614.295pt>
+File: communicationScales.pdf Graphic file (type pdf)
+
+<use communicationScales.pdf>
+Package pdftex.def Info: communicationScales.pdf used on input line 147.
+(pdftex.def)             Requested size: 398.33858pt x 307.81224pt.
+
+
+LaTeX Warning: Citation `mave2013' on page 6 undefined on input line 150.
+
+
+LaTeX Warning: Citation `brsc1998' on page 6 undefined on input line 150.
+
+
+LaTeX Warning: Citation `mo1997' on page 6 undefined on input line 150.
+
+[6] [7 <./neuronsOnWafer.pdf, page is rotated 90 degrees> <./communicationScale
+s.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Citation `peth2009' on page 8 undefined on input line 159.
+
+[8]
+
+LaTeX Warning: Citation `buch2017' on page 9 undefined on input line 161.
+
+[9]
+Underfull \hbox (badness 6842) in paragraph at lines 216--217
 []\OT1/cmr/m/n/10 constituents of brain mat-ter vs ar-ti-fi-cial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
 \OT1/cmr/m/n/10 (glial cells/silicon ma-trix, den-dritic ar-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
 \OT1/cmr/m/n/10 bor/superconducting cir-cuitry, ax-onal ar-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
 \OT1/cmr/m/n/10 bor/waveguide in-ter-con-nects, spik-ing neu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
 \OT1/cmr/m/n/10 rons/pulsing light sources, neu-ro-mod-u-la-
  []
 
-
-Underfull \hbox (badness 4048) in paragraph at lines 211--212
+[10]
+Underfull \hbox (badness 4048) in paragraph at lines 228--229
 []\OT1/cmr/m/n/10 improved fiber-to-chip cou-pling and multi-
  []
 
 
-Underfull \hbox (badness 2753) in paragraph at lines 215--216
+Underfull \hbox (badness 2753) in paragraph at lines 232--233
 []\OT1/cmr/m/n/10 AGI re-quires sig-nif-i-cant hard-ware im-prove-
  []
 
-[8]
+(./light_in_neural_systems.bbl) [11
 
-LaTeX Warning: Citation `buch2017' on page 9 undefined on input line 228.
-
-(./light_in_neural_systems.bbl) [9] (./light_in_neural_systems.aux)
+] (./light_in_neural_systems.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 4160 strings out of 493014
- 62982 string characters out of 6133351
- 131646 words of memory out of 5000000
- 7669 multiletter control sequences out of 15000+600000
+ 4170 strings out of 493014
+ 63179 string characters out of 6133351
+ 132654 words of memory out of 5000000
+ 7678 multiletter control sequences out of 15000+600000
  6246 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,6n,39p,2462b,285s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -515,10 +542,10 @@ al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
 xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on light_in_neural_systems.pdf (9 pages, 344374 bytes).
+Output written on light_in_neural_systems.pdf (11 pages, 524687 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
+ 119 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
