@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  13 DEC 2018 14:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  14 DEC 2018 12:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -369,163 +369,173 @@ LaTeX Warning: Citation `suwa2015' on page 1 undefined on input line 47.
 LaTeX Warning: Citation `stra2018' on page 1 undefined on input line 47.
 
 
-Underfull \hbox (badness 3612) in paragraph at lines 53--53
-[][]\OT1/cmr/bx/n/14.4 Guided by neu-ro-science and
- []
+LaTeX Warning: Citation `fudr2005' on page 1 undefined on input line 61.
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 75--75
-[][]\OT1/cmr/bx/n/14.4 Optoelectronic synapses, den-
- []
+LaTeX Warning: Citation `fuab2007' on page 1 undefined on input line 61.
 
 
-LaTeX Warning: Citation `daab2001' on page 1 undefined on input line 76.
+LaTeX Warning: Citation `shki2006' on page 1 undefined on input line 61.
 
 
-LaTeX Warning: Citation `geki2002' on page 1 undefined on input line 76.
+LaTeX Warning: Citation `bu2006' on page 1 undefined on input line 62.
+
+
+LaTeX Warning: Citation `haah2015' on page 1 undefined on input line 62.
+
+
+LaTeX Warning: Citation `bu2006' on page 1 undefined on input line 63.
+
+
+LaTeX Warning: Citation `sp2010' on page 1 undefined on input line 64.
 
 [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \vbox (badness 3068) has occurred while \output is active []
+Underfull \hbox (badness 1648) in paragraph at lines 78--78
+[][]\OT1/cmr/bx/n/14.4 Optoelectronic synapses, den-
+ []
 
 
-
-LaTeX Warning: Citation `mave2013' on page 2 undefined on input line 80.
-
-
-LaTeX Warning: Citation `ka1999' on page 2 undefined on input line 80.
+LaTeX Warning: Citation `daab2001' on page 2 undefined on input line 79.
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 80--81
+LaTeX Warning: Citation `geki2002' on page 2 undefined on input line 79.
+
+
+LaTeX Warning: Citation `mave2013' on page 2 undefined on input line 83.
+
+
+LaTeX Warning: Citation `ka1999' on page 2 undefined on input line 83.
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 83--84
 []\OT1/cmr/m/n/10 To reach this en-ergy ef-fi-ciency limit while set-ting
  []
 
 
-Underfull \hbox (badness 3291) in paragraph at lines 80--81
+Underfull \hbox (badness 3291) in paragraph at lines 83--84
 \OT1/cmr/m/n/10 the synap-tic weight in the elec-tronic do-main, we
  []
 
 [2] [3]
 
-LaTeX Warning: Citation `dukr1999' on page 4 undefined on input line 93.
+LaTeX Warning: Citation `dukr1999' on page 4 undefined on input line 96.
 
 
-LaTeX Warning: Citation `prsh2017' on page 4 undefined on input line 93.
+LaTeX Warning: Citation `prsh2017' on page 4 undefined on input line 96.
 
 
-LaTeX Warning: Citation `sh2018d' on page 4 undefined on input line 95.
+LaTeX Warning: Citation `sh2018d' on page 4 undefined on input line 98.
 
 
-LaTeX Warning: Citation `mcve2018' on page 4 undefined on input line 95.
+LaTeX Warning: Citation `mcve2018' on page 4 undefined on input line 98.
 
 
-LaTeX Warning: Citation `stsp2015' on page 4 undefined on input line 97.
+LaTeX Warning: Citation `stsp2015' on page 4 undefined on input line 100.
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
 [][]\OT1/cmr/bx/n/14.4 Communication with guided
  []
 
 
-LaTeX Warning: Citation `hepa2012' on page 5 undefined on input line 117.
+LaTeX Warning: Citation `hepa2012' on page 5 undefined on input line 120.
 
 [5]
 
-LaTeX Warning: Citation `ke1982' on page 6 undefined on input line 131.
+LaTeX Warning: Citation `ke1982' on page 6 undefined on input line 134.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 140.
+               Default added (so using `tbp') on input line 143.
 
 <neuronsOnWafer.pdf, id=28, 794.97pt x 614.295pt>
 File: neuronsOnWafer.pdf Graphic file (type pdf)
  <use neuronsOnWafer.pdf>
-Package pdftex.def Info: neuronsOnWafer.pdf used on input line 141.
+Package pdftex.def Info: neuronsOnWafer.pdf used on input line 144.
 (pdftex.def)             Requested size: 398.33858pt x 307.81224pt.
 
 
-LaTeX Warning: Citation `kuwa2017' on page 6 undefined on input line 144.
+LaTeX Warning: Citation `kuwa2017' on page 6 undefined on input line 147.
 
 
-LaTeX Warning: Reference `kuwa2017' on page 6 undefined on input line 144.
+LaTeX Warning: Reference `kuwa2017' on page 6 undefined on input line 147.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 146.
+               Default added (so using `tbp') on input line 149.
 
 <communicationScales.pdf, id=29, 794.97pt x 614.295pt>
 File: communicationScales.pdf Graphic file (type pdf)
 
 <use communicationScales.pdf>
-Package pdftex.def Info: communicationScales.pdf used on input line 147.
+Package pdftex.def Info: communicationScales.pdf used on input line 150.
 (pdftex.def)             Requested size: 398.33858pt x 307.81224pt.
 
 
-LaTeX Warning: Citation `mave2013' on page 6 undefined on input line 150.
+LaTeX Warning: Citation `mave2013' on page 6 undefined on input line 153.
 
 
-LaTeX Warning: Citation `brsc1998' on page 6 undefined on input line 150.
+LaTeX Warning: Citation `brsc1998' on page 6 undefined on input line 153.
 
 
-LaTeX Warning: Citation `mo1997' on page 6 undefined on input line 150.
+LaTeX Warning: Citation `mo1997' on page 6 undefined on input line 153.
 
 [6] [7 <./neuronsOnWafer.pdf, page is rotated 90 degrees> <./communicationScale
 s.pdf, page is rotated 90 degrees>]
 
-LaTeX Warning: Citation `peth2009' on page 8 undefined on input line 159.
+LaTeX Warning: Citation `peth2009' on page 8 undefined on input line 162.
 
 [8]
 
-LaTeX Warning: Citation `buch2017' on page 9 undefined on input line 161.
+LaTeX Warning: Citation `buch2017' on page 9 undefined on input line 164.
 
 [9]
-Underfull \hbox (badness 6842) in paragraph at lines 216--217
+Underfull \hbox (badness 6842) in paragraph at lines 219--220
 []\OT1/cmr/m/n/10 constituents of brain mat-ter vs ar-ti-fi-cial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
 \OT1/cmr/m/n/10 (glial cells/silicon ma-trix, den-dritic ar-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
 \OT1/cmr/m/n/10 bor/superconducting cir-cuitry, ax-onal ar-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
 \OT1/cmr/m/n/10 bor/waveguide in-ter-con-nects, spik-ing neu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
 \OT1/cmr/m/n/10 rons/pulsing light sources, neu-ro-mod-u-la-
  []
 
 [10]
-Underfull \hbox (badness 4048) in paragraph at lines 228--229
+Underfull \hbox (badness 4048) in paragraph at lines 231--232
 []\OT1/cmr/m/n/10 improved fiber-to-chip cou-pling and multi-
  []
 
 
-Underfull \hbox (badness 2753) in paragraph at lines 232--233
+Underfull \hbox (badness 2753) in paragraph at lines 235--236
 []\OT1/cmr/m/n/10 AGI re-quires sig-nif-i-cant hard-ware im-prove-
  []
 
-(./light_in_neural_systems.bbl) [11
-
-] (./light_in_neural_systems.aux)
+(./light_in_neural_systems.bbl) [11] (./light_in_neural_systems.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4170 strings out of 493014
- 63179 string characters out of 6133351
- 132654 words of memory out of 5000000
- 7678 multiletter control sequences out of 15000+600000
+ 4176 strings out of 493014
+ 63243 string characters out of 6133351
+ 133654 words of memory out of 5000000
+ 7684 multiletter control sequences out of 15000+600000
  6246 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,6n,39p,2462b,285s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -542,7 +552,7 @@ al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
 xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on light_in_neural_systems.pdf (11 pages, 524687 bytes).
+Output written on light_in_neural_systems.pdf (11 pages, 524293 bytes).
 PDF statistics:
  119 PDF objects out of 1000 (max. 8388607)
  85 compressed objects within 1 object stream
