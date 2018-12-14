@@ -20,14 +20,14 @@
 \begin{document}
 	
 	%-------------------- begin header -------------------%
-	\centerline{\LARGE Light in neural systems}
+	\centerline{\LARGE Optoelectronic Intelligence}%Light in neural systems%Intelligent optoelectronic systems
 	\vspace{0.75em}
 	\centerline{\Large Jeffrey M. Shainline}
-	\vspace{0.75em}
-	\centerline{\large National Institute of Standards and Technology}
-	\vspace{0.25em}
-	\centerline{\large Boulder, CO, 80305}
-	\vspace{0.65em}
+	%\vspace{0.75em}
+	%\centerline{\large National Institute of Standards and Technology}
+	\vspace{0.5em}
+	\centerline{\large NIST, Boulder, CO, 80305}
+	\vspace{0.5em}
 	\centerline{\large \today}
 	%-------------------- end header ---------------------%
 
@@ -50,15 +50,18 @@ In parallel with the hardware considerations affecting optoelectronic integratio
 
 The major drivers for brain-inspired computers fall on a spectrum: energy and algorithmic efficiency for deployable applications (Internet of things, self-driving cars, mobile devices) reside on one side of the spectrum, and artificial general intelligence (AGI) resides on the other. Knowledge gained from neuroscience informs us that systems with general intelligence will benefit from very large numbers of computational elements as well as extreme communication between them. It is our perspective that hardware incorporating light for communication between electronic computational elements combined with an architecture of distributed optoelectronic spiking neurons will provide tremendous potential for AGI. Considerations pertinent to the realization of such a technology are the subject of this article.
 
-\section{\label{sec:neuroAndVLSI}Guided by neuroscience and VLSI}
+\section{\label{sec:neuroFractalsAndVLSI}Neuroscience, fractal geometry, and very-large-scale integration}
 To guide the design of hardware for AGI, we must simultaneously consider the principles of neural information and principles of fabrication for very-large-scale integration. Regarding the principles of neural information, we know that computation in the brain makes efficient use of space and time by leveraging fractal scaling. [recap of general principles]
+
+
+A combination of excitatory and inhibitory neurons with complex plasticity mechanisms and dendritic processing all a given structural network to implement a wide variety of dynamical functions. 
 
 Based on these considerations, we expect a hardware platform capable of AGI to display at least six traits:
 \begin{enumerate}
-\item Plasticity mechanisms (excitation, inhibition, stdp, meta, homeostatic)
-\item Dendritic nonlinearities (sequence detection and integration)
-\item Spiking neuronal dynamics
-\item Massive connectivity to enable short path lengths across big networks
+\item Plasticity mechanisms (excitation, inhibition, stdp, meta, homeostatic) that allow rapid incorporation of new information as well as long-term memory retention \cite{fudr2005,fuab2007} while adapting to maximize dynamic range in response to stimulus \cite{shki2006}.
+\item Dendritic nonlinearities (sequence detection and integration) that work in conjunction with inhibition to enable attention to be directed to certain stimuli \cite{bu2006} as well as sequence detection \cite{haah2015} and temporal coding \cite{}. 
+\item Spiking neuronal dynamics based on relaxation oscillators, as this form of computation and communication appears uniquely suited for information integration across space and time \cite{bu2006}.
+\item Massive connectivity to enable short path lengths across big networks \cite{sp2010}.
 \item The ability to efficiently use space from the scale of a single synapse up to systems limited by light-speed communication, and the ability to efficiently use time with network oscillations across a wide range of frequencies
 \item Energy consumption and power density low enough to enable scaling to systems of this size
 \end{enumerate}
@@ -158,7 +161,7 @@ The analogies with biological neural systems has been emphasized: densely connec
 
 This modular architecture appears to be inevitable for any computational entity occurring in nature, and it has consequences for how information is processed. The neuroscience community from Mountcastle to the present as well as the VLSI community across similar decades have grappled with the ramifications. Information processing must be simultaneously locally specialized (populations of neurons code for specific stimuli) and globally integrated (network-wide activity affects individual neural behavior). It is the simultaneous local processing of neuronal clusters combined with the global communication amongst neuronal populations that manifests as neuronal avalanches with power-law size distribution. Neuronal avalanches and fractal scaling indicate that increases in network capacity are possible without fundamental reorganization of the system \cite{peth2009}. This form of self-similar information processing has no size limits, in principle. Ultimate limitations will be practical, and related to the inability to maintain continuous Rentian scaling across space and time. The most intelligent system will be the one that can integrate information most effectively across many scales of Rentian hierarchy. It is in this regard that optical communication has the most to offer. On a wafer, photonic fan-out across dielectric waveguides enables neurons to make thousands of direct connections without the limits of a shared switching network. Free-space and wafer-edge couplers enable significant inter-wafer communication conducive to columnar information processing. Such columns can communicate to one another locally and globally over fiber optic links.
 
-With this configuration in mind, we can assess the feasibility of constructing systems on the scale of the human cortex, with 10 billion neurons, each with thousands of synaptic connections. If a wafer holds a million neurons, such an assembly requires 10,000 wafers and would easily fit in a volume a few meters on a side. Several aspects of this technology make the challenge likely to succeed. First and foremost, due to photonic signaing, it remains possible to achieve efficient communication across the network for systems with orders of magnitude more than 10,000 wafers. Information integration with photonic communication is physically possible. It is also practically possible, because all the proposed circuits (for loop neurons or otherwise) can be fabricated at the wafer scale with existing infrastructure (300 mm silicon-on-insulator substrates, 193 nm immersion lithography, equivalent of 45-nm CMOS node). A 45-nm CMOS foundry processes 10,000 wafers per day. If such a foundry were dedicated to fabrication of optoelectronic intelligence, it may be able to produce multiple brain-scale systems per year. Assembly of the wafers into a functional system would be difficult, but probably not much more difficult than the construction of a contemporary supercomputer, and likely much easier than a particle collider. The requirement for liquid-helium cooling does not appear to us to be a major impediment to implementation. From our perspective, the greatest unknown is the light source. If the silicon light sources that have already been demonstrated in cryogenic optical links \cite{buch2017} can be produced with internal quantum efficiency ($\eta_{\mathrm{qe}}$) of $10^{-3}$, we anticipate this project will be economically viable. At present, $\eta_{\mathrm{qe}} = 5\times10^{-7}$ has been demonstrated in the first attempt with no optimization. These light sources need not achieve high performance. We only require they achieve incoherent pulses of 10,000 photons ($\approx 1$\,fJ) at 20\,MHz. If no silicon light source operating at 4\,K can meet these criteria, and integration of III-V light sources on silicon wafers is required, the cost and complexity of a project at this scale may become prohibitive.
+With this configuration in mind, we can assess the feasibility of constructing systems on the scale of the human cortex, with 10 billion neurons, each with thousands of synaptic connections. If a wafer holds a million neurons, such an assembly requires 10,000 wafers and would easily fit in a volume a few meters on a side\textemdash the size of a few server racks. Several aspects of this technology make the challenge likely to succeed. First and foremost, due to photonic signaing, it remains possible to achieve efficient communication across the network for systems with orders of magnitude more than 10,000 wafers. Information integration with photonic communication is physically possible. It is also practically possible, because all the proposed circuits (for loop neurons or otherwise) can be fabricated at the wafer scale with existing infrastructure (300 mm silicon-on-insulator substrates, 193 nm immersion lithography, equivalent of 45-nm CMOS node). A 45-nm CMOS foundry processes 10,000 wafers per day. If such a foundry were dedicated to fabrication of optoelectronic intelligence, it may be able to produce multiple brain-scale systems per year. Assembly of the wafers into a functional system would be difficult, but probably not much more difficult than the construction of a contemporary supercomputer, and likely much easier than a particle collider. The requirement for liquid-helium cooling does not appear to us to be a major impediment to implementation. From our perspective, the greatest unknown is the light source. If the silicon light sources that have already been demonstrated in cryogenic optical links \cite{buch2017} can be produced with internal quantum efficiency ($\eta_{\mathrm{qe}}$) of $10^{-3}$, we anticipate this project will be economically viable. At present, $\eta_{\mathrm{qe}} = 5\times10^{-7}$ has been demonstrated in the first attempt with no optimization. These light sources need not achieve high performance. We only require they achieve incoherent pulses of 10,000 photons ($\approx 1$\,fJ) at 20\,MHz. If no silicon light source operating at 4\,K can meet these criteria, and integration of III-V light sources on silicon wafers is required, the cost and complexity of a project at this scale may become prohibitive.
 
 To summarize, we are asking the community to believe in a project that depends critically on wafer-scale integration, operation at 4\,K, and silicon light sources. This is a lot to ask, but society has much to gain. Achieving truly intelligent artificial systems was never going to be easy. From our perspective, integrated optoelectronic hardware makes it possible. 
 
