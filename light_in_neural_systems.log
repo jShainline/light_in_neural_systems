@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  17 DEC 2018 19:17
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  18 DEC 2018 11:35
 entering extended mode
 **light_in_neural_systems.tex
 
@@ -331,108 +331,90 @@ Package caption Info: End \AtBeginDocument code.
 LaTeX Warning: Citation `suwa2015' on page 1 undefined on input line 47.
 
 
-Underfull \vbox (badness 4805) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 LaTeX Warning: Citation `plth2007' on page 1 undefined on input line 58.
 
 
-LaTeX Warning: Citation `abre2004' on page 1 undefined on input line 62.
+LaTeX Warning: Citation `abre2004' on page 1 undefined on input line 64.
 
 
-LaTeX Warning: Citation `somi2000' on page 1 undefined on input line 62.
+LaTeX Warning: Citation `somi2000' on page 1 undefined on input line 64.
 
 
-LaTeX Warning: Citation `ab2008' on page 1 undefined on input line 62.
+LaTeX Warning: Citation `ab2008' on page 1 undefined on input line 64.
 
 
-LaTeX Warning: Citation `vagu2005' on page 1 undefined on input line 62.
+LaTeX Warning: Citation `vagu2005' on page 1 undefined on input line 64.
 
 
-LaTeX Warning: Citation `haah2015' on page 1 undefined on input line 62.
+LaTeX Warning: Citation `haah2015' on page 1 undefined on input line 64.
 
 
-LaTeX Warning: Citation `bu2006' on page 1 undefined on input line 62.
+LaTeX Warning: Citation `bu2006' on page 1 undefined on input line 64.
 
 [1
 
 {C:/Users/jms4/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 1648) in paragraph at lines 70--70
+Underfull \hbox (badness 1648) in paragraph at lines 74--74
 [][]\OT1/cmr/bx/n/14.4 Optoelectronic synapses, den-
  []
 
 
-LaTeX Warning: Citation `shbu2017b' on page 2 undefined on input line 73.
+LaTeX Warning: Citation `shbu2017b' on page 2 undefined on input line 77.
 
 
-LaTeX Warning: Citation `da1989' on page 2 undefined on input line 73.
+LaTeX Warning: Citation `da1989' on page 2 undefined on input line 79.
 
 
-LaTeX Warning: Citation `shxu2007' on page 2 undefined on input line 73.
+LaTeX Warning: Citation `shxu2007' on page 2 undefined on input line 79.
 
 
-LaTeX Warning: Citation `buch2017' on page 2 undefined on input line 73.
+LaTeX Warning: Citation `buch2017' on page 2 undefined on input line 79.
 
 
-LaTeX Warning: Citation `buch2017' on page 2 undefined on input line 75.
+LaTeX Warning: Citation `buch2017' on page 2 undefined on input line 81.
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
 [][]\OT1/cmr/bx/n/14.4 Communication with guided
  []
 
 
-LaTeX Warning: Citation `hepa2012' on page 3 undefined on input line 121.
+LaTeX Warning: Citation `hepa2012' on page 3 undefined on input line 127.
+
+
+LaTeX Warning: Citation `ke1982' on page 3 undefined on input line 143.
 
 [3]
 
-LaTeX Warning: Citation `ke1982' on page 4 undefined on input line 135.
+LaTeX Warning: Reference `fig:neuronsOnWafer' on page 4 undefined on input line
+ 156.
 
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 144.
-
-<neuronsOnWafer.pdf, id=22, 794.97pt x 614.295pt>
-File: neuronsOnWafer.pdf Graphic file (type pdf)
- <use neuronsOnWafer.pdf>
-Package pdftex.def Info: neuronsOnWafer.pdf used on input line 145.
-(pdftex.def)             Requested size: 398.33858pt x 307.81224pt.
+LaTeX Warning: Citation `kuwa2017' on page 4 undefined on input line 156.
 
 
-LaTeX Warning: Citation `kuwa2017' on page 4 undefined on input line 148.
+LaTeX Warning: Reference `kuwa2017' on page 4 undefined on input line 156.
 
 
-LaTeX Warning: Reference `kuwa2017' on page 4 undefined on input line 148.
+LaTeX Warning: Reference `fig:neuronsOnWafer' on page 4 undefined on input line
+ 156.
 
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 150.
-
-<communicationScales.pdf, id=23, 794.97pt x 614.295pt>
-File: communicationScales.pdf Graphic file (type pdf)
-
-<use communicationScales.pdf>
-Package pdftex.def Info: communicationScales.pdf used on input line 151.
-(pdftex.def)             Requested size: 398.33858pt x 307.81224pt.
+LaTeX Warning: Citation `mave2013' on page 4 undefined on input line 162.
 
 
-LaTeX Warning: Citation `mave2013' on page 4 undefined on input line 154.
+LaTeX Warning: Citation `bu2006' on page 4 undefined on input line 162.
 
 
-LaTeX Warning: Citation `bu2006' on page 4 undefined on input line 154.
+LaTeX Warning: Citation `buch2017' on page 4 undefined on input line 175.
 
-[4] [5 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/neuronsOnWafer.p
-df, page is rotated 90 degrees> <C:/Users/jms4/Documents/GitHub/light_in_neural
-_systems/communicationScales.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Citation `buch2017' on page 6 undefined on input line 165.
-
-[6]
+[4]
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\light_in_neural_systems
-.bbl) [7
-
-]
+.bbl) [5]
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\light_in_neural_systems
 .aux)
 
@@ -440,13 +422,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3822 strings out of 493921
- 56906 string characters out of 3147285
- 123762 words of memory out of 3000000
- 7108 multiletter control sequences out of 15000+200000
+ 3806 strings out of 493921
+ 56587 string characters out of 3147285
+ 122754 words of memory out of 3000000
+ 7094 multiletter control sequences out of 15000+200000
  5939 words of font info for 22 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,6n,39p,2610b,285s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,5n,38p,2210b,123s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\jms4\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\t
 crm1000.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/P
@@ -458,9 +440,9 @@ onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on light_in_neural_systems.pdf (7 pages, 505296 bytes).
+Output written on light_in_neural_systems.pdf (5 pages, 153449 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
+ 67 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
