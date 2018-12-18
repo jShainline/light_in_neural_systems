@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  18 DEC 2018 14:43
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  18 DEC 2018 15:07
 entering extended mode
 **light_in_neural_systems.tex
 
@@ -330,11 +330,12 @@ Package caption Info: End \AtBeginDocument code.
 
 LaTeX Warning: Citation `suwa2015' on page 1 undefined on input line 39.
 
-<complexity_across_scales.pdf, id=1, 511.66156pt x 270.00874pt>
-File: complexity_across_scales.pdf Graphic file (type pdf)
+<complexity_across_scales_small.pdf, id=1, 511.66156pt x 270.00874pt>
+File: complexity_across_scales_small.pdf Graphic file (type pdf)
 
-<use complexity_across_scales.pdf>
-Package pdftex.def Info: complexity_across_scales.pdf used on input line 47.
+<use complexity_across_scales_small.pdf>
+Package pdftex.def Info: complexity_across_scales_small.pdf used on input line 
+47.
 (pdftex.def)             Requested size: 489.38731pt x 258.25371pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -369,7 +370,7 @@ Underfull \hbox (badness 1648) in paragraph at lines 62--62
  []
 
 [2 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/complexity_across_sc
-ales.pdf>]
+ales_small.pdf>]
 
 LaTeX Warning: Citation `shbu2017b' on page 3 undefined on input line 65.
 
@@ -400,7 +401,7 @@ Underfull \vbox (badness 3068) has occurred while \output is active []
 
 LaTeX Warning: Citation `ke1982' on page 4 undefined on input line 80.
 
-<data_plots.pdf, id=886, 244.69318pt x 438.3025pt>
+<data_plots.pdf, id=37, 244.69318pt x 438.3025pt>
 File: data_plots.pdf Graphic file (type pdf)
  <use data_plots.pdf>
 Package pdftex.def Info: data_plots.pdf used on input line 86.
@@ -446,7 +447,7 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
  ) 
 Here is how much of TeX's memory you used:
  3823 strings out of 493921
- 56939 string characters out of 3147285
+ 56969 string characters out of 3147285
  121762 words of memory out of 3000000
  7109 multiletter control sequences out of 15000+200000
  5939 words of font info for 22 fonts, out of 3000000 for 9000
@@ -466,9 +467,9 @@ pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/lm/lmss10.pfb>
-Output written on light_in_neural_systems.pdf (6 pages, 25709448 bytes).
+Output written on light_in_neural_systems.pdf (6 pages, 16065437 bytes).
 PDF statistics:
- 1047 PDF objects out of 1200 (max. 8388607)
+ 198 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
