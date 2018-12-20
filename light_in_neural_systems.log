@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  19 DEC 2018 15:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  19 DEC 2018 20:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -425,7 +425,11 @@ LaTeX Warning: Reference `fig:communicationScales' on page 5 undefined on input
 LaTeX Warning: Reference `fig:communicationScales' on page 5 undefined on input
  line 95.
 
-[5] [6] (./light_in_neural_systems.bbl
+[5]
+
+LaTeX Warning: Citation `stro2005' on page 6 undefined on input line 101.
+
+[6] (./light_in_neural_systems.bbl
 Underfull \hbox (badness 1803) in paragraph at lines 27--32
 \OT1/cmr/m/n/10 K. Sil-ver-man, M. Stevens, R. Mirin, S. Nam,
  []
@@ -435,21 +439,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--86
 []\OT1/cmr/m/n/10 J. Shain-line, S. Buck-ley, A. Mc-Caughan,
  []
 
-
+[7]
 Underfull \hbox (badness 4193) in paragraph at lines 117--120
 []\OT1/cmr/m/n/10 J. Shain-line, A. Mc-Caughan, A. Jafari-Salim,
  []
 
-) [7] (./light_in_neural_systems.aux)
+) [8
+
+] (./light_in_neural_systems.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4180 strings out of 493014
- 63237 string characters out of 6133351
+ 4181 strings out of 493014
+ 63247 string characters out of 6133351
  133715 words of memory out of 5000000
- 7687 multiletter control sequences out of 15000+600000
+ 7688 multiletter control sequences out of 15000+600000
  6285 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,6n,39p,2513b,287s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -469,10 +475,10 @@ ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive
 /2016/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2016/texm
 f-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on light_in_neural_systems.pdf (7 pages, 16064117 bytes).
+Output written on light_in_neural_systems.pdf (8 pages, 16065615 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
- 138 compressed objects within 2 object streams
+ 211 PDF objects out of 1000 (max. 8388607)
+ 140 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
