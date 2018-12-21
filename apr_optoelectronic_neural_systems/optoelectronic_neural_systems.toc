@@ -1,16 +1,6 @@
 \contentsline {section}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {2}Historical context}{1}
-\contentsline {section}{\numberline {3}Microelectronic neural systems}{1}
-\contentsline {section}{\numberline {4}Optoelectronic neurons}{1}
-\contentsline {section}{\numberline {5}Structure and function across space and time}{1}
-\contentsline {section}{\numberline {6}Optoelectronic synapses, dendrites, and neurons}{3}
-\contentsline {section}{\numberline {7}Communication with guided light}{3}
-\contentsline {section}{\numberline {8}Discussion}{6}
-\contentsline {section}{\numberline {9}Introduction}{6}
-\contentsline {section}{\numberline {10}Neuroscience, fractal geometry, and very-large-scale integration}{7}
-\contentsline {section}{\numberline {11}Optoelectronic synapses, dendrites, and neurons}{8}
-\contentsline {section}{\numberline {12}Communication with guided light}{11}
-\contentsline {subsection}{\numberline {12.1}Electrical interconnection networks}{11}
-\contentsline {subsection}{\numberline {12.2}Photonic interconnection networks}{12}
-\contentsline {subsection}{\numberline {12.3}Scaling to large systems}{13}
-\contentsline {section}{\numberline {13}Discussion}{14}
+\contentsline {section}{\numberline {3}Information processing in neural systems}{1}
+\contentsline {section}{\numberline {4}Microelectronic neural systems}{1}
+\contentsline {section}{\numberline {5}Optoelectronic synapses, dendrites, and neurons}{1}
+\contentsline {section}{\numberline {6}Achieving large-scale optoelectronic systems}{1}

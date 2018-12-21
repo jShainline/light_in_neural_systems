@@ -1,144 +1,19 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{1}
 
-\bibitem{abre2004}
-L.~Abbott and W.~Regehr.
-\newblock Synaptic computation.
-\newblock {\em Nature Reviews}, 431:796, 2004.
+\bibitem{sh1948}
+C.~Shannon.
+\newblock A mathematical theory of communication.
+\newblock {\em The Bell System Technical Journal}, 27:379, 1948.
 
-\bibitem{absa2018}
-M.~Aboy, I.~Santos, P.~Lopez, L.~Marques, and L.~Pelaz.
-\newblock W and x photoluminescence centers in crystalline si: chasing
-  candidates at atomic level through multiscale simulations.
-\newblock {\em J. Electronic Materials}, 47:5045, 2018.
+\bibitem{tu1936}
+A.~Turing.
+\newblock On computable numbers, with an application to the
+  entscheidungsproblem.
+\newblock {\em J. of Math}, 58:230, 1936.
 
-\bibitem{ab2008}
-W.~Abraham.
-\newblock Metaplasticity: tuning synapses and networks for plasticity.
-\newblock {\em Nature Neuroscience}, 9:387, 2008.
-
-\bibitem{bagr2010}
-D.~Bassett, D.~Greenfield, A.~Meyer-Lindenberg, D.~Weinberger, S.~Moore, and
-  E.~Bullmore.
-\newblock Efficient physical embedding of topologically complex information
-  processing networks in brains and computer circuits.
-\newblock {\em PLoS Computational Biology}, 6:1, 2010.
-
-\bibitem{buch2017}
-S.~Buckley, J.~Chiles, A.~McCaughan, G.~Moody, K.~Silverman, M.~Stevens,
-  R.~Mirin, S.~Nam, and J.~Shainline.
-\newblock All-silicon light-emitting diodes waveguide-integrated with
-  superconducting single-photon detectors.
-\newblock {\em Appl. Phys. Lett.}, 111:141101, 2017.
-
-\bibitem{bu2006}
-G.~Buzsaki.
-\newblock {\em Rhythms of the brain}.
-\newblock Oxford University Press, 2006.
-
-\bibitem{budr2004}
-G.~Buzsaki and A.~Draguhn.
-\newblock Neuronal oscillations in cortical networks.
-\newblock {\em Science}, 304:1926, 2004.
-
-\bibitem{da1989}
-G.~Davies.
-\newblock The optical properties of luminescence centres in silicon.
-\newblock {\em Physics Reports}, 176:83--188, 1989.
-
-\bibitem{dali1987}
-G.~Davies, E.~Lightowlers, and Z.~Ciechanowaska.
-\newblock The 1018 mev (w of i1) vibronic band in silicon.
-\newblock {\em J. Phys. C}, 20:191, 1987.
-
-\bibitem{eskn2015}
-E.~Estrada and P.~Knight.
-\newblock {\em A First Course in Network Theory}.
-\newblock Oxford, Oxford, United Kingdom, first edition, 2015.
-
-\bibitem{haah2015}
-J.~Hawkins and S.~Ahmad.
-\newblock Why neurons have thousands of synapses, a theory of sequence memory
-  in neocortex.
-\newblock {\em Frontiers in Neural Circuits}, 10:23, 2016.
-
-\bibitem{hepa2012}
-J.~Hennessy and D.~Patterson.
-\newblock {\em Computer Architecture}.
-\newblock Elsevier.
-\newblock Appendix F.
-
-\bibitem{ke1982}
-R.~Keyes.
-\newblock The wire-limited logic chip.
-\newblock {\em IEEE J. Sol.-Sta. Circuits}, SC-17:1232, 1982.
-
-\bibitem{mave2013}
-F.~Marsili, V.~Verma, J.~Stern, S.~Harrington, A.~Lita, T.~Gerrits,
-  I.~Vayshnker, B.~Baek, M.~Shaw, R.~Mirin, and S.~Nam.
-\newblock Detecting single infrared photons with 93\% system efficiency.
-\newblock {\em Nat. Photon.}, 7:210, 2013.
-
-\bibitem{sh2018b}
-J.~Shainline, S.~Buckley, A.~McCaughan, M.~Castellanos-Beltran, C.~Donnelly,
-  M.~Schneider, R.~Mirin, and S.~Nam.
-\newblock Superconducting optoelectronic neurons {II}: Receiver circuits.
-\newblock {\em arXiv}, page 1805.02599, 2018.
-
-\bibitem{sh2018}
-J.~Shainline, S.~Buckley, A.~McCaughan, J.~Chiles, A.~Jafari-Salim, R.~Mirin,
-  and S.~Nam.
-\newblock Circuit designs for superconducting optoelectronic loop neurons.
-\newblock {\em J. Appl. Phys.}, page 152130, 2018.
-
-\bibitem{sh2018a}
-J.~Shainline, S.~Buckley, A.~McCaughan, J.~Chiles, R.~Mirin, and S.~Nam.
-\newblock Superconducting optoelectronic neurons {I}: General principles.
-\newblock {\em arXiv}, page 1805.01929, 2018.
-
-\bibitem{shbu2017b}
-J.~Shainline, S.~Buckley, N.~Nader, C.~Gentry, K.~Cossel, J.~Cleary,
-  M.~Popovi\'{c}, N.~Newbury, S.~Nam, and R.~Mirin.
-\newblock Room-temperature-deposited dielectrics and superconductors for
-  integrated photonics.
-\newblock {\em Opt. Express}, page 10322, 2017.
-
-\bibitem{sh2018e}
-J.~Shainline, J.~Chiles, S.~Buckley, A.~McCaughan, R.~Mirin, and S.~Nam.
-\newblock Superconducting optoelectronic neurons {V}: Networks and scaling.
-\newblock {\em arXiv}, page 1805.01942, 2018.
-
-\bibitem{sh2018c}
-J.~Shainline, A.~McCaughan, S.~Buckley, C.~Donnelly, M.~Castellanos-Beltran,
-  M.~Schneider, R.~Mirin, and S.~Nam.
-\newblock Superconducting optoelectronic neurons {III}: Synaptic plasticity.
-\newblock {\em arXiv}, page 1805.01937, 2018.
-
-\bibitem{sh2018d}
-J.~Shainline, A.~McCaughan, A.~Jafari-Salim, S.~Buckley, R.~Mirin, and S.~Nam.
-\newblock Superconducting optoelectronic neurons {IV}: Transmitter circuits.
-\newblock {\em arXiv}, page 1805.01941, 2018.
-
-\bibitem{shxu2007}
-J.~Shainline and J.~Xu.
-\newblock Silicon as an emissive optical medium.
-\newblock {\em Laser and Photonics Reviews}, 1:334, 2007.
-
-\bibitem{sp2010}
-O.~Sporns.
-\newblock {\em Networks of the Brain}.
-\newblock The MIT Press, Cambridge, Massachusetts, first edition, 2010.
-
-\bibitem{suwa2015}
-C.~Sun, M.~Wade, Y.~Lee, J.~Orcutt, L.~Alloatti, M.~Georgas, A.~Waterman,
-  J.~Shainline, R.~Avizienis, S.~Lin, B.~Moss, R.~Kumar, F.~Pavanello,
-  A.~Atabaki, H.~Cook, A.~Ou, J.~Leu, Y.-H. Chen, K.~Asanovi{\' c}, R.~Ram,
-  M.~Popovi{\' c}, and V.~Stojanovi{\' c}.
-\newblock Single-chip microprocessor that communicates directly using light.
-\newblock {\em Nature}, 528:534, 2015.
-
-\bibitem{wast1998}
-D.~Watts and S.~Strogatz.
-\newblock Collective dynamics of small-world networks.
-\newblock {\em Nature}, 393:440, 1998.
+\bibitem{ne1945}
+J.~von Neumann.
+\newblock A first draft of a report on the edvac.
+\newblock 1945.
 
 \end{thebibliography}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  20 DEC 2018 17:51
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  20 DEC 2018 18:33
 entering extended mode
 **optoelectronic_neural_systems.tex
 
@@ -256,32 +256,7 @@ Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 )
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr_optoelectronic_neur
-al_systems\optoelectronic_neural_systems.aux
-
-LaTeX Warning: Label `sec:introduction' multiply defined.
-
-
-LaTeX Warning: Label `sec:introduction' multiply defined.
-
-
-LaTeX Warning: Label `sec:introduction' multiply defined.
-
-
-LaTeX Warning: Label `sec:introduction' multiply defined.
-
-
-LaTeX Warning: Label `sec:synapsesDendritesAndNeurons' multiply defined.
-
-
-LaTeX Warning: Label `sec:communication' multiply defined.
-
-
-LaTeX Warning: Label `eq:numNeuronPerWafer' multiply defined.
-
-
-LaTeX Warning: Label `sec:discussion' multiply defined.
-
-)
+al_systems\optoelectronic_neural_systems.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
@@ -296,7 +271,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 20.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 20.
@@ -354,262 +330,58 @@ Package caption Info: End \AtBeginDocument code.
 )
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr_optoelectronic_neur
 al_systems\optoelectronic_neural_systems.toc
-Underfull \hbox (badness 2762) in paragraph at lines 6--6
+Underfull \hbox (badness 2762) in paragraph at lines 5--5
  [] []\OT1/cmr/bx/n/10 Optoelectronic synapses, den-drites, and 
  []
 
 
-Underfull \hbox (badness 2762) in paragraph at lines 11--11
- [] []\OT1/cmr/bx/n/10 Optoelectronic synapses, den-drites, and 
+Underfull \hbox (badness 2626) in paragraph at lines 6--6
+ [] []\OT1/cmr/bx/n/10 Achieving large-scale op-to-elec-tronic sys- 
  []
 
 )
 \tf@toc=\write3
 
-
-LaTeX Warning: Reference `fig:complexityAcrossScales' on page 1 undefined on in
-put line 56.
-
-[1
-
-{C:/Users/jms4/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-
-LaTeX Warning: Reference `fig:data' on page 2 undefined on input line 58.
+Underfull \hbox (badness 2689) in paragraph at lines 59--60
+[]\OT1/cmr/m/n/10 Turing: in-ter-ests, uni-ver-sal com-pu-ta-tion, com-
+ []
 
 
-LaTeX Warning: Citation `vagu2005' on page 2 undefined on input line 60.
+Underfull \hbox (badness 3364) in paragraph at lines 61--62
+[]\OT1/cmr/m/n/10 Shannon: com-mu-ni-ca-tion, in-for-ma-tion in data
+ []
 
 
-LaTeX Warning: Citation `somi2000' on page 2 undefined on input line 60.
-
-
-LaTeX Warning: Citation `plth2007' on page 2 undefined on input line 64.
-
-[2]
-Underfull \hbox (badness 1648) in paragraph at lines 66--66
+Underfull \hbox (badness 1648) in paragraph at lines 84--84
 [][]\OT1/cmr/bx/n/14.4 Optoelectronic synapses, den-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-[][]\OT1/cmr/bx/n/14.4 Communication with guided
- []
-
-[3]
-
-LaTeX Warning: Reference `fig:data' on page 4 undefined on input line 89.
-
-
-LaTeX Warning: Citation `kuwa2017' on page 4 undefined on input line 89.
-
-
-LaTeX Warning: Reference `kuwa2017' on page 4 undefined on input line 89.
-
-
-LaTeX Warning: Reference `fig:data' on page 4 undefined on input line 89.
-
-
-LaTeX Warning: Reference `fig:communicationScales' on page 4 undefined on input
- line 91.
-
-[4]
-
-LaTeX Warning: Reference `fig:communicationScales' on page 5 undefined on input
- line 93.
-
-
-LaTeX Warning: Reference `fig:data' on page 5 undefined on input line 99.
-
-
-LaTeX Warning: Citation `stro2005' on page 5 undefined on input line 99.
-
-[5]
-
-LaTeX Warning: Citation `stra2018' on page 6 undefined on input line 116.
-
-[6]
-Underfull \hbox (badness 1603) in paragraph at lines 122--122
-[][]\OT1/cmr/bx/n/14.4 Neuroscience, frac-tal ge-om-e-
- []
-
-
-LaTeX Warning: Citation `plth2007' on page 7 undefined on input line 127.
-
-
-LaTeX Warning: Citation `fudr2005' on page 7 undefined on input line 131.
-
-
-LaTeX Warning: Citation `fuab2007' on page 7 undefined on input line 131.
-
-
-LaTeX Warning: Citation `shki2006' on page 7 undefined on input line 131.
-
-[7]
-
-LaTeX Warning: Citation `daab2001' on page 8 undefined on input line 136.
-
-
-LaTeX Warning: Citation `geki2002' on page 8 undefined on input line 136.
-
-
-LaTeX Warning: Citation `ka1999' on page 8 undefined on input line 140.
-
-
-Underfull \hbox (badness 1092) in paragraph at lines 140--141
-[]\OT1/cmr/m/n/10 To reach this en-ergy ef-fi-ciency limit while set-ting
- []
-
-
-Underfull \hbox (badness 3291) in paragraph at lines 140--141
-\OT1/cmr/m/n/10 the synap-tic weight in the elec-tronic do-main, we
- []
-
-[8] [9]
-
-LaTeX Warning: Citation `dukr1999' on page 10 undefined on input line 153.
-
-
-LaTeX Warning: Citation `prsh2017' on page 10 undefined on input line 153.
-
-
-LaTeX Warning: Citation `mcve2018' on page 10 undefined on input line 155.
-
-[10]
-
-LaTeX Warning: Citation `stsp2015' on page 11 undefined on input line 157.
-
-
-Underfull \hbox (badness 3428) in paragraph at lines 176--176
-[][]\OT1/cmr/bx/n/14.4 Communication with guided
- []
-
-[11]
-
-LaTeX Warning: Reference `fig:neuronsOnWafer' on page 12 undefined on input lin
-e 197.
-
-
-LaTeX Warning: Citation `kuwa2017' on page 12 undefined on input line 197.
-
-
-LaTeX Warning: Reference `kuwa2017' on page 12 undefined on input line 197.
-
-
-LaTeX Warning: Reference `fig:neuronsOnWafer' on page 12 undefined on input lin
-e 197.
-
-[12]
-
-LaTeX Warning: Reference `fig:communicationScales' on page 13 undefined on inpu
-t line 199.
-
-
-LaTeX Warning: Citation `brsc1998' on page 13 undefined on input line 199.
-
-
-LaTeX Warning: Citation `mo1997' on page 13 undefined on input line 199.
-
-
-LaTeX Warning: Reference `fig:communicationScales' on page 13 undefined on inpu
-t line 201.
-
-
-LaTeX Warning: Reference `fig:communicationScales' on page 13 undefined on inpu
-t line 206.
-
-[13]
-
-LaTeX Warning: Citation `peth2009' on page 14 undefined on input line 208.
-
-[14]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15]
-Underfull \hbox (badness 6842) in paragraph at lines 265--266
-[]\OT1/cmr/m/n/10 constituents of brain mat-ter vs ar-ti-fi-cial
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
-\OT1/cmr/m/n/10 (glial cells/silicon ma-trix, den-dritic ar-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
-\OT1/cmr/m/n/10 bor/superconducting cir-cuitry, ax-onal ar-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
-\OT1/cmr/m/n/10 bor/waveguide in-ter-con-nects, spik-ing neu-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
-\OT1/cmr/m/n/10 rons/pulsing light sources, neu-ro-mod-u-la-
- []
-
-
-Underfull \hbox (badness 4048) in paragraph at lines 277--278
-[]\OT1/cmr/m/n/10 improved fiber-to-chip cou-pling and multi-
- []
-
-
-Underfull \hbox (badness 2753) in paragraph at lines 281--282
-[]\OT1/cmr/m/n/10 AGI re-quires sig-nif-i-cant hard-ware im-prove-
- []
-
-
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr_optoelectronic_neur
-al_systems\optoelectronic_neural_systems.bbl [16]
-Underfull \hbox (badness 1803) in paragraph at lines 27--32
-\OT1/cmr/m/n/10 K. Sil-ver-man, M. Stevens, R. Mirin, S. Nam,
- []
+al_systems\optoelectronic_neural_systems.bbl) [1
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--86
-[]\OT1/cmr/m/n/10 J. Shain-line, S. Buck-ley, A. Mc-Caughan,
- []
-
-
-Underfull \hbox (badness 4193) in paragraph at lines 117--120
-[]\OT1/cmr/m/n/10 J. Shain-line, A. Mc-Caughan, A. Jafari-Salim,
- []
-
-) [17]
+{C:/Users/jms4/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr_optoelectronic_neur
-al_systems\optoelectronic_neural_systems.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+al_systems\optoelectronic_neural_systems.aux) ) 
 Here is how much of TeX's memory you used:
- 3850 strings out of 493921
- 57721 string characters out of 3147285
- 123927 words of memory out of 3000000
- 7133 multiletter control sequences out of 15000+200000
- 6891 words of font info for 25 fonts, out of 3000000 for 9000
+ 3794 strings out of 493921
+ 57010 string characters out of 3147285
+ 116755 words of memory out of 3000000
+ 7078 multiletter control sequences out of 15000+200000
+ 6130 words of font info for 22 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,6n,38p,2519b,227s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\jms4\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\t
-crm1000.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on optoelectronic_neural_systems.pdf (17 pages, 263090 bytes).
+ 36i,4n,38p,2506b,129s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\jms4\AppData\Local\Mi
+KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on optoelectronic_neural_systems.pdf (1 page, 101567 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
+ 39 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
