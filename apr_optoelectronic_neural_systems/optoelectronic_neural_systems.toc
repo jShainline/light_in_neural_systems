@@ -1,7 +1,0 @@
-\contentsline {section}{\numberline {1}Introduction}{1}
-\contentsline {section}{\numberline {2}Historical context}{1}
-\contentsline {section}{\numberline {3}Information processing in neural systems}{1}
-\contentsline {section}{\numberline {4}Microelectronic neural systems}{1}
-\contentsline {section}{\numberline {5}Optoelectronic synapses, dendrites, and neurons}{2}
-\contentsline {section}{\numberline {6}Achieving large-scale optoelectronic systems}{3}
-\contentsline {section}{\numberline {7}Outlook}{3}
