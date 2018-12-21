@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  20 DEC 2018 18:33
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  20 DEC 2018 20:12
 entering extended mode
 **optoelectronic_neural_systems.tex
 
@@ -352,36 +352,44 @@ Underfull \hbox (badness 3364) in paragraph at lines 61--62
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 84--84
+Underfull \hbox (badness 1648) in paragraph at lines 96--96
 [][]\OT1/cmr/bx/n/14.4 Optoelectronic synapses, den-
  []
 
+[1
 
+{C:/Users/jms4/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr_optoelectronic_neur
-al_systems\optoelectronic_neural_systems.bbl) [1
+al_systems\optoelectronic_neural_systems.bbl) [3]
+(C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr_optoelectronic_neur
+al_systems\optoelectronic_neural_systems.aux)
 
-{C:/Users/jms4/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr_optoelectronic_neur
-al_systems\optoelectronic_neural_systems.aux) ) 
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3794 strings out of 493921
- 57010 string characters out of 3147285
- 116755 words of memory out of 3000000
- 7078 multiletter control sequences out of 15000+200000
- 6130 words of font info for 22 fonts, out of 3000000 for 9000
+ 3798 strings out of 493921
+ 57056 string characters out of 3147285
+ 120755 words of memory out of 3000000
+ 7081 multiletter control sequences out of 15000+200000
+ 6584 words of font info for 24 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,4n,38p,2506b,129s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\jms4\AppData\Local\Mi
-KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on optoelectronic_neural_systems.pdf (1 page, 101567 bytes).
+ 36i,4n,38p,2506b,233s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\jms4\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\t
+crm1000.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on optoelectronic_neural_systems.pdf (3 pages, 154885 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
+ 65 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
