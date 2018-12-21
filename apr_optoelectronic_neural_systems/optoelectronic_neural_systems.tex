@@ -48,6 +48,8 @@ Optoelectronic neural systems lie at the intersection of multiple fields of scie
 \item neuroscience
 \item electronics
 \item photonics
+\item semiconductors
+\item superconductors
 \end{itemize}
 
 Now is the time because the limits of silicon electronics for implementing von Neumann architecture are upon us, and the same hardware used for digital computing to far surpass humans in that modality is not equipped to surpass us in neuro modality.
@@ -81,7 +83,7 @@ Now is the time because the limits of silicon electronics for implementing von N
 \item get into a tad of history here, analogous to Turing/von Neumann
 \end{itemize}
 
-\section{\label{sec:electronics}Microelectronic neural systems}
+\section{\label{sec:electronics}Semiconductor electronic neural systems}
 
 \begin{itemize}
 \item shared communication infrastructure
@@ -93,6 +95,19 @@ Now is the time because the limits of silicon electronics for implementing von N
 \item memristors: really crappy synapses
 \item application spaces: deep learning, mobile devices, IoT; neuro-inspired, but not really neural computing
 \item mention Mead, sub-threshold transistor IandF isomorphism
+\item The distributed von Neumann approach still effectively steps through differential equations numerically. We advocate for hardware that actually lives through the response modeled by the diff eqs. 
+\end{itemize}
+
+\section{\label{sec:superconductors}Superconductor electronic neural systems}
+
+\begin{itemize}
+\item JJ basics
+\item IBM latching logic
+\item Likharev
+\item victorious march of CMOS
+\item third wave: IARPA/C3
+\item JJ neurons (Japan, Segal, Schneider, that recent theory paper)
+\item still, communication problems, fan-out
 \end{itemize}
 
 \section{\label{sec:optoelectronicNeurons}Optoelectronic synapses, dendrites, and neurons}
@@ -173,25 +188,41 @@ Now is the time because the limits of silicon electronics for implementing von N
 \item unprecedented integration of photonics and electronics in a scalable process that can be implemented with existing infrastructure--change a few implant conditions, swap out a few sputtering targets, improve BEOL dielectrics for photonics
 \item communication on various length scales, multi-planar on wafers, wafer-to-wafer vertical and lateral, fiber white matter
 \item feasibility of brain scale
+\item why si if no transistors?
+\begin{itemize}
+\item III-V substrates should be pursued as well. Our group is working on this, initial anecdata indicates similar efficiency
+\item big problem is fab. wafers are harder to scale, material harder to purify, oxide not as good for waveguide cladding. Similar consideration to mosfet gate. Overall manufacturability
+\item may eventually use transistors for perhaps faster refractory period
+\end{itemize}
 \item ultimate limits
 \end{itemize}
 
 \section{\label{sec:outlook}Outlook}
 
 \begin{itemize}
+
 \item circle back to Turing and von Neumann, their interests in machine intelligence and modeling computation after the brain
+\item circle back to digital vs neural, superconducting optoelectronics brings communication and spiking nonlinearities
+
 \item why go to all the trouble?
 \begin{itemize}
 \item this technology will only be pursued if it can do something that nothing else can do
 \item but it can, and what it can do is very important
+\begin{itemize}
+\item exceptional complexity for experiments in network information, neuroscience models
+\item quantum/neural hybrid systems
+\item scaling beyond what is possible with other methods, perhaps the smartest machines on the planet
 \item computing has shaped economy and society since its inception
 \item powerful scientific tool
 \item foundational questions about thought and consciousness amongst the most intriguing and important in modern science
 \end{itemize}
+
+\end{itemize}
+
 \end{itemize}
 
 
-
+%In the neural system, recent computations are effectively stored at synapses
 
 %Light is excellent for communication. Fiber optic links carry vast quantities of information across continents and between data centers. An important question in modern computing is: what is the shortest distance over which photonic communication will displace electronic interconnects? Optical links between racks in data centers are becoming common \cite{}. Major companies are investing seriously in photonics in the package. Monolithic optical links between processor and memory fabricated in a 45-nm CMOS node with no in-line changes have been demonstrated \cite{suwa2015}. A primary challenge affecting further chip-scale electronic-photonic integration is the continued difficulty of achieving a light source implemented on silicon that is robust, efficient, and economical.
 %
