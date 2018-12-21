@@ -36,6 +36,8 @@
 
 \end{abstract}
 
+\tableofcontents
+
 \section{\label{sec:introduction}Introduction}
 Light is excellent for communication. Fiber optic links carry vast quantities of information across continents and between data centers. An important question in modern computing is: what is the shortest distance over which photonic communication will displace electronic interconnects? Optical links between racks in data centers are becoming common \cite{}. Major companies are investing seriously in photonics in the package. Monolithic optical links between processor and memory fabricated in a 45-nm CMOS node with no in-line changes have been demonstrated \cite{suwa2015}. A primary challenge affecting further chip-scale electronic-photonic integration is the continued difficulty of achieving a light source implemented on silicon that is robust, efficient, and economical.
 
@@ -51,17 +53,9 @@ The major drivers for brain-inspired computers fall on a spectrum: energy and al
 
 
 \section{\label{sec:sructureAndFunction}Structure and function across space and time}
-\begin{figure*} 
-    \centering{\includegraphics[width=17.2cm]{complexity_across_scales_small.pdf}}
-	\captionof{figure}{\label{fig:complexityAcrossScales}Complexity across scales. (add temporal scales to axes)}
-\end{figure*}
 To guide the design of hardware for AGI, we must simultaneously consider operation across spatial and temporal scales. In Fig.\,\ref{fig:complexityAcrossScales}, we chart the structures present on various length scales and temporal scales for biological and optoelectronic hardware. The human brain has features spanning roughly eight orders of magnitude in size, from a nanometer to a tenth of a meter, with correlated dynamical activity across four orders of magnitude, from below 1\,Hz to around 600\,Hz. There are several types of optoelectronic neural systems, and we have proposed a specific approach we see as most conducive to large-scale implementation for AGI \cite{sh2018a}. These optoelectronic networks are likely to have features as small as 100\,nm and potentially extend up to many kilometers. Dynamical activity may be present from slow temporal scales up to 20\,MHz (30,000 times the maximum speed of the brain) for networks measured in kilometers. To enable such spatial and temporal scaling, fractal properties must be employed.
 
 Information processing in neural systems employs local clusters of neurons to represent specific features, and the information from these clusters must be shared with other regions of the network to form a multifaceted representation of a complex stimulus. Structurally, this information processing is facilitated by networks with a high clustering coefficient \cite{} yet also an average path length nearly as short as a random graph \cite{eskn2015}. Such graph structures are referred to as small-world networks \cite{wast1998}, and are ubiquitous throughout the brain \cite{sp2010}. To achieve small world networks, long-range connections are necessary. In a random network, near and distant connections are equally probable, so the average path length across the network is small, representing a lower limit on path length for a given number of edges connecting a given number of nodes. In Fig.\,\ref{fig:data}(a) we plot the number of edges required per node to achieve a given average path length as a function of the number of nodes in the network \cite{}. Consider the case of a network with one million nodes. We see from this plot that if we wish to maintain a path length of two, each node must make, on average, one thousand connections. For the case of a network with 100 million nodes, each node must make 10,000 connections. This is similar to the case of the hippocampus in the human brain, with nearly 100 million neurons, each with 10,000 or more synaptic connections. Maintaining a short average path length across the network is critical to enable efficient information integration, and this appears to be a major factor driving the extensive connectivity of biological neural systems. In the present context, this motivates us to conceive of artificial hardware capable of supporting comparable connectivity, which leads us to consider using light for communication.
-\begin{figure} 
-    \centering{\includegraphics[width=8.6cm]{data_plots.pdf}}
-	\captionof{figure}{\label{fig:data}Data plots.}
-\end{figure}
 
 In addition to structural considerations pertinent to information integration across space, we must also consider how information propagates across time in neural systems. The computational primitives best equipped to integrate information across space and time are neurons, relaxation oscillators that encode information in the timing of their pulses. One of the most impressive aspects of neural information processing is that the same structural network can be used at different times in different contexts to form myriad functional networks. Over time scales on the order of neuronal inter-spike intervals, this is accomplished in two ways. First, short-term synaptic plasticity enables synapses to rapidly adapt in response to network activity, essentially resulting in temporal filtering of afferent spike trains \cite{abre2004}. Second, inhibitory neurons working in conjunction with dendrites can silence or give voice to specific synapses, clusters of synapses, or neurons depending on the local and global activity of the network. In addition, dendritic processing, wherein the dendritic arbor performs intermediate, nonlinear transformations between synapses and the soma, enables utilization of timing information \cite{vagu2005}, detection of sequences of activity \cite{haah2015}. Over time scales long compared to an average inter-spike interval, long-term potentiation and depression of synapses is employed to store memories \cite{} and adapt the network to a small-world architecture \cite{}. Learning in the presence of a continually changing environment while maintaining long-term memories is achieved through spike-timing-dependent plasticity (STDP) \cite{somi2000} and metaplasticity \cite{ab2008}. Neurons employing inhibition, dendritic processing, short-term, and long-term synaptic plasticity can make efficient use of a structural network by dynamically adapting on time scales from an inter-spike interval to the lifetime of the system. We refer to these synaptic, dendritic, and neuronal functions collectively as the computations performed by the neurons, and the standard threshold/spike operation is included. While light is excellent for communication with high fan-out between neurons in a cluster as well as across distant regions of a network, electrical circuits are better equipped to perform the computations necessary for adapting a vast structural network into dynamical functional networks useful for information processing. 
 
@@ -94,10 +88,6 @@ N_8 = \frac{A_8}{A_{\mathrm{n}}} = 2\sqrt{2}r^2\left(\frac{k}{wn_{\mathrm{in}}}\
 \end{equation}
 This expression is plotted in Fig.\,\ref{fig:data}(b). This estimate informs us that a 300 mm wafer with six waveguide planes can support roughly one million neurons if they each have one thousand connections. More involved analysis finds a slightly smaller number \cite{sh2018e}. As a point of comparison to electrical neural systems, Ref.\,\cite{kuwa2017} finds that through multi-layer, wafer-scale integration of logic and memory, 250 million electrical neurons could fit on a 300-mm wafer. The trade-off is speed, as the shared communication network would limit the electrical neurons studied in Ref.\,\ref{kuwa2017} to 10\,Hz operation. Nevertheless, the message of Fig.\,\ref{fig:data}(b) is that photonic routing results in large area consumption. The human cortex contains over 10 billion neurons. An optoelectronic brain larger than a bumble bee will not fit on a wafer.
 
-%\begin{figure*}[] 
-%	\centering{\includegraphics[width=14cm]{communicationScales.pdf}}
-%	\captionof{figure}{\label{fig:communicationScales}Photonic interconnection on various length scales.}
-%\end{figure*}
 Optoelectronic intelligence will require communication between wafers. Wafers can be stacked vertically, and free-space optical links can send photons from a source on one wafer to a detector on a wafer above or below, as illustrated in Fig.\,\ref{fig:communicationScales}(a). Such 3D wafer-stacking techniques are being developed for electronics, but the ability of light to propagate through free space (or liquid helium) and the ten-micron alignment tolerances enabled by wide-area photodetectors \cite{mave2013} make such 3D integration promising for photonic communication as well. Assuming SNSPDs receiving vertical communication have a pitch of 25\,\textmu m, a 300-mm octagon could support $10^8$ vertical communication links between two wafers. Assuming half of this area is for feed-forward communication from the lower wafer to the upper wafer, and half is for feed-back from the upper wafer to the lower wafer. This would result in $5\times10^7$ synaptic connections originating from neurons on one wafer and terminating in neurons on a vertically adjacent wafer. If each wafer had one million neurons with one thousand connections per neuron within the wafer, the total number of intra-wafer synaptic connections would be $10^9$. Therefore, the number of synapses present in a layer of this network that originated on a previous layer would be 5\%, similar to the fraction observed in the laminar structure of biological cortex (Ref.\,\cite{bu2006}, pg. 286).
 
 In addition to free-space vertical coupling, inter-wafer communication can be achieved at wafer edges with in-plane waveguide couplers, as shown in Fig.\,\ref{fig:communicationScales}(c). In the octagonal (truncated square) tiling used here for illustration, each wafer makes such connections to neighbors in the cardinal directions. With a 10\,\textmu m pitch, 11,500 wafer-edge couplers could be supported in each of the cardinal directions with 46,000 total in-plane, lateral connections. Such a system would demonstrate strong connectivity within the vertical stack of the wafers, and weaker lateral connectivity between wafers in the same horizontal plane. Such an architecture resembles the columnar organization of cortex.  
@@ -117,65 +107,10 @@ Light is excellent for communication, while electronics excel at computation. Ar
 
 What are the next steps to realize this technology? Low-cost source-detector integration at the wafer scale is required. These active devices must be augmented with improvements in deposited dielectrics for photonic routing to enable more planes with lower loss. For system scaling, improved fiber-to-waveguide coupling and multi-wafer modules must be demonstrated. All the hardware improvements will not lead to AGI without further theoretical analysis at device, circuit, and system levels. Further understanding the principles of network information processing and designing the architecture to achieve general intelligence are likely to be much more challenging than understanding the operation of a Turing machine. Theoretical progress is required to understand how to implement functional systems, train them, and make them intelligent.
 
-\bibliographystyle{abbrv}
-\bibliography{optoelectronic_neural_systems}
-
-\end{document}
 
 
 
 
-
-
-
-
-
-
-
-%\documentclass[aps,pra,reprint,longbibliography]{revtex4-1}
-\documentclass[twocolumn]{article}
-
-\usepackage{geometry}
-\geometry{textwidth = 18cm,textheight = 24cm}
-
-%\usepackage{multicol}
-\usepackage{caption}
-
-\usepackage{graphicx}
-\usepackage{amsmath}
-\usepackage{float}
-%\usepackage{amssymb}
-\usepackage{textcomp}
-%\usepackage{lmodern}
-\newenvironment{figure_alt}
-  {\par\medskip\noindent\minipage{\linewidth}}
-  {\endminipage\par\medskip}
-
-\begin{document}
-	
-	%-------------------- begin header -------------------%
-	\centerline{\LARGE Optoelectronic Intelligence}%Light in neural systems%Intelligent optoelectronic systems
-	\vspace{0.75em}
-	\centerline{\Large Jeffrey M. Shainline}
-	%\vspace{0.75em}
-	%\centerline{\large National Institute of Standards and Technology}
-	\vspace{0.5em}
-	\centerline{\large NIST, Boulder, CO, 80305}
-	\vspace{0.5em}
-	\centerline{\large \today}
-	%-------------------- end header ---------------------%
-
-	
-%\author{Jeffrey M. Shainline\\National Institute of Standards and Technology, 325 Broadway, Boulder, CO, 80305}
-%\affiliation{National Institute of Standards and Technology, 325 Broadway, Boulder, CO, 80305}		
-	
-%\date{\today}
-	
-\begin{abstract}
-
-\end{abstract}
-
-%\begin{multicols}{2}
 
 \section{\label{sec:introduction}Introduction}
 Light is excellent for communication. If we are going to signal to extraterrestrial civilizations, it will almost certainly be with electromagnetic radiation. On our own planet, fiber optic links carry vast quantities of information across continents and between data centers. An important question in modern computing is: what is the shortest distance over which photonic communication is sufficiently advantageous and practical to merit displacement of electronic interconnects? Optical links between racks in data centers are becoming common. Major companies are investing seriously in photonics in the package. Monolithic optical links between processor and memory fabricated in a 45-nm CMOS node with no in-line changes have been demonstrated \cite{suwa2015}, with integration in 32-nm technology looking promising as well \cite{stra2018}. A primary challenge affecting further chip-scale electronic-photonic integration is the continued difficulty of achieving a light source implemented on silicon that is robust, efficient, and economical.
@@ -258,20 +193,9 @@ Achieving the dense, complex routing required to connect large numbers of neuron
 \label{eq:numNeuronPerWafer}
 N_8 = \frac{A_8}{A_{\mathrm{n}}} = 2\sqrt{2}r^2\left(\frac{k}{wn_{\mathrm{in}}}\right)^2.
 \end{equation}
-%\begin{figure_alt} 
-%	\centering{\includegraphics[width=8.6cm]{neuronsOnWafer.pdf}}
-%	\captionof{figure}{\label{fig:neuronsOnWafer}Number of neurons on a wafer.}
-%\end{figure_alt}
-\begin{figure*}[] 
-	\centering{\includegraphics[width=14cm]{neuronsOnWafer.pdf}}
-	\captionof{figure}{\label{fig:neuronsOnWafer}Number of neurons on a wafer.}
-\end{figure*}
+
 This expression is plotted in Fig.\,\ref{fig:neuronsOnWafer}. This estimate informs us that a 300-mm wafer can support roughly one million neurons if they each have one thousand connections. As a point of comparison, Ref.\,\cite{kuwa2017} finds that through multi-layer, wafer-scale integration of logic and memory, 250 million electrical neurons could fit on a 300-mm wafer. The trade-off is, of course, speed, as the shared communication network would limit the electrical neurons studied in Ref.\,\ref{kuwa2017} to 10\,Hz operation. Nevertheless, the message of Fig.\,\ref{fig:neuronsOnWafer} is that photonic routing results in large area consumption. If two planes of routing waveguides are used, 100,000 neurons with 1000 connections each can fit on a wafer. With six planes, one million such neurons can fit on a wafer, and with 18 routing planes, the number is close to 10 million. The human cortex contains over 10 billion neurons. An optoelectronic brain larger than a bumble bee will not fit on a wafer.
 
-\begin{figure*}[] 
-	\centering{\includegraphics[width=14cm]{communicationScales.pdf}}
-	\captionof{figure}{\label{fig:communicationScales}Photonic interconnection on various length scales.}
-\end{figure*}
 Optoelectronic intelligence will require communication between wafers. This can be accomplished through multiple means. Most simply, wafers can be stacked vertically, and free-space optical links can send photons from a source on one wafer, directed vertically by a beam-shaping grating coupler, to a detector on a wafer above or below, as illustrated in Fig.\,\ref{fig:communicationScales}(a). Such 3D techniques are being developed for electronics, but the ability of light to propagate through free space and the multi-micron alignment tolerances enabled by wide-area photodetectors \cite{mave2013} make such 3D integration feasible for photonic communication as well. Assuming the photodetectors receiving vertical communication have a pitch of 25\,\textmu m, a 300-mm octagon could support $10^8$ vertical communication links between two wafers. Assuming half of each such pixel is for feed-forward communication from the lower wafer to the upper wafer, and half is for feed-back from the upper wafer to the lower wafer. This would result in $5\times10^7$ synaptic connections originating from neurons on one wafer and terminating in neurons on a vertically adjacent wafer. If each wafer had one million neurons with one thousand connections per neuron within the wafer, the total number of intra-wafer synaptic connections would be $10^9$. Therefore, the number of synapses present in a layer of this network that originated on a previous layer would be 5\%, similar to the fraction observed in the laminar structure of biological cortex \cite{brsc1998,mo1997}.
 
 In addition to free-space vertical coupling, inter-wafer communication can be achieved at wafer edges with in-plane waveguide couplers, as shown in Fig.\,\ref{fig:communicationScales}(c). In the octagonal (truncated square) tiling used here for illustration, each wafer could make such connections to neighbors in the cardinal directions. With a 10\,\textmu m pitch of these wafer-edge couplers, 11,500 could be supported in each of the cardinal directions with 46,000 total in-plane, lateral connections. Such a system would demonstrate strong connectivity within the vertical stack of the wafers, and weaker lateral connectivity. We begin to see that such an architecture very much resembles the columnar organization of cortex, perhaps even quantitatively in the degree of local, lateral, and vertical connections. There is much room for fine-tuning through device and system engineering. The columns of the brain typically have six distinct laminar layers for processing. It is somewhat unclear how the number of vertically integrated layers affect computation or what determines how many layers are suitable. It may be the case that timing errors on action potentials accumulate through layers, limiting the utility of additional feed-forward computation \cite{}. Presumably there will be some maximum number of vertically integrated wafers that is useful for neuronal information processing, and this modular extent of vertical wafer stacking must be considered in conjunction mechanical considerations regarding the structure of the assembly. 
@@ -367,6 +291,8 @@ There are $10^{14}$ synapses in the human cortex. If it takes even 10\,nW to mai
 Suppose we could get around fabrication considerations and construct arbitrary neural systems based on biological neurons. Would we then choose to pursue that technology for beyond-human intelligence instead of developing optoelectronic hardware? We think not, because the slow conduction velocity of axons presents a limit to communication, and this limit is likely already saturated near the scale of the human brain. If this argument is correct, we should not expect genetic engineering to achieve much smarter people than have already walked the earth.
 
 
+\vspace{4em}
+We may compare this form of information processing to an extreme form of many interconnected von Neumann systems with high interconnectivity and distributed memory, in which case similar considerations would pertain to hardware. Yet the analogy should not be taken too literally, as the goal of neural information is to identify correlations across space and time, while the goal of digital information is to perform arithmetic. Digital is superior for solving the differential equations representing nature, while neural excels at contextualizing disparate input and reasoning from a high level about interactions in complex systems. 
 
 
 \begin{equation}
@@ -381,8 +307,8 @@ e = cn^{-p}
 d = \frac{1}{1-p}
 \end{equation}
 
-%\bibliographystyle{abbrv}	
-\bibliography{light_in_neural_systems}
+\bibliographystyle{abbrv}
+\bibliography{optoelectronic_neural_systems}
 
 %\end{multicols}
 
