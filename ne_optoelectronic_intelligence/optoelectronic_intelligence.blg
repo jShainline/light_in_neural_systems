@@ -1,9 +1,52 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: optoelectronic_intelligence.aux
-The style file: abbrv.bst
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: optoelectronic_intelligence.aux
+The style file: unsrt.bst
 Database file #1: optoelectronic_intelligence.bib
 Repeated entry---line 1366 of file optoelectronic_intelligence.bib
  : @article{da1989
  :                ,
 I'm skipping whatever remains of this entry
 Warning--empty year in hepa2012
+You've used 47 entries,
+            1791 wiz_defined-function locations,
+            716 strings with 11013 characters,
+and the built_in function-call counts, 11511 in all, are:
+= -- 914
+> -- 734
+< -- 6
++ -- 263
+- -- 216
+* -- 777
+:= -- 1927
+add.period$ -- 143
+call.type$ -- 47
+change.case$ -- 45
+chr.to.int$ -- 0
+cite$ -- 48
+duplicate$ -- 548
+empty$ -- 967
+format.name$ -- 216
+if$ -- 2540
+int.to.chr$ -- 0
+int.to.str$ -- 47
+missing$ -- 51
+newline$ -- 239
+num.names$ -- 47
+pop$ -- 90
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 309
+stack$ -- 0
+substring$ -- 505
+swap$ -- 166
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 89
+width$ -- 49
+write$ -- 520
 (There was 1 error message)
