@@ -16,12 +16,23 @@ W.~Abraham.
 \newblock Metaplasticity: tuning synapses and networks for plasticity.
 \newblock {\em Nature Neuroscience}, 9:387, 2008.
 
-\bibitem{bagr2010}
-D.~Bassett, D.~Greenfield, A.~Meyer-Lindenberg, D.~Weinberger, S.~Moore, and
-  E.~Bullmore.
-\newblock Efficient physical embedding of topologically complex information
-  processing networks in brains and computer circuits.
-\newblock {\em PLoS Computational Biology}, 6:1, 2010.
+\bibitem{be2007}
+J.~Beggs.
+\newblock The criticality hypothesis: how local cortical networks might
+  optimize information processing.
+\newblock {\em Philosophical transactions of the Royal Society A}, 366:329,
+  2007.
+
+\bibitem{beba2016}
+R.~Betzel and D.~Bassett.
+\newblock Multi-scale brain networks.
+\newblock {\em NeuroImage}, 160:73, 2016.
+
+\bibitem{bo2000}
+K.~Boahen.
+\newblock Point-to-point connectivity between neuromorphic chips using address
+  events.
+\newblock {\em IEEE Tran. Circ. Sys. II}, 47:416, 2000.
 
 \bibitem{buch2017}
 S.~Buckley, J.~Chiles, A.~McCaughan, G.~Moody, K.~Silverman, M.~Stevens,
@@ -50,16 +61,47 @@ G.~Davies, E.~Lightowlers, and Z.~Ciechanowaska.
 \newblock The 1018 mev (w of i1) vibronic band in silicon.
 \newblock {\em J. Phys. C}, 20:191, 1987.
 
+\bibitem{dasr2018}
+M.~Davies, N.~Srinivasa, T.-H. Lin, G.~Chinya, Y.~Cao, S.~Choday, and G.~Dimou.
+\newblock Loihi: A neuromorphic manycore processor with on-chip learning.
+\newblock {\em IEEE Micro}, 1:82, 2018.
+
 \bibitem{eskn2015}
 E.~Estrada and P.~Knight.
 \newblock {\em A First Course in Network Theory}.
 \newblock Oxford, Oxford, United Kingdom, first edition, 2015.
+
+\bibitem{frla2013}
+E.~Friedman and A.~Landsberg.
+\newblock Hierarchical networks, power laws, and neuronal avalanches.
+\newblock {\em Chaos}, 23:013135, 2013.
+
+\bibitem{frfr2004}
+A.~Fronczak, P.~Fronczak, and J.~Holyst.
+\newblock Average path length in random networks.
+\newblock {\em Phys. Rev. E}, 70:056110, 2004.
+
+\bibitem{fuga2014}
+S.~Furber, F.~Galluppi, S.~Temple, and L.~Plana.
+\newblock The spinnaker project.
+\newblock {\em Proceedings of the IEEE}, 102:652, 2014.
+
+\bibitem{fudr2005}
+S.~Fusi, P.~Drew, and L.~Abbott.
+\newblock Casdcade models of synaptically stored memories.
+\newblock {\em Neuron}, 45:599, 2005.
 
 \bibitem{haah2015}
 J.~Hawkins and S.~Ahmad.
 \newblock Why neurons have thousands of synapses, a theory of sequence memory
   in neocortex.
 \newblock {\em Frontiers in Neural Circuits}, 10:23, 2016.
+
+\bibitem{heze2010}
+B.~He, J.~Zempel, A.~Snyder, and M.~Raichle.
+\newblock The temporal structures and functional significance of scale-free
+  brain activity.
+\newblock {\em Neuron}, 66:353, 2010.
 
 \bibitem{hepa2012}
 J.~Hennessy and D.~Patterson.
@@ -72,11 +114,80 @@ R.~Keyes.
 \newblock The wire-limited logic chip.
 \newblock {\em IEEE J. Sol.-Sta. Circuits}, SC-17:1232, 1982.
 
+\bibitem{kuwa2017}
+A.~Kumar, Z.~Wan, W.~Wilcke, and S.~Iyer.
+\newblock Toward human-scale brain computing using 3d wafer scale integration.
+\newblock {\em ACM Journal on Emerging Technologies in Computing Systems},
+  13:45, 2017.
+
+\bibitem{mage2012}
+H.~Markram, W.~Gerstner, and P.~Sjostrom.
+\newblock Spike-timing-dependent plasticity: a comprehensive overview.
+\newblock {\em Frontiers in Synaptic Neuroscience}, 4:2, 2012.
+
 \bibitem{mave2013}
 F.~Marsili, V.~Verma, J.~Stern, S.~Harrington, A.~Lita, T.~Gerrits,
   I.~Vayshnker, B.~Baek, M.~Shaw, R.~Mirin, and S.~Nam.
 \newblock Detecting single infrared photons with 93\% system efficiency.
 \newblock {\em Nat. Photon.}, 7:210, 2013.
+
+\bibitem{mear2014}
+P.~Merolla, J.~Arthur, R.~Alvarez-Icaza, A.~Cassidy, J.~Sawada, F.~Akopyan,
+  B.~Jackson, N.~Imam, C.~Guo, Y.~Nakamura, B.~Brezzo, I.~Vo, S.~Esser,
+  R.~Appuswamy, B.~Taba, A.~Amir, M.~Flickner, W.~Risk, R.~Manohar, and
+  D.~Modha.
+\newblock A million spiking-neuron integrated circuit with scalable
+  communication network and interface.
+\newblock {\em Science}, 345:668, 2014.
+
+\bibitem{payu2017}
+J.~Park, T.~Yu, S.~Joshi, C.~Maier, and G.~Cauwenberghs.
+\newblock Hierarchical address event routing for reconfigurable large-scale
+  neuromorphic systems.
+\newblock {\em IEEE Trans. Neural Networks and Learning Systems}, 28:2408,
+  2017.
+
+\bibitem{peth2009}
+T.~Petermann, T.~Thiagarajan, M.~Lebedev, M.~Nicolelis, D.~Chialvo, and
+  D.~Plenz.
+\newblock Spontaneous cortical activity in awake monkeys composed of neuronal
+  avalanches.
+\newblock {\em PNAS}, 106:15921, 2009.
+
+\bibitem{pfgr2013}
+T.~Pfeil, A.~Grubl, and K.~Meier.
+\newblock Six networks on a universal neuromorphic computing substrate.
+\newblock {\em Frontiers in Neuroscience}, 7:11, 2013.
+
+\bibitem{plth2006}
+D.~Plenz and T.~Thiagarajan.
+\newblock The organizing principles of neuronal avalanches: cell assemblies in
+  the cortex?
+\newblock {\em Trends in Neuroscience}, 30:101, 2006.
+
+\bibitem{sani2018}
+S.~Salahuddin, K.~Ni, and S.~Datta.
+\newblock The era of hyper-scaling in electronics.
+\newblock {\em Nature Electronics}, 1:442, 2018.
+
+\bibitem{sava2017}
+S.~Sardi, R.~Vardi, A.~Sheinin, A.~Goldental, and I.~Kanter.
+\newblock New types of experiments reveal that a neuron functions as multiple
+  independent threshold units.
+\newblock {\em Scientific reports}, 7:18036, 2017.
+
+\bibitem{scva2014}
+H.~Schnack, N.~van Haren, R.~Brouwer, A.~Evans, S.~Durston, D.~Boomsma,
+  R.~Kahn, and H.~H. Pol.
+\newblock Changes in thickness and surface area of the human cortex and their
+  relationship with intelligence.
+\newblock {\em Cerebral Cortex}, 25:1608, 2014.
+
+\bibitem{shICRC2018}
+J.~Shainline.
+\newblock The largest cognitive systems will be optoelectronic.
+\newblock In {\em IEEE International Conference on Rebooting Computing}. IEEE,
+  Nov 2018.
 
 \bibitem{sh2018b}
 J.~Shainline, S.~Buckley, A.~McCaughan, M.~Castellanos-Beltran, C.~Donnelly,
@@ -94,13 +205,6 @@ J.~Shainline, S.~Buckley, A.~McCaughan, J.~Chiles, A.~Jafari-Salim, R.~Mirin,
 J.~Shainline, S.~Buckley, A.~McCaughan, J.~Chiles, R.~Mirin, and S.~Nam.
 \newblock Superconducting optoelectronic neurons {I}: General principles.
 \newblock {\em arXiv}, page 1805.01929, 2018.
-
-\bibitem{shbu2017b}
-J.~Shainline, S.~Buckley, N.~Nader, C.~Gentry, K.~Cossel, J.~Cleary,
-  M.~Popovi\'{c}, N.~Newbury, S.~Nam, and R.~Mirin.
-\newblock Room-temperature-deposited dielectrics and superconductors for
-  integrated photonics.
-\newblock {\em Opt. Express}, page 10322, 2017.
 
 \bibitem{sh2018e}
 J.~Shainline, J.~Chiles, S.~Buckley, A.~McCaughan, R.~Mirin, and S.~Nam.
@@ -123,10 +227,34 @@ J.~Shainline and J.~Xu.
 \newblock Silicon as an emissive optical medium.
 \newblock {\em Laser and Photonics Reviews}, 1:334, 2007.
 
+\bibitem{shki2006}
+C.-W. Shin and S.~Kim.
+\newblock Self-organized criticality and scale-free properties in emergent
+  functional neural networks.
+\newblock {\em Phys. Rev. E}, 74:045101(R), 2006.
+
+\bibitem{somi2000}
+S.~Song, K.~Miller, and L.~Abbott.
+\newblock Competitive hebbian learning through spike-timing-dependent synaptic
+  plasticity.
+\newblock {\em Nature Neuroscience}, 3:919, 2000.
+
 \bibitem{sp2010}
 O.~Sporns.
 \newblock {\em Networks of the Brain}.
 \newblock The MIT Press, Cambridge, Massachusetts, first edition, 2010.
+
+\bibitem{stra2018}
+V.~Stojanovic, R.~Ram, M.~Popovic, S.~Lin, S.~Moazeni, M.~Wade, C.~Sun,
+  L.~Alloatti, A.~Atabaki, F.~Pavanello, N.~Mehta, and P.~Bhargava.
+\newblock Monolithic silicon-photonic platforms in state-of-the-art cmos soi
+  processes.
+\newblock {\em Opt. Express}, 26:13106, 2018.
+
+\bibitem{stsp2015}
+G.~Stuart and N.~Spruston.
+\newblock Dendritic integration: 60 years of progress.
+\newblock {\em Nature Neuroscience}, 18:1713, 2015.
 
 \bibitem{suwa2015}
 C.~Sun, M.~Wade, Y.~Lee, J.~Orcutt, L.~Alloatti, M.~Georgas, A.~Waterman,
