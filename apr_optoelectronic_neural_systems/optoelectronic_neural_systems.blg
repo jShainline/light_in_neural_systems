@@ -1,5 +1,48 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: optoelectronic_neural_systems.aux
-The style file: abbrv.bst
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: optoelectronic_neural_systems.aux
+The style file: unsrt.bst
 Database file #1: optoelectronic_neural_systems.bib
 Warning--empty journal in ne1945
+You've used 3 entries,
+            1791 wiz_defined-function locations,
+            462 strings with 3822 characters,
+and the built_in function-call counts, 484 in all, are:
+= -- 40
+> -- 12
+< -- 0
++ -- 6
+- -- 3
+* -- 23
+:= -- 90
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 3
+chr.to.int$ -- 0
+cite$ -- 4
+duplicate$ -- 26
+empty$ -- 53
+format.name$ -- 3
+if$ -- 102
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 3
+newline$ -- 18
+num.names$ -- 3
+pop$ -- 7
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 9
+stack$ -- 0
+substring$ -- 18
+swap$ -- 2
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 5
+width$ -- 4
+write$ -- 33
 (There was 1 warning)
