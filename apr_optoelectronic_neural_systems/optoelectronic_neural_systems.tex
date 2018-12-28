@@ -45,14 +45,23 @@
 Optoelectronic neural systems reside at the confluence of multiple disciplines. 
 
 \begin{itemize}
+\item theoretical considerations
+\begin{itemize}
 \item computing
+\item information theory
+\item probability and statistics
 \item cognitive sciences
-\item device physics
 \item neuroscience
+\end{itemize}
+\item practical considerations
+\begin{itemize}
+\item device physics
 \item electronics
 \item photonics
 \item semiconductors
 \item superconductors
+\item chip scale to global scale
+\end{itemize}
 \end{itemize}
 
 Now is the time because the limits of silicon electronics for implementing von Neumann architecture are upon us, and the same hardware used for digital computing to far surpass humans in that modality is not equipped to surpass us in neuro modality.
@@ -60,21 +69,47 @@ Now is the time because the limits of silicon electronics for implementing von N
 \section{\label{sec:history}Historical context}
 To put the present discussion of cognitive neural systems in context, we must revisit the origin of computing. Nearly all modern computing is based on digital (binary) information processed in a von Neumann architecture, a scheme devised as a means to realize a Turing machine in electronic hardware. Let us now analyze each of these elements to understand the original motivations, the reasons digital computing has been so successful, and lessons for pursuing neural systems.
 
-Leibniz was one of the first to explore binary arithmetic for computing \cite{}.
+Binary arithmetic was first invented by the ancient Chinese as a representation of the interaction between opposites as symbolized in the yin-yang \cite{http://www.atimes.com/leibniz-chinese-invented-first-binary-code/}. Leibniz further developed these ideas \cite{http://www.leibniz-translations.com/binary.htm} with the intention to utilize binary arithmetic for computing \cite{https://hal.archives-ouvertes.fr/ads-00104781/document,dy2012}. In 1679, Leibniz proposed a mechanical apparatus for digital computing based on marbles passing through holes to perform logical operations. 
+
+
+\vspace{4em}
+Turing/von Neumann/digital: I'm going to give you these instructions and this input. I want you to generate an output that is the one and only (existence and uniqueness theorem) correct answer to a mathematically well-posed question.
+
+brain/AGI: I'm going to give you an enormous amount of information regarding the world and all its parts. I want you to distill the essence, identify the salient relationships, and conceive of it all simultaneously across various spatial and temporal scales. And I want you to explain this world to me.
+
+These are very different objectives. A Turing machine is a universal computer in the sense that if a procedure exists to calculate a given number, a Turing machine can do it. However, two aspects of the Turing model make it inefficient for the latter task. First, information processing is serial. Second, memory must be accessed as an independent step from change of internal state (processing).
+
+\vspace{4em}
+Do we provide neurons with instructions? In a sense, yes. The physics of the devices that comprise the neurons lead the neurons to perform very specific transfer functions. Given certain inputs, a neuron will generate a certain (not necessarily unique) output. One of the goals of populations of neurons is to make the transfer function unique.
 
 \begin{itemize}
 \item origins of modern computing intertwined with WWII
-\item Turing: interests, universal computation, computability, Turing machine, serial
-\item von Neumann: interests, universal computation, numerical investigation of numerous physical problems, digital computing, memory storing data and instructions, von Neumann bottleneck
+\item Turing: interests, universal computation, computability, Turing machine, serial, cryptography
+\item von Neumann: interests, universal computation, numerical investigation of numerous physical problems, numerically solving differential equations, digital computing, memory storing data and instructions, von Neumann bottleneck
+\item cryptography leads to creation of Turing machines one side of the Atlantic, numerical analysis of nuclear weapons leads to creation of Turing machines on the other (Dyson, pg 257)
 \item Shannon: communication, information in data streams, again focus is on serial information processing
 \item computing hardware: vacuum tubes, punched cards lead to silicon microelectronics, si uniquely suited to accomplishing digital computing, von Neumann architecture still going strong in si
 \item communication hardware: ethernet for pretty big networks, fiber-optic cables replacing telegraphs under the atlantic
 \item silicon photonics is where these two meet: light for commmunication, electronics for computation, maintaining the von Neumann architecture, WDM across the von Neumann bottleneck
+\item Turing's discussion of ingenuity and intuition (Dyson pg. 252): digital all ingenuity, brute force search; neuro brings intuition back and honors its role; populations of neurons enable intuition to be based on Bayesian inference rather than random guesses.
+\item Turing says ``ingenuity replaced by patience''. This is very much what happens in digital neuro. Brute search takes to long to enable neural information processing.
+\item computing, communication theory, and cryptography all advanced significantly during and in response to WWII. The 80 years from 1938 to 2018 have seen the emergence of transformative technologies in these fields. Much contemporary work follows in these veins. For example, the goals of a universal quantum computer are very similar to Turing's universal calculator, with the addition of quantum physics to dramatically increase the speed of certain algorithms. Because quantum states are fragile and subject to decoherence, quantum systems strike us as very poorly suited to perform the serial operations of a Turing processor requiring writing and reading to reliable memory. Nevertheless, the requirement for cryptography in a world where trust is unfounded is sufficient motivation for many to pursue quantum computers, if for no other reason than to perform Schor's algorithm.
+\item Grover's search algorithm is another motivator, again following Turing's line of reasoning to replace intuition with ingenuity, and ingenuity with brute search. The problem is the physics and hardware we have at our disposal make it very difficult to realize machines capable of performing these operations efficiently. 
+\item In addition to limitations resulting from the fact that it is hard to implement quantum computers in hardware, some problems simply do not map well onto Turing machines, no matter the machine's complexity. Embracing the duality of ingenuity and intuition, as a neural system does, is increasingly useful for solving many of our present problems, including those of national security and defense, and extending into realms of medicine and science.
+\item get to risc v, standardizing the instructions across Turing machines
+\item emphasize irony that Turing was very interested in AI, yet his primary contribution led to computers that were useful in spite of their lack of intelligence
+\item von Neumann not as interested in AI, but interested in how the brain computes, intending more for lessons to be learned to more efficiently perform calculations
+\item the untimely deaths of both arrived too soon to allow them to incorporate the lessons of modern cognitive science into their thinking
+\item both drew inspiration from the brain in their concepts of computer construction
+\item ``The paradox...to understand.'' \cite{dy2012} pg. 263.
+\item McColloch-Pitts, perceptron, 1943, neural nets are Turing universal
 \end{itemize}
 
 \cite{tu1936}
 \cite{ne1945}
 \cite{sh1948}
+
+\cite{tu1936,ne1945,sh1948}
 
 \section{\label{sec:neuroscience}Information processing in neural systems}
 
@@ -102,6 +137,8 @@ Leibniz was one of the first to explore binary arithmetic for computing \cite{}.
 \item application spaces: deep learning, mobile devices, IoT; neuro-inspired, but not really neural computing
 \item mention Mead, sub-threshold transistor IandF isomorphism
 \item The distributed von Neumann approach still effectively steps through differential equations numerically. We advocate for hardware that actually lives through the response modeled by the diff eqs. 
+\item in many CMOS manifestations, each processor core follows the instructions in discrete time that cause it to behave as if it obeyed certain neural differential equations, but the underlying devices do not actually obey those equations. They simply obey the differential equations describing carrier dynamics in semiconductors. Mead attempted to utilize these semiconductor dynamics in analog to behave as neurons, but this has not met with much success, and contemporary approaches more often utilize a digital model of the analog neural system.
+\item mixed-signal approaches
 \end{itemize}
 
 \section{\label{sec:superconductors}Superconductor electronic neural systems}
@@ -206,15 +243,30 @@ Leibniz was one of the first to explore binary arithmetic for computing \cite{}.
 \section{\label{sec:applications}Application spaces}
 
 \begin{itemize}
+\item original applications of computing
+\begin{itemize}
+\item cryptography
+\item weather
+\item bombs
+\item numerical solution to arbitrary diff eqs
+\item from Turing, AI
+\item now, apply to nearly all aspects of modern life
+\end{itemize}
+\item here, following neuroscience applications 
+\begin{itemize}
 \item vision systems
 \item language processing
 \item motor control
-\item an AGI one can play with
+\item may lead to Turing's vision of an AGI one can interact with
+\end{itemize}
+\item others, unique to large-scale neural systems and/or superconducting optoelectonic
+\begin{itemize}
 \item internet monitoring/simulation
 \item society simulation
 \item genetic analysis/evo devo
 \item neuroscience and dynamical systems
 \item quantum/neural hybrid systems
+\end{itemize}
 \end{itemize}
 
 \section{\label{sec:outlook}Outlook}
