@@ -1,9 +1,9 @@
 \contentsline {section}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {2}Historical context}{1}
-\contentsline {section}{\numberline {3}Information processing in neural systems}{2}
-\contentsline {section}{\numberline {4}Semiconductor electronic neural systems}{3}
-\contentsline {section}{\numberline {5}Superconductor electronic neural systems}{3}
-\contentsline {section}{\numberline {6}Optoelectronic synapses, dendrites, and neurons}{3}
-\contentsline {section}{\numberline {7}Achieving large-scale optoelectronic systems}{5}
-\contentsline {section}{\numberline {8}Application spaces}{5}
-\contentsline {section}{\numberline {9}Outlook}{5}
+\contentsline {section}{\numberline {3}Information processing in neural systems}{4}
+\contentsline {section}{\numberline {4}Semiconductor electronic neural systems}{4}
+\contentsline {section}{\numberline {5}Superconductor electronic neural systems}{5}
+\contentsline {section}{\numberline {6}Optoelectronic synapses, dendrites, and neurons}{5}
+\contentsline {section}{\numberline {7}Achieving large-scale optoelectronic systems}{6}
+\contentsline {section}{\numberline {8}Application spaces}{7}
+\contentsline {section}{\numberline {9}Outlook}{7}

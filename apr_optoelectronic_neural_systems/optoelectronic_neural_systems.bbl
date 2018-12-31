@@ -1,4 +1,14 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{dy2012}
+G.~Dyson.
+\newblock {\em Turing's Cathedral}.
+\newblock Vintage Books.
+
+\bibitem{sh1948}
+C.E. Shannon.
+\newblock A mathematical theory of communication.
+\newblock {\em The Bell System Technical Journal}, 27:379, 1948.
 
 \bibitem{tu1936}
 A.M. Turing.
@@ -6,14 +16,46 @@ A.M. Turing.
   entscheidungsproblem.
 \newblock {\em J. of Math}, 58:230, 1936.
 
+\bibitem{tu1947}
+A.~Turing.
+\newblock Lecture to the london mathematical society on 20 february 1947.
+\newblock 1947.
+\newblock https://www.vordenker.de/downloads/turing-vorlesung.pdf.
+
+\bibitem{ne1949}
+J.~von Neumann.
+\newblock {\em Problems of Hierarchy and Evolution}.
+\newblock Unknown.
+
+\bibitem{ne1958}
+J.~von Neumann.
+\newblock {\em The computer and the brain}.
+\newblock Yale University Press.
+
+\bibitem{mcpi1943}
+W.S. McCulloch and W.H. Pitts.
+\newblock A logical calculus of the ideas immanent in nervous activity.
+\newblock {\em Bulletin of Mathematical Biophysics}, 5:115, 1943.
+\newblock http://www.cse.chalmers.se/~coquand/AUTOMATA/mcp.pdf.
+
+\bibitem{tu1950}
+A.M. Turing.
+\newblock Computing machinery and intelligence.
+\newblock {\em Mind}, 59:433, 1950.
+
+\bibitem{ne1951}
+J.~von Neumann.
+\newblock {\em The general and logical theory of automata}.
+\newblock Wiley.
+
 \bibitem{ne1945}
 J.~von Neumann.
 \newblock A first draft of a report on the edvac.
 \newblock 1945.
 
-\bibitem{sh1948}
-C.E. Shannon.
-\newblock A mathematical theory of communication.
-\newblock {\em The Bell System Technical Journal}, 27:379, 1948.
+\bibitem{bi1955}
+J.~Bigelow.
+\newblock {\em Physical and Physiological Information Processes and Systems}.
+\newblock unknown.
 
 \end{thebibliography}
