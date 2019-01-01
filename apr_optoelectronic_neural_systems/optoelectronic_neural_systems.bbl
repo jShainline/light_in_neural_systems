@@ -1,20 +1,25 @@
 \begin{thebibliography}{10}
 
-\bibitem{dy2012}
-G.~Dyson.
-\newblock {\em Turing's Cathedral}.
-\newblock Vintage Books.
+\bibitem{tu1936}
+A.M. Turing.
+\newblock On computable numbers, with an application to the
+  entscheidungsproblem.
+\newblock {\em J. of Math}, 58:230, 1936.
+
+\bibitem{ne1945}
+J.~von Neumann.
+\newblock A first draft of a report on the edvac.
+\newblock 1945.
 
 \bibitem{sh1948}
 C.E. Shannon.
 \newblock A mathematical theory of communication.
 \newblock {\em The Bell System Technical Journal}, 27:379, 1948.
 
-\bibitem{tu1936}
-A.M. Turing.
-\newblock On computable numbers, with an application to the
-  entscheidungsproblem.
-\newblock {\em J. of Math}, 58:230, 1936.
+\bibitem{dy2012}
+G.~Dyson.
+\newblock {\em Turing's Cathedral}.
+\newblock Vintage Books.
 
 \bibitem{tu1947}
 A.~Turing.
@@ -48,10 +53,62 @@ J.~von Neumann.
 \newblock {\em The general and logical theory of automata}.
 \newblock Wiley.
 
-\bibitem{ne1945}
-J.~von Neumann.
-\newblock A first draft of a report on the edvac.
-\newblock 1945.
+\bibitem{me1990}
+C.~Mead.
+\newblock Neuromorphic electronic systems.
+\newblock {\em Proc. IEEE}, 78:1629, 1990.
+
+\bibitem{eskn2015}
+E.~Estrada and P.A. Knight.
+\newblock {\em A First Course in Network Theory}.
+\newblock Oxford, Oxford, United Kingdom, first edition, 2015.
+
+\bibitem{baal1999}
+A.-L. Barabasi and R.~Albert.
+\newblock Emergence of scaling in random networks.
+\newblock {\em Science}, 286:509, 1999.
+
+\bibitem{frfr2004}
+A.~Fronczak, P.~Fronczak, and J.A. Holyst.
+\newblock Average path length in random networks.
+\newblock {\em Phys. Rev. E}, 70:056110, 2004.
+
+\bibitem{bu2006}
+G.~Buzsaki.
+\newblock {\em Rhythms of the brain}.
+\newblock Oxford University Press, 2006.
+
+\bibitem{ke1982}
+R.W. Keyes.
+\newblock The wire-limited logic chip.
+\newblock {\em IEEE J. Sol.-Sta. Circuits}, SC-17:1232, 1982.
+
+\bibitem{shICRC2018}
+J.M. Shainline.
+\newblock The largest cognitive systems will be optoelectronic.
+\newblock In {\em IEEE International Conference on Rebooting Computing}. IEEE,
+  Nov 2018.
+
+\bibitem{daab2001}
+P.~Dayan and L.F. Abbott.
+\newblock {\em Theoretical Neuroscience}.
+\newblock The MIT Press, 2001.
+
+\bibitem{fa2007}
+G.~Fagiolo.
+\newblock Clustering in complex directed networks.
+\newblock {\em Phys. Rev. E}, 76:026107, 2007.
+
+\bibitem{wast1998}
+D.J. Watts and S.H. Strogatz.
+\newblock Collective dynamics of small-world networks.
+\newblock {\em Nature}, 393:440, 1998.
+
+\bibitem{hugu2008}
+M.D. Humphries and K.~Gurney.
+\newblock Network 'small-world-ness': a quantitative method for determining
+  canonical network equivalence.
+\newblock {\em PLOS One}, 3:2051, 2008.
 
 \bibitem{bi1955}
 J.~Bigelow.
