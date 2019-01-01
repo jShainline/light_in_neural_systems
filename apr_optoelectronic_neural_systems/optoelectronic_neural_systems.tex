@@ -118,20 +118,29 @@ We can quantify the ability of information to be communicated up the hierarchy b
 \item get into a tad of history here, analogous to Turing/von Neumann
 \end{itemize}
 
+General intelligence: The ability to place a wide variety of information into a coherent context so that the behavior of the relevant parties can be understood and predicted.
+
 \subsection{Summary of neural information}
 Von Neumann suspected the existence of a more subtle and powerful language of information employed by the human brain. Neuroscience has elucidated many of the principles of this language. Let us attempt here to summarize the salient elements that should guide neural hardware design. Given the complexity of the subject and the rapidly evolving state of neuroscience, we expect time to bring corrections to these concepts, yet the foundations of these concepts do seem well established.
 
-The model we have in mind leading to the hardware presented here is as follows. Each neuron attempts to gain access to as much information as is physically possible about the activities of the other neurons in the network. 
+The model from neuroscience informing the hardware presented here is as follows. Each neuron attempts to gain access to as much information as is physically possible about the activities of the other neurons in the network. Each neuron gains access to pieces of this information based on the temporal filter it performs. For example, a given synapse (or pair) can pas on information about the rate, rising edges, falling edges, temporal correlations, or sequences output from any neuron (or pair) in the network. In the temporal domain, we assume the signals can each be given a distinct exponential decay constant. Each synapse then has the information to answer a question, such as, how much has neuron $i$ been firing in the last $\tau_{ij}$ seconds? Or, how much has neuron $i$ been bursting, and then quiescing, and then bursting again in the last $\tau_{ij}$ seconds? 
 
-\vspace{2em}
-At different times, a neuron firing is known by other neurons to mean different things. 
+The answers to these questions must pass through the dendritic arbor. Each dendrite contains information received from one or a number of synapses coupled to the dendrite. The net information contained in the dendrite may be able to answer a question such as, how much have neurons $a$, $b$, and $c$ collectively been firing in the last $\tau$ seconds? Or, how many of a particular subset of 10 neurons in cluster $q$ have stopped firing in the last $\tau$ seconds? 
 
-\vspace{2em}
-The neuron extracts as much information as it can from its neighbors, and it transmits as much as it can to its neighbors through its activity in various effective network contexts established by the state of the dendritic arbor as configured by the inhibitory interneurons.
+When under the influence of inhibitory neurons, a dendritic compartment will be quiet. Upon the release of inhibition, the dendritic compartment reports to the neuron the answer to the question it knows how to answer by transmitting an analog signal in the form of current that modifies the neuron's membrane potential. Each segment of the dendritic arbor performs a nonlinear transfer function on the signals from the synapses connected to that segment, and the neuron itself performs a nonlinear transfer function on the signals it receives from across its dendritic arbor. The neuron's nonlinear transfer function is to produce a pulse (an action potential) when the membrane potential of the soma reaches a certain threshold value. This pulse is communicated through the neuron's axonal arbor to all the neuron's downstream connections as a digital signal, wherein the presence of the pulse informs all downstream connections that under the present network conditions, the activities on all that neuron's dendrites were sufficient to induce firing, and the amplitude of the pulse is not used to encode information.
+
+In this picture, the excitatory (pyramidal) neurons are a knowledge base that can be queried by the inhibitory interneuron network. The net objective of the network is to be able to identify as many correlations as is physically possible across space and time. In space, these correlations are limited by network path lengths. In time, correlations are detectable over time constants of synapses and dendrites. To identify correlations over longer times than this (such as the lifetime of the entity), the logic of synaptic plasticity and metaplasticity come into play \cite{fudr2005,fuab2007}. Note that this model of inhibitory query of pyramidal neurons is readily scalable across arbitrary partitions of the network, so the basic informational principles are continuous from the scale of local networks up to the system as a whole. 
+
+We conjecture that the probability of observing a neuronal avalanche accessing the information in $s$ dendritic compartments scales as $P(s)\sim s^{-\alpha}$. During oscillatory behavior, inhibitory neurons sample specific dendrites in an intentional, controlled manner at a frequency $f_{\theta}$, so that the information contained in the collection of all synapses, dendrites, and neurons active in the functional network resonant at $f_{\theta}$ can be integrated across partitions of the network to be incorporated in computations a higher levels of network hierarchy. The mechanisms for this coherent information access and integration include cross-frequency coupling, wherein local activity occurring at higher frequencies $f_{\gamma}$ is modulated by slower frequencies $f_{\theta}$, with the phase of the higher frequency activity being well-defined relative to the phase of slower frequencies. Such network-wide information integration through multi-scale activity across space and time is thought to be necessary for cognition \cite{bu2006}, perhaps by enabling access to the global neuronal workspace \cite{ba1988,de2014}.
+
+To summarize the summary, a single neuron extracts as much information as it can from its neighbors, and it transmits as much as it can to its neighbors through its activity in various effective network contexts established by the state of the dendritic arbor as configured by the inhibitory interneurons. A cluster in the network attempts to answer as many questions as it can about its inputs, and it attempts to communicate this information across the network to as effectively as possible, and so on up the hierarchy of network partitions. A network of inhibitory neurons samples the information from synapses and dendrites in myriad combinations, in principle answering any question that could be reasonably posed regarding a stimulus that could be physically presented to the entity. 
+
+This model of neural information processing bears a resemblance to a Turing machine. Turing's goal was to make a machine that could answer any question that could be asked within the axioms of its system (universal while not violating G\"{o}del), and the goal here is essentially the same. Yet in addition to the Turing machine behavior, wherein the network acts as an oracle, an intelligent neural system should also be able to ask its own questions by formulating an output that generates a response from an intelligent or inanimate agent so as to gain new information. In addition to generating an entity that is universal in the sense defined by Turing, we aspire to create machines that are intelligent in the sense that they can engage in self-directed learning. Such a machine will be able to answer our questions, but also have a mind of its own.
 
 \section{\label{sec:electronics}Semiconductor electronic neural systems}
 
 \begin{itemize}
+\item Mead
 \item shared communication infrastructure
 \item address-event representation (Bigelow: ``by means of explicit systems of tags characterizing the basically irrelevant geometric properties of the apparatus, known as `addresses'. Accomplishment of the desired time-sequential process on a given computing apparatus turns out to be largely a matter of specifying sequences of addresses of items which are to interact.'' \cite{bi1955})
 \item connectivity/speed tradeoff
@@ -233,7 +242,7 @@ The neuron extracts as much information as it can from its neighbors, and it tra
 
 \end{itemize}
 
-\section{\label{sec:scaling}Achieving large-scale optoelectronic systems}
+\section{\label{sec:scaling}Large-scale optoelectronic systems}
 
 \begin{itemize}
 \item unprecedented integration of photonics and electronics in a scalable process that can be implemented with existing infrastructure--change a few implant conditions, swap out a few sputtering targets, improve BEOL dielectrics for photonics
@@ -324,6 +333,9 @@ Misc. notes:
 \item ``The paradox...to understand.'' \cite{dy2012} pg. 263.
 \end{itemize}
 
+
+\vspace{2em}
+At different times, a neuron firing is known by other neurons to mean different things.
 
 %In the neural system, recent computations are effectively stored at synapses
 

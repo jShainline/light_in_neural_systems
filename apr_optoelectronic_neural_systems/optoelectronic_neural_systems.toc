@@ -3,9 +3,10 @@
 \contentsline {section}{\numberline {3}Information processing in neural systems}{4}
 \contentsline {subsection}{\numberline {3.1}Spatial structure of neural systems}{4}
 \contentsline {subsection}{\numberline {3.2}Temporal dynamics of neural systems}{6}
-\contentsline {section}{\numberline {4}Semiconductor electronic neural systems}{6}
-\contentsline {section}{\numberline {5}Superconductor electronic neural systems}{6}
-\contentsline {section}{\numberline {6}Optoelectronic synapses, dendrites, and neurons}{7}
-\contentsline {section}{\numberline {7}Achieving large-scale optoelectronic systems}{8}
-\contentsline {section}{\numberline {8}Application spaces}{8}
-\contentsline {section}{\numberline {9}Outlook}{9}
+\contentsline {subsection}{\numberline {3.3}Summary of neural information}{6}
+\contentsline {section}{\numberline {4}Semiconductor electronic neural systems}{7}
+\contentsline {section}{\numberline {5}Superconductor electronic neural systems}{8}
+\contentsline {section}{\numberline {6}Optoelectronic synapses, dendrites, and neurons}{8}
+\contentsline {section}{\numberline {7}Large-scale optoelectronic systems}{9}
+\contentsline {section}{\numberline {8}Application spaces}{9}
+\contentsline {section}{\numberline {9}Outlook}{10}
