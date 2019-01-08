@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.12)  8 JAN 2019 14:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.12)  8 JAN 2019 15:05
 entering extended mode
 **./optoelectronic_neural_systems.tex
 (optoelectronic_neural_systems.tex
@@ -562,31 +562,31 @@ LaTeX Warning: Reference `fig:short-term_plasticity' on page 8 undefined on inp
 ut line 150.
 
 [8]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 184.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 188.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [9]
-Underfull \hbox (badness 1648) in paragraph at lines 240--240
+) [9] [10]
+Underfull \hbox (badness 1648) in paragraph at lines 244--244
 [][]\OT1/lmr/bx/n/14.4 Optoelectronic synapses, den-
  []
 
-[10] [11] [12]
-Underfull \hbox (badness 2689) in paragraph at lines 400--401
+[11] [12] [13]
+Underfull \hbox (badness 2689) in paragraph at lines 407--408
 []\OT1/lmr/m/n/10 Turing: in-ter-ests, uni-ver-sal com-pu-ta-tion, com-
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 401--402
+Underfull \hbox (badness 1158) in paragraph at lines 408--409
 \OT1/lmr/m/n/10 mer-i-cal in-ves-ti-ga-tion of nu-mer-ous phys-i-cal prob-
  []
 
-[13]
-Underfull \hbox (badness 3364) in paragraph at lines 403--404
+
+Underfull \hbox (badness 3364) in paragraph at lines 410--411
 []\OT1/lmr/m/n/10 Shannon: com-mu-ni-ca-tion, in-for-ma-tion in data
  []
 
-(optoelectronic_neural_systems.bbl
+(optoelectronic_neural_systems.bbl [14]
 Underfull \hbox (badness 5771) in paragraph at lines 25--29
 []\OT1/lmr/m/n/10 A. Tur-ing.  Lec-ture to the lon-don math-e-
  []
@@ -622,7 +622,7 @@ Underfull \hbox (badness 5203) in paragraph at lines 41--45
 \OT1/lmr/m/n/10 5:115, 1943.  http://www.cse.chalmers.se/ co-
  []
 
-[14]
+[15]
 Underfull \hbox (badness 2617) in paragraph at lines 235--239
 \OT1/lmr/m/n/10 heb-bian learn-ing through spike-timing-dependent
  []
@@ -632,11 +632,14 @@ Underfull \hbox (badness 1874) in paragraph at lines 241--244
 []\OT1/lmr/m/n/10 H. Markram, W. Ger-st-ner, and P.J. Sjostrom.
  []
 
-[15]) [16
+) [16
 
 ] (optoelectronic_neural_systems.aux)
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
@@ -665,7 +668,7 @@ pe1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/lm/lmsy7.pfb>
-Output written on optoelectronic_neural_systems.pdf (16 pages, 920412 bytes).
+Output written on optoelectronic_neural_systems.pdf (16 pages, 921613 bytes).
 PDF statistics:
  231 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -25,8 +25,8 @@
 \contentsline {subsubsection}{\numberline {3.2.12}Fractal use of space and time}{9}
 \contentsline {subsection}{\numberline {3.3}Summary of neural information}{9}
 \contentsline {section}{\numberline {4}Semiconductor electronic neural systems}{10}
-\contentsline {section}{\numberline {5}Superconductor electronic neural systems}{10}
+\contentsline {section}{\numberline {5}Superconductor electronic neural systems}{11}
 \contentsline {section}{\numberline {6}Optoelectronic synapses, dendrites, and neurons}{11}
 \contentsline {section}{\numberline {7}Large-scale optoelectronic systems}{12}
-\contentsline {section}{\numberline {8}Application spaces}{12}
+\contentsline {section}{\numberline {8}Application spaces}{13}
 \contentsline {section}{\numberline {9}Outlook}{13}
