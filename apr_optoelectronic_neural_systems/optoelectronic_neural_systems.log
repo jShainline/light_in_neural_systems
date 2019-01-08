@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.12)  1 JAN 2019 11:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.12)  7 JAN 2019 17:07
 entering extended mode
 **./optoelectronic_neural_systems.tex
 (optoelectronic_neural_systems.tex
@@ -499,7 +499,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 4.
 
-Underfull \hbox (badness 2762) in paragraph at lines 9--9
+Underfull \hbox (badness 2762) in paragraph at lines 11--11
  [] []\OT1/lmr/bx/n/10 Optoelectronic synapses, den-drites, and 
  []
 
@@ -523,62 +523,89 @@ LaTeX Warning: Citation `https://hal.archives-ouvertes.fr/ads-00104781/document
 [1
 
 {C:/Users/jeffr/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-Underfull \vbox (badness 1087) has occurred while \output is active []
+Underfull \vbox (badness 2573) has occurred while \output is active []
 
  [3]
 
 LaTeX Warning: Citation `rusp2010' on page 4 undefined on input line 92.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 <data_plots.pdf, id=17, 244.69318pt x 438.3025pt>
 File: data_plots.pdf Graphic file (type pdf)
 <use data_plots.pdf>
 Package pdftex.def Info: data_plots.pdf  used on input line 100.
 (pdftex.def)             Requested size: 244.69386pt x 438.3081pt.
-
-Underfull \vbox (badness 5696) has occurred while \output is active []
-
  [4]
 
 LaTeX Warning: Citation `eskn2014' on page 5 undefined on input line 104.
 
 [5 <./data_plots.pdf>]
 
-LaTeX Warning: Citation `mo1978' on page 6 undefined on input line 108.
+LaTeX Warning: Citation `mo1978' on page 6 undefined on input line 109.
 
 
-LaTeX Warning: Citation `beba2017' on page 6 undefined on input line 108.
+LaTeX Warning: Citation `beba2017' on page 6 undefined on input line 109.
 
 
-LaTeX Warning: Citation `rusp2010' on page 6 undefined on input line 108.
+LaTeX Warning: Citation `rusp2010' on page 6 undefined on input line 109.
 
 
-LaTeX Warning: Citation `beba2017' on page 6 undefined on input line 108.
+LaTeX Warning: Citation `beba2017' on page 6 undefined on input line 109.
 
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 115.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
+Underfull \vbox (badness 2005) has occurred while \output is active []
+
+
+
+LaTeX Warning: Citation `bagr2010' on page 6 undefined on input line 116.
+
+
+LaTeX Warning: Citation `bagr2010' on page 6 undefined on input line 118.
+
+
+LaTeX Warning: Citation `ma1983' on page 6 undefined on input line 118.
+
+
+LaTeX Warning: Citation `sc1991' on page 6 undefined on input line 118.
+
+
+LaTeX Warning: Citation `oz2004' on page 6 undefined on input line 120.
+
+[6]
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 130.
+
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [6] [7]
-Underfull \hbox (badness 1648) in paragraph at lines 173--173
+) [7]
+Underfull \hbox (badness 1648) in paragraph at lines 189--189
 [][]\OT1/lmr/bx/n/14.4 Optoelectronic synapses, den-
  []
 
 [8] [9]
-Underfull \hbox (badness 2689) in paragraph at lines 321--322
+
+LaTeX Warning: Citation `oz1992' on page 10 undefined on input line 284.
+
+
+LaTeX Warning: Citation `oz2004' on page 10 undefined on input line 284.
+
+[10]
+Underfull \hbox (badness 2689) in paragraph at lines 347--348
 []\OT1/lmr/m/n/10 Turing: in-ter-ests, uni-ver-sal com-pu-ta-tion, com-
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 322--323
+Underfull \hbox (badness 1158) in paragraph at lines 348--349
 \OT1/lmr/m/n/10 mer-i-cal in-ves-ti-ga-tion of nu-mer-ous phys-i-cal prob-
  []
 
 
-Underfull \hbox (badness 3364) in paragraph at lines 324--325
+Underfull \hbox (badness 3364) in paragraph at lines 350--351
 []\OT1/lmr/m/n/10 Shannon: com-mu-ni-ca-tion, in-for-ma-tion in data
  []
 
-[10] (optoelectronic_neural_systems.bbl
+[11] (optoelectronic_neural_systems.bbl
 Underfull \hbox (badness 5771) in paragraph at lines 25--29
 []\OT1/lmr/m/n/10 A. Tur-ing.  Lec-ture to the lon-don math-e-
  []
@@ -614,7 +641,7 @@ Underfull \hbox (badness 5203) in paragraph at lines 41--45
 \OT1/lmr/m/n/10 5:115, 1943.  http://www.cse.chalmers.se/ co-
  []
 
-) [11] (optoelectronic_neural_systems.aux)
+) [12] (optoelectronic_neural_systems.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -623,16 +650,16 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 4463 strings out of 492973
- 67995 string characters out of 3135932
- 138541 words of memory out of 3000000
- 8260 multiletter control sequences out of 15000+200000
+ 4469 strings out of 492973
+ 68046 string characters out of 3135932
+ 137550 words of memory out of 3000000
+ 8266 multiletter control sequences out of 15000+200000
  45752 words of font info for 35 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,39p,2508b,298s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/M
-iKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
-nc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathe
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/
+MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/
+enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathe
 x.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Program
  Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX 2.9
@@ -648,9 +675,9 @@ pe1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/lm/lmsy7.pfb>
-Output written on optoelectronic_neural_systems.pdf (11 pages, 890479 bytes).
+Output written on optoelectronic_neural_systems.pdf (12 pages, 899578 bytes).
 PDF statistics:
- 215 PDF objects out of 1000 (max. 8388607)
+ 218 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
