@@ -111,9 +111,9 @@ Anatomically, clusters in the brain were thoroughly described by Mountcastle in 
 We can quantify the ability of information to be communicated up the hierarchy by analyzing the number of connections penetrating various partitions of the network, referred to as Rentian analysis. Rent's rule states that the number of edges crossing the boundary of a partition ($k$) is related to the number of nodes within the partition ($n$) by a power law of the form
 \begin{equation}
 \label{eq:Rent}
-k(n) = k_0 n^p,
+k(n) = k_1 n^p,
 \end{equation}
-where $k_0$ is the number of edges emanating from each node (zeroth level of hierarchy), and $p$ is referred to as the Rent exponent. Rent's rule (Eq.\,\ref{eq:Rent}) was first observed in the context of VLSI circuits, and has also been shown to hold for biological neural circuits ranging from \textit{C. elegans} to the human brain \cite{bagr2010}. 
+where $k_1$ is the number of edges emanating from each node (lowest level of hierarchy), and $p$ is referred to as the Rent exponent. Rent's rule (Eq.\,\ref{eq:Rent}) was first observed in the context of VLSI circuits, and has also been shown to hold for biological neural circuits ranging from \textit{C. elegans} to the human brain \cite{bagr2010}. 
 
 Depending on the system under study, the Rent exponent may vary, but is generally around 0.75 \cite{bagr2010}. We will demonstrate the use of Eq.\,\ref{eq:Rent} in Sec.\,\ref{sec:scaling}. The significance of the Rent exponent can be seen in its relation to the topological dimension, $D$. In Euclidean geometry, the surface area of a structure embedded in $d$-dimensional space is given by a power law of the form $s\sim v^p$. In general, the surface area $s$ scales as a length to the power of $d-1$, while the volume scales as a length to the power of $d$. Thus, in Euclidean geometry, $p = 1-1/d$, or $d = (1-p)^{-1}$. The same expression holds in fractal geometry \cite{ma1983,sc1991}, and in the case of Rentian scaling the topological dimension is related to the Rent exponent by $D = (1-p)^{-1}$, with $0 \le p \le 1$, so that $1 \le D \le \infty$. For $p >2/3$, the topological dimension is larger than the embedding dimension, indicating that through a judicious implementation of input and output ports, information can flow through a network as if its components were connected in a higher-dimensional space. In the case of the brain, we find $D \approx 4$.
 
@@ -125,6 +125,9 @@ The spatial structure of a neural system must comprise nodes with many edges to 
 
 \subsection{Temporal dynamics of neural systems}
 A neuron is a dynamical entity. 
+
+\subsubsection{Relaxation Oscillators}
+A defining aspect of cognitive systems is the ability to differentiate locally to create many sub-processors, but also to integrate the information from many small regions into a cohesive system, and to repeat this architecture across many spatial and temporal scales. A network of many dynamical nodes, each with the capability of operating at many frequencies, gives rise to a vast state space. As computational primitives that can enable such a dynamical system, oscillators are ideal candidates. In particular, relaxation oscillators \cite{st2015,mist1990,soko1993,lued1997,huya2000,bu2006,gile2011,vepe1968,cacl1981} with temporal dynamics on multiple time scales \cite{soko1993} have many attractive properties for neural computing, which is likely why the brain is constructed of such devices \cite{ll1988}. We define a relaxation oscillator as an element, circuit, or system that produces rapid surges of a physical quantity or signal as the result of a cycle of accumulation and discharge. Relaxation oscillators are energy efficient in that they generally experience a long quiescent period followed by a short burst of activity. Timing between these short pulses can be precisely defined and detected \cite{bu2006}. Relaxation oscillators can operate at many frequencies \cite{huya2000} and engage with myriad dynamical interactions \cite{lued1997}. The oscillator's response is tunable \cite{huya2000}, they are resilient to noise because their signals are effectively digital \cite{stgo2005}, and they can encode information in their mean oscillation frequency as well as in higher-order timing correlations \cite{pasc1999,thde2001,sase2001,stse2007,brcl2010,haah2015}.
 
 \begin{itemize}
 \item basic device functionality
@@ -169,6 +172,7 @@ This model of neural information processing bears a resemblance to a Turing mach
 \item The distributed von Neumann approach still effectively steps through differential equations numerically. We advocate for hardware that actually lives through the response modeled by the diff eqs. 
 \item in many CMOS manifestations, each processor core follows the instructions in discrete time that cause it to behave as if it obeyed certain neural differential equations, but the underlying devices do not actually obey those equations. They simply obey the differential equations describing carrier dynamics in semiconductors. Mead attempted to utilize these semiconductor dynamics in analog to behave as neurons, but this has not met with much success, and contemporary approaches more often utilize a digital model of the analog neural system.
 \item mixed-signal approaches
+\item contention delay is incompatible with neural information processing
 \end{itemize}
 
 \section{\label{sec:superconductors}Superconductor electronic neural systems}
@@ -280,17 +284,8 @@ This model of neural information processing bears a resemblance to a Turing mach
 \item ultimate limits
 \end{itemize}
 
-\vspace{3em}
+
 For general networks, the algorithm by which partitions are identified can be made mathematically rigorous from a network theory perspective \cite{oz1992,oz2004}. For the analysis at hand, we consider the partitions of the network we have assigned in the hierarchy. For example ... (minicolumns, mesocolumns, macrocolumns on a wafer(s); multi-columnar modules, ...) 
-
-\vspace{3em}
-The human mind performs the best of all species on earth for cognitive tasks. Yet humans do not have unique neural devices. Our myriad neruons are all found in other species. Even the cytoarchitecture of brain columns and their size in the cortex is remarkably consistent across species. Yet we do have more of these columns in our cortex than even our closest kin. Our improved intelligence appears to be due to slightly improved scaling of the cortex, but not due to improvements at the device or microarchitecture level. The general concepts of our brain's operation do not depart from that of our ancestors. And it appears overall network size is correlated with intelligence across species. 
-
-But why do columns take the specific size they do? And why are they arranged in the their specific configuration? Like many aspects of the brain, module size and layout is probably due to the necessity of minimizing volume and energy consumption while maximizing information processing \cite{busp2012}. As computational capacity (gray matter) increases, so does the need for communication (white matter), and when considering the brain as a whole, this leads to universal scaling between gray and white matter across species\cite{zhse2000}. The number of neurons comprising a minicolumn, column, etc., is presumably related to the information-processing needs of a basic module. The spatial configuration from the scale of minicolumns to the brain as a whole is likely maximizing computation and communication under the constraints of the size and power consumption of the consumption of the constitutive elements \cite{klst2003}.
-
-These considerations regarding the structure of the brain are likely to apply to optoelectronic neural systems, with the modified constants appropriate to the size of electronic computing elements (gray matter) and photonic waveguides (white matter). Nearly all minicolumns have around 100 neurons, so we assume evolution has converged to a reliable useful number of neurons in a module at the first level of hierarchy. We begin with this unit, and build a model of a specific optoelectronic geometry based on assumptions regarding practical implementations with known photonic technologies. 
-
-
 
 \section{\label{sec:applications}Application spaces}
 
