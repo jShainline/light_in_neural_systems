@@ -110,15 +110,158 @@ M.D. Humphries and K.~Gurney.
   canonical network equivalence.
 \newblock {\em PLOS One}, 3:2051, 2008.
 
-\bibitem{fudr2005}
-S.~Fusi, P.J. Drew, and L.F. Abbott.
-\newblock Casdcade models of synaptically stored memories.
-\newblock {\em Neuron}, 45:599, 2005.
+\bibitem{bagr2010}
+D.S. Bassett, D.L. Greenfield, A.~Meyer-Lindenberg, D.R. Weinberger, S.W.
+  Moore, and E.T. Bullmore.
+\newblock Efficient physical embedding of topologically complex information
+  processing networks in brains and computer circuits.
+\newblock {\em PLoS Computational Biology}, 6:1, 2010.
+
+\bibitem{oz2004}
+H.M. Ozaktas.
+\newblock Information flow and interconnections in computing: extensions and
+  applications of rent's rule.
+\newblock {\em J. Parallel Distrib. Comput.}, 64:1360, 2004.
+
+\bibitem{st2015}
+S.~Strogatz.
+\newblock {\em Nonlinear dynamics and chaos}.
+\newblock Westview Press, 2015.
+
+\bibitem{mist1990}
+R.E. Mirollo and S.H. Strogatz.
+\newblock Synchronization of pulse-coupled biological oscillators.
+\newblock {\em SIAM J. Appl. Math}, 50:1645, 1990.
+
+\bibitem{soko1993}
+D.~Somers and N.~Kopell.
+\newblock Rapid synchronization through fast threshold modulation.
+\newblock {\em Biological cybernetics}, 68:393, 1993.
+
+\bibitem{lued1997}
+E.D. Lumer, G.M. Edelman, and G.~Tononi.
+\newblock Neural dynamics in a model of thalamocortical system. i. layers,
+  loops and the emergence of fast synchronous rhythms.
+\newblock {\em Cerebral Cortex}, 7:207, 1997.
+
+\bibitem{huya2000}
+B.~Hutcheon and Y.~Yarom.
+\newblock Resonance, oscillation and the intrinsic frequency preferences of
+  neurons.
+\newblock {\em Trends in Neuroscience}, 23:216, 2000.
+
+\bibitem{gile2011}
+Jean-Marc Ginoux and Christophe Letellier.
+\newblock Van der pol and the history of relaxation oscillations: Toward the
+  emergence of a concept.
+\newblock {\em Chaos}, 22:023120, 2011.
+
+\bibitem{vepe1968}
+F.L.~Vernon Jr. and R.J. Pedersen.
+\newblock Relaxation oscillations in josephson junctions.
+\newblock {\em J. Appl. Phys.}, 39:2661, 1968.
+
+\bibitem{cacl1981}
+N.~Calander, T.~Claeson, and S.~Rudner.
+\newblock A subharmonic josephson relaxation oscillator - amplification and
+  locking.
+\newblock {\em Appl. Phys. Lett.}, 39:504, 1981.
+
+\bibitem{ll1988}
+R.R. Llinas.
+\newblock The intrinsic electrophysiological properties of mammalian neurons:
+  insights into central nervous system function.
+\newblock {\em Science}, 242:1654, 1988.
+
+\bibitem{stgo2005}
+R.B. Stein, E.R. Gossen, and K.E. Jones.
+\newblock Neuronal variability: noise or part of the signal?
+\newblock {\em Nature Neuroscience}, 6:389, 2005.
+
+\bibitem{pasc1999}
+S.~Panzeri, S.R. Schultz, A.~Treves, and E.T. Rolls.
+\newblock Correlations and the encoding of information in the nervous system.
+\newblock {\em Proc. R. Soc. Lond. B}, 266:1001, 1999.
+
+\bibitem{thde2001}
+S.~Thorpe, A.~Delorme, and R.~Van Rullen.
+\newblock Spike-based strategies for rapid processing.
+\newblock {\em Neural Networks}, 14:715, 2001.
+
+\bibitem{sase2001}
+E.~Salinas and T.J. Sejnowski.
+\newblock Correlated neuronal activity and the flow of neural information.
+\newblock {\em Nature Reviews Neuroscience}, 2:539, 2001.
+
+\bibitem{stse2007}
+K.M. Stiefel and T.J. Sejnowski.
+\newblock Mapping function on neuronal morphology.
+\newblock {\em J. Neurophysiol.}, 98:513, 2007.
+
+\bibitem{brcl2010}
+T.~Branco, B.A. Clark, and M.~Hausser.
+\newblock Dendritic discrimination of temporal input sequences in cortical
+  neurons.
+\newblock {\em Science}, 329:1671, 2010.
+
+\bibitem{haah2015}
+J.~Hawkins and S.~Ahmad.
+\newblock Why neurons have thousands of synapses, a theory of sequence memory
+  in neocortex.
+\newblock {\em Frontiers in Neural Circuits}, 10:23, 2016.
+
+\bibitem{iz2007}
+E.M. Izhikevich.
+\newblock {\em Dynamical systems in neuroscience}.
+\newblock MIT Press.
+
+\bibitem{abre2004}
+L.F. Abbott and W.G. Regehr.
+\newblock Synaptic computation.
+\newblock {\em Nature Reviews}, 431:796, 2004.
+
+\bibitem{he1949}
+D.O. Hebb.
+\newblock {\em Organization of behavior: a neuropsychological theory}.
+\newblock John Wiley and Sons.
+
+\bibitem{bipo1998}
+G.-Q. Bi and M.-M. Poo.
+\newblock Synaptic modifications in cultured hippocampal neurons: dependence on
+  spike timing, synaptic strength, and postsynaptic cell type.
+\newblock {\em Journal of Neuroscience}, 18:10464, 1998.
+
+\bibitem{somi2000}
+S.~Song, K.D. Miller, and L.F. Abbott.
+\newblock Competitive hebbian learning through spike-timing-dependent synaptic
+  plasticity.
+\newblock {\em Nature Neuroscience}, 3:919, 2000.
+
+\bibitem{mage2012}
+H.~Markram, W.~Gerstner, and P.J. Sjostrom.
+\newblock Spike-timing-dependent plasticity: a comprehensive overview.
+\newblock {\em Frontiers in Synaptic Neuroscience}, 4:2, 2012.
+
+\bibitem{shki2006}
+C.-W. Shin and S.~Kim.
+\newblock Self-organized criticality and scale-free properties in emergent
+  functional neural networks.
+\newblock {\em Phys. Rev. E}, 74:045101(R), 2006.
 
 \bibitem{fuab2007}
 S.~Fusi and L.F. Abbott.
 \newblock Limits on the memory storage capacity of bounded synapses.
 \newblock {\em Nature Neuroscience}, 10:485, 2007.
+
+\bibitem{ab2008}
+W.C. Abraham.
+\newblock Metaplasticity: tuning synapses and networks for plasticity.
+\newblock {\em Nature Neuroscience}, 9:387, 2008.
+
+\bibitem{fudr2005}
+S.~Fusi, P.J. Drew, and L.F. Abbott.
+\newblock Casdcade models of synaptically stored memories.
+\newblock {\em Neuron}, 45:599, 2005.
 
 \bibitem{ba1988}
 B.J. Baars.
@@ -134,5 +277,10 @@ S.~Dehane.
 J.~Bigelow.
 \newblock {\em Physical and Physiological Information Processes and Systems}.
 \newblock unknown.
+
+\bibitem{oz1992}
+H.M. Ozaktas.
+\newblock Paradigms of connectivity for computer circuits and networks.
+\newblock {\em Optical Engineering}, 31:1563, 1992.
 
 \end{thebibliography}

@@ -9,6 +9,8 @@ Warning--I didn't find a database entry for "rusp2010"
 Warning--I didn't find a database entry for "eskn2014"
 Warning--I didn't find a database entry for "mo1978"
 Warning--I didn't find a database entry for "beba2017"
+Warning--I didn't find a database entry for "ma1983"
+Warning--I didn't find a database entry for "sc1991"
 Warning--empty journal in ne1945
 Warning--empty year in dy2012
 Warning--empty journal in tu1947
@@ -16,5 +18,7 @@ Warning--empty year in ne1949
 Warning--empty year in ne1958
 Warning--can't use both author and editor fields in ne1951
 Warning--empty year in ne1951
+Warning--empty year in iz2007
+Warning--empty year in he1949
 Warning--empty year in bi1955
-(There were 16 warnings)
+(There were 20 warnings)
