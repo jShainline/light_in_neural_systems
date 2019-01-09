@@ -18,16 +18,17 @@
 \contentsline {subsubsection}{\numberline {3.2.5}Metaplasticity}{9}
 \contentsline {subsubsection}{\numberline {3.2.6}Homeostatic plasticity}{9}
 \contentsline {subsubsection}{\numberline {3.2.7}Dendritic processing}{9}
-\contentsline {subsubsection}{\numberline {3.2.8}The integrate-and-fire model}{10}
-\contentsline {subsubsection}{\numberline {3.2.9}From devices to populations}{10}
-\contentsline {subsubsection}{\numberline {3.2.10}Neuronal avalanches}{10}
-\contentsline {subsubsection}{\numberline {3.2.11}Entrained oscillations and synchrony}{10}
-\contentsline {subsubsection}{\numberline {3.2.12}Cross-frequency coupling}{10}
-\contentsline {subsubsection}{\numberline {3.2.13}Fractal use of space and time}{10}
+\contentsline {subsubsection}{\numberline {3.2.8}Inhibition}{10}
+\contentsline {subsubsection}{\numberline {3.2.9}Which model of neuronal dynamics to use?}{10}
+\contentsline {subsubsection}{\numberline {3.2.10}From devices to populations}{10}
+\contentsline {subsubsection}{\numberline {3.2.11}Neuronal avalanches}{10}
+\contentsline {subsubsection}{\numberline {3.2.12}Entrained oscillations and synchrony}{10}
+\contentsline {subsubsection}{\numberline {3.2.13}Cross-frequency coupling}{10}
+\contentsline {subsubsection}{\numberline {3.2.14}Fractal use of space and time}{10}
 \contentsline {subsection}{\numberline {3.3}Summary of neural information}{10}
 \contentsline {section}{\numberline {4}Semiconductor electronic neural systems}{11}
-\contentsline {section}{\numberline {5}Superconductor electronic neural systems}{11}
-\contentsline {section}{\numberline {6}Optoelectronic synapses, dendrites, and neurons}{11}
+\contentsline {section}{\numberline {5}Superconductor electronic neural systems}{12}
+\contentsline {section}{\numberline {6}Optoelectronic synapses, dendrites, and neurons}{12}
 \contentsline {section}{\numberline {7}Large-scale optoelectronic systems}{13}
-\contentsline {section}{\numberline {8}Application spaces}{13}
+\contentsline {section}{\numberline {8}Application spaces}{14}
 \contentsline {section}{\numberline {9}Outlook}{14}

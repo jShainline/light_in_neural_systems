@@ -31,7 +31,7 @@
 	%\centerline{\large National Institute of Standards and Technology}
 	\vspace{0.5em}
 	\centerline{\normalsize NIST, Boulder, CO, 80305}
-	\vspace{0.5em}
+	\vspace{0.3em}
 	\centerline{\small \today}
 	%-------------------- end header ---------------------%
 	
@@ -179,13 +179,19 @@ To conclude this discussion of synaptic plasticity mechanisms, we note that shor
 \subsubsection{Dendritic processing}
 We have discussed how STDP leads to the formation of functional clusters within a network based on the history of correlated neuronal activity. But what if the network wishes to isolate specific functional clusters on time scales as short as an inter-spike interval? Or what if we wish to endow a neuron with the ability to respond not only to activity in single synapses, but rather to integrated activity from specific clusters of synapses, or to specific sequences of activity within a cluster of synapses? Dendritic processing enables these functions.
 
-Dendritic processing refers to the intermediate, nonlinear transfer function performed by dendrites between individual synapses and the neuron as a whole \cite{stsp2015}. The dendritic arbor is a complex, branching structure on which most of a neurons input synapses make their connections. The dendritic branches that comprise the arbor have passive and active properties that allow them to perform various computations. The dendritic arbor can thus be modeled as a network of multiple independent threshold units that integrate signals and produce dendritic spikes upon reaching threshold \citep{sava2017}.
+Dendritic processing refers to the intermediate, nonlinear transfer function performed by dendrites between individual synapses and the neuron as a whole \cite{stsp2015}. The dendritic arbor is a complex, branching structure on which most of a neurons input synapses make their connections. The dendritic branches that comprise the arbor have passive and active properties that allow them to perform various computations. The dendritic arbor can thus be modeled as a network of multiple independent threshold units that integrate signals and produce dendritic spikes upon reaching threshold \cite{sava2017}.
 
 For example, consider a dendrite with two synapses. If the post-synaptic current into the dendrite is sufficient to produce a dendritic spike, and if this dendritic spike has the same form whether one or both synapses fire, the dendrite performs the OR operation. If both synapses are required to fire to produce a dendritic spike, it performs the AND operation. The current generated in a dendritic spike propagates only a short distance along the dendritic tree, into the next dendritic compartment closer to the cell body, and the current decays with an exponential time constant. Thus, dendrites can perform basic logical operations with a temporal component, and activity closer to the base of the dendritic tree at the cell body integrates information from a larger number of inputs. 
 
 In addition to the simple two-synapse Boolean operations described above, it has been proposed that 
 
-Dendritic processing may even play a central role in learning as well. It appears to be the case that modification of NMDA receptors involved in STDP is governed by the production of dendritic spikes, and it is not required that the neuron fire in order for synaptic potentiation or depression to occur. These dendritic processing functions, including integration and thresholding, basic logical operations, sequence detection, and role in learning, indicate several means by which the devices comprising neurons and neural systems perform complex operations to maximize the ability of each neuron to utilize the information it is presented. In light of all this complexity, how should we mathematically model these devices?
+Dendritic processing may even play a central role in learning as well. It appears to be the case that modification of NMDA receptors involved in STDP is governed by the production of dendritic spikes, and it is not required that the neuron fire in order for synaptic potentiation or depression to occur. These dendritic processing functions, including integration and thresholding, basic logical operations, sequence detection, and role in learning, indicate several means by which the devices comprising neurons and neural systems perform complex operations to maximize the ability of each neuron to utilize the information it is presented.
+
+transition text about dendritic processing with inhibition to dynamically conjure functional clusterings
+
+\subsubsection{Inhibition}
+
+In light of all this complexity, how should we mathematically model these devices?
 
 \subsubsection{Which model of neuronal dynamics to use?}
 
