@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.12)  9 JAN 2019 00:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.12)  9 JAN 2019 18:38
 entering extended mode
 **./optoelectronic_neural_systems.tex
 (optoelectronic_neural_systems.tex
@@ -499,7 +499,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 4.
 
-Underfull \hbox (badness 2762) in paragraph at lines 31--31
+Underfull \hbox (badness 2762) in paragraph at lines 30--30
  [] []\OT1/lmr/bx/n/10 Optoelectronic synapses, den-drites, and 
  []
 
@@ -562,31 +562,35 @@ LaTeX Warning: Reference `fig:short-term_plasticity' on page 8 undefined on inp
 ut line 150.
 
 [8] [9]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 210.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 206.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [10] [11]
-Underfull \hbox (badness 1648) in paragraph at lines 266--266
+Underfull \hbox (badness 1648) in paragraph at lines 262--262
 [][]\OT1/lmr/bx/n/14.4 Optoelectronic synapses, den-
  []
 
 [12] [13] [14]
-Underfull \hbox (badness 2689) in paragraph at lines 429--430
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+[16]
+Underfull \hbox (badness 2689) in paragraph at lines 465--466
 []\OT1/lmr/m/n/10 Turing: in-ter-ests, uni-ver-sal com-pu-ta-tion, com-
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 430--431
+Underfull \hbox (badness 1158) in paragraph at lines 466--467
 \OT1/lmr/m/n/10 mer-i-cal in-ves-ti-ga-tion of nu-mer-ous phys-i-cal prob-
  []
 
 
-Underfull \hbox (badness 3364) in paragraph at lines 432--433
+Underfull \hbox (badness 3364) in paragraph at lines 468--469
 []\OT1/lmr/m/n/10 Shannon: com-mu-ni-ca-tion, in-for-ma-tion in data
  []
 
-(optoelectronic_neural_systems.bbl [15]
+[17] (optoelectronic_neural_systems.bbl
 Underfull \hbox (badness 5771) in paragraph at lines 25--29
 []\OT1/lmr/m/n/10 A. Tur-ing.  Lec-ture to the lon-don math-e-
  []
@@ -622,7 +626,7 @@ Underfull \hbox (badness 5203) in paragraph at lines 41--45
 \OT1/lmr/m/n/10 5:115, 1943.  http://www.cse.chalmers.se/ co-
  []
 
-[16]
+[18]
 Underfull \hbox (badness 2617) in paragraph at lines 235--239
 \OT1/lmr/m/n/10 heb-bian learn-ing through spike-timing-dependent
  []
@@ -632,7 +636,7 @@ Underfull \hbox (badness 1874) in paragraph at lines 241--244
 []\OT1/lmr/m/n/10 H. Markram, W. Ger-st-ner, and P.J. Sjostrom.
  []
 
-) [17] (optoelectronic_neural_systems.aux)
+) [19] (optoelectronic_neural_systems.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -640,11 +644,11 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  4499 strings out of 492973
  68353 string characters out of 3135932
- 138681 words of memory out of 3000000
+ 146681 words of memory out of 3000000
  8296 multiletter control sequences out of 15000+200000
  45752 words of font info for 35 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,39p,2524b,298s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,6n,39p,3107b,298s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/
 MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/
 enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathe
@@ -663,9 +667,9 @@ pe1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/lm/lmsy7.pfb>
-Output written on optoelectronic_neural_systems.pdf (17 pages, 927631 bytes).
+Output written on optoelectronic_neural_systems.pdf (19 pages, 939005 bytes).
 PDF statistics:
- 234 PDF objects out of 1000 (max. 8388607)
+ 241 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
