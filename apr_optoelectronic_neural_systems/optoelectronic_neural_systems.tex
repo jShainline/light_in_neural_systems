@@ -185,9 +185,7 @@ For example, consider a dendrite with two synapses. If the post-synaptic current
 
 In addition to the simple two-synapse Boolean operations described above, it has been proposed that 
 
-Dendritic processing may even play a central role in learning as well. It appears to be the case that modification of NMDA receptors involved in STDP is governed by the production of dendritic spikes, and it is not required that the neuron fire in order for synaptic potentiation or depression to occur. These dendritic processing functions, including integration and thresholding, basic logical operations, sequence detection, and role in learning, indicate several means by which the devices comprising neurons and neural systems perform complex operations to maximize the ability of each neuron to utilize the information it is presented. In light of all this complexity, how should we mathematically model these devices?
-
-\subsubsection{Which model of neuronal dynamics to use?}
+Dendritic processing may even play a central role in learning as well. It appears to be the case that modification of NMDA receptors involved in STDP is governed by the production of dendritic spikes, and it is not required that the neuron fire in order for synaptic potentiation or depression to occur. These dendritic processing functions, including integration and thresholding, basic logical operations, sequence detection, and role in learning, indicate several means by which the devices comprising neurons and neural systems perform complex operations to maximize the ability of each neuron to utilize the information it is presented. 
 
 \subsubsection{From devices to populations}
 
@@ -242,6 +240,14 @@ This model of neural information processing bears a resemblance to a Turing mach
 \item contention delay is incompatible with neural information processing
 \item CMOS neuro: one aspect of problem is inefficiency of using Turing machine to behave as a neural system
 \end{itemize}
+
+\vspace{3em}
+The central premise of our work is that photonic signals are superior to electronic signals for communication across large-scale neural systems. To explain why we place this conjecture at the center of hardware development, we briefly summarize the physical limitations of electrical interconnection networks \cite{hepa2012}.
+
+\subsection{\label{sec:electricalInterconnectionNetworks}Electrical interconnection networks}
+When using silicon electronics, information is represented by voltages. A voltage is achieved physically by accumulating charge on a capacitor. For one device to communicate information to another device, it must provide charge in the form of electrical current. This current must charge up the capacitors representing information at the target device as well as the capacitance of the wire over which the charge is transferred. There are fundamental and practical limits to how small the capacitance of the devices and wires can be \cite{}. As a rule of thumb, a wire in a CMOS process adds 200\,aF/\textmu m, so parasitic wire capacitance dominates when devices are separated by even a few microns. It becomes impracticable for a single device to source current to many other devices, so in practice a single transistor rarely drives more than four other transistors (fanout of four). For many applications, it is crucial for each device to be able to send information to many more than four destinations. Because all the devices requiring communication with one another cannot be directly wired to each other, a shared communication network is employed. In contemporary computing, switched media networks are used for this purpose. Each device must then only communicate to the nearest switch in the network. In a switched media network, devices communicate with one another by sending packets of information. The packet contains routing information (the address of the recipient) as well as the data to be communicated. The interconnect network determines a valid route for the information traverse across the network (referred to as routing), and the switches are configured accordingly to achieve that physical route of information transfer. 
+
+Because the communication infrastructure is shared devices must request access to the switch network to transmit messages. Multiple devices may request access simultaneously, in which case arbitration must be performed. Arbitration refers to the process of granting devices access to the switch network, and in general a packet will experience some delay while it waits in a queue to be granted access to the shared communication infrastructure. This process of serializing communication across a common interconnection network is referred to as time multiplexing. This approach to communication between electronic devices leverages the speed of electronic circuits to compensate for the difficulties in communication. For many applications this is adequate. The limitations are reached when many devices need to communicate with many other devices with a high frequency of communication events. Unfortunately, this is exactly the situation encountered in neural information processing. When implementing neural information processing with electronic communication infrastructure, neuron pulses are represented as packets of data called events. Some of the data in a packet representing an event must contain the addresses of the synapses to which the event should be communicated. This type of neural information processing is therefore referred to as address-event representation. One consequence of this approach is that as the size of the system grows, more information in each communication event must be allocated to specifying destinations. This leads to increased burden on memory and processors. But the more severe challenge is introduced by the connectivity/speed trade-off. As more neurons, each with many synapses, are added to the network, the average frequency of neuronal firing events must decrease due to the limitations of the interconnection network to handle communication requests. For electronic systems with a few hundred thousand neurons, average event rates in the kilohertz range can be maintained \cite{}. Systems with a few hundred million neurons will likely be limited to operation at 10 Hz or below \cite{}. 
 
 \section{\label{sec:superconductors}Superconductor electronic neural systems}
 
@@ -452,16 +458,22 @@ Reasons to publish (addressing concerns of Bostrom)
 7. I strongly doubt if a fast takeover transpires. That would
 8. If such a technology is a threat, the sooner we are aware of it's potentiality the better
 
-Reasons to expect soens to be slow (at least decades)
+Reasons to expect soens to be slow in achieving superintelligence (at least decades for superintelligence; more rapid, interesting progress on smaller scale on time scale of year or so)
 
-1. Need new hardware, at least 10 years
+1. Need new hardware just to determine if these circuit concepts will perform well and scale, at least 10 years for maturity
 2. Need device and architecture improvements, theory and experimental capabilities, breakthroughs in understanding how to use such systems
 3. Expensive, at least \$1B for human-brain scale
 4. Progress will come in distinct hardware generations. We can ensure we don't produce the next iteration until we are ready
 5. It will take a movement of historical proportions to realize beyond-human intelligence with soens, there is no risk of stumbling abruptly across the finish line
 
 
+	
+\newpage
+\appendix
 
+In light of all this complexity, how should we mathematically model these devices?
+
+\subsubsection{Which model of neuronal dynamics to use?}
 
 
 %
