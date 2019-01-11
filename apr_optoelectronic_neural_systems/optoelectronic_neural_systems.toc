@@ -1,5 +1,5 @@
 \contentsline {section}{\numberline {1}Introduction}{1}
-\contentsline {section}{\numberline {2}Historical context}{1}
+\contentsline {section}{\numberline {2}Historical context}{2}
 \contentsline {section}{\numberline {3}Information processing in neural systems}{4}
 \contentsline {subsection}{\numberline {3.1}Spatial structure of neural systems}{4}
 \contentsline {subsubsection}{\numberline {3.1.1}Adjacency matrix}{4}
@@ -18,17 +18,18 @@
 \contentsline {subsubsection}{\numberline {3.2.5}Metaplasticity}{9}
 \contentsline {subsubsection}{\numberline {3.2.6}Homeostatic plasticity}{9}
 \contentsline {subsubsection}{\numberline {3.2.7}Dendritic processing}{9}
-\contentsline {subsubsection}{\numberline {3.2.8}Inhibition}{10}
-\contentsline {subsubsection}{\numberline {3.2.9}From devices to populations}{10}
-\contentsline {subsubsection}{\numberline {3.2.10}Neuronal avalanches}{10}
-\contentsline {subsubsection}{\numberline {3.2.11}Entrained oscillations and synchrony}{10}
-\contentsline {subsubsection}{\numberline {3.2.12}Cross-frequency coupling}{10}
-\contentsline {subsubsection}{\numberline {3.2.13}Fractal use of space and time}{10}
+\contentsline {subsubsection}{\numberline {3.2.8}From devices to populations}{10}
+\contentsline {subsubsection}{\numberline {3.2.9}Neuronal avalanches}{10}
+\contentsline {subsubsection}{\numberline {3.2.10}Entrained oscillations and synchrony}{10}
+\contentsline {subsubsection}{\numberline {3.2.11}Cross-frequency coupling}{10}
+\contentsline {subsubsection}{\numberline {3.2.12}Fractal use of space and time}{10}
 \contentsline {subsection}{\numberline {3.3}Summary of neural information}{10}
 \contentsline {section}{\numberline {4}Semiconductor electronic neural systems}{11}
+\contentsline {subsection}{\numberline {4.1}Electrical interconnection networks}{12}
 \contentsline {section}{\numberline {5}Superconductor electronic neural systems}{12}
 \contentsline {section}{\numberline {6}Optoelectronic synapses, dendrites, and neurons}{12}
-\contentsline {section}{\numberline {7}Large-scale optoelectronic systems}{13}
+\contentsline {section}{\numberline {7}Large-scale optoelectronic systems}{14}
 \contentsline {section}{\numberline {8}Application spaces}{14}
-\contentsline {section}{\numberline {9}Outlook}{16}
-\contentsline {section}{\numberline {A}Neuron models}{18}
+\contentsline {subsection}{\numberline {8.1}Classical-Quantum-Neural hybrid systems}{15}
+\contentsline {section}{\numberline {9}Outlook}{17}
+\contentsline {subsubsection}{\numberline {.0.1}Which model of neuronal dynamics to use?}{19}
