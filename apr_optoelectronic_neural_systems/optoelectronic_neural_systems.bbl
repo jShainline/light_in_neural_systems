@@ -300,10 +300,95 @@ S.~Dehane.
 \newblock {\em Consciousness and the brain}.
 \newblock Penguin, 2014.
 
+\bibitem{suwa2015}
+C.~Sun, M.T. Wade, Y.~Lee, J.S. Orcutt, L.~Alloatti, M.S. Georgas, A.S.
+  Waterman, J.M. Shainline, R.R. Avizienis, S.~Lin, B.R. Moss, R.~Kumar,
+  F.~Pavanello, A.H. Atabaki, H.M. Cook, A.J. Ou, J.C. Leu, Y.-H. Chen,
+  K.~Asanovi{\' c}, R.J. Ram, M.A. Popovi{\' c}, and V.M. Stojanovi{\' c}.
+\newblock Single-chip microprocessor that communicates directly using light.
+\newblock {\em Nature}, 528:534, 2015.
+
+\bibitem{stra2018}
+V.~Stojanovic, R.J. Ram, M.~Popovic, S.~Lin, S.~Moazeni, M.~Wade, C.~Sun,
+  L.~Alloatti, A.~Atabaki, F.~Pavanello, N.~Mehta, and P.~Bhargava.
+\newblock Monolithic silicon-photonic platforms in state-of-the-art cmos soi
+  processes.
+\newblock {\em Opt. Express}, 26:13106, 2018.
+
+\bibitem{mear2014}
+P.A. Merolla, J.V. Arthur, R.~Alvarez-Icaza, A.S. Cassidy, J.~Sawada,
+  F.~Akopyan, B.L. Jackson, N.~Imam, C.~Guo, Y.~Nakamura, B.~Brezzo, I.~Vo,
+  S.K. Esser, R.~Appuswamy, B.~Taba, A.~Amir, M.D. Flickner, W.P. Risk,
+  R.~Manohar, and D.S. Modha.
+\newblock A million spiking-neuron integrated circuit with scalable
+  communication network and interface.
+\newblock {\em Science}, 345:668, 2014.
+
+\bibitem{dasr2018}
+M.~Davies, N.~Srinivasa, T.-H. Lin, G.~Chinya, Y.~Cao, S.H. Choday, and
+  G.~Dimou.
+\newblock Loihi: A neuromorphic manycore processor with on-chip learning.
+\newblock {\em IEEE Micro}, 1:82, 2018.
+
+\bibitem{pfgr2013}
+T.~Pfeil, A.~Grubl, and K.~Meier.
+\newblock Six networks on a universal neuromorphic computing substrate.
+\newblock {\em Frontiers in Neuroscience}, 7:11, 2013.
+
+\bibitem{fuga2014}
+S.B. Furber, F.~Galluppi, S.~Temple, and L.A. Plana.
+\newblock The spinnaker project.
+\newblock {\em Proceedings of the IEEE}, 102:652, 2014.
+
+\bibitem{mi2017}
+D.A.B. Miller.
+\newblock Attojoule optoelectronics for low-energy information processing and
+  communications.
+\newblock {\em J. Lightwave Technol.}, 35:346, 2017.
+
+\bibitem{hepa2012}
+J.L. Hennessy and D.A. Patterson.
+\newblock {\em Computer Architecture}.
+\newblock Elsevier.
+\newblock Appendix F.
+
+\bibitem{bo2000}
+K.A. Boahen.
+\newblock Point-to-point connectivity between neuromorphic chips using address
+  events.
+\newblock {\em IEEE Tran. Circ. Sys. II}, 47:416, 2000.
+
 \bibitem{bi1955}
 J.~Bigelow.
 \newblock {\em Physical and Physiological Information Processes and Systems}.
 \newblock unknown.
+
+\bibitem{payu2017}
+J.~Park, T.~Yu, S.~Joshi, C.~Maier, and G.~Cauwenberghs.
+\newblock Hierarchical address event routing for reconfigurable large-scale
+  neuromorphic systems.
+\newblock {\em IEEE Trans. Neural Networks and Learning Systems}, 28:2408,
+  2017.
+
+\bibitem{kuwa2017}
+A.~Kumar, Z.~Wan, W.W. Wilcke, and S.S. Iyer.
+\newblock Toward human-scale brain computing using 3d wafer scale integration.
+\newblock {\em ACM Journal on Emerging Technologies in Computing Systems},
+  13:45, 2017.
+
+\bibitem{hama2013}
+J.~Hasler and B.~Marr.
+\newblock Finding a roadmap to achieve large neuromorphic hardware systems.
+\newblock {\em Front. Neurosci.}, 7:118, 2013.
+
+\bibitem{bu1950}
+https://spectrum.ieee.org/tech-history/heroic-failures/dudley-bucks-forgotten-cryotron-computer.
+\newblock {\em IEEE Spectrum}.
+
+\bibitem{jo1962}
+B.D. Josephson.
+\newblock Possible new effects in superconductive tunneling.
+\newblock {\em Physics Letters}, 1:251, 1962.
 
 \bibitem{oz1992}
 H.M. Ozaktas.
