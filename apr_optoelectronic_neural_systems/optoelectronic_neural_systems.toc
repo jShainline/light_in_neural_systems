@@ -5,19 +5,19 @@
 \contentsline {subsubsection}{\numberline {3.1.1}Adjacency matrix}{4}
 \contentsline {subsubsection}{\numberline {3.1.2}Node degree and degree distribution}{5}
 \contentsline {subsubsection}{\numberline {3.1.3}Path length}{5}
-\contentsline {subsubsection}{\numberline {3.1.4}Clustering}{6}
-\contentsline {subsubsection}{\numberline {3.1.5}Small-world networks}{6}
+\contentsline {subsubsection}{\numberline {3.1.4}Clustering}{5}
+\contentsline {subsubsection}{\numberline {3.1.5}Small-world networks}{5}
 \contentsline {subsubsection}{\numberline {3.1.6}Modularity and hierarchy}{6}
 \contentsline {subsubsection}{\numberline {3.1.7}Rentian analysis}{6}
 \contentsline {subsubsection}{\numberline {3.1.8}Summary of spatial considerations}{7}
 \contentsline {subsection}{\numberline {3.2}Temporal dynamics of neural systems}{7}
 \contentsline {subsubsection}{\numberline {3.2.1}Relaxation oscillators}{7}
-\contentsline {subsubsection}{\numberline {3.2.2}Binary communication}{7}
+\contentsline {subsubsection}{\numberline {3.2.2}Binary communication}{8}
 \contentsline {subsubsection}{\numberline {3.2.3}Short-term synaptic plasticity}{8}
 \contentsline {subsubsection}{\numberline {3.2.4}Long-term synaptic plasticity}{8}
 \contentsline {subsubsection}{\numberline {3.2.5}Metaplasticity}{9}
 \contentsline {subsubsection}{\numberline {3.2.6}Homeostatic plasticity}{9}
-\contentsline {subsubsection}{\numberline {3.2.7}Dendritic processing}{9}
+\contentsline {subsubsection}{\numberline {3.2.7}Dendritic processing}{10}
 \contentsline {subsubsection}{\numberline {3.2.8}From devices to populations}{10}
 \contentsline {subsubsection}{\numberline {3.2.9}Neuronal avalanches}{10}
 \contentsline {subsubsection}{\numberline {3.2.10}Entrained oscillations and synchrony}{10}
@@ -25,18 +25,23 @@
 \contentsline {subsubsection}{\numberline {3.2.12}Fractal use of space and time}{10}
 \contentsline {subsection}{\numberline {3.3}Summary of neural information}{10}
 \contentsline {section}{\numberline {4}Semiconductor electronic neural systems}{11}
-\contentsline {subsection}{\numberline {4.1}Efforts in silicon microelectronic neural systems}{11}
+\contentsline {subsection}{\numberline {4.1}Efforts in silicon microelectronic neural systems}{12}
 \contentsline {subsection}{\numberline {4.2}The von Neumann bottleneck}{12}
 \contentsline {subsection}{\numberline {4.3}Fan-out limitations}{12}
-\contentsline {subsection}{\numberline {4.4}Shared communication infrastructure}{12}
+\contentsline {subsection}{\numberline {4.4}Shared communication infrastructure}{13}
 \contentsline {subsection}{\numberline {4.5}Address-event representation}{13}
 \contentsline {subsection}{\numberline {4.6}Contention delay in neural systems}{13}
 \contentsline {subsection}{\numberline {4.7}Summary of challenges of silicon microelectronic neural systems}{14}
 \contentsline {subsection}{\numberline {4.8}Actual versus emulated neurons}{14}
 \contentsline {section}{\numberline {5}Superconductor electronic neural systems}{15}
-\contentsline {section}{\numberline {6}Optoelectronic synapses, dendrites, and neurons}{15}
-\contentsline {section}{\numberline {7}Large-scale optoelectronic systems}{17}
-\contentsline {section}{\numberline {8}Application spaces}{17}
-\contentsline {subsection}{\numberline {8.1}Classical-Quantum-Neural hybrid systems}{17}
-\contentsline {section}{\numberline {9}Outlook}{19}
-\contentsline {subsubsection}{\numberline {.0.1}Which model of neuronal dynamics to use?}{22}
+\contentsline {subsection}{\numberline {5.1}Josephson junctions}{15}
+\contentsline {subsection}{\numberline {5.2}Superconducting digital logic}{16}
+\contentsline {subsection}{\numberline {5.3}Superconducting optoelectronic neural systems may overcome challenges of digital systems}{17}
+\contentsline {subsection}{\numberline {5.4}Neurons based on Josephson junctions}{17}
+\contentsline {section}{\numberline {6}Optoelectronic synapses, dendrites, and neurons}{17}
+\contentsline {section}{\numberline {7}Large-scale optoelectronic systems}{19}
+\contentsline {subsection}{\numberline {7.1}Criteria for assessing cognitive neural hardware}{19}
+\contentsline {section}{\numberline {8}Application spaces}{20}
+\contentsline {subsection}{\numberline {8.1}Classical-Quantum-Neural hybrid systems}{20}
+\contentsline {section}{\numberline {9}Outlook}{22}
+\contentsline {subsubsection}{\numberline {.0.1}Which model of neuronal dynamics to use?}{25}

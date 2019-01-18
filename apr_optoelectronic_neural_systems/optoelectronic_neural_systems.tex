@@ -224,6 +224,8 @@ This model of neural information processing bears a resemblance to a Turing mach
 \section{\label{sec:electronics}Semiconductor electronic neural systems}
 The origin of semiconducting devices is intimately intertwined with the history of computing. After WWII, vacuum tubes were a relatively mature technology, established for switching in phone networks and wartime radio communications. Thus, early computers developed shortly after the end of the war were based around the deflection of currents by voltages applied to the central conductor of the tube. The invention of the transistor in 1948 by Bardeen, Brattain, and Shockley replaced the bulky tubes, and the subsequent development of integrated microchips by Kilby and Noyce in 1959 initiated the technological revolution that has left the world utterly transformed. Innovations in lithography and processing led to the evolution captured by Moore's Law and Dennard scaling. After nearly 60 years, these scaling trends have neared the physical limits of transistors \cite{}, inspiring new creativity in devices and architectures. On the device side, use of photonic components for communication is gaining significant traction \cite{suwa2015,stra2018}. Architectural innovation has led to increased parallelism of computation, with brain-inspired concepts at the extreme end of this spectrum.
 
+Need history of silicon electronics: why silicon? why Si instead of Ge? why Si instead of III-V? Oxide, cost, ease of manufacturing.
+
 \subsection{Efforts in silicon microelectronic neural systems}
 In arguing for utilization of light for communication in artificial neural systems, one may be perceived as adversarial toward purely electronic approaches. It is important to point out up front that artificial neural systems based on semiconductor electronics are the state of the art, and they will be for years to come. The immaturity of integrated photonic technology makes it a worthwhile enterprise to continue to push the limits of silicon microelectronic neural systems, and throughout the discussion below we hope the reader appreciates our respect for what these systems have been able to accomplish. Nevertheless, it is the goal of this work to consider asymptotic technological limits of artificial neural systems, so our task is to identify the bottlenecks present in conventional hardware and propose solutions to overcome those bottlenecks.
 
@@ -271,27 +273,49 @@ We conjecture that in efficient neural systems, the components will not perform 
 Perhaps transistors are uniquely equipped for digital information processing. But are there other devices that may be more naturally suited to function as computational primitives in neural systems? The spikes produced by Josephson junctions in the form of single-flux quanta are a natural place to start looking. 
 
 \section{\label{sec:superconductors}Superconductor electronic neural systems}
-The first proposal to use superconducting components for computing occurred only a few years after the invention of the transistor. Beginning in 1950, Dudley Buck proposed to use the cryotron as a switch for digital logic \cite{bu1950}. The principle of the cryotron is that a length of superconducting wire can be switched from zero impedance to very high impedance and back again by breaking and restoring superconductivity. Such functionality is matched to the needs of digital computing, and significant effort went into the development of computing systems based on cryotrons rather than vacuum tubes. This work extended into the 1960s, whence it became clear that many aspects of integrated silicon circuits would be superior for a number of reasons. 
+The first proposal to use superconducting components for computing occurred only a few years after the invention of the transistor. Beginning in 1950, Dudley Buck proposed to use the cryotron as a switch for digital logic \cite{bu1956,bu1950}. The principle of the cryotron is that a length of superconducting wire can be switched from zero impedance to very high impedance and back again by breaking and restoring superconductivity. Such functionality is matched to the needs of digital computing, and significant effort went into the development of computing systems based on cryotrons rather than vacuum tubes. This work extended into the 1960s, whence it became clear that many aspects of integrated silicon circuits would be superior for a number of reasons. 
 
-In 1962, Josephson explored tunneling between two superconducting wires separated by a thin barrier \cite{jo1962}. This led to the Josephson junction (JJ), the device that now dominates all information processing performed with superconducting electronics. 
+In 1962, Josephson explored tunneling between two superconducting wires separated by a thin barrier \cite{jo1962}. This led to the Josephson junction (JJ), the device that now dominates all information processing performed with superconducting electronics. Due to the significance of this device, it is worth a brief description of its functionality. 
 
+\subsection{Josephson junctions}
+\begin{figure} 
+    \centering{\includegraphics[width=8.6cm]{figures/jj.png}}
+	\captionof{figure}{\label{fig:jj}Caption for JJ.}
+\end{figure}
+A JJ is created when two superconducting wires are separated by a thin tunneling barrier, as shown in Fig.\,\ref{fig:jj}(a). Excellent resources exist that describe the beautiful physics of JJs pedagogically \cite{ti1996,vatu1998,ka1999}, and it is our intention here to describe only very basic aspects of JJ operation relevant to the computing technology under discussion. 
 
+When realized in hardware, any Josephson junction has some shunting capacitance and resistance, leading to the effective circuit shown in Fig.\,\ref{fig:jj}(b), which is referred to as the resistively and capacitively shunted junction (RCSJ) model. While a JJ can, in general, be either voltage biased or current biased, for simplicity we restrict our attention to current-biased junctions as they are more relevant to the operations at hand. One can see that in this model of the junction, there are three conduction paths in parallel. Perhaps the most important aspect of a JJ when used as a classical information-processing element is the fact that the junction has a critical current. This means the central, superconducting path can carry a current $I\le I_{\mathrm{c}}$ with exactly zero resistance and therefore zero voltage acorss the junction. However, if the current bias exceeds $I_{\mathrm{c}}$, the fraction $\Delta I = I-I_{\mathrm{c}}$ cannot be carried through the superconducting channel, and instead must be carried through the parallel conduction pathways, with DC components being shunted through the resistor. Under a bias exceeding $I_{\mathrm{c}}$, a voltage develops across the junction, and in general, this voltage will vary with time, even if the bias is constant, as we will describe in more detail shortly. 
 
+One of the reasons JJs are so fascinating is that depending on the choice of circuit parameters, JJs can demonstrate many behaviors. Because a JJ has an intrinsic inductance, the circuit effective JJ circuit of Fig.\,\ref{fig:jj}(b) can operate as an $L-R-C$ oscillator circuit, leading to ringing behavior. Alternatively, with other parameter choices, the junction can demonstrate latching behavior, wherein a junction biased above its critical current will enter the resistive state and stay there until the current bias is dropped well below the critical current, thus exhibiting hysteresis. For the information processing applications under consideration, it is more advantageous to operate near critical damping.
+
+Let us now consider the operation of a simple circuit employing a single JJ...
+
+Need to touch on speed, flux quantization (need to introduce SFQ terminology, fluxon), JTL, flux storage, energy, $\Phi_0$, integral Vdt
+
+\subsection{Superconducting digital logic}
+Here we briefly review the history of using superconductors in digital computing. More detail can be found in Ref.\,\cite{li2012}. The origin of superconducting computing is nearly concurrent with the origin of the rest of digital computing. In that post WWII context, the first components developed were switches for digital systems. The goal was to implement a von Neumann architecture, the same pursuit as vacuum tubes and transistors. In was in this setting that Buck developed a switch wherein a superconducting wire with high critical field is wrapped around a superconducting wire with lower critical field. A current passing through the coil wire could be used to break superconductivity in the core wire. Such an element could be used for switching and current amplification. Dudley Buck referred to this device as a cryotron.
+
+The cryotron was a strong candidate as a switch for binary computing when compared to vacuum tubes, but with the development of integrated circuits this bulk component was not competitive for scaling. Yet in the late 1960s and early 1970s, IBM developed an integrated circuit element based on JJs that behaved like Buck's cryotron \cite{an1980}. At that time, the materials for implementing superconducting integrated circuits were immature, and the device concepts for information processing were also under development. IBM chose to use Pb alloys as the material platform, and they chose to implement a latching logic \cite{lise1991}. This material platform was problematic, and nearly all contemporary efforts in superconducting logic utilize Nb as the predominant material for wiring and JJs (superconducting qubits are primarily based on Al). The latching logic IBM employed used the voltage across a JJ to represent information. As described above, a current-biased JJ can develop a voltage if the current bias exceeds $I\le I_{\mathrm{c}}$, and with a certain choice of the RCSJ circuit parameters, that junction can remain latched in the voltage state even after the current bias drops below $I\le I_{\mathrm{c}}$. Both the choice of Pb as a material platform and the choice to employ voltage-state logic ended up being problematic for IBM, and by the early 1980s IBM ceased its effort in superconducting digital logic.
+
+The effort at IBM began before silicon microelectronic technology had far surpassed other approaches to digital logic, Moore's law had only recently been formulated \cite{mo1965}, and it certainly was not obvious which hardware would dominate for electronic computing. One of the motivations to use superconducting circuits was that they were simpler to fabricate than semiconducting circuits. Additionally, due to the intrinsic dynamics of JJs, they could be made to operate at extremely high speed with low energy per operation. Materials improvements led to the development of JJs based on Nb with AlO$_{x}$ as a tunneling barrier, and several efforts continued to explore JJ-based circuits for computing. In particular, the work by Likharev and others in the late 1980s and early 1990s developed a new type of logic for digital computing (see Refs.\,\cite{lise1991} and \cite{buli2001} for technical details and Ref.\,\cite{li2012} for a retrospective). Within this framework, the state of flux within a superconducting loop represents information: an empty loop represents a binary zero; a loop with one fluxon represents a binary one. This form of logic is referred to as flux-state logic, and it overcomes many of the weaknesses of voltage-state logic. Likharev and colleagues referred to this approach as rapid single-flux-quantum logic, and developed a family of gates to implement digital computing. Within this framework, a clock is distributed across all gates in the system, and logical operations proceed based on whether or not flux is present in certain loops during each clock cycle. 
+
+The foundational work on flux-state logic \cite{lise1991,buli2001,li2012} occurred during the prime years of silicon microelectronic scaling. For this reason, it was difficult to foster a large effort in a competing technology, leading Likharev to later lament the oppressive impact incurred on other technologies as ``CMOS continued its victorious march.'' \cite{}. Yet interest in superconducting electronics for computing has continued, particularly in Japan, and as the scaling of silicon transistor technology has reached new barriers, attention has returned. In the US, the resurgence led to the IARPA Cryogenic Computing Complexity program, started in 2014, to develop high-performance superconducting digital computers. This effort, however, has not quickly led to circuits outperforming CMOS for digital computing. There are four reasons for this. We list them in order of severity. The first reason is that it is difficult to implement large arrays of compact memory cells with superconducting electronics \cite{}. This is very problematic when implementing the von Neumann architecture, as these digital efforts have aspired to do. The secondary reason is that distribution of a high-speed clock across many logic gates encounters obstacles, and the timing jitter of the gates leads to errors if the clock is too fast, largely eliminating speed advantages relative to CMOS. The third reason is that a superconducting system resides inside a cryostat. A high-performance computer will need extensive I/O, and this cannot be achieved straightforwardly with co-axial cables due to the high heat load such cables transfer from room temperature the the 4.2\,K stage where computation is performed. Optical approaches are being developed to overcome this challenge \cite{}, but optical sources or modulators often require on the order of a volt to encode a bit, while the SFQ pulses produced by JJs are on the order of a millivolt. This introduces the fourth problem limiting the success of superconducting electronics for digital computing: it is difficult for a superconducting circuit to change the state of a CMOS circuit. That is to say, it is difficult for a superconducting circuit to achieve sufficient voltage to switch the gate of a silicon transistor. Even if one intends to develop superconducting electronics to outperform silicon electronics specifically in the domain of digital logic, it is helpful (and perhaps vital) that the superconducting system be able to interface bi-directionally with semiconductors so the superconducting system can leverage the tremendous infrastructure of semiconductor integrated circuits. 
+
+\subsection{Superconducting optoelectronic neural systems may overcome challenges of digital systems}
+Let us refer to these challenges with superconducting electronics as: 1) the memory problem; 2) the clock problem; 3) the I/O problem; and 4) the volt problem. We will argue below that a new type of cryotron, implemented in a compact, on-chip, thin-film device can overcome the volt problem, but only if one accepts slower speed than superconducting digital logic seeks, an acceptable trade-off in a neural system. Solving the volt problem this way enables us to generate light, thereby solving the ``O'' part of the I/O problem. The ``I'' part of the problem is solved by utilizing superconducting photon detectors, compact circuit elements developed since 2000 and integrated with photonic circuits within the last decade. With integrated light sources and detectors, superconducting systems can send and receive near-infrared photons over optical fibers, relieving the heat load of co-axial cables, and solving the volt problem at semiconductor photodetectors on the room-temperature side. The asynchronous nature of spiking neural systems eliminates the clock problem, provided synaptic, dendritic, and neuronal integration times can be made longer than the jitter of the circuits. Finally, while the memory problem is the most severe for superconducting digital systems, the prospects for memory in superconducting neural systems are one of the most exciting aspects of the technology. As discussed in Sec.\,\ref{sec:neuroscience}, memory in neural systems involves short-term plasticity, long-term plasticity (STDP, for example), and metaplasticity (that adapts the rate with which synapses change). We find that JJ circuits very naturally implement these functions, and the distributed nature of synaptic memory avoids the difficulty of creating large arrays of addressable superconducting memory elements. 
+
+We will describe these superconducting optoelectronic circuits in more detail in Sec.\,\ref{sec:optoelectronicNeurons}. Let us first turn our attention to JJ circuits that implement neural functions without optical communication.
+
+\subsection{Neurons based on Josephson junctions}
 
 \begin{itemize}
-\item JJ basics
-\item superconducting digital (going right for the von Neumann architecture, binary, solution to diff eqs)
-\begin{itemize}
-\item IBM latching logic
-\item Likharev
-\item victorious march of CMOS
-\item third wave: IARPA/C3
-\end{itemize}
 \item JJ neurons (Japan, Segal, Schneider, that recent theory paper)
 \item still, communication problems, fan-out
 \end{itemize}
 
 \section{\label{sec:optoelectronicNeurons}Optoelectronic synapses, dendrites, and neurons}
+
+As was the case with semiconductors and superconductors, so it is with integrated photonics: the first task is digital logic. In the case of photonics, the goal of the hardware augmentation is to aid in communication.
 
 Like superconducting neural systems, the goal of nearly all efforts in optoelectronic neural systems and neuromorphic photonics is not to develop general intelligence, but rather to realize neural systems for specific tasks such as inference or control. For most efforts, the motivation for using light is the speed, either of laser cavity dynamics or optical communication. We hope make it clear that device and hardware choices toward these ends may be different than for the present goal of general intelligence as described here, and therefore we intend to explain why specific choices are not conducive to the present goal, even if they are ideal for other applications.
 
@@ -374,6 +398,81 @@ Like superconducting neural systems, the goal of nearly all efforts in optoelect
 
 \section{\label{sec:scaling}Large-scale optoelectronic systems}
 
+\subsection{Criteria for assessing cognitive neural hardware}
+
+
+\begin{itemize}
+
+\item network metrics
+\begin{itemize}
+\item total number of neurons in network
+\item degree distribution
+\item clustering coefficient on different scales
+\item modularity analysis
+\item rentian analysis
+\end{itemize}
+
+\item synaptic metrics
+\begin{itemize}
+\item range of achievable synaptic weights
+\item number of achievable synaptic weights
+\item max synaptic state retention time
+\item analysis of short-term plasticity responses (filter properties, energy consumed, area)
+\item analysis of stdp (range of values, update rates, energy required, time window control, area required)
+\item analysis of metaplasticity (mechanisms, range of rates, energy required, area required)
+\item total size of synapse
+\end{itemize}
+
+\item dendritic metrics
+\begin{itemize}
+\item analysis of dendritic intermediate nonlinear processing (range of time scales, I/O curves, energy, num synapses per dendrite)
+\item analysis of dendritic sequence detection (time scales, number of synapses involved, energy)
+\item available logic operations (Boolean, time of last firing, multisynaptic)
+\item number of values achievable in readout
+\item size of dendrites
+\end{itemize}
+
+\item neuronal metrics
+\begin{itemize}
+\item total number of dendrites
+\item total number of synapses
+\item analysis of the rentian fan-in of the dendrito-synaptic arbor
+\item dynamic properties of threshold
+\item refractory period
+\item integration time (if different from dendritic integration)
+\item energy of neuronal firing
+\item timing jitter of neuronal firing
+\end{itemize}
+
+\item communication metrics
+\begin{itemize}
+\item total system bandwidth (at neuronal level, also including dendritic level where neuronal data rates are multiplied by information available to first layer of dendrites after any additional synaptic fanout)
+\item I/O 
+\end{itemize}
+
+\item system operation metrics
+\begin{itemize}
+\item operating temperature
+\item power consumption
+\item max spike events per second
+\item power consumed during max spike events per second
+\item power density
+\item temperature variation during operation
+\item total system size
+\end{itemize}
+
+\item system production metrics
+\begin{itemize}
+\item equipment required (i.e., technology node)
+\item device yield/tolerance to variation
+\item time required
+\item packaging strategy
+\item total material consumed
+\item total cost to produce 
+\end{itemize}
+
+\end{itemize}
+
 \begin{itemize}
 \item unprecedented integration of photonics and electronics in a scalable process that can be implemented with existing infrastructure--change a few implant conditions, swap out a few sputtering targets, improve BEOL dielectrics for photonics
 \item communication on various length scales, multi-planar on wafers, wafer-to-wafer vertical and lateral, fiber white matter
@@ -402,6 +501,11 @@ For general networks, the algorithm by which partitions are identified can be ma
 \item from Turing, AI
 \item now, apply to nearly all aspects of modern life
 \end{itemize}
+\item what others in the field are pursuing
+\begin{itemize}
+\item LASSO \cite{dasr2018}
+\item fast control \cite{prsh2017}
+\end{itemize}
 \item here, following neuroscience applications 
 \begin{itemize}
 \item vision systems
@@ -412,7 +516,7 @@ For general networks, the algorithm by which partitions are identified can be ma
 \item others, unique to large-scale neural systems and/or superconducting optoelectonic
 \begin{itemize}
 \item internet monitoring/simulation
-\item society simulation
+\item sociological simulation
 \item genetic analysis/evo devo
 \item neuroscience and dynamical systems
 \item quantum/neural hybrid systems (Bayesian discussion)
@@ -549,6 +653,21 @@ other concepts to address:
 \begin{itemize}
 \item neuromodulators
 \item gap junctions
+\end{itemize}
+
+\vspace{3em}
+Folks to contact:
+\begin{itemize} 
+\item Likharev
+\item Furber
+\item Modha
+\item Srinivasa
+\item Davies
+\item Segall
+\item Tait
+\item Harris
+\item Miller
+\item Aimone
 \end{itemize}
 	
 \newpage
