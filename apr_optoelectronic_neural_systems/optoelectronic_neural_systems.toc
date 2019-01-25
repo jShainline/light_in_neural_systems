@@ -38,10 +38,17 @@
 \contentsline {subsection}{\numberline {5.2}Superconducting digital logic}{16}
 \contentsline {subsection}{\numberline {5.3}Superconducting optoelectronic neural systems may overcome challenges of digital systems}{17}
 \contentsline {subsection}{\numberline {5.4}Neurons based on Josephson junctions}{17}
-\contentsline {section}{\numberline {6}Optoelectronic synapses, dendrites, and neurons}{17}
-\contentsline {section}{\numberline {7}Large-scale optoelectronic systems}{19}
-\contentsline {subsection}{\numberline {7.1}Criteria for assessing cognitive neural hardware}{19}
-\contentsline {section}{\numberline {8}Application spaces}{20}
-\contentsline {subsection}{\numberline {8.1}Classical-Quantum-Neural hybrid systems}{20}
-\contentsline {section}{\numberline {9}Outlook}{22}
-\contentsline {subsubsection}{\numberline {.0.1}Which model of neuronal dynamics to use?}{25}
+\contentsline {section}{\numberline {6}Integrated photonic neural systems}{17}
+\contentsline {subsection}{\numberline {6.1}Silicon photonics and the vision of superchips}{17}
+\contentsline {subsection}{\numberline {6.2}Silicon light sources: the great Achilles' heel}{18}
+\contentsline {subsection}{\numberline {6.3}Systems with off-chip sources}{19}
+\contentsline {subsection}{\numberline {6.4}Deep learning with silicon photonics}{19}
+\contentsline {subsection}{\numberline {6.5}Spiking neurons with silicon photonics}{20}
+\contentsline {section}{\numberline {7}Optoelectronic synapses, dendrites, and neurons}{20}
+\contentsline {section}{\numberline {8}Superconducting optoelectronic systems}{20}
+\contentsline {section}{\numberline {9}Large-scale optoelectronic systems}{21}
+\contentsline {subsection}{\numberline {9.1}Criteria for assessing cognitive neural hardware}{21}
+\contentsline {section}{\numberline {10}Application spaces}{22}
+\contentsline {subsection}{\numberline {10.1}Classical-Quantum-Neural hybrid systems}{23}
+\contentsline {section}{\numberline {11}Outlook}{24}
+\contentsline {subsubsection}{\numberline {.0.1}Which model of neuronal dynamics to use?}{27}

@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{tu1936}
 A.M. Turing.
@@ -381,6 +381,11 @@ J.~Hasler and B.~Marr.
 \newblock Finding a roadmap to achieve large neuromorphic hardware systems.
 \newblock {\em Front. Neurosci.}, 7:118, 2013.
 
+\bibitem{bu1956}
+D.A. Buck.
+\newblock The cryotron--a superconductive computer component.
+\newblock {\em Proc. IRE}, 44:482, 1956.
+
 \bibitem{bu1950}
 https://spectrum.ieee.org/tech-history/heroic-failures/dudley-bucks-forgotten-cryotron-computer.
 \newblock {\em IEEE Spectrum}.
@@ -390,9 +395,173 @@ B.D. Josephson.
 \newblock Possible new effects in superconductive tunneling.
 \newblock {\em Physics Letters}, 1:251, 1962.
 
+\bibitem{ti1996}
+M.~Tinkham.
+\newblock {\em Introduction to Superconductivity}.
+\newblock Dover, second edition, 1996.
+
+\bibitem{vatu1998}
+T.~Van Duzer and C.W. Turner.
+\newblock {\em Principles of superconductive devices and circuits}.
+\newblock Prentice Hall, USA, second edition, 1998.
+
+\bibitem{ka1999}
+Alan~M. Kadin.
+\newblock {\em Introduction to superconducting circuits}.
+\newblock John Wiley and Sons, USA, first edition, 1999.
+
+\bibitem{li2012}
+K.K. Likharev.
+\newblock Superconductor digital electronics.
+\newblock {\em Physica C}, 482:6, 2012.
+
+\bibitem{an1980}
+W.~Anacker.
+\newblock Josephson computer technology: an ibm research project.
+\newblock {\em IBM Journal of research and development}, 24:107, 1980.
+
+\bibitem{lise1991}
+K.K. Likharev and V.K. Semenov.
+\newblock Rsfq logic/memory family: a new josephson-junction technology for
+  sub-terahertz-clock-frequency digital systems.
+\newblock {\em IEEE Trans. Appl. Supercond.}, 1:3, 1991.
+
+\bibitem{mo1965}
+G.E. Moore.
+\newblock Cramming more components onto integrated circuits.
+\newblock {\em Electronics}, 38, 1965.
+
+\bibitem{buli2001}
+P.~Bunyk, K.~Likharev, and D.~Zinoviev.
+\newblock Rsfq technology: physics and devices.
+\newblock {\em Int. J. High Speed Electron. Sys.}, 11:257, 2001.
+
+\bibitem{hias2007}
+T.~Hirose, T.~Asai, and Y.~Amemiya.
+\newblock Pulsed neural networks consisting of single-flux-quantum spiking
+  neurons.
+\newblock {\em Physica C}, 463:1072, 2007.
+
+\bibitem{crsc2010}
+P.~Crotty, D.~Schult, and K.~Segall.
+\newblock Josephson junction simulation of neurons.
+\newblock {\em Phys. Rev. E}, 82:011914, 2010.
+
+\bibitem{segu2014}
+K.~Segall, S.~Guo, P.~Crotty, D.~Schult, and M.~Miller.
+\newblock Phase-flip bifurcation in a coupled josephson junction neuron system.
+\newblock {\em Physica B}, 455:71, 2014.
+
+\bibitem{sele2017}
+K.~Segall, M.~LeGro, S.~Kaplan, O.~Svitelskiy, S.~Khadka, P.~Crotty, and
+  D.~Schult.
+\newblock Synchronization dynamics on the picosecond time scale in coupled
+  josephson junction networks.
+\newblock {\em Physical Review E}, 95:032220, 2017.
+
+\bibitem{vevi2013}
+I.V. Vernik, V.V. Bol'ginov, S.V. Bakurskiy, A.A. Golubov, M.Y. Kupriyanov,
+  V.V. Ryazanov, and O.A. Mukhanov.
+\newblock Magnetic josephson junctions with superconducting interlayer for
+  cryogenic memory.
+\newblock {\em IEEE. Trans. Appl. Supercond.}, 23:1701208, 2013.
+
+\bibitem{ru2016}
+S.E. Russek, C.~Donnelly, M.~Schneider, B.~Baek, M.~Pufall, W.H. Rippard, P.F.
+  Hopkins, P.D. Dresselhaus, and S.P. Benz.
+\newblock {Stochastic Single Flux Quantum Neuromorphic Computing using
+  Magnetically Tunable Josephson Junctions}.
+\newblock In {\em IEEE International Conference on Rebooting Computing}. IEEE,
+  Oct 2016.
+
+\bibitem{scdo2018}
+M.L. Schneider, C.A. Donnelly, S.E. Russek, B.~Baek, M.R. Pufall, P.F. Hopkins,
+  P.~Dresselhaus, S.P. Benz, and W.H. Rippard.
+\newblock Ultralow power artificial synapses using nanotextured magnetic
+  josephson junctions.
+\newblock {\em Science Advances}, 4:1701329, 2018.
+
+\bibitem{sobe1987}
+R.~Soref and B.~Bennett.
+\newblock Electrooptical effects in silicon.
+\newblock {\em IEEE J. Quant. Elect.}, 23:123, 1987.
+
+\bibitem{rema2010}
+G.~Reed, G.~Mashanovich, F.Y. Gardes, and D.J. Thomson.
+\newblock Silicon optical modulators.
+\newblock {\em Nat. Photon.}, 4:518, 2010.
+
+\bibitem{lisa2005}
+L.~Liao, D.~Samara-Rubio, M.~Morse, A.~Liu, and D.~Hodge.
+\newblock High speed silicon mach-zehnder modulator.
+\newblock {\em Opt. Express}, 13:3129, 2005.
+
+\bibitem{xuma2007}
+Q.~Xu, S.~Manipatruni, B.~Schmidt, J.~Shakya, and Michal Lipson.
+\newblock 12.5 gbit/s carrier-injection-based silicon micro-ring silicon
+  modulators.
+\newblock {\em Opt. Express}, 15:430, 2007.
+
+\bibitem{so1993}
+R.~Soref.
+\newblock Silicon-based optoelectronics.
+\newblock {\em Proceedings of the IEEE}, 81:1687, 1993.
+
+\bibitem{meor2014}
+K.K. Mehta, J.S. Orcutt, J.M. Shainline, O.~Tehar-Zahav, Z.~Sternberg,
+  R.~Meade, M.A. Popovi{\' c}, and Rajeev~J. Ram.
+\newblock Polycrystalline silicon ring resonator photodiodes in a bulk
+  complementary metal-oxide-semiconductor process.
+\newblock {\em Opt. Lett.}, 39:1061, 2014.
+
+\bibitem{shxu2007}
+J.M. Shainline and J.~Xu.
+\newblock Silicon as an emissive optical medium.
+\newblock {\em Laser and Photonics Reviews}, 1:334, 2007.
+
+\bibitem{li2005}
+M.~Lipson.
+\newblock Guiding, modulating, and emitting light on silicon-challenges and
+  opportunities.
+\newblock {\em J. Lightwave Technology}, 23:4222, 2005.
+
+\bibitem{libo2010}
+D.~Liang and J.E. Bowers.
+\newblock Recent progress in lasers on silicon.
+\newblock {\em Nature Photonics}, 4:511, 2010.
+
+\bibitem{zhyi2015}
+Z.~Zhou, B.~Yin, and Jurgen Michel.
+\newblock On-chip light sources for silicon photonics.
+\newblock {\em Light: science and applications}, 4:e358, 2015.
+
+\bibitem{da1989}
+Gordon Davies.
+\newblock The optical properties of luminescence centres in silicon.
+\newblock {\em Physics Reports}, 176:83--188, 1989.
+
+\bibitem{orma2012}
+J.S. Orcutt, B.~Moss, C.~Sun, J.~Leu, M.~Georgas, J.~Sun M.~Weaver
+  J.~Shainlineand E.~Zgraggen, H.~Li, S.~Urosevic, M.~Popovic, R.J. Ram, and
+  Vladimir Stojanović.
+\newblock Open foundry platform for high-performance electronic-photonic
+  integration.
+\newblock {\em Opt. Express}, 20:12222, 2012.
+
+\bibitem{shha2016}
+Y.~Shen, N.C. Harris, S.~Skirlo, M.~Prabhu, T.~Baehr-Jones, M.~Hochberg,
+  X.~Sun, S.~Zhao, H.~Larochelle, D.~Englund, and M.~Soljacic.
+\newblock Deep learning with coherent nanophotonic circuits.
+\newblock {\em Nature Photonics}, 11:441, 2016.
+
 \bibitem{oz1992}
 H.M. Ozaktas.
 \newblock Paradigms of connectivity for computer circuits and networks.
 \newblock {\em Optical Engineering}, 31:1563, 1992.
+
+\bibitem{prsh2017}
+P.R. Prucnal and B.J. Shastri.
+\newblock {\em Neuromorphic photonics}.
+\newblock CRC Press, New York, first edition, 2017.
 
 \end{thebibliography}
