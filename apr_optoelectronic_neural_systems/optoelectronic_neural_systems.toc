@@ -16,7 +16,7 @@
 \contentsline {subsubsection}{\numberline {3.2.3}Short-term synaptic plasticity}{8}
 \contentsline {subsubsection}{\numberline {3.2.4}Long-term synaptic plasticity}{8}
 \contentsline {subsubsection}{\numberline {3.2.5}Metaplasticity}{9}
-\contentsline {subsubsection}{\numberline {3.2.6}Homeostatic plasticity}{9}
+\contentsline {subsubsection}{\numberline {3.2.6}Homeostatic plasticity}{10}
 \contentsline {subsubsection}{\numberline {3.2.7}Dendritic processing}{10}
 \contentsline {subsubsection}{\numberline {3.2.8}From devices to populations}{10}
 \contentsline {subsubsection}{\numberline {3.2.9}Neuronal avalanches}{10}
@@ -39,16 +39,18 @@
 \contentsline {subsection}{\numberline {5.3}Superconducting optoelectronic neural systems may overcome challenges of digital systems}{17}
 \contentsline {subsection}{\numberline {5.4}Neurons based on Josephson junctions}{17}
 \contentsline {section}{\numberline {6}Integrated photonic neural systems}{17}
-\contentsline {subsection}{\numberline {6.1}Silicon photonics and the vision of superchips}{17}
+\contentsline {subsection}{\numberline {6.1}Silicon photonics and superchips}{17}
 \contentsline {subsection}{\numberline {6.2}Silicon light sources: the great Achilles' heel}{18}
 \contentsline {subsection}{\numberline {6.3}Systems with off-chip sources}{19}
 \contentsline {subsection}{\numberline {6.4}Deep learning with silicon photonics}{19}
-\contentsline {subsection}{\numberline {6.5}Spiking neurons with silicon photonics}{20}
-\contentsline {section}{\numberline {7}Optoelectronic synapses, dendrites, and neurons}{20}
-\contentsline {section}{\numberline {8}Superconducting optoelectronic systems}{20}
-\contentsline {section}{\numberline {9}Large-scale optoelectronic systems}{21}
-\contentsline {subsection}{\numberline {9.1}Criteria for assessing cognitive neural hardware}{21}
-\contentsline {section}{\numberline {10}Application spaces}{22}
-\contentsline {subsection}{\numberline {10.1}Classical-Quantum-Neural hybrid systems}{23}
-\contentsline {section}{\numberline {11}Outlook}{24}
-\contentsline {subsubsection}{\numberline {.0.1}Which model of neuronal dynamics to use?}{27}
+\contentsline {subsection}{\numberline {6.5}Spiking neurons with compound semiconductor lasers}{20}
+\contentsline {subsection}{\numberline {6.6}Wavelength-division multiplexing for routing and synaptic weighting}{20}
+\contentsline {subsection}{\numberline {6.7}Phase change materials for synaptic weighting}{21}
+\contentsline {subsection}{\numberline {6.8}Synaptic weights in the electronic domain}{21}
+\contentsline {section}{\numberline {7}Superconducting optoelectronic systems}{22}
+\contentsline {section}{\numberline {8}Large-scale optoelectronic systems}{24}
+\contentsline {subsection}{\numberline {8.1}Criteria for assessing cognitive neural hardware}{24}
+\contentsline {section}{\numberline {9}Application spaces}{25}
+\contentsline {subsection}{\numberline {9.1}Classical-Quantum-Neural hybrid systems}{25}
+\contentsline {section}{\numberline {10}Outlook}{27}
+\contentsline {subsubsection}{\numberline {.0.1}Which model of neuronal dynamics to use?}{30}

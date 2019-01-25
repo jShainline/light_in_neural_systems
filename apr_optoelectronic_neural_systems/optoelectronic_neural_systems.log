@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.12)  24 JAN 2019 16:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.12)  24 JAN 2019 21:57
 entering extended mode
 **./optoelectronic_neural_systems.tex
 (optoelectronic_neural_systems.tex
@@ -517,12 +517,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \hbox (badness 2762) in paragraph at lines 47--47
- [] []\OT1/lmr/bx/n/10 Optoelectronic synapses, den-drites, and 
- []
-
-)
+))
 \tf@toc=\write3
 \openout3 = `optoelectronic_neural_systems.toc'.
 
@@ -542,6 +537,9 @@ LaTeX Warning: Citation `https://hal.archives-ouvertes.fr/ads-00104781/document
 ' on page 2 undefined on input line 52.
 
 [2] [3]
+Underfull \vbox (badness 1087) has occurred while \output is active []
+
+
 
 LaTeX Warning: Citation `rusp2010' on page 4 undefined on input line 92.
 
@@ -581,7 +579,7 @@ LaTeX Warning: Reference `fig:short-term_plasticity' on page 8 undefined on inp
 ut line 150.
 
 [8]
-Underfull \vbox (badness 3323) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
 LaTeX Font Info:    Try loading font information for TS1+lmr on input line 202.
@@ -589,10 +587,7 @@ LaTeX Font Info:    Try loading font information for TS1+lmr on input line 202.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [10] [11] [12]
-Underfull \vbox (badness 2384) has occurred while \output is active []
-
- [13]
+) [10] [11] [12] [13]
 [14]
 <figures/jj.png, id=172, 1003.75pt x 1003.75pt>
 File: figures/jj.png Graphic file (type png)
@@ -604,7 +599,12 @@ Underfull \hbox (badness 1215) in paragraph at lines 285--286
 \OT1/lmr/m/n/10 sep-a-rated by a thin tun-nel-ing bar-rier, as shown in
  []
 
-[15 <./figures/jj.png>] [16] [17]
+[15 <./figures/jj.png>] [16]
+
+LaTeX Warning: Reference `sec:optoelectronicNeurons' on page 17 undefined on in
+put line 307.
+
+[17]
 Underfull \hbox (badness 4391) in paragraph at lines 337--337
 []\OT1/lmr/bx/n/12 Silicon light sources: the great
  []
@@ -620,36 +620,73 @@ LaTeX Warning: Citation `shor2014' on page 19 undefined on input line 351.
 
 LaTeX Warning: Citation `suwa2017' on page 19 undefined on input line 351.
 
-
-Underfull \hbox (badness 1648) in paragraph at lines 369--369
-[][]\OT1/lmr/bx/n/14.4 Optoelectronic synapses, den-
+[19]
+Underfull \hbox (badness 8189) in paragraph at lines 364--364
+[]\OT1/lmr/bx/n/12 Spiking neu-rons with com-pound
  []
 
 
-Underfull \vbox (badness 5417) has occurred while \output is active []
+LaTeX Warning: Citation `dukr1999' on page 20 undefined on input line 365.
 
- [19]
-[20] [21]
-Underfull \hbox (badness 10000) in paragraph at lines 576--576
+
+LaTeX Warning: Citation `nata2013' on page 20 undefined on input line 365.
+
+
+LaTeX Warning: Citation `tana20142' on page 20 undefined on input line 370.
+
+
+LaTeX Warning: Citation `tafe2017' on page 20 undefined on input line 370.
+
+[20]
+
+LaTeX Warning: Citation `chri2017' on page 21 undefined on input line 379.
+
+
+LaTeX Warning: Citation `chri2017' on page 21 undefined on input line 379.
+
+
+LaTeX Warning: Citation `chri2017' on page 21 undefined on input line 381.
+
+[21]
+
+LaTeX Warning: Citation `mave2013' on page 22 undefined on input line 393.
+
+
+LaTeX Warning: Citation `shbu2017b' on page 22 undefined on input line 393.
+
+
+LaTeX Warning: Citation `x' on page 22 undefined on input line 393.
+
+
+LaTeX Warning: Citation `y' on page 22 undefined on input line 393.
+
+
+LaTeX Warning: Citation `z' on page 22 undefined on input line 393.
+
+
+LaTeX Warning: Reference `fig:snspd' on page 22 undefined on input line 393.
+
+[22] [23] [24]
+Underfull \hbox (badness 10000) in paragraph at lines 600--600
 []\OT1/lmr/bx/n/12 Classical-Quantum-Neural hy-brid
  []
 
-[22] [23] [24]
-Underfull \hbox (badness 2689) in paragraph at lines 653--654
+[25] [26] [27]
+Underfull \hbox (badness 2689) in paragraph at lines 677--678
 []\OT1/lmr/m/n/10 Turing: in-ter-ests, uni-ver-sal com-pu-ta-tion, com-
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 654--655
+Underfull \hbox (badness 1158) in paragraph at lines 678--679
 \OT1/lmr/m/n/10 mer-i-cal in-ves-ti-ga-tion of nu-mer-ous phys-i-cal prob-
  []
 
 
-Underfull \hbox (badness 3364) in paragraph at lines 656--657
+Underfull \hbox (badness 3364) in paragraph at lines 680--681
 []\OT1/lmr/m/n/10 Shannon: com-mu-ni-ca-tion, in-for-ma-tion in data
  []
 
-[25] [26] (optoelectronic_neural_systems.bbl
+[28] [29] (optoelectronic_neural_systems.bbl
 Underfull \hbox (badness 4254) in paragraph at lines 25--29
 []\OT1/lmr/m/n/10 A. Tur-ing.  Lec-ture to the lon-don math-e-
  []
@@ -685,12 +722,12 @@ Underfull \hbox (badness 3158) in paragraph at lines 41--45
 \OT1/lmr/m/n/10 5:115, 1943.  http://www.cse.chalmers.se/ co-
  []
 
-[27]
+[30]
 Underfull \hbox (badness 1057) in paragraph at lines 241--244
 []\OT1/lmr/m/n/10 H. Markram, W. Ger-st-ner, and P.J. Sjostrom.
  []
 
-[28]
+
 Underfull \hbox (badness 3108) in paragraph at lines 312--317
 \OT1/lmr/m/n/10 S. Moazeni, M. Wade, C. Sun, L. Al-loatti,
  []
@@ -700,7 +737,7 @@ Underfull \hbox (badness 1342) in paragraph at lines 312--317
 \OT1/lmr/m/n/10 gava.  Mono-lithic silicon-photonic plat-forms in
  []
 
-
+[31]
 Underfull \hbox (badness 1616) in paragraph at lines 367--372
 \OT1/lmr/m/it/10 Trans. Neu-ral Net-works and Learn-ing Sys-tems\OT1/lmr/m/n/10
  ,
@@ -716,7 +753,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 390--392
 \OT1/lmr/m/n/10 failures/dudley-bucks-forgotten-cryotron-computer.
  []
 
-[29]
+
 Underfull \hbox (badness 8132) in paragraph at lines 424--428
 []\OT1/lmr/m/n/10 K.K. Likharev and V.K. Se-menov.  Rsfq
  []
@@ -731,7 +768,7 @@ Underfull \hbox (badness 3838) in paragraph at lines 478--483
 []\OT1/lmr/m/n/10 M.L. Schnei-der, C.A. Don-nelly, S.E. Russek,
  []
 
-
+[32]
 Underfull \hbox (badness 2368) in paragraph at lines 544--550
 \OT1/lmr/m/n/10 high-performance electronic-photonic in-te-gra-tion.
  []
@@ -741,19 +778,18 @@ Underfull \hbox (badness 1924) in paragraph at lines 552--556
 []\OT1/lmr/m/n/10 Y. Shen, N.C. Har-ris, S. Skirlo, M. Prabhu,
  []
 
-) [30] (optoelectronic_neural_systems.aux)
+) [33
+
+] (optoelectronic_neural_systems.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 4844 strings out of 492973
- 72146 string characters out of 3135932
- 139385 words of memory out of 3000000
- 8619 multiletter control sequences out of 15000+200000
+ 4855 strings out of 492973
+ 72238 string characters out of 3135932
+ 140375 words of memory out of 3000000
+ 8630 multiletter control sequences out of 15000+200000
  46997 words of font info for 41 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,39p,3107b,298s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -776,9 +812,9 @@ pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/lm/lmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
 amsfonts/symbols/msam10.pfb>
-Output written on optoelectronic_neural_systems.pdf (30 pages, 1017613 bytes).
+Output written on optoelectronic_neural_systems.pdf (33 pages, 1032095 bytes).
 PDF statistics:
- 282 PDF objects out of 1000 (max. 8388607)
+ 292 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
