@@ -2,3 +2,6 @@
 *.aux
 *.gz
 .DS_STORE
+.DS_store
+.DS_Store
+
