@@ -1,7 +1,5 @@
 *.pdf
 *.aux
 *.gz
-.DS_STORE
-.DS_store
-.DS_Store
+*.DS_Store
 
