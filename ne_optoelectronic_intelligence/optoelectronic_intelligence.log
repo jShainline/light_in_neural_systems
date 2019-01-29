@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  28 JAN 2019 17:21
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  29 JAN 2019 16:06
 entering extended mode
 **optoelectronic_intelligence.tex
 
@@ -378,14 +378,11 @@ File: complexity_across_scales.png Graphic file (type png)
 Package pdftex.def Info: complexity_across_scales.png used on input line 47.
 (pdftex.def)             Requested size: 500.76868pt x 258.55449pt.
 
-
-LaTeX Warning: Citation `sh2018ICRC' on page 1 undefined on input line 50.
-
-<data_plots.pdf, id=3, 244.69318pt x 438.3025pt>
-File: data_plots.pdf Graphic file (type pdf)
- <use data_plots.pdf>
-Package pdftex.def Info: data_plots.pdf used on input line 54.
-(pdftex.def)             Requested size: 244.69386pt x 438.3081pt.
+<data_plots.png, id=3, 979.66pt x 1754.555pt>
+File: data_plots.png Graphic file (type png)
+ <use data_plots.png>
+Package pdftex.def Info: data_plots.png used on input line 56.
+(pdftex.def)             Requested size: 244.69386pt x 438.23608pt.
  [1
 
 {C:/Users/jms4/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
@@ -393,35 +390,35 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/ne_optoelectronic_i
 ntelligence/complexity_across_scales.png>]
-Underfull \hbox (badness 1648) in paragraph at lines 62--62
+Underfull \hbox (badness 1648) in paragraph at lines 66--66
 [][]\OT1/lmr/bx/n/14.4 Optoelectronic synapses, den-
  []
 
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 63.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 67.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 63.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 67.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 63.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 67.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 63.
+(Font)              <10> on input line 67.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 63.
+(Font)              <7> on input line 67.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 63.
+(Font)              <5> on input line 67.
  [3 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/ne_optoelectronic_i
-ntelligence/data_plots.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
+ntelligence/data_plots.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
 [][]\OT1/lmr/bx/n/14.4 Communication with guided
  []
 
@@ -432,26 +429,26 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 1194) has occurred while \output is active []
 
  [4]
-<communication_across_scales.png, id=136, 2003.485pt x 1365.1pt>
+<communication_across_scales.png, id=26, 2003.485pt x 1365.1pt>
 File: communication_across_scales.png Graphic file (type png)
 
 <use communication_across_scales.png>
-Package pdftex.def Info: communication_across_scales.png used on input line 88.
+Package pdftex.def Info: communication_across_scales.png used on input line 92.
 
 (pdftex.def)             Requested size: 500.76868pt x 341.19084pt.
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 91.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 95.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [5] [6 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/ne_optoelectro
 nic_intelligence/communication_across_scales.png>]
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\ne_optoelectronic_intel
-ligence\optoelectronic_intelligence.bbl [7]
+ligence\optoelectronic_intelligence.bbl
 Underfull \hbox (badness 1521) in paragraph at lines 12--17
 []\OT1/lmr/m/n/10 V. Sto-janovic, R.J. Ram, M. Popovic, S. Lin,
  []
 
-
+[7]
 Underfull \hbox (badness 1122) in paragraph at lines 30--37
 \OT1/lmr/m/n/10 Cas-sidy, J. Sawada, F. Akopyan, B.L. Jack-son,
  []
@@ -479,38 +476,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 231--234
 
 ) [9]
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\ne_optoelectronic_intel
-ligence\optoelectronic_intelligence.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+ligence\optoelectronic_intelligence.aux) ) 
 Here is how much of TeX's memory you used:
- 4076 strings out of 493921
- 61784 string characters out of 3147285
- 125963 words of memory out of 3000000
+ 4075 strings out of 493921
+ 61766 string characters out of 3147285
+ 125971 words of memory out of 3000000
  7328 multiletter control sequences out of 15000+200000
- 33984 words of font info for 31 fonts, out of 3000000 for 9000
+ 31038 words of font info for 30 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,6n,39p,2344b,294s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/M
-iKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/
-dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathi
-t.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
-bx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
-sy7.pfb>
-Output written on optoelectronic_intelligence.pdf (9 pages, 4066869 bytes).
+ 36i,6n,39p,2237b,294s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/en
+c/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc
+}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program File
+s/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/font
+s/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
+/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
+/lmsy7.pfb>
+Output written on optoelectronic_intelligence.pdf (9 pages, 3515800 bytes).
 PDF statistics:
- 202 PDF objects out of 1000 (max. 8388607)
+ 86 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
