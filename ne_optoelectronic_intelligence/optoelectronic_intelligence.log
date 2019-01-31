@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  30 JAN 2019 18:41
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  31 JAN 2019 12:39
 entering extended mode
 **optoelectronic_intelligence.tex
 
@@ -444,7 +444,7 @@ Package pdftex.def Info: communication_across_scales.png used on input line 100
 .
 (pdftex.def)             Requested size: 500.76868pt x 341.19084pt.
  [7] [8 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/ne_optoelectron
-ic_intelligence/communication_across_scales.png>]
+ic_intelligence/communication_across_scales.png (PNG copy)>]
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\ne_optoelectronic_intel
 ligence\optoelectronic_intelligence.bbl
 Underfull \hbox (badness 1521) in paragraph at lines 12--17
@@ -501,9 +501,9 @@ fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
 /lmsy7.pfb>
-Output written on optoelectronic_intelligence.pdf (11 pages, 6769274 bytes).
+Output written on optoelectronic_intelligence.pdf (11 pages, 7502438 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
+ 93 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
