@@ -15,6 +15,21 @@ V.~Stojanovic, R.J. Ram, M.~Popovic, S.~Lin, S.~Moazeni, M.~Wade, C.~Sun,
   processes.
 \newblock {\em Opt. Express}, 26:13106, 2018.
 
+\bibitem{shxu2007}
+J.M. Shainline and J.~Xu.
+\newblock Silicon as an emissive optical medium.
+\newblock {\em Laser and Photonics Reviews}, 1:334, 2007.
+
+\bibitem{libo2010}
+D.~Liang and J.E. Bowers.
+\newblock Recent progress in lasers on silicon.
+\newblock {\em Nature Photonics}, 4:511, 2010.
+
+\bibitem{zhyi2015}
+Z.~Zhou, B.~Yin, and J.~Michel.
+\newblock On-chip light sources for silicon photonics.
+\newblock {\em Light: Science and Applications}, 4:131, 2015.
+
 \bibitem{bo2000}
 K.A. Boahen.
 \newblock Point-to-point connectivity between neuromorphic chips using address
@@ -104,11 +119,6 @@ J.M. Shainline, S.M. Buckley, A.N. McCaughan, J.~Chiles, A.~Jafari-Salim, R.P.
 \newblock Superconducting optoelectronic neurons.
 \newblock {\em arXiv}, page 1805.01929, 2018.
 
-\bibitem{daab2001}
-P.~Dayan and L.F. Abbott.
-\newblock {\em Theoretical Neuroscience}.
-\newblock The MIT Press, 2001.
-
 \bibitem{geki2002}
 W.~Gerstner and W.~Kistler.
 \newblock {\em Spiking neuron models}.
@@ -128,11 +138,6 @@ D.J. Watts and S.H. Strogatz.
 O.~Sporns.
 \newblock {\em Networks of the Brain}.
 \newblock The MIT Press, Cambridge, Massachusetts, first edition, 2010.
-
-\bibitem{frfr2004}
-A.~Fronczak, P.~Fronczak, and J.A. Holyst.
-\newblock Average path length in random networks.
-\newblock {\em Phys. Rev. E}, 70:056110, 2004.
 
 \bibitem{ke1982}
 R.W. Keyes.
@@ -169,12 +174,6 @@ B.J. He, J.M. Zempel, A.Z. Snyder, and M.E. Raichle.
 \newblock The temporal structures and functional significance of scale-free
   brain activity.
 \newblock {\em Neuron}, 66:353, 2010.
-
-\bibitem{somi2000}
-S.~Song, K.D. Miller, and L.F. Abbott.
-\newblock Competitive hebbian learning through spike-timing-dependent synaptic
-  plasticity.
-\newblock {\em Nature Neuroscience}, 3:919, 2000.
 
 \bibitem{mage2012}
 H.~Markram, W.~Gerstner, and P.J. Sjostrom.
@@ -224,15 +223,11 @@ S.~Sardi, R.~Vardi, A.~Sheinin, A.~Goldental, and I.~Kanter.
   independent threshold units.
 \newblock {\em Scientific reports}, 7:18036, 2017.
 
-\bibitem{da1989}
-Gordon Davies.
-\newblock The optical properties of luminescence centres in silicon.
-\newblock {\em Physics Reports}, 176:83--188, 1989.
-
-\bibitem{shxu2007}
-J.M. Shainline and J.~Xu.
-\newblock Silicon as an emissive optical medium.
-\newblock {\em Laser and Photonics Reviews}, 1:334, 2007.
+\bibitem{mave2013}
+F.~Marsili, V.B. Verma, J.A. Stern, S.~Harrington, A.E. Lita, T.~Gerrits,
+  I.~Vayshnker, B.~Baek, M.D. Shaw, R.P. Mirin, and S.W. Nam.
+\newblock Detecting single infrared photons with 93\% system efficiency.
+\newblock {\em Nat. Photon.}, 7:210, 2013.
 
 \bibitem{buch2017}
 S.~Buckley, J.~Chiles, A.N. McCaughan, G.~Moody, K.L. Silverman, M.J. Stevens,
@@ -241,21 +236,11 @@ S.~Buckley, J.~Chiles, A.N. McCaughan, G.~Moody, K.L. Silverman, M.J. Stevens,
   superconducting single-photon detectors.
 \newblock {\em Appl. Phys. Lett.}, 111:141101, 2017.
 
-\bibitem{dali1987}
-G.~Davies, E.C. Lightowlers, and Z.E. Ciechanowaska.
-\newblock The 1018 mev (w of i1) vibronic band in silicon.
-\newblock {\em J. Phys. C}, 20:191, 1987.
-
-\bibitem{absa2018}
-M.~Aboy, I.~Santos, P.~Lopez, L.A. Marques, and L.~Pelaz.
-\newblock W and x photoluminescence centers in crystalline si: chasing
-  candidates at atomic level through multiscale simulations.
-\newblock {\em J. Electronic Materials}, 47:5045, 2018.
-
 \bibitem{mc2019}
 A.N.~McCaughan et~al.
-\newblock htron paper.
-\newblock {\em TBD}, x:y, 2019.
+\newblock An ultrahigh-impedance superconducting thermal switch for interfacing
+  superconductors to semiconductors and optoelectronics.
+\newblock {\em Submitted to Nature Electronics}, 2019.
 
 \bibitem{chbu2017}
 J.~Chiles, S.~Buckley, N.~Nader, S.W. Nam, R.P. Mirin, and J.M. Shainline.
@@ -280,12 +265,6 @@ A.~Kumar, Z.~Wan, W.W. Wilcke, and S.S. Iyer.
 \newblock Toward human-scale brain computing using 3d wafer scale integration.
 \newblock {\em ACM Journal on Emerging Technologies in Computing Systems},
   13:45, 2017.
-
-\bibitem{sh2018e}
-J.M. Shainline, J.~Chiles, S.M. Buckley, A.N. McCaughan, R.P. Mirin, and S.W.
-  Nam.
-\newblock Superconducting optoelectronic neurons {V}: Networks and scaling.
-\newblock {\em arXiv}, page 1805.01942, 2018.
 
 \bibitem{shhi2017}
 M.M. Shulaer, G.~Hills, R.S. Park, R.T. Howe, K.~Saraswat, H.-S.~Philip Wong,

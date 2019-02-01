@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  31 JAN 2019 12:39
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  31 JAN 2019 16:39
 entering extended mode
 **optoelectronic_intelligence.tex
 
@@ -388,47 +388,47 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 omplexity_across_scales.png>] <data_plots.png, id=16, 979.66pt x 1754.555pt>
 File: data_plots.png Graphic file (type png)
  <use data_plots.png>
-Package pdftex.def Info: data_plots.png used on input line 56.
+Package pdftex.def Info: data_plots.png used on input line 58.
 (pdftex.def)             Requested size: 244.69386pt x 438.23608pt.
 
 [3 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/ne_optoelectronic_in
 telligence/data_plots.png>]
-Underfull \hbox (badness 1648) in paragraph at lines 66--66
+Underfull \hbox (badness 1648) in paragraph at lines 68--68
 [][]\OT1/lmr/bx/n/14.4 Optoelectronic synapses, den-
  []
 
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 67.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 69.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 67.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 69.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 67.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 69.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 67.
+(Font)              <10> on input line 69.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 67.
+(Font)              <7> on input line 69.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 67.
+(Font)              <5> on input line 69.
 
 <experimental.png, id=21, 4006.97pt x 1971.365pt>
 File: experimental.png Graphic file (type png)
  <use experimental.png>
-Package pdftex.def Info: experimental.png used on input line 74.
+Package pdftex.def Info: experimental.png used on input line 76.
 (pdftex.def)             Requested size: 489.38731pt x 240.76488pt.
 
 [4] [5 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/ne_optoelectroni
 c_intelligence/experimental.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
 [][]\OT1/lmr/bx/n/14.4 Communication with guided
  []
 
@@ -440,7 +440,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: communication_across_scales.png Graphic file (type png)
 
 <use communication_across_scales.png>
-Package pdftex.def Info: communication_across_scales.png used on input line 100
+Package pdftex.def Info: communication_across_scales.png used on input line 102
 .
 (pdftex.def)             Requested size: 500.76868pt x 341.19084pt.
  [7] [8 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/ne_optoelectron
@@ -452,42 +452,34 @@ Underfull \hbox (badness 1521) in paragraph at lines 12--17
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 30--37
+Underfull \hbox (badness 1122) in paragraph at lines 45--52
 \OT1/lmr/m/n/10 Cas-sidy, J. Sawada, F. Akopyan, B.L. Jack-son,
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 44--49
+Underfull \hbox (badness 3209) in paragraph at lines 59--64
 \OT1/lmr/m/it/10 Trans. Neu-ral Net-works and Learn-ing Sys-tems\OT1/lmr/m/n/10
  ,
  []
 
 [9]
-Underfull \hbox (badness 2617) in paragraph at lines 174--178
-\OT1/lmr/m/n/10 heb-bian learn-ing through spike-timing-dependent
- []
-
-
-Underfull \hbox (badness 1874) in paragraph at lines 180--183
+Underfull \hbox (badness 1874) in paragraph at lines 179--182
 []\OT1/lmr/m/n/10 H. Markram, W. Ger-st-ner, and P.J. Sjostrom.
  []
 
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 245--248
-[]\OT1/lmr/m/n/10 G. Davies, E.C. Lightowlers, and Z.E.
- []
+[10]) [11
 
-) [11]
+]
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\ne_optoelectronic_intel
 ligence\optoelectronic_intelligence.aux) ) 
 Here is how much of TeX's memory you used:
- 4084 strings out of 493921
- 61915 string characters out of 3147285
- 137297 words of memory out of 3000000
- 7336 multiletter control sequences out of 15000+200000
+ 4080 strings out of 493921
+ 61878 string characters out of 3147285
+ 135061 words of memory out of 3000000
+ 7332 multiletter control sequences out of 15000+200000
  31038 words of font info for 30 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,6n,39p,2269b,353s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,6n,39p,1760b,353s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/en
 c/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.
 enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program F
@@ -501,7 +493,7 @@ fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
 /lmsy7.pfb>
-Output written on optoelectronic_intelligence.pdf (11 pages, 7502438 bytes).
+Output written on optoelectronic_intelligence.pdf (11 pages, 7501162 bytes).
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
