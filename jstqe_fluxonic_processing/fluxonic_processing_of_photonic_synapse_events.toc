@@ -1,1 +1,7 @@
 \contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {2}Photon-to-fluxon transduction at a synapse}{1}
+\contentsline {section}{\numberline {3}Operations on pulse trains at a single synapse}{1}
+\contentsline {section}{\numberline {4}Operations on two synapses from different neurons}{1}
+\contentsline {section}{\numberline {5}Inhibition and rapid query}{1}
+\contentsline {section}{\numberline {6}Operations on two electric synapses derived from a single photonic synapse}{1}
+\contentsline {section}{\numberline {7}Discussion}{1}
