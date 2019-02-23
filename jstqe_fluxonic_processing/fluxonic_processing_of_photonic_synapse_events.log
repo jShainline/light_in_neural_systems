@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  19 FEB 2019 19:37
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  22 FEB 2019 17:04
 entering extended mode
 **fluxonic_processing_of_photonic_synapse_events.tex
 
@@ -295,7 +295,8 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-No file fluxonic_processing_of_photonic_synapse_events.aux.
+(C:\Users\jms4\Documents\GitHub\light_in_neural_systems\jstqe_fluxonic_processi
+ng\fluxonic_processing_of_photonic_synapse_events.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
@@ -310,6 +311,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 20.
+
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
@@ -371,34 +373,85 @@ Package caption Info: End \AtBeginDocument code.
 \everyMPtoPDFconversion=\toks24
 )
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\jstqe_fluxonic_processi
-ng\fluxonic_processing_of_photonic_synapse_events.toc)
-\tf@toc=\write3
+ng\fluxonic_processing_of_photonic_synapse_events.toc
+Underfull \hbox (badness 2042) in paragraph at lines 3--3
+ [] []\OT1/lmr/bx/n/10 Operations on pulse trains at a sin-gle 
+ []
 
-Underfull \hbox (badness 8075) in paragraph at lines 46--46
+)
+\tf@toc=\write3
+ <_1_schematic_and_circuits.png, id=1, 244.915pt x 439.6425pt>
+File: _1_schematic_and_circuits.png Graphic file (type png)
+
+<use _1_schematic_and_circuits.png>
+Package pdftex.def Info: _1_schematic_and_circuits.png used on input line 47.
+(pdftex.def)             Requested size: 244.69386pt x 439.25903pt.
+
+Underfull \hbox (badness 8075) in paragraph at lines 51--51
 [][]\OT1/lmr/bx/n/14.4 Photon-to-fluxon trans-duc-tion
  []
 
+<_2_sffg.png, id=3, 2908.8675pt x 1575.8875pt>
+File: _2_sffg.png Graphic file (type png)
+ <use _2_sffg.png>
+Package pdftex.def Info: _2_sffg.png used on input line 54.
+(pdftex.def)             Requested size: 489.38731pt x 265.10799pt.
 
-Underfull \hbox (badness 4819) in paragraph at lines 50--50
-[][]\OT1/lmr/bx/n/14.4 Operations on two synapses
+<_3__si_di_facilitating.png, id=4, 1445.4pt x 1516.66624pt>
+File: _3__si_di_facilitating.png Graphic file (type png)
+
+<use _3__si_di_facilitating.png>
+Package pdftex.def Info: _3__si_di_facilitating.png used on input line 61.
+(pdftex.def)             Requested size: 244.69386pt x 256.74216pt.
+
+<_4__si_dcsfq_depressing.png, id=5, 1445.4pt x 1516.66624pt>
+File: _4__si_dcsfq_depressing.png Graphic file (type png)
+
+<use _4__si_dcsfq_depressing.png>
+Package pdftex.def Info: _4__si_dcsfq_depressing.png used on input line 66.
+(pdftex.def)             Requested size: 244.69386pt x 256.74216pt.
+
+<_5__poly_si_di.png, id=6, 1445.4pt x 2274.4975pt>
+File: _5__poly_si_di.png Graphic file (type png)
+ <use _5__poly_si_di.png>
+Package pdftex.def Info: _5__poly_si_di.png used on input line 73.
+(pdftex.def)             Requested size: 244.69386pt x 385.02827pt.
+
+<_6__si_di_inhibition.png, id=7, 1445.4pt x 2274.4975pt>
+File: _6__si_di_inhibition.png Graphic file (type png)
+
+<use _6__si_di_inhibition.png>
+Package pdftex.def Info: _6__si_di_inhibition.png used on input line 80.
+(pdftex.def)             Requested size: 244.69386pt x 385.02827pt.
+
+<_7__si_di_rapid_query.png, id=8, 1445.4pt x 2236.355pt>
+File: _7__si_di_rapid_query.png Graphic file (type png)
+
+<use _7__si_di_rapid_query.png>
+Package pdftex.def Info: _7__si_di_rapid_query.png used on input line 85.
+(pdftex.def)             Requested size: 244.69386pt x 378.5715pt.
+
+Underfull \hbox (badness 4048) in paragraph at lines 89--89
+[][]\OT1/lmr/bx/n/14.4 Fanout to mul-ti-ple synapses
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
-[][]\OT1/lmr/bx/n/14.4 Operations on two elec-tric
- []
-
-
-Underfull \hbox (badness 1371) in paragraph at lines 54--54
-\OT1/lmr/bx/n/14.4 synapses de-rived from a sin-
- []
-
-No file fluxonic_processing_of_photonic_synapse_events.bbl.
 [1
 
-{C:/Users/jms4/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+{C:/Users/jms4/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/jms
+4/Documents/GitHub/light_in_neural_systems/jstqe_fluxonic_processing/_1_schemat
+ic_and_circuits.png>] [2 <C:/Users/jms4/Documents/GitHub/light_in_neural_system
+s/jstqe_fluxonic_processing/_2_sffg.png> <C:/Users/jms4/Documents/GitHub/light_
+in_neural_systems/jstqe_fluxonic_processing/_3__si_di_facilitating.png> <C:/Use
+rs/jms4/Documents/GitHub/light_in_neural_systems/jstqe_fluxonic_processing/_4__
+si_dcsfq_depressing.png>] [3 <C:/Users/jms4/Documents/GitHub/light_in_neural_sy
+stems/jstqe_fluxonic_processing/_5__poly_si_di.png> <C:/Users/jms4/Documents/Gi
+tHub/light_in_neural_systems/jstqe_fluxonic_processing/_6__si_di_inhibition.png
+>]
+No file fluxonic_processing_of_photonic_synapse_events.bbl.
+[4
 
-]
+ <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jstqe_fluxonic_process
+ing/_7__si_di_rapid_query.png>]
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\jstqe_fluxonic_processi
 ng\fluxonic_processing_of_photonic_synapse_events.aux)
 
@@ -406,23 +459,23 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 3927 strings out of 493921
- 58986 string characters out of 3147285
- 111704 words of memory out of 3000000
- 7206 multiletter control sequences out of 15000+200000
+ 3980 strings out of 493921
+ 60415 string characters out of 3147285
+ 114792 words of memory out of 3000000
+ 7249 multiletter control sequences out of 15000+200000
  24281 words of font info for 21 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,4n,38p,278b,105s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,5n,39p,278b,289s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
 r10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/lm/lmr9.pfb>
-Output written on fluxonic_processing_of_photonic_synapse_events.pdf (1 page, 1
-51252 bytes).
+Output written on fluxonic_processing_of_photonic_synapse_events.pdf (4 pages, 
+979591 bytes).
 PDF statistics:
- 31 PDF objects out of 1000 (max. 8388607)
+ 55 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
