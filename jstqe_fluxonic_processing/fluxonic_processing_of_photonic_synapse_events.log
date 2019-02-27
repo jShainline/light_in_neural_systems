@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  22 FEB 2019 17:04
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  26 FEB 2019 17:39
 entering extended mode
 **fluxonic_processing_of_photonic_synapse_events.tex
 
@@ -296,7 +296,17 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\jstqe_fluxonic_processi
-ng\fluxonic_processing_of_photonic_synapse_events.aux)
+ng\fluxonic_processing_of_photonic_synapse_events.aux
+
+LaTeX Warning: Label `fig:sffg' multiply defined.
+
+
+LaTeX Warning: Label `fig:inhibition' multiply defined.
+
+
+LaTeX Warning: Label `fig:inhibition' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
@@ -311,8 +321,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 20.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 20.
@@ -380,58 +389,72 @@ Underfull \hbox (badness 2042) in paragraph at lines 3--3
 
 )
 \tf@toc=\write3
- <_1_schematic_and_circuits.png, id=1, 244.915pt x 439.6425pt>
+ <_1_schematic_and_circuits.png, id=1, 979.66pt x 1758.57pt>
 File: _1_schematic_and_circuits.png Graphic file (type png)
 
 <use _1_schematic_and_circuits.png>
 Package pdftex.def Info: _1_schematic_and_circuits.png used on input line 47.
-(pdftex.def)             Requested size: 244.69386pt x 439.25903pt.
+(pdftex.def)             Requested size: 244.69386pt x 439.23892pt.
 
 Underfull \hbox (badness 8075) in paragraph at lines 51--51
 [][]\OT1/lmr/bx/n/14.4 Photon-to-fluxon trans-duc-tion
  []
 
-<_2_sffg.png, id=3, 2908.8675pt x 1575.8875pt>
-File: _2_sffg.png Graphic file (type png)
- <use _2_sffg.png>
-Package pdftex.def Info: _2_sffg.png used on input line 54.
-(pdftex.def)             Requested size: 489.38731pt x 265.10799pt.
+<_2_sffg_basic.png, id=3, 979.66pt x 1136.245pt>
+File: _2_sffg_basic.png Graphic file (type png)
+ <use _2_sffg_basic.png>
+Package pdftex.def Info: _2_sffg_basic.png used on input line 54.
+(pdftex.def)             Requested size: 244.69386pt x 283.80048pt.
 
-<_3__si_di_facilitating.png, id=4, 1445.4pt x 1516.66624pt>
-File: _3__si_di_facilitating.png Graphic file (type png)
+<_3_sffg_temporal_functions.png, id=4, 979.66pt x 2220.295pt>
+File: _3_sffg_temporal_functions.png Graphic file (type png)
 
-<use _3__si_di_facilitating.png>
-Package pdftex.def Info: _3__si_di_facilitating.png used on input line 61.
-(pdftex.def)             Requested size: 244.69386pt x 256.74216pt.
+<use _3_sffg_temporal_functions.png>
+Package pdftex.def Info: _3_sffg_temporal_functions.png used on input line 59.
+(pdftex.def)             Requested size: 244.69386pt x 554.56421pt.
 
-<_4__si_dcsfq_depressing.png, id=5, 1445.4pt x 1516.66624pt>
-File: _4__si_dcsfq_depressing.png Graphic file (type png)
+<_4__si_di_facilitating.png, id=5, 979.66pt x 1168.365pt>
+File: _4__si_di_facilitating.png Graphic file (type png)
 
-<use _4__si_dcsfq_depressing.png>
-Package pdftex.def Info: _4__si_dcsfq_depressing.png used on input line 66.
-(pdftex.def)             Requested size: 244.69386pt x 256.74216pt.
+<use _4__si_di_facilitating.png>
+Package pdftex.def Info: _4__si_di_facilitating.png used on input line 66.
+(pdftex.def)             Requested size: 244.69386pt x 291.82312pt.
 
-<_5__poly_si_di.png, id=6, 1445.4pt x 2274.4975pt>
-File: _5__poly_si_di.png Graphic file (type png)
- <use _5__poly_si_di.png>
-Package pdftex.def Info: _5__poly_si_di.png used on input line 73.
-(pdftex.def)             Requested size: 244.69386pt x 385.02827pt.
+<_5__si_dcsfq_depressing.png, id=6, 979.66pt x 1826.825pt>
+File: _5__si_dcsfq_depressing.png Graphic file (type png)
 
-<_6__si_di_inhibition.png, id=7, 1445.4pt x 2274.4975pt>
-File: _6__si_di_inhibition.png Graphic file (type png)
+<use _5__si_dcsfq_depressing.png>
+Package pdftex.def Info: _5__si_dcsfq_depressing.png used on input line 71.
+(pdftex.def)             Requested size: 244.69386pt x 456.287pt.
 
-<use _6__si_di_inhibition.png>
-Package pdftex.def Info: _6__si_di_inhibition.png used on input line 80.
-(pdftex.def)             Requested size: 244.69386pt x 385.02827pt.
+<_6__poly_si_di.png, id=7, 979.66pt x 1726.45pt>
+File: _6__poly_si_di.png Graphic file (type png)
+ <use _6__poly_si_di.png>
+Package pdftex.def Info: _6__poly_si_di.png used on input line 78.
+(pdftex.def)             Requested size: 244.69386pt x 431.2163pt.
 
-<_7__si_di_rapid_query.png, id=8, 1445.4pt x 2236.355pt>
-File: _7__si_di_rapid_query.png Graphic file (type png)
+<_7__si_di_inhibition.png, id=8, 979.66pt x 1136.245pt>
+File: _7__si_di_inhibition.png Graphic file (type png)
 
-<use _7__si_di_rapid_query.png>
-Package pdftex.def Info: _7__si_di_rapid_query.png used on input line 85.
-(pdftex.def)             Requested size: 244.69386pt x 378.5715pt.
+<use _7__si_di_inhibition.png>
+Package pdftex.def Info: _7__si_di_inhibition.png used on input line 85.
+(pdftex.def)             Requested size: 244.69386pt x 283.80048pt.
 
-Underfull \hbox (badness 4048) in paragraph at lines 89--89
+<_8__si_di_rapid_query.png, id=9, 979.66pt x 1224.575pt>
+File: _8__si_di_rapid_query.png Graphic file (type png)
+
+<use _8__si_di_rapid_query.png>
+Package pdftex.def Info: _8__si_di_rapid_query.png used on input line 90.
+(pdftex.def)             Requested size: 244.69386pt x 305.86272pt.
+
+<_9__power_law_time_decay.png, id=10, 979.66pt x 1718.42pt>
+File: _9__power_law_time_decay.png Graphic file (type png)
+
+<use _9__power_law_time_decay.png>
+Package pdftex.def Info: _9__power_law_time_decay.png used on input line 95.
+(pdftex.def)             Requested size: 244.69386pt x 429.21063pt.
+
+Underfull \hbox (badness 4048) in paragraph at lines 99--99
 [][]\OT1/lmr/bx/n/14.4 Fanout to mul-ti-ple synapses
  []
 
@@ -439,43 +462,45 @@ Underfull \hbox (badness 4048) in paragraph at lines 89--89
 
 {C:/Users/jms4/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/jms
 4/Documents/GitHub/light_in_neural_systems/jstqe_fluxonic_processing/_1_schemat
-ic_and_circuits.png>] [2 <C:/Users/jms4/Documents/GitHub/light_in_neural_system
-s/jstqe_fluxonic_processing/_2_sffg.png> <C:/Users/jms4/Documents/GitHub/light_
-in_neural_systems/jstqe_fluxonic_processing/_3__si_di_facilitating.png> <C:/Use
-rs/jms4/Documents/GitHub/light_in_neural_systems/jstqe_fluxonic_processing/_4__
-si_dcsfq_depressing.png>] [3 <C:/Users/jms4/Documents/GitHub/light_in_neural_sy
-stems/jstqe_fluxonic_processing/_5__poly_si_di.png> <C:/Users/jms4/Documents/Gi
-tHub/light_in_neural_systems/jstqe_fluxonic_processing/_6__si_di_inhibition.png
->]
+ic_and_circuits.png>]
 No file fluxonic_processing_of_photonic_synapse_events.bbl.
-[4
+[2 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jstqe_fluxonic_proce
+ssing/_2_sffg_basic.png> <C:/Users/jms4/Documents/GitHub/light_in_neural_system
+s/jstqe_fluxonic_processing/_3_sffg_temporal_functions.png>] [3 <C:/Users/jms4/
+Documents/GitHub/light_in_neural_systems/jstqe_fluxonic_processing/_4__si_di_fa
+cilitating.png> <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jstqe_f
+luxonic_processing/_5__si_dcsfq_depressing.png>] [4 <C:/Users/jms4/Documents/Gi
+tHub/light_in_neural_systems/jstqe_fluxonic_processing/_6__poly_si_di.png (PNG 
+copy)> <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jstqe_fluxonic_p
+rocessing/_7__si_di_inhibition.png> <C:/Users/jms4/Documents/GitHub/light_in_ne
+ural_systems/jstqe_fluxonic_processing/_8__si_di_rapid_query.png>] [5
 
  <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jstqe_fluxonic_process
-ing/_7__si_di_rapid_query.png>]
+ing/_9__power_law_time_decay.png>]
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\jstqe_fluxonic_processi
 ng\fluxonic_processing_of_photonic_synapse_events.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3980 strings out of 493921
- 60415 string characters out of 3147285
- 114792 words of memory out of 3000000
- 7249 multiletter control sequences out of 15000+200000
+ 3987 strings out of 493921
+ 60685 string characters out of 3147285
+ 114847 words of memory out of 3000000
+ 7254 multiletter control sequences out of 15000+200000
  24281 words of font info for 21 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,5n,39p,278b,289s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,5n,39p,278b,285s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
 r10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/lm/lmr9.pfb>
-Output written on fluxonic_processing_of_photonic_synapse_events.pdf (4 pages, 
-979591 bytes).
+Output written on fluxonic_processing_of_photonic_synapse_events.pdf (5 pages, 
+903615 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
+ 61 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
