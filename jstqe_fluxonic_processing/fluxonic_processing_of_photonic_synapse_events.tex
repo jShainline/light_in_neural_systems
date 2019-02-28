@@ -34,7 +34,7 @@
 	%-------------------- end header ---------------------%
 	
 \begin{abstract}
-
+Much of the information processing performed by a neuron occurs in the dendritic arbor. For neural systems using light for communication, it is advantageous to convert to the electronic domain at synaptic terminals so dendritic computation can be performed with electrical circuits. Here we present circuits based on jjs and mis that act as dendrites processing signals from synapses receiving single-photon communication events with superconducting detectors. We show simulations of circuits performing basic logical operations such as AND and OR, which become correlation detectors when time dependence is added. These two-input logical operations straightforwardly extend to multiple inputs, and such a dendrites performs an intermediate thresholding nonlinearity between the synapses and the cell body. We further show how the signal from a single-photon synapse event can fan out locally in the electronic domain by roughly a factor of ten to enable the dendrites of the receiving neuron to process in multiple different ways. Such a technique makes efficient use of photons and energy while providing access to significantly more information regarding an afferent spike train.
 \end{abstract}
 
 \tableofcontents
@@ -44,59 +44,69 @@
 the dendritic arbor has also be re-envisioned to occur in the electronic domain; fan-out photonic, fan-in electronic	
 
 \begin{figure} 
-    \centering{\includegraphics[width=8.6cm]{_1_schematic_and_circuits.png}}
-	\captionof{figure}{\label{fig:schematicAndCircuits}Caption.}
+    \centering{\includegraphics[width=8.6cm]{_01__schematic.png}}
+	\captionof{figure}{\label{fig:schematic}Caption.}
+\end{figure}
+
+\begin{figure} 
+    \centering{\includegraphics[width=8.6cm]{_02__circuits.png}}
+	\captionof{figure}{\label{fig:circuits}Caption.}
 \end{figure}
 
 \section{\label{sec:synapse}Photon-to-fluxon transduction at a synapse}
 
 \begin{figure} 
-    \centering{\includegraphics[width=8.6cm]{_2_sffg_basic.png}}
-	\captionof{figure}{\label{fig:sffg}Caption.}
+    \centering{\includegraphics[width=8.6cm]{_03__sffg_basic.png}}
+	\captionof{figure}{\label{fig:sffg_basic}Caption.}
 \end{figure}
 
 \begin{figure} 
-    \centering{\includegraphics[width=8.6cm]{_3_sffg_temporal_functions.png}}
-	\captionof{figure}{\label{fig:sffg}Caption.}
+    \centering{\includegraphics[width=8.6cm]{_04__sffg_betaL_tauSi.png}}
+	\captionof{figure}{\label{fig:sffg_betaL_tauSi}Caption.}
+\end{figure}
+
+\begin{figure} 
+    \centering{\includegraphics[width=8.6cm]{_05__sffg_rate_conversion.png}}
+	\captionof{figure}{\label{fig:sffg_rate_conversion}Caption.}
 \end{figure}
 
 \section{\label{sec:short_term}Operations on pulse trains at a single synapse}
 
 \begin{figure} 
-    \centering{\includegraphics[width=8.6cm]{_4__si_di_facilitating.png}}
-	\captionof{figure}{\label{fig:facilitating}Caption.}
+    \centering{\includegraphics[width=8.6cm]{_06__si_di_facilitating.png}}
+	\captionof{figure}{\label{fig:si_di_facilitating}Caption.}
 \end{figure}
 
 \begin{figure} 
-    \centering{\includegraphics[width=8.6cm]{_5__si_dcsfq_depressing.png}}
-	\captionof{figure}{\label{fig:depressing}Caption.}
+    \centering{\includegraphics[width=8.6cm]{_07__si_dcsfq_depressing.png}}
+	\captionof{figure}{\label{fig:si_dcsfq_depressing}Caption.}
 \end{figure}
 
 \section{\label{sec:correlations}Detecting correlations between neurons}
 
 \begin{figure} 
-    \centering{\includegraphics[width=8.6cm]{_6__poly_si_di.png}}
+    \centering{\includegraphics[width=8.6cm]{_08__poly_si_di.png}}
 	\captionof{figure}{\label{fig:poly_si}Caption.}
 \end{figure}
 
 \section{\label{sec:inhibition_and_rapid_query}Inhibition and rapid query}
 
 \begin{figure} 
-    \centering{\includegraphics[width=8.6cm]{_7__si_di_inhibition.png}}
-	\captionof{figure}{\label{fig:inhibition}Caption.}
+    \centering{\includegraphics[width=8.6cm]{_09__si_di_inhibition.png}}
+	\captionof{figure}{\label{fig:si_di_inhibition}Caption.}
 \end{figure}
 
 \begin{figure} 
-    \centering{\includegraphics[width=8.6cm]{_8__si_di_rapid_query.png}}
-	\captionof{figure}{\label{fig:inhibition}Caption.}
-\end{figure}
-
-\begin{figure} 
-    \centering{\includegraphics[width=8.6cm]{_9__power_law_time_decay.png}}
-	\captionof{figure}{\label{fig:inhibition}Caption.}
+    \centering{\includegraphics[width=8.6cm]{_10__si_di_rapid_query.png}}
+	\captionof{figure}{\label{fig:si_di_rapid_query}Caption.}
 \end{figure}
 
 \section{\label{sec:fluxonic_fanout}Fanout to multiple synapses from the same neuron}
+
+\begin{figure} 
+    \centering{\includegraphics[width=8.6cm]{_11__power_law_time_decay.png}}
+	\captionof{figure}{\label{fig:power_law_time_decay}Caption.}
+\end{figure}
 
 \section{\label{sec:discussion}Discussion}
 	
