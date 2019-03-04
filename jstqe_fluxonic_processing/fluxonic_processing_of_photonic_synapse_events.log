@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 MAR 2019 18:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  1 MAR 2019 22:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -295,17 +295,7 @@ Package: authblk 2001/02/27 1.3 (PWD)
 \c@authors=\count105
 \c@affil=\count106
 )
-(./fluxonic_processing_of_photonic_synapse_events.aux
-
-LaTeX Warning: Label `fig:sffg' multiply defined.
-
-
-LaTeX Warning: Label `fig:inhibition' multiply defined.
-
-
-LaTeX Warning: Label `fig:inhibition' multiply defined.
-
-)
+(./fluxonic_processing_of_photonic_synapse_events.aux)
 \openout1 = `fluxonic_processing_of_photonic_synapse_events.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -322,7 +312,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 24.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 24.
@@ -462,49 +453,15 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 34.
 
-
-LaTeX Warning: Citation `haah2015' on page 1 undefined on input line 39.
-
-
-LaTeX Warning: Citation `shbu2017' on page 1 undefined on input line 41.
-
-
-LaTeX Warning: Citation `sh2018' on page 1 undefined on input line 41.
-
-
-LaTeX Warning: Citation `sh2018_full' on page 1 undefined on input line 41.
-
-
-LaTeX Warning: Citation `sh2018' on page 1 undefined on input line 41.
-
-
-LaTeX Warning: Citation `sh2018_full' on page 1 undefined on input line 41.
-
 <_01__schematic.png, id=1, 979.66pt x 702.625pt>
 File: _01__schematic.png Graphic file (type png)
  <use _01__schematic.png>
-Package pdftex.def Info: _01__schematic.png used on input line 44.
+Package pdftex.def Info: _01__schematic.png used on input line 46.
 (pdftex.def)             Requested size: 244.69386pt x 175.495pt.
-
-
-LaTeX Warning: Citation `sh2018' on page 1 undefined on input line 47.
-
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 47.
+(Font)              <10> on input line 50.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 47.
-
-LaTeX Warning: Reference `fig:schematic' on page 1 undefined on input line 47.
-
-
-LaTeX Warning: Citation `sh2018' on page 1 undefined on input line 47.
-
-
-LaTeX Warning: Citation `sh2018_full' on page 1 undefined on input line 47.
-
-
-LaTeX Warning: Reference `fig:schematic' on page 1 undefined on input line 47.
-
+(Font)              <7> on input line 50.
 
 Underfull \vbox (badness 5022) has occurred while \output is active []
 
@@ -512,216 +469,99 @@ Underfull \vbox (badness 5022) has occurred while \output is active []
 
 
 ]
-<_02__circuits.png, id=19, 979.66pt x 1702.36pt>
+<_02__circuits.png, id=18, 979.66pt x 1702.36pt>
 File: _02__circuits.png Graphic file (type png)
  <use _02__circuits.png>
-Package pdftex.def Info: _02__circuits.png used on input line 50.
+Package pdftex.def Info: _02__circuits.png used on input line 53.
 (pdftex.def)             Requested size: 244.69386pt x 425.19931pt.
-
-
-LaTeX Warning: Reference `fig:circuits' on page 2 undefined on input line 53.
-
-
-LaTeX Warning: Citation `abre2004' on page 2 undefined on input line 53.
-
 
 Underfull \vbox (badness 5431) has occurred while \output is active []
 
  [2 <./_01__schematic.png> <./_02__circuits.png>]
-
-LaTeX Warning: Citation `shbu2017' on page 3 undefined on input line 55.
-
-
-LaTeX Warning: Citation `sh2018' on page 3 undefined on input line 55.
-
-
-LaTeX Warning: Citation `sh2018_full' on page 3 undefined on input line 55.
-
-
-LaTeX Warning: Citation `sh2018_ICRC' on page 3 undefined on input line 55.
-
-
-Underfull \hbox (badness 8075) in paragraph at lines 57--57
+Underfull \hbox (badness 8075) in paragraph at lines 62--62
 [][]\OT1/lmr/bx/n/14.4 Photon-to-fluxon trans-duc-tion
  []
 
-<_03__sffg_basic.png, id=26, 979.66pt x 1132.23pt>
+<_03__sffg_basic.png, id=25, 979.66pt x 1132.23pt>
 File: _03__sffg_basic.png Graphic file (type png)
  <use _03__sffg_basic.png>
-Package pdftex.def Info: _03__sffg_basic.png used on input line 59.
+Package pdftex.def Info: _03__sffg_basic.png used on input line 64.
 (pdftex.def)             Requested size: 244.69386pt x 282.79765pt.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 67.
 
-
-LaTeX Warning: Reference `fig:circuits' on page 3 undefined on input line 62.
-
-
-LaTeX Warning: Citation `sh2018' on page 3 undefined on input line 62.
-
-
-LaTeX Warning: Citation `sh2018_full' on page 3 undefined on input line 62.
-
-
-LaTeX Warning: Citation `gook2001' on page 3 undefined on input line 62.
-
-
-LaTeX Warning: Citation `nata2012' on page 3 undefined on input line 62.
-
-
-LaTeX Warning: Citation `liyo2013' on page 3 undefined on input line 62.
-
-
-LaTeX Warning: Citation `mave2013' on page 3 undefined on input line 62.
-
-
-LaTeX Warning: Citation `ti1996' on page 3 undefined on input line 62.
-
-
-LaTeX Warning: Citation `vatu1998' on page 3 undefined on input line 62.
-
-
-LaTeX Warning: Citation `ka1999' on page 3 undefined on input line 62.
-
-
-LaTeX Warning: Citation `yake2007' on page 3 undefined on input line 62.
-
-
-LaTeX Warning: Reference `fig:circuits' on page 3 undefined on input line 62.
-
-
-LaTeX Warning: Citation `ti1996' on page 3 undefined on input line 62.
-
-
-LaTeX Warning: Citation `vatu1998' on page 3 undefined on input line 62.
-
-
-LaTeX Warning: Citation `ka1999' on page 3 undefined on input line 62.
-
-
-LaTeX Warning: Citation `vatu1998' on page 3 undefined on input line 62.
-
-
-LaTeX Warning: Citation `ka1999' on page 3 undefined on input line 62.
-
-
-LaTeX Warning: Citation `yake2007' on page 3 undefined on input line 62.
-
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 62.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-
-LaTeX Warning: Citation `sh2018_full' on page 3 undefined on input line 62.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-LaTeX Warning: Reference `fig:circuits' on page 3 undefined on input line 64.
-
-
-LaTeX Warning: Reference `fig:sffg_basic' on page 3 undefined on input line 64.
-
-
-
-LaTeX Warning: Citation `wh1991' on page 3 undefined on input line 64.
-
-
-LaTeX Warning: Reference `fig:sffg_basic' on page 3 undefined on input line 64.
-
-
-
-LaTeX Warning: Reference `fig:sffg_basic' on page 3 undefined on input line 64.
-
+LaTeX Warning: Citation `wh1991' on page 3 undefined on input line 69.
 
 
 Underfull \vbox (badness 2932) has occurred while \output is active []
 
  [3 <./_03__sffg_basic.png>]
 
-LaTeX Warning: Reference `fig:sffg_basic' on page 4 undefined on input line 66.
+LaTeX Warning: Citation `somi2000' on page 4 undefined on input line 71.
 
 
-
-LaTeX Warning: Citation `somi2000' on page 4 undefined on input line 66.
-
-
-LaTeX Warning: Citation `mage2012' on page 4 undefined on input line 66.
+LaTeX Warning: Citation `mage2012' on page 4 undefined on input line 71.
 
 
-LaTeX Warning: Reference `sh2018_full' on page 4 undefined on input line 66.
-
-
-LaTeX Warning: Reference `fig:sffg_basic' on page 4 undefined on input line 66.
-
+LaTeX Warning: Reference `sh2018_full' on page 4 undefined on input line 71.
 
 <_04__sffg_betaL_tauSi.png, id=35, 979.66pt x 1634.105pt>
 File: _04__sffg_betaL_tauSi.png Graphic file (type png)
 
 <use _04__sffg_betaL_tauSi.png>
-Package pdftex.def Info: _04__sffg_betaL_tauSi.png used on input line 69.
+Package pdftex.def Info: _04__sffg_betaL_tauSi.png used on input line 74.
 (pdftex.def)             Requested size: 244.69386pt x 408.15123pt.
+ [4 <./_04__sffg_betaL_tauSi.png>]
+
+LaTeX Warning: Citation `budr2004' on page 5 undefined on input line 80.
 
 
-LaTeX Warning: Reference `fig:sffg_betaL_tauSi' on page 4 undefined on input li
-ne 72.
+LaTeX Warning: Citation `bu2006' on page 5 undefined on input line 80.
 
 
-LaTeX Warning: Citation `budr2004' on page 4 undefined on input line 75.
+LaTeX Warning: Citation `budr2004' on page 5 undefined on input line 80.
 
 
-LaTeX Warning: Citation `bu2006' on page 4 undefined on input line 75.
-
-
-LaTeX Warning: Citation `sh2018_full' on page 4 undefined on input line 75.
-
-
-LaTeX Warning: Citation `budr2004' on page 4 undefined on input line 75.
-
-
-LaTeX Warning: Citation `bu2006' on page 4 undefined on input line 75.
-
-
-LaTeX Warning: Reference `fig:sffg_betaL_tauSi' on page 4 undefined on input li
-ne 75.
-
-[4 <./_04__sffg_betaL_tauSi.png>]
-
-LaTeX Warning: Reference `fig:sffg_betaL_tauSi' on page 5 undefined on input li
-ne 77.
+LaTeX Warning: Citation `bu2006' on page 5 undefined on input line 80.
 
 <_05__sffg_rate_conversion.png, id=40, 979.66pt x 1200.485pt>
 File: _05__sffg_rate_conversion.png Graphic file (type png)
 
 <use _05__sffg_rate_conversion.png>
-Package pdftex.def Info: _05__sffg_rate_conversion.png used on input line 82.
+Package pdftex.def Info: _05__sffg_rate_conversion.png used on input line 87.
 (pdftex.def)             Requested size: 244.69386pt x 299.84575pt.
 
 <_06__si_di_facilitating.png, id=41, 979.66pt x 1288.815pt>
 File: _06__si_di_facilitating.png Graphic file (type png)
 
 <use _06__si_di_facilitating.png>
-Package pdftex.def Info: _06__si_di_facilitating.png used on input line 89.
+Package pdftex.def Info: _06__si_di_facilitating.png used on input line 94.
 (pdftex.def)             Requested size: 244.69386pt x 321.90797pt.
 
 <_07__si_dcsfq_depressing.png, id=42, 979.66pt x 1618.045pt>
 File: _07__si_dcsfq_depressing.png Graphic file (type png)
 
 <use _07__si_dcsfq_depressing.png>
-Package pdftex.def Info: _07__si_dcsfq_depressing.png used on input line 94.
+Package pdftex.def Info: _07__si_dcsfq_depressing.png used on input line 99.
 (pdftex.def)             Requested size: 244.69386pt x 404.13992pt.
 
 <_08__poly_si_di.png, id=43, 979.66pt x 1730.465pt>
 File: _08__poly_si_di.png Graphic file (type png)
  <use _08__poly_si_di.png>
-Package pdftex.def Info: _08__poly_si_di.png used on input line 101.
+Package pdftex.def Info: _08__poly_si_di.png used on input line 106.
 (pdftex.def)             Requested size: 244.69386pt x 432.21912pt.
 
 <_09__si_di_inhibition.png, id=44, 979.66pt x 730.73pt>
 File: _09__si_di_inhibition.png Graphic file (type png)
 
 <use _09__si_di_inhibition.png>
-Package pdftex.def Info: _09__si_di_inhibition.png used on input line 108.
+Package pdftex.def Info: _09__si_di_inhibition.png used on input line 113.
 (pdftex.def)             Requested size: 244.69386pt x 182.5148pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -732,10 +572,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: _10__si_di_rapid_query.png Graphic file (type png)
 
 <use _10__si_di_rapid_query.png>
-Package pdftex.def Info: _10__si_di_rapid_query.png used on input line 113.
+Package pdftex.def Info: _10__si_di_rapid_query.png used on input line 118.
 (pdftex.def)             Requested size: 244.69386pt x 350.99pt.
 
-Underfull \hbox (badness 4048) in paragraph at lines 119--119
+Underfull \hbox (badness 4048) in paragraph at lines 124--124
 [][]\OT1/lmr/bx/n/14.4 Fanout to mul-ti-ple synapses
  []
 
@@ -743,7 +583,7 @@ Underfull \hbox (badness 4048) in paragraph at lines 119--119
 File: _11__power_law_time_decay.png Graphic file (type png)
 
 <use _11__power_law_time_decay.png>
-Package pdftex.def Info: _11__power_law_time_decay.png used on input line 122.
+Package pdftex.def Info: _11__power_law_time_decay.png used on input line 127.
 (pdftex.def)             Requested size: 244.69386pt x 421.188pt.
  [7 <./_09__si_di_inhibition.png> <./_10__si_di_rapid_query.png>] (./fluxonic_p
 rocessing_of_photonic_synapse_events.bbl
@@ -754,15 +594,12 @@ rocessing_of_photonic_synapse_events.bbl
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 4781 strings out of 493014
- 72687 string characters out of 6133351
- 132693 words of memory out of 5000000
- 8214 multiletter control sequences out of 15000+600000
+ 4776 strings out of 493014
+ 72601 string characters out of 6133351
+ 130743 words of memory out of 5000000
+ 8209 multiletter control sequences out of 15000+600000
  63933 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,5n,39p,2808b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -785,7 +622,7 @@ cal/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/
 /type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pub
 lic/lm/lmsy7.pfb>
 Output written on fluxonic_processing_of_photonic_synapse_events.pdf (9 pages, 
-1129614 bytes).
+1129217 bytes).
 PDF statistics:
  127 PDF objects out of 1000 (max. 8388607)
  77 compressed objects within 1 object stream
