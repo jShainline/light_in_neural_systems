@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  4 MAR 2019 19:54
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  4 MAR 2019 20:21
 entering extended mode
 **fluxonic_processing_of_photonic_synapse_events.tex
 
@@ -542,17 +542,17 @@ ssing/_08__poly_si_di.png>]
 File: _09__si_di_inhibition.png Graphic file (type png)
 
 <use _09__si_di_inhibition.png>
-Package pdftex.def Info: _09__si_di_inhibition.png used on input line 132.
+Package pdftex.def Info: _09__si_di_inhibition.png used on input line 134.
 (pdftex.def)             Requested size: 244.69386pt x 182.5148pt.
 
 <_10__si_di_rapid_query.png, id=61, 979.66pt x 1405.25pt>
 File: _10__si_di_rapid_query.png Graphic file (type png)
 
 <use _10__si_di_rapid_query.png>
-Package pdftex.def Info: _10__si_di_rapid_query.png used on input line 137.
+Package pdftex.def Info: _10__si_di_rapid_query.png used on input line 140.
 (pdftex.def)             Requested size: 244.69386pt x 350.99pt.
 
-Underfull \hbox (badness 4048) in paragraph at lines 143--143
+Underfull \hbox (badness 4048) in paragraph at lines 146--146
 [][]\OT1/lmr/bx/n/14.4 Fanout to mul-ti-ple synapses
  []
 
@@ -560,15 +560,15 @@ Underfull \hbox (badness 4048) in paragraph at lines 143--143
 File: _11__power_law_time_decay.png Graphic file (type png)
 
 <use _11__power_law_time_decay.png>
-Package pdftex.def Info: _11__power_law_time_decay.png used on input line 146.
+Package pdftex.def Info: _11__power_law_time_decay.png used on input line 149.
 (pdftex.def)             Requested size: 244.69386pt x 421.188pt.
  [9 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jstqe_fluxonic_proc
-essing/_09__si_di_inhibition.png> <C:/Users/jms4/Documents/GitHub/light_in_neur
-al_systems/jstqe_fluxonic_processing/_10__si_di_rapid_query.png>]
+essing/_09__si_di_inhibition.png>] [10 <C:/Users/jms4/Documents/GitHub/light_in
+_neural_systems/jstqe_fluxonic_processing/_10__si_di_rapid_query.png> <C:/Users
+/jms4/Documents/GitHub/light_in_neural_systems/jstqe_fluxonic_processing/_11__p
+ower_law_time_decay.png>]
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\jstqe_fluxonic_processi
-ng\fluxonic_processing_of_photonic_synapse_events.bbl [10 <C:/Users/jms4/Docume
-nts/GitHub/light_in_neural_systems/jstqe_fluxonic_processing/_11__power_law_tim
-e_decay.png>]) [11
+ng\fluxonic_processing_of_photonic_synapse_events.bbl [11]) [12
 
 ]
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\jstqe_fluxonic_processi
@@ -583,7 +583,7 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Here is how much of TeX's memory you used:
  4443 strings out of 493921
  66711 string characters out of 3147285
- 125114 words of memory out of 3000000
+ 125116 words of memory out of 3000000
  7654 multiletter control sequences out of 15000+200000
  63933 words of font info for 60 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -604,10 +604,10 @@ es/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts
 ri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri9.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/lm/lmsy7.pfb>
-Output written on fluxonic_processing_of_photonic_synapse_events.pdf (11 pages,
- 1141969 bytes).
+Output written on fluxonic_processing_of_photonic_synapse_events.pdf (12 pages,
+ 1143973 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
+ 134 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
