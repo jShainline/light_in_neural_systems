@@ -27,7 +27,7 @@
   \begin{@twocolumnfalse}
     \maketitle
     \begin{abstract}
-    Much of the information processing performed by a neuron occurs in the dentritic tree. For neural systems using light for communication, it is advantageous to convert to the electronic domain at synaptic terminals so dendritic computation can be performed with electrical circuits. Here we present circuits based on jjs and mis that act as dendrites processing signals from synapses receiving single-photon communication events with superconducting detectors. We show simulations of circuits performing basic logical operations such as AND and OR, which become correlation detectors when time dependence is added. These two-input logical operations straightforwardly extend to multiple inputs, and such a dendrites performs an intermediate thresholding nonlinearity between the synapses and the cell body. We further show how the signal from a single-photon synapse event can fan out locally in the electronic domain by roughly a factor of ten to enable the dendrites of the receiving neuron to process in multiple different ways. Such a technique makes efficient use of photons and energy while providing access to significantly more information regarding an afferent spike train.
+    Much of the information processing performed by a neuron occurs in the dentritic tree. For neural systems using light for communication, it is advantageous to convert to the electronic domain at synaptic terminals so dendritic computation can be performed with electrical circuits. Here we present circuits based on Josephson junctions and mutual inductors that act as dendrites processing signals from synapses receiving single-photon communication events with superconducting detectors. We show simulations of circuits performing basic logical operations such as AND and OR, which become coincidence detectors when time dependence is added. These two-input logical operations straightforwardly extend to multiple inputs, and such a dendrites perform intermediate thresholding between the synapses and the cell body. We further show how the signal from a single-photon synapse event can fan out locally in the electronic domain by roughly a factor of ten to enable the dendrites of the receiving neuron to process in multiple different ways. Such a technique makes efficient use of photons and energy while providing access to significantly more information regarding an afferent spike train.
     \vspace{3em}
     \end{abstract}
   \end{@twocolumnfalse}
@@ -57,6 +57,7 @@ A central premise of the body of work represented by Refs.\,\cite{shbu2017,sh201
 \section{\label{sec:synapse}Photon-to-fluxon transduction at a synapse}
 \begin{figure} 
     \centering{\includegraphics[width=8.6cm]{_03__sffg_basic.png}}
+%        \setlength{\belowcaptionskip}{-20pt}
 	\captionof{figure}{\label{fig:sffg_basic}Caption.}
 \end{figure}
 Analysis of fluxonic processing of photonic synapse events begins with consideration of the circuit that transduces a single-photon detection event to the superconducting electronic domain in the form of a series of fluxons. The circuit that accomplishes this is shown in Fig.\,\ref{fig:circuits}(a). This circuit was first introduced in Ref.\,\cite{sh2018} and described in more detail in Ref.\,\cite{sh2018_full}. The circuit comprises an initial receiver/transducer section, consisting of a superconducting-nanowire single-photon detector (SPD) \cite{gook2001,nata2012,liyo2013,mave2013} in parallel with a Josephson junction (JJ) \cite{ti1996,vatu1998,ka1999}. In the steady state, the SPD (drawn as a variable resistor in series with an inductor) has zero resistance, and thus its entire bias current flows directly through it to ground. The synaptic firing junction, $J_{\mathrm{sf}}$, is biased below its critical current ($I_{\mathrm{c}}$) by the synaptic bias current, $I_{\mathrm{sy}}$. Upon absorption of a photon, the variable resistor of the SPD switches temporarily to a high-resistance state ($\approx\,5$\,k$\Omega$) for a short duration ($\approx\,200$\,ps) \cite{yake2007}. The current through the SPD is diverted across a resistor ($I_{\mathrm{spd}}$ across $I_{\mathrm{spd}}$ in Fig.\,\ref{fig:circuits}(a)) and to $J_{\mathrm{sf}}$. At this point, the sum of the currents across $J_{\mathrm{sf}}$ exceeds $I_{\mathrm{c}}$, and the junction produces a series of fluxons \cite{ti1996,vatu1998,ka1999}. These fluxons propagate along the Josephson transmission line \cite{vatu1998,ka1999}, and are stored in the synaptic integration loop (SI). After the 200\,ps photon detection event, the bias current returns to the SPD with the time constant of $\tau_{\mathrm{spd}} = L_{\mathrm{spd}}/r_{\mathrm{spd}}$. This time constant has a minimum functional value determined by the electro-thermal properties of the nanowire \cite{yake2007}, and throughout this work we assume this time constant is fixed at $\tau_{\mathrm{si}} = 10$\,ns and the bias to the SPD is fixed at 10\,\textmu A. The number of fluxons created during a synaptic firing event depends on the net current across $J_{\mathrm{sf}}$ as well as the duration during which $J_{\mathrm{sf}}$ is biased above $I_{\mathrm{c}}$. With $\tau_{\mathrm{si}}$ and the bias to the SPD fixed, the number of fluxons, and thus the synaptic weight, are dynamically adaptable by changing the synaptic bias current, $I_{\mathrm{sy}}$. More details regarding $I_{\mathrm{sy}}$ and the associated plasticity mechanisms are given in Ref.\,\cite{sh2018_full}. 
@@ -81,7 +82,7 @@ In Fig.\,\ref{fig:sffg_betaL_tauSi}(b) we show the integrated current in an SI l
 \section{\label{sec:short_term}Operations on pulse trains at a single synapse}
 \begin{figure} 
     \centering{\includegraphics[width=8.6cm]{_05__sffg_rate_conversion.png}}
-	\captionof{figure}{\label{fig:sffg_rate_conversion}Caption.}
+	\captionof{figure}{\label{fig:sffg_rate_conversion}Need description of averaging procedure (see pg 65 in green)}
 \end{figure}
 As an example of one form of processing that can be performed using the synaptic circuit of Fig.\,\ref{fig:circuits}(a), Fig.\,\ref{fig:sffg_rate_conversion} considers the operation of rate-to-current conversion. The first term of the Volterra expansion of a spike train corresponds to the time-averaged spike rate \cite{geki2002}, so a neuron must be able to decode this information. This can be accomplished with the synaptic transducer of Fig.\,\ref{fig:circuits}(a) when the SI loop is given a leak rate, as discussed in the context of Fig.\,\ref{fig:sffg_betaL_tauSi}(a). The circuit behaves as a standard leaky integrator, so the current in the SI loop obeys
 \begin{equation}
@@ -149,18 +150,25 @@ To our knowledge, there is no analog of a rapid query neuron in the biological d
     \centering{\includegraphics[width=8.6cm]{_11__power_law_time_decay.png}}
 	\captionof{figure}{\label{fig:power_law_time_decay}Caption.}
 \end{figure}
+fading memory
 
 \section{\label{sec:discussion}Discussion}
 \begin{itemize}
+\item extensions (XOR,...
 \item bit depth (all loops are 8 to 10)
 \item logic-level restoration
 \item the soma is basically just another dendrite at the root of the tree, except it feeds into no DR, but rather the amplifier chain
 \item we have only considered binary inhibition. Multiple IH loops could achieve partial inhibition
 \item trying to maximize what the dendritic tree knows and can communicate to the neuron
 \item fan-out photonic, fan-in electronic
-\end{itemize}	
+\end{itemize}
+
+\vspace{0.5em}
+This is a contribution of NIST, an agency of the US government, not subject to copyright.
+	
 \newpage
 \appendix
+\section{\label{apx:circuit_parameters}Parameters used in circuit simulations}
 
 \bibliographystyle{unsrt}
 \bibliography{fluxonic_processing_of_photonic_synapse_events}
