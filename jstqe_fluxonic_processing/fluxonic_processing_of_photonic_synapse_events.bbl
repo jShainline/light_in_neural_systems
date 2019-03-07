@@ -23,29 +23,27 @@ J.M. Shainline, S.M. Buckley, A.N. McCaughan, J.~Chiles, A.~Jafari-Salim, R.P.
 \newblock Superconducting optoelectronic neurons.
 \newblock {\em arXiv}, page 1805.01929, 2018.
 
-\bibitem{abre2004}
-L.F. Abbott and W.G. Regehr.
-\newblock Synaptic computation.
-\newblock {\em Nature Reviews}, 431:796, 2004.
-
 \bibitem{sh2018_ICRC}
 J.M. Shainline.
 \newblock The largest cognitive systems will be optoelectronic.
 \newblock In {\em IEEE International Conference on Rebooting Computing}. IEEE,
   Nov 2018.
 
+\bibitem{geki2002}
+W.~Gerstner and W.~Kistler.
+\newblock {\em Spiking neuron models}.
+\newblock Cambridge University Press, Cambridge, first edition, 2002.
+
+\bibitem{abre2004}
+L.F. Abbott and W.G. Regehr.
+\newblock Synaptic computation.
+\newblock {\em Nature Reviews}, 431:796, 2004.
+
 \bibitem{gook2001}
 G.N. Gol'tsman, O.~Okunev, G.~Chulova, A.~Lipatov, A.~Semenov, K.~Smirnov,
   B.~Voronov, A.~Dzardanov, C.~Williams, and R.~Sobolewski.
 \newblock Picosecond superconducting single-photon optical detector.
 \newblock {\em Appl. Phys. Lett.}, 79:705, 2001.
-
-\bibitem{yake2007}
-J.K.W. Yang, A.J. Kerman, E.A. Dauler, V.~Anant, K.M. Rosfjord, and K.K.
-  Berggren.
-\newblock Modeling the electrical and thermal response of superconducting
-  nanowire single-photon detectors.
-\newblock {\em IEEE Trans. Appl. Supercond.}, 17:581, 2007.
 
 \bibitem{nata2012}
 C.M. Natarajan, M.G. Tanner, and R.H. Hadfield.
@@ -80,5 +78,51 @@ T.~Van Duzer and C.W. Turner.
 Alan~M. Kadin.
 \newblock {\em Introduction to superconducting circuits}.
 \newblock John Wiley and Sons, USA, first edition, 1999.
+
+\bibitem{yake2007}
+J.K.W. Yang, A.J. Kerman, E.A. Dauler, V.~Anant, K.M. Rosfjord, and K.K.
+  Berggren.
+\newblock Modeling the electrical and thermal response of superconducting
+  nanowire single-photon detectors.
+\newblock {\em IEEE Trans. Appl. Supercond.}, 17:581, 2007.
+
+\bibitem{wh1991}
+S.R. Whiteley.
+\newblock Josephson junctions in spice3.
+\newblock {\em IEEE Tras. Mag.}, 27:2902, 1991.
+
+\bibitem{somi2000}
+S.~Song, K.D. Miller, and L.F. Abbott.
+\newblock Competitive hebbian learning through spike-timing-dependent synaptic
+  plasticity.
+\newblock {\em Nature Neuroscience}, 3:919, 2000.
+
+\bibitem{mage2012}
+H.~Markram, W.~Gerstner, and P.J. Sjostrom.
+\newblock Spike-timing-dependent plasticity: a comprehensive overview.
+\newblock {\em Frontiers in Synaptic Neuroscience}, 4:2, 2012.
+
+\bibitem{budr2004}
+G.~Buzsaki and A.~Draguhn.
+\newblock Neuronal oscillations in cortical networks.
+\newblock {\em Science}, 304:1926, 2004.
+
+\bibitem{bu2006}
+G.~Buzsaki.
+\newblock {\em Rhythms of the brain}.
+\newblock Oxford University Press, 2006.
+
+\bibitem{lise1991}
+K.K. Likharev and V.K. Semenov.
+\newblock Rsfq logic/memory family: a new josephson-junction technology for
+  sub-terahertz-clock-frequency digital systems.
+\newblock {\em IEEE Trans. Appl. Supercond.}, 1:3, 1991.
+
+\bibitem{buch2017}
+S.~Buckley, J.~Chiles, A.N. McCaughan, G.~Moody, K.L. Silverman, M.J. Stevens,
+  R.P. Mirin, S.W. Nam, and J.M. Shainline.
+\newblock All-silicon light-emitting diodes waveguide-integrated with
+  superconducting single-photon detectors.
+\newblock {\em Appl. Phys. Lett.}, 111:141101, 2017.
 
 \end{thebibliography}
