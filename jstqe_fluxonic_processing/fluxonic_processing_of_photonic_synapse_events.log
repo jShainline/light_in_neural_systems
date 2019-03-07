@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  5 MAR 2019 10:46
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  6 MAR 2019 20:11
 entering extended mode
 **fluxonic_processing_of_photonic_synapse_events.tex
 
@@ -459,41 +459,46 @@ LaTeX Font Info:    Try loading font information for TS1+lmr on input line 63.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 LaTeX Warning: Citation `wh1991' on page 3 undefined on input line 65.
 
 
-LaTeX Warning: Citation `somi2000' on page 3 undefined on input line 67.
+Underfull \vbox (badness 2932) has occurred while \output is active []
+
+ [3 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jstqe_fluxonic_proc
+essing/_03__sffg_basic.png>]
+
+LaTeX Warning: Citation `somi2000' on page 4 undefined on input line 67.
 
 
-LaTeX Warning: Citation `mage2012' on page 3 undefined on input line 67.
+LaTeX Warning: Citation `mage2012' on page 4 undefined on input line 67.
 
 
-LaTeX Warning: Reference `sh2018_full' on page 3 undefined on input line 67.
+LaTeX Warning: Reference `sh2018_full' on page 4 undefined on input line 67.
 
-[3 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jstqe_fluxonic_proce
-ssing/_03__sffg_basic.png>]
 <_04__sffg_betaL_tauSi.png, id=34, 979.66pt x 1634.105pt>
 File: _04__sffg_betaL_tauSi.png Graphic file (type png)
 
 <use _04__sffg_betaL_tauSi.png>
 Package pdftex.def Info: _04__sffg_betaL_tauSi.png used on input line 70.
 (pdftex.def)             Requested size: 244.69386pt x 408.15123pt.
+ [4 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jstqe_fluxonic_proc
+essing/_04__sffg_betaL_tauSi.png>]
+
+LaTeX Warning: Citation `budr2004' on page 5 undefined on input line 76.
 
 
-LaTeX Warning: Citation `budr2004' on page 4 undefined on input line 76.
+LaTeX Warning: Citation `bu2006' on page 5 undefined on input line 76.
 
 
-LaTeX Warning: Citation `bu2006' on page 4 undefined on input line 76.
+LaTeX Warning: Citation `budr2004' on page 5 undefined on input line 76.
 
 
-LaTeX Warning: Citation `budr2004' on page 4 undefined on input line 76.
+LaTeX Warning: Citation `bu2006' on page 5 undefined on input line 76.
 
-
-LaTeX Warning: Citation `bu2006' on page 4 undefined on input line 76.
-
-[4 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jstqe_fluxonic_proce
-ssing/_04__sffg_betaL_tauSi.png>]
 <_05__sffg_rate_conversion.png, id=39, 979.66pt x 1200.485pt>
 File: _05__sffg_rate_conversion.png Graphic file (type png)
 
@@ -539,47 +544,44 @@ File: _09__si_di_inhibition.png Graphic file (type png)
 <use _09__si_di_inhibition.png>
 Package pdftex.def Info: _09__si_di_inhibition.png used on input line 135.
 (pdftex.def)             Requested size: 244.69386pt x 182.5148pt.
-
-<_10__si_di_rapid_query.png, id=61, 979.66pt x 1405.25pt>
+ [9 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jstqe_fluxonic_proc
+essing/_09__si_di_inhibition.png>]
+<_10__si_di_rapid_query.png, id=65, 979.66pt x 1405.25pt>
 File: _10__si_di_rapid_query.png Graphic file (type png)
 
 <use _10__si_di_rapid_query.png>
-Package pdftex.def Info: _10__si_di_rapid_query.png used on input line 141.
+Package pdftex.def Info: _10__si_di_rapid_query.png used on input line 143.
 (pdftex.def)             Requested size: 244.69386pt x 350.99pt.
+ [10 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jstqe_fluxonic_pro
+cessing/_10__si_di_rapid_query.png>]
 
-Underfull \hbox (badness 4048) in paragraph at lines 147--147
-[][]\OT1/lmr/bx/n/14.4 Fanout to mul-ti-ple synapses
- []
+LaTeX Warning: Citation `lise1991' on page 11 undefined on input line 153.
 
-<_11__power_law_time_decay.png, id=62, 979.66pt x 1686.3pt>
+<_11__power_law_time_decay.png, id=70, 979.66pt x 1686.3pt>
 File: _11__power_law_time_decay.png Graphic file (type png)
 
 <use _11__power_law_time_decay.png>
-Package pdftex.def Info: _11__power_law_time_decay.png used on input line 150.
+Package pdftex.def Info: _11__power_law_time_decay.png used on input line 158.
 (pdftex.def)             Requested size: 244.69386pt x 421.188pt.
- [9 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jstqe_fluxonic_proc
-essing/_09__si_di_inhibition.png>] [10 <C:/Users/jms4/Documents/GitHub/light_in
-_neural_systems/jstqe_fluxonic_processing/_10__si_di_rapid_query.png> <C:/Users
-/jms4/Documents/GitHub/light_in_neural_systems/jstqe_fluxonic_processing/_11__p
-ower_law_time_decay.png>]
-(C:\Users\jms4\Documents\GitHub\light_in_neural_systems\jstqe_fluxonic_processi
-ng\fluxonic_processing_of_photonic_synapse_events.bbl [11]) [12
+ [11 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jstqe_fluxonic_pro
+cessing/_11__power_law_time_decay.png>]
 
-]
+LaTeX Warning: Citation `bu2006' on page 12 undefined on input line 181.
+
+[12]
+(C:\Users\jms4\Documents\GitHub\light_in_neural_systems\jstqe_fluxonic_processi
+ng\fluxonic_processing_of_photonic_synapse_events.bbl) [13]
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\jstqe_fluxonic_processi
 ng\fluxonic_processing_of_photonic_synapse_events.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 4444 strings out of 493921
- 66735 string characters out of 3147285
- 124125 words of memory out of 3000000
- 7655 multiletter control sequences out of 15000+200000
+ 4445 strings out of 493921
+ 66745 string characters out of 3147285
+ 125126 words of memory out of 3000000
+ 7656 multiletter control sequences out of 15000+200000
  63933 words of font info for 60 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  36i,6n,39p,2808b,329s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -599,10 +601,10 @@ es/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts
 ri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri9.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/lm/lmsy7.pfb>
-Output written on fluxonic_processing_of_photonic_synapse_events.pdf (12 pages,
- 1144937 bytes).
+Output written on fluxonic_processing_of_photonic_synapse_events.pdf (13 pages,
+ 1157508 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
+ 138 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
