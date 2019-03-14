@@ -1,7 +1,0 @@
-\contentsline {section}{\numberline {1}Introduction}{1}
-\contentsline {section}{\numberline {2}Photon-to-fluxon transduction at a synapse}{3}
-\contentsline {section}{\numberline {3}Operations on pulse trains at a single synapse}{7}
-\contentsline {section}{\numberline {4}Detecting correlations between neurons}{7}
-\contentsline {section}{\numberline {5}Inhibition and rapid query}{7}
-\contentsline {section}{\numberline {6}Fanout to multiple synapses from the same neuron}{7}
-\contentsline {section}{\numberline {7}Discussion}{7}

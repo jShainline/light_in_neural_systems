@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  12 MAR 2019 22:00
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  13 MAR 2019 15:22
 entering extended mode
 **optoelectronic_intelligence.tex
 
@@ -373,33 +373,23 @@ Package caption Info: End \AtBeginDocument code.
 \makeMPintoPDFobject=\count109
 \everyMPtoPDFconversion=\toks22
 )
-
-LaTeX Warning: Citation `ko1997' on page 1 undefined on input line 35.
-
-
-Underfull \vbox (badness 1142) has occurred while \output is active []
+Underfull \vbox (badness 1762) has occurred while \output is active []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2057) has occurred while \output is active []
 
  [1{C:/Users/jms4/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
-<complexity_across_scales.png, id=13, 2091.815pt x 1080.035pt>
+<complexity_across_scales.png, id=12, 2091.815pt x 1080.035pt>
 File: complexity_across_scales.png Graphic file (type png)
 
 <use complexity_across_scales.png>
 Package pdftex.def Info: complexity_across_scales.png used on input line 45.
 (pdftex.def)             Requested size: 500.76868pt x 258.55449pt.
-
-
-LaTeX Warning: Citation `shICRC2018' on page 2 undefined on input line 46.
-
-
-LaTeX Warning: Citation `shICRC2018' on page 2 undefined on input line 46.
-
 LaTeX Font Info:    Try loading font information for TS1+lmr on input line 46.
+
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -436,132 +426,105 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 46.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-
-LaTeX Warning: Citation `shICRC2018' on page 2 undefined on input line 46.
-
-
-LaTeX Warning: Citation `shICRC2018' on page 2 undefined on input line 46.
-
-
-LaTeX Warning: Citation `shICRC2018' on page 2 undefined on input line 48.
-
-<data_plots.png, id=15, 979.66pt x 1754.555pt>
+<data_plots.png, id=14, 979.66pt x 1754.555pt>
 File: data_plots.png Graphic file (type png)
  <use data_plots.png>
-Package pdftex.def Info: data_plots.png used on input line 56.
+Package pdftex.def Info: data_plots.png used on input line 54.
 (pdftex.def)             Requested size: 244.69386pt x 438.23608pt.
  [2]
 [3 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/ne_optoelectronic_in
 telligence/complexity_across_scales.png>]
-Underfull \hbox (badness 1648) in paragraph at lines 66--66
+Underfull \hbox (badness 1648) in paragraph at lines 64--64
 [][]\OT1/lmr/bx/n/14.4 Optoelectronic synapses, den-
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/ne_optoelectronic_i
-ntelligence/data_plots.png>]
-Underfull \vbox (badness 1194) has occurred while \output is active []
-
-
-<experimental.png, id=30, 4006.97pt x 1971.365pt>
+[4 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/ne_optoelectronic_in
+telligence/data_plots.png>] <experimental.png, id=29, 4006.97pt x 1971.365pt>
 File: experimental.png Graphic file (type png)
- <use experimental.png>
-Package pdftex.def Info: experimental.png used on input line 74.
+
+<use experimental.png>
+Package pdftex.def Info: experimental.png used on input line 72.
 (pdftex.def)             Requested size: 489.38731pt x 240.76488pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
 [][]\OT1/lmr/bx/n/14.4 Communication with guided
  []
 
 [5] [6 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/ne_optoelectroni
 c_intelligence/experimental.png>]
-<communication_across_scales.png, id=40, 2003.485pt x 1365.1pt>
+<communication_across_scales.png, id=39, 2003.485pt x 1365.1pt>
 File: communication_across_scales.png Graphic file (type png)
 
 <use communication_across_scales.png>
-Package pdftex.def Info: communication_across_scales.png used on input line 100
-.
+Package pdftex.def Info: communication_across_scales.png used on input line 93.
+
 (pdftex.def)             Requested size: 500.76868pt x 341.19084pt.
-
-
-LaTeX Warning: Citation `shhi2017' on page 7 undefined on input line 103.
-
-[7] [8 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/ne_optoelectroni
-c_intelligence/communication_across_scales.png (PNG copy)>] [9]
+ [7] [8 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/ne_optoelectron
+ic_intelligence/communication_across_scales.png (PNG copy)>]
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\ne_optoelectronic_intel
-ligence\optoelectronic_intelligence.bbl
-Underfull \hbox (badness 1521) in paragraph at lines 79--84
+ligence\optoelectronic_intelligence.bbl [9]
+Underfull \hbox (badness 1521) in paragraph at lines 63--68
 []\OT1/lmr/m/n/10 V. Sto-janovic, R.J. Ram, M. Popovic, S. Lin,
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 97--104
+Underfull \hbox (badness 1122) in paragraph at lines 81--88
 \OT1/lmr/m/n/10 Cas-sidy, J. Sawada, F. Akopyan, B.L. Jack-son,
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 111--116
+Underfull \hbox (badness 3209) in paragraph at lines 95--100
 \OT1/lmr/m/it/10 Trans. Neu-ral Net-works and Learn-ing Sys-tems\OT1/lmr/m/n/10
  ,
  []
 
-[10]
-Underfull \hbox (badness 2556) in paragraph at lines 173--176
-\OT1/lmr/m/n/10 Bayesian in-fer-ence with prob-a-bilis-tic pop-u-la-tion
- []
 
-
-Underfull \hbox (badness 4492) in paragraph at lines 183--187
+Underfull \hbox (badness 4492) in paragraph at lines 147--151
 \OT1/lmr/m/n/10 Church-land, J. Roit-man, M.N. Shadlen, P.E.
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 183--187
+Underfull \hbox (badness 1264) in paragraph at lines 147--151
 \OT1/lmr/m/n/10 Latham, and A. Pouget.  Prob-a-bilis-tic pop-u-la-
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 258--261
+Underfull \hbox (badness 1112) in paragraph at lines 175--180
+[]\OT1/lmr/m/n/10 K. Segall, M. LeGro, S. Ka-plan, O. Svi-tel-skiy,
+ []
+
+[10]
+Underfull \hbox (badness 1874) in paragraph at lines 217--220
 []\OT1/lmr/m/n/10 H. Markram, W. Ger-st-ner, and P.J. Sjostrom.
  []
 
-[11]) [12
-
-]
+) [11]
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\ne_optoelectronic_intel
-ligence\optoelectronic_intelligence.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+ligence\optoelectronic_intelligence.aux) ) 
 Here is how much of TeX's memory you used:
- 4338 strings out of 493921
- 64598 string characters out of 3147285
- 136307 words of memory out of 3000000
- 7570 multiletter control sequences out of 15000+200000
- 46608 words of font info for 40 fonts, out of 3000000 for 9000
+ 4321 strings out of 493921
+ 64429 string characters out of 3147285
+ 135036 words of memory out of 3000000
+ 7554 multiletter control sequences out of 15000+200000
+ 43662 words of font info for 39 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,7n,39p,2016b,350s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/M
-iKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
-nc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ma
-thit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr
-17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-lm/lmri9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb>
-Output written on optoelectronic_intelligence.pdf (12 pages, 7595620 bytes).
+ 36i,7n,39p,2009b,350s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/en
+c/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.
+enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program F
+iles/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program Files/MiKTeX 2.9/font
+s/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
+/lmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmri9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
+y10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb>
+Output written on optoelectronic_intelligence.pdf (11 pages, 7210484 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
+ 100 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
