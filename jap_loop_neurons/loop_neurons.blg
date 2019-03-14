@@ -1,0 +1,29 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: loop_neurons.aux
+The style file: unsrt.bst
+Database file #1: loop_neurons.bib
+Repeated entry---line 328 of file loop_neurons.bib
+ : @book{brsc1998
+ :               ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "bu1999" isn't style-file defined
+--line 847 of file loop_neurons.bib
+Warning--entry type for "astra" isn't style-file defined
+--line 863 of file loop_neurons.bib
+Repeated entry---line 1392 of file loop_neurons.bib
+ : @article{da1989
+ :                ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "speedOfLight" isn't style-file defined
+--line 2304 of file loop_neurons.bib
+Repeated entry---line 3721 of file loop_neurons.bib
+ : @article{scdo2018
+ :                  ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "shICRC2018"
+Warning--can't use both author and editor fields in laus2011
+Warning--empty year in laus2011
+Warning--empty year in nich2000
+Warning--empty journal in Zwanenburg2013
+Warning--empty journal in Hill
+Warning--empty year in Hill
+(There were 3 error messages)
