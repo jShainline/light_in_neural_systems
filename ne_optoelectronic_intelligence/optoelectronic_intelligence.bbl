@@ -51,6 +51,12 @@ G.~Buzsaki.
 \newblock {\em Rhythms of the brain}.
 \newblock Oxford University Press, 2006.
 
+\bibitem{mi2017}
+D.A.B. Miller.
+\newblock Attojoule optoelectronics for low-energy information processing and
+  communications.
+\newblock {\em J. Lightwave Technol.}, 35:346, 2017.
+
 \bibitem{suwa2015}
 C.~Sun, M.T. Wade, Y.~Lee, J.S. Orcutt, L.~Alloatti, M.S. Georgas, A.S.
   Waterman, J.M. Shainline, R.R. Avizienis, S.~Lin, B.R. Moss, R.~Kumar,
@@ -275,6 +281,12 @@ A.~Kumar, Z.~Wan, W.W. Wilcke, and S.S. Iyer.
 \newblock Toward human-scale brain computing using 3d wafer scale integration.
 \newblock {\em ACM Journal on Emerging Technologies in Computing Systems},
   13:45, 2017.
+
+\bibitem{caga2012}
+M.~Cabezon, I.~Garces, A.~Villafranca, J.~Pozo, P.~Kumar, and A.~Kazmierczak.
+\newblock Silicon-on-insulator chip-to-chip coupling via out-of-plane vertical
+  grating couplers.
+\newblock {\em Applied Optics}, 51:8090, 2012.
 
 \bibitem{zhse2000}
 K.~Zhang and T.J. Sejnowski.

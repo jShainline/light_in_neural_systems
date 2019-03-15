@@ -590,22 +590,21 @@ R.B. Stein.
 \newblock The information capacity of nerve cells using a frequency code.
 \newblock {\em Biophys.}, 7:797, 1967.
 
-\bibitem{sh2018c}
-J.M. Shainline, A.N. McCaughan, S.M. Buckley, C.A. Donnelly,
-  M.~Castellanos-Beltran, M.L. Schneider, R.P. Mirin, and S.W. Nam.
-\newblock Superconducting optoelectronic neurons {III}: Synaptic plasticity.
-\newblock {\em arXiv}, page 1805.01937, 2018.
+\bibitem{sh2018_ICRC}
+J.M. Shainline.
+\newblock The largest cognitive systems will be optoelectronic.
+\newblock In {\em IEEE International Conference on Rebooting Computing}. IEEE,
+  Nov 2018.
+
+\bibitem{crsc2010}
+P.~Crotty, D.~Schult, and K.~Segall.
+\newblock Josephson junction simulation of neurons.
+\newblock {\em Phys. Rev. E}, 82:011914, 2010.
 
 \bibitem{wh1991}
 S.R. Whiteley.
 \newblock Josephson junctions in spice3.
 \newblock {\em IEEE Tras. Mag.}, 27:2902, 1991.
-
-\bibitem{sh2018b}
-J.M. Shainline, S.M. Buckley, A.N. McCaughan, M.~Castellanos-Beltran, C.A.
-  Donnelly, M.L. Schneider, R.P. Mirin, and S.W. Nam.
-\newblock Superconducting optoelectronic neurons {II}: Receiver circuits.
-\newblock {\em arXiv}, page 1805.02599, 2018.
 
 \bibitem{vrso1996}
 C.~van Vreeswijk and H.~Sompolinsky.
@@ -640,11 +639,6 @@ T.~Hirose, T.~Asai, and Y.~Amemiya.
 \newblock Pulsed neural networks consisting of single-flux-quantum spiking
   neurons.
 \newblock {\em Physica C}, 463:1072, 2007.
-
-\bibitem{crsc2010}
-P.~Crotty, D.~Schult, and K.~Segall.
-\newblock Josephson junction simulation of neurons.
-\newblock {\em Phys. Rev. E}, 82:011914, 2010.
 
 \bibitem{ru2016}
 S.E. Russek, C.~Donnelly, M.~Schneider, B.~Baek, M.~Pufall, W.H. Rippard, P.F.
@@ -779,12 +773,6 @@ O.A. Mukhanov.
 \newblock Energy-efficient single flux quantum technology.
 \newblock {\em IEEE Trans. Appl. Supercond.}, 21:760, 2011.
 
-\bibitem{sh2018d}
-J.M. Shainline, A.N. McCaughan, A.~Jafari-Salim, S.M. Buckley, R.P. Mirin, and
-  S.W. Nam.
-\newblock Superconducting optoelectronic neurons {IV}: Transmitter circuits.
-\newblock {\em arXiv}, page 1805.01941, 2018.
-
 \bibitem{mi2017}
 D.A.B. Miller.
 \newblock Attojoule optoelectronics for low-energy information processing and
@@ -820,12 +808,6 @@ V.M Eguiluz, D.R. Chialvo, G.A. Cecchi, M.~Baliki, and A.V. Aplarian.
 A.C. Yadav and R.~Ramaswamy andD. Dhar.
 \newblock General mechanism for the 1/$f$ noise.
 \newblock {\em Phys. Rev. E}, 96:022215, 2017.
-
-\bibitem{sh2018e}
-J.M. Shainline, J.~Chiles, S.M. Buckley, A.N. McCaughan, R.P. Mirin, and S.W.
-  Nam.
-\newblock Superconducting optoelectronic neurons {V}: Networks and scaling.
-\newblock {\em arXiv}, page 1805.01942, 2018.
 
 \bibitem{bagr2010}
 D.S. Bassett, D.L. Greenfield, A.~Meyer-Lindenberg, D.R. Weinberger, S.W.
