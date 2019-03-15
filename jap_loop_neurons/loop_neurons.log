@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  14 MAR 2019 17:36
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  14 MAR 2019 18:56
 entering extended mode
 **loop_neurons.tex
 
@@ -496,7 +496,7 @@ Underfull \hbox (badness 3118) in paragraph at lines 176--176
  []
 
 
-<_receivers_inhibitoryAndExcitatory_small.pdf, id=351, 244.69318pt x 137.26282p
+<_receivers_inhibitoryAndExcitatory_small.pdf, id=318, 244.69318pt x 137.26282p
 t>
 File: _receivers_inhibitoryAndExcitatory_small.pdf Graphic file (type pdf)
  <use _receivers_inhibitoryAndExcitatory_small.pdf>
@@ -508,7 +508,7 @@ Underfull \hbox (badness 2818) in paragraph at lines 191--192
 []\OT1/lmr/m/n/10 The sym-me-try be-tween in-hibitory and ex-ci-ta-tory
  []
 
-<_receivers_coincidence_small.pdf, id=356, 244.69318pt x 277.36926pt>
+<_receivers_coincidence_small.pdf, id=323, 244.69318pt x 277.36926pt>
 File: _receivers_coincidence_small.pdf Graphic file (type pdf)
 
 <use _receivers_coincidence_small.pdf>
@@ -516,7 +516,7 @@ Package pdftex.def Info: _receivers_coincidence_small.pdf used on input line 19
 8.
 (pdftex.def)             Requested size: 244.69386pt x 277.3728pt.
 
-<_receivers_dendriticProcessing_small.pdf, id=357, 244.69417pt x 347.63176pt>
+<_receivers_dendriticProcessing_small.pdf, id=324, 244.69417pt x 347.63176pt>
 File: _receivers_dendriticProcessing_small.pdf Graphic file (type pdf)
 
 <use _receivers_dendriticProcessing_small.pdf>
@@ -533,7 +533,7 @@ receivers_dendriticProcessing_small.pdf>]
 
 LaTeX Warning: Citation `shICRC2018' on page 13 undefined on input line 219.
 
-<_synapticPlasticity_schematic_small.pdf, id=477, 244.69318pt x 348.54616pt>
+<_synapticPlasticity_schematic_small.pdf, id=444, 244.69318pt x 348.54616pt>
 File: _synapticPlasticity_schematic_small.pdf Graphic file (type pdf)
 
 <use _synapticPlasticity_schematic_small.pdf>
@@ -544,19 +544,16 @@ line 235.
 Underfull \vbox (badness 3138) has occurred while \output is active []
 
 
-<_synapticPlasticity_binaryCircuit_small.pdf, id=482, 244.69417pt x 138.76843pt
+<_synapticPlasticity_binaryCircuit_small.pdf, id=449, 244.69417pt x 138.76843pt
 >
 File: _synapticPlasticity_binaryCircuit_small.pdf Graphic file (type pdf)
  <use _synapticPlasticity_binaryCircuit_small.pdf>
 Package pdftex.def Info: _synapticPlasticity_binaryCircuit_small.pdf used on in
 put line 248.
 (pdftex.def)             Requested size: 244.69386pt x 138.77019pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [14 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap_loop_neurons/_
 synapticPlasticity_schematic_small.pdf>]
-<_synapticPlasticity_binary_small.pdf, id=579, 244.69318pt x 398.3382pt>
+<_synapticPlasticity_binary_small.pdf, id=546, 244.69318pt x 398.3382pt>
 File: _synapticPlasticity_binary_small.pdf Graphic file (type pdf)
 
 <use _synapticPlasticity_binary_small.pdf>
@@ -564,7 +561,12 @@ Package pdftex.def Info: _synapticPlasticity_binary_small.pdf used on input lin
 e 255.
 (pdftex.def)             Requested size: 244.69386pt x 398.34329pt.
 
-<_synapticPlasticity_supervisedCircuit_small.pdf, id=580, 244.69417pt x 199.169
+Underfull \vbox (badness 1152) has occurred while \output is active []
+
+ [15 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap_loop_neurons/_
+synapticPlasticity_binaryCircuit_small.pdf> <C:/Users/jms4/Documents/GitHub/lig
+ht_in_neural_systems/jap_loop_neurons/_synapticPlasticity_binary_small.pdf>]
+<_synapticPlasticity_supervisedCircuit_small.pdf, id=685, 244.69417pt x 199.169
 1pt>
 File: _synapticPlasticity_supervisedCircuit_small.pdf Graphic file (type pdf)
  <use _synapticPlasticity_supervisedCircuit_small.pdf>
@@ -572,25 +574,21 @@ Package pdftex.def Info: _synapticPlasticity_supervisedCircuit_small.pdf used o
 n input line 262.
 (pdftex.def)             Requested size: 244.69386pt x 199.17163pt.
 
-<_synapticPlasticity_supervised_small.pdf, id=581, 244.69318pt x 318.18875pt>
+<_synapticPlasticity_supervised_small.pdf, id=686, 244.69318pt x 318.18875pt>
 File: _synapticPlasticity_supervised_small.pdf Graphic file (type pdf)
 
 <use _synapticPlasticity_supervised_small.pdf>
 Package pdftex.def Info: _synapticPlasticity_supervised_small.pdf used on input
  line 268.
 (pdftex.def)             Requested size: 244.69386pt x 318.19281pt.
- [15 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap_loop_neurons/_
-synapticPlasticity_binaryCircuit_small.pdf>]
-Underfull \vbox (badness 1152) has occurred while \output is active []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5908) has occurred while \output is active []
 
  [16 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap_loop_neurons/_
-synapticPlasticity_binary_small.pdf> <C:/Users/jms4/Documents/GitHub/light_in_n
-eural_systems/jap_loop_neurons/_synapticPlasticity_supervisedCircuit_small.pdf>
-]
-<_synapticPlasticity_Hebbian_1_small.pdf, id=760, 244.69318pt x 282.5245pt>
+synapticPlasticity_supervisedCircuit_small.pdf> <C:/Users/jms4/Documents/GitHub
+/light_in_neural_systems/jap_loop_neurons/_synapticPlasticity_supervised_small.
+pdf>]
+<_synapticPlasticity_Hebbian_1_small.pdf, id=805, 244.69318pt x 282.5245pt>
 File: _synapticPlasticity_Hebbian_1_small.pdf Graphic file (type pdf)
 
 <use _synapticPlasticity_Hebbian_1_small.pdf>
@@ -598,10 +596,8 @@ Package pdftex.def Info: _synapticPlasticity_Hebbian_1_small.pdf used on input
 line 285.
 (pdftex.def)             Requested size: 244.69386pt x 282.5281pt.
  [17 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap_loop_neurons/_
-synapticPlasticity_supervised_small.pdf> <C:/Users/jms4/Documents/GitHub/light_
-in_neural_systems/jap_loop_neurons/_synapticPlasticity_Hebbian_1_small.pdf>] [1
-8]
-<_synapticPlasticity_stdp_small.pdf, id=911, 244.69318pt x 349.07513pt>
+synapticPlasticity_Hebbian_1_small.pdf>] [18]
+<_synapticPlasticity_stdp_small.pdf, id=878, 244.69318pt x 349.07513pt>
 File: _synapticPlasticity_stdp_small.pdf Graphic file (type pdf)
 
 <use _synapticPlasticity_stdp_small.pdf>
@@ -610,7 +606,7 @@ Package pdftex.def Info: _synapticPlasticity_stdp_small.pdf used on input line
 (pdftex.def)             Requested size: 244.69386pt x 349.07959pt.
  [19 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap_loop_neurons/_
 synapticPlasticity_stdp_small.pdf>]
-[20] <_transmitters_schematic_small.pdf, id=1023, 244.69318pt x 327.20743pt>
+[20] <_transmitters_schematic_small.pdf, id=990, 244.69318pt x 327.20743pt>
 File: _transmitters_schematic_small.pdf Graphic file (type pdf)
 
 <use _transmitters_schematic_small.pdf>
@@ -619,22 +615,16 @@ Package pdftex.def Info: _transmitters_schematic_small.pdf used on input line 3
 (pdftex.def)             Requested size: 244.69386pt x 327.21161pt.
  [21 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap_loop_neurons/_
 transmitters_schematic_small.pdf>]
-Underfull \vbox (badness 7869) has occurred while \output is active []
-
-
-<_transmitters_LED_circuit_small.pdf, id=1128, 244.69318pt x 128.03734pt>
+<_transmitters_LED_circuit_small.pdf, id=1095, 244.69318pt x 128.03734pt>
 File: _transmitters_LED_circuit_small.pdf Graphic file (type pdf)
 
 <use _transmitters_LED_circuit_small.pdf>
 Package pdftex.def Info: _transmitters_LED_circuit_small.pdf used on input line
  362.
 (pdftex.def)             Requested size: 244.69386pt x 128.03896pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [22 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap_loop_neurons/_
 transmitters_LED_circuit_small.pdf>]
-<_transmitters_LED_data_small.pdf, id=1173, 244.69417pt x 466.89832pt>
+<_transmitters_LED_data_small.pdf, id=1140, 244.69417pt x 466.89832pt>
 File: _transmitters_LED_data_small.pdf Graphic file (type pdf)
 
 <use _transmitters_LED_data_small.pdf>
@@ -643,7 +633,7 @@ Package pdftex.def Info: _transmitters_LED_data_small.pdf used on input line 37
 (pdftex.def)             Requested size: 244.69386pt x 466.90427pt.
  [23 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap_loop_neurons/_
 transmitters_LED_data_small.pdf>]
-<_transmitters_hTron_circuit_small.pdf, id=1309, 244.69318pt x 271.17813pt>
+<_transmitters_hTron_circuit_small.pdf, id=1202, 244.69318pt x 271.17813pt>
 File: _transmitters_hTron_circuit_small.pdf Graphic file (type pdf)
 
 <use _transmitters_hTron_circuit_small.pdf>
@@ -651,7 +641,7 @@ Package pdftex.def Info: _transmitters_hTron_circuit_small.pdf used on input li
 ne 391.
 (pdftex.def)             Requested size: 244.69386pt x 271.1816pt.
 
-<_transmitters_hTron_data_1_small.pdf, id=1310, 244.69318pt x 287.70085pt>
+<_transmitters_hTron_data_1_small.pdf, id=1203, 244.69318pt x 287.70085pt>
 File: _transmitters_hTron_data_1_small.pdf Graphic file (type pdf)
 
 <use _transmitters_hTron_data_1_small.pdf>
@@ -659,14 +649,14 @@ Package pdftex.def Info: _transmitters_hTron_data_1_small.pdf used on input lin
 e 399.
 (pdftex.def)             Requested size: 244.69386pt x 287.70453pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5893) has occurred while \output is active []
 
  [24 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap_loop_neurons/_
 transmitters_hTron_circuit_small.pdf>]
-Underfull \vbox (badness 1354) has occurred while \output is active []
+Underfull \vbox (badness 4582) has occurred while \output is active []
 
 
-<_transmitters_hTron_data_2_small.pdf, id=1348, 244.69318pt x 305.21227pt>
+<_transmitters_hTron_data_2_small.pdf, id=1241, 244.69318pt x 305.21227pt>
 File: _transmitters_hTron_data_2_small.pdf Graphic file (type pdf)
 
 <use _transmitters_hTron_data_2_small.pdf>
@@ -675,7 +665,7 @@ e 412.
 (pdftex.def)             Requested size: 244.69386pt x 305.21616pt.
  [25 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap_loop_neurons/_
 transmitters_hTron_data_1_small.pdf>] <_transmitters_jjTriggersNTron_small.pdf,
- id=1365, 244.69417pt x 284.72974pt>
+ id=1258, 244.69417pt x 284.72974pt>
 File: _transmitters_jjTriggersNTron_small.pdf Graphic file (type pdf)
 
 <use _transmitters_jjTriggersNTron_small.pdf>
@@ -692,7 +682,12 @@ eural_systems/jap_loop_neurons/_transmitters_jjTriggersNTron_small.pdf
 pdfTeX warning: pdflatex (file C:/Users/jms4/Documents/GitHub/light_in_neural_s
 ystems/jap_loop_neurons/_transmitters_jjTriggersNTron_small.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
->] <_transmitters_efficiency_small.pdf, id=1572, 244.69318pt x 446.198pt>
+>]
+
+pdfTeX warning: pdflatex (file C:/Users/jms4/Documents/GitHub/light_in_neural_s
+ystems/jap_loop_neurons/_transmitters_efficiency_small.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<_transmitters_efficiency_small.pdf, id=1391, 244.69318pt x 446.198pt>
 File: _transmitters_efficiency_small.pdf Graphic file (type pdf)
 
 <use _transmitters_efficiency_small.pdf>
@@ -700,14 +695,13 @@ Package pdftex.def Info: _transmitters_efficiency_small.pdf used on input line
 435.
 (pdftex.def)             Requested size: 244.69386pt x 446.2037pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1264) has occurred while \output is active []
 
  [27 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap_loop_neurons/_
 transmitters_efficiency_small.pdf>]
-<_transmitters_threshold_circuit_small.pdf, id=23066, 244.69318pt x 181.34952pt
->
+<_transmitters_threshold_circuit_small.pdf, id=1448, 244.69318pt x 181.34952pt>
 File: _transmitters_threshold_circuit_small.pdf Graphic file (type pdf)
- <use _transmitters_threshold_circuit_small.pdf>
+<use _transmitters_threshold_circuit_small.pdf>
 Package pdftex.def Info: _transmitters_threshold_circuit_small.pdf used on inpu
 t line 452.
 (pdftex.def)             Requested size: 244.69386pt x 181.35182pt.
@@ -716,40 +710,39 @@ Underfull \hbox (badness 1147) in paragraph at lines 460--461
 []\OT1/lmr/m/n/10 Another means to de-tect thresh-old while avoid-ing
  []
 
-[28 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap_loop_neurons/_t
-ransmitters_threshold_circuit_small.pdf>]
+
 Underfull \hbox (badness 7344) in paragraph at lines 464--464
 [][]\OT1/lmr/bx/n/12 Discussion Re-gard-ing Trans-mit-ter
  []
 
-<_transmitters_fullCircuit_small.pdf, id=23116, 489.38535pt x 380.92313pt>
+<_transmitters_fullCircuit_small.pdf, id=1449, 489.38535pt x 380.92313pt>
 File: _transmitters_fullCircuit_small.pdf Graphic file (type pdf)
 
 <use _transmitters_fullCircuit_small.pdf>
 Package pdftex.def Info: _transmitters_fullCircuit_small.pdf used on input line
  467.
 (pdftex.def)             Requested size: 489.38731pt x 380.92798pt.
- [29]
-
-LaTeX Warning: Citation `shICRC2018' on page 30 undefined on input line 485.
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap_loop_neurons/_
-transmitters_fullCircuit_small.pdf>] [31]
-<_networks_schematic_small.pdf, id=23195, 244.69417pt x 312.98131pt>
+ [28 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap_loop_neurons/_
+transmitters_threshold_circuit_small.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap_loop_neurons/_
+transmitters_fullCircuit_small.pdf>]
+
+LaTeX Warning: Citation `shICRC2018' on page 30 undefined on input line 485.
+
+[30] [31] <_networks_schematic_small.pdf, id=1577, 244.69417pt x 312.98131pt>
 File: _networks_schematic_small.pdf Graphic file (type pdf)
 
 <use _networks_schematic_small.pdf>
 Package pdftex.def Info: _networks_schematic_small.pdf used on input line 506.
 (pdftex.def)             Requested size: 244.69386pt x 312.98529pt.
-
-Underfull \vbox (badness 2538) has occurred while \output is active []
-
  [32 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap_loop_neurons/_
 networks_schematic_small.pdf>]
-<_networks_routingDiagram_small.pdf, id=23252, 489.38733pt x 381.2674pt>
+<_networks_routingDiagram_small.pdf, id=1634, 489.38733pt x 381.2674pt>
 File: _networks_routingDiagram_small.pdf Graphic file (type pdf)
 
 <use _networks_routingDiagram_small.pdf>
@@ -757,7 +750,7 @@ Package pdftex.def Info: _networks_routingDiagram_small.pdf used on input line
 525.
 (pdftex.def)             Requested size: 489.38731pt x 381.27226pt.
 
-<_networks_areaDiagram_small.pdf, id=23253, 244.69318pt x 318.60329pt>
+<_networks_areaDiagram_small.pdf, id=1635, 244.69318pt x 318.60329pt>
 File: _networks_areaDiagram_small.pdf Graphic file (type pdf)
 
 <use _networks_areaDiagram_small.pdf>
@@ -772,7 +765,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [34 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap_loop_neurons/_
 networks_routingDiagram_small.pdf>]
-<_networks_scaling_small.pdf, id=23289, 244.69318pt x 432.48175pt>
+<_networks_scaling_small.pdf, id=1671, 244.69318pt x 432.48175pt>
 File: _networks_scaling_small.pdf Graphic file (type pdf)
 
 <use _networks_scaling_small.pdf>
@@ -780,9 +773,6 @@ Package pdftex.def Info: _networks_scaling_small.pdf used on input line 549.
 (pdftex.def)             Requested size: 244.69386pt x 432.48727pt.
  [35 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap_loop_neurons/_
 networks_areaDiagram_small.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 LaTeX Warning: Citation `shICRC2018' on page 36 undefined on input line 572.
 
@@ -793,7 +783,7 @@ Underfull \hbox (badness 1939) in paragraph at lines 581--581
  []
 
 [37] [38] [39] [40] [41] [42]
-<_networks_feedForward_small.pdf, id=23479, 244.69318pt x 360.42455pt>
+<_networks_feedForward_small.pdf, id=1783, 244.69318pt x 360.42455pt>
 File: _networks_feedForward_small.pdf Graphic file (type pdf)
 
 <use _networks_feedForward_small.pdf>
@@ -802,10 +792,9 @@ Package pdftex.def Info: _networks_feedForward_small.pdf used on input line 779
 (pdftex.def)             Requested size: 244.69386pt x 360.42914pt.
  [43 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap_loop_neurons/_
 networks_feedForward_small.pdf>]
-<_networks_contributionsToEnergy_small.pdf, id=23494, 244.69417pt x 167.22977pt
->
+<_networks_contributionsToEnergy_small.pdf, id=1798, 244.69417pt x 167.22977pt>
 File: _networks_contributionsToEnergy_small.pdf Graphic file (type pdf)
- <use _networks_contributionsToEnergy_small.pdf>
+<use _networks_contributionsToEnergy_small.pdf>
 Package pdftex.def Info: _networks_contributionsToEnergy_small.pdf used on inpu
 t line 795.
 (pdftex.def)             Requested size: 244.69386pt x 167.23189pt.
@@ -990,9 +979,9 @@ ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/lm/lmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/symbols/msbm10.pfb>
-Output written on loop_neurons.pdf (52 pages, 16001401 bytes).
+Output written on loop_neurons.pdf (52 pages, 12091815 bytes).
 PDF statistics:
- 23643 PDF objects out of 26593 (max. 8388607)
+ 1947 PDF objects out of 2073 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  151 words of extra memory for PDF output out of 10000 (max. 10000000)
 
