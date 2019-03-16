@@ -1,4 +1,6 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: loop_neurons.aux
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: loop_neurons.aux
 The style file: unsrt.bst
 Database file #1: loop_neurons.bib
 Repeated entry---line 278 of file loop_neurons.bib
@@ -26,4 +28,45 @@ Warning--empty year in nich2000
 Warning--empty journal in Zwanenburg2013
 Warning--empty journal in Hill
 Warning--empty year in Hill
+You've used 179 entries,
+            1791 wiz_defined-function locations,
+            1344 strings with 29579 characters,
+and the built_in function-call counts, 38854 in all, are:
+= -- 3020
+> -- 2380
+< -- 6
++ -- 865
+- -- 686
+* -- 2683
+:= -- 6721
+add.period$ -- 536
+call.type$ -- 179
+change.case$ -- 171
+chr.to.int$ -- 0
+cite$ -- 185
+duplicate$ -- 1741
+empty$ -- 3547
+format.name$ -- 686
+if$ -- 8413
+int.to.chr$ -- 0
+int.to.str$ -- 179
+missing$ -- 192
+newline$ -- 894
+num.names$ -- 180
+pop$ -- 323
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 743
+stack$ -- 0
+substring$ -- 1749
+swap$ -- 301
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 6
+while$ -- 330
+width$ -- 182
+write$ -- 1949
 (There were 3 error messages)
