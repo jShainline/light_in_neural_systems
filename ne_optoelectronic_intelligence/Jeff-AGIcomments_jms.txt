@@ -1,31 +1,5 @@
-
-
-It might be worth mentioning neuromorphic electronics in the intro somewhere because it is relatively well known. You get to it in section 4, so this could just be a sentence.
-
-"what is the shortest distance over which photonic communication will displace electronic interconnects?"
-- key question others have studied pretty well. I like this reference, but there are also others maybe better
-- https://ieeexplore.ieee.org/abstract/document/6187573 -- better than Miller?
-
-Fig. 2
-- I don't grasp the point of (c). It is saying that the area of possible information integration decreases with frequency. If you take an SNSPD timeconstant of of 1ns, that puts you off the chart to around 10^-2 m^2.
-
-General question (GC): In this vision involving JJs, will there still be a need for cryotrons?  -- No. That is a big strength of keepning it simple. But there would also be no brain-scale connectivity.
-
-p5, par1: "requires no power to retain the synaptic state" – is this really true? What about the driving circuitry?  -- it is really true. That's what so great about superconductors.
-
-p5, par1: "... and spike-timing-dependent plasticity is induced by two photons—one from each neuron associated with the synapse." – STDP comes out of nowhere. Consider deleting
-
-p7, par1: "As destinations get further away, more energy is dissipated to propagation loss" – what about splitting loss? In Chiles' interconnect, that was a factor of 10. It seems to be more dire of a concern worth acknowledging.  -- I'm not sure what you're referring to
-
-
-
-
-
-
-
 Looking back
-- the feasibility of an Earth-scale cryostat was not addressed. I believe this is part of Sae Woo's vision. Does it make sense to here acknowlege that as a challenge but not a fundamental one?
-- I think this paper might be able to successfully tie your journal writing to your dot net writing, which is quite a feat. It is probably your most visionary paper yet while also convincingly incorporating tangible experimental support of and progress toward said visions. The reviewers might resist the idea that such things are linked, although they are. I am more than willing to help get it through the review... sorry it took so long for me to comment on the draft.
+
 GC - Why does humanity need an AGI? This is not within the scope of this paper; more of a general question inspired by reading it. I think one answer is to challenge the philosophers into understanding what biological vs. artificial intelligence means. A few years ago, I was at NICE and a mathemetician stood up to a panel to say that there is no math yet to describe neural networks except maybe Category Theory, which is still in its infancy. He was pretty angry about people making claims based on Shannon information theory. Integrated information is certainly speculative and probably will be regarded as wrong in 5 years, but I believe in it as a solid attempt to put math to consciousness. That's the primary reason I think this paper is outstanding – it puts physics to integrated information.
 
 
