@@ -83,12 +83,6 @@ R.W. Keyes.
 \newblock The wire-limited logic chip.
 \newblock {\em IEEE J. Sol.-Sta. Circuits}, SC-17:1232, 1982.
 
-\bibitem{shICRC2018}
-J.M. Shainline.
-\newblock The largest cognitive systems will be optoelectronic.
-\newblock In {\em IEEE International Conference on Rebooting Computing}. IEEE,
-  Nov 2018.
-
 \bibitem{daab2001}
 P.~Dayan and L.F. Abbott.
 \newblock {\em Theoretical Neuroscience}.
@@ -554,14 +548,50 @@ Y.~Shen, N.C. Harris, S.~Skirlo, M.~Prabhu, T.~Baehr-Jones, M.~Hochberg,
 \newblock Deep learning with coherent nanophotonic circuits.
 \newblock {\em Nature Photonics}, 11:441, 2016.
 
-\bibitem{oz1992}
-H.M. Ozaktas.
-\newblock Paradigms of connectivity for computer circuits and networks.
-\newblock {\em Optical Engineering}, 31:1563, 1992.
+\bibitem{dukr1999}
+J.L.A. Dubbeldam, B.~Krauskopf, and D.~Lenstra.
+\newblock Excitability and coherence resonance in lasers with saturable
+  absorber.
+\newblock {\em Phys. Rev. E}, 60:6580, 1999.
 
 \bibitem{prsh2017}
 P.R. Prucnal and B.J. Shastri.
 \newblock {\em Neuromorphic photonics}.
 \newblock CRC Press, New York, first edition, 2017.
+
+\bibitem{tana20142}
+A.N. Tait, M.A. Nahmias, B.J. Shastri, and P.R. Prucnal.
+\newblock Broadcast and weight: an integrated network for scalable photonic
+  spike processing.
+\newblock {\em J. Lightwave Technol.}, 32:3427, 2014.
+
+\bibitem{tafe2017}
+A.N. Tait, T.~Ferreira de~Lima, E.~Zhou, A.X. Wu, M.A. Nahmias, B.J. Shastri,
+  and P.R. Prucnal.
+\newblock Neuromorphic photonic networks using silicon photonic weight banks.
+\newblock {\em Nature Sci. Rep.}, 7:7430, 2017.
+
+\bibitem{chri2017}
+Z.~Cheng, C.~Rios, W.H.P. Pernice, C.D. Wright, and H.~Bhaskaran.
+\newblock On-chip photonic synapse.
+\newblock {\em Science Advances}, 3:1700160, 2017.
+
+\bibitem{mave2013}
+F.~Marsili, V.B. Verma, J.A. Stern, S.~Harrington, A.E. Lita, T.~Gerrits,
+  I.~Vayshnker, B.~Baek, M.D. Shaw, R.P. Mirin, and S.W. Nam.
+\newblock Detecting single infrared photons with 93\% system efficiency.
+\newblock {\em Nat. Photon.}, 7:210, 2013.
+
+\bibitem{shbu2017b}
+J.M. Shainline, S.M. Buckley, N.~Nader, C.M. Gentry, K.C. Cossel, J.W. Cleary,
+  M.~Popovi\'{c}, N.R. Newbury, S.W. Nam, and R.P. Mirin.
+\newblock Room-temperature-deposited dielectrics and superconductors for
+  integrated photonics.
+\newblock {\em Opt. Express}, page 10322, 2017.
+
+\bibitem{oz1992}
+H.M. Ozaktas.
+\newblock Paradigms of connectivity for computer circuits and networks.
+\newblock {\em Optical Engineering}, 31:1563, 1992.
 
 \end{thebibliography}
