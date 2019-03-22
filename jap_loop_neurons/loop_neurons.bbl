@@ -704,6 +704,12 @@ D.J. Amit and S.~Fusi.
 \newblock Learning in neural networks with material synapses.
 \newblock {\em Neural Computation}, 6:957, 1994.
 
+\bibitem{somi2000}
+S.~Song, K.D. Miller, and L.F. Abbott.
+\newblock Competitive hebbian learning through spike-timing-dependent synaptic
+  plasticity.
+\newblock {\em Nature Neuroscience}, 3:919, 2000.
+
 \bibitem{prsh2017}
 P.R. Prucnal and B.J. Shastri.
 \newblock {\em Neuromorphic photonics}.

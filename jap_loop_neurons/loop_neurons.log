@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  17 MAR 2019 14:10
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  21 MAR 2019 16:10
 entering extended mode
 **loop_neurons.tex
 
@@ -612,9 +612,6 @@ File: _transmitters_LED_circuit_small.pdf Graphic file (type pdf)
 Package pdftex.def Info: _transmitters_LED_circuit_small.pdf used on input line
  366.
 (pdftex.def)             Requested size: 244.69386pt x 128.03896pt.
-
-Underfull \vbox (badness 1748) has occurred while \output is active []
-
  [22]
 <_transmitters_LED_data_small.pdf, id=1086, 244.69417pt x 466.89832pt>
 File: _transmitters_LED_data_small.pdf Graphic file (type pdf)
@@ -866,49 +863,49 @@ Underfull \hbox (badness 1748) in paragraph at lines 685--691
  []
 
 
-Underfull \hbox (badness 1924) in paragraph at lines 725--729
+Underfull \hbox (badness 1924) in paragraph at lines 731--735
 []\OT1/lmr/m/n/10 Y. Shen, N.C. Har-ris, S. Skirlo, M. Prabhu,
  []
 
 
-Underfull \hbox (badness 3838) in paragraph at lines 742--747
+Underfull \hbox (badness 3838) in paragraph at lines 748--753
 []\OT1/lmr/m/n/10 M.L. Schnei-der, C.A. Don-nelly, S.E. Russek,
  []
 
 
-Underfull \hbox (badness 5403) in paragraph at lines 749--753
+Underfull \hbox (badness 5403) in paragraph at lines 755--759
 []\OT1/lmr/m/n/10 A.D. Cor-coles, J.M. Chow, J.M. Gam-betta,
  []
 
 
-Underfull \hbox (badness 4378) in paragraph at lines 772--776
+Underfull \hbox (badness 4378) in paragraph at lines 778--782
 []\OT1/lmr/m/n/10 J.C. Las-jau-nias, M. Saint-Paul, O. Laborde,
  []
 
 [48]
-Underfull \hbox (badness 5939) in paragraph at lines 876--879
+Underfull \hbox (badness 5939) in paragraph at lines 882--885
 []\OT1/lmr/m/n/10 J. Ekin.  \OT1/lmr/m/it/10 Ex-per-i-men-tal tech-niques for l
 ow-
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 876--879
+Underfull \hbox (badness 2512) in paragraph at lines 882--885
 \OT1/lmr/m/it/10 temperature mea-sure-ments\OT1/lmr/m/n/10 .  Ox-ford Uni-ver-s
 ity
  []
 
 
-Underfull \hbox (badness 7522) in paragraph at lines 886--891
+Underfull \hbox (badness 7522) in paragraph at lines 892--897
 []\OT1/lmr/m/n/10 J.F. Cheese-man, C.D. Mil-lar, U. Greg-gers,
  []
 
 [49]
-Underfull \hbox (badness 8132) in paragraph at lines 982--986
+Underfull \hbox (badness 8132) in paragraph at lines 988--992
 []\OT1/lmr/m/n/10 K.K. Likharev and V.K. Se-menov.  Rsfq
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 1023--1028
+Underfull \hbox (badness 1163) in paragraph at lines 1029--1034
 []\OT1/lmr/m/n/10 J. Chiles, N. Nader, D.D. Hick-stein, S.P. Yu,
  []
 
@@ -916,10 +913,10 @@ Underfull \hbox (badness 1163) in paragraph at lines 1023--1028
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\jap_loop_neurons\loop_n
 eurons.aux) ) 
 Here is how much of TeX's memory you used:
- 4805 strings out of 493921
- 74492 string characters out of 3147285
- 128438 words of memory out of 3000000
- 7994 multiletter control sequences out of 15000+200000
+ 4806 strings out of 493921
+ 74502 string characters out of 3147285
+ 128501 words of memory out of 3000000
+ 7995 multiletter control sequences out of 15000+200000
  80479 words of font info for 66 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  36i,17n,39p,2642b,340s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -954,7 +951,7 @@ TeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/lm/lmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy9
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on loop_neurons.pdf (50 pages, 12066698 bytes).
+Output written on loop_neurons.pdf (50 pages, 12066957 bytes).
 PDF statistics:
  1894 PDF objects out of 2073 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
