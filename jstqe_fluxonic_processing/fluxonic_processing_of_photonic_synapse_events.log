@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  1 APR 2019 17:54
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  1 APR 2019 20:31
 entering extended mode
 **fluxonic_processing_of_photonic_synapse_events.tex
 
@@ -441,11 +441,15 @@ Underfull \vbox (badness 1127) has occurred while \output is active []
 pdfTeX warning: pdflatex (file C:/Users/jms4/Documents/GitHub/light_in_neural_s
 ystems/jstqe_fluxonic_processing/_02__circuits.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
-<_02__circuits.pdf, id=15, 244.69318pt x 420.237pt>
+<_02__circuits.pdf, id=15, 244.69318pt x 399.3359pt>
 File: _02__circuits.pdf Graphic file (type pdf)
  <use _02__circuits.pdf>
 Package pdftex.def Info: _02__circuits.pdf used on input line 65.
-(pdftex.def)             Requested size: 244.69386pt x 420.24237pt.
+(pdftex.def)             Requested size: 244.69386pt x 399.341pt.
+
+
+LaTeX Warning: Float too large for page by 2.47487pt on input line 67.
+
 
 Underfull \vbox (badness 4752) has occurred while \output is active []
 
@@ -543,10 +547,10 @@ ystems/jstqe_fluxonic_processing/_08__poly_si_di.pdf): PDF inclusion: found PDF
 File: _08__poly_si_di.pdf Graphic file (type pdf)
 
 <use _08__poly_si_di.pdf>
-Package pdftex.def Info: _08__poly_si_di.pdf used on input line 133.
+Package pdftex.def Info: _08__poly_si_di.pdf used on input line 131.
 (pdftex.def)             Requested size: 244.69386pt x 432.28752pt.
  [8]
-Underfull \vbox (badness 3547) has occurred while \output is active []
+Underfull \vbox (badness 1052) has occurred while \output is active []
 
 
 
@@ -557,7 +561,7 @@ nd PDF version <1.7>, but at most version <1.5> allowed
 File: _09__si_di_inhibition.pdf Graphic file (type pdf)
 
 <use _09__si_di_inhibition.pdf>
-Package pdftex.def Info: _09__si_di_inhibition.pdf used on input line 149.
+Package pdftex.def Info: _09__si_di_inhibition.pdf used on input line 147.
 (pdftex.def)             Requested size: 244.69386pt x 183.01907pt.
  [9 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jstqe_fluxonic_proc
 essing/_08__poly_si_di.pdf>]
@@ -565,11 +569,11 @@ essing/_08__poly_si_di.pdf>]
 pdfTeX warning: pdflatex (file C:/Users/jms4/Documents/GitHub/light_in_neural_s
 ystems/jstqe_fluxonic_processing/_10__si_di_rapid_query.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<_10__si_di_rapid_query.pdf, id=448, 244.69318pt x 350.81062pt>
+<_10__si_di_rapid_query.pdf, id=444, 244.69318pt x 350.81062pt>
 File: _10__si_di_rapid_query.pdf Graphic file (type pdf)
 
 <use _10__si_di_rapid_query.pdf>
-Package pdftex.def Info: _10__si_di_rapid_query.pdf used on input line 157.
+Package pdftex.def Info: _10__si_di_rapid_query.pdf used on input line 155.
 (pdftex.def)             Requested size: 244.69386pt x 350.8151pt.
  [10 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jstqe_fluxonic_pro
 cessing/_09__si_di_inhibition.pdf> <C:/Users/jms4/Documents/GitHub/light_in_neu
@@ -578,22 +582,28 @@ ral_systems/jstqe_fluxonic_processing/_10__si_di_rapid_query.pdf>]
 pdfTeX warning: pdflatex (file C:/Users/jms4/Documents/GitHub/light_in_neural_s
 ystems/jstqe_fluxonic_processing/_11__power_law_time_decay.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<_11__power_law_time_decay.pdf, id=530, 244.69318pt x 421.575pt>
+<_11__power_law_time_decay.pdf, id=526, 244.69318pt x 421.575pt>
 File: _11__power_law_time_decay.pdf Graphic file (type pdf)
 
 <use _11__power_law_time_decay.pdf>
-Package pdftex.def Info: _11__power_law_time_decay.pdf used on input line 172.
+Package pdftex.def Info: _11__power_law_time_decay.pdf used on input line 170.
 (pdftex.def)             Requested size: 244.69386pt x 421.58038pt.
+
+Underfull \vbox (badness 1838) has occurred while \output is active []
+
  [11 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jstqe_fluxonic_pro
 cessing/_11__power_law_time_decay.pdf>]
-[12] [13]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+[13]
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\jstqe_fluxonic_processi
-ng\fluxonic_processing_of_photonic_synapse_events.bbl [14]
+ng\fluxonic_processing_of_photonic_synapse_events.bbl
 Underfull \hbox (badness 1112) in paragraph at lines 130--135
 []\OT1/lmr/m/n/10 K. Segall, M. LeGro, S. Ka-plan, O. Svi-tel-skiy,
  []
 
-
+[14]
 Underfull \hbox (badness 2617) in paragraph at lines 201--205
 \OT1/lmr/m/n/10 heb-bian learn-ing through spike-timing-dependent
  []
@@ -613,22 +623,20 @@ Underfull \hbox (badness 1917) in paragraph at lines 227--231
 \OT1/lmr/m/n/10 logic/memory fam-ily: a new josephson-junction
  []
 
-[15]) [16
-
-]
+) [15]
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\jstqe_fluxonic_processi
 ng\fluxonic_processing_of_photonic_synapse_events.aux) ) 
 Here is how much of TeX's memory you used:
- 4462 strings out of 493921
- 67190 string characters out of 3147285
- 128270 words of memory out of 3000000
- 7680 multiletter control sequences out of 15000+200000
+ 4460 strings out of 493921
+ 67169 string characters out of 3147285
+ 129695 words of memory out of 3000000
+ 7678 multiletter control sequences out of 15000+200000
  51822 words of font info for 42 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,6n,39p,2808b,350s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,6n,39p,3000b,350s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTe
 X 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips
-/lm/lm-mathex.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc
+/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc
 }{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
@@ -647,11 +655,12 @@ onts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /lm/lmri9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss8.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/lm/lmsy7.pfb>
-Output written on fluxonic_processing_of_photonic_synapse_events.pdf (16 pages,
- 4886494 bytes).
+e1/public/lm/lmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7
+.pfb>
+Output written on fluxonic_processing_of_photonic_synapse_events.pdf (15 pages,
+ 4892178 bytes).
 PDF statistics:
- 656 PDF objects out of 1000 (max. 8388607)
+ 654 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
