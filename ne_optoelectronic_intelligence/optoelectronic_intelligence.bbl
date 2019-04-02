@@ -172,10 +172,11 @@ P.R. Prucnal and B.J. Shastri.
 \newblock {\em Neuromorphic photonics}.
 \newblock CRC Press, New York, first edition, 2017.
 
-\bibitem{crsc2010}
-P.~Crotty, D.~Schult, and K.~Segall.
-\newblock Josephson junction simulation of neurons.
-\newblock {\em Phys. Rev. E}, 82:011914, 2010.
+\bibitem{hias2007}
+T.~Hirose, T.~Asai, and Y.~Amemiya.
+\newblock Pulsed neural networks consisting of single-flux-quantum spiking
+  neurons.
+\newblock {\em Physica C}, 463:1072, 2007.
 
 \bibitem{sele2017}
 K.~Segall, M.~LeGro, S.~Kaplan, O.~Svitelskiy, S.~Khadka, P.~Crotty, and
@@ -240,23 +241,11 @@ C.-W. Shin and S.~Kim.
   functional neural networks.
 \newblock {\em Phys. Rev. E}, 74:045101(R), 2006.
 
-\bibitem{haah2015}
-J.~Hawkins and S.~Ahmad.
-\newblock Why neurons have thousands of synapses, a theory of sequence memory
-  in neocortex.
-\newblock {\em Frontiers in Neural Circuits}, 10:23, 2016.
-
 \bibitem{mave2013}
 F.~Marsili, V.B. Verma, J.A. Stern, S.~Harrington, A.E. Lita, T.~Gerrits,
   I.~Vayshnker, B.~Baek, M.D. Shaw, R.P. Mirin, and S.W. Nam.
 \newblock Detecting single infrared photons with 93\% system efficiency.
 \newblock {\em Nat. Photon.}, 7:210, 2013.
-
-\bibitem{mc2019}
-A.N.~McCaughan et~al.
-\newblock An ultrahigh-impedance superconducting thermal switch for interfacing
-  superconductors to semiconductors and optoelectronics.
-\newblock {\em Submitted to Nature Electronics}, 2019.
 
 \bibitem{chbu2017}
 J.~Chiles, S.~Buckley, N.~Nader, S.W. Nam, R.P. Mirin, and J.M. Shainline.
@@ -269,6 +258,18 @@ J.~Chiles, S.M. Buckley, S.W. Nam, R.P. Mirin, and J.M. Shainline.
 \newblock Design, fabrication, and metrology of 10 x 100 multi-planar
   integrated photonic routing manifolds for neural networks.
 \newblock {\em APL Photonics}, page 106101, 2018.
+
+\bibitem{mc2019}
+A.N. McCaughan, V.B. Verma, S.M. Buckley, A.N. Tait, S.W. Nam, and J.M.
+  Shainline.
+\newblock An ultrahigh-impedance superconducting thermal switch for interfacing
+  superconductors to semiconductors and optoelectronics.
+\newblock {\em arXiv}, page 1903.10461, 2019.
+
+\bibitem{chri2017}
+Z.~Cheng, C.~Rios, W.H.P. Pernice, C.D. Wright, and H.~Bhaskaran.
+\newblock On-chip photonic synapse.
+\newblock {\em Science Advances}, 3:1700160, 2017.
 
 \bibitem{hepa2012}
 J.L. Hennessy and D.A. Patterson.

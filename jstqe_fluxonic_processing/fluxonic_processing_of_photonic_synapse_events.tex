@@ -11,17 +11,9 @@
 \usepackage{textcomp}
 \usepackage{lmodern}
 \usepackage{authblk}
+\usepackage{wrapfig}
 
 \newcommand{\onlinecite}[1]{\hspace{-1 ex} \nocite{#1}\citenum{#1}} 
-  
-%\title{Fluxonic processing of photonic synapse events}
-%\author[1]{Jeffrey M. Shainline}
-%%\author[2]{someone else}
-%\affil[1]{National Institute of Standards and Technology, Boulder, CO, 80305}
-%%\affil[2]{somewhere else}
-%\date{\today}
-%\setcounter{Maxaffil}{0}
-%\renewcommand\Affilfont{\itshape\small}
 
 \begin{document}
 
@@ -45,8 +37,6 @@ Much of the information processing performed by a neuron occurs in the dendritic
 \end{abstract}
 \end{@twocolumnfalse}
 ]
-
-%\tableofcontents
 
 \section{\label{sec:introduction}Introduction}
 A neuron is a complex information processing device \cite{ko1997}, integrating signals from thousands of inputs and producing pulses when those signals reach threshold. These neuronal firing events consume the most energy of any operation performed by the neuron. To optimize spatial, temporal and energy efficiency, the neurons receiving the signals must extract as much information as possible from each pulse \cite{lase2003}. Neurons accomplish this through processing occurring in synapses and dendrites. Because neural information is based on temporal sequences of pulses, the relevant processing involves applying temporal and logical filters to extract relevant data. For example, synapses perform temporal filtering of pulse trains to identify rising edges and to identify pulse trains exceeding some duration or number of pulses \cite{abre2004}. Dendrites receive and further process synaptic signals. The operations performed by dendrites include leaky integration \cite{geki2002}; logical operations \cite{stsp2015}; identification of coincidences \cite{stsp2015} and sequences \cite{stse2007,haah2015} between synapses from different neurons; and nonlinear thresholding transfer functions on signals from groups of synapses \cite{sava2017}. Inhibitory neurons in the network can temporarily suppress the activity of a dendrite to dynamically direct attention to information of interest \cite{enfr2001}, thereby adapting the structural network into myriad functional networks \cite{brme2010}.
@@ -192,16 +182,20 @@ In several instances we have indicated that the dendritic bias current $I_{\math
 We have only considered the first layer of dendritic hierarchy, but the same dendritic building block of Fig.\,\ref{fig:circuits}(b) can be tiled essentially arbitrarily. The depth of this tree is enabled by the logic-level restoration occurring in the basic circuit. Design of the DI loop is independent of the DR loop, and regardless of the configuration of the inputs to the DR loop, as long as threshold can be reached, flux can be added to the DR loop, and a restored current level can be attained with as few as one fluxon. In this work, that current level is around 10\,\textmu A, but it could be designed to be higher or lower as needed. This logic-level restoration enables a many-compartment dendritic tree to be as deep as needed for the desired information processing, pointing to numerous theoretical questions. At the base of the tree is the soma, or cell body. The soma receives signals just as any of the other dendrites, but its output feeds into an amplifier chain that leads to the production of light \cite{sh2018_full}. Because nanowire single-photon detectors have a binary response, each neuron-to-synapse communication event also results in logic-level restoration, but between neurons and synapses rather than dendrites.
 
 Beyond specifics related to the superconducting optoelectronic hardware implementation, this work touches on important theoretical questions regarding neural information. We have based circuit designs around the hypothesis that incorporating significant dendritic structure beyond the point-neuron model is important for neural processing. Quantification of dendritic information processing is difficult in biological experiments due to the length scales involved, the sensitivity of the neurons and dendrites under study, and the inability to design or control the circuits being investigated. The circuits presented here can be precisely designed, fabricated, manipulated, and measured, potentially leading to traction on theoretical models of dendritic processing. The goal of the dendritic tree is to provide as much information as possible about the temporal activity on a neuron's afferent synapses. Proper design will maximize knowledge in the dendritic tree and the arbor's ability to communicate that information to the cell body. Versatile hardware implementations of neurons with various dendritic processing capabilities may serve to elucidate the important functions of dendrites in biological and artificial neural systems.
-%The limits are not likely to be power density or device speed, but rather the physically realizable complexity of dense optoelectronic circuits and our ability to understand how to improve information processing in complex neural systems.
 
 \vspace{2em}
 This is a contribution of NIST, an agency of the US government, not subject to copyright.
-	
-%\newpage
-%\appendix
-%\section{\label{apx:circuit_parameters}Parameters used in circuit simulations}
 
 \bibliographystyle{unsrt}
 \bibliography{fluxonic_processing_of_photonic_synapse_events}
+
+\begin{wrapfigure}{l}{25mm} 
+    \includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{_12_shainline.pdf}
+  \end{wrapfigure}\par
+  \textbf{Jeffrey M. Shainline} (M'16) was born in Albuquerque, New Mexico in 1982. He received a BS in physics from the University of Colorado, Boulder, Colorado, USA in 2005 and a PhD in physics from Brown University, Providence, Rhode Island, USA in 2010.
+  \par
+  He worked in the lab of Dr. Milo\v{s} Popovi\'{c} from 2010-2013 as a postdoctoral researcher investigating the use of optical interconnects in CMOS electronics before starting at the National Institute of Standards and Technology in 2013 as a National Research Council postdoctoral fellow. He became a member of the scientific staff at NIST, Boulder, Colorado, USA in 2017, where he  works in the group of Dr. Richard Mirin and Dr. Sae Woo Nam and leads the Physics and Hardware for Information project. His current research interests include superconducting optoelectronic hardware for cognitive computing as well as more general aspects of artificial intelligence.
+ \par
+ Dr. Shainline is a member of the Optical Society of America and the American Physical Society.
 
 \end{document}
