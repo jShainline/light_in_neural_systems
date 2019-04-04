@@ -155,43 +155,6 @@ J.M. Beck, W.J. Ma, R.~Kiani, T.~Hanks, A.K. Churchland, J.~Roitman, M.N.
 \newblock Probabilistic population codes form bayesian decision making.
 \newblock {\em Neuron}, 60:1142, 2008.
 
-\bibitem{shha2016}
-Y.~Shen, N.C. Harris, S.~Skirlo, M.~Prabhu, T.~Baehr-Jones, M.~Hochberg,
-  X.~Sun, S.~Zhao, H.~Larochelle, D.~Englund, and M.~Soljacic.
-\newblock Deep learning with coherent nanophotonic circuits.
-\newblock {\em Nature Photonics}, 11:441, 2016.
-
-\bibitem{chsa2018}
-I.~Chakraborty, G.~Saha, A.~Sengupta, and K.~Roy.
-\newblock Toward fast neural computing using all-photonic phase change spiking
-  neurons.
-\newblock {\em Scientific Reports}, 8:12980, 2018.
-
-\bibitem{prsh2017}
-P.R. Prucnal and B.J. Shastri.
-\newblock {\em Neuromorphic photonics}.
-\newblock CRC Press, New York, first edition, 2017.
-
-\bibitem{hias2007}
-T.~Hirose, T.~Asai, and Y.~Amemiya.
-\newblock Pulsed neural networks consisting of single-flux-quantum spiking
-  neurons.
-\newblock {\em Physica C}, 463:1072, 2007.
-
-\bibitem{sele2017}
-K.~Segall, M.~LeGro, S.~Kaplan, O.~Svitelskiy, S.~Khadka, P.~Crotty, and
-  D.~Schult.
-\newblock Synchronization dynamics on the picosecond time scale in coupled
-  josephson junction networks.
-\newblock {\em Physical Review E}, 95:032220, 2017.
-
-\bibitem{scdo2018}
-M.L. Schneider, C.A. Donnelly, S.E. Russek, B.~Baek, M.R. Pufall, P.F. Hopkins,
-  P.~Dresselhaus, S.P. Benz, and W.H. Rippard.
-\newblock Ultralow power artificial synapses using nanotextured magnetic
-  josephson junctions.
-\newblock {\em Science Advances}, 4:1701329, 2018.
-
 \bibitem{sh2019_fluxonic}
 J.M. Shainline.
 \newblock Fluxonic processing of photonic synapse events.
@@ -235,12 +198,6 @@ S.~Fusi, P.J. Drew, and L.F. Abbott.
 \newblock Casdcade models of synaptically stored memories.
 \newblock {\em Neuron}, 45:599, 2005.
 
-\bibitem{shki2006}
-C.-W. Shin and S.~Kim.
-\newblock Self-organized criticality and scale-free properties in emergent
-  functional neural networks.
-\newblock {\em Phys. Rev. E}, 74:045101(R), 2006.
-
 \bibitem{mave2013}
 F.~Marsili, V.B. Verma, J.A. Stern, S.~Harrington, A.E. Lita, T.~Gerrits,
   I.~Vayshnker, B.~Baek, M.D. Shaw, R.P. Mirin, and S.W. Nam.
@@ -266,10 +223,47 @@ A.N. McCaughan, V.B. Verma, S.M. Buckley, A.N. Tait, S.W. Nam, and J.M.
   superconductors to semiconductors and optoelectronics.
 \newblock {\em arXiv}, page 1903.10461, 2019.
 
+\bibitem{prsh2017}
+P.R. Prucnal and B.J. Shastri.
+\newblock {\em Neuromorphic photonics}.
+\newblock CRC Press, New York, first edition, 2017.
+
+\bibitem{chsa2018}
+I.~Chakraborty, G.~Saha, A.~Sengupta, and K.~Roy.
+\newblock Toward fast neural computing using all-photonic phase change spiking
+  neurons.
+\newblock {\em Scientific Reports}, 8:12980, 2018.
+
 \bibitem{chri2017}
 Z.~Cheng, C.~Rios, W.H.P. Pernice, C.D. Wright, and H.~Bhaskaran.
 \newblock On-chip photonic synapse.
 \newblock {\em Science Advances}, 3:1700160, 2017.
+
+\bibitem{shha2016}
+Y.~Shen, N.C. Harris, S.~Skirlo, M.~Prabhu, T.~Baehr-Jones, M.~Hochberg,
+  X.~Sun, S.~Zhao, H.~Larochelle, D.~Englund, and M.~Soljacic.
+\newblock Deep learning with coherent nanophotonic circuits.
+\newblock {\em Nature Photonics}, 11:441, 2016.
+
+\bibitem{hias2007}
+T.~Hirose, T.~Asai, and Y.~Amemiya.
+\newblock Pulsed neural networks consisting of single-flux-quantum spiking
+  neurons.
+\newblock {\em Physica C}, 463:1072, 2007.
+
+\bibitem{sele2017}
+K.~Segall, M.~LeGro, S.~Kaplan, O.~Svitelskiy, S.~Khadka, P.~Crotty, and
+  D.~Schult.
+\newblock Synchronization dynamics on the picosecond time scale in coupled
+  josephson junction networks.
+\newblock {\em Physical Review E}, 95:032220, 2017.
+
+\bibitem{scdo2018}
+M.L. Schneider, C.A. Donnelly, S.E. Russek, B.~Baek, M.R. Pufall, P.F. Hopkins,
+  P.~Dresselhaus, S.P. Benz, and W.H. Rippard.
+\newblock Ultralow power artificial synapses using nanotextured magnetic
+  josephson junctions.
+\newblock {\em Science Advances}, 4:1701329, 2018.
 
 \bibitem{hepa2012}
 J.L. Hennessy and D.A. Patterson.
