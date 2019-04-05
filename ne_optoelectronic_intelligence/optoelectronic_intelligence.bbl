@@ -51,12 +51,6 @@ G.~Buzsaki.
 \newblock {\em Rhythms of the brain}.
 \newblock Oxford University Press, 2006.
 
-\bibitem{mi2017}
-D.A.B. Miller.
-\newblock Attojoule optoelectronics for low-energy information processing and
-  communications.
-\newblock {\em J. Lightwave Technol.}, 35:346, 2017.
-
 \bibitem{suwa2015}
 C.~Sun, M.T. Wade, Y.~Lee, J.S. Orcutt, L.~Alloatti, M.S. Georgas, A.S.
   Waterman, J.M. Shainline, R.R. Avizienis, S.~Lin, B.R. Moss, R.~Kumar,
@@ -64,13 +58,6 @@ C.~Sun, M.T. Wade, Y.~Lee, J.S. Orcutt, L.~Alloatti, M.S. Georgas, A.S.
   K.~Asanovi{\' c}, R.J. Ram, M.A. Popovi{\' c}, and V.M. Stojanovi{\' c}.
 \newblock Single-chip microprocessor that communicates directly using light.
 \newblock {\em Nature}, 528:534, 2015.
-
-\bibitem{stra2018}
-V.~Stojanovic, R.J. Ram, M.~Popovic, S.~Lin, S.~Moazeni, M.~Wade, C.~Sun,
-  L.~Alloatti, A.~Atabaki, F.~Pavanello, N.~Mehta, and P.~Bhargava.
-\newblock Monolithic silicon-photonic platforms in state-of-the-art cmos soi
-  processes.
-\newblock {\em Opt. Express}, 26:13106, 2018.
 
 \bibitem{bo2000}
 K.A. Boahen.
@@ -149,21 +136,20 @@ R.F. Betzel and D.S. Bassett.
 \newblock Multi-scale brain networks.
 \newblock {\em NeuroImage}, 160:73, 2016.
 
-\bibitem{bema2008}
-J.M. Beck, W.J. Ma, R.~Kiani, T.~Hanks, A.K. Churchland, J.~Roitman, M.N.
-  Shadlen, P.E. Latham, and A.~Pouget.
-\newblock Probabilistic population codes form bayesian decision making.
-\newblock {\em Neuron}, 60:1142, 2008.
-
 \bibitem{sh2019_fluxonic}
 J.M. Shainline.
 \newblock Fluxonic processing of photonic synapse events.
-\newblock {\em in preparation}, 2019.
+\newblock {\em arXiv}, page 2641189, 2019.
 
 \bibitem{eskn2015}
 E.~Estrada and P.A. Knight.
 \newblock {\em A First Course in Network Theory}.
 \newblock Oxford, Oxford, United Kingdom, first edition, 2015.
+
+\bibitem{wast1998}
+D.J. Watts and S.H. Strogatz.
+\newblock Collective dynamics of small-world networks.
+\newblock {\em Nature}, 393:440, 1998.
 
 \bibitem{ke1982}
 R.W. Keyes.
@@ -227,6 +213,12 @@ A.N. McCaughan, V.B. Verma, S.M. Buckley, A.N. Tait, S.W. Nam, and J.M.
 P.R. Prucnal and B.J. Shastri.
 \newblock {\em Neuromorphic photonics}.
 \newblock CRC Press, New York, first edition, 2017.
+
+\bibitem{tana20142}
+A.N. Tait, M.A. Nahmias, B.J. Shastri, and P.R. Prucnal.
+\newblock Broadcast and weight: an integrated network for scalable photonic
+  spike processing.
+\newblock {\em J. Lightwave Technol.}, 32:3427, 2014.
 
 \bibitem{chsa2018}
 I.~Chakraborty, G.~Saha, A.~Sengupta, and K.~Roy.
