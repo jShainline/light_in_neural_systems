@@ -1,0 +1,1035 @@
+\begin{thebibliography}{100}
+
+\bibitem{shbu2017}
+J.M. Shainline, S.M. Buckley, R.P. Mirin, and S.W. Nam.
+\newblock Superconducting optoelectronic circuits for neuromorphic computing.
+\newblock {\em Phys. Rev. App.}, 7:034013, 2017.
+
+\bibitem{sh2018}
+J.M. Shainline, S.M. Buckley, A.N. McCaughan, J.~Chiles, A.~Jafari-Salim, R.P.
+  Mirin, and S.W. Nam.
+\newblock Circuit designs for superconducting optoelectronic loop neurons.
+\newblock {\em J. Appl. Phys.}, page 152130, 2018.
+
+\bibitem{spto2000}
+O.~Sporns, G.~Tononi, and G.M. Edelman.
+\newblock Connectivity and complexity: the relationship between neuroanatomy
+  and brain dynamics.
+\newblock {\em Neural networks}, 13:909, 2000.
+
+\bibitem{spto2002}
+O.~Sporns and G.~Tononi.
+\newblock Classes of network connectivity and dynamics.
+\newblock {\em Complexity}, 7:28, 2002.
+
+\bibitem{toed1998}
+G.~Tononi and G.M. Edelman.
+\newblock Consciousness and complexity.
+\newblock {\em Science}, 282:1846, 1998.
+
+\bibitem{tosp2003}
+G.~Tononi and O.~Sporns.
+\newblock Measuring information integration.
+\newblock {\em BMC Neuroscience}, 4:31, 2003.
+
+\bibitem{to2004}
+G.~Tononi.
+\newblock An information integration theory of consciousness.
+\newblock {\em BMC Neuroscience}, 5:42, 2004.
+
+\bibitem{seiz2006}
+A.K. Seth, E.~Izhikevich, G.N. Reeke, and G.M. Edelman.
+\newblock Theories and measures of consciousness: an extended framework.
+\newblock {\em PNAS}, 103:10799, 2006.
+
+\bibitem{bato2008}
+D.~Balduzzi and G.~Tononi.
+\newblock Integrated information in discrete dynamical systems: motivation and
+  theoretical framework.
+\newblock {\em PLOS Computational Biology}, 4:1000091, 2008.
+
+\bibitem{bato2009}
+D.~Balduzzi and G.~Tononi.
+\newblock Qualia: the geometry of integrated informaiton.
+\newblock {\em PLOS Computational Biology}, 5:1000462, 2009.
+
+\bibitem{base2011}
+A.B. Barrett and A.K. Seth.
+\newblock Practical measures of integrated information for time-series data.
+\newblock {\em PLOS Computational Biology}, 7:1052, 2011.
+
+\bibitem{busp2009}
+E.~Bullmore and O.~Sporns.
+\newblock Complex brain networks: graph theoretical analysis of structural and
+  functional systems.
+\newblock {\em Nature Reviews Neuroscience}, 10:186, 2009.
+
+\bibitem{sp2010}
+O.~Sporns.
+\newblock {\em Networks of the Brain}.
+\newblock The MIT Press, Cambridge, Massachusetts, first edition, 2010.
+
+\bibitem{sase2001}
+E.~Salinas and T.J. Sejnowski.
+\newblock Correlated neuronal activity and the flow of neural information.
+\newblock {\em Nature Reviews Neuroscience}, 2:539, 2001.
+
+\bibitem{vala2001}
+F.~Varela, J.-P. Lachaux, E.~Rodriguez, and J.~Martinerie.
+\newblock The brainweb: phase synchronization and large-scale integration.
+\newblock {\em Nature Reviews Neuroscience}, 2:229, 2001.
+
+\bibitem{enfr2001}
+A.K. Engel, P.~Fries, and W.~Singer.
+\newblock Dynamic predictions: oscillations and synchrony in top-down
+  processing.
+\newblock {\em Nature Reviews Neuroscience}, 2:704, 2001.
+
+\bibitem{budr2004}
+G.~Buzsaki and A.~Draguhn.
+\newblock Neuronal oscillations in cortical networks.
+\newblock {\em Science}, 304:1926, 2004.
+
+\bibitem{bu2006}
+G.~Buzsaki.
+\newblock {\em Rhythms of the brain}.
+\newblock Oxford University Press, 2006.
+
+\bibitem{eskn2015}
+E.~Estrada and P.A. Knight.
+\newblock {\em A First Course in Network Theory}.
+\newblock Oxford, Oxford, United Kingdom, first edition, 2015.
+
+\bibitem{saki2007}
+J.~Saramaki, M.~Kivela, J.-P. Onnela, K.~Kaski, and J.~Kertesz.
+\newblock Generalizations of the clustering coefficient to weighted complex
+  networks.
+\newblock {\em Phys. Rev. E}, 75:027105, 2007.
+
+\bibitem{fa2007}
+G.~Fagiolo.
+\newblock Clustering in complex directed networks.
+\newblock {\em Phys. Rev. E}, 76:026107, 2007.
+
+\bibitem{brto2006}
+S.L. Bressler and E.~Tognoli.
+\newblock Operational principles of neurocognitive networks.
+\newblock {\em International journal of psychophysiology}, 60:139, 2006.
+
+\bibitem{alba2002}
+R.~Albert and A.-L. Barabasi.
+\newblock Statistical mechanics of complex networks.
+\newblock {\em Rev. Mod. Phys.}, 74:47, 2002.
+
+\bibitem{wast1998}
+D.J. Watts and S.H. Strogatz.
+\newblock Collective dynamics of small-world networks.
+\newblock {\em Nature}, 393:440, 1998.
+
+\bibitem{baal1999}
+A.-L. Barabasi and R.~Albert.
+\newblock Emergence of scaling in random networks.
+\newblock {\em Science}, 286:509, 1999.
+
+\bibitem{waxu2006}
+S.-J. Wang, X.-J. Xu, Z.-X. Wu, and Y.-H. Wang.
+\newblock Effects of degree distribution in mutual synchronization of neural
+  networks.
+\newblock {\em Phys. Rev. E}, 74:041915, 2006.
+
+\bibitem{buwa2012}
+G.~Buzsaki and X.-J. Wang.
+\newblock Mechanisms of gamma oscillations.
+\newblock {\em Annu. Rev. Neurosci.}, 35:203, 2012.
+
+\bibitem{stsa2000}
+A.~von Stein and J.~Sarnthein.
+\newblock Different frequencies for different scales of cortical integration:
+  from local gamma to long range alpha/theta synchronization.
+\newblock {\em Int. J. Psychophysiology}, 38:301, 2000.
+
+\bibitem{bata1987}
+P.~Bak, C.~Tang, and K.~Wiesenfeld.
+\newblock Self-organized criticality: an explanation of 1/$f$ noise.
+\newblock {\em Phys. Rev. Lett.}, 59:381, 1987.
+
+\bibitem{be2007}
+J.M. Beggs.
+\newblock The criticality hypothesis: how local cortical networks might
+  optimize information processing.
+\newblock {\em Philosophical transactions of the Royal Society A}, 366:329,
+  2007.
+
+\bibitem{kism2009}
+M.G. Kitzbichler, M.L. Smith, S.R. Christensen, and E.~Bullmore.
+\newblock Broadband criticality of human brain network synchronization.
+\newblock {\em PLoS Computational Biology}, 5:1, 2009.
+
+\bibitem{shya2009}
+W.L. Shew, H.~Yang, T.~Petermann, R.~Roy, and D.~Plenz.
+\newblock Neuronal avalanches imply maximum dynamic range in cortical networks
+  at criticality.
+\newblock {\em The Journal of Neuroscience}, 29:15595, 2009.
+
+\bibitem{ch2010}
+D.R. Chialvo.
+\newblock Emergent complex neural dynamics.
+\newblock {\em Nature Physics}, 6:744, 2010.
+
+\bibitem{rusp2011}
+M.~Rubinov, O.~Sporns, J.-P. Thivierge, and M.~Breakspear.
+\newblock Neurobiologically realistic determinants of self-organized
+  criticality in networks of spiking neurons.
+\newblock {\em PLoS Computational Biology}, 7:1, 2011.
+
+\bibitem{st2015}
+S.~Strogatz.
+\newblock {\em Nonlinear dynamics and chaos}.
+\newblock Westview Press, 2015.
+
+\bibitem{mist1990}
+R.E. Mirollo and S.H. Strogatz.
+\newblock Synchronization of pulse-coupled biological oscillators.
+\newblock {\em SIAM J. Appl. Math}, 50:1645, 1990.
+
+\bibitem{soko1993}
+D.~Somers and N.~Kopell.
+\newblock Rapid synchronization through fast threshold modulation.
+\newblock {\em Biological cybernetics}, 68:393, 1993.
+
+\bibitem{huya2000}
+B.~Hutcheon and Y.~Yarom.
+\newblock Resonance, oscillation and the intrinsic frequency preferences of
+  neurons.
+\newblock {\em Trends in Neuroscience}, 23:216, 2000.
+
+\bibitem{geki2002}
+W.~Gerstner and W.~Kistler.
+\newblock {\em Spiking neuron models}.
+\newblock Cambridge University Press, Cambridge, first edition, 2002.
+
+\bibitem{laus2011}
+B.S. Lankow and W.M. Usrey.
+\newblock {\em Visual processing in the monkey}.
+\newblock Nova Science Publishers.
+
+\bibitem{daab2001}
+P.~Dayan and L.F. Abbott.
+\newblock {\em Theoretical Neuroscience}.
+\newblock The MIT Press, 2001.
+
+\bibitem{spko2004}
+O.~Sporns and R.~Kotter.
+\newblock Motifs in brain networks.
+\newblock {\em PLOS Biology}, 2:1910, 2004.
+
+\bibitem{onsa2005}
+J.-P. Onnela, J.~Saramaki, J.~Kertesz, and K.~Kaski.
+\newblock Intensity and coherence of motifs in weighted complex networks.
+\newblock {\em Phys. Rev. E}, 71:065103, 2005.
+
+\bibitem{mo1997}
+V.B. Mountcastle.
+\newblock The columnar organization of the neocortex.
+\newblock {\em Brain}, 120:701, 1997.
+
+\bibitem{haah2017}
+J.~Hawkins, S.~Ahmad, and Y.~Cui.
+\newblock A theory of how columns in the neocortex enable learning the
+  structure of the world.
+\newblock {\em Frontiers in Neural Circuits}, 11:81, 2017.
+
+\bibitem{ro1999}
+A.L. Roskies.
+\newblock The binding problem.
+\newblock {\em Neuron}, 24:7, 1999.
+
+\bibitem{tr1999}
+A.~Treisman.
+\newblock Solutions to the binding problem: progress through controversy and
+  convergence.
+\newblock {\em Neuron}, 24:105, 1999.
+
+\bibitem{rede1999}
+J.H. Reynolds and R.~Desimone.
+\newblock The role of neural mechanisms of attention in solving the binding
+  problem.
+\newblock {\em Neuron}, 24:19, 1999.
+
+\bibitem{lued1997}
+E.D. Lumer, G.M. Edelman, and G.~Tononi.
+\newblock Neural dynamics in a model of thalamocortical system. i. layers,
+  loops and the emergence of fast synchronous rhythms.
+\newblock {\em Cerebral Cortex}, 7:207, 1997.
+
+\bibitem{fr2015}
+P.~Fries.
+\newblock Rhythms for cognition: communication through coherence.
+\newblock {\em Neuron}, 88:220, 2015.
+
+\bibitem{siqu2007}
+B.~Siri, M.~Quoy, B.~Delord, B.~Cessac, and H.~Berry.
+\newblock Effects of hebbian learning on the dynamics and structure of random
+  networks with inhibitory and excitatory neurons.
+\newblock {\em Journal of Physiology Paris}, 101:136, 2007.
+
+\bibitem{robu2015}
+L.~Roux and G.~Buzsaki.
+\newblock Tasks for inhibitory interneurons in intact brain circuits.
+\newblock {\em Neuropharmacology}, 88:10, 2015.
+
+\bibitem{buge2004}
+G.~Buzsaki, C.~Geisler, D.A. Henze, and X.-J. Wang.
+\newblock Circuit complexity and axon wiring economy of cortical interneurons.
+\newblock {\em Trends in Neurosciences}, 27:1, 2004.
+
+\bibitem{fudr2005}
+S.~Fusi, P.J. Drew, and L.F. Abbott.
+\newblock Casdcade models of synaptically stored memories.
+\newblock {\em Neuron}, 45:599, 2005.
+
+\bibitem{fuab2007}
+S.~Fusi and L.F. Abbott.
+\newblock Limits on the memory storage capacity of bounded synapses.
+\newblock {\em Nature Neuroscience}, 10:485, 2007.
+
+\bibitem{khso2017}
+P.~Khorsand and A.~Soltani.
+\newblock Optimal structure of metaplasticity for adaptive learning.
+\newblock {\em PLOS Computational Biology}, 2017.
+
+\bibitem{ab2008}
+W.C. Abraham.
+\newblock Metaplasticity: tuning synapses and networks for plasticity.
+\newblock {\em Nature Neuroscience}, 9:387, 2008.
+
+\bibitem{gook2001}
+G.N. Gol'tsman, O.~Okunev, G.~Chulova, A.~Lipatov, A.~Semenov, K.~Smirnov,
+  B.~Voronov, A.~Dzardanov, C.~Williams, and R.~Sobolewski.
+\newblock Picosecond superconducting single-photon optical detector.
+\newblock {\em Appl. Phys. Lett.}, 79:705, 2001.
+
+\bibitem{nata2012}
+C.M. Natarajan, M.G. Tanner, and R.H. Hadfield.
+\newblock Superconducting nanowire single-photon detectors: physics and
+  applications.
+\newblock {\em Supercond. Sci. Tech.}, 25:063001, 2012.
+
+\bibitem{liyo2013}
+D.K. Liu, L.X. You, S.J. Chen, X.Y. Yang, Z.~Wang, Y.L. Wang, X.M. Xie, and
+  M.H. Jiang.
+\newblock Electrical characteristics of superconducting nanowire single photon
+  detector.
+\newblock {\em IEEE Trans. Appl. Supercond.}, 23:2200804, 2013.
+
+\bibitem{mave2013}
+F.~Marsili, V.B. Verma, J.A. Stern, S.~Harrington, A.E. Lita, T.~Gerrits,
+  I.~Vayshnker, B.~Baek, M.D. Shaw, R.P. Mirin, and S.W. Nam.
+\newblock Detecting single infrared photons with 93\% system efficiency.
+\newblock {\em Nat. Photon.}, 7:210, 2013.
+
+\bibitem{yake2007}
+J.K.W. Yang, A.J. Kerman, E.A. Dauler, V.~Anant, K.M. Rosfjord, and K.K.
+  Berggren.
+\newblock Modeling the electrical and thermal response of superconducting
+  nanowire single-photon detectors.
+\newblock {\em IEEE Trans. Appl. Supercond.}, 17:581, 2007.
+
+\bibitem{buch2017}
+S.~Buckley, J.~Chiles, A.N. McCaughan, G.~Moody, K.L. Silverman, M.J. Stevens,
+  R.P. Mirin, S.W. Nam, and J.M. Shainline.
+\newblock All-silicon light-emitting diodes waveguide-integrated with
+  superconducting single-photon detectors.
+\newblock {\em Appl. Phys. Lett.}, 111:141101, 2017.
+
+\bibitem{ti1996}
+M.~Tinkham.
+\newblock {\em Introduction to Superconductivity}.
+\newblock Dover, second edition, 1996.
+
+\bibitem{vatu1998}
+T.~Van Duzer and C.W. Turner.
+\newblock {\em Principles of superconductive devices and circuits}.
+\newblock Prentice Hall, USA, second edition, 1998.
+
+\bibitem{ka1999}
+Alan~M. Kadin.
+\newblock {\em Introduction to superconducting circuits}.
+\newblock John Wiley and Sons, USA, first edition, 1999.
+
+\bibitem{mcbe2014}
+A.N. McCaughan and K.K. Berggren.
+\newblock A superconducting-nanowire three-terminal electrothermal device.
+\newblock {\em Nano letters}, 14:5748, 2014.
+
+\bibitem{mcab2016}
+A.N. McCaughan, N.S. Abebe, Q.-Y. Zhao, and K.K. Berggren.
+\newblock Using geometry to sense current.
+\newblock {\em Nano letters}, 16:7626, 2016.
+
+\bibitem{zhto2018}
+Q.-Y. Zhao, E.A. Toomey, B.A. Butters, A.N. McCaughan, A.E. Dane, S.W. Nam, ,
+  and K.K. Berggren.
+\newblock A compact superconducting nanowire memory element operated by
+  nanowire cryotrons.
+\newblock {\em Supercond. Sci. Technol.}, 31:035009, 2018.
+
+\bibitem{doro2017}
+V.~Dolores-Calzadilla, B.~Romeira, F.~Pagliano, S.~Birindelli,
+  A.~Higuera-Rodriguez, P.J. van Veldhoven, M.K. Smit, A.~Fiore, and D.~Heiss.
+\newblock Waveguide-coupled nanopillar metal-cavity light-emitting diodes on
+  silicon.
+\newblock {\em Nature Communications}, 8:14323, 2017.
+
+\bibitem{gile2011}
+Jean-Marc Ginoux and Christophe Letellier.
+\newblock Van der pol and the history of relaxation oscillations: Toward the
+  emergence of a concept.
+\newblock {\em Chaos}, 22:023120, 2011.
+
+\bibitem{vepe1968}
+F.L.~Vernon Jr. and R.J. Pedersen.
+\newblock Relaxation oscillations in josephson junctions.
+\newblock {\em J. Appl. Phys.}, 39:2661, 1968.
+
+\bibitem{cacl1981}
+N.~Calander, T.~Claeson, and S.~Rudner.
+\newblock A subharmonic josephson relaxation oscillator - amplification and
+  locking.
+\newblock {\em Appl. Phys. Lett.}, 39:504, 1981.
+
+\bibitem{ll1988}
+R.R. Llinas.
+\newblock The intrinsic electrophysiological properties of mammalian neurons:
+  insights into central nervous system function.
+\newblock {\em Science}, 242:1654, 1988.
+
+\bibitem{stgo2005}
+R.B. Stein, E.R. Gossen, and K.E. Jones.
+\newblock Neuronal variability: noise or part of the signal?
+\newblock {\em Nature Neuroscience}, 6:389, 2005.
+
+\bibitem{pasc1999}
+S.~Panzeri, S.R. Schultz, A.~Treves, and E.T. Rolls.
+\newblock Correlations and the encoding of information in the nervous system.
+\newblock {\em Proc. R. Soc. Lond. B}, 266:1001, 1999.
+
+\bibitem{thde2001}
+S.~Thorpe, A.~Delorme, and R.~Van Rullen.
+\newblock Spike-based strategies for rapid processing.
+\newblock {\em Neural Networks}, 14:715, 2001.
+
+\bibitem{stse2007}
+K.M. Stiefel and T.J. Sejnowski.
+\newblock Mapping function on neuronal morphology.
+\newblock {\em J. Neurophysiol.}, 98:513, 2007.
+
+\bibitem{brcl2010}
+T.~Branco, B.A. Clark, and M.~Hausser.
+\newblock Dendritic discrimination of temporal input sequences in cortical
+  neurons.
+\newblock {\em Science}, 329:1671, 2010.
+
+\bibitem{haah2015}
+J.~Hawkins and S.~Ahmad.
+\newblock Why neurons have thousands of synapses, a theory of sequence memory
+  in neocortex.
+\newblock {\em Frontiers in Neural Circuits}, 10:23, 2016.
+
+\bibitem{abre2004}
+L.F. Abbott and W.G. Regehr.
+\newblock Synaptic computation.
+\newblock {\em Nature Reviews}, 431:796, 2004.
+
+\bibitem{bico1982}
+E.L. Bienenstock, L.N. Cooper, and P.W. Munro.
+\newblock Theory for the development of neuron selectivity: orientation
+  specificity and binocular interaction in visual cortex.
+\newblock {\em The Journal of Neuroscience}, 2:32, 1982.
+
+\bibitem{cobe2012}
+L.N. Cooper and M.F. Bear.
+\newblock The bcm theory of synapse modification at 30: interaction of theory
+  with experiment.
+\newblock {\em Nature Reviews Neuroscience}, 13:798, 2012.
+
+\bibitem{miha2005}
+Y.~Mizugaki, H.~Hakii, M.~Moriya, K.~Usami, and T.~Kobayashi.
+\newblock Mutual inductance coupled through superconducting thin film in
+  niobium josephson integrated circuits.
+\newblock {\em Japanese Journal of Applied Physics}, 44:1, 2005.
+
+\bibitem{chbu2017}
+J.~Chiles, S.~Buckley, N.~Nader, S.W. Nam, R.P. Mirin, and J.M. Shainline.
+\newblock Multi-planar amorphous silicon photonics with compact interplanar
+  couplers, cross talk mitigation, and low crossing loss.
+\newblock {\em APL Photonics}, 2:116101, 2017.
+
+\bibitem{sami2017}
+W.D. Sacher, J.C. Mikkelsen, P.~Dumais, J.~Jiang, D.~Goodwill, X.~Luo,
+  Y.~Huang, Y.~Yang, A.~Bois, P.G.-Q. Lo, E.~Bernier, and J.K.S. Poon.
+\newblock Tri-layer silicon nitride-on-silicon photonic platform for
+  ultra-low-loss crossings and interlayer transitions.
+\newblock {\em Opt. Express}, 25:30862, 2017.
+
+\bibitem{chbu2018}
+J.~Chiles, S.M. Buckley, S.W. Nam, R.P. Mirin, and J.M. Shainline.
+\newblock Design, fabrication, and metrology of 10 x 100 multi-planar
+  integrated photonic routing manifolds for neural networks.
+\newblock {\em APL Photonics}, page 106101, 2018.
+
+\bibitem{alve2015}
+M.S. Allman, V.B. Verma, M.~Stevens, T.~Gerrits, R.D. Horansky, A.E. Lita,
+  F.~Marsili, A.~Beyer, M.D. Shaw, D.~Kumor, R.~Mirin, and S.W. Nam.
+\newblock A near-infrared 64-pixel superconducting nanowire single photon
+  detector array with integrated multiplexed readout.
+\newblock {\em Appl. Phys. Lett}, 106:192601, 2015.
+
+\bibitem{chsc2017}
+L.~Chen, D.~Schwarzer, V.B. Verma, M.J. Stevens, F.~Marsili, R.P. Mirin, S.W.
+  Nam, and A.M. Wodtke.
+\newblock Mid-infrared laser-induced fluorescence with nanosecond time
+  resolution using a superconducting nanowire single-photon detector: new
+  technology for molecular science.
+\newblock {\em Accounts of Chemical Research}, 50:1400, 2017.
+
+\bibitem{hada2016}
+M.~Havaei, A.~Davy, D.~Warde-Farley, A.~Biard, A.~Courville, Y.~Bengio, C.~Pal,
+  P.-M. Jodoin, and H.~Larochelle.
+\newblock Brain tumor segmentation with deep neural networks.
+\newblock {\em Medical Image Analysis}, 35:18, 2016.
+
+\bibitem{raca2016}
+B.J. Rauscher, E.R. Canavan, S.~H. Moseley, J.E. Sadleir, and T.~Stevenson.
+\newblock Detectors and cooling technology for direct spectroscopic
+  biosignature characterization.
+\newblock {\em Journal of Astronomical Telescopes, Instruments, and Systems},
+  2:041212, 2016.
+
+\bibitem{boga1992}
+N.E. Booth, R.J. Gaitskell, D.J. Goldie, A.C. Howman, C.~patel, and G.L.
+  Salmon.
+\newblock Cryogenic detectors for experiments in elementary particle physics.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors, and Associated Equipment}, 315:201,
+  1992.
+
+\bibitem{kila2016}
+D.M. Kipping and C.~Lam.
+\newblock Transit clairvoyance: enhancing tess follow-up using artificial
+  neural networks.
+\newblock {\em Monthly Notices of the Royal Astronomical Society}, 465:3495,
+  2016.
+
+\bibitem{diad2017}
+J.Ding et~al.
+\newblock Optimization of transition edge sensor arrays for cosmic microwave
+  background observations with the south pole telescope.
+\newblock {\em IEEE Tran. Appl. Supercond.}, 27:2100204, 2017.
+
+\bibitem{le2017}
+P.~Lebrun.
+\newblock Cryogenics for high-energy particle accelerators: highlights from the
+  first fifty years.
+\newblock {\em IOP Conf. Series: Materials Science and Engineering},
+  171:012001, 2017.
+
+\bibitem{li2012}
+K.K. Likharev.
+\newblock Superconductor digital electronics.
+\newblock {\em Physica C}, 482:6, 2012.
+
+\bibitem{taoz2013}
+N.~Takeuchi, D.~Ozawa, Y.~Yamanashi, and N.~Yoskikawa.
+\newblock An adiabatic quantum flux parametron as an ultra-low-power logic
+  device.
+\newblock {\em Superconductor Science and Technology}, 1126:1, 2013.
+
+\bibitem{hehe2011}
+Q.P. Herr, A.Y. Herr, O.T. Oberg, and A.G. Ioannidis.
+\newblock Ultra-low-power superconductor logic.
+\newblock {\em J. Appl. Phys.}, 109:103903, 2011.
+
+\bibitem{nich2000}
+M.A. Nielsen and I.L. Chuang.
+\newblock {\em Quantum Computation and Quantum Information}.
+\newblock Cambridge University Press.
+
+\bibitem{blga2007}
+A.~Blais, J.~Gambetta, A.~Walraff, D.I. Schusteer, S.M. Girvin, M.H. Devoret,
+  and R.J. Schoelkopf.
+\newblock Quantum-information processing with circuit quantum electrodynamics.
+\newblock {\em Phys. Rev. A}, 75:032329, 2007.
+
+\bibitem{Zwanenburg2013}
+Floris~A Zwanenburg, Andrew~S Dzurak, Andrea Morello, Michelle~Y Simmons, Lloyd
+  C~L Hollenberg, Gerhard Klimeck, Sven Rogge, Susan~N Coppersmith, and Mark~A
+  Eriksson.
+\newblock {Silicon quantum electronics}.
+\newblock 2013.
+
+\bibitem{Hill}
+Charles~D Hill, Eldad Peretz, Samuel~J Hile, Matthew~G House, Martin Fuechsle,
+  Sven Rogge, Michelle~Y Simmons, and Lloyd C~L Hollenberg.
+\newblock {A surface code quantum computer in silicon}.
+
+\bibitem{we2017}
+G.~Wendin.
+\newblock Quantum information processing with superconducting circuits: a
+  review.
+\newblock {\em Rep. Prog. Phys.}, 80:106001, 2017.
+
+\bibitem{deli2017}
+D.-L. Deng, X.~Li, and S.D. Sarma.
+\newblock Quantum entanglement in neural network states.
+\newblock {\em Phys. Rev. X}, 7:021021, 2017.
+
+\bibitem{posc2017}
+T.E. Potok, C.~Schuman, S.R. Young, R.M. Patton, F.~Spedalieri, J.~Liu, K.-T.
+  Yao, G.~Rose, and G.~Chakma.
+\newblock A study of complex deep learning networks on high performance,
+  neuromorphic , and quantum computers.
+\newblock {\em arXiv}, page 1703.05364, 2017.
+
+\bibitem{st1967}
+R.B. Stein.
+\newblock The information capacity of nerve cells using a frequency code.
+\newblock {\em Biophys.}, 7:797, 1967.
+
+\bibitem{sh2018_ICRC}
+J.M. Shainline.
+\newblock The largest cognitive systems will be optoelectronic.
+\newblock In {\em IEEE International Conference on Rebooting Computing}. IEEE,
+  Nov 2018.
+
+\bibitem{crsc2010}
+P.~Crotty, D.~Schult, and K.~Segall.
+\newblock Josephson junction simulation of neurons.
+\newblock {\em Phys. Rev. E}, 82:011914, 2010.
+
+\bibitem{wh1991}
+S.R. Whiteley.
+\newblock Josephson junctions in spice3.
+\newblock {\em IEEE Tras. Mag.}, 27:2902, 1991.
+
+\bibitem{vrso1996}
+C.~van Vreeswijk and H.~Sompolinsky.
+\newblock Chaos in neuronal networks with balanced excitatory and inhibitory
+  activity.
+\newblock {\em Science}, 274:1724, 1996.
+
+\bibitem{vora2005}
+T.P. Vogels, K.~Rajan, and L.F. Abbott.
+\newblock Neural network dynamics.
+\newblock {\em Annu. Rev. Neurosci.}, 28:357, 2005.
+
+\bibitem{sase2000}
+E.~Salinas and T.J. Sejnowski.
+\newblock Impact of correlated synaptic input on output firing rate and
+  variability in simple neuronal models.
+\newblock {\em J. Neurosci.}, 20:6193, 2000.
+
+\bibitem{sp2008}
+N.~Spruston.
+\newblock Pyramidal neurons: dendritic structure and synaptic integration.
+\newblock {\em Nature Reviews Neuroscience}, 9:206, 2008.
+
+\bibitem{sava2017}
+S.~Sardi, R.~Vardi, A.~Sheinin, A.~Goldental, and I.~Kanter.
+\newblock New types of experiments reveal that a neuron functions as multiple
+  independent threshold units.
+\newblock {\em Scientific reports}, 7:18036, 2017.
+
+\bibitem{ma2016}
+W.~Maass.
+\newblock Searching for principles of brain computation.
+\newblock {\em Current opinion in behavior sciences}, 11:81, 2016.
+
+\bibitem{hias2007}
+T.~Hirose, T.~Asai, and Y.~Amemiya.
+\newblock Pulsed neural networks consisting of single-flux-quantum spiking
+  neurons.
+\newblock {\em Physica C}, 463:1072, 2007.
+
+\bibitem{ru2016}
+S.E. Russek, C.~Donnelly, M.~Schneider, B.~Baek, M.~Pufall, W.H. Rippard, P.F.
+  Hopkins, P.D. Dresselhaus, and S.P. Benz.
+\newblock {Stochastic Single Flux Quantum Neuromorphic Computing using
+  Magnetically Tunable Josephson Junctions}.
+\newblock In {\em IEEE International Conference on Rebooting Computing}. IEEE,
+  Oct 2016.
+
+\bibitem{segu2014}
+K.~Segall, S.~Guo, P.~Crotty, D.~Schult, and M.~Miller.
+\newblock Phase-flip bifurcation in a coupled josephson junction neuron system.
+\newblock {\em Physica B}, 455:71, 2014.
+
+\bibitem{scdo2018}
+M.L. Schneider, C.A. Donnelly, S.E. Russek, B.~Baek, M.R. Pufall, P.F. Hopkins,
+  P.~Dresselhaus, S.P. Benz, and W.H. Rippard.
+\newblock Ultralow power artificial synapses using nanotextured magnetic
+  josephson junctions.
+\newblock {\em Science Advances}, 4:1701329, 2018.
+
+\bibitem{lide2015}
+S.-C. Liu, T.~Delbruck, G.~Indiveri, A.~Whatley, and R.~Douglas, editors.
+\newblock {\em Event-based neuromorphic systems}.
+\newblock John Wiley and Sons, 2015.
+
+\bibitem{ni2015}
+M.A. Nielsen.
+\newblock {\em Neural networks and deep learning}.
+\newblock Determination Press, 2015.
+
+\bibitem{sihu2016}
+D.~Silver, A.~Huang, C.J. Maddison, A.~Guez, L.~Sifre, G.~van~den Driessche,
+  J.~Schrittwieser, I.~Antonoglou, V.~Panneershelvam, M.~Lanctot, S.~Dieleman,
+  D.~Grewe, J.~Nham, N.~Kalchbrenner, I.~Sutskever, T.~Lillicrap, M.~Leach,
+  K.~Kavukcuoglu, T.~Graepel, and D.~Hassabis.
+\newblock Mastering the game of go with deep neural networks and tree search.
+\newblock {\em Nature}, 529:484, 2016.
+
+\bibitem{wieb1991}
+J.T. Wixted and E.~Ebbesen.
+\newblock On the form of forgetting.
+\newblock {\em Psychol. Sci.}, 2:409, 1991.
+
+\bibitem{wieb1997}
+J.T. Wixted and E.~Ebbesen.
+\newblock Genuine power curves in forgetting.
+\newblock {\em Mem. Cognit.}, 25:731, 19978.
+
+\bibitem{amfu1994}
+D.J. Amit and S.~Fusi.
+\newblock Learning in neural networks with material synapses.
+\newblock {\em Neural Computation}, 6:957, 1994.
+
+\bibitem{somi2000}
+S.~Song, K.D. Miller, and L.F. Abbott.
+\newblock Competitive hebbian learning through spike-timing-dependent synaptic
+  plasticity.
+\newblock {\em Nature Neuroscience}, 3:919, 2000.
+
+\bibitem{prsh2017}
+P.R. Prucnal and B.J. Shastri.
+\newblock {\em Neuromorphic photonics}.
+\newblock CRC Press, New York, first edition, 2017.
+
+\bibitem{tana20142}
+A.N. Tait, M.A. Nahmias, B.J. Shastri, and P.R. Prucnal.
+\newblock Broadcast and weight: an integrated network for scalable photonic
+  spike processing.
+\newblock {\em J. Lightwave Technol.}, 32:3427, 2014.
+
+\bibitem{tafe2017}
+A.N. Tait, T.~Ferreira de~Lima, E.~Zhou, A.X. Wu, M.A. Nahmias, B.J. Shastri,
+  and P.R. Prucnal.
+\newblock Neuromorphic photonic networks using silicon photonic weight banks.
+\newblock {\em Nature Sci. Rep.}, 7:7430, 2017.
+
+\bibitem{shha2016}
+Y.~Shen, N.C. Harris, S.~Skirlo, M.~Prabhu, T.~Baehr-Jones, M.~Hochberg,
+  X.~Sun, S.~Zhao, H.~Larochelle, D.~Englund, and M.~Soljacic.
+\newblock Deep learning with coherent nanophotonic circuits.
+\newblock {\em Nature Photonics}, 11:441, 2016.
+
+\bibitem{chri2017}
+Z.~Cheng, C.~Rios, W.H.P. Pernice, C.D. Wright, and H.~Bhaskaran.
+\newblock On-chip photonic synapse.
+\newblock {\em Science Advances}, 3:1700160, 2017.
+
+\bibitem{humi2018}
+T.W. Hughes, M.~Minkov, Y.~Shi, and S.~Fan.
+\newblock Training of photonic neural networks through in situ backpropagation
+  and gradient descent.
+\newblock {\em Optica}, 5:864, 2018.
+
+\bibitem{scdo2017}
+M.L. Schneider, C.A. Donnelly, S.E. Russek, B.~Baek, M.R. Pufall, P.F. Hopkins,
+  and W.H. Rippard.
+\newblock Energy-efficient single-flux-quantum based neuromorphic computing.
+\newblock In {\em IEEE International Conference on Rebooting Computing}. IEEE,
+  Nov 2017.
+
+\bibitem{coch2011}
+A.D. Corcoles, J.M. Chow, J.M. Gambetta, C.~Rigetti, J.R. Rozen, G.A. Keefe,
+  M.B. Rothwell, and M.~Steffen.
+\newblock Protecting superconducting qubits from radiation.
+\newblock {\em App. Phys. Lett.}, 99:181906, 2011.
+
+\bibitem{vafe2002}
+T.~Van Duzer, Y.~Feng, X.~Meng, S.R. Whiteley, and N.~Yoshikawa.
+\newblock Hybrid josephson-cmos memory: a solution for the josephson memory
+  problem.
+\newblock {\em Superconductor Science and Technology}, 15:1215, 2002.
+
+\bibitem{suin1988}
+H.~Suzuki, A.~Inoue, T.~Imamura, and S.~Hasuo.
+\newblock Josephson driver to interface josephson junctions to semiconductor
+  transistors.
+\newblock {\em IEDM Tech. Dig.}, page 290, 1988.
+
+\bibitem{bu2018}
+S.M.~Buckley et~al.
+\newblock Light emitter design for superconducting optoelectronic networks.
+\newblock {\em in preparation}, 2018.
+
+\bibitem{lasa1988}
+J.C. Lasjaunias, M.~Saint-Paul, O.~Laborde, O.~Thomas, J.P. Senateur, and
+  R.~Madar.
+\newblock Low-temperature specific heat of mosi$_2$.
+\newblock {\em Phys. Rev. B}, 37:10364, 1988.
+
+\bibitem{du2015}
+P.~Duthil.
+\newblock Material properties at low temperature.
+\newblock {\em arXiv}, page arXiv:1501.07100, 2015.
+
+\bibitem{mu2011}
+O.A. Mukhanov.
+\newblock Energy-efficient single flux quantum technology.
+\newblock {\em IEEE Trans. Appl. Supercond.}, 21:760, 2011.
+
+\bibitem{mi2017}
+D.A.B. Miller.
+\newblock Attojoule optoelectronics for low-energy information processing and
+  communications.
+\newblock {\em J. Lightwave Technol.}, 35:346, 2017.
+
+\bibitem{da1989}
+Gordon Davies.
+\newblock The optical properties of luminescence centres in silicon.
+\newblock {\em Physics Reports}, 176:83--188, 1989.
+
+\bibitem{shxu2007}
+J.M. Shainline and J.~Xu.
+\newblock Silicon as an emissive optical medium.
+\newblock {\em Laser and Photonics Reviews}, 1:334, 2007.
+
+\bibitem{to2008}
+G.~Tononi.
+\newblock Consciousness as integrated information: a provisional manifesto.
+\newblock {\em Biol. Bull.}, 215:216, 2008.
+
+\bibitem{busp2012}
+E.~Bullmore and O.~Sporns.
+\newblock The economy of brain network organization.
+\newblock {\em Nature Reviews Neuroscience}, 13:336, 2012.
+
+\bibitem{egch2005}
+V.M Eguiluz, D.R. Chialvo, G.A. Cecchi, M.~Baliki, and A.V. Aplarian.
+\newblock Scale-free brain functional networks.
+\newblock {\em Phys. Rev. Lett.}, 94:018102, 2005.
+
+\bibitem{yara2017}
+A.C. Yadav and R.~Ramaswamy andD. Dhar.
+\newblock General mechanism for the 1/$f$ noise.
+\newblock {\em Phys. Rev. E}, 96:022215, 2017.
+
+\bibitem{bagr2010}
+D.S. Bassett, D.L. Greenfield, A.~Meyer-Lindenberg, D.R. Weinberger, S.W.
+  Moore, and E.T. Bullmore.
+\newblock Efficient physical embedding of topologically complex information
+  processing networks in brains and computer circuits.
+\newblock {\em PLoS Computational Biology}, 6:1, 2010.
+
+\bibitem{stra1999}
+A.~von Stein, P.~Rappelsberger, J.~Sarnthein, and H.~Petsche.
+\newblock Synchronization between temporal and parietal cortex during
+  multimodal object processing in man.
+\newblock {\em Cerebral Cortex}, 9:137, 1999.
+
+\bibitem{scva2014}
+H.G. Schnack, N.E.M. van Haren, R.M. Brouwer, A.~Evans, S.~Durston, D.I.
+  Boomsma, R.S. Kahn, and H.E.~Hulshoff Pol.
+\newblock Changes in thickness and surface area of the human cortex and their
+  relationship with intelligence.
+\newblock {\em Cerebral Cortex}, 25:1608, 2014.
+
+\bibitem{azca2009}
+F.A.C. Azevedo, L.R.B. Carvalho, L.T. Grinberg, J.~Marcelo Farfel, R.E.L.
+  Ferretti, R.E.P. Leite, W.~Jacob Filho, R.~Lent, and S.~Herculano-Houzel.
+\newblock Equal number of neuronal and nonneuronal cells make the human brain
+  an isometrically scaled-up primate brain.
+\newblock {\em J. Comparative Neurology}, 513:532, 2009.
+
+\bibitem{he2009}
+S.~Herculano-Houzel.
+\newblock The human brain in numbers: a linearly scaled-up primate brain.
+\newblock {\em Frontiers in human neuroscience}, 3:31, 2009.
+
+\bibitem{brsc1998}
+V.~Braitenberg and A.~Schuz.
+\newblock {\em Cortex: statistics and geometry of neuronal connectivity}.
+\newblock Springer, Berlin, Germany, 1998.
+
+\bibitem{edve2004}
+T.~Edward Reed, P.A. Vernon, and A.M. Johnson.
+\newblock Sex difference in brain nerve conduction velocity in normal humans.
+\newblock {\em Neuropsychologia}, 42:1709, 2004.
+
+\bibitem{speedOfLight}
+NIST.
+\newblock Speed of light in vacuum.
+
+\bibitem{rido1994}
+J.L. Ringo, R.W. Doty, S.~Demeter, and P.Y. Simard.
+\newblock Time is of the essence: a conjecture that hemispheric specialization
+  arises from interhemispheric conduction delay.
+\newblock {\em Cerebral Cortex}, 4:331, 1994.
+
+\bibitem{ek2006}
+J.~Ekin.
+\newblock {\em Experimental techniques for low-temperature measurements}.
+\newblock Oxford University Press, New York, first edition, 2006.
+
+\bibitem{woca1999}
+J.M. Wolfe and K.R. Cave.
+\newblock The psychophysical evidence for a binding problem in human vision.
+\newblock {\em Neuron}, 24:11, 1999.
+
+\bibitem{chmi2014}
+J.F. Cheeseman, C.D. Millar, U.~Greggers, K.~Lehmann, M.D.M. Pawley, C.R.
+  Gallistel, G.R. Warman, and R.~Menzel.
+\newblock Way-finding in displaced clock-shifted bees proves bees use a
+  cognitive map.
+\newblock {\em PNAS}, 111:8949, 2014.
+
+\bibitem{alpe2016}
+S.~Alem, C.J. Perry, X.~Zhu, O.J. Loukola, T.~Ingraham, E.~Sovik, and
+  L.~Chittka.
+\newblock Associative mechanisms allow for social learning and cultural
+  transmission of string pulling in an insect.
+\newblock {\em PLOS Biology}, 10:1371, 2016.
+
+\bibitem{lope2017}
+O.J. Loukola, C.J. Perry, L.~Coscos, and L.~Chittka.
+\newblock Bumblebees show cognitive flexibility by improving on an observed
+  complex behavior.
+\newblock {\em Science}, 355:833, 2017.
+
+\bibitem{peba2016}
+C.J. Perry, L.~Baciadonna, and L.~Chittka.
+\newblock Unexpected rewards induce dopamine-dependent positive emotion-like
+  state changes in bumblebees.
+\newblock {\em Science}, 353:1529, 2016.
+
+\bibitem{mufo2017}
+C.~Munker, R.O.C. Fonseca, and T.~Schulz.
+\newblock Silicate earth's missing niobium may have been sequestered into
+  asteroidal cores.
+\newblock {\em Nature Geoscience}, 10:822, 2017.
+
+\bibitem{astra}
+International Space University Space~Studies Program.
+\newblock Asteroid mining, technologies roadmap, and applications.
+
+\bibitem{bu1999}
+S.J. Bus.
+\newblock Compositional structure in the asteroid belt: results of a
+  spectroscopic survey.
+
+\bibitem{shcl2010}
+M.K. Shepard, B.E. Clark, M.~Ockert-Bell, M.C. Nolan, E.S. Howell, C.~Magri,
+  J.D. Giorgini, L.A.M. Benner, S.J. Ostro, A.W. Harris, B.D. Warner, R.D.
+  Stephens, and M.~Mueller.
+\newblock A radar survery of m- and x- class asteroids ii. summary and
+  synthesis.
+\newblock {\em Icarus}, 208:221, 2010.
+
+\bibitem{necl2014}
+J.R. Neeley, B.E. Clark, M.E. Ockert-Bell, M.K. Shepard, J.~Conklin, E.A.
+  Cloutis, S.~Fornasier, and S.J. Bus.
+\newblock The composition of m-type asteroids ii: synthesis of spectroscopic
+  and radar observations.
+\newblock {\em Icarus}, 238:37, 2014.
+
+\bibitem{veko2015}
+V.B. Verma, B.~Korzh, F.~Bussieres, R.D. Horansky, S.D. Dyer, A.E. Lita,
+  I.~Vayshenker, F.~Marsili, M.D. Shaw, H.~Zbinden, R.P. Mirin, and S.W. Nam.
+\newblock High-efficiency superconducting nanowire single-photon detectors
+  fabricated from mosi thin-films.
+\newblock {\em Opt. Express}, 23:33792, 2015.
+
+\bibitem{miya2013}
+S.~Miki, T.~Yamashita, H.~Terai, and Z.~Wang.
+\newblock High performance fiber-coupled nbtin superconducting nanowire single
+  photon detectors with gifford-mcmahon cryocooler.
+\newblock {\em Opt. Express}, 21:10208, 2013.
+
+\bibitem{sesc2016}
+K.~Segall, D.~Schult, U.~Ray, and T.~Ohsumi.
+\newblock Numerical simulation of thermal noise in josephson circuits.
+\newblock {\em arXiv}, page arXiv:1110.0172v2, 2016.
+
+\bibitem{stba2006}
+B.G. Streetman and S.K. Banerjee.
+\newblock {\em Solid state electronic devices}.
+\newblock Pearson Prentice Hall, Upper Saddle River, New Jersey, sixth edition,
+  2006.
+
+\bibitem{zipi2006}
+B.L. Zink, R.~Pietri, and F.~Hellman.
+\newblock Thermal conductivity and specific heat of thin-film amorphous
+  silicon.
+\newblock {\em Phys. Rev. Lett.}, 96:055902, 2006.
+
+\bibitem{zepo1971}
+R.C. Zeller and R.O. Pohl.
+\newblock Thermal conductivity and specific heat of noncrystalline solids.
+\newblock {\em Phys. Rev. B}, 4:2029, 1971.
+
+\bibitem{mc2018}
+A.N.~McCaughan et~al.
+\newblock The htron voltage amplifier.
+\newblock {\em in preparation}, 2018.
+
+\bibitem{lise1991}
+K.K. Likharev and V.K. Semenov.
+\newblock Rsfq logic/memory family: a new josephson-junction technology for
+  sub-terahertz-clock-frequency digital systems.
+\newblock {\em IEEE Trans. Appl. Supercond.}, 1:3, 1991.
+
+\bibitem{spga2011}
+J.P. Sprengers, A.~Gaggero, D.~Sahin, S.~Jahanmirinejad, G.~Frucci,
+  F.~Mattioli, R.~Leoni, J.~Beetz, M.~Lermer, M.~Kamp, S.~H{\" o}fling,
+  R.~Sanjines, and A.~Fiore.
+\newblock Waveguide superconducting single-photon detectors for integrated
+  quantum photonic circuits.
+\newblock {\em Appl. Phys. Lett.}, 99:181110, 2011.
+
+\bibitem{pesc2012}
+W.~Pernice, C.~Schuck, O.~Minaeva, M.~Li, G.~Goltsman, A.~Sergienko, and
+  H.~Tang.
+\newblock High speed travelling wave single-photon detectors with near-unity
+  quantum efficiency.
+\newblock {\em Nat. Comm.}, 3:1325, 2012.
+
+\bibitem{feka2015}
+S.~Ferrari, O.~Kahl, V.~Kovalyuk, G.N. Goltsman, A.~Korneev, and W.H.P.
+  Pernice.
+\newblock Waveguide-integrated single- and multi-photon detecton at telecom
+  wavelengths using superconducting nanowires.
+\newblock {\em Appl. Phys. Lett.}, 106:151101, 2015.
+
+\bibitem{shbu2017b}
+J.M. Shainline, S.M. Buckley, N.~Nader, C.M. Gentry, K.C. Cossel, J.W. Cleary,
+  M.~Popovi\'{c}, N.R. Newbury, S.W. Nam, and R.P. Mirin.
+\newblock Room-temperature-deposited dielectrics and superconductors for
+  integrated photonics.
+\newblock {\em Opt. Express}, page 10322, 2017.
+
+\bibitem{lish2014}
+Y.~Liu, J.M. Shainline, X.~Zeng, and M.~Popovi\'{c}.
+\newblock Ultra-low-loss cmos-compatible waveguide crossing arrays based on
+  multimode bloch waves and imaginary coupling.
+\newblock {\em Opt. Lett.}, 39:335, 2014.
+
+\bibitem{ch2018}
+J.~Chiles, N.~Nader, D.D. Hickstein, S.P. Yu, T.C. Briles, D.~Carlson, H.~Jung,
+  J.M. Shainline, S.~Diddams, S.B. Papp, S.W. Nam, and R.P. Mirin.
+\newblock Deuterated silicon nitride photonic devices for broadband optical
+  frequency comb generation.
+\newblock {\em Opt. Lett.}, 43:1527, 2018.
+
+\end{thebibliography}
