@@ -21,6 +21,11 @@ G.~Dyson.
 \newblock {\em Turing's Cathedral}.
 \newblock Vintage Books.
 
+\bibitem{is2014}
+W.~Isaacson.
+\newblock {\em The Innovators}.
+\newblock Simon and Schuster.
+
 \bibitem{tu1947}
 A.~Turing.
 \newblock Lecture to the london mathematical society on 20 february 1947.
@@ -273,6 +278,12 @@ L.N. Cooper and M.F. Bear.
   with experiment.
 \newblock {\em Nature Reviews Neuroscience}, 13:798, 2012.
 
+\bibitem{bico1982}
+E.L. Bienenstock, L.N. Cooper, and P.W. Munro.
+\newblock Theory for the development of neuron selectivity: orientation
+  specificity and binocular interaction in visual cortex.
+\newblock {\em The Journal of Neuroscience}, 2:32, 1982.
+
 \bibitem{stsp2015}
 G.J. Stuart and N.~Spruston.
 \newblock Dendritic integration: 60 years of progress.
@@ -283,6 +294,62 @@ S.~Sardi, R.~Vardi, A.~Sheinin, A.~Goldental, and I.~Kanter.
 \newblock New types of experiments reveal that a neuron functions as multiple
   independent threshold units.
 \newblock {\em Scientific reports}, 7:18036, 2017.
+
+\bibitem{geki2002}
+W.~Gerstner and W.~Kistler.
+\newblock {\em Spiking neuron models}.
+\newblock Cambridge University Press, Cambridge, first edition, 2002.
+
+\bibitem{plth2006}
+D.~Plenz and T.C. Thiagarajan.
+\newblock The organizing principles of neuronal avalanches: cell assemblies in
+  the cortex?
+\newblock {\em Trends in Neuroscience}, 30:101, 2006.
+
+\bibitem{be2007}
+J.M. Beggs.
+\newblock The criticality hypothesis: how local cortical networks might
+  optimize information processing.
+\newblock {\em Philosophical transactions of the Royal Society A}, 366:329,
+  2007.
+
+\bibitem{peth2009}
+T.~Petermann, T.C. Thiagarajan, M.A. Lebedev, M.A.L. Nicolelis, D.R. Chialvo,
+  and D.~Plenz.
+\newblock Spontaneous cortical activity in awake monkeys composed of neuronal
+  avalanches.
+\newblock {\em PNAS}, 106:15921, 2009.
+
+\bibitem{frla2013}
+E.J. Friedman and A.S. Landsberg.
+\newblock Hierarchical networks, power laws, and neuronal avalanches.
+\newblock {\em Chaos}, 23:013135, 2013.
+
+\bibitem{egch2005}
+V.M Eguiluz, D.R. Chialvo, G.A. Cecchi, M.~Baliki, and A.V. Aplarian.
+\newblock Scale-free brain functional networks.
+\newblock {\em Phys. Rev. Lett.}, 94:018102, 2005.
+
+\bibitem{budr2004}
+G.~Buzsaki and A.~Draguhn.
+\newblock Neuronal oscillations in cortical networks.
+\newblock {\em Science}, 304:1926, 2004.
+
+\bibitem{bata1987}
+P.~Bak, C.~Tang, and K.~Wiesenfeld.
+\newblock Self-organized criticality: an explanation of 1/$f$ noise.
+\newblock {\em Phys. Rev. Lett.}, 59:381, 1987.
+
+\bibitem{kico2006}
+O.~Kinouchi and M.~Copelli.
+\newblock Optimal dynamical range of excitable networks at criticality.
+\newblock {\em Nature Physics}, 2:348, 2006.
+
+\bibitem{shya2009}
+W.L. Shew, H.~Yang, T.~Petermann, R.~Roy, and D.~Plenz.
+\newblock Neuronal avalanches imply maximum dynamic range in cortical networks
+  at criticality.
+\newblock {\em The Journal of Neuroscience}, 29:15595, 2009.
 
 \bibitem{ba1988}
 B.J. Baars.
@@ -374,6 +441,107 @@ A.~Kumar, Z.~Wan, W.W. Wilcke, and S.S. Iyer.
 J.~Hasler and B.~Marr.
 \newblock Finding a roadmap to achieve large neuromorphic hardware systems.
 \newblock {\em Front. Neurosci.}, 7:118, 2013.
+
+\bibitem{sobe1987}
+R.~Soref and B.~Bennett.
+\newblock Electrooptical effects in silicon.
+\newblock {\em IEEE J. Quant. Elect.}, 23:123, 1987.
+
+\bibitem{rema2010}
+G.~Reed, G.~Mashanovich, F.Y. Gardes, and D.J. Thomson.
+\newblock Silicon optical modulators.
+\newblock {\em Nat. Photon.}, 4:518, 2010.
+
+\bibitem{lisa2005}
+L.~Liao, D.~Samara-Rubio, M.~Morse, A.~Liu, and D.~Hodge.
+\newblock High speed silicon mach-zehnder modulator.
+\newblock {\em Opt. Express}, 13:3129, 2005.
+
+\bibitem{xuma2007}
+Q.~Xu, S.~Manipatruni, B.~Schmidt, J.~Shakya, and Michal Lipson.
+\newblock 12.5 gbit/s carrier-injection-based silicon micro-ring silicon
+  modulators.
+\newblock {\em Opt. Express}, 15:430, 2007.
+
+\bibitem{so1993}
+R.~Soref.
+\newblock Silicon-based optoelectronics.
+\newblock {\em Proceedings of the IEEE}, 81:1687, 1993.
+
+\bibitem{meor2014}
+K.K. Mehta, J.S. Orcutt, J.M. Shainline, O.~Tehar-Zahav, Z.~Sternberg,
+  R.~Meade, M.A. Popovi{\' c}, and Rajeev~J. Ram.
+\newblock Polycrystalline silicon ring resonator photodiodes in a bulk
+  complementary metal-oxide-semiconductor process.
+\newblock {\em Opt. Lett.}, 39:1061, 2014.
+
+\bibitem{shxu2007}
+J.M. Shainline and J.~Xu.
+\newblock Silicon as an emissive optical medium.
+\newblock {\em Laser and Photonics Reviews}, 1:334, 2007.
+
+\bibitem{li2005}
+M.~Lipson.
+\newblock Guiding, modulating, and emitting light on silicon-challenges and
+  opportunities.
+\newblock {\em J. Lightwave Technology}, 23:4222, 2005.
+
+\bibitem{libo2010}
+D.~Liang and J.E. Bowers.
+\newblock Recent progress in lasers on silicon.
+\newblock {\em Nature Photonics}, 4:511, 2010.
+
+\bibitem{zhyi2015}
+Z.~Zhou, B.~Yin, and Jurgen Michel.
+\newblock On-chip light sources for silicon photonics.
+\newblock {\em Light: science and applications}, 4:e358, 2015.
+
+\bibitem{da1989}
+Gordon Davies.
+\newblock The optical properties of luminescence centres in silicon.
+\newblock {\em Physics Reports}, 176:83--188, 1989.
+
+\bibitem{orma2012}
+J.S. Orcutt, B.~Moss, C.~Sun, J.~Leu, M.~Georgas, J.~Sun M.~Weaver
+  J.~Shainlineand E.~Zgraggen, H.~Li, S.~Urosevic, M.~Popovic, R.J. Ram, and
+  Vladimir Stojanović.
+\newblock Open foundry platform for high-performance electronic-photonic
+  integration.
+\newblock {\em Opt. Express}, 20:12222, 2012.
+
+\bibitem{shha2016}
+Y.~Shen, N.C. Harris, S.~Skirlo, M.~Prabhu, T.~Baehr-Jones, M.~Hochberg,
+  X.~Sun, S.~Zhao, H.~Larochelle, D.~Englund, and M.~Soljacic.
+\newblock Deep learning with coherent nanophotonic circuits.
+\newblock {\em Nature Photonics}, 11:441, 2016.
+
+\bibitem{dukr1999}
+J.L.A. Dubbeldam, B.~Krauskopf, and D.~Lenstra.
+\newblock Excitability and coherence resonance in lasers with saturable
+  absorber.
+\newblock {\em Phys. Rev. E}, 60:6580, 1999.
+
+\bibitem{prsh2017}
+P.R. Prucnal and B.J. Shastri.
+\newblock {\em Neuromorphic photonics}.
+\newblock CRC Press, New York, first edition, 2017.
+
+\bibitem{tana20142}
+A.N. Tait, M.A. Nahmias, B.J. Shastri, and P.R. Prucnal.
+\newblock Broadcast and weight: an integrated network for scalable photonic
+  spike processing.
+\newblock {\em J. Lightwave Technol.}, 32:3427, 2014.
+
+\bibitem{tafe2017}
+A.N. Tait, T.~Ferreira de~Lima, E.~Zhou, A.X. Wu, M.A. Nahmias, B.J. Shastri,
+  and P.R. Prucnal.
+\newblock Neuromorphic photonic networks using silicon photonic weight banks.
+\newblock {\em Nature Sci. Rep.}, 7:7430, 2017.
+
+\bibitem{chri2017}
+Z.~Cheng, C.~Rios, W.H.P. Pernice, C.D. Wright, and H.~Bhaskaran.
+\newblock On-chip photonic synapse.
+\newblock {\em Science Advances}, 3:1700160, 2017.
 
 \bibitem{bu1956}
 D.A. Buck.
@@ -471,12 +639,6 @@ Y.~Mizugaki, K.~Nakajima, Y.~Sawada, and T.~Yamashita.
 E.D. Rippert and S.~Lomatch.
 \newblock A multilayered superconducting neural network implementation.
 \newblock {\em IEEE Trans. Appl. Supercond.}, 7:3442, 1997.
-
-\bibitem{bico1982}
-E.L. Bienenstock, L.N. Cooper, and P.W. Munro.
-\newblock Theory for the development of neuron selectivity: orientation
-  specificity and binocular interaction in visual cortex.
-\newblock {\em The Journal of Neuroscience}, 2:32, 1982.
 
 \bibitem{koko2005}
 T.~Kondo, M.~Kobori, T.~Onomi, and K.~Nakajima.
@@ -588,106 +750,11 @@ R.~Cheng, U.S. Goteti, and M.C. Hamilton.
   junctions.
 \newblock {\em J. Appl. Phys}, 124:152126, 2018.
 
-\bibitem{sobe1987}
-R.~Soref and B.~Bennett.
-\newblock Electrooptical effects in silicon.
-\newblock {\em IEEE J. Quant. Elect.}, 23:123, 1987.
-
-\bibitem{rema2010}
-G.~Reed, G.~Mashanovich, F.Y. Gardes, and D.J. Thomson.
-\newblock Silicon optical modulators.
-\newblock {\em Nat. Photon.}, 4:518, 2010.
-
-\bibitem{lisa2005}
-L.~Liao, D.~Samara-Rubio, M.~Morse, A.~Liu, and D.~Hodge.
-\newblock High speed silicon mach-zehnder modulator.
-\newblock {\em Opt. Express}, 13:3129, 2005.
-
-\bibitem{xuma2007}
-Q.~Xu, S.~Manipatruni, B.~Schmidt, J.~Shakya, and Michal Lipson.
-\newblock 12.5 gbit/s carrier-injection-based silicon micro-ring silicon
-  modulators.
-\newblock {\em Opt. Express}, 15:430, 2007.
-
-\bibitem{so1993}
-R.~Soref.
-\newblock Silicon-based optoelectronics.
-\newblock {\em Proceedings of the IEEE}, 81:1687, 1993.
-
-\bibitem{meor2014}
-K.K. Mehta, J.S. Orcutt, J.M. Shainline, O.~Tehar-Zahav, Z.~Sternberg,
-  R.~Meade, M.A. Popovi{\' c}, and Rajeev~J. Ram.
-\newblock Polycrystalline silicon ring resonator photodiodes in a bulk
-  complementary metal-oxide-semiconductor process.
-\newblock {\em Opt. Lett.}, 39:1061, 2014.
-
-\bibitem{shxu2007}
-J.M. Shainline and J.~Xu.
-\newblock Silicon as an emissive optical medium.
-\newblock {\em Laser and Photonics Reviews}, 1:334, 2007.
-
-\bibitem{li2005}
-M.~Lipson.
-\newblock Guiding, modulating, and emitting light on silicon-challenges and
-  opportunities.
-\newblock {\em J. Lightwave Technology}, 23:4222, 2005.
-
-\bibitem{libo2010}
-D.~Liang and J.E. Bowers.
-\newblock Recent progress in lasers on silicon.
-\newblock {\em Nature Photonics}, 4:511, 2010.
-
-\bibitem{zhyi2015}
-Z.~Zhou, B.~Yin, and Jurgen Michel.
-\newblock On-chip light sources for silicon photonics.
-\newblock {\em Light: science and applications}, 4:e358, 2015.
-
-\bibitem{da1989}
-Gordon Davies.
-\newblock The optical properties of luminescence centres in silicon.
-\newblock {\em Physics Reports}, 176:83--188, 1989.
-
-\bibitem{orma2012}
-J.S. Orcutt, B.~Moss, C.~Sun, J.~Leu, M.~Georgas, J.~Sun M.~Weaver
-  J.~Shainlineand E.~Zgraggen, H.~Li, S.~Urosevic, M.~Popovic, R.J. Ram, and
-  Vladimir Stojanović.
-\newblock Open foundry platform for high-performance electronic-photonic
-  integration.
-\newblock {\em Opt. Express}, 20:12222, 2012.
-
-\bibitem{shha2016}
-Y.~Shen, N.C. Harris, S.~Skirlo, M.~Prabhu, T.~Baehr-Jones, M.~Hochberg,
-  X.~Sun, S.~Zhao, H.~Larochelle, D.~Englund, and M.~Soljacic.
-\newblock Deep learning with coherent nanophotonic circuits.
-\newblock {\em Nature Photonics}, 11:441, 2016.
-
-\bibitem{dukr1999}
-J.L.A. Dubbeldam, B.~Krauskopf, and D.~Lenstra.
-\newblock Excitability and coherence resonance in lasers with saturable
-  absorber.
-\newblock {\em Phys. Rev. E}, 60:6580, 1999.
-
-\bibitem{prsh2017}
-P.R. Prucnal and B.J. Shastri.
-\newblock {\em Neuromorphic photonics}.
-\newblock CRC Press, New York, first edition, 2017.
-
-\bibitem{tana20142}
-A.N. Tait, M.A. Nahmias, B.J. Shastri, and P.R. Prucnal.
-\newblock Broadcast and weight: an integrated network for scalable photonic
-  spike processing.
-\newblock {\em J. Lightwave Technol.}, 32:3427, 2014.
-
-\bibitem{tafe2017}
-A.N. Tait, T.~Ferreira de~Lima, E.~Zhou, A.X. Wu, M.A. Nahmias, B.J. Shastri,
-  and P.R. Prucnal.
-\newblock Neuromorphic photonic networks using silicon photonic weight banks.
-\newblock {\em Nature Sci. Rep.}, 7:7430, 2017.
-
-\bibitem{chri2017}
-Z.~Cheng, C.~Rios, W.H.P. Pernice, C.D. Wright, and H.~Bhaskaran.
-\newblock On-chip photonic synapse.
-\newblock {\em Science Advances}, 3:1700160, 2017.
+\bibitem{to2016}
+S.K. Tolpygo.
+\newblock Superconductor digital electronics: scalability and energy efficiency
+  issues.
+\newblock {\em Low Temperature Physics}, 42:361, 2016.
 
 \bibitem{mave2013}
 F.~Marsili, V.B. Verma, J.A. Stern, S.~Harrington, A.E. Lita, T.~Gerrits,
@@ -706,5 +773,10 @@ J.M. Shainline, S.M. Buckley, N.~Nader, C.M. Gentry, K.C. Cossel, J.W. Cleary,
 H.M. Ozaktas.
 \newblock Paradigms of connectivity for computer circuits and networks.
 \newblock {\em Optical Engineering}, 31:1563, 1992.
+
+\bibitem{on1911}
+H.K. Onnes.
+\newblock The resistance of pure mercury at helium temperatures.
+\newblock {\em Commun. Phys. Lab. Univ. Leiden}, 12:1, 1911.
 
 \end{thebibliography}
