@@ -84,6 +84,11 @@ brain/AGI: I'm going to give you an enormous amount of information regarding the
 
 These are very different objectives. A Turing machine is a universal computer in the sense that if a procedure exists to calculate a given number, a Turing machine can do it. However, two aspects of the Turing model make it inefficient for the latter task. First, information processing is serial. Second, memory must be accessed as an independent step from change of internal state (processing).
 
+\vspace{3em}
+Goodfellow, Bengio, and Courville state, ``We simply do not have enough information about the brain to use it as a guide.'' It is difficult to reconcile this statement with the wealth of insights gained through over 100 years of neuroscience. We do not have a complete and unambiguous understanding of all aspects of the brain and cognition, but collectively we have learned a great deal about the principles of information processing in the brain. Event the simple architecture of a feed-forward neural net with high connectivity borrowed from the first stages of visual cortex have proven extremely useful for deep learning. Such networks are based on the spatial configuration of certain networks in the brain, and we further know that temporal activity is central to neurosystems. Most deep learning ignores the temporal domain altogether. This is certainly reasonable considering the impressive performance that can be obtained without utilizing the temporal processing strategies of cognitive systems. Nevertheless, the fact that most deep learning to date neglects insights from the brain regarding the time domain means the crucial insight of neural information processing\textemdash that space and time are intertwined\textemdash has gone underutilized by the artificial intelligence community. 
+
+This article reviews principles of neuroscience as well as neuromorphic hardware, beginning with a summary of neuroscientific literature. The summary of neuroscience is an attempt to identify the basic outline of an intelligent computing architecture. I am a device physicist, not trained in the cognitive sciences, so the picture sketched here is undoubtedly incomplete. Still, I argue that broad strokes of the emerging vision of cognition are sufficient to inform our design of artificial hardware capable of general intelligence. 
+
 \section{\label{sec:neuroscience}Information processing in neural systems}
 Information processing in a Turing machine is a serial operation. The state of the machine is updated in a sequential manner based on instructions and the contents of memory. Neural computation departs markedly from this approach. Enormous numbers of operations in the brain occur simultaneously, with many neurons receiving communications from many neighbors and independently accessing local synaptic memory. The essence of neural information is to share the burden of computation across a large network of processors, while connecting them and signaling in such a way to enable the information of the disparate elements to be efficiently integrated in system-wide operations. Where a bit in a digital system enables one to answer a single binary question, the large number of synapses input to a neuron enable one to answer a large number of simple analog questions. Whereas the von Neumann architecture requires external memory to be read and written at each computational step, processing and memory are not distinct in neural systems. Whereas digital computing with a Turing apparatus can integrated information from separate calculations in a serial manner, neural information is, by its nature, integrated across a spatial and temporal hierarchy.
 
@@ -253,6 +258,9 @@ General intelligence: The ability to place a wide variety of information into a 
 
 Mention how deep learning neglects essentially all of the important aspects of neuronal information processing discussed here
 
+
+
+
 \subsection{Summary of neural information}
 Von Neumann suspected the existence of a more subtle and powerful language of information employed by the human brain. Neuroscience has elucidated many of the principles of this language. Let us attempt here to summarize the salient elements that should guide neural hardware design. Given the complexity of the subject and the rapidly evolving state of neuroscience, we expect time to bring corrections to these concepts, yet the foundations of these concepts do seem well established.
 
@@ -270,6 +278,17 @@ To summarize the summary, a single neuron extracts as much information as it can
 
 This model of neural information processing bears a resemblance to a Turing machine. Turing's goal was to make a machine that could answer any question that could be asked within the axioms of its system (universal while not violating G\"{o}del), and the goal here is essentially the same. Yet in addition to the Turing machine behavior, wherein the network acts as an oracle, an intelligent neural system should also be able to ask its own questions by formulating an output that generates a response from an intelligent or inanimate agent so as to gain new information. In addition to generating an entity that is universal in the sense defined by Turing, we aspire to create machines that are intelligent in the sense that they can engage in self-directed learning. Such a machine will be able to answer our questions, but also have a mind of its own.
 
+\vspace{3em}
+What is the significance of oscillations and synchronized clusters? Much has been written about this \cite{}, and perhaps much remains unknown. Here I offer one interpretation based on the references presented thus far. Within a minicolumn there are about 100 neurons, and these primarily participate in small neuronal avalanches, power-law distributed from size one to the complete 100, and also extending far beyond the minicolumn. These avalanches can be the result of spontaneous, stochastic activity, or they can be induced by outside stimulus. These transient, synchronized bursts of varying numbers of neurons primarily between locally connected clusters of neurons make up gamma oscillations. Single minicolumns and clusters of minicolumns up to the scale of columns can give rise to a very large number of these dynamical states, each with a distinct set of participating neurons and synaptic connections. In the language of dynamical systems, each pattern of activity is a stable heteroclinic channel, which is a sequence of successive metastable states. The time-scales and resonant frequencies of activity are tuned by synaptic, dendritic, and somatic time constants adapt in response to local applied voltage (due to afferent synaptic activity) as well as neuromodulators that may adjust resonant frequencies of sectors of neurons simultaneously.
+
+Groups of neurons spanning minicolumns to columns for a dynamical basis set \cite{rahu2008,one_from_reading_group} that can represent some range of stimuli. The fastest transient synchronized states occur within minicolumns, and a single minicolumn can produce a large number of different patterns dependent on the stimuli. Each minicolumn is capable of representing a certain class of features or input stimulus, i.e., a certain color, spatial frequency, intensity, etc. Synchronized ensembles at slightly lower frequencies form between groups of minicolumns, forming specific coalitions of neurons representing a distinct state across multiple dimensions of feature space, providing a broader range of insights regarding the nature of a stimulus. 
+
+The pattern repeats at still lower frequencies, where dynamical states of columns communicate amongst each other to form brain regions. These complex structures of neural architecture are supremely equipped to analyze certain aspects of the world, such as faces, language, odors, etc. At the scale of brain regions, oscillations are in the theta frequencies. Activity on the scale of columns organizes on gamma timescales (30\,Hz-80\,Hz), and activity across the cortices, integrating input from activity in many columns, occurs ten times slower, in theta oscillations (4\,Hz-8\,Hz). Neurons in any minicolumn can talk to neurons in any region on theta timescales, provided network path lengths are short. 
+
+Local clusters interacting on gamma timescales with activity modulated by broad network activity on theta timescales illustrates the meaning of the phrase, ``information integration across space and time.'' However, it is to be understood that many spatial and temporal scales are involved in cognition, and this hierarchical nesting of scales achieves the fractal organization of the brain that appears uniquely capable the efficient information integration that enables cognition. I take the principles of neural information summarized here as the principles guiding the design of cognitive systems. Next I describe several approaches to hardware for artificial intelligence.
+
+\vspace{3em}
+From an architectural perspective, there is one more level of heirarchy to consider, and that is the thalamo-cortical complex \cite{}. Brain regions input a representation of their activity to the thalamus, and it decides what informaiton to braodcast across the network. The thalamus must be able to receive from and reach all brain regions in a tremendous feat of network communication.
 \section{\label{sec:electronics}Semiconductor electronic neural systems}
 The origin of semiconducting devices is intimately intertwined with the history of computing. After WWII, vacuum tubes were a relatively mature technology, established for switching in phone networks and wartime radio communications. Thus, early computers developed shortly after the end of the war were based around the deflection of currents by voltages applied to the central conductor of the tube. The invention of the transistor in 1948 by Bardeen, Brattain, and Shockley replaced the bulky tubes, and the subsequent development of integrated microchips by Kilby and Noyce in 1959 initiated the technological revolution that has left the world utterly transformed. Innovations in lithography and processing led to the evolution captured by Moore's Law and Dennard scaling. After nearly 60 years, these scaling trends have neared the physical limits of transistors \cite{}, inspiring new creativity in devices and architectures. On the device side, use of photonic components for communication is gaining significant traction \cite{suwa2015,stra2018}. Architectural innovation has led to increased parallelism of computation, with brain-inspired concepts at the extreme end of this spectrum.
 
@@ -427,6 +446,9 @@ search bib for MJJ
 \vspace{3em} 
 discussion of superconducting electronics for sensing/particle detection
 
+\vspace{3em}
+Superconducting circuits can perform Boolean logic well enough to control networks of loop neurons and possibly qubits, but superconducting electronics are not poised to displace CMOS electronics for logic, particularly not in lightweight applications such as IoT and edge computing that have become so influential to the development of hardware for AI. 
+
 \subsection{Superconducting optoelectronic neural systems may overcome challenges of digital systems}
 Let us refer to these challenges with superconducting electronics as: 1) the memory problem; 2) the clock problem; 3) the I/O problem; and 4) the volt problem. We will argue below that a new type of cryotron, implemented in a compact, on-chip, thin-film device can overcome the volt problem, but only if one accepts slower speed than superconducting digital logic seeks, an acceptable trade-off in a neural system. Solving the volt problem this way enables us to generate light, thereby solving the ``O'' part of the I/O problem. The ``I'' part of the problem is solved by utilizing superconducting photon detectors, compact circuit elements developed since 2000 and integrated with photonic circuits within the last decade. With integrated light sources and detectors, superconducting systems can send and receive near-infrared photons over optical fibers, relieving the heat load of co-axial cables, and solving the volt problem at semiconductor photodetectors on the room-temperature side. The asynchronous nature of spiking neural systems eliminates the clock problem, provided synaptic, dendritic, and neuronal integration times can be made longer than the jitter of the circuits. Finally, while the memory problem is the most severe for superconducting digital systems, the prospects for memory in superconducting neural systems are one of the most exciting aspects of the technology. As discussed in Sec.\,\ref{sec:neuroscience}, memory in neural systems involves short-term plasticity, long-term plasticity (STDP, for example), and metaplasticity (that adapts the rate with which synapses change). We find that JJ circuits very naturally implement these functions, and the distributed nature of synaptic memory avoids the difficulty of creating large arrays of addressable superconducting memory elements. 
 
@@ -478,6 +500,15 @@ For certain feed-forward superconducting ANNs, particularly those based on AQFP 
 
 \vspace{1em}
 In this section we reviewed 30 years of work on superconducting neural circuits, and we described their strengths as well as their weaknesses. 
+
+\vspace{1em}
+\begin{itemize}
+\item mina1994a anticipated problems with superconducting lines, JTLs, and scaling
+\item early works used digital concepts, adding active circuits to increase synaptic bit depths, hwereas we now plan to use purely passive Lr loops, enabled by high-kinetic-inductance materials
+\item neuronal firing: mina1994a, mina1995, hagu1991 all use time-averaged output of SFQs from JJ as signal representing activation (not 1 fluxon action potential)
+\item advantages of superconductors for 3D integration seen in hiak1991
+\item temporal coincidence: compare/contrast with rilo1997 where use $\Delta t$ of JJ. also metaplasticity
+\end{itemize}
 
 \section{\label{sec:superconductingOptoelectronic}Superconducting optoelectronic systems}
 
@@ -760,6 +791,15 @@ In the 1840s, Lovelace contemplated the possibility of artificial machines that 
 I think Lovelace was correct that a mechanical apparatus like the Analytical Engine will never be capable of original thought, and I also think Turing was correct that eventually it will be commonly accepted that machines can think, although I do not agree that it is primarily a matter of increasing memory capacity and speed of execution that will lead to AI. The serial following of instructions must be replaced by the ``efficient language'' based on concepts of the nervous system, as anticipated by von Neumann in 1949, and to make this replacement, new hardware must be conceived. Silicon transistors and memory have been and will continue to be profoundly successful at performing the operations required of a Turing machine, but a Turing machine will not achieve the highest intelligence once hardware and architectures have evolved to the asymptotic limit. Perhaps Turing and Lovelace would both update their positions if they could share our vantage point early in the 21st century. We have now witnessed the explosion of silicon technology, the seeming inevitability of Moore's Law and Dennard scaling, and a steady deepening in our knowledge of cognitive science through advances in experimental techniques and persistent investigation. Turing backed away from the question, ``Can machines think?'', but I contend that is exactly the question we should be trying to answer in the 21st century. 
 
 
+\vspace{3em}
+Ada Lovelace contemplated artificial intelligence, as did Alan Turing. Turing also proposed modeling computation on the workings of the brain, as did John von Neumann. It has long been our intention to distill the way we think into operations that can be performed in hardware. When the principles of cognitive science are considered alongside the practicalities of engineering, this device physicist is inclined toward a new platform for cognitive hardware. The performance gains are sufficient that we accept cryogenic operation, and we thus gain access to silicon light sources, single-photon detectors, Josephson junctions, and dissipationless storage loops.
+
+With this hardware, we can control time constants across a broad range at the device scale, enabling each neuron to participate in a broad range of dynamical states. The dendritic tree of each neuron can perform myriad computations to decipher complex inputs. Plasticity mechanisms adapt networks to fractal structures to enable efficient transfer of information across spatial and temporal scales. Communication has no delays until the scale of very large networks, indicating that such systems could achieve network-wide oscillations sampling beyond trillions of neurons contained within the fiber-optic light cone. A neuron can send a single photon to a distant region of the network and incite a new neuronal avalanche that may change the trajectory of the network dynamical state, yet the network is stable and balanced through plasticity and inhibition.
+
+How shall we contemplate a vast network of optoelectronic neurons spread across the surface of an asteroid, with network-wide information exchange a thousand times faster than one of our minicolumns can converge? The impacts to science, technology, and the fate of humanity are considerable indeed. The hardware and architecture sketched here may prove physically or practically intractable. But such a technology is not obviously unattainable. At this early stage, uncertainty is high, but the ramifications are so great that the subject merits further scientific inquiry.
+
+\vspace{3em}
+Did you define cognition?
 
 
 
@@ -806,6 +846,27 @@ Silicon photonics provides three primary dielectric materials that can be used f
 
 \vspace{2em}
 At different times, a neuron firing is known by other neurons to mean different things.
+
+\vspace{3em}
+electronics has had a simple roadmap: make is smaller. this is no longer adequate, and new methods of information procession and architectures are required. AI poised to permeate every industry, 3 trillion dollar market
+
+\vspace{3em}
+Dynamical pattern of a given clulster determined by the specifics of its graph structure and device time constants
+
+\vspace{3em}
+address Turing's comment that one cannot know if a machine is thinking
+
+\vspace{3em}
+metrological advantage: you can see which neurons fire by looking at them with a camera. compare to the difficulty of obtaining high-speed data from many neurons in vivo.
+
+\vspace{3em}
+Whatever avalanche just occurred, it is always slightly less probably to have a slightly larger avalanche, and slightly more probably to have a slightly smaller avalanche. This scaling is limited on teh small side by the fact that no avalanche can have fewer than one neuron involved and on the large side by the size of the network.
+
+\vspace{3em}
+membrane time constant dynamic with current
+
+\vspace{3em}
+role of oscillations in STDP
 
 \vspace{3em}
 Reasons to publish (addressing concerns of Bostrom)
