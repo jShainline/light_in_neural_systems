@@ -29,7 +29,7 @@
 \vspace{0.0em}
 \textit{\small National Institute of Standards and Technology, Boulder, CO, 80305}\\
 \vspace{0.3em}
-\small March 17th, 2019
+\small April 15th, 2019
 \end{center}
 
 \begin{abstract}
@@ -39,6 +39,7 @@
 ]
 \vspace{3em}
 
+\setcounter{tocdepth}{4}
 \tableofcontents
 
 \section{\label{sec:introduction}Introduction}
@@ -85,7 +86,7 @@ brain/AGI: I'm going to give you an enormous amount of information regarding the
 These are very different objectives. A Turing machine is a universal computer in the sense that if a procedure exists to calculate a given number, a Turing machine can do it. However, two aspects of the Turing model make it inefficient for the latter task. First, information processing is serial. Second, memory must be accessed as an independent step from change of internal state (processing).
 
 \vspace{3em}
-Goodfellow, Bengio, and Courville state, ``We simply do not have enough information about the brain to use it as a guide.'' It is difficult to reconcile this statement with the wealth of insights gained through over 100 years of neuroscience. We do not have a complete and unambiguous understanding of all aspects of the brain and cognition, but collectively we have learned a great deal about the principles of information processing in the brain. Event the simple architecture of a feed-forward neural net with high connectivity borrowed from the first stages of visual cortex have proven extremely useful for deep learning. Such networks are based on the spatial configuration of certain networks in the brain, and we further know that temporal activity is central to neurosystems. Most deep learning ignores the temporal domain altogether. This is certainly reasonable considering the impressive performance that can be obtained without utilizing the temporal processing strategies of cognitive systems. Nevertheless, the fact that most deep learning to date neglects insights from the brain regarding the time domain means the crucial insight of neural information processing\textemdash that space and time are intertwined\textemdash has gone underutilized by the artificial intelligence community. 
+Goodfellow, Bengio, and Courville state, ``We simply do not have enough information about the brain to use it as a guide.'' On this important point, I respectfully disagree. It is certainly fruitful to continue developing deep learning even without incorporating further principles  of neural information processing, but there is still much more we can implement in hardware based on the wealth of insights gained throu over a century of neuroscience. We do not have a complete and unambiguous understanding of all aspects of the brain and cognition, but collectively we have learned a great deal about the principles of information processing in the brain. Event the simple architecture of a feed-forward neural net with high connectivity borrowed from the first stages of visual cortex have proven extremely useful for deep learning. Such networks are based on the spatial configuration of certain networks in the brain, and we further know that temporal activity is central to neurosystems. Most deep learning ignores the temporal domain altogether. This is certainly reasonable considering the impressive performance that can be obtained without utilizing the temporal processing strategies of cognitive systems. Nevertheless, the fact that most deep learning to date neglects insights from the brain regarding the time domain means the crucial insight of neural information processing\textemdash that space and time are intertwined\textemdash has gone underutilized by the artificial intelligence community. 
 
 This article reviews principles of neuroscience as well as neuromorphic hardware, beginning with a summary of neuroscientific literature. The summary of neuroscience is an attempt to identify the basic outline of an intelligent computing architecture. I am a device physicist, not trained in the cognitive sciences, so the picture sketched here is undoubtedly incomplete. Still, I argue that broad strokes of the emerging vision of cognition are sufficient to inform our design of artificial hardware capable of general intelligence. 
 
@@ -145,6 +146,14 @@ The spatial structure of a neural system must comprise nodes with many edges to 
 \subsection{Temporal dynamics of neural systems}
 A neuron is a dynamical entity. It receives input from many afferent synapses, and it integrates this input over time. In a biological neuron, activity on a synapse results in a post-synaptic current into the receiving neuron. This current reduces the magnitude of the voltage across the neuron's cell membrane, and when that voltage is reduced below a threshold, the neuron produces an action potential, often referred to as a spike or pulse. This dynamical process of signal accumulation followed by bursting activity qualifies a neuron to be considered a relaxation oscillator. Before describing the temporal dynamics of neural systems in more detail, let us consider for a moment why relaxation oscillators are particularly well suited for cognition.
 
+\vspace{3em}
+be explicit that there are multiple ways of thinking about the dynamics of neural systems
+\begin{itemize}
+\item rhythms of hte brain (oscillations, synchrony, many frequency bands, mechanisms for oscillations)
+\item dynamical system (attractors, winnerless competition networks, trajectories moving along heteroclinic orbits that connect saddles)
+\item neuronal avalanches, criticality, 1/f, fractals
+\item all emphasize interplay between space and time
+\end{itemize}
 \subsubsection{Relaxation oscillators}
 As we have mentioned, a defining aspect of cognitive systems is the ability to differentiate locally to create many sub-processors, but also to integrate the information from many small regions into a cohesive system, and to repeat this architecture across scales. A network of many dynamical nodes, each with the capability of operating at many frequencies, gives rise to a vast state space. As computational primitives that can enable such a dynamical system, oscillators are ideal candidates. In particular, relaxation oscillators \cite{st2015,mist1990,soko1993,lued1997,huya2000,bu2006,gile2011,vepe1968,cacl1981} with temporal dynamics on multiple time scales \cite{soko1993} have many attractive properties for neural computing, which is likely why the brain is constructed of such devices \cite{ll1988}. We define a relaxation oscillator as an element, circuit, or system that produces rapid surges of a physical quantity or signal as the result of a cycle of accumulation and discharge. Relaxation oscillators are energy efficient in that they generally experience a long quiescent period followed by a short burst of activity. Timing between these short pulses can be precisely defined and detected \cite{bu2006}. Relaxation oscillators can operate at many frequencies \cite{huya2000} and engage with myriad dynamical interactions \cite{lued1997}. The oscillator's response is tunable \cite{huya2000}, they are resilient to noise because their signals are effectively digital \cite{stgo2005}, and they can encode information in their mean oscillation frequency as well as in higher-order timing correlations \cite{pasc1999,thde2001,sase2001,stse2007,brcl2010,haah2015}.
 
@@ -196,12 +205,57 @@ In addition to the simple two-synapse Boolean operations described above, it has
 
 Dendritic processing may even play a central role in learning as well. It appears to be the case that modification of NMDA receptors involved in STDP is governed by the production of dendritic spikes, and it is not required that the neuron fire in order for synaptic potentiation or depression to occur. These dendritic processing functions, including integration and thresholding, basic logical operations, sequence detection, and role in learning, indicate several means by which the devices comprising neurons and neural systems perform complex operations to maximize the ability of each neuron to utilize the information it is presented. 
 
-\subsubsection{From devices to populations}
+\subsection{From devices to populations}
 We have described some of the basic device operations of neurons and their components, but neural information processing leverages entire populations of neurons with emergent mechanisms for information processing occurring in a network context. As a first example, consider a population of uncorrelated, non-interacting neurons receiving identical stimulus and firing asynchronously. The population activity is defined as the sum over all firings by all neurons, and in the presence of a constant stimulus, the population will fire with a fixed population activity. For a large population of $N\longrightarrow\infty$ neurons, at a given moment there will be some neurons  at all stages of the cycle of integration and firing. If the stimulus is instantaneously increased by a finite amount (perhaps due to the input from another neuron firing), the population activity will instantaneously increase. This instantaneous response is possible because some neurons in the population will be close to threshold, and the finite perturbation pushes them over threshold. Thus, they fire sooner than they would have in the absence of the perturbation, and the population activity increases. Such a response is not obtained, in general, from a single neuron. If a single neuron is perturbed instantaneously, its response will depend on its state before the perturbation. If it is in a refractory period or far from threshold, the perturbation may be insufficient to evoke a response at all, or it may take some time before the effect of the perturbation is observed.
 
 This rapid population response is most clearly observable in the absence of noise, and in the presence of noise, populations perform useful functions as well. For example, one can calculate the signal-to-noise (SNR) ratio of a group of neurons attempting to code a given signal. It is found the SNR increases linearly with the number of neurons in the population (\cite{geki2002}, chapter 7.3.2). Populations of neurons can increase response time and mitigate noise. These two responses do not require interactions between the neurons in the population, yet dynamics become more interesting when the neurons of a population are connected with various graph structures.
 
-\subsubsection{Neuronal avalanches}
+
+\subsubsection{Oscillations and synchrony}
+When observing brain activity at a coarse scale, such as with electroencephalograms, sinusoidal oscillations in activity are observed. Finer measurements with electrodes also observe this phenomenon on shorter length scales. Oscillations in mammalian cortical neurons are observed across five orders of magnitude in frequency, from 0.05\,Hz to 500\,Hz \cite{budr2004}, and the types of oscillations observed depend on behavior and input stimulus. In rats, 10 frequency bands are observed, and their center frequencies are separated logarithmically, creating what Buzs\'{a}ki refers to as ``a system of brain oscillators''. These different bands are associated with different brain states and different behaviors. At a given moment, activity may be present in several frequency bands, and these activities may compete or interact with each other.   This seemingly simple behavior leads to many layers of complexity with important ramifications for neural system operation \cite{bu2006}. Each neuron is a relaxation oscillator, characterized by spikes that are short in time relative to the inter-spike interval. A single neuron is not well modeled by a sinusoidal time dependence, but the net activity of a population of neurons often takes a sinusoidal form. In neural systems, the devices are relaxation oscillators, while the networks can behave as harmonic oscillators. 
+
+When referring to oscillations in a network of neurons, we are referring to this sinusoidal population activity. The net activity has a well defined phase, and it becomes meaningful to speak of the phase of firing of a single neuron relative to the phase of the sinusoidal population activity. In some cases information is encoded in the timing of a neuron pulse relative to the phase of the background oscillations (\cite{geki2002}, pg. 140).
+
+A related but distinct phenomenon is synchrony. In populations of neurons with recurrent connections, asynchronous firing may or may not be stable depending on factors such as noise, signal transmission time, and rise time of the post-synaptic potential (\cite{geki2002}, Ch.\,8). In the low-noise limit, asynchronous firing is unstable across a wide range of parameter space, and the network will invariably converge toward synchronized firing of action potentials. For neurons sufficiently close in space that communication delays can be neglected, the frequency of synchronized activity is determined by device-level properties, such as membrane time constants. For large groups of neurons sufficiently separated in space so that transmission delays are non-negligible, neurons will naturally separate into clusters, each synchronized internally, but unsynchronized globally. Thus, the net population activity of these cluster states can be at frequencies higher than any one cluster can fire alone. These so-called cluster states have no relation to the identically named quantum states being investigated for their role in quantum computing. Synchrony is quantified through a cross-correlation function of activity taken from different neurons or brain regions.
+
+A neuron is sometimes referred to as a single-cell oscillator, referring to the fact that it may be observed to pulse at a well-defined frequency. This oscillation may be self-induced (autorhythmic) based on the interplay of Na$^+$, K$^+$, and Ca$+$ following an action potential \cite{ll1988}. Oscillation may also be observed due to a driving super-threshold stimulus based on the refractory period of the neuron. A neuron may also be referred to as a single-cell resonator, meaning it responds preferentially to input stimulus within a given frequency range \cite{ll1988}. To achieve a resonant response, the neuron must have both a high-pass response and a low-pass response to generate a band-pass filter \cite{huya2000}, as discussed above in the context of short-term plasticity. Short-term plasticity leads to frequency-dependent synaptic efficacy \cite{rahu2008}. Low-pass response is achieved by parallel leak conductance and capacitance of the membrane that shunts responses at high frequencies. Similarly, there are voltage-gated conduction pathways in the membrane that act as high-pass filters. Nature has engineered the time constants of these responses so that band pass is possible. Further, the low-pass and high-pass cutoff frequencies can be adjusted based on the membrane voltage or the presence of neuromodulators \cite{huya2000,tsma2014}. Voltage tuning of the frequency response of a given synapse may occur based on the activity of nearby synapses, while neuromodulatory adjustments occur over broader areas, usually containing multiple neurons. Resonance in neurons is quantified by measuring the impedance of a single neuron as the driving stimulus is swept across frequencies. It can also be modeled theoretically at the single-neuron level (\cite{geki2002}, pg. 81) and at the population level (\cite{geki2002}, pg. 233). A key result of this line of research is that the frequencies of various oscillations in the brain depend on the structure of the network, but they also depend on the intrinsic response properties of the devices, which dynamically adjust based on network activity \cite{tsma2014}. Synapses and neurons are tuned to respond maximally at frequencies that facilitate communication on different spatial and temporal scales. The interplay between network and device contributions to oscillatory activity may be important. As stated by Hutcheon and Yarom in 2000, ``...network connectivity could reinforce the patterns of excitation produced by coupled oscillators.''
+
+It has been proposed that the interplay of rhythmic and arhythmic brain activity is important to cognition. In this model, background oscillations of the network at various frequencies provide the context in which the activities of transient clusters occurs \cite{ll1988,others}. It has been observed that states of oscillation are disrupted upon directing attention to a sudden stimulus \cite{bu2006}, leading to the hypothesis that various network oscillations play a role analogous to the information processing context emphasized by Baars \cite{ba1988}. Oscillations are also thought to be essential to brain-wide information integration. In this context, the thalamus plays a central role. The oscillation frequency of thalamic neurons is tunable based on activity and neuromodulators, and depending on the mode of oscillation, the thalamus may be coordinating the exchange of information between different brain regions at theta frequencies, or it may be inducting sleep through alpha rhythms. Such observations led Baars to identify the thalamo-cortical complex as the anatomical construct responsible for brain-wide information dissemination in the Global Workspace model \cite{ba1988}. It is clear that distinct oscillations play distinct roles in the information processing of the brain. ``The low-frequency resonances in the cortex and thalamus appear suited to support the thalamocortical delta-wave oscillations that are particularly prominent during deep sleep. The higher-frequency oscillatory behavior and underlying resonance in pyramidal and inhibitory neurons of the neocortex might have some involvement with higher frequency rhythms that appear in the cortex during cognition.'' \cite{huya2000}
+
+``...establishment of even a weak resonance makes a neuron a good listener for activity within a specialized frequency band. A host of good listeners, mutually connected, should tune networks to operate in frequency ranges of special biological meaning.'' \cite{huya2000}
+
+
+
+``Functionally, such resonances constrain neurons to respond most powerfully to inputs at biologically important frequencies such as those associated with brain rhythms.'' \cite{huya2000}
+
+``Brain rhythms reflect basic modes of dynamical organization in the brain.'' \cite{huya2000}
+
+Brain oscillations perform numerous important functions
+
+role of inhibition
+
+If all neurons in a network have the same refractory period, and all synapses have the same rise and decay time constants, then signal transmission delay due to the spatial organization of the network is the primary time constant that separates neurons into differentiated clusters. The maximum frequency at which two spatially separated regions can drive each other to synchronize depends on the distance and transmission velocity. This delay limits the scale of networks that can oscillate at a given frequency, constraining high-frequency activity to smaller regions of space. We consider this concept further in Sec.\,\ref{sec:scaling}. 
+
+Neurons in close proximity can drive each other to fire at high frequencies, and such clusters can exchange information across broader regions of the network through slower oscillations, allowing ``brain operations to be carried out simultaneously at multiple temporal and spatial scales.'' \cite{budr2004} This conception of how global activity can modulate and steer local activity is central information processing in the brain. 
+
+\vspace{3em}
+must demonstrate resonance in loop neurons in this paper
+
+The net dynamical activity of brain oscillations, synchronized clusters, and neuronal avalanches leads to a $1/f$ power spectral density, which implies that activity occurring at slow frequencies can cause a cascade of activity at higher frequencies \cite{budr2004}. Put another way, slow, sinusoidal activity across a wide region of the network can modulate the fast activity occurring between clusters locally.  
+
+\subsubsection{The dynamical systems perspective}
+We have discussed various forms of neuronal dynamics in neural systems, from the scale of single neurons up to the scale of avalanches and oscillations spanning the network. One prevalent theme is that all activity is transient. Small clusters of neurons form transient synchronized ensembles. Theta oscillations may sustain for some duration until the periodic activity is broken as attention is directed to a stimulus. It is common to think of short-term memories as being represented by dynamical activity stored in a stable attractor, such as in long short-term memory \cite{hosc1997}. However, activity in the brain is never truly cyclic as in a stable attractor, but rather transitions between quasi-stable states. These successions of states are trajectories in a dynamical state space, and a given stimulus can induce a specific trajectory associated with the activities of a population of neurons. Each trajectory is a sequence of successive metastable states \cite{rahu2008}, where a metastable state is a saddle point in state space, as opposed to an attractor which is a local minimum. This picture of neuronal dynamics treats transient activity mathematically as a stable heteroclinic channel \cite{ravo2001,hura2004}. As stated by Rabinovich et al., ``These saddles can be pictured as successive and temporary winners in a nonending competitive game.'' As discussed in multiple contexts thus far, a balance of excitation and inhibition is necessary to result in long-lived transient sequences that do not grow without bound. Unique sequences are triggered by unique inputs, leading to computations that are ``reproducible, robust against noise, and easily decoded.'' \cite{rahu2008}
+
+\vspace{3em}
+Reservoir computing
+\vspace{3em}
+learned/adapted patterns through plasticity, or reservoir without plasticity
+\vspace{3em}
+information stored in trajectories through phase space that involve sequences of neuronal firings; the dendritic tree can detect these sequences; a specific dendrite may fire preferentially only when a specific dynamic trajectory is excited by stimulus
+
+\subsubsection{Criticality and the fractal use of space and time}
+
+\paragraph{Neuronal avalanches}
 If a population of spiking neurons is mutually interconnected, rich dynamics can result and be shaped by a multitude of factors. Consider a network of $N$ neurons with sparse, random connections, approximating cortex. In the presence of random input, perhaps from other regions, the neurons of the population will be observed to fire, seemingly stochastically. We can ask, if the population is observed for a duration $\Delta t$, what is the probability that $s$ neurons\footnote{Experiments with biological neurons observe local field potentials with spatial resolution more coarse than a single neuron, so the size $s$ is often related to the number of electrodes in an array recording signal during $\Delta t$, but here $s$ is taken to represent a well-defined number of neurons.} will fire during that duration? The result is a power law,
 \begin{equation}
 \label{eq:neuronal_avalanche_power_law}
@@ -226,26 +280,6 @@ The interpretation of Eq.\,\ref{eq:power_law_degree_distribution} is that if a n
    
 We have been discussing neuronal avalanches primarily in the spatial domain, and examples from the literature indicate that modular, hierarchical, networks with small-world graph structures lead to a power-law distribution of sizes of avalanches. These structural characteristics are not independent from temporal behavior, and we will find that the temporal distribution of neuronal avalanches leads to consideration of self-organized criticality. But first we describe simpler temporal phenomena, namely oscillations and synchrony.
 
-\subsubsection{Oscillations and synchrony}
-When observing brain activity at a coarse scale, such as with electroencephalograms, sinusoidal oscillations in activity are observed. Finer measurements with electrodes also observe this phenomenon on shorter length scales. Oscillations in mammalian cortical neurons are observed across five orders of magnitude in frequency, from 0.05\,Hz to 500\,Hz \cite{budr2004}, and the types of oscillations observed depend on behavior and input stimulus. In rats, 10 frequency bands are observed, and their center frequencies are separated logarithmically, creating what Buzs\'{a}ki refers to as ``a system of brain oscillators''. These different bands are associated with different brain states and different behaviors. At a given moment, activity may be present in several frequency bands, and these activities may compete or interact with each other.   This seemingly simple behavior leads to many layers of complexity with important ramifications for neural system operation \cite{bu2006}. Each neuron is a relaxation oscillator, characterized by spikes that are short in time relative to the inter-spike interval. A single neuron is not well modeled by a sinusoidal time dependence, but the net activity of a population of neurons often takes a sinusoidal form. In neural systems, the devices are relaxation oscillators, while the networks can behave as harmonic oscillators. When referring to oscillations in a network of neurons, we are referring to this sinusoidal population activity. The net activity has a well defined phase, and it becomes meaningful to speak of the phase of firing of a single neuron relative to the phase of the sinusoidal population activity.
-
-A related but distinct phenomenon is synchrony. In populations of neurons with recurrent connections, asynchronous firing may or may not be stable depending on factors such as noise, signal transmission time, and rise time of the post-synaptic potential (\cite{geki2002}, Ch.\,8). In the low-noise limit, asynchronous firing is unstable across a wide range of parameter space, and the network will invariably converge toward synchronized firing of action potentials. For neurons sufficiently close in space that communication delays can be neglected, the frequency of synchronized activity is determined by device-level properties, such as membrane time constants. For large groups of neurons sufficiently separated in space so that transmission delays are non-negligible, neurons will naturally separate into clusters, each synchronized internally, but unsynchronized globally. Thus, the net population activity of these cluster states can be at frequencies higher than any one cluster can fire alone. These so-called cluster states have no relation to the identically named quantum states being investigated for their role in quantum computing. 
-
-Brain oscillations perform numerous important functions
-
-role of inhibition
-
-If all neurons in a network have the same refractory period, and all synapses have the same rise and decay time constants, then signal transmission delay due to the spatial organization of the network is the primary time constant that separates neurons into differentiated clusters. The maximum frequency at which two spatially separated regions can drive each other to synchronize depends on the distance and transmission velocity. This delay limits the scale of networks that can oscillate at a given frequency, constraining high-frequency activity to smaller regions of space. We consider this concept further in Sec.\,\ref{sec:scaling}. 
-
-Neurons in close proximity can drive each other to fire at high frequencies, and such clusters can exchange information across broader regions of the network through slower oscillations, allowing ``brain operations to be carried out simultaneously at multiple temporal and spatial scales.'' \cite{budr2004} This conception of how global activity can modulate and steer local activity is central information processing in the brain. 
-
-
- 
-
-\subsubsection{Cross-frequency coupling}
-The net dynamical activity of brain oscillations, synchronized clusters, and neuronal avalanches leads to a $1/f$ power spectral density, which implies that activity occurring at slow frequencies can cause a cascade of activity at higher frequencies \cite{budr2004}. Put another way, slow, sinusoidal activity across a wide region of the network can modulate the fast activity occurring between clusters locally.  
-
-\subsubsection{Criticality and the fractal use of space and time}
 The fractal distribution of neuronal avalanche sizes has ramifications for information processing and temporal responsivity. Many systems throughout nature obey power-laws taking the form of Eq.\,\ref{eq:neuronal_avalanche_power_law} \cite{ba2005_baks_book,dover_book_on_fractals}, and it often marks behavior at a critical point near a phase transition. Thus, observation of neuronal avalanches obeying power-law size distribution leads many to think the networks of the brain are balanced at a critical point with uninformative, synchronized order on one side, and chaotic disorder on the other \cite{be2007}. This balanced point is referred to as the critical state or criticality, and is related to the general theory of self-organized criticalty as described by Bak, Tang, and Wiesenfeld \cite{bata1987,bata1988,ba2005}. Beggs argued \cite{be2008} that criticality optimizes multiple aspectes on information processing in neural systems. Information transmission is optimized across spatial and temporal scales, as neurons are each able to participate in and initiate local as well as global activity. Information storage of short-term memories is increased, as criticality maximizes the number of stable dynamical attractor states supported by the network. It has also been argued that  By operating in the critical state, the dynamic range of the system is increased \cite{kico2006,shya2009}, the response time is reduced \cite{}.
 
 In addition to showing scale invariance across space, dynamical systems operating at the critical point show a spatial invariance in time and frequency as well. This can be quantified by two metrics: the phase-lock
@@ -289,6 +323,18 @@ Local clusters interacting on gamma timescales with activity modulated by broad 
 
 \vspace{3em}
 From an architectural perspective, there is one more level of heirarchy to consider, and that is the thalamo-cortical complex \cite{}. Brain regions input a representation of their activity to the thalamus, and it decides what informaiton to braodcast across the network. The thalamus must be able to receive from and reach all brain regions in a tremendous feat of network communication.
+
+\vspace{3em}
+themes common to all three pictures:
+\begin{enumerate}
+\item space and time intertwined
+\item enhanced responsivity to inputs and resilience to noise
+\item role of inhibition critical
+\item role of/relation to plasticity
+\end{enumerate}
+
+
+
 \section{\label{sec:electronics}Semiconductor electronic neural systems}
 The origin of semiconducting devices is intimately intertwined with the history of computing. After WWII, vacuum tubes were a relatively mature technology, established for switching in phone networks and wartime radio communications. Thus, early computers developed shortly after the end of the war were based around the deflection of currents by voltages applied to the central conductor of the tube. The invention of the transistor in 1948 by Bardeen, Brattain, and Shockley replaced the bulky tubes, and the subsequent development of integrated microchips by Kilby and Noyce in 1959 initiated the technological revolution that has left the world utterly transformed. Innovations in lithography and processing led to the evolution captured by Moore's Law and Dennard scaling. After nearly 60 years, these scaling trends have neared the physical limits of transistors \cite{}, inspiring new creativity in devices and architectures. On the device side, use of photonic components for communication is gaining significant traction \cite{suwa2015,stra2018}. Architectural innovation has led to increased parallelism of computation, with brain-inspired concepts at the extreme end of this spectrum.
 
@@ -721,7 +767,12 @@ For general networks, the algorithm by which partitions are identified can be ma
 \end{itemize}
 \end{itemize}
 
-\subsection{Classical-Quantum-Neural hybrid systems}
+\subsection{Hybrid systems}
+
+\subsubsection{Neural-deep learning hybrid systems}
+Deep learning modules may provide types of sensory inputs, visual system design can borrow from CNNs and bio, olfactory with combs, etc. (cite personal communication)
+
+\subsubsection{Classical-quantum-neural hybrid systems}
 Quantum systems and neural systems have complimentary information processing capabilities. Quantum systems are fundamentally probabilistic, while neural systems are excellent for sampling probability distributions. Schemes to utilize quantum information are usually statistical, while populations of neurons can perform optimal Bayesian inference on samples drawn from statistical distributions. This reasoning leads us to consider the potential to utilize a neural system to perform quantum state tomography on large-scale quantum systems. The goals of the project are to construct a neural system capable of: 1) measuring the state of a network of qubits at the Heisenberg limit; 2) inverting the physical measurement through Bayesian inference to arrive at a quantum state reconstruction; and 3) reporting the reconstructed state over a classical communication channel as the qubits evolve in time, all implemented in scalable hardware.
 
 Quantum information processing requires the ability to determine an unknown quantum state from a series of measurements performed on an ensemble of identically prepared systems. Performing measurements on many interacting qubits places severe demands on measurement hardware. To characterize a large quantum system, the number of measurements that must be performed can become intractably large if care is not taken to optimize the measurement protocol [1,2]. Additionally, the computational challenge of reconstructing the full quantum state from the set of measurements is formidable for large quantum systems. Developing hardware with classical, quantum, and neural capabilities presents an alternate route to develop scalable measurement techniques to extract Heisenberg-limited information [3] from a complex quantum system, to devise a method for a full quantum state to be efficiently reconstructed from measured data, and to ensure that the hardware implementation of this measurement/analysis procedure communicates efficiently to room temperature. 
@@ -754,6 +805,15 @@ References:
 [19] G. Carleo and M. Troyer, “Solving the quantum many-body problem with artificial neural networks”, Science 355 (2017). 
 [20] D.T. Lennon, H. Moon, L.C. Camenzind, L. Yu, D.M. Zumbuhl, G.A.D. Briggs, M.A. Osborne, E.A. Laird, and N. Ares, “Efficiently measuring a quantum device using machine learning”, arXiv:1810.10042 (2018). 
 [21] J.M. Shainline, S.M. Buckley, A.N. McCaughan, J. Chiles, A. Jafari-Salim, R.P. Mirin, and S.W. Nam “Circuit designs for superconducting optoelectronic loop neurons”, J. Appl. Phys. 124 (2018).
+
+\subsubsection{SOENs as the central cognitive hub}
+This hardware can interface readily with semiconductor electrical or optoelectronic logic or neural systems operating at 300\,K or 4\,K; photonic deep neural networks as well as photonic qubits; and superconducting deep neural deep neural networks as well as superconducting qubits. It is my perspective that the superconducting optoelectronic spiking neural network will serve to integrate information from all these input modalities into a coherent cognitive dynamical state. 
+
+\vspace{3em}
+discuss different hardware at different temperature stages
+
+\vspace{3em}
+discuss top down and bottom up
 
 \begin{equation}
 \label{eq:density_matrix}
@@ -893,6 +953,22 @@ other concepts to address:
 \begin{itemize}
 \item neuromodulators
 \item gap junctions
+\end{itemize}
+
+\vspace{3em}
+define deep learning in the sense that Hinton originally intended. Liquid-state machines, LSTM are not deep learning, and do make use of time domain
+
+\vspace{3em}
+introduce neural elephant and neuromorphic elephant, figures for each
+
+\vspace{3em}
+key themes:
+\begin{itemize}
+\item neural information processing shows remarkable and powerful nuance from the devices to coding strategies to the architecture
+\item the evolution of hardware has been driven to avoid nuance all together (binary)
+\item attempting to simulate nuance by stepping through differential equations with a digital machine is inefficient
+\item hardware must evolve significantly to exploit similar principles of information processing
+\item superconducting optoelectronic hardware appears uniquely capable of the device complexity, communication infrastructure, and scalable architecture
 \end{itemize}
 
 \vspace{3em}

@@ -300,6 +300,38 @@ W.~Gerstner and W.~Kistler.
 \newblock {\em Spiking neuron models}.
 \newblock Cambridge University Press, Cambridge, first edition, 2002.
 
+\bibitem{budr2004}
+G.~Buzsaki and A.~Draguhn.
+\newblock Neuronal oscillations in cortical networks.
+\newblock {\em Science}, 304:1926, 2004.
+
+\bibitem{rahu2008}
+M.~Rabinovich, R.~Huerta, and G.~Laurent.
+\newblock Transient dynamics for neural processing.
+\newblock {\em Science}, 321:48, 2008.
+
+\bibitem{tsma2014}
+H.~a.~Tseng, D.~Martinez, and F.~Nadim.
+\newblock The frequency preference of neurons and synapses in a recurrent
+  oscillatory network.
+\newblock {\em The Journal of Neuroscience}, 34:12933, 2014.
+
+\bibitem{ba1988}
+B.J. Baars.
+\newblock {\em A cognitive theory of consciousness}.
+\newblock Cambridge University Press, 1988.
+
+\bibitem{ravo2001}
+M.~Rabinovich, A.~Volkovskii, P.~Lecanda, R.~Huerta, H.D.I. Abarbanel, and
+  G.~Laurent.
+\newblock Dynamical encoding by networks of competing neuron groups: winnerless
+  competition.
+\newblock {\em Phys. Rev. Lett.}, 87:068102, 2001.
+
+\bibitem{hura2004}
+R.~Huerta and M.~Rabinovich.
+\newblock {\em Phys. Rev. Lett.}, 93:238104, 2004.
+
 \bibitem{plth2006}
 D.~Plenz and T.C. Thiagarajan.
 \newblock The organizing principles of neuronal avalanches: cell assemblies in
@@ -330,11 +362,6 @@ V.M Eguiluz, D.R. Chialvo, G.A. Cecchi, M.~Baliki, and A.V. Aplarian.
 \newblock Scale-free brain functional networks.
 \newblock {\em Phys. Rev. Lett.}, 94:018102, 2005.
 
-\bibitem{budr2004}
-G.~Buzsaki and A.~Draguhn.
-\newblock Neuronal oscillations in cortical networks.
-\newblock {\em Science}, 304:1926, 2004.
-
 \bibitem{bata1987}
 P.~Bak, C.~Tang, and K.~Wiesenfeld.
 \newblock Self-organized criticality: an explanation of 1/$f$ noise.
@@ -350,11 +377,6 @@ W.L. Shew, H.~Yang, T.~Petermann, R.~Roy, and D.~Plenz.
 \newblock Neuronal avalanches imply maximum dynamic range in cortical networks
   at criticality.
 \newblock {\em The Journal of Neuroscience}, 29:15595, 2009.
-
-\bibitem{ba1988}
-B.J. Baars.
-\newblock {\em A cognitive theory of consciousness}.
-\newblock Cambridge University Press, 1988.
 
 \bibitem{de2014}
 S.~Dehane.

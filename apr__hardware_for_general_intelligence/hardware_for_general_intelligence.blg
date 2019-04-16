@@ -13,6 +13,10 @@ Repeated entry---line 3914 of file hardware_for_general_intelligence.bib
  : @article{zhyi2015
  :                  ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 3968 of file hardware_for_general_intelligence.bib
+ : @article{rahu2008
+ :                  ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "http://www.atimes.com/leibniz-chinese-invented-first-binary-code/"
 Warning--I didn't find a database entry for "http://www.leibniz-translations.com/binary.htm"
@@ -24,6 +28,8 @@ Warning--I didn't find a database entry for "mo1978"
 Warning--I didn't find a database entry for "beba2017"
 Warning--I didn't find a database entry for "ma1983"
 Warning--I didn't find a database entry for "sc1991"
+Warning--I didn't find a database entry for "others"
+Warning--I didn't find a database entry for "hosc1997"
 Warning--I didn't find a database entry for "be2008"
 Warning--I didn't find a database entry for "bepl2003"
 Warning--I didn't find a database entry for "http://www.humanconnectomeproject.org/"
@@ -31,6 +37,7 @@ Warning--I didn't find a database entry for "ba2005_baks_book"
 Warning--I didn't find a database entry for "dover_book_on_fractals"
 Warning--I didn't find a database entry for "bata1988"
 Warning--I didn't find a database entry for "ba2005"
+Warning--I didn't find a database entry for "one_from_reading_group"
 Warning--I didn't find a database entry for "shor2014"
 Warning--I didn't find a database entry for "suwa2017"
 Warning--I didn't find a database entry for "nata2013"
@@ -48,6 +55,7 @@ Warning--can't use both author and editor fields in ne1951
 Warning--empty year in ne1951
 Warning--empty year in iz2007
 Warning--empty year in he1949
+Warning--empty title in hura2004
 Warning--empty year in hepa2012
 Warning--empty year in bi1955
 Too many commas in name 6 of "J.S. Orcutt and B. Moss and C. Sun and J. Leu and M. Georgas and J. Shainlineand E. Zgraggen, H. Li, J. Sun, M. Weaver and S. Urosevic and M. Popovic and R.J. Ram and Vladimir Stojanović" for entry orma2012
@@ -56,4 +64,4 @@ Warning--empty author in bu1950
 Warning--empty year in bu1950
 Warning--empty title in ai1989
 Warning--empty title in og1989
-(There were 4 error messages)
+(There were 5 error messages)
