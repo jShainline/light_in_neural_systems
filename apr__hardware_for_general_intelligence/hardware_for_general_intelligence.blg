@@ -5,15 +5,15 @@ Repeated entry---line 1392 of file hardware_for_general_intelligence.bib
  : @article{da1989
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3905 of file hardware_for_general_intelligence.bib
+Repeated entry---line 3913 of file hardware_for_general_intelligence.bib
  : @article{libo2010
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3914 of file hardware_for_general_intelligence.bib
+Repeated entry---line 3922 of file hardware_for_general_intelligence.bib
  : @article{zhyi2015
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3968 of file hardware_for_general_intelligence.bib
+Repeated entry---line 3976 of file hardware_for_general_intelligence.bib
  : @article{rahu2008
  :                  ,
 I'm skipping whatever remains of this entry
@@ -64,4 +64,6 @@ Warning--empty author in bu1950
 Warning--empty year in bu1950
 Warning--empty title in ai1989
 Warning--empty title in og1989
+Warning--empty title in gobe2016
+Warning--empty year in gobe2016
 (There were 5 error messages)
