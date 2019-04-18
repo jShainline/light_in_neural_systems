@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  16 APR 2019 16:29
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  17 APR 2019 20:43
 entering extended mode
 **hardware_for_general_intelligence.tex
 
@@ -15,20 +15,19 @@ german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
-Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
-\c@chapter=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
@@ -51,9 +50,9 @@ Package ifvtex Info: VTeX not detected.
 ("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count88
-\Gm@cntv=\count89
-\c@Gm@tempcnt=\count90
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
 \Gm@bindingoffset=\dimen103
 \Gm@wd@mp=\dimen104
 \Gm@odd@mp=\dimen105
@@ -84,7 +83,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen116
 \caption@hangindent=\dimen117
 )
-\c@ContinuedFloat=\count91
+\c@ContinuedFloat=\count90
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
@@ -109,7 +108,7 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count92
+\Gread@gobject=\count91
 ))
 \Gin@req@height=\dimen118
 \Gin@req@width=\dimen119
@@ -134,13 +133,13 @@ Package: amsbsy 1999/11/29 v1.2d
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count93
+\inf@bad=\count92
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count94
-\leftroot@=\count95
+\uproot@=\count93
+\leftroot@=\count94
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count96
-\DOTSCASE@=\count97
+\classnum@=\count95
+\DOTSCASE@=\count96
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
@@ -149,15 +148,15 @@ LaTeX Info: Redefining \cdots on input line 466.
 \big@size=\dimen122
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count98
-\c@MaxMatrixCols=\count99
+\macc@depth=\count97
+\c@MaxMatrixCols=\count98
 \dotsspace@=\muskip10
-\c@parentequation=\count100
-\dspbrk@lvl=\count101
+\c@parentequation=\count99
+\dspbrk@lvl=\count100
 \tag@help=\toks17
-\row@=\count102
-\column@=\count103
-\maxfields@=\count104
+\row@=\count101
+\column@=\count102
+\maxfields@=\count103
 \andhelp@=\toks18
 \eqnshift@=\dimen123
 \alignsep@=\dimen124
@@ -302,9 +301,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 Package: authblk 2001/02/27 1.3 (PWD)
 \affilsep=\skip46
 \@affilsep=\skip47
-\c@Maxaffil=\count105
-\c@authors=\count106
-\c@affil=\count107
+\c@Maxaffil=\count104
+\c@authors=\count105
+\c@affil=\count106
 )
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr__hardware_for_gener
 al_intelligence\hardware_for_general_intelligence.aux)
@@ -370,22 +369,18 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 (C:\Users\jms4\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count108
+\scratchcounter=\count107
 \scratchdimen=\dimen129
 \scratchbox=\box28
-\nofMPsegments=\count109
-\nofMParguments=\count110
+\nofMPsegments=\count108
+\nofMParguments=\count109
 \everyMPshowfont=\toks21
-\MPscratchCnt=\count111
+\MPscratchCnt=\count110
 \MPscratchDim=\dimen130
-\MPnumerator=\count112
-\makeMPintoPDFobject=\count113
+\MPnumerator=\count111
+\makeMPintoPDFobject=\count112
 \everyMPtoPDFconversion=\toks22
-) [1{C:/Users/jms4/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-
-
-]
+)
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr__hardware_for_gener
 al_intelligence\hardware_for_general_intelligence.toc
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 2.
@@ -418,75 +413,74 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [2
+)
+Underfull \hbox (badness 4872) in paragraph at lines 25--25
+ [][] []\OT1/lmr/m/n/10 The dy-nam-i-cal sys-tems 
+ []
 
 
-])
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+ [][] []\OT1/lmr/m/n/10 Classical-quantum-neural hy-brid 
+ []
+
+)
 \tf@toc=\write3
- [3]
-Chapter 1.
+ [1{C:/Users/jms4/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+]
 
 LaTeX Warning: Citation `http://www.atimes.com/leibniz-chinese-invented-first-b
-inary-code/' on page 4 undefined on input line 54.
+inary-code/' on page 2 undefined on input line 54.
 
 
 LaTeX Warning: Citation `http://www.leibniz-translations.com/binary.htm' on pag
-e 4 undefined on input line 54.
+e 2 undefined on input line 54.
 
 
 LaTeX Warning: Citation `https://hal.archives-ouvertes.fr/ads-00104781/document
-' on page 4 undefined on input line 54.
+' on page 2 undefined on input line 54.
 
-[4
+[2] [3] [4]
 
+LaTeX Warning: Citation `rusp2010' on page 5 undefined on input line 106.
 
-] [5] [6] [7]
-Chapter 2.
-
-LaTeX Warning: Citation `rusp2010' on page 8 undefined on input line 106.
-
-<data_plots.pdf, id=32, 244.69318pt x 438.3025pt>
+[5] <data_plots.pdf, id=29, 244.69318pt x 438.3025pt>
 File: data_plots.pdf Graphic file (type pdf)
  <use data_plots.pdf>
 Package pdftex.def Info: data_plots.pdf used on input line 116.
 (pdftex.def)             Requested size: 244.69386pt x 438.3081pt.
 
 
-LaTeX Warning: Citation `shICRC2018' on page 8 undefined on input line 117.
+LaTeX Warning: Citation `shICRC2018' on page 6 undefined on input line 117.
 
 
-LaTeX Warning: Citation `shICRC2018' on page 8 undefined on input line 117.
+LaTeX Warning: Citation `shICRC2018' on page 6 undefined on input line 117.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Citation `eskn2014' on page 6 undefined on input line 121.
 
- [8
-
-]
-
-LaTeX Warning: Citation `eskn2014' on page 9 undefined on input line 121.
-
-[9 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/apr__hardware_for_ge
+[6 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/apr__hardware_for_ge
 neral_intelligence/data_plots.pdf>]
 
-LaTeX Warning: Citation `mo1978' on page 10 undefined on input line 127.
+LaTeX Warning: Citation `mo1978' on page 7 undefined on input line 127.
 
 
-LaTeX Warning: Citation `beba2017' on page 10 undefined on input line 127.
+LaTeX Warning: Citation `beba2017' on page 7 undefined on input line 127.
 
 
-LaTeX Warning: Citation `rusp2010' on page 10 undefined on input line 127.
+LaTeX Warning: Citation `rusp2010' on page 7 undefined on input line 127.
 
 
-LaTeX Warning: Citation `beba2017' on page 10 undefined on input line 127.
+LaTeX Warning: Citation `beba2017' on page 7 undefined on input line 127.
 
 
-LaTeX Warning: Citation `ma1983' on page 10 undefined on input line 143.
+LaTeX Warning: Citation `ma1983' on page 7 undefined on input line 143.
 
 
-LaTeX Warning: Citation `sc1991' on page 10 undefined on input line 143.
+LaTeX Warning: Citation `sc1991' on page 7 undefined on input line 143.
 
-[10]
+[7]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Font Info:    Try loading font information for TS1+lmr on input line 158.
@@ -494,271 +488,236 @@ LaTeX Font Info:    Try loading font information for TS1+lmr on input line 158.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [11]
+) [8]
 
-LaTeX Warning: Reference `fig:short-term_plasticity' on page 12 undefined on in
-put line 177.
+LaTeX Warning: Reference `fig:short-term_plasticity' on page 9 undefined on inp
+ut line 183.
+
+[9]
+Underfull \hbox (badness 5431) in paragraph at lines 206--207
+ \OT1/lmr/bx/n/10 2.2.1.6 Meta-plas-tic-ity[] \OT1/lmr/m/n/10 While STDP adapts
+ the
+ []
+
+[10]
+Underfull \hbox (badness 1354) in paragraph at lines 213--214
+ \OT1/lmr/bx/n/10 2.2.1.7 Home-o-static plas-tic-ity[] \OT1/lmr/m/n/10 To con-c
+lude this
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 216--217
+ \OT1/lmr/bx/n/10 2.2.1.8 Den-dritic pro-cess-ing[] \OT1/lmr/m/n/10 We have dis
+-cussed
+ []
+
+[11]
+
+LaTeX Warning: Citation `others' on page 12 undefined on input line 241.
+
+[12]
+
+LaTeX Warning: Citation `hosc1997' on page 13 undefined on input line 276.
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 279--284
+\OT1/lmr/m/n/10 plas-tic-ity, or reser-voir with-out plas-tic-ity information
+ []
+
+[13]
+
+LaTeX Warning: Citation `ba2005_his_book' on page 14 undefined on input line 28
+6.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 288.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 288.
+
+Underfull \hbox (badness 2134) in paragraph at lines 288--288
+[][]\OT1/lmr/m/n/8 For ex-am-ple, if a sys-tem has a power spec-tral den-sity
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 296--297
+ \OT1/lmr/bx/n/10 2.2.2.4 Neu-ronal avalanches[] \OT1/lmr/m/n/10 Ev-i-dence of 
+neu-ral
+ []
+
+[14]
+
+LaTeX Warning: Citation `bepl2003' on page 15 undefined on input line 303.
+
+
+LaTeX Warning: Citation `http://www.humanconnectomeproject.org/' on page 15 und
+efined on input line 318.
+
+[15]
+
+LaTeX Warning: Citation `ba2005_baks_book' on page 16 undefined on input line 3
+22.
+
+
+LaTeX Warning: Citation `dover_book_on_fractals' on page 16 undefined on input 
+line 322.
+
+
+LaTeX Warning: Citation `ba2005' on page 16 undefined on input line 322.
+
+
+LaTeX Warning: Citation `be2008' on page 16 undefined on input line 322.
+
+[16]
+Underfull \vbox (badness 1194) has occurred while \output is active []
+
+
+
+LaTeX Warning: Citation `one_from_reading_group' on page 17 undefined on input 
+line 357.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12]
-[13] [14]
-
-LaTeX Warning: Citation `others' on page 15 undefined on input line 232.
-
-[15]
-
-LaTeX Warning: Citation `hosc1997' on page 16 undefined on input line 256.
-
-
-Underfull \hbox (badness 1442) in paragraph at lines 259--264
-\OT1/lmr/m/n/10 plas-tic-ity, or reser-voir with-out plas-tic-ity information
- []
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 268.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 268.
-[16]
-
-LaTeX Warning: Citation `be2008' on page 17 undefined on input line 273.
-
-
-LaTeX Warning: Citation `bepl2003' on page 17 undefined on input line 273.
-
-
-LaTeX Warning: Citation `http://www.humanconnectomeproject.org/' on page 17 und
-efined on input line 288.
-
-[17]
-
-LaTeX Warning: Citation `ba2005_baks_book' on page 18 undefined on input line 2
-92.
-
-
-LaTeX Warning: Citation `dover_book_on_fractals' on page 18 undefined on input 
-line 292.
-
-
-LaTeX Warning: Citation `bata1988' on page 18 undefined on input line 292.
-
-
-LaTeX Warning: Citation `ba2005' on page 18 undefined on input line 292.
-
-
-LaTeX Warning: Citation `be2008' on page 18 undefined on input line 292.
-
-[18]
-
-LaTeX Warning: Citation `one_from_reading_group' on page 19 undefined on input 
-line 327.
-
-[19] [20
-
-]
-Chapter 3.
-
-Underfull \hbox (badness 1629) in paragraph at lines 352--352
-[]\OT1/lmr/bx/n/14.4 Efforts in sil-i-con mi-cro-elec-
- []
-
-[21
-
-]
-Underfull \vbox (badness 1769) has occurred while \output is active []
-
- [22]
-Underfull \hbox (badness 2837) in paragraph at lines 377--377
-[]\OT1/lmr/bx/n/14.4 Contention de-lay in neu-ral
+ [17]
+[18] [19] [20] [21]
+Underfull \hbox (badness 4391) in paragraph at lines 438--438
+[]\OT1/lmr/bx/n/12 Silicon light sources: the great
  []
 
 
-Underfull \hbox (badness 6412) in paragraph at lines 382--382
-\OT1/lmr/bx/n/14.4 i-con mi-cro-elec-tronic neu-ral
- []
+LaTeX Warning: Reference `fig:silicon_absorption_emission' on page 22 undefined
+ on input line 447.
 
-[23] [24]
-Chapter 4.
-[25
+[22]
 
-]
-
-LaTeX Warning: Reference `fig:silicon_absorption_emission' on page 26 undefined
- on input line 417.
+LaTeX Warning: Citation `shor2014' on page 23 undefined on input line 452.
 
 
-LaTeX Warning: Citation `shor2014' on page 26 undefined on input line 422.
+LaTeX Warning: Citation `suwa2017' on page 23 undefined on input line 452.
 
-
-LaTeX Warning: Citation `suwa2017' on page 26 undefined on input line 422.
-
-[26]
-Underfull \hbox (badness 4634) in paragraph at lines 426--426
-[]\OT1/lmr/bx/n/14.4 Deep learn-ing with sil-i-con
+[23]
+Underfull \hbox (badness 8189) in paragraph at lines 465--465
+[]\OT1/lmr/bx/n/12 Spiking neu-rons with com-pound
  []
 
 
-Underfull \hbox (badness 2635) in paragraph at lines 435--435
-[]\OT1/lmr/bx/n/14.4 Spiking neu-rons with com-
- []
+LaTeX Warning: Citation `nata2013' on page 24 undefined on input line 466.
 
+[24]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Citation `nata2013' on page 27 undefined on input line 436.
-
-[27]
-Underfull \hbox (badness 10000) in paragraph at lines 440--440
-[]\OT1/lmr/bx/n/14.4 Wavelength-division mul-ti-
- []
-
-[28]
-Underfull \hbox (badness 2443) in paragraph at lines 449--449
-[]\OT1/lmr/bx/n/14.4 Phase change ma-te-ri-als for
- []
-
-[29]
-Chapter 5.
-<figures/jj.png, id=224, 1003.75pt x 1003.75pt>
+ [25]
+<figures/jj.png, id=216, 1003.75pt x 1003.75pt>
 File: figures/jj.png Graphic file (type png)
  <use figures/jj.png>
-Package pdftex.def Info: figures/jj.png used on input line 468.
+Package pdftex.def Info: figures/jj.png used on input line 498.
 (pdftex.def)             Requested size: 244.69386pt x 244.68796pt.
 
-Underfull \hbox (badness 1215) in paragraph at lines 471--472
+Underfull \hbox (badness 1215) in paragraph at lines 501--502
 \OT1/lmr/m/n/10 sep-a-rated by a thin tun-nel-ing bar-rier, as shown in
  []
 
-[30
-
- <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/apr__hardware_for_gene
-ral_intelligence/figures/jj.png>] [31]
-Underfull \hbox (badness 10000) in paragraph at lines 498--500
+[26 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/apr__hardware_for_g
+eneral_intelligence/figures/jj.png>] [27]
+Underfull \hbox (badness 10000) in paragraph at lines 528--530
 []\OT1/lmr/m/n/10 recent work on ba-sic sci-ence of MJJs:
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 502--503
+Underfull \hbox (badness 1975) in paragraph at lines 532--533
 []\OT1/lmr/m/n/10 discussion of su-per-con-duct-ing elec-tron-ics for sens-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 507--507
-[]\OT1/lmr/bx/n/14.4 Superconducting op-to-elec-
- []
+Underfull \vbox (badness 1694) has occurred while \output is active []
 
 
-Underfull \hbox (badness 3895) in paragraph at lines 507--507
-\OT1/lmr/bx/n/14.4 tronic neu-ral sys-tems may
- []
+
+LaTeX Warning: Reference `sec:optoelectronicNeurons' on page 28 undefined on in
+put line 540.
+
+[28]
+
+LaTeX Warning: Citation `chca2013' undefined on input line 549.
 
 
-LaTeX Warning: Reference `sec:optoelectronicNeurons' on page 32 undefined on in
-put line 510.
+LaTeX Warning: Citation `chca2013' on page 29 undefined on input line 549.
 
-[32]
-
-LaTeX Warning: Citation `chca2013' undefined on input line 519.
-
-
-LaTeX Warning: Citation `chca2013' on page 33 undefined on input line 519.
-
-[33]
+[29]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [30]
+Underfull \vbox (badness 1436) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [34]
-[35]
-Underfull \hbox (badness 10000) in paragraph at lines 565--566
+ [31]
+Underfull \hbox (badness 10000) in paragraph at lines 595--596
 []\OT1/lmr/m/n/10 temporal co-in-ci-dence: com-pare/contrast with
  []
 
-[36
 
-]
-Chapter 6.
-
-LaTeX Warning: Citation `x' on page 37 undefined on input line 571.
+LaTeX Warning: Citation `x' on page 32 undefined on input line 601.
 
 
-LaTeX Warning: Citation `y' on page 37 undefined on input line 571.
+LaTeX Warning: Citation `y' on page 32 undefined on input line 601.
 
 
-LaTeX Warning: Citation `z' on page 37 undefined on input line 571.
+LaTeX Warning: Citation `z' on page 32 undefined on input line 601.
 
 
-LaTeX Warning: Reference `fig:snspd' on page 37 undefined on input line 571.
+LaTeX Warning: Reference `fig:snspd' on page 32 undefined on input line 601.
 
-[37
-
-] [38]
-Chapter 7.
-[39
-
-] [40
-
-]
-Chapter 8.
-
-Underfull \hbox (badness 1377) in paragraph at lines 781--781
-[]\OT1/lmr/bx/n/12 Neural-deep learn-ing hy-brid sys-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 784--784
-[]\OT1/lmr/bx/n/12 Classical-quantum-neural hy-brid
- []
-
-[41
-
-] [42]
-Underfull \hbox (badness 1194) in paragraph at lines 822--823
+[32] [33] [34] [35] [36]
+Underfull \hbox (badness 1194) in paragraph at lines 852--853
 []\OT1/lmr/m/n/10 discuss dif-fer-ent hard-ware at dif-fer-ent tem-per-a-ture
  []
 
-[43]
-Chapter 9.
+[37]
+Underfull \vbox (badness 1194) has occurred while \output is active []
 
-Underfull \vbox (badness 1168) has occurred while \output is active []
-
- [44
-
-]
-Underfull \hbox (badness 2689) in paragraph at lines 887--888
+ [38]
+Underfull \hbox (badness 2689) in paragraph at lines 917--918
 []\OT1/lmr/m/n/10 Turing: in-ter-ests, uni-ver-sal com-pu-ta-tion, com-
  []
 
-[45]
-Underfull \hbox (badness 1158) in paragraph at lines 888--889
+
+Underfull \hbox (badness 1158) in paragraph at lines 918--919
 \OT1/lmr/m/n/10 mer-i-cal in-ves-ti-ga-tion of nu-mer-ous phys-i-cal prob-
  []
 
 
-Underfull \hbox (badness 3364) in paragraph at lines 891--892
+Underfull \hbox (badness 3364) in paragraph at lines 921--922
 []\OT1/lmr/m/n/10 Shannon: com-mu-ni-ca-tion, in-for-ma-tion in data
  []
 
-[46]
-Underfull \hbox (badness 3690) in paragraph at lines 932--933
+[39]
+Underfull \hbox (badness 3690) in paragraph at lines 962--963
 \OT1/lmr/m/n/10 less prob-a-bly to have a slightly larger avalanche,
  []
 
-
-Underfull \hbox (badness 2261) in paragraph at lines 981--982
+[40]
+Underfull \hbox (badness 2261) in paragraph at lines 1011--1012
 []\OT1/lmr/m/n/10 superconducting op-to-elec-tronic hard-ware ap-pears
  []
 
-[47] [48
 
-]
-Appendix A.
+LaTeX Warning: Citation `siso1991' on page 41 undefined on input line 1036.
+
+
+LaTeX Warning: Citation `dave2012' on page 41 undefined on input line 1036.
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 1036--1037
+\OT1/lmr/m/n/10 (Siegel-man and Son-tag [\OT1/lmr/bx/n/10 ?\OT1/lmr/m/n/10 ]), 
+and dy-nam-i-cal sys-tems
+ []
+
+[41]
+
+LaTeX Warning: Citation `omgi1994' on page 42 undefined on input line 1049.
+
 
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr__hardware_for_gener
-al_intelligence\hardware_for_general_intelligence.bbl [49
-
-
-]
+al_intelligence\hardware_for_general_intelligence.bbl
 Underfull \hbox (badness 4254) in paragraph at lines 30--34
 []\OT1/lmr/m/n/10 A. Tur-ing.  Lec-ture to the lon-don math-e-
  []
@@ -794,87 +753,88 @@ Underfull \hbox (badness 3158) in paragraph at lines 46--50
 \OT1/lmr/m/n/10 5:115, 1943.  http://www.cse.chalmers.se/ co-
  []
 
-[50
-
-]
-Underfull \hbox (badness 1057) in paragraph at lines 240--243
+[42]
+Underfull \hbox (badness 1057) in paragraph at lines 252--255
 []\OT1/lmr/m/n/10 H. Markram, W. Ger-st-ner, and P.J. Sjostrom.
  []
 
-[51]
-Underfull \hbox (badness 10000) in paragraph at lines 325--330
+[43]
+Underfull \hbox (badness 10000) in paragraph at lines 337--342
 []\OT1/lmr/m/n/10 M. Ra-bi-novich, A. Volkovskii, P. Lecanda,
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 325--330
+Underfull \hbox (badness 1565) in paragraph at lines 337--342
 \OT1/lmr/m/n/10 Dy-nam-i-cal en-cod-ing by net-works of com-pet-ing
  []
 
 
-Underfull \hbox (badness 3108) in paragraph at lines 395--400
+Underfull \hbox (badness 1117) in paragraph at lines 344--347
+\OT1/lmr/m/n/10 quence gen-er-a-tion in ran-dom neu-ral en-sem-bles.
+ []
+
+
+Underfull \hbox (badness 3108) in paragraph at lines 429--434
 \OT1/lmr/m/n/10 S. Moazeni, M. Wade, C. Sun, L. Al-loatti,
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 395--400
+Underfull \hbox (badness 1342) in paragraph at lines 429--434
 \OT1/lmr/m/n/10 gava.  Mono-lithic silicon-photonic plat-forms in
  []
 
-
-Underfull \hbox (badness 1616) in paragraph at lines 450--455
+[44]
+Underfull \hbox (badness 1616) in paragraph at lines 484--489
 \OT1/lmr/m/it/10 Trans. Neu-ral Net-works and Learn-ing Sys-tems\OT1/lmr/m/n/10
  ,
  []
 
-[52]
-Underfull \hbox (badness 1043) in paragraph at lines 527--533
-\OT1/lmr/m/n/10 for high-performance electronic-photonic in-te-gra-
+
+Underfull \hbox (badness 1742) in paragraph at lines 561--567
+\OT1/lmr/m/n/10 Sto-janovic.  Open foundry plat-form for high-
  []
 
 
-Underfull \hbox (badness 1924) in paragraph at lines 535--539
+Underfull \hbox (badness 1924) in paragraph at lines 569--573
 []\OT1/lmr/m/n/10 Y. Shen, N.C. Har-ris, S. Skirlo, M. Prabhu,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 574--576
+Underfull \hbox (badness 10000) in paragraph at lines 608--610
 []\OT1/lmr/m/n/10 https://spectrum.ieee.org/tech-history/heroic-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 574--576
+Underfull \hbox (badness 10000) in paragraph at lines 608--610
 \OT1/lmr/m/n/10 failures/dudley-bucks-forgotten-cryotron-computer.
  []
 
-
-Underfull \hbox (badness 8132) in paragraph at lines 608--612
+[45]
+Underfull \hbox (badness 8132) in paragraph at lines 642--646
 []\OT1/lmr/m/n/10 K.K. Likharev and V.K. Se-menov.  Rsfq
  []
 
-[53]
-Underfull \hbox (badness 3000) in paragraph at lines 650--654
+
+Underfull \hbox (badness 3000) in paragraph at lines 684--688
 []\OT1/lmr/m/n/10 Y. Mizu-gaki, K. Naka-jima, Y. Sawada, and
  []
 
 
-Underfull \hbox (badness 1286) in paragraph at lines 695--699
+Underfull \hbox (badness 1286) in paragraph at lines 729--733
 []\OT1/lmr/m/n/10 Y. Ya-manashi, K. Umeda, and N. Yoshikawa.
  []
 
 
-Underfull \hbox (badness 1194) in paragraph at lines 706--709
+Underfull \hbox (badness 1194) in paragraph at lines 740--743
 []\OT1/lmr/m/n/10 K. Segall, S. Guo, P. Crotty, D. Schult, and
  []
 
-
-Underfull \hbox (badness 3838) in paragraph at lines 757--762
+[46]
+Underfull \hbox (badness 3838) in paragraph at lines 791--796
 []\OT1/lmr/m/n/10 M.L. Schnei-der, C.A. Don-nelly, S.E. Russek,
  []
 
-[54]) [55
-
-]
+) [47]
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr__hardware_for_gener
 al_intelligence\hardware_for_general_intelligence.aux)
 
@@ -882,40 +842,42 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4575 strings out of 493921
- 67534 string characters out of 3147285
- 125812 words of memory out of 3000000
- 7792 multiletter control sequences out of 15000+200000
- 81152 words of font info for 59 fonts, out of 3000000 for 9000
+ 4567 strings out of 493921
+ 67418 string characters out of 3147285
+ 126489 words of memory out of 3000000
+ 7783 multiletter control sequences out of 15000+200000
+ 72278 words of font info for 56 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  36i,8n,39p,3109b,289s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Fil
-es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
-nc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-maths
-y.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Program
+es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fon
+ts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts
+1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Program
  Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
-bx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/lm/lmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/lm/lmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr
-5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/
-lmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmri9.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/lm/lmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symb
-ols/msam10.pfb>
-Output written on hardware_for_general_intelligence.pdf (55 pages, 1175349 byte
+bx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx9.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr
+17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr5.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
+/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/lm/lmri9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/symbols/msam10.pfb>
+Output written on hardware_for_general_intelligence.pdf (47 pages, 1211559 byte
 s).
 PDF statistics:
- 384 PDF objects out of 1000 (max. 8388607)
+ 370 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

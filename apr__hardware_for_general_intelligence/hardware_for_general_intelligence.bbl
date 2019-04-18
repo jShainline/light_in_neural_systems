@@ -209,6 +209,18 @@ J.~Hawkins and S.~Ahmad.
   in neocortex.
 \newblock {\em Frontiers in Neural Circuits}, 10:23, 2016.
 
+\bibitem{li1997}
+J.E. Lisman.
+\newblock Bursts as a unit of neural information: making unreliable synapses
+  reliable.
+\newblock {\em Trends Neurosci.}, 20:38, 1997.
+
+\bibitem{izde2003}
+E.M. Izhikevich, N.S. Desai, E.C. Walcott, and F.C. Hoppensteadt.
+\newblock Bursts as a unit of neural information: selective communication via
+  resonance.
+\newblock {\em Trends Neurosci.}, 26:161, 2003.
+
 \bibitem{iz2007}
 E.M. Izhikevich.
 \newblock {\em Dynamical systems in neuroscience}.
@@ -330,7 +342,34 @@ M.~Rabinovich, A.~Volkovskii, P.~Lecanda, R.~Huerta, H.D.I. Abarbanel, and
 
 \bibitem{hura2004}
 R.~Huerta and M.~Rabinovich.
+\newblock Reproducible sequence generation in random neural ensembles.
 \newblock {\em Phys. Rev. Lett.}, 93:238104, 2004.
+
+\bibitem{bata1987}
+P.~Bak, C.~Tang, and K.~Wiesenfeld.
+\newblock Self-organized criticality: an explanation of 1/$f$ noise.
+\newblock {\em Phys. Rev. Lett.}, 59:381, 1987.
+
+\bibitem{bata1988}
+P.~Bak, C.~Tang, and K.~Wiesenfeld.
+\newblock Self-organized criticality.
+\newblock {\em Phys. Rev. A}, 38:364, 1988.
+
+\bibitem{seda2001}
+J.P. Sethna, K.A. Dahmen, and C.R. Myers.
+\newblock Crackling noise.
+\newblock {\em Nature}, 410:242, 2001.
+
+\bibitem{la1990}
+C.G. Langton.
+\newblock Computation at the edge of chaos: Phase transitions and emergent
+  computation.
+\newblock {\em Physica D}, 42:12, 1990.
+
+\bibitem{sp2010}
+O.~Sporns.
+\newblock {\em Networks of the Brain}.
+\newblock The MIT Press, Cambridge, Massachusetts, first edition, 2010.
 
 \bibitem{plth2006}
 D.~Plenz and T.C. Thiagarajan.
@@ -361,11 +400,6 @@ E.J. Friedman and A.S. Landsberg.
 V.M Eguiluz, D.R. Chialvo, G.A. Cecchi, M.~Baliki, and A.V. Aplarian.
 \newblock Scale-free brain functional networks.
 \newblock {\em Phys. Rev. Lett.}, 94:018102, 2005.
-
-\bibitem{bata1987}
-P.~Bak, C.~Tang, and K.~Wiesenfeld.
-\newblock Self-organized criticality: an explanation of 1/$f$ noise.
-\newblock {\em Phys. Rev. Lett.}, 59:381, 1987.
 
 \bibitem{kico2006}
 O.~Kinouchi and M.~Copelli.
@@ -524,9 +558,9 @@ Gordon Davies.
 \newblock {\em Physics Reports}, 176:83--188, 1989.
 
 \bibitem{orma2012}
-J.S. Orcutt, B.~Moss, C.~Sun, J.~Leu, M.~Georgas, J.~Sun M.~Weaver
-  J.~Shainlineand E.~Zgraggen, H.~Li, S.~Urosevic, M.~Popovic, R.J. Ram, and
-  Vladimir Stojanović.
+J.S. Orcutt, B.~Moss, C.~Sun, J.~Leu, M.~Georgas, J.~Shainline, J.~Sun
+  M.~Weaver E.~Zgraggen, H.~Li, S.~Urosevi\'{c}, M.~Popovi\'{c}, R.J. Ram, and
+  Vladimir Stojanovi\'{c}.
 \newblock Open foundry platform for high-performance electronic-photonic
   integration.
 \newblock {\em Opt. Express}, 20:12222, 2012.
@@ -809,5 +843,15 @@ Y.~LeCun, Y.~Bengio, and G.~Hinton.
 \bibitem{gobe2016}
 I.~Goodfellow, Y.~Bengio, and A.~Courville.
 \newblock MIT Press.
+
+\bibitem{kisi1996}
+J.~Kilian and H.T. Siegelmann.
+\newblock The dynamic universality of sigmoidal neural networks.
+\newblock {\em Information and Computation}, 128:48, 1996.
+
+\bibitem{vesc2007}
+D.~Verstraeten, B.~Schrauwen, M.~D'Haene, and D.~Stroobandt.
+\newblock An experimental unification of reservoir computing methods.
+\newblock {\em Neural Networks}, 20:391, 2007.
 
 \end{thebibliography}

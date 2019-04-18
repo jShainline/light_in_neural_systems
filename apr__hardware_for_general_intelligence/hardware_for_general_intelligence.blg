@@ -1,19 +1,19 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: hardware_for_general_intelligence.aux
 The style file: unsrt.bst
 Database file #1: hardware_for_general_intelligence.bib
-Repeated entry---line 1392 of file hardware_for_general_intelligence.bib
+Repeated entry---line 1420 of file hardware_for_general_intelligence.bib
  : @article{da1989
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3913 of file hardware_for_general_intelligence.bib
+Repeated entry---line 3941 of file hardware_for_general_intelligence.bib
  : @article{libo2010
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3922 of file hardware_for_general_intelligence.bib
+Repeated entry---line 3950 of file hardware_for_general_intelligence.bib
  : @article{zhyi2015
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3976 of file hardware_for_general_intelligence.bib
+Repeated entry---line 4004 of file hardware_for_general_intelligence.bib
  : @article{rahu2008
  :                  ,
 I'm skipping whatever remains of this entry
@@ -30,13 +30,13 @@ Warning--I didn't find a database entry for "ma1983"
 Warning--I didn't find a database entry for "sc1991"
 Warning--I didn't find a database entry for "others"
 Warning--I didn't find a database entry for "hosc1997"
-Warning--I didn't find a database entry for "be2008"
+Warning--I didn't find a database entry for "ba2005_his_book"
 Warning--I didn't find a database entry for "bepl2003"
 Warning--I didn't find a database entry for "http://www.humanconnectomeproject.org/"
 Warning--I didn't find a database entry for "ba2005_baks_book"
 Warning--I didn't find a database entry for "dover_book_on_fractals"
-Warning--I didn't find a database entry for "bata1988"
 Warning--I didn't find a database entry for "ba2005"
+Warning--I didn't find a database entry for "be2008"
 Warning--I didn't find a database entry for "one_from_reading_group"
 Warning--I didn't find a database entry for "shor2014"
 Warning--I didn't find a database entry for "suwa2017"
@@ -45,6 +45,9 @@ Warning--I didn't find a database entry for "chca2013"
 Warning--I didn't find a database entry for "x"
 Warning--I didn't find a database entry for "y"
 Warning--I didn't find a database entry for "z"
+Warning--I didn't find a database entry for "siso1991"
+Warning--I didn't find a database entry for "dave2012"
+Warning--I didn't find a database entry for "omgi1994"
 Warning--empty journal in ne1945
 Warning--empty year in dy2012
 Warning--empty year in is2014
@@ -55,10 +58,9 @@ Warning--can't use both author and editor fields in ne1951
 Warning--empty year in ne1951
 Warning--empty year in iz2007
 Warning--empty year in he1949
-Warning--empty title in hura2004
 Warning--empty year in hepa2012
 Warning--empty year in bi1955
-Too many commas in name 6 of "J.S. Orcutt and B. Moss and C. Sun and J. Leu and M. Georgas and J. Shainlineand E. Zgraggen, H. Li, J. Sun, M. Weaver and S. Urosevic and M. Popovic and R.J. Ram and Vladimir Stojanović" for entry orma2012
+Too many commas in name 7 of "J.S. Orcutt and B. Moss and C. Sun and J. Leu and M. Georgas and J. Shainline and E. Zgraggen, H. Li, J. Sun, M. Weaver and S. Urosevi\'{c} and M. Popovi\'{c} and R.J. Ram and Vladimir Stojanovi\'{c}" for entry orma2012
 while executing---line 944 of file unsrt.bst
 Warning--empty author in bu1950
 Warning--empty year in bu1950
