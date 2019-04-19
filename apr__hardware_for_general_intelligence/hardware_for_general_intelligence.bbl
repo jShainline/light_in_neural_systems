@@ -116,6 +116,11 @@ D.S. Bassett, D.L. Greenfield, A.~Meyer-Lindenberg, D.R. Weinberger, S.W.
   processing networks in brains and computer circuits.
 \newblock {\em PLoS Computational Biology}, 6:1, 2010.
 
+\bibitem{sc1991}
+M.~Schroeder.
+\newblock {\em Fractals, Chaos, Power Laws}.
+\newblock Dover, New York, 1991.
+
 \bibitem{oz2004}
 H.M. Ozaktas.
 \newblock Information flow and interconnections in computing: extensions and
@@ -209,6 +214,59 @@ J.~Hawkins and S.~Ahmad.
   in neocortex.
 \newblock {\em Frontiers in Neural Circuits}, 10:23, 2016.
 
+\bibitem{sh1906}
+C.S. Sherrington.
+\newblock {\em Integrative Action of the Nervous System}.
+\newblock Yale University Press, New Haven, Connecticut, 1906.
+
+\bibitem{ra1908}
+S.~Ram\'{o}n y~Cajal.
+\newblock {\em Histology of the Nervous System of Man and Vertebrates}.
+\newblock Oxford University Press, New York, 1995.
+
+\bibitem{koen1996}
+P.~K\"{o}nig, A.K. Engel, and W.~Singer.
+\newblock Integrator or conicidence detector? the role of the cortical neuron
+  revisited.
+\newblock {\em Trends Neurosci.}, 19:130, 1996.
+
+\bibitem{stsp2015}
+G.J. Stuart and N.~Spruston.
+\newblock Dendritic integration: 60 years of progress.
+\newblock {\em Nature Neuroscience}, 18:1713, 2015.
+
+\bibitem{ko1997}
+C.~Koch.
+\newblock Computation and the single neuron.
+\newblock {\em Nature}, 385:207, 1997.
+
+\bibitem{joma1996}
+D.~Johnston, J.C. Magee, C.M. Colbert, and B.R. Christie.
+\newblock Active properties of neuronal dendrites.
+\newblock {\em Annu. Rev. Neurosci.}, 19:165, 1996.
+
+\bibitem{hoko2006}
+K.~Holthoff, Y.~Kovalchuk, and A.~Konnerth.
+\newblock Dendritic spikes and activity-dependent synaptic plasticity.
+\newblock {\em Cell Tissue Res.}, 326:369, 2006.
+
+\bibitem{sava2017}
+S.~Sardi, R.~Vardi, A.~Sheinin, A.~Goldental, and I.~Kanter.
+\newblock New types of experiments reveal that a neuron functions as multiple
+  independent threshold units.
+\newblock {\em Scientific reports}, 7:18036, 2017.
+
+\bibitem{el2003}
+G.N. Elston.
+\newblock Cortex, cognition and the cell: new insights into the pyramidal
+  neuron and prefrontal function.
+\newblock {\em Cereb. Cortex}, 13:1124, 2003.
+
+\bibitem{ca1993}
+C.E. Carr.
+\newblock Processing of temporal information in the brain.
+\newblock {\em Annu. Rev. Neurosci.}, 16:223, 1993.
+
 \bibitem{li1997}
 J.E. Lisman.
 \newblock Bursts as a unit of neural information: making unreliable synapses
@@ -223,8 +281,8 @@ E.M. Izhikevich, N.S. Desai, E.C. Walcott, and F.C. Hoppensteadt.
 
 \bibitem{iz2007}
 E.M. Izhikevich.
-\newblock {\em Dynamical systems in neuroscience}.
-\newblock MIT Press.
+\newblock {\em Dynamical Systems in Neuroscience}.
+\newblock MIT Press, Cambridge, Massachusetts, 2007.
 
 \bibitem{abre2004}
 L.F. Abbott and W.G. Regehr.
@@ -296,17 +354,6 @@ E.L. Bienenstock, L.N. Cooper, and P.W. Munro.
   specificity and binocular interaction in visual cortex.
 \newblock {\em The Journal of Neuroscience}, 2:32, 1982.
 
-\bibitem{stsp2015}
-G.J. Stuart and N.~Spruston.
-\newblock Dendritic integration: 60 years of progress.
-\newblock {\em Nature Neuroscience}, 18:1713, 2015.
-
-\bibitem{sava2017}
-S.~Sardi, R.~Vardi, A.~Sheinin, A.~Goldental, and I.~Kanter.
-\newblock New types of experiments reveal that a neuron functions as multiple
-  independent threshold units.
-\newblock {\em Scientific reports}, 7:18036, 2017.
-
 \bibitem{geki2002}
 W.~Gerstner and W.~Kistler.
 \newblock {\em Spiking neuron models}.
@@ -354,6 +401,11 @@ P.~Bak, C.~Tang, and K.~Wiesenfeld.
 P.~Bak, C.~Tang, and K.~Wiesenfeld.
 \newblock Self-organized criticality.
 \newblock {\em Phys. Rev. A}, 38:364, 1988.
+
+\bibitem{ba1996}
+P.~Bak.
+\newblock {\em How Nature Works}.
+\newblock Springer, New York, 1996.
 
 \bibitem{seda2001}
 J.P. Sethna, K.A. Dahmen, and C.R. Myers.
