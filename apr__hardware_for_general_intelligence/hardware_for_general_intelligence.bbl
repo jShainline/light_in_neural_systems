@@ -3,12 +3,12 @@
 \bibitem{tu1936}
 A.M. Turing.
 \newblock On computable numbers, with an application to the
-  entscheidungsproblem.
+  {E}ntscheidungsproblem.
 \newblock {\em J. of Math}, 58:230, 1936.
 
 \bibitem{ne1945}
 J.~von Neumann.
-\newblock A first draft of a report on the edvac.
+\newblock A first draft of a report on the {EDVAC}.
 \newblock 1945.
 
 \bibitem{sh1948}
@@ -28,7 +28,8 @@ W.~Isaacson.
 
 \bibitem{tu1947}
 A.~Turing.
-\newblock Lecture to the london mathematical society on 20 february 1947.
+\newblock Lecture to the {L}ondon {M}athematical {S}ociety on 20 {F}ebruary
+  1947.
 \newblock 1947.
 \newblock https://www.vordenker.de/downloads/turing-vorlesung.pdf.
 
@@ -80,7 +81,7 @@ A.~Fronczak, P.~Fronczak, and J.A. Holyst.
 
 \bibitem{bu2006}
 G.~Buzsaki.
-\newblock {\em Rhythms of the brain}.
+\newblock {\em Rhythms of the Brain}.
 \newblock Oxford University Press, 2006.
 
 \bibitem{ke1982}
@@ -278,6 +279,11 @@ E.M. Izhikevich, N.S. Desai, E.C. Walcott, and F.C. Hoppensteadt.
 \newblock Bursts as a unit of neural information: selective communication via
   resonance.
 \newblock {\em Trends Neurosci.}, 26:161, 2003.
+
+\bibitem{majo2005}
+J.C. Magee and D.~Johnston.
+\newblock Plasticity of dendritic function.
+\newblock {\em Current Opinion in Neurobiology}, 15:334, 2005.
 
 \bibitem{iz2007}
 E.M. Izhikevich.
@@ -894,6 +900,7 @@ Y.~LeCun, Y.~Bengio, and G.~Hinton.
 
 \bibitem{gobe2016}
 I.~Goodfellow, Y.~Bengio, and A.~Courville.
+\newblock {\em Deep Learning}.
 \newblock MIT Press.
 
 \bibitem{kisi1996}

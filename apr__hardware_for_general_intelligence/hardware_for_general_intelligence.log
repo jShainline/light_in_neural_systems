@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  18 APR 2019 19:30
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  19 APR 2019 16:07
 entering extended mode
 **hardware_for_general_intelligence.tex
 
@@ -498,7 +498,12 @@ LaTeX Font Info:    Try loading font information for TS1+lmr on input line 158.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [8] [9] [10]
+) [8]
+Underfull \hbox (badness 2134) in paragraph at lines 179--180
+ \OT1/lmr/bx/n/10 2.2.1.3 The Neu-ron as a Com-plex In-for-ma-
+ []
+
+[9] [10]
 
 LaTeX Warning: Reference `fig:dendritic_sequence_detection' on page 11 undefine
 d on input line 192.
@@ -506,9 +511,6 @@ d on input line 192.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-LaTeX Warning: Citation `majo2005' on page 11 undefined on input line 209.
 
 
 LaTeX Warning: Reference `fig:short-term_plasticity' on page 11 undefined on in
@@ -714,119 +716,119 @@ LaTeX Warning: Citation `omgi1994' on page 44 undefined on input line 1092.
 
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr__hardware_for_gener
 al_intelligence\hardware_for_general_intelligence.bbl
-Underfull \hbox (badness 4254) in paragraph at lines 30--34
-[]\OT1/lmr/m/n/10 A. Tur-ing.  Lec-ture to the lon-don math-e-
+Underfull \hbox (badness 3179) in paragraph at lines 30--35
+[]\OT1/lmr/m/n/10 A. Tur-ing.  Lec-ture to the Lon-don Math-e-
  []
 
 
-Underfull \hbox (badness 2626) in paragraph at lines 30--34
-\OT1/lmr/m/n/10 mat-i-cal so-ci-ety on 20 febru-ary 1947.  1947.
+Underfull \hbox (badness 1874) in paragraph at lines 30--35
+\OT1/lmr/m/n/10 mat-i-cal So-ci-ety on 20 Febru-ary 1947.  1947.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--34
+Underfull \hbox (badness 10000) in paragraph at lines 30--35
 \OT1/lmr/m/n/10 https://www.vordenker.de/downloads/turing-
  []
 
 
-Underfull \hbox (badness 4181) in paragraph at lines 46--50
+Underfull \hbox (badness 4181) in paragraph at lines 47--51
 []\OT1/lmr/m/n/10 W.S. Mc-Cul-loch and W.H. Pitts.  A log-i-
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 46--50
+Underfull \hbox (badness 1158) in paragraph at lines 47--51
 \OT1/lmr/m/n/10 cal cal-cu-lus of the ideas im-ma-nent in ner-vous
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 46--50
+Underfull \hbox (badness 1742) in paragraph at lines 47--51
 \OT1/lmr/m/n/10 ac-tiv-ity.  \OT1/lmr/m/it/10 Bul-letin of Math-e-mat-i-cal Bio
 -physics\OT1/lmr/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 3158) in paragraph at lines 46--50
+Underfull \hbox (badness 3158) in paragraph at lines 47--51
 \OT1/lmr/m/n/10 5:115, 1943.  http://www.cse.chalmers.se/ co-
  []
 
 [44] [45]
-Underfull \hbox (badness 1057) in paragraph at lines 310--313
+Underfull \hbox (badness 1057) in paragraph at lines 316--319
 []\OT1/lmr/m/n/10 H. Markram, W. Ger-st-ner, and P.J. Sjostrom.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--389
+Underfull \hbox (badness 10000) in paragraph at lines 390--395
 []\OT1/lmr/m/n/10 M. Ra-bi-novich, A. Volkovskii, P. Lecanda,
  []
 
 
-Underfull \hbox (badness 1565) in paragraph at lines 384--389
+Underfull \hbox (badness 1565) in paragraph at lines 390--395
 \OT1/lmr/m/n/10 Dy-nam-i-cal en-cod-ing by net-works of com-pet-ing
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 391--394
+Underfull \hbox (badness 1117) in paragraph at lines 397--400
 \OT1/lmr/m/n/10 quence gen-er-a-tion in ran-dom neu-ral en-sem-bles.
  []
 
 [46]
-Underfull \hbox (badness 3108) in paragraph at lines 481--486
+Underfull \hbox (badness 3108) in paragraph at lines 487--492
 \OT1/lmr/m/n/10 S. Moazeni, M. Wade, C. Sun, L. Al-loatti,
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 481--486
+Underfull \hbox (badness 1342) in paragraph at lines 487--492
 \OT1/lmr/m/n/10 gava.  Mono-lithic silicon-photonic plat-forms in
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 536--541
+Underfull \hbox (badness 1616) in paragraph at lines 542--547
 \OT1/lmr/m/it/10 Trans. Neu-ral Net-works and Learn-ing Sys-tems\OT1/lmr/m/n/10
  ,
  []
 
 [47]
-Underfull \hbox (badness 1742) in paragraph at lines 613--619
+Underfull \hbox (badness 1742) in paragraph at lines 619--625
 \OT1/lmr/m/n/10 Sto-janovic.  Open foundry plat-form for high-
  []
 
 
-Underfull \hbox (badness 1924) in paragraph at lines 621--625
+Underfull \hbox (badness 1924) in paragraph at lines 627--631
 []\OT1/lmr/m/n/10 Y. Shen, N.C. Har-ris, S. Skirlo, M. Prabhu,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 660--662
+Underfull \hbox (badness 10000) in paragraph at lines 666--668
 []\OT1/lmr/m/n/10 https://spectrum.ieee.org/tech-history/heroic-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 660--662
+Underfull \hbox (badness 10000) in paragraph at lines 666--668
 \OT1/lmr/m/n/10 failures/dudley-bucks-forgotten-cryotron-computer.
  []
 
 
-Underfull \hbox (badness 8132) in paragraph at lines 694--698
+Underfull \hbox (badness 8132) in paragraph at lines 700--704
 []\OT1/lmr/m/n/10 K.K. Likharev and V.K. Se-menov.  Rsfq
  []
 
 [48]
-Underfull \hbox (badness 3000) in paragraph at lines 736--740
+Underfull \hbox (badness 3000) in paragraph at lines 742--746
 []\OT1/lmr/m/n/10 Y. Mizu-gaki, K. Naka-jima, Y. Sawada, and
  []
 
 
-Underfull \hbox (badness 1286) in paragraph at lines 781--785
+Underfull \hbox (badness 1286) in paragraph at lines 787--791
 []\OT1/lmr/m/n/10 Y. Ya-manashi, K. Umeda, and N. Yoshikawa.
  []
 
 
-Underfull \hbox (badness 1194) in paragraph at lines 792--795
+Underfull \hbox (badness 1194) in paragraph at lines 798--801
 []\OT1/lmr/m/n/10 K. Segall, S. Guo, P. Crotty, D. Schult, and
  []
 
 
-Underfull \hbox (badness 3838) in paragraph at lines 843--848
+Underfull \hbox (badness 3838) in paragraph at lines 849--854
 []\OT1/lmr/m/n/10 M.L. Schnei-der, C.A. Don-nelly, S.E. Russek,
  []
 
@@ -842,7 +844,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  4579 strings out of 493921
  67563 string characters out of 3147285
- 127554 words of memory out of 3000000
+ 127559 words of memory out of 3000000
  7795 multiletter control sequences out of 15000+200000
  72278 words of font info for 56 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -872,7 +874,7 @@ lic/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/symbols/msam10.pfb>
-Output written on hardware_for_general_intelligence.pdf (50 pages, 1227136 byte
+Output written on hardware_for_general_intelligence.pdf (50 pages, 1227400 byte
 s).
 PDF statistics:
  380 PDF objects out of 1000 (max. 8388607)

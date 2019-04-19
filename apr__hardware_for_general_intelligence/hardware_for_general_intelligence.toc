@@ -1,23 +1,23 @@
 \contentsline {section}{\numberline {1}Introduction}{2}
-\contentsline {subsection}{\numberline {1.1}Historical context}{2}
-\contentsline {section}{\numberline {2}Information processing in neural systems}{5}
-\contentsline {subsection}{\numberline {2.1}Spatial structure of neural systems}{5}
+\contentsline {subsection}{\numberline {1.1}Historical Context}{2}
+\contentsline {section}{\numberline {2}Information Processing in Neural Systems}{5}
+\contentsline {subsection}{\numberline {2.1}Spatial Structure of Neural Systems}{5}
 \contentsline {subsubsection}{\numberline {2.1.1}Adjacency matrix}{5}
-\contentsline {subsubsection}{\numberline {2.1.2}Node degree and degree distribution}{6}
-\contentsline {subsubsection}{\numberline {2.1.3}Path length}{6}
+\contentsline {subsubsection}{\numberline {2.1.2}Node Degree and Degree Distribution}{6}
+\contentsline {subsubsection}{\numberline {2.1.3}Path Length}{6}
 \contentsline {subsubsection}{\numberline {2.1.4}Clustering}{6}
-\contentsline {subsubsection}{\numberline {2.1.5}Small-world networks}{6}
-\contentsline {subsubsection}{\numberline {2.1.6}Modularity and hierarchy}{7}
-\contentsline {subsubsection}{\numberline {2.1.7}Rentian analysis}{7}
-\contentsline {subsubsection}{\numberline {2.1.8}Summary of spatial considerations}{8}
-\contentsline {subsection}{\numberline {2.2}Temporal dynamics of neural systems}{8}
-\contentsline {subsubsection}{\numberline {2.2.1}Device dynamics}{9}
+\contentsline {subsubsection}{\numberline {2.1.5}Small-World Networks}{6}
+\contentsline {subsubsection}{\numberline {2.1.6}Modularity and Hierarchy}{7}
+\contentsline {subsubsection}{\numberline {2.1.7}Rentian Analysis}{7}
+\contentsline {subsubsection}{\numberline {2.1.8}Summary of Spatial Considerations}{8}
+\contentsline {subsection}{\numberline {2.2}Temporal Dynamics of Neural Systems}{8}
+\contentsline {subsubsection}{\numberline {2.2.1}Device Dynamics}{9}
 \contentsline {paragraph}{\numberline {2.2.1.1}Relaxation oscillators}{9}
 \contentsline {paragraph}{\numberline {2.2.1.2}Binary communication and post-synaptic response}{9}
-\contentsline {paragraph}{\numberline {2.2.1.3}The neuron as a complex information processing system}{9}
-\contentsline {paragraph}{\numberline {2.2.1.4}Coincidence and sequence detection in active dendrites}{10}
-\contentsline {paragraph}{\numberline {2.2.1.5}Communication in bursts}{11}
-\contentsline {paragraph}{\numberline {2.2.1.6}Short-term synaptic plasticity}{11}
+\contentsline {paragraph}{\numberline {2.2.1.3}The Neuron as a Complex Information Processing System}{9}
+\contentsline {paragraph}{\numberline {2.2.1.4}Coincidence and Sequence Detection in Active Dendrites}{10}
+\contentsline {paragraph}{\numberline {2.2.1.5}Communication in Bursts}{11}
+\contentsline {paragraph}{\numberline {2.2.1.6}Short-Term Synaptic Plasticity}{11}
 \contentsline {paragraph}{\numberline {2.2.1.7}Long-term synaptic plasticity}{12}
 \contentsline {paragraph}{\numberline {2.2.1.8}Metaplasticity}{12}
 \contentsline {paragraph}{\numberline {2.2.1.9}Homeostatic plasticity}{13}
@@ -64,4 +64,4 @@
 \contentsline {subsubsection}{\numberline {8.1.2}Classical-quantum-neural hybrid systems}{37}
 \contentsline {subsubsection}{\numberline {8.1.3}SOENs as the central cognitive hub}{39}
 \contentsline {section}{\numberline {9}Outlook}{39}
-\contentsline {section}{\numberline {A}Superconducting interconnects}{44}
+\contentsline {section}{\numberline {A}Superconducting Interconnects}{44}
