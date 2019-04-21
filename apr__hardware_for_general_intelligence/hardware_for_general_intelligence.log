@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  21 APR 2019 15:06
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  21 APR 2019 16:19
 entering extended mode
 **hardware_for_general_intelligence.tex
 
@@ -460,212 +460,221 @@ LaTeX Font Info:    Try loading font information for TS1+lmr on input line 102.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [5]
+) [5] [6]
 
-LaTeX Warning: Citation `rusp2010' on page 6 undefined on input line 139.
+LaTeX Warning: Citation `rusp2010' on page 7 undefined on input line 149.
 
-[6] <data_plots.pdf, id=35, 244.69318pt x 438.3025pt>
+<data_plots.pdf, id=30, 244.69318pt x 438.3025pt>
 File: data_plots.pdf Graphic file (type pdf)
  <use data_plots.pdf>
-Package pdftex.def Info: data_plots.pdf used on input line 149.
+Package pdftex.def Info: data_plots.pdf used on input line 159.
 (pdftex.def)             Requested size: 244.69386pt x 438.3081pt.
 
 
-LaTeX Warning: Citation `shICRC2018' on page 7 undefined on input line 150.
+LaTeX Warning: Citation `shICRC2018' on page 7 undefined on input line 160.
 
 
-LaTeX Warning: Citation `shICRC2018' on page 7 undefined on input line 150.
+LaTeX Warning: Citation `shICRC2018' on page 7 undefined on input line 160.
 
 
-LaTeX Warning: Citation `eskn2014' on page 7 undefined on input line 154.
+LaTeX Warning: Citation `eskn2014' on page 7 undefined on input line 164.
 
-[7 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/apr__hardware_for_ge
+
+Underfull \vbox (badness 4713) has occurred while \output is active []
+
+ [7]
+[8 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/apr__hardware_for_ge
 neral_intelligence/data_plots.pdf>]
 
-LaTeX Warning: Citation `mo1978' on page 8 undefined on input line 160.
+LaTeX Warning: Citation `mo1978' on page 9 undefined on input line 170.
 
 
-LaTeX Warning: Citation `beba2017' on page 8 undefined on input line 160.
+LaTeX Warning: Citation `beba2017' on page 9 undefined on input line 170.
 
 
-LaTeX Warning: Citation `rusp2010' on page 8 undefined on input line 160.
+LaTeX Warning: Citation `rusp2010' on page 9 undefined on input line 170.
 
 
-LaTeX Warning: Citation `beba2017' on page 8 undefined on input line 160.
+LaTeX Warning: Citation `beba2017' on page 9 undefined on input line 170.
 
 
-LaTeX Warning: Citation `ma1983' on page 8 undefined on input line 176.
+LaTeX Warning: Citation `ma1983' on page 9 undefined on input line 186.
 
-[8] [9]
-Underfull \hbox (badness 2134) in paragraph at lines 212--213
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+[10]
+Underfull \hbox (badness 2134) in paragraph at lines 222--223
  \OT1/lmr/bx/n/10 2.2.1.3 The Neu-ron as a Com-plex In-for-ma-
  []
 
-[10]
-
-LaTeX Warning: Reference `fig:dendritic_sequence_detection' on page 11 undefine
-d on input line 225.
-
 [11]
 
-LaTeX Warning: Reference `fig:short-term_plasticity' on page 12 undefined on in
-put line 249.
+LaTeX Warning: Reference `fig:dendritic_sequence_detection' on page 12 undefine
+d on input line 235.
 
+[12]
 
-Underfull \vbox (badness 5260) has occurred while \output is active []
+LaTeX Warning: Reference `fig:short-term_plasticity' on page 13 undefined on in
+put line 259.
 
- [12]
-Underfull \hbox (badness 5431) in paragraph at lines 272--273
+[13]
+Underfull \hbox (badness 5431) in paragraph at lines 282--283
  \OT1/lmr/bx/n/10 2.2.1.8 Meta-plas-tic-ity[] \OT1/lmr/m/n/10 While STDP adapts
  the
  []
 
 
-Underfull \hbox (badness 1354) in paragraph at lines 279--280
+Underfull \hbox (badness 1354) in paragraph at lines 289--290
  \OT1/lmr/bx/n/10 2.2.1.9 Home-o-static plas-tic-ity[] \OT1/lmr/m/n/10 To con-c
 lude this
  []
 
-[13] [14]
+[14] [15]
 
-LaTeX Warning: Citation `others' on page 15 undefined on input line 308.
+LaTeX Warning: Citation `others' on page 16 undefined on input line 318.
 
-[15]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[16]
 
-
-
-LaTeX Warning: Citation `hosc1997' on page 16 undefined on input line 343.
+LaTeX Warning: Citation `hosc1997' on page 17 undefined on input line 353.
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 346--351
+Underfull \hbox (badness 1442) in paragraph at lines 356--361
 \OT1/lmr/m/n/10 plas-tic-ity, or reser-voir with-out plas-tic-ity information
  []
 
-[16]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 357.
+(Font)              <8> on input line 367.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 357.
+(Font)              <6> on input line 367.
 
-Underfull \hbox (badness 2134) in paragraph at lines 357--357
+Underfull \hbox (badness 2134) in paragraph at lines 367--367
 [][]\OT1/lmr/m/n/8 For ex-am-ple, if a sys-tem has a power spec-tral den-sity
  []
 
-
-Underfull \hbox (badness 1552) in paragraph at lines 365--366
+[17]
+Underfull \hbox (badness 1552) in paragraph at lines 375--376
  \OT1/lmr/bx/n/10 2.2.2.4 Neu-ronal avalanches[] \OT1/lmr/m/n/10 Ev-i-dence of 
 neu-ral
  []
 
 
-LaTeX Warning: Citation `bepl2003' on page 17 undefined on input line 372.
+LaTeX Warning: Citation `bepl2003' on page 18 undefined on input line 382.
 
-[17]
+[18]
 
-LaTeX Warning: Citation `http://www.humanconnectomeproject.org/' on page 18 und
-efined on input line 387.
-
-
-LaTeX Warning: Citation `ba2005_baks_book' on page 18 undefined on input line 3
-91.
+LaTeX Warning: Citation `http://www.humanconnectomeproject.org/' on page 19 und
+efined on input line 397.
 
 
-LaTeX Warning: Citation `dover_book_on_fractals' on page 18 undefined on input 
-line 391.
+LaTeX Warning: Citation `ba2005_baks_book' on page 19 undefined on input line 4
+01.
 
 
-LaTeX Warning: Citation `ba2005' on page 18 undefined on input line 391.
+LaTeX Warning: Citation `dover_book_on_fractals' on page 19 undefined on input 
+line 401.
 
 
-LaTeX Warning: Citation `be2008' on page 18 undefined on input line 391.
-
-[18] [19]
-Underfull \vbox (badness 1194) has occurred while \output is active []
+LaTeX Warning: Citation `ba2005' on page 19 undefined on input line 401.
 
 
+LaTeX Warning: Citation `be2008' on page 19 undefined on input line 401.
 
-LaTeX Warning: Citation `one_from_reading_group' on page 20 undefined on input 
-line 428.
+[19] [20]
 
-[20] [21] [22] [23] [24]
-Underfull \hbox (badness 4391) in paragraph at lines 509--509
+LaTeX Warning: Citation `one_from_reading_group' on page 21 undefined on input 
+line 438.
+
+[21] [22] [23] [24]
+Underfull \hbox (badness 4391) in paragraph at lines 519--519
 []\OT1/lmr/bx/n/12 Silicon light sources: the great
  []
 
-
-LaTeX Warning: Reference `fig:silicon_absorption_emission' on page 25 undefined
- on input line 518.
-
 [25]
 
-LaTeX Warning: Citation `shor2014' on page 26 undefined on input line 523.
+LaTeX Warning: Reference `fig:silicon_absorption_emission' on page 26 undefined
+ on input line 528.
 
 
-LaTeX Warning: Citation `suwa2017' on page 26 undefined on input line 523.
+LaTeX Warning: Citation `shor2014' on page 26 undefined on input line 533.
+
+
+LaTeX Warning: Citation `suwa2017' on page 26 undefined on input line 533.
 
 [26]
-Underfull \hbox (badness 8189) in paragraph at lines 536--536
+Underfull \hbox (badness 8189) in paragraph at lines 546--546
 []\OT1/lmr/bx/n/12 Spiking neu-rons with com-pound
  []
 
 
-LaTeX Warning: Citation `nata2013' on page 27 undefined on input line 537.
+LaTeX Warning: Citation `nata2013' on page 27 undefined on input line 547.
 
-[27] [28] <figures/jj.png, id=225, 1003.75pt x 1003.75pt>
+[27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+[29] <figures/jj.png, id=228, 1003.75pt x 1003.75pt>
 File: figures/jj.png Graphic file (type png)
  <use figures/jj.png>
-Package pdftex.def Info: figures/jj.png used on input line 569.
+Package pdftex.def Info: figures/jj.png used on input line 579.
 (pdftex.def)             Requested size: 244.69386pt x 244.68796pt.
 
-Underfull \hbox (badness 1215) in paragraph at lines 572--573
+Underfull \hbox (badness 1215) in paragraph at lines 582--583
 \OT1/lmr/m/n/10 sep-a-rated by a thin tun-nel-ing bar-rier, as shown in
  []
 
-[29 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/apr__hardware_for_g
-eneral_intelligence/figures/jj.png>] [30]
-Underfull \hbox (badness 10000) in paragraph at lines 599--601
+[30 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/apr__hardware_for_g
+eneral_intelligence/figures/jj.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 609--611
 []\OT1/lmr/m/n/10 recent work on ba-sic sci-ence of MJJs:
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 603--604
+Underfull \hbox (badness 1975) in paragraph at lines 613--614
 []\OT1/lmr/m/n/10 discussion of su-per-con-duct-ing elec-tron-ics for sens-
  []
 
 
-LaTeX Warning: Reference `sec:optoelectronicNeurons' on page 31 undefined on in
-put line 611.
+Underfull \vbox (badness 1694) has occurred while \output is active []
 
-[31]
+ [31]
 
-LaTeX Warning: Citation `chca2013' undefined on input line 620.
+LaTeX Warning: Reference `sec:optoelectronicNeurons' on page 32 undefined on in
+put line 621.
+
+[32]
+
+LaTeX Warning: Citation `chca2013' undefined on input line 630.
 
 
-LaTeX Warning: Citation `chca2013' on page 32 undefined on input line 620.
+LaTeX Warning: Citation `chca2013' on page 33 undefined on input line 630.
 
-[32] [33]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33]
 Underfull \vbox (badness 1436) has occurred while \output is active []
 
  [34]
-Underfull \hbox (badness 10000) in paragraph at lines 666--667
+Underfull \hbox (badness 10000) in paragraph at lines 676--677
 []\OT1/lmr/m/n/10 temporal co-in-ci-dence: com-pare/contrast with
  []
 
 
-LaTeX Warning: Citation `x' on page 35 undefined on input line 672.
+LaTeX Warning: Citation `x' on page 35 undefined on input line 682.
 
 
-LaTeX Warning: Citation `y' on page 35 undefined on input line 672.
+LaTeX Warning: Citation `y' on page 35 undefined on input line 682.
 
 
-LaTeX Warning: Citation `z' on page 35 undefined on input line 672.
+LaTeX Warning: Citation `z' on page 35 undefined on input line 682.
 
 
-LaTeX Warning: Reference `fig:snspd' on page 35 undefined on input line 672.
+LaTeX Warning: Reference `fig:snspd' on page 35 undefined on input line 682.
 
 [35] [36] [37] [38] [39]
-Underfull \hbox (badness 1194) in paragraph at lines 930--931
+Underfull \hbox (badness 1194) in paragraph at lines 940--941
 []\OT1/lmr/m/n/10 discuss dif-fer-ent hard-ware at dif-fer-ent tem-per-a-ture
  []
 
@@ -673,47 +682,50 @@ Underfull \hbox (badness 1194) in paragraph at lines 930--931
 Underfull \vbox (badness 1194) has occurred while \output is active []
 
  [41]
-Underfull \hbox (badness 2689) in paragraph at lines 995--996
+Underfull \hbox (badness 2689) in paragraph at lines 1005--1006
 []\OT1/lmr/m/n/10 Turing: in-ter-ests, uni-ver-sal com-pu-ta-tion, com-
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 996--997
+Underfull \hbox (badness 1158) in paragraph at lines 1006--1007
 \OT1/lmr/m/n/10 mer-i-cal in-ves-ti-ga-tion of nu-mer-ous phys-i-cal prob-
  []
 
 
-Underfull \hbox (badness 3364) in paragraph at lines 999--1000
+Underfull \hbox (badness 3364) in paragraph at lines 1009--1010
 []\OT1/lmr/m/n/10 Shannon: com-mu-ni-ca-tion, in-for-ma-tion in data
  []
 
-[42]
-Underfull \hbox (badness 3690) in paragraph at lines 1040--1041
+[42] [43]
+Underfull \hbox (badness 3690) in paragraph at lines 1050--1051
 \OT1/lmr/m/n/10 less prob-a-bly to have a slightly larger avalanche,
  []
 
-[43]
-Underfull \hbox (badness 2261) in paragraph at lines 1089--1090
+
+Underfull \vbox (badness 1308) has occurred while \output is active []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 1099--1100
 []\OT1/lmr/m/n/10 superconducting op-to-elec-tronic hard-ware ap-pears
- []
-
-
-LaTeX Warning: Citation `siso1991' on page 44 undefined on input line 1114.
-
-
-LaTeX Warning: Citation `dave2012' on page 44 undefined on input line 1114.
-
-
-Underfull \hbox (badness 1412) in paragraph at lines 1114--1115
-\OT1/lmr/m/n/10 (Siegel-man and Son-tag [\OT1/lmr/bx/n/10 ?\OT1/lmr/m/n/10 ]), 
-and dy-nam-i-cal sys-tems
  []
 
 [44]
 
-LaTeX Warning: Citation `omgi1994' on page 45 undefined on input line 1127.
+LaTeX Warning: Citation `siso1991' on page 45 undefined on input line 1124.
 
 
+LaTeX Warning: Citation `dave2012' on page 45 undefined on input line 1124.
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 1124--1125
+\OT1/lmr/m/n/10 (Siegel-man and Son-tag [\OT1/lmr/bx/n/10 ?\OT1/lmr/m/n/10 ]), 
+and dy-nam-i-cal sys-tems
+ []
+
+
+LaTeX Warning: Citation `omgi1994' on page 45 undefined on input line 1137.
+
+[45]
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr__hardware_for_gener
 al_intelligence\hardware_for_general_intelligence.bbl
 Underfull \hbox (badness 3179) in paragraph at lines 30--35
@@ -751,12 +763,12 @@ Underfull \hbox (badness 3158) in paragraph at lines 47--51
 \OT1/lmr/m/n/10 5:115, 1943.  http://www.cse.chalmers.se/ co-
  []
 
-[45] [46]
+[46]
 Underfull \hbox (badness 1057) in paragraph at lines 326--329
 []\OT1/lmr/m/n/10 H. Markram, W. Ger-st-ner, and P.J. Sjostrom.
  []
 
-
+[47]
 Underfull \hbox (badness 10000) in paragraph at lines 400--405
 []\OT1/lmr/m/n/10 M. Ra-bi-novich, A. Volkovskii, P. Lecanda,
  []
@@ -771,7 +783,7 @@ Underfull \hbox (badness 1117) in paragraph at lines 407--410
 \OT1/lmr/m/n/10 quence gen-er-a-tion in ran-dom neu-ral en-sem-bles.
  []
 
-[47]
+[48]
 Underfull \hbox (badness 3108) in paragraph at lines 497--502
 \OT1/lmr/m/n/10 S. Moazeni, M. Wade, C. Sun, L. Al-loatti,
  []
@@ -787,7 +799,7 @@ Underfull \hbox (badness 1616) in paragraph at lines 552--557
  ,
  []
 
-[48]
+
 Underfull \hbox (badness 1742) in paragraph at lines 629--635
 \OT1/lmr/m/n/10 Sto-janovic.  Open foundry plat-form for high-
  []
@@ -797,7 +809,7 @@ Underfull \hbox (badness 1924) in paragraph at lines 637--641
 []\OT1/lmr/m/n/10 Y. Shen, N.C. Har-ris, S. Skirlo, M. Prabhu,
  []
 
-
+[49]
 Underfull \hbox (badness 10000) in paragraph at lines 676--678
 []\OT1/lmr/m/n/10 https://spectrum.ieee.org/tech-history/heroic-
  []
@@ -812,7 +824,7 @@ Underfull \hbox (badness 8132) in paragraph at lines 710--714
 []\OT1/lmr/m/n/10 K.K. Likharev and V.K. Se-menov.  Rsfq
  []
 
-[49]
+
 Underfull \hbox (badness 3000) in paragraph at lines 752--756
 []\OT1/lmr/m/n/10 Y. Mizu-gaki, K. Naka-jima, Y. Sawada, and
  []
@@ -827,24 +839,25 @@ Underfull \hbox (badness 1194) in paragraph at lines 808--811
 []\OT1/lmr/m/n/10 K. Segall, S. Guo, P. Crotty, D. Schult, and
  []
 
-
+[50]
 Underfull \hbox (badness 3838) in paragraph at lines 859--864
 []\OT1/lmr/m/n/10 M.L. Schnei-der, C.A. Don-nelly, S.E. Russek,
  []
 
-[50]) [51
-
-]
+) [51]
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr__hardware_for_gener
 al_intelligence\hardware_for_general_intelligence.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
  4582 strings out of 493921
  67592 string characters out of 3147285
- 125579 words of memory out of 3000000
+ 126579 words of memory out of 3000000
  7798 multiletter control sequences out of 15000+200000
  72278 words of font info for 56 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -874,7 +887,7 @@ lic/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/symbols/msam10.pfb>
-Output written on hardware_for_general_intelligence.pdf (51 pages, 1231036 byte
+Output written on hardware_for_general_intelligence.pdf (51 pages, 1233750 byte
 s).
 PDF statistics:
  383 PDF objects out of 1000 (max. 8388607)
