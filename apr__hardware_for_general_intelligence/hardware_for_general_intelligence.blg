@@ -21,6 +21,10 @@ Repeated entry---line 4082 of file hardware_for_general_intelligence.bib
  : @article{rahu2008
  :                  ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 4262 of file hardware_for_general_intelligence.bib
+ : @article{joma1996
+ :                  ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "http://www.atimes.com/leibniz-chinese-invented-first-binary-code/"
 Warning--I didn't find a database entry for "http://www.leibniz-translations.com/binary.htm"
@@ -31,6 +35,7 @@ Warning--I didn't find a database entry for "eskn2014"
 Warning--I didn't find a database entry for "mo1978"
 Warning--I didn't find a database entry for "beba2017"
 Warning--I didn't find a database entry for "ma1983"
+Warning--I didn't find a database entry for "more"
 Warning--I didn't find a database entry for "others"
 Warning--I didn't find a database entry for "hosc1997"
 Warning--I didn't find a database entry for "bepl2003"
@@ -68,4 +73,4 @@ Warning--empty year in bu1950
 Warning--empty title in ai1989
 Warning--empty title in og1989
 Warning--empty year in gobe2016
-(There were 6 error messages)
+(There were 7 error messages)

@@ -74,6 +74,12 @@ R.W. Keyes.
 \newblock Optical logic\textemdash in the light of computer technology.
 \newblock {\em Optica Acta}, 32:525, 1985.
 
+\bibitem{kuwa2017}
+A.~Kumar, Z.~Wan, W.W. Wilcke, and S.S. Iyer.
+\newblock Toward human-scale brain computing using 3d wafer scale integration.
+\newblock {\em ACM Journal on Emerging Technologies in Computing Systems},
+  13:45, 2017.
+
 \bibitem{eskn2015}
 E.~Estrada and P.A. Knight.
 \newblock {\em A First Course in Network Theory}.
@@ -225,6 +231,11 @@ J.~Hawkins and S.~Ahmad.
   in neocortex.
 \newblock {\em Frontiers in Neural Circuits}, 10:23, 2016.
 
+\bibitem{geki2002}
+W.~Gerstner and W.~Kistler.
+\newblock {\em Spiking neuron models}.
+\newblock Cambridge University Press, Cambridge, first edition, 2002.
+
 \bibitem{sh1906}
 C.S. Sherrington.
 \newblock {\em Integrative Action of the Nervous System}.
@@ -284,16 +295,40 @@ J.E. Lisman.
   reliable.
 \newblock {\em Trends Neurosci.}, 20:38, 1997.
 
+\bibitem{fomc1991}
+T.C. Foster and B.L. McNaughton.
+\newblock Long-term enhancement of ca1 synaptic transmission is due to
+  increased quantal size, not quantal content.
+\newblock {\em Hippocampus}, 1:79, 1991.
+
+\bibitem{degu1996}
+D.~Debanne, N.C. Gu\'{e}rineau, B.H. G\"{a}hwiler, and S.M. Thompson.
+\newblock Paired-pulse facilitation and depression at unitary synapses in rat
+  hippocampus: quantal fluctuations affects subsequent release.
+\newblock {\em J. Physiol.}, 491:163, 1996.
+
+\bibitem{frbu2018}
+H.~Freyja \'{O}lafsd\'{o}ttir, D.~Bush, and C.~Barry.
+\newblock The {R}ole of {H}ippocampal {R}eplay in {M}emory and {P}lanning.
+\newblock {\em Current Biology}, 28:R37, 2018.
+
+\bibitem{otei1991}
+T.~Otto, H.~Eichenbaum, C.G. Wible, and S.I. Wiener.
+\newblock Learning-related patterns of ca1 spike trains parallel stimulation
+  parameters optimal for inducing hippocampal long-term potentiation.
+\newblock {\em Hippocampus}, 1:181, 1991.
+
+\bibitem{cama1981}
+A.~Cattaneo, L.~Maffei, and C.~Morrone.
+\newblock Two firing patterns in the discharge of complex cells encoding
+  different attributes of the visual stimulus.
+\newblock {\em Experimental Brain Research}, 43:115, 1981.
+
 \bibitem{izde2003}
 E.M. Izhikevich, N.S. Desai, E.C. Walcott, and F.C. Hoppensteadt.
 \newblock Bursts as a unit of neural information: selective communication via
   resonance.
 \newblock {\em Trends Neurosci.}, 26:161, 2003.
-
-\bibitem{majo2005}
-J.C. Magee and D.~Johnston.
-\newblock Plasticity of dendritic function.
-\newblock {\em Current Opinion in Neurobiology}, 15:334, 2005.
 
 \bibitem{iz2007}
 E.M. Izhikevich.
@@ -343,6 +378,12 @@ W.C. Abraham.
 \newblock Metaplasticity: tuning synapses and networks for plasticity.
 \newblock {\em Nature Neuroscience}, 9:387, 2008.
 
+\bibitem{huli1995}
+P.T. Huerta and J.E. Lisman.
+\newblock Bidirectional synaptic plasticity induced by a single burst during
+  cholinergic theta oscillation in ca1 in vitro.
+\newblock {\em Neuron}, 15:1053, 1995.
+
 \bibitem{wieb1991}
 J.T. Wixted and E.~Ebbesen.
 \newblock On the form of forgetting.
@@ -370,10 +411,40 @@ E.L. Bienenstock, L.N. Cooper, and P.W. Munro.
   specificity and binocular interaction in visual cortex.
 \newblock {\em The Journal of Neuroscience}, 2:32, 1982.
 
-\bibitem{geki2002}
-W.~Gerstner and W.~Kistler.
-\newblock {\em Spiking neuron models}.
-\newblock Cambridge University Press, Cambridge, first edition, 2002.
+\bibitem{majo2005}
+J.C. Magee and D.~Johnston.
+\newblock Plasticity of dendritic function.
+\newblock {\em Current Opinion in Neurobiology}, 15:334, 2005.
+
+\bibitem{pome2001}
+P.~Poirazi and B.W. Mel.
+\newblock Impact of active dendrites and structural plasticity on the memory
+  capacity of neural tissue.
+\newblock {\em Neuron}, 29:779, 2001.
+
+\bibitem{mesc2017}
+B.W. Mel, J.~Schiller, and P.~Poirazi.
+\newblock Synaptic plasticity in dendrites: complications and coping
+  strategies.
+\newblock {\em Current Opinion in Neurobiology}, 43:177, 2017.
+
+\bibitem{nesa2004}
+T.~Nevian and B.~Sakmann.
+\newblock {S}ingle {S}pine $ca^{2+}$ {S}ignals {E}voked by {C}oincident {EPSP}s
+  and {B}ackpropagating {A}ction {P}otentials in {S}piny {S}tellate {C}ells of
+  {L}ayer 4 in the {J}uvenile {R}at {S}omatosensory {B}arrel {C}ortex.
+\newblock {\em Frontiers in Computational Neuroscience}, 11:1, 2017.
+
+\bibitem{hoko2004}
+K.~Holtoff, Y.~Kovalchuk, R.~Yuste, and A.~Konnerth.
+\newblock {S}ingle-shock {LTD} by local dendritic spikes in pyramidal neurons
+  of mouse visual cortex.
+\newblock {\em J. Physiol.}, 560:27, 2004.
+
+\bibitem{sjra2008}
+P.J. Sj\"{o}str\"{o}m, E.A. Rancz, A.~Roth, and M.~H\"{a}usser.
+\newblock Dendritic {E}xcitability and {S}ynaptic {P}lasticity.
+\newblock {\em Physiol. Rev.}, 88:769, 2008.
 
 \bibitem{budr2004}
 G.~Buzsaki and A.~Draguhn.
@@ -554,12 +625,6 @@ J.~Park, T.~Yu, S.~Joshi, C.~Maier, and G.~Cauwenberghs.
   neuromorphic systems.
 \newblock {\em IEEE Trans. Neural Networks and Learning Systems}, 28:2408,
   2017.
-
-\bibitem{kuwa2017}
-A.~Kumar, Z.~Wan, W.W. Wilcke, and S.S. Iyer.
-\newblock Toward human-scale brain computing using 3d wafer scale integration.
-\newblock {\em ACM Journal on Emerging Technologies in Computing Systems},
-  13:45, 2017.
 
 \bibitem{hama2013}
 J.~Hasler and B.~Marr.
@@ -922,5 +987,11 @@ J.~Kilian and H.T. Siegelmann.
 D.~Verstraeten, B.~Schrauwen, M.~D'Haene, and D.~Stroobandt.
 \newblock An experimental unification of reservoir computing methods.
 \newblock {\em Neural Networks}, 20:391, 2007.
+
+\bibitem{scbe2017}
+B.~Scellier and Y.~Bengio.
+\newblock Equilibrium {P}ropagation: {B}ridging the {G}ap between
+  {E}nergy-{B}ased {M}odels and {B}ackpropagation.
+\newblock {\em Frontiers in Computational Neuroscience}, 11:1, 2017.
 
 \end{thebibliography}
