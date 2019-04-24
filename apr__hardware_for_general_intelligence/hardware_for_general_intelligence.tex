@@ -59,6 +59,12 @@ Charles Babbage was able to build upon the work of Pascal, Leibniz, and others t
 
 It would be nearly 100 years before further developments in computing occurred. In 1936, Turing published his seminal work ``On Computable Numbers'' \cite{tu1936}, wherein he introduced the concept of a universal computing machine. The machine\textemdash provided sufficient time and memory\textemdash could execute any computation that is possible, in principle, within the framework established by G\"{o}del \cite{}. Turing's contribution was of fundamental mathematical importance in that it further strengthened the arguments made by G\"{o}del regarding the existence of unsolvable problems (the ``entscheidungsproblem'', as laid out by Hilbert), but Turing's contribution was also of practical importance in that it provided a specific vision for the realization of a universal computer. Turing would go on to design a hardware manifestation of such an apparatus, but his system would never be built. Like the ancient Chinese, Bacon, Leibniz, Babbage, and many others to come, Turing was convinced of the necessity of implementing computation with binary symbols. As he stated in 1947, ``Being digital should be of more interest than being electronic.'' \cite{tu1947} 
 
+%Bardeen, Brattain first demonstration of transistor in germanium 1949 at Bell
+\cite{babr1949}
+
+%first Si MOS transistor in 1960 at Bell
+\cite{ka1976}
+
 Turing's work on decrypting messages encoded by the enigma machine during WWII led to advances in computing hardware, in part by leading to the construction of Colossus, a British machine used for analyzing wartime communications, but also through the influence Turing's ideas had on John von Neumann. Von Neumann appreciated the significance of Turing's universal computer, both for the insights regarding issues of completeness raised by G\"{o}del, and also for the utility of enabling a single machine to be capable of performing any possible calculation. During the war, von Neumann found it imperative that the United States develop an atomic weapon, and he appreciated the necessity of numerically modeling various aspects of the detonation of nuclear weapons. Beginning with the Manhattan Project in Los Alamos, and continuing at the Institute for Advanced Study at Princeton after the war, von Neumann was dedicated to creation of universal calculators in the mold of a Turing machine, the objective being to numerically analyze arbitrary differential equations, represented as difference equations with binary arithmetic. This objective led to the construction of apparatus with a centralized computing unit that could follow arbitrary (clearly articulated) instructions, and could read and store information in a separate memory unit. The memory unit could contain initial conditions, the results of calculations, and instructions that could be modified during the execution of the computation. 
 
 In 1953, a machine at the Institute for Advanced Studies employing this ``von Neumann'' architecture was primarily used for five types of calculations: nuclear explosions, shock waves, meterology, biological evolution, and stellar evolution. Already at that time, the universal machine was analyzing problems across 25 orders of magnitude in time and roughly the same number in space. During the subsequent 70 years, the von Neumann architecture has been used to answer questions regarding essentially every conceivable subject of any concern whatsoever to human beings. This trajectory represents tremendous success regarding von Neumann's initial goal. Nearly all modern computing is based on digital (binary) information processed in a von Neumann architecture, a scheme devised as a means to realize a Turing machine in electronic hardware. 
@@ -137,6 +143,13 @@ bit of history on neural nets, deep learning, disambiguate machine learning, dee
 \item laser cavity dynamics and optical bistability for logic have failed for four decades, but even without investigating the reasons why, this approach to large-scale neural systems can be ruled out based on power considerations. 
 \item \cite{ke1985b} quote on pg 533 re conviction. The goal of my work right now is to discover evidence to build this conviction for soens.
 \item as keyes points out, many are lured to the promise of extremely high speed, and sacrifice other critical elements to get there. we do not fall prey to that temptation. timescales of the brain inform us that activity from 100 Hz to 0.1 Hz can lead to complex cognitive function. If we can achieve anything faster that this in artificial hardware while maintaining the connectivity, device complexity, and hierarchical, modular architecture, it would be a tremendous achievement. Approaches to developing artificial neurons that fire a rates above gigahertz often must sacrifice other aspects of system performance. Superconducting optoelectronic networks appear capable of activity at least ten thousand times faster than our own brains. The device complexity, architectural scalability, and low power density are more important than higher speed. 
+\end{itemize}
+
+
+\subsubsection{\label{sec:neuroscience_history}}
+\begin{itemize}
+\item neuron doctrine, tissue comprised of cells in 1839, Ramon y Cajal, Golgi, and others in 1890s describe neurons as cells of nervous system
+\item Mountcastle/Hubel and Wiesel identify columns and slabs of cortical cells as cortical building blocks
 \end{itemize}
 
 %Silicon: the Semiconductor Material
@@ -458,6 +471,23 @@ General intelligence: The ability to place a wide variety of information into a 
 Mention how deep learning neglects essentially all of the important aspects of neuronal information processing discussed here
 
 \subsection{\label{sec:cognition}Cognition}
+
+\begin{itemize}
+\item Edelman
+\item Baars
+\item 3 2001 reviews
+\item Buszaki
+\item Fries
+\item Singer
+\item Tononi?
+\item Dehane
+\end{itemize}
+
+\vspace{3em}
+columns = modules = specialized processors = subconscious experts
+
+\vspace{3em}
+\cite{ed1978} polling of groups, similar to Baars; requires efficient communication
 
 \subsection{Summary of neural information}
 Von Neumann suspected the existence of a more subtle and powerful language of information employed by the human brain. Neuroscience has elucidated many of the principles of this language. Let us attempt here to summarize the salient elements that should guide neural hardware design. Given the complexity of the subject and the rapidly evolving state of neuroscience, we expect time to bring corrections to these concepts, yet the foundations of these concepts do seem well established.
