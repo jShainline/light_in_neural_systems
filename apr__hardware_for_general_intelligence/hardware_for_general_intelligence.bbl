@@ -16,6 +16,22 @@ C.E. Shannon.
 \newblock A mathematical theory of communication.
 \newblock {\em The Bell System Technical Journal}, 27:379, 1948.
 
+\bibitem{ra1908}
+S.~Ram\'{o}n y~Cajal.
+\newblock {\em Histology of the Nervous System of Man and Vertebrates}.
+\newblock Oxford University Press, New York, 1995.
+
+\bibitem{mo1978}
+V.B. Mountcastle.
+\newblock {\em An {O}rganizing {P}rinciple for {C}erebral {F}unction: {T}he
+  {U}nit {M}odule and the {D}istributed {S}ystem}.
+\newblock The MIT Press, 1978.
+
+\bibitem{mo1965}
+G.E. Moore.
+\newblock Cramming more components onto integrated circuits.
+\newblock {\em Electronics}, 38, 1965.
+
 \bibitem{dy2012}
 G.~Dyson.
 \newblock {\em Turing's Cathedral}.
@@ -32,6 +48,17 @@ A.~Turing.
   1947.
 \newblock 1947.
 \newblock https://www.vordenker.de/downloads/turing-vorlesung.pdf.
+
+\bibitem{babr1949}
+J.~Bardeen and W.~Brattain.
+\newblock Physical {P}rinciples {I}nvolved in {T}ransistor {A}ction.
+\newblock {\em Phys. Rev.}, 75:1208, 1949.
+
+\bibitem{ka1976}
+D.~Kahng.
+\newblock A historical perspective on the development of {MOS} transistors and
+  related devices.
+\newblock {\em IEEE Trans. Electron Dev.}, ED-23:655, 1976.
 
 \bibitem{ne1949}
 J.~von Neumann.
@@ -130,12 +157,6 @@ M.D. Humphries and K.~Gurney.
 \newblock Network 'small-world-ness': a quantitative method for determining
   canonical network equivalence.
 \newblock {\em PLOS One}, 3:2051, 2008.
-
-\bibitem{mo1978}
-V.B. Mountcastle.
-\newblock {\em An {O}rganizing {P}rinciple for {C}erebral {F}unction: {T}he
-  {U}nit {M}odule and the {D}istributed {S}ystem}.
-\newblock The MIT Press, 1978.
 
 \bibitem{bagr2010}
 D.S. Bassett, D.L. Greenfield, A.~Meyer-Lindenberg, D.R. Weinberger, S.W.
@@ -251,11 +272,6 @@ W.~Gerstner and W.~Kistler.
 C.S. Sherrington.
 \newblock {\em Integrative Action of the Nervous System}.
 \newblock Yale University Press, New Haven, Connecticut, 1906.
-
-\bibitem{ra1908}
-S.~Ram\'{o}n y~Cajal.
-\newblock {\em Histology of the Nervous System of Man and Vertebrates}.
-\newblock Oxford University Press, New York, 1995.
 
 \bibitem{koen1996}
 P.~K\"{o}nig, A.K. Engel, and W.~Singer.
@@ -567,6 +583,12 @@ S.~Dehane.
 \newblock {\em Consciousness and the brain}.
 \newblock Penguin, 2014.
 
+\bibitem{navo2016}
+R.A. Nawrocki, R.M. Voyles, and S.E. Shaheen.
+\newblock A {M}ini {R}eview of {N}euromorphic {A}rchitectures and
+  {I}mplementations.
+\newblock {\em IEEE Trans. Elec. Dev.}, 263:3819, 2016.
+
 \bibitem{suwa2015}
 C.~Sun, M.T. Wade, Y.~Lee, J.S. Orcutt, L.~Alloatti, M.S. Georgas, A.S.
   Waterman, J.M. Shainline, R.R. Avizienis, S.~Lin, B.R. Moss, R.~Kumar,
@@ -743,6 +765,19 @@ Z.~Cheng, C.~Rios, W.H.P. Pernice, C.D. Wright, and H.~Bhaskaran.
 \newblock On-chip photonic synapse.
 \newblock {\em Science Advances}, 3:1700160, 2017.
 
+\bibitem{cosc2018}
+F.~Coarer, M.~Sciamanna, A.~Katumba, M.~Freiberger, J.~Dambre, P.~Bienstman,
+  and D.~Rontani.
+\newblock All-{O}ptical {R}eservoir {C}omputing on a {P}hotonic {C}hip {U}sing
+  {S}ilicon-{B}ased {R}ing {R}esonators.
+\newblock {\em IEEE J. Sel. Topics Quant. Electron.}, 24:7600108, 2018.
+
+\bibitem{rofi2017}
+B.~Romeira, J.M.L. Figueredo, and J.~Javaloyes.
+\newblock Delay dynamics of neuromorphic optoelectronic nanoscale resonators:
+  {P}erspectives and applications.
+\newblock {\em Chaos}, 27:114323, 2017.
+
 \bibitem{bu1956}
 D.A. Buck.
 \newblock The cryotron--a superconductive computer component.
@@ -787,11 +822,6 @@ K.K. Likharev and V.K. Semenov.
 \newblock Rsfq logic/memory family: a new josephson-junction technology for
   sub-terahertz-clock-frequency digital systems.
 \newblock {\em IEEE Trans. Appl. Supercond.}, 1:3, 1991.
-
-\bibitem{mo1965}
-G.E. Moore.
-\newblock Cramming more components onto integrated circuits.
-\newblock {\em Electronics}, 38, 1965.
 
 \bibitem{buli2001}
 P.~Bunyk, K.~Likharev, and D.~Zinoviev.
