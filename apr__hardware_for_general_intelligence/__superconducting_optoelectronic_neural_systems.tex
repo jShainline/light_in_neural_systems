@@ -1,0 +1,90 @@
+\subsection{\label{sec:superconducting_optoelectronic}Superconducting Optoelectronic Systems}
+
+%\cite{kafe2015} Waveguide integrated superconducting single-photon detectors with high internal quantum efficiency at telecom wavelengths
+
+These detectors are wires of superconducting material \cite{mave2013}, and they can be straightforwardly patterned atop on-chip dielectric waveguides \cite{shbu2017b,x,y,z}. The nanowire thickness is 4\,nm-10\,nm, its width is 80\,nm-350\,nm, and the interaction length along the waveguide can be as short as 10\,\textmu m. The wire is current biased in parallel with a resistive load (Fig.\,\ref{fig:snspd}), .
+
+Because the detectors are superconducting, they draw very near zero power in the steady state. 
+
+
+
+\begin{itemize}
+
+\item general concept: communication between neurons is photonic; when a neuron spikes it must either generate or modulate light; throughout, speed, size, power all co-optimized
+
+\item first key choice: generate or modulate
+
+\item modulate:
+\begin{itemize}
+\item requires cw light running at all times ($x_{dB/cm} = 1; y_{dB/s} = 100*x_{dB/cm}*c; q_{dB} = 3; t_s = q_{dB}/y_{dB/s}$, for 1\,dB/cm propagation loss, 3\,dB of the light is lost every 100\,ps)
+\item requires frequency tuning, most likely
+\item cross talk of neurons on the same bus
+\end{itemize}
+
+\item generate:
+\begin{itemize}
+\item requires light source at every neuron
+\item requires unprecedented optoelectronic integration, million sources and a billion detectors on a wafer
+\item must be very low capacitance
+\item seems like only a silicon light source will suffice, but this would require cryogenic operation
+\end{itemize}
+
+\item second key choice: establish synaptic weight in the photonic or electronic domain?
+
+\item photonic domain:
+\begin{itemize}
+\item This choice has several important ramifications for hardware and information processing. Regarding information processing, it is usually assumed that neural communication is digital: the presence or absence of an action potential is a binary one or zero, and the amplitude of the action potential is not encoding information. When adjusting the synaptic weight in the photonic domain, this is not the case. The number of photons reaching a neuron through a synaptic connection becomes an analog variable, and it is subject to shot noise, in addition to any noise mechanisms present in the detector. The signal-to-noise ratio of shot noise improves with $\sqrt(N_{\mathrm{ph}})$, where in this case $N_{\mathrm{ph}}$ is the average number of photons, so establishing weights in the photonic domain introduces an energy/noise tradeoff. Setting weights in the photonic domain also has the disadvantage that photons are discarded by attenuation at weak synaptic weights. Thus, by setting synaptic weights in the photonic domain, we place a burden on light sources to produce large numbers of photons to minimize shot noise, and we discard photons when they are attenuated at weak synapses. In this mode of operation, light is used for communication, but it is also used for the important computational operation of applying the synaptic weight.
+\item these objections notwithstanding, to our knowledge, all except one optoelectronic neural approach proposed to date sets weight in photonic domain
+\item specific instances: mzi (no STDP, poor spatial scaling, cross-talk); wdm (limited number of channels, cross-talk with rings on master ring, demands on sources); mzi and wdm (thermal tuning hopeless for scaling, no plasticity mechanisms proposed); phase change synapses (at least don't dissipate steady state, still power lost due to variable attentuation, small footprint, Hebbian learning possible, but STDP not likely, meta, short term also doesn't look promising)
+\end{itemize}
+
+\item electronic domain:
+\begin{itemize}
+\item By contrast, if we establish synaptic weights in the electronic domain, light is used exclusively for communication, and communication remains entirely digital. The presence of an optical signal can be used to represent an all-or-none communication event. In this case, the detector and associated electronics must be able to achieve a variable synaptic response to identical photonic pulses based on the configuration of the electronic aspects of the circuits. In this case, we expect that a neuron will send, on average, $N_{\mathrm{ph}}$ photons to each of its downstream synaptic connections. Due to shot noise, each downstream connection will receive $N_{\mathrm{ph}}\pm\sqrt{N_{\mathrm{ph}}}$ photons, and the detector circuit must be configured to implement a synaptic response if a threshold of $N_{\mathrm{th}}$ photons is detected. After detection, the electronic response must vary depending on the synaptic weight, independently of the precise number of photons that was detected. It is in this electronic response that the signal becomes analog again. Whereas setting the synaptic weights in the photonic domain places a larger burden on light sources, setting the synaptic weights in the electronic domain places a larger burden on detector circuits. One must achieve a detector circuit that converts light pulses to electrical current or voltage, and the amount of electrical signal must be largely independent of the number of photons in the pulse, depending instead on reconfigurable electrical properties of the circuit, such as bias currents or voltages. These reconfigurable bias currents or voltages then represent the synaptic weights, and the task of a neuron's light source is simply to provide a roughly constant number of photons to each of its downstream synaptic connections. For energy efficiency, the number of photons necessary to evoke a synaptic response from the detector ($N_{\mathrm{th}}$) should be made as low as possible to make the job of the light source as easy as possible. $N_{\mathrm{th}}$ cannot be made lower than one, as the electromagnetic field is quantized into integer numbers of photons.
+\item only know of one system where electronic domain has been proposed: soens
+\item basic functionality
+\item stdp
+\item meta
+\item homeo
+\item short-term
+\end{itemize}
+
+\item neuronal computation: reaching threshold
+\begin{itemize}
+\item differentiate between state-based and spiking
+\item main considerations here are energy/power
+\item how much energy is required to generate a pulse or drive a modulator? 
+\item how much light must be made/moved to drive all downstream synaptic connections? 
+\item how fast can pulses be generated (refractory period)? 
+\item how long can neurons remember (leak rate)? 
+\item what is range of spike rates? what is expected power?
+\end{itemize}
+
+\item somewhere in here, comparison of detectors (going cold costs 500x for carnot, but gains 2000x for detector sensitivity)
+\item related, comparison of sources (going cold reduces how many photons must be made, but most importantly, if it means a silicon light source can work for this project, it is a game changer)
+
+\item inhibition, gotta have a plan
+
+\item dendritic processing
+\begin{itemize}
+\item intermediate nonlinearities
+\item direction attention with inhibition
+\item sequence detection
+\item how can any of this happen in the photonic domain?
+\end{itemize}
+
+\item room temp vs cryo
+\begin{itemize}
+\item sources (cryo enables Si sources. for large-scale integration, process simplicity brings tremendous advantage)
+\item detectors (A SiGe photodetectors needs about $10^4$ photons in 100\,ps to respond; efficiency of SNSPDs, low-noise of SNSPDs, simplicity of fabrication, and excellent operation in conjunction with JJs)
+
+\end{itemize}
+
+\end{itemize}
+
+ 
+
+\subsubsection{Superconducting optoelectronic neural systems may overcome challenges of digital systems}
+Let us refer to these challenges with superconducting electronics as: 1) the memory problem; 2) the clock problem; 3) the I/O problem; and 4) the volt problem. We will argue below that a new type of cryotron, implemented in a compact, on-chip, thin-film device can overcome the volt problem, but only if one accepts slower speed than superconducting digital logic seeks, an acceptable trade-off in a neural system. Solving the volt problem this way enables us to generate light, thereby solving the ``O'' part of the I/O problem. The ``I'' part of the problem is solved by utilizing superconducting photon detectors, compact circuit elements developed since 2000 and integrated with photonic circuits within the last decade. With integrated light sources and detectors, superconducting systems can send and receive near-infrared photons over optical fibers, relieving the heat load of co-axial cables, and solving the volt problem at semiconductor photodetectors on the room-temperature side. The asynchronous nature of spiking neural systems eliminates the clock problem, provided synaptic, dendritic, and neuronal integration times can be made longer than the jitter of the circuits. Finally, while the memory problem is the most severe for superconducting digital systems, the prospects for memory in superconducting neural systems are one of the most exciting aspects of the technology. As discussed in Sec.\,\ref{sec:neuroscience}, memory in neural systems involves short-term plasticity, long-term plasticity (STDP, for example), and metaplasticity (that adapts the rate with which synapses change). We find that JJ circuits very naturally implement these functions, and the distributed nature of synaptic memory avoids the difficulty of creating large arrays of addressable superconducting memory elements. 
+
+We will describe these superconducting optoelectronic circuits in more detail in Sec.\,\ref{sec:optoelectronicNeurons}. Let us first turn our attention to JJ circuits that implement neural functions without optical communication.

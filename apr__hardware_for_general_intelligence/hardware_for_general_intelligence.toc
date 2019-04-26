@@ -63,19 +63,20 @@
 \contentsline {subsubsection}{\numberline {3.2.8}Synaptic weights in the electronic domain}{37}
 \contentsline {subsection}{\numberline {3.3}Superconductor electronic neural systems}{38}
 \contentsline {subsubsection}{\numberline {3.3.1}Josephson junctions}{38}
-\contentsline {subsubsection}{\numberline {3.3.2}Superconducting digital logic}{38}
-\contentsline {subsubsection}{\numberline {3.3.3}Superconducting optoelectronic neural systems may overcome challenges of digital systems}{40}
-\contentsline {subsubsection}{\numberline {3.3.4}Neurons based on Josephson junctions}{40}
-\contentsline {subsubsection}{\numberline {3.3.5}Strengths and weaknesses of JJ circuits for neural operation}{42}
-\contentsline {subsection}{\numberline {3.4}Superconducting optoelectronic systems}{43}
+\contentsline {subsubsection}{\numberline {3.3.2}Superconducting digital logic}{39}
+\contentsline {subsubsection}{\numberline {3.3.3}Neurons based on Josephson junctions}{40}
+\contentsline {subsubsection}{\numberline {3.3.4}Strengths and weaknesses of JJ circuits for neural operation}{42}
+\contentsline {subsection}{\numberline {3.4}Superconducting Optoelectronic Systems}{43}
+\contentsline {subsubsection}{\numberline {3.4.1}Superconducting optoelectronic neural systems may overcome challenges of digital systems}{45}
 \contentsline {section}{\numberline {4}Large-scale optoelectronic systems}{45}
 \contentsline {subsection}{\numberline {4.1}Criteria for assessing cognitive neural hardware}{45}
 \contentsline {subsection}{\numberline {4.2}Achieving hierarchical modularity}{46}
 \contentsline {subsection}{\numberline {4.3}Integrated systems across temperature stages}{46}
 \contentsline {subsection}{\numberline {4.4}Optimal environment for operation: the asteroid belt}{46}
 \contentsline {section}{\numberline {5}Application spaces}{46}
-\contentsline {subsection}{\numberline {5.1}Hybrid systems}{46}
+\contentsline {subsection}{\numberline {5.1}Hybrid systems}{47}
 \contentsline {subsubsection}{\numberline {5.1.1}Neural-deep learning hybrid systems}{47}
 \contentsline {subsubsection}{\numberline {5.1.2}Classical-quantum-neural hybrid systems}{47}
-\contentsline {subsubsection}{\numberline {5.1.3}SOENs as the central cognitive hub}{48}
+\contentsline {subsubsection}{\numberline {5.1.3}SOENs as the central cognitive hub}{49}
 \contentsline {section}{\numberline {6}Outlook}{49}
+\contentsline {section}{\numberline {A}Superconducting Interconnects}{54}

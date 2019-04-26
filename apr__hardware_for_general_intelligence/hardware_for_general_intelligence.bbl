@@ -856,6 +856,22 @@ B.~Romeira, J.M.L. Figueredo, and J.~Javaloyes.
   {P}erspectives and applications.
 \newblock {\em Chaos}, 27:114323, 2017.
 
+\bibitem{maar1987}
+B.~Macukow and H.H. Arsenault.
+\newblock Optical associative memory model based on neural networks having
+  variable interconnection weights.
+\newblock {\em Applied Optics}, 26:924, 1987.
+
+\bibitem{waps1987}
+K.~Wagner and D.~Psaltis.
+\newblock Multilayer optical learning networks.
+\newblock {\em Applied Optics}, 26:5061, 1987.
+
+\bibitem{psbr1988}
+D.~Psaltis, D.~Brady, and K.~Wagner.
+\newblock Optical neural computers.
+\newblock {\em Sci. Am.}, 256:88, 1987.
+
 \bibitem{bu1956}
 D.A. Buck.
 \newblock The cryotron--a superconductive computer component.
@@ -1081,5 +1097,41 @@ J.M. Shainline, S.M. Buckley, N.~Nader, C.M. Gentry, K.C. Cossel, J.W. Cleary,
 H.M. Ozaktas.
 \newblock Paradigms of connectivity for computer circuits and networks.
 \newblock {\em Optical Engineering}, 31:1563, 1992.
+
+\bibitem{on1911}
+H.K. Onnes.
+\newblock The resistance of pure mercury at helium temperatures.
+\newblock {\em Commun. Phys. Lab. Univ. Leiden}, 12:1, 1911.
+
+\bibitem{lebe2015}
+Y.~LeCun, Y.~Bengio, and G.~Hinton.
+\newblock Deep learning.
+\newblock {\em Nature}, 521:436, 2015.
+
+\bibitem{gobe2016}
+I.~Goodfellow, Y.~Bengio, and A.~Courville.
+\newblock {\em Deep Learning}.
+\newblock MIT Press.
+
+\bibitem{kisi1996}
+J.~Kilian and H.T. Siegelmann.
+\newblock The dynamic universality of sigmoidal neural networks.
+\newblock {\em Information and Computation}, 128:48, 1996.
+
+\bibitem{vesc2007}
+D.~Verstraeten, B.~Schrauwen, M.~D'Haene, and D.~Stroobandt.
+\newblock An experimental unification of reservoir computing methods.
+\newblock {\em Neural Networks}, 20:391, 2007.
+
+\bibitem{scbe2017}
+B.~Scellier and Y.~Bengio.
+\newblock Equilibrium {P}ropagation: {B}ridging the {G}ap between
+  {E}nergy-{B}ased {M}odels and {B}ackpropagation.
+\newblock {\em Frontiers in Computational Neuroscience}, 11:1, 2017.
+
+\bibitem{dela2017}
+S.~Dehaene, H.~Lau, and S.~Kouider.
+\newblock What is consciousness, and could machines have it?
+\newblock {\em Science}, 358:486, 2017.
 
 \end{thebibliography}
