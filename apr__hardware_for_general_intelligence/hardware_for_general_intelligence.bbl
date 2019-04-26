@@ -27,6 +27,12 @@ V.B. Mountcastle.
   {U}nit {M}odule and the {D}istributed {S}ystem}.
 \newblock The MIT Press, 1978.
 
+\bibitem{ed1978}
+G.M. Edelman.
+\newblock {\em Group {S}election and the {P}hasic {R}eentrant {S}ignaling: {A}
+  {T}heory of {H}igher {B}rain {F}unction}.
+\newblock The MIT Press, 1978.
+
 \bibitem{mo1965}
 G.E. Moore.
 \newblock Cramming more components onto integrated circuits.
@@ -117,6 +123,12 @@ E.~Estrada and P.A. Knight.
 \newblock {\em A First Course in Network Theory}.
 \newblock Oxford, Oxford, United Kingdom, first edition, 2015.
 
+\bibitem{rusp2010}
+M.~Rubinov and O.~Sporns.
+\newblock Complex network measures of brain connectivity: {U}ses and
+  interpretations.
+\newblock {\em NeuroImage}, 52:1059, 2010.
+
 \bibitem{baal1999}
 A.-L. Barabasi and R.~Albert.
 \newblock Emergence of scaling in random networks.
@@ -157,6 +169,17 @@ M.D. Humphries and K.~Gurney.
 \newblock Network 'small-world-ness': a quantitative method for determining
   canonical network equivalence.
 \newblock {\em PLOS One}, 3:2051, 2008.
+
+\bibitem{beba2017}
+R.F. Betzel and D.S. Bassett.
+\newblock Multi-scale brain networks.
+\newblock {\em NeuroImage}, 160:73, 2017.
+
+\bibitem{bosp2015}
+M.~Bota, O.~Sporns, and L.W. Swanson.
+\newblock Architecture of the cerebral cortical association connectome
+  underlying cognition.
+\newblock {\em PNAS}, page E2093, 2015.
 
 \bibitem{bagr2010}
 D.S. Bassett, D.L. Greenfield, A.~Meyer-Lindenberg, D.R. Weinberger, S.W.
@@ -278,6 +301,12 @@ P.~K\"{o}nig, A.K. Engel, and W.~Singer.
 \newblock Integrator or conicidence detector? the role of the cortical neuron
   revisited.
 \newblock {\em Trends Neurosci.}, 19:130, 1996.
+
+\bibitem{sase2000}
+E.~Salinas and T.J. Sejnowski.
+\newblock Impact of correlated synaptic input on output firing rate and
+  variability in simple neuronal models.
+\newblock {\em J. Neurosci.}, 20:6193, 2000.
 
 \bibitem{stsp2015}
 G.J. Stuart and N.~Spruston.
@@ -494,6 +523,11 @@ B.J. Baars.
 \newblock {\em A cognitive theory of consciousness}.
 \newblock Cambridge University Press, 1988.
 
+\bibitem{vala2001}
+F.~Varela, J.-P. Lachaux, E.~Rodriguez, and J.~Martinerie.
+\newblock The brainweb: phase synchronization and large-scale integration.
+\newblock {\em Nature Reviews Neuroscience}, 2:229, 2001.
+
 \bibitem{ravo2001}
 M.~Rabinovich, A.~Volkovskii, P.~Lecanda, R.~Huerta, H.D.I. Abarbanel, and
   G.~Laurent.
@@ -577,6 +611,50 @@ W.L. Shew, H.~Yang, T.~Petermann, R.~Roy, and D.~Plenz.
 \newblock Neuronal avalanches imply maximum dynamic range in cortical networks
   at criticality.
 \newblock {\em The Journal of Neuroscience}, 29:15595, 2009.
+
+\bibitem{edmo1978}
+G.M. Edelman and V.B. Mountcastle.
+\newblock {\em The {M}indful {B}rain: {C}ortical {O}rganization and the
+  {G}roup-{S}elective {T}heory of {H}igher {B}rain {F}unction}.
+\newblock The MIT Press, 1978.
+
+\bibitem{stsa2000}
+A.~von Stein and J.~Sarnthein.
+\newblock Different frequencies for different scales of cortical integration:
+  from local gamma to long range alpha/theta synchronization.
+\newblock {\em Int. J. Psychophysiology}, 38:301, 2000.
+
+\bibitem{sape1998}
+J.~Sarnthein, H.~Petsche, P.~Rappelsberger, G.L. Shaw, and A.~Von Stein.
+\newblock Synchronization between prefrontal and posterior association cortex
+  during human working memory.
+\newblock {\em Proc. Natl. Acad. Sci.}, 95:7092, 1998.
+
+\bibitem{jeco2007}
+O.~Jensen and L.L. Colgin.
+\newblock Cross-frequency coupling between neuronal oscillations.
+\newblock {\em Trends in Cognitive Sciences}, 11:268, 2007.
+
+\bibitem{uhro2009}
+P.J. Uhlhaas, F.~Roux, E.~Rodriguez, A.~Rotarska-Jagiela, and W.~Singer.
+\newblock Neural synchrony and the development of cortical networks.
+\newblock {\em Trends in Cognitive Sciences}, 14:72, 2009.
+
+\bibitem{robu2015}
+L.~Roux and G.~Buzsaki.
+\newblock Tasks for inhibitory interneurons in intact brain circuits.
+\newblock {\em Neuropharmacology}, 88:10, 2015.
+
+\bibitem{enfr2001}
+A.K. Engel, P.~Fries, and W.~Singer.
+\newblock Dynamic predictions: oscillations and synchrony in top-down
+  processing.
+\newblock {\em Nature Reviews Neuroscience}, 2:704, 2001.
+
+\bibitem{fr2015}
+P.~Fries.
+\newblock Rhythms for {C}ognition: {C}ommunication through {C}oherence.
+\newblock {\em Neuron}, 88:220, 2015.
 
 \bibitem{de2014}
 S.~Dehane.
@@ -1034,5 +1112,10 @@ B.~Scellier and Y.~Bengio.
 \newblock Equilibrium {P}ropagation: {B}ridging the {G}ap between
   {E}nergy-{B}ased {M}odels and {B}ackpropagation.
 \newblock {\em Frontiers in Computational Neuroscience}, 11:1, 2017.
+
+\bibitem{dela2017}
+S.~Dehaene, H.~Lau, and S.~Kouider.
+\newblock What is consciousness, and could machines have it?
+\newblock {\em Science}, 358:486, 2017.
 
 \end{thebibliography}

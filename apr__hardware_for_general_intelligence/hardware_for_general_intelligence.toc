@@ -3,74 +3,80 @@
 \contentsline {subsubsection}{\numberline {1.1.1}The Origins of Digital Computing}{3}
 \contentsline {subsection}{\numberline {1.2}Strengths of semiconductors for digital logic (Keyes)}{6}
 \contentsline {subsubsection}{\numberline {1.2.1}}{7}
-\contentsline {section}{\numberline {2}Information Processing in Neural Systems}{7}
+\contentsline {section}{\numberline {2}Information Processing in Neural Systems}{8}
 \contentsline {subsection}{\numberline {2.1}Spatial Structure of Neural Systems}{8}
 \contentsline {subsubsection}{\numberline {2.1.1}Adjacency matrix}{8}
 \contentsline {subsubsection}{\numberline {2.1.2}Node Degree and Degree Distribution}{8}
 \contentsline {subsubsection}{\numberline {2.1.3}Path Length}{8}
-\contentsline {subsubsection}{\numberline {2.1.4}Clustering}{8}
-\contentsline {subsubsection}{\numberline {2.1.5}Small-World Networks}{9}
-\contentsline {subsubsection}{\numberline {2.1.6}Modularity and Hierarchy}{9}
+\contentsline {subsubsection}{\numberline {2.1.4}Clustering}{9}
+\contentsline {subsubsection}{\numberline {2.1.5}Small-World Networks}{10}
+\contentsline {subsubsection}{\numberline {2.1.6}Modularity and Hierarchy}{10}
 \contentsline {subsubsection}{\numberline {2.1.7}Rentian Analysis}{10}
-\contentsline {subsubsection}{\numberline {2.1.8}Summary of Spatial Considerations}{10}
+\contentsline {subsubsection}{\numberline {2.1.8}Summary of Spatial Considerations}{11}
 \contentsline {subsection}{\numberline {2.2}Temporal Dynamics of Neural Systems}{11}
 \contentsline {subsubsection}{\numberline {2.2.1}Device Dynamics}{11}
 \contentsline {paragraph}{\numberline {2.2.1.1}Relaxation Oscillators}{11}
-\contentsline {paragraph}{\numberline {2.2.1.2}Information Coding by Relaxation Oscillators}{11}
+\contentsline {paragraph}{\numberline {2.2.1.2}Information Coding by Relaxation Oscillators}{12}
 \contentsline {paragraph}{\numberline {2.2.1.3}Binary communication and post-synaptic response}{12}
-\contentsline {paragraph}{\numberline {2.2.1.4}The Neuron as a Complex Information Processing System}{12}
+\contentsline {paragraph}{\numberline {2.2.1.4}The Neuron as a Complex Information Processing System}{13}
 \contentsline {paragraph}{\numberline {2.2.1.5}Coincidence and Sequence Detection in Active Dendrites}{13}
 \contentsline {paragraph}{\numberline {2.2.1.6}Communication in Bursts}{14}
 \contentsline {paragraph}{\numberline {2.2.1.7}Summary of Coding Strategies}{15}
 \contentsline {paragraph}{\numberline {2.2.1.8}Short-Term Synaptic Plasticity}{15}
-\contentsline {paragraph}{\numberline {2.2.1.9}Subthreshold Membrane Oscillations}{15}
-\contentsline {paragraph}{\numberline {2.2.1.10}Long-Term Synaptic Plasticity}{15}
-\contentsline {paragraph}{\numberline {2.2.1.11}Metaplasticity}{16}
+\contentsline {paragraph}{\numberline {2.2.1.9}Subthreshold Membrane Oscillations}{16}
+\contentsline {paragraph}{\numberline {2.2.1.10}Long-Term Synaptic Plasticity}{16}
+\contentsline {paragraph}{\numberline {2.2.1.11}Metaplasticity}{17}
 \contentsline {paragraph}{\numberline {2.2.1.12}Homeostatic Plasticity}{17}
 \contentsline {paragraph}{\numberline {2.2.1.13}Dendritic Processing}{17}
-\contentsline {paragraph}{\numberline {2.2.1.14}Dendrites and Plasticity}{17}
+\contentsline {paragraph}{\numberline {2.2.1.14}Dendrites and Plasticity}{18}
 \contentsline {paragraph}{\numberline {2.2.1.15}Summary of Neural Device Dynamics}{18}
 \contentsline {subsubsection}{\numberline {2.2.2}From devices to populations}{18}
-\contentsline {paragraph}{\numberline {2.2.2.1}Oscillations and synchrony}{18}
+\contentsline {paragraph}{\numberline {2.2.2.1}Oscillations and synchrony}{19}
 \contentsline {paragraph}{\numberline {2.2.2.2}The dynamical systems perspective}{20}
-\contentsline {paragraph}{\numberline {2.2.2.3}Criticality and the fractal use of space and time}{20}
+\contentsline {paragraph}{\numberline {2.2.2.3}Criticality and the fractal use of space and time}{21}
 \contentsline {paragraph}{\numberline {2.2.2.4}Neuronal avalanches}{21}
 \contentsline {subsection}{\numberline {2.3}Cognition}{23}
-\contentsline {subsection}{\numberline {2.4}Summary of neural information}{23}
-\contentsline {section}{\numberline {3}Semiconductor electronic neural systems}{25}
-\contentsline {subsection}{\numberline {3.1}Efforts in silicon microelectronic neural systems}{25}
-\contentsline {subsection}{\numberline {3.2}The von Neumann bottleneck}{25}
-\contentsline {subsection}{\numberline {3.3}Fan-out limitations}{26}
-\contentsline {subsection}{\numberline {3.4}Shared communication infrastructure}{26}
-\contentsline {subsection}{\numberline {3.5}Address-event representation}{27}
-\contentsline {subsection}{\numberline {3.6}Contention delay in neural systems}{27}
-\contentsline {subsection}{\numberline {3.7}Summary of challenges of silicon microelectronic neural systems}{27}
-\contentsline {subsection}{\numberline {3.8}Actual versus emulated neurons}{28}
-\contentsline {section}{\numberline {4}Photonic Neural Systems}{29}
-\contentsline {subsection}{\numberline {4.1}Silicon photonics and superchips}{29}
-\contentsline {subsection}{\numberline {4.2}Silicon light sources: the great Achilles' heel}{29}
-\contentsline {subsection}{\numberline {4.3}Systems with off-chip sources}{30}
-\contentsline {subsection}{\numberline {4.4}Deep learning with silicon photonics}{30}
-\contentsline {subsection}{\numberline {4.5}Spiking neurons with compound semiconductor lasers}{31}
-\contentsline {subsection}{\numberline {4.6}Wavelength-division multiplexing for routing and synaptic weighting}{32}
-\contentsline {subsection}{\numberline {4.7}Phase change materials for synaptic weighting}{32}
-\contentsline {subsection}{\numberline {4.8}Synaptic weights in the electronic domain}{33}
-\contentsline {section}{\numberline {5}Superconductor electronic neural systems}{33}
-\contentsline {subsection}{\numberline {5.1}Josephson junctions}{34}
-\contentsline {subsection}{\numberline {5.2}Superconducting digital logic}{34}
-\contentsline {subsection}{\numberline {5.3}Superconducting optoelectronic neural systems may overcome challenges of digital systems}{36}
-\contentsline {subsection}{\numberline {5.4}Neurons based on Josephson junctions}{36}
-\contentsline {subsection}{\numberline {5.5}Strengths and weaknesses of JJ circuits for neural operation}{37}
-\contentsline {section}{\numberline {6}Superconducting optoelectronic systems}{39}
-\contentsline {section}{\numberline {7}Large-scale optoelectronic systems}{41}
-\contentsline {subsection}{\numberline {7.1}Criteria for assessing cognitive neural hardware}{41}
-\contentsline {subsection}{\numberline {7.2}Achieving hierarchical modularity}{42}
-\contentsline {subsection}{\numberline {7.3}Integrated systems across temperature stages}{42}
-\contentsline {subsection}{\numberline {7.4}Optimal environment for operation: the asteroid belt}{42}
-\contentsline {section}{\numberline {8}Application spaces}{42}
-\contentsline {subsection}{\numberline {8.1}Hybrid systems}{42}
-\contentsline {subsubsection}{\numberline {8.1.1}Neural-deep learning hybrid systems}{42}
-\contentsline {subsubsection}{\numberline {8.1.2}Classical-quantum-neural hybrid systems}{42}
-\contentsline {subsubsection}{\numberline {8.1.3}SOENs as the central cognitive hub}{44}
-\contentsline {section}{\numberline {9}Outlook}{44}
-\contentsline {section}{\numberline {A}Superconducting Interconnects}{49}
+\contentsline {subsubsection}{\numberline {2.3.1}Edelman's Model of Cognition}{23}
+\contentsline {subsubsection}{\numberline {2.3.2}Baars Model of the Global Neuronal Workspace}{24}
+\contentsline {subsubsection}{\numberline {2.3.3}The Role of Synchronization in Cognition}{25}
+\contentsline {subsubsection}{\numberline {2.3.4}Experimental Progress Identifying the Mechanisms of Cognition}{26}
+\contentsline {subsubsection}{\numberline {2.3.5}Lessons for Design of Hardware for General Intelligence}{26}
+\contentsline {subsection}{\numberline {2.4}Summary of neural information}{27}
+\contentsline {section}{\numberline {3}Candidate Hardware Platforms for General Intelligence}{29}
+\contentsline {subsection}{\numberline {3.1}Semiconductor electronic neural systems}{29}
+\contentsline {subsubsection}{\numberline {3.1.1}Efforts in silicon microelectronic neural systems}{29}
+\contentsline {subsubsection}{\numberline {3.1.2}The von Neumann bottleneck}{30}
+\contentsline {subsubsection}{\numberline {3.1.3}Fan-out limitations}{30}
+\contentsline {subsubsection}{\numberline {3.1.4}Shared communication infrastructure}{31}
+\contentsline {subsubsection}{\numberline {3.1.5}Address-event representation}{31}
+\contentsline {subsubsection}{\numberline {3.1.6}Contention delay in neural systems}{31}
+\contentsline {subsubsection}{\numberline {3.1.7}Summary of challenges of silicon microelectronic neural systems}{32}
+\contentsline {subsubsection}{\numberline {3.1.8}Actual versus emulated neurons}{32}
+\contentsline {subsection}{\numberline {3.2}Photonic Neural Systems}{33}
+\contentsline {subsubsection}{\numberline {3.2.1}Silicon photonics and superchips}{33}
+\contentsline {subsubsection}{\numberline {3.2.2}Silicon light sources: the great Achilles' heel}{34}
+\contentsline {subsubsection}{\numberline {3.2.3}Systems with off-chip sources}{34}
+\contentsline {subsubsection}{\numberline {3.2.4}Deep learning with silicon photonics}{35}
+\contentsline {subsubsection}{\numberline {3.2.5}Spiking neurons with compound semiconductor lasers}{35}
+\contentsline {subsubsection}{\numberline {3.2.6}Wavelength-division multiplexing for routing and synaptic weighting}{36}
+\contentsline {subsubsection}{\numberline {3.2.7}Phase change materials for synaptic weighting}{37}
+\contentsline {subsubsection}{\numberline {3.2.8}Synaptic weights in the electronic domain}{37}
+\contentsline {subsection}{\numberline {3.3}Superconductor electronic neural systems}{38}
+\contentsline {subsubsection}{\numberline {3.3.1}Josephson junctions}{38}
+\contentsline {subsubsection}{\numberline {3.3.2}Superconducting digital logic}{38}
+\contentsline {subsubsection}{\numberline {3.3.3}Superconducting optoelectronic neural systems may overcome challenges of digital systems}{40}
+\contentsline {subsubsection}{\numberline {3.3.4}Neurons based on Josephson junctions}{40}
+\contentsline {subsubsection}{\numberline {3.3.5}Strengths and weaknesses of JJ circuits for neural operation}{42}
+\contentsline {subsection}{\numberline {3.4}Superconducting optoelectronic systems}{43}
+\contentsline {section}{\numberline {4}Large-scale optoelectronic systems}{45}
+\contentsline {subsection}{\numberline {4.1}Criteria for assessing cognitive neural hardware}{45}
+\contentsline {subsection}{\numberline {4.2}Achieving hierarchical modularity}{46}
+\contentsline {subsection}{\numberline {4.3}Integrated systems across temperature stages}{46}
+\contentsline {subsection}{\numberline {4.4}Optimal environment for operation: the asteroid belt}{46}
+\contentsline {section}{\numberline {5}Application spaces}{46}
+\contentsline {subsection}{\numberline {5.1}Hybrid systems}{46}
+\contentsline {subsubsection}{\numberline {5.1.1}Neural-deep learning hybrid systems}{47}
+\contentsline {subsubsection}{\numberline {5.1.2}Classical-quantum-neural hybrid systems}{47}
+\contentsline {subsubsection}{\numberline {5.1.3}SOENs as the central cognitive hub}{48}
+\contentsline {section}{\numberline {6}Outlook}{49}
+\contentsline {section}{\numberline {A}Superconducting Interconnects}{53}
