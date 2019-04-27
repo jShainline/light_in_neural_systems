@@ -118,6 +118,17 @@ W.~Heywang and K.H. Zaininger.
 \newblock {\em Silicon: the {S}emiconductor {M}aterial}, chapter~2.
 \newblock Springer-Verlag, 2004.
 
+\bibitem{abps1987}
+Y.S. Abu-Mostafa and D.~Psaltis.
+\newblock Optical neural computers.
+\newblock {\em Sci. Am.}, 256:88, 1987.
+
+\bibitem{ho1982}
+J.J. Hopfield.
+\newblock Neural networks and physical systems with emergent computational
+  abilities.
+\newblock {\em PNAS}, 79:2554, 1982.
+
 \bibitem{eskn2015}
 E.~Estrada and P.A. Knight.
 \newblock {\em A First Course in Network Theory}.
@@ -742,6 +753,22 @@ J.~Hasler and B.~Marr.
 \newblock Finding a roadmap to achieve large neuromorphic hardware systems.
 \newblock {\em Front. Neurosci.}, 7:118, 2013.
 
+\bibitem{maar1987}
+B.~Macukow and H.H. Arsenault.
+\newblock Optical associative memory model based on neural networks having
+  variable interconnection weights.
+\newblock {\em Applied Optics}, 26:924, 1987.
+
+\bibitem{waps1987}
+K.~Wagner and D.~Psaltis.
+\newblock Multilayer optical learning networks.
+\newblock {\em Applied Optics}, 26:5061, 1987.
+
+\bibitem{psbr1988}
+D.~Psaltis, D.~Brady, and K.~Wagner.
+\newblock Optical neural computers.
+\newblock {\em Sci. Am.}, 256:88, 1987.
+
 \bibitem{sobe1987}
 R.~Soref and B.~Bennett.
 \newblock Electrooptical effects in silicon.
@@ -855,22 +882,6 @@ B.~Romeira, J.M.L. Figueredo, and J.~Javaloyes.
 \newblock Delay dynamics of neuromorphic optoelectronic nanoscale resonators:
   {P}erspectives and applications.
 \newblock {\em Chaos}, 27:114323, 2017.
-
-\bibitem{maar1987}
-B.~Macukow and H.H. Arsenault.
-\newblock Optical associative memory model based on neural networks having
-  variable interconnection weights.
-\newblock {\em Applied Optics}, 26:924, 1987.
-
-\bibitem{waps1987}
-K.~Wagner and D.~Psaltis.
-\newblock Multilayer optical learning networks.
-\newblock {\em Applied Optics}, 26:5061, 1987.
-
-\bibitem{psbr1988}
-D.~Psaltis, D.~Brady, and K.~Wagner.
-\newblock Optical neural computers.
-\newblock {\em Sci. Am.}, 256:88, 1987.
 
 \bibitem{bu1956}
 D.A. Buck.

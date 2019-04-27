@@ -1,7 +1,32 @@
 \subsection{\label{sec:photonic_neural_systems}Photonic Neural Systems}
 A major goal of photonics is to augment CMOS electronic hardware to aid in communication. Optical communication shows indisputable advantages over long distances, as exemplified in global fiber optic networks as well as local-area networks. On the chip scale, the advantages of optical communication must contend with the challenges of optoelectronic hardware integration. 
 
-\subsubsection{Silicon photonics and superchips}
+\subsubsection{Free-Space Optical Neural Nets}
+The late 1980s 
+
+\vspace{3em}
+Matrix-vector multiplication has been a draw toward optics for some time \cite{maar1987}
+
+\vspace{3em}
+holographic gratings in photorefractive crystals store associative memories and use backprop for training, similar to recent Shanhui Fan \cite{waps1987} nonlinear etalon for sigmoid response; intended for image classification, not much different than deep learning today with sigmoid activation functions and backprop. ``This architecture combines the robustness of the distributed neural computation and the backpropagation learning procedure with the hight speed processing of nonlinear etalons, the self-aligning ability of phase conjugate mirrors, and the massive storage capacity of volume holograms to produce a powerful and flexible optical processor.'' Potential reasons this technology didn't catch on: free space optics, bulky, difficult to package, not fieldable, requires experience with optics to operate, difficult to scale to large systems, nonlinearity utilizes bistability which has a history of being difficult to manage, based on photorefractive effect which is volatile, free-space interconnectivity is bulky and difficult, requires many sources, high power for nonlinear effects for hologram and etalon, how to get data in?, fan-out limited by gain of nonlinear devices and dictates an information-collapsing network architecture
+
+\vspace{3em}
+\cite{psbr1988}
+``...in an optical implementation each grating corresponds to a separate interconnection between two neurons...''
+
+\vspace{3em}
+``It is the ability to establish an extensive communication network among processing elements that primarily distinguishes optical technology from semiconductor technology in its application to computation.'' \cite{abps1987} However, in that and other related work at the time, the objective was to utilize optical signals propagating in free space to interconnect neural processing elements. Using light in this manner has the advantage that ``multiple beams of light can pass through lenses or prisms and still remain separate,'' \cite{abps1987} yet routing of free-space optical signals brings new challenges for complex neural systems. To achieve connectivity graphs corresponding to neural networks with feed-forward, feed-back, and recurrent connections, light cannot travel only in straight lines, but rather must branch and change direction many times. Construction of complex networks with free-space optics, mirrors, and lenses quickly leads to issues related to scaling. 
+
+As Goodman pointed out in 1985, ``quote from Goodman's paper'' The benefits of light for fan-out can be difficult to harness in free space. We may expect the situation to improve with on-chip waveguides. ``Two beams of light, unlike a pair of current-carrying wires, can cross without affecting each other.'' \cite{abps1987} At the same time that free-space optical neural computers were being developed based on holographic memory, the field of integrated photonics was emerging.
+
+\vspace{3em}
+Switching elements made from nonlinear optical materials require too much power to scale, and often require III-V materials. This leads to discussion of optical transistors, in which one optical beam controls the transmission of another. ``Each element can be either a purely optical switch or an optoelectronic combination of light detector, electronic switch and light emitter.'' \cite{abps1987}
+ 
+
+
+
+
+\subsubsection{Silicon Photonics and Superchips}
 In 1987, Soref and Bennett introduced the concept of using the shift in index of refraction that results from free carriers in silicon to achieve active optical components based on silicon waveguides \cite{sobe1987}. This insight would have to wait until the development of silicon-on-insulator wafers in the early 2000s to be put into practice. Since then, an explosion of activity has occurred in the rapidly developing field of silicon photonics. Electro-optic effects have been used to make a variety of modulators \cite{rema2010} operating into the 10s of GHz based most commonly on Mach-Zehnder interferometers \cite{lisa2005} or microring resonators \cite{xuma2007}. In addition to the free-carrier electro-optic effects, in 1993 Soref also pointed to thermo-optic effects as a means to make dynamic photonic components on an optoelectronic chip \cite{so1993}. The combination of electro-optic effects for fast index perturbation and thermo-optic effects for slow resonance tuning, in conjunction with etched silicon waveguide structures in silicon-on-insulator substrates, established a foundation of active components capable of signal switching, filtering, and modulation. In his 1993 paper, titled \textit{Silicon-based optoelectronics}, Soref presented a more expansive view of the potential for what he termed ``superchips'' that combine the strengths of photonics and electronics monolithically on a single silicon chip. Silicon had long been the material of choice for integrated microelectronics, but Soref had identified a path to make silicon also a powerhouse in photonics as well.
 
 To make use of silicon as a waveguiding medium so that the active components described above can be implemented, one must utilize light with photon energy less than the band gap of silicon ($E_{\mathrm{g}}=1.17$\,eV/$\lambda = 1.06$\,\textmu m at 0\,K; $E_{\mathrm{g}}=1.11$\,eV/$\lambda = 1.12$\,\textmu m at 300\,K). The buried oxide of silicon-on-insulator wafers becomes absorptive for $\lambda \gtrsim 2$\,\textmu m. Thus, the transparency window of silicon-on-insulator waveguides enables operation with wavelengths below 1.2\,\textmu m, and includes the important telecom bands (O-band:1260\,nm-1360\,nm; C-band: 1530\,nm-1565\,nm), whose significance results from the very low attenuation of optical fibers at these wavelengths. Thus, silicon integrated photonic components can be interfaced with optical fibers for communication across long distances. 
@@ -69,14 +94,5 @@ To reach the physical limit of single-photon synaptic threshold, superconducting
 %Delay dynamics of neuromorphic optoelectronic nanoscale resonators: {P}erspectives and applications
 \cite{rofi2017}
 
-\vspace{3em}
-Matrix-vector multiplication has been a draw toward optics for some time \cite{maar1987}
-
-\vspace{3em}
-holographic gratings in photorefractive crystals store associative memories and use backprop for training, similar to recent Shanhui Fan \cite{waps1987} nonlinear etalon for sigmoid response; intended for image classification, not much different than deep learning today with sigmoid activation functions and backprop. ``This architecture combines the robustness of the distributed neural computation and the backpropagation learning procedure with the hight speed processing of nonlinear etalons, the self-aligning ability of phase conjugate mirrors, and the massive storage capacity of volume holograms to produce a powerful and flexible optical processor.'' Potential reasons this technology didn't catch on: free space optics, bulky, difficult to package, not fieldable, requires experience with optics to operate, difficult to scale to large systems, nonlinearity utilizes bistability which has a history of being difficult to manage, based on photorefractive effect which is volatile, free-space interconnectivity is bulky and difficult, requires many sources, high power for nonlinear effects for hologram and etalon, how to get data in?, fan-out limited by gain of nonlinear devices and dictates an information-collapsing network architecture
-
-\vspace{3em}
-\cite{psbr1988}
-``...in an optical implementation each grating corresponds to a separate interconnection between two neurons...''
 
 
