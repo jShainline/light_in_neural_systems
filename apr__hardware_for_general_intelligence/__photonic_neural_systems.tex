@@ -1,14 +1,39 @@
 \subsection{\label{sec:photonic_neural_systems}Photonic Neural Systems}
-A major goal of photonics is to augment CMOS electronic hardware to aid in communication. Optical communication shows indisputable advantages over long distances, as exemplified in global fiber optic networks as well as local-area networks. On the chip scale, the advantages of optical communication must contend with the challenges of optoelectronic hardware integration. 
+Historically, optics in computation has aspired to achieve special-purpose accelerators, such as Fourier transform devices (which can be implemented in free space with a lens, but also in slab-guided modes in integrated photonic systems \cite{shha1968,anbo1977}), as well as all-optical digital computing systems. At present, a major goal of photonics is to augment CMOS electronic hardware to aid in communication. Optical communication shows indisputable advantages over long distances, as exemplified in global fiber optic networks as well as local-area networks. On the chip scale, the advantages of optical communication must contend with the challenges of optoelectronic hardware integration. 
+
+\vspace{3em}
+Foundations of optical waveguide theory can be found in Refs.\,\cite{snlo1983} and \cite{hu2009}.
+
+\subsection{Optics for Digital Computing}
+%integrated-optical approaches to numerical optical processing
+\cite{ve1984} In 1984, Verber stated, ``A problem which has been common to almost all efforts to perform numerical computations by optical techniques has been the accuracy limitation imposed by the inrinsically analog nature of the devices. Although the ultimate solution to this problem is generally accepted to be in the application of optical bistable devices to produce fully binary optical systems, the long development times anticipated for these systems has led to several other approaches to higher accuracy computation using analog optical techniques.'' Approaches to improving the accuracy of analog optical computations have been proposed \cite{psca1980,arha1984}, but neither analog In 2019, these problems have not been solved, and binary optical systems have not proven capable of displacing CMOS for digital computing. 
+
+\vspace{3em}
+After decades of research, the phrase ``all-optical'' now sets off alarm bells, and one must ask if the advantage gained (usually speed) is worth neglecting to utilize the myriad competencies of electrical circuits.
+
+\vspace{3em}
+This one demonstrated a functional photonic logic device
+%Symmetric Self-Electrooptic Effect Device: Optical Set-Reset Latch, Differential Logic Gate, and Differential Modulator/Detector
+\cite{lehi1989}
+
+And this one used it in a system
+%Six-stage digital free-space optical switching network using symmetric self-electro-optic-effect devices
+\cite{mccl1993}
+
+
+\vspace{3em}
+``...it is the need to limit power dissipation that largely constrains clock rates in current electronic devices\textemdash lower operating voltages give slower speeds but correspondingly lower energies per operation.'' \cite{mi2010}.
+
+\vspace{3em}
+``...we have to remind ourselves that the field of integrated optics is still in its infancy, still in its research stage, and still searching for its proper role.'' \cite{ko1981}
+``The arguments for optical wiring are understood even down to the chip-level, but chip-scale optical interconnect technology is still in its infancy.'' \cite{mi2010}
 
 \subsubsection{Free-Space Optical Neural Nets}
 The late 1980s 
 
-\vspace{3em}
-Matrix-vector multiplication has been a draw toward optics for some time \cite{maar1987}
 
 \vspace{3em}
-holographic gratings in photorefractive crystals store associative memories and use backprop for training, similar to recent Shanhui Fan \cite{waps1987} nonlinear etalon for sigmoid response; intended for image classification, not much different than deep learning today with sigmoid activation functions and backprop. ``This architecture combines the robustness of the distributed neural computation and the backpropagation learning procedure with the hight speed processing of nonlinear etalons, the self-aligning ability of phase conjugate mirrors, and the massive storage capacity of volume holograms to produce a powerful and flexible optical processor.'' Potential reasons this technology didn't catch on: free space optics, bulky, difficult to package, not fieldable, requires experience with optics to operate, difficult to scale to large systems, nonlinearity utilizes bistability which has a history of being difficult to manage, based on photorefractive effect which is volatile, free-space interconnectivity is bulky and difficult, requires many sources, high power for nonlinear effects for hologram and etalon, how to get data in?, fan-out limited by gain of nonlinear devices and dictates an information-collapsing network architecture
+holographic gratings in photorefractive crystals store associative memories and use backprop for training, similar to recent Shanhui Fan \cite{waps1987} nonlinear etalon for sigmoid response; intended for image classification, not much different than deep learning today with sigmoid activation functions and backprop. ``This architecture combines the robustness of the distributed neural computation and the backpropagation learning procedure with the hight speed processing of nonlinear etalons, the self-aligning ability of phase conjugate mirrors, and the massive storage capacity of volume holograms to produce a powerful and flexible optical processor.'' Potential reasons this technology didn't catch on: free space optics, bulky, difficult to package, not fieldable, requires experience with optics to operate, difficult to scale to large systems, nonlinearity utilizes bistability \cite{gi1985} which has a history of being difficult to manage, based on photorefractive effect which is volatile, free-space interconnectivity is bulky and difficult, requires many sources, high power for nonlinear effects for hologram and etalon, how to get data in?, fan-out limited by gain of nonlinear devices and dictates an information-collapsing network architecture
 
 \vspace{3em}
 \cite{psbr1988}
@@ -22,9 +47,28 @@ As Goodman pointed out in 1985, ``quote from Goodman's paper'' The benefits of l
 \vspace{3em}
 Switching elements made from nonlinear optical materials require too much power to scale, and often require III-V materials. This leads to discussion of optical transistors, in which one optical beam controls the transmission of another. ``Each element can be either a purely optical switch or an optoelectronic combination of light detector, electronic switch and light emitter.'' \cite{abps1987}
  
+\subsubsection{The Move to Integrated Photonics}
+Goal was to follow the model of the integrated circuit, utilize lithographic fabrication and system complexity that can be achieved through integration of components on a chip. 
 
+\paragraph{Components Required for Integrated Photonics}
+\begin{itemize}
+\item passives: waveguides and routing, beam splitters and power taps (y-junctions, evanescent couplers, adiabatic 50-50 beam splitters), spectral filters (microrings \cite{ra2007} and gratings), waveguide crossings
+\item sources
+\item detectors
+\item electrooptic: modulators and phase shifters (rings, MZIs \cite{ohno1975}), SAW transducers for imparting a phase shift
+\end{itemize}
 
+\paragraph{Materials for Integrated Photonics}
+\begin{itemize}
+\item III-V
+\item LiNbO$_3$
+\item silica
+\item silicon
+\item SiN
+\end{itemize}
 
+\vspace{3em}
+Active integrated photonic components were beginning to be developed in the mid 1970s \cite{ohno1975}, and by the mid 1980s many elements of the field of integrated photonics were taking shape \cite{ve1984}. Primary applications included RF signal processing and analog numerical processing \cite{ve1984}. Proposals for all-optical digital computers were made based on the key element of a bistable optical cavity. However, the important sub-field of silicon photonics had not yet emerged.
 
 \subsubsection{Silicon Photonics and Superchips}
 In 1987, Soref and Bennett introduced the concept of using the shift in index of refraction that results from free carriers in silicon to achieve active optical components based on silicon waveguides \cite{sobe1987}. This insight would have to wait until the development of silicon-on-insulator wafers in the early 2000s to be put into practice. Since then, an explosion of activity has occurred in the rapidly developing field of silicon photonics. Electro-optic effects have been used to make a variety of modulators \cite{rema2010} operating into the 10s of GHz based most commonly on Mach-Zehnder interferometers \cite{lisa2005} or microring resonators \cite{xuma2007}. In addition to the free-carrier electro-optic effects, in 1993 Soref also pointed to thermo-optic effects as a means to make dynamic photonic components on an optoelectronic chip \cite{so1993}. The combination of electro-optic effects for fast index perturbation and thermo-optic effects for slow resonance tuning, in conjunction with etched silicon waveguide structures in silicon-on-insulator substrates, established a foundation of active components capable of signal switching, filtering, and modulation. In his 1993 paper, titled \textit{Silicon-based optoelectronics}, Soref presented a more expansive view of the potential for what he termed ``superchips'' that combine the strengths of photonics and electronics monolithically on a single silicon chip. Silicon had long been the material of choice for integrated microelectronics, but Soref had identified a path to make silicon also a powerhouse in photonics as well.
@@ -51,14 +95,24 @@ Considerable work continues in the development of light sources on silicon. At p
 
 Significant commercial interest has persisted in this field since the founding of Luxtera, including major efforts by Intel \cite{}, and continuing with start-ups spinning out of the zero-change work \cite{}. All of these efforts attempt to use light as a means to communicate digital signals between electronic processors, whether it be at scale of a single chip \cite{suwa2015}, a server rack \cite{} or a data center \cite{}. As has been the case in semiconductor electronics and superconductor electronics, the device and hardware infrastructure developed for digital information processing is now being explored for neuromorphic information processing. 
 
+\vspace{3em}
+Regarding the primary motivation for optical devices, Kogelnik wrote in 1981, ``...the available speed is almost limitless, and it will be a challenge to exploit this speed.'' \cite{ko1981}
+
+
 \subsubsection{Deep learning with silicon photonics}
 Like superconducting neural systems, the goal of nearly all efforts in optoelectronic neural systems and neuromorphic photonics is not to develop general intelligence, but rather to realize neural systems for specific tasks such as inference or control. For most efforts, the motivation for using light is the speed, either of laser cavity dynamics or optical communication. Device and hardware choices toward these ends may be different than for the focus of this article, which is general intelligence. We intend to explain why specific choices are not conducive to the present goal, even if they are suitable for other applications.
 
 We consider deep learning to be based on feed-forward networks of non-spiking neurons trained through a supervised algorithm such as backpropagation. While markedly different from the recurrent networks of dynamical nodes that learn from experience through local plasticity mechanisms, the relative simplicity of deep learning makes it a natural place to begin utilizing principles of neural information processing. Feed-forward neural networks have been studied with free-space optics since the height of optical computing excitement in the late 1980s and early 1990s, and after the developments in silicon photonics following Soref, similar principles were developed in an integrated context. 
 
+%plunked this paragraph down after the rest
+Matrix-vector multiplication has been a draw toward optics for some time \cite{godi1978,ve1984,maar1987}, with an early proposal appearing on pg.\,1 of vol.\,2 of Optics Letters \cite{godi1978}. Other approaches to matrix-vector multiplication have emerged over the years as technology has evolved, and the approach that is currently receiving the most attention is based on the concept of implementing a unitary operator with an array of Mach-Zehnder interferometers by Reck et al. in 1994 \cite{reze1994}. With the addition of loss or gain, any matrix can be represented through its singular-value decomposition \cite{st2016}. Because additional MZIs can be used to discard light, the full singular-value decomposition and matrix-vector multiplication can be performed using MZIs. Implementation of such MZI networks with silicon photonic waveguides is currently being pursued \cite{mi2015_fix_ref,shha2017}, and it has been argued that efficient training through backpropagation can be implemented in optoelectronic integrated circuits with tunable MZIs and photodetectors working on conjunction with CMOS logic at each interferometer \cite{humi2018}.
+
+%another out-of-context comment
+hybrid devices utilizing an artificial nonlinearity implemented with an electro-optic effect and electrical feedback have been studied since the early 1980s \cite{sm1980,ko1981}
+
 The operation of synaptic weighting in deep learning reduces to matrix-vector multiplication. Such an operation can be achieved with an array of Mach-Zehnder interferometers. A recent demonstration accomplished this using thermo-optic phase shifters with silicon waveguides \cite{shha2016}. A network with four inputs and outputs was trained to classify four vowel sounds. The effort led to two start-up companies attempting to commercialize the technology to compete with specialized CMOS processors (such as tensor processing units) for deep learning. The photonic approach demonstrated so far made use of off chip light sources and detectors, and applied the nonlinearity in software. For such an approach to be competitive, significant system integration is required. The two senior authors of Ref.\,\cite{shha2016} have more recently moved back to a free-space approachin to deep learning \cite{}.
 
-The approach of using 2-D arrays of interferometers for routing and synaptic weighting pursued in Ref.\,\cite{shha2016} is incompatible with large-scale cognitive systems for several reasons. One reason is that the index shifts induced by thermo-optic phase shifters are small, and power dependent, leading to either large structures, high power consumption, or both. Cross talk between thermal elements necessitates placing the waveguides far apart, and it is difficult to utilize the vertical dimension interferometer arrays, so attempting to scale results in networks that are sprawling in the plane. Further, as described in Sec.\,\ref{sec:neuroscience}, an important mechanism of learning in spiking neural systems is through STDP, wherein the activity of the two neurons associated with a synapse leads to memory adaptation. With interferometer arrays, changing a single phase in the network will, in general, modify several synaptic weights. Therefore, while backpropagation can be implemented with such a network \cite{}, STDP cannot. 
+The approach of using 2-D arrays of interferometers for routing and synaptic weighting pursued in Ref.\,\cite{shha2017} is incompatible with large-scale cognitive systems for several reasons. One reason is that the index shifts induced by thermo-optic phase shifters are small, and power dependent, leading to either large structures, high power consumption, or both. Cross talk between thermal elements necessitates placing the waveguides far apart, and it is difficult to utilize the vertical dimension interferometer arrays, so attempting to scale results in networks that are sprawling in the plane. Further, as described in Sec.\,\ref{sec:neuroscience}, an important mechanism of learning in spiking neural systems is through STDP, wherein the activity of the two neurons associated with a synapse leads to memory adaptation. With interferometer arrays, changing a single phase in the network will, in general, modify several synaptic weights. Therefore, while backpropagation can be implemented with such a network \cite{}, STDP cannot. 
 
 \subsubsection{Spiking neurons with compound semiconductor lasers}
 %\cite{pena2018} Neuromorphic Photonic Integrated Circuits IEEE JSTQE

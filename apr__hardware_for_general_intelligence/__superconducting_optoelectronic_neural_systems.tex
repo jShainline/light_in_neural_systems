@@ -1,13 +1,39 @@
 \subsection{\label{sec:superconducting_optoelectronic}Superconducting Optoelectronic Systems}
+From Verber's perspective in 1984, ``It is to be expected that optical and integrated-optical methods will become available to perform a significant number of computational tasks. Analog methods are currently being developed and digital optical devices will follow in the near future. The challenge is to recognize their strengths and weaknesses in comparison to electronic devices and incorporate them into computational systems in an optimal fashion.'' \cite{ve1984} However, optical devices have not become widely adopted for any computational tasks, digital or analog. This state of technology is not due to a lack of effort or ingenuity, but rather to a combination of physical and practical reasons \cite{ke1985}. However, optical and integrated-optical methods for communication are still quite promising at the chip \cite{suwa2015} and package \cite{} scales, and are indisputably superior to electrical communication at large scale. 
 
-%\cite{kafe2015} Waveguide integrated superconducting single-photon detectors with high internal quantum efficiency at telecom wavelengths
+
+\vspace{3em}
+%Waveguide integrated superconducting single-photon detectors with high internal quantum efficiency at telecom wavelengths
+\cite{kafe2015} 
 
 These detectors are wires of superconducting material \cite{mave2013}, and they can be straightforwardly patterned atop on-chip dielectric waveguides \cite{shbu2017b,x,y,z}. The nanowire thickness is 4\,nm-10\,nm, its width is 80\,nm-350\,nm, and the interaction length along the waveguide can be as short as 10\,\textmu m. The wire is current biased in parallel with a resistive load (Fig.\,\ref{fig:snspd}), .
 
 Because the detectors are superconducting, they draw very near zero power in the steady state. 
 
+\vspace{3em}
+As Miller points out in considering optical logic devices, ``...coherent interference is mostly a nuisance in logic systems. [A] device at the $\sim$\,100-photon level could still operate in a quasi-classical fashion where optical or quantum coherence is neither necessary nor even desirable.'' \cite{mi2010} By using few-photon optical signals for communication from neurons to single-photon synapses, this is precisely the regime in which we operate. By using light only for fan-out, optical coherence is irrelevant because independent fields from separate neurons never interfere. Miller identifies two major benefits of optical interconnectivity: 1) that ``higher densities of information [are] possible in relatively long connections''; and 2) ``optics could reduce the energy required for communication''. \cite{mi2010} To his second point, I add optics can additionally reduce the complexity of communication hardware while increasing the speed. These considerations are of primary significance in the context of integrated neural systems. Further, while Miller envisions integration with semiconductor photodetectors and therfore concludes that optical signals ``only need to transmit enough energy to charge the photodetector at the receiving end'' (100 - 1000 photons), when superconducting detectors are employed, one need only transmit enough energy to disrupt the superconducting phase of a nanowire detector, and this can be achieved with a single photon. 
 
+\vspace{3em}
+Criteria for practical devices \cite{mi2010,ke1985a}
+\begin{itemize}
+\item Cascadability
+\item Fan-out
+\item Logic-level restoration
+\item Input/output isolation
+\item Absence of critical biasing
+\item Logic level independent of loss
+\end{itemize}
 
+\vspace{3em}
+some technologies place high speed as the primary goal, and sacrifice feasibility to attain that speed advantage. other technologies emphasize small size as a significant objective, and practical complications usually result. There are many applications where speed or size is paramount, but if they are not it is often easier to achieve general high performance is compromises can be negotiated between several metrics.
+
+\vspace{3em}
+re detectors: compare $CV^2/2$ with $C = 1$\,fF and $V = 1$\,V to $LI^2/2$ with $L = 250$\,nH and $I = 10$\,\textmu A \cite{mi2009}
+
+\vspace{3em}
+a primary difference between circuits of normal conductors and semiconductors as compared to superconductors is that in the former one generally deals with capacitances, whereas in the latter on deals with inductances. With capacitance, parasitics involve the energy  $CV^2/2$ and the charging time (integral I dt = Q = CV). In the case of inductors, the energy is $LI^2/2$ and the charging time 
+
+\vspace{3em}
 \begin{itemize}
 
 \item general concept: communication between neurons is photonic; when a neuron spikes it must either generate or modulate light; throughout, speed, size, power all co-optimized
@@ -88,3 +114,6 @@ Because the detectors are superconducting, they draw very near zero power in the
 Let us refer to these challenges with superconducting electronics as: 1) the memory problem; 2) the clock problem; 3) the I/O problem; and 4) the volt problem. We will argue below that a new type of cryotron, implemented in a compact, on-chip, thin-film device can overcome the volt problem, but only if one accepts slower speed than superconducting digital logic seeks, an acceptable trade-off in a neural system. Solving the volt problem this way enables us to generate light, thereby solving the ``O'' part of the I/O problem. The ``I'' part of the problem is solved by utilizing superconducting photon detectors, compact circuit elements developed since 2000 and integrated with photonic circuits within the last decade. With integrated light sources and detectors, superconducting systems can send and receive near-infrared photons over optical fibers, relieving the heat load of co-axial cables, and solving the volt problem at semiconductor photodetectors on the room-temperature side. The asynchronous nature of spiking neural systems eliminates the clock problem, provided synaptic, dendritic, and neuronal integration times can be made longer than the jitter of the circuits. Finally, while the memory problem is the most severe for superconducting digital systems, the prospects for memory in superconducting neural systems are one of the most exciting aspects of the technology. As discussed in Sec.\,\ref{sec:neuroscience}, memory in neural systems involves short-term plasticity, long-term plasticity (STDP, for example), and metaplasticity (that adapts the rate with which synapses change). We find that JJ circuits very naturally implement these functions, and the distributed nature of synaptic memory avoids the difficulty of creating large arrays of addressable superconducting memory elements. 
 
 We will describe these superconducting optoelectronic circuits in more detail in Sec.\,\ref{sec:optoelectronicNeurons}. Let us first turn our attention to JJ circuits that implement neural functions without optical communication.
+
+\vspace{3em}
+The binary nature of communication with these synapses is realized by the all-or-nothing response of an SNSPD \cite{thatpapersomeonepresentedatgroupmeeting}.

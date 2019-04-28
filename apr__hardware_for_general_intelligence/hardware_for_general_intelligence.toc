@@ -10,7 +10,7 @@
 \contentsline {subsubsection}{\numberline {2.1.3}Path Length}{9}
 \contentsline {subsubsection}{\numberline {2.1.4}Clustering}{9}
 \contentsline {subsubsection}{\numberline {2.1.5}Small-World Networks}{10}
-\contentsline {subsubsection}{\numberline {2.1.6}Modularity and Hierarchy}{10}
+\contentsline {subsubsection}{\numberline {2.1.6}Modularity and Hierarchy}{11}
 \contentsline {subsubsection}{\numberline {2.1.7}Rentian Analysis}{11}
 \contentsline {subsubsection}{\numberline {2.1.8}Summary of Spatial Considerations}{11}
 \contentsline {subsection}{\numberline {2.2}Temporal Dynamics of Neural Systems}{12}
@@ -45,7 +45,7 @@
 \contentsline {section}{\numberline {3}Candidate Hardware Platforms for General Intelligence}{30}
 \contentsline {subsection}{\numberline {3.1}Semiconductor electronic neural systems}{30}
 \contentsline {subsubsection}{\numberline {3.1.1}Efforts in silicon microelectronic neural systems}{30}
-\contentsline {subsubsection}{\numberline {3.1.2}The von Neumann bottleneck}{30}
+\contentsline {subsubsection}{\numberline {3.1.2}The von Neumann bottleneck}{31}
 \contentsline {subsubsection}{\numberline {3.1.3}Fan-out limitations}{31}
 \contentsline {subsubsection}{\numberline {3.1.4}Shared communication infrastructure}{31}
 \contentsline {subsubsection}{\numberline {3.1.5}Address-event representation}{32}
@@ -53,31 +53,35 @@
 \contentsline {subsubsection}{\numberline {3.1.7}Summary of challenges of silicon microelectronic neural systems}{32}
 \contentsline {subsubsection}{\numberline {3.1.8}Actual versus emulated neurons}{33}
 \contentsline {subsection}{\numberline {3.2}Photonic Neural Systems}{34}
-\contentsline {subsubsection}{\numberline {3.2.1}Free-Space Optical Neural Nets}{34}
-\contentsline {subsubsection}{\numberline {3.2.2}Silicon Photonics and Superchips}{34}
-\contentsline {subsubsection}{\numberline {3.2.3}Silicon light sources: the great Achilles' heel}{35}
-\contentsline {subsubsection}{\numberline {3.2.4}Systems with off-chip sources}{36}
-\contentsline {subsubsection}{\numberline {3.2.5}Deep learning with silicon photonics}{36}
-\contentsline {subsubsection}{\numberline {3.2.6}Spiking neurons with compound semiconductor lasers}{37}
-\contentsline {subsubsection}{\numberline {3.2.7}Wavelength-division multiplexing for routing and synaptic weighting}{37}
-\contentsline {subsubsection}{\numberline {3.2.8}Phase change materials for synaptic weighting}{38}
-\contentsline {subsubsection}{\numberline {3.2.9}Synaptic weights in the electronic domain}{38}
-\contentsline {subsection}{\numberline {3.3}Superconductor electronic neural systems}{39}
-\contentsline {subsubsection}{\numberline {3.3.1}Josephson junctions}{39}
-\contentsline {subsubsection}{\numberline {3.3.2}Superconducting digital logic}{40}
-\contentsline {subsubsection}{\numberline {3.3.3}Neurons based on Josephson junctions}{41}
-\contentsline {subsubsection}{\numberline {3.3.4}Strengths and weaknesses of JJ circuits for neural operation}{43}
-\contentsline {subsection}{\numberline {3.4}Superconducting Optoelectronic Systems}{44}
-\contentsline {subsubsection}{\numberline {3.4.1}Superconducting optoelectronic neural systems may overcome challenges of digital systems}{46}
-\contentsline {section}{\numberline {4}Large-scale optoelectronic systems}{46}
-\contentsline {subsection}{\numberline {4.1}Criteria for assessing cognitive neural hardware}{46}
-\contentsline {subsection}{\numberline {4.2}Achieving hierarchical modularity}{47}
-\contentsline {subsection}{\numberline {4.3}Integrated systems across temperature stages}{47}
-\contentsline {subsection}{\numberline {4.4}Optimal environment for operation: the asteroid belt}{47}
-\contentsline {section}{\numberline {5}Application spaces}{47}
-\contentsline {subsection}{\numberline {5.1}Hybrid systems}{48}
-\contentsline {subsubsection}{\numberline {5.1.1}Neural-deep learning hybrid systems}{48}
-\contentsline {subsubsection}{\numberline {5.1.2}Classical-quantum-neural hybrid systems}{48}
-\contentsline {subsubsection}{\numberline {5.1.3}SOENs as the central cognitive hub}{50}
-\contentsline {section}{\numberline {6}Outlook}{50}
-\contentsline {section}{\numberline {A}Superconducting Interconnects}{55}
+\contentsline {subsection}{\numberline {3.3}Optics for Digital Computing}{34}
+\contentsline {subsubsection}{\numberline {3.3.1}Free-Space Optical Neural Nets}{34}
+\contentsline {subsubsection}{\numberline {3.3.2}The Move to Integrated Photonics}{35}
+\contentsline {paragraph}{\numberline {3.3.2.1}Components Required for Integrated Photonics}{35}
+\contentsline {paragraph}{\numberline {3.3.2.2}Materials for Integrated Photonics}{35}
+\contentsline {subsubsection}{\numberline {3.3.3}Silicon Photonics and Superchips}{35}
+\contentsline {subsubsection}{\numberline {3.3.4}Silicon light sources: the great Achilles' heel}{36}
+\contentsline {subsubsection}{\numberline {3.3.5}Systems with off-chip sources}{37}
+\contentsline {subsubsection}{\numberline {3.3.6}Deep learning with silicon photonics}{37}
+\contentsline {subsubsection}{\numberline {3.3.7}Spiking neurons with compound semiconductor lasers}{38}
+\contentsline {subsubsection}{\numberline {3.3.8}Wavelength-division multiplexing for routing and synaptic weighting}{38}
+\contentsline {subsubsection}{\numberline {3.3.9}Phase change materials for synaptic weighting}{39}
+\contentsline {subsubsection}{\numberline {3.3.10}Synaptic weights in the electronic domain}{39}
+\contentsline {subsection}{\numberline {3.4}Superconductor electronic neural systems}{40}
+\contentsline {subsubsection}{\numberline {3.4.1}Josephson junctions}{40}
+\contentsline {subsubsection}{\numberline {3.4.2}Superconducting digital logic}{41}
+\contentsline {subsubsection}{\numberline {3.4.3}Neurons based on Josephson junctions}{42}
+\contentsline {subsubsection}{\numberline {3.4.4}Strengths and weaknesses of JJ circuits for neural operation}{44}
+\contentsline {subsection}{\numberline {3.5}Superconducting Optoelectronic Systems}{46}
+\contentsline {subsubsection}{\numberline {3.5.1}Superconducting optoelectronic neural systems may overcome challenges of digital systems}{48}
+\contentsline {section}{\numberline {4}Large-scale optoelectronic systems}{48}
+\contentsline {subsection}{\numberline {4.1}Criteria for assessing cognitive neural hardware}{48}
+\contentsline {subsection}{\numberline {4.2}Achieving hierarchical modularity}{49}
+\contentsline {subsection}{\numberline {4.3}Integrated systems across temperature stages}{49}
+\contentsline {subsection}{\numberline {4.4}Optimal environment for operation: the asteroid belt}{49}
+\contentsline {section}{\numberline {5}Application spaces}{49}
+\contentsline {subsection}{\numberline {5.1}Hybrid systems}{50}
+\contentsline {subsubsection}{\numberline {5.1.1}Neural-deep learning hybrid systems}{50}
+\contentsline {subsubsection}{\numberline {5.1.2}Classical-quantum-neural hybrid systems}{50}
+\contentsline {subsubsection}{\numberline {5.1.3}SOENs as the central cognitive hub}{52}
+\contentsline {section}{\numberline {6}Outlook}{52}
+\contentsline {section}{\numberline {A}Superconducting Interconnects}{57}

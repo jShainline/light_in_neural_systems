@@ -46,11 +46,15 @@ Warning--I didn't find a database entry for "de2015"
 Warning--I didn't find a database entry for "one_from_reading_group"
 Warning--I didn't find a database entry for "shor2014"
 Warning--I didn't find a database entry for "suwa2017"
+Warning--I didn't find a database entry for "mi2015_fix_ref"
+Warning--I didn't find a database entry for "shha2017"
 Warning--I didn't find a database entry for "nata2013"
 Warning--I didn't find a database entry for "chca2013"
+Warning--I didn't find a database entry for "ke1985"
 Warning--I didn't find a database entry for "x"
 Warning--I didn't find a database entry for "y"
 Warning--I didn't find a database entry for "z"
+Warning--I didn't find a database entry for "thatpapersomeonepresentedatgroupmeeting"
 Warning--I didn't find a database entry for "siso1991"
 Warning--I didn't find a database entry for "dave2012"
 Warning--I didn't find a database entry for "omgi1994"
@@ -58,10 +62,7 @@ Warning--empty journal in ne1945
 Warning--empty year in dy2012
 Warning--empty year in is2014
 Warning--empty journal in tu1947
-Warning--empty year in ne1949
-Warning--empty year in ne1958
 Warning--can't use both author and editor fields in ne1951
-Warning--empty year in ne1951
 Warning--can't use both author and editor fields in heza2004
 Warning--empty year in he1949
 Warning--empty year in hepa2012
@@ -72,5 +73,4 @@ Warning--empty author in bu1950
 Warning--empty year in bu1950
 Warning--empty title in ai1989
 Warning--empty title in og1989
-Warning--empty year in gobe2016
 (There were 7 error messages)
