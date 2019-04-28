@@ -1,3 +1,6 @@
+\newpage
+\appendix
+
 \vspace{3em}
 In the 1840s, Lovelace contemplated the possibility of artificial machines that could think. She concluded systems such as the Analytical Engine would never be capable of thinking. In Turing's famous paper introducing the Turing test \cite{tu1950}, he refuted her position. Turing did not argue that machines would be able to think, but rather that they would be able so faithfully mimic a thinking creature that we could not tell the difference. He begins ``Computing Machinery and Intelligence'' with the sentence, ``I propose to consider the question, `Can machines think?' '' But in that paper, he asserted that this question is ``...too meaningless to deserve discussion.'' He chose instead to focus on an imitation game wherein an interrogator is in a separate room from a man and a machine, and the interrogator must determine which of the two is human and which is artificial by asking a series of questions. If the machine can fool the interrogator, it passes the Turing test. He phrases the modified question as: ``Is it true that by modifying this computer to have an adequate storage, suitably increasing its speed of action, and providing it with an appropriate programme...'' a digital computer can pass the Turing test. Turing argues that digital machines certainly will have this capability, predicting that by the end of the 20th century the idea that machines can think would be commonly accepted, largely due to increased speed and memory capacity of computing devices. He refutes Lovelace's assertion that ``The Analytical Engine has no pretensions to \textit{originate} anything.'' However, Lovelace was specifically considering a specific mechanical apparatus, and had no capacity to envision how electronics based on vacuum tubes would change computing, let alone silicon microelectronics. She did not see how far hardware could evolve. Maxwell did not establish the relationship between electricity, magnetism, and light until 1861 \cite{}, superconductivity would not be discovered until 1911 \cite{on1911}, and Josephson junctions were not invented until xxxx \cite{}, and it would be into the 21st century before ``superconducting single-photon detector'' became a household term \cite{}. 
 
@@ -151,12 +154,9 @@ Universality applies to Turing machines, neural nets (Siegelman and Sontag \cite
 
 \vspace{3em}
 Our goal is not to draw from this literature review an exact blueprint of a thinking machine, but rather to attempt a compilation of general principles from neuroscience, dynamical systems, and computing to inform foundational decisions regarding the physics that should be built in to hardware for artificial intelligence.
-	
-\newpage
-\appendix
 
-\section{\label{sec:superconducting_interconnects}Superconducting Interconnects}
-It is not explicitly necessary that the output of each neuron be able to switch a junction at a downstream synapse, but it is advantageous from an information processing viewpoint. Otherwise, interactions between synaptic events are limited to the few-picosecond duration of an SFQ pulse, and this restricts a neuron's ability to process information across a broad range of time scales. To get a feel for possible fan-out capacity, let us assume neuron's output JJ must switch a JJ at each receiving synapse and that 10\,\textmu A is required to do so. Consider two scenarios. First, the current from the neuron is split evenly by a passive, superconducting tree. A typical junction used for digital logic will produce 100\,\textmu A upon switching, meaning the inductance of the tree must stay below 10\,pH. Typical niobium wires have 500\,fH per square and must be approximately 1\,\textmu m wide to carry this current, so typical distances from a neuron to its synapses must be about 20\,\textmu m.
+
+
 
 
 \vspace{3em}

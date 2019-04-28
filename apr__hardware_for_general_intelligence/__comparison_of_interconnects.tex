@@ -1,0 +1,35 @@
+\subsection{Comparison of Interconnect Technologies}
+
+\subsubsection{Copper Interconnects}
+The majority of contemporary neuromorphic computing is based on silicon microelectronics, and for much of the community, the objective is not to answer the question, ``What hardware is optimal for neuromorphic computing?'' but rather to answer the question, ``What forms of neuromorphic computing can I accomplish with the hardware that I have?'' 
+
+\vspace{3em}
+The primary challenge for adapting digital hardware for neural applications is one is attempting to use a system with a certain graph structure and set of information processing operations to behave as a system with a completely different graph structure and a completely different set of information processing operations. The digital computing machine being utilized is Turing complete, so it can accomplish the task, but because the structures and operations are entirely unrelated, it is extremely inefficient.
+
+\vspace{3em}
+In much of the literature, it is assumed that computer architecture will not change in future generations of hardware, so the questions become whether specific components will be replaced with alternative devices. One can consider whether photonic interconnects make sense in specific locations, such as for on-chip interconnects, between processor and DRAM modules on a common, between boards through back plane, or between servers in a rack. Each decision can be made separately. 
+
+\vspace{3em}
+include a figure regarding chip, board, back plane, server rack. perhaps Fig. 4 of \cite{husz2003}
+
+\subsubsection{\label{sec:superconducting_interconnects}Superconducting Interconnects}
+It is not explicitly necessary that the output of each neuron be able to switch a junction at a downstream synapse, but it is advantageous from an information processing viewpoint. Otherwise, interactions between synaptic events are limited to the few-picosecond duration of an SFQ pulse, and this restricts a neuron's ability to process information across a broad range of time scales. To get a feel for possible fan-out capacity, let us assume neuron's output JJ must switch a JJ at each receiving synapse and that 10\,\textmu A is required to do so. Consider two scenarios. First, the current from the neuron is split evenly by a passive, superconducting tree. A typical junction used for digital logic will produce 100\,\textmu A upon switching, meaning the inductance of the tree must stay below 10\,pH. Typical niobium wires have 500\,fH per square and must be approximately 1\,\textmu m wide to carry this current, so typical distances from a neuron to its synapses must be about 20\,\textmu m.
+
+\subsubsection{Photonic Interconnects}
+There is ``little doubt that interconnects are now and will be increasingly a major limitation on information processing systems. There is also little doubt that the physics of optics offers potential solutions.'' \cite{mi2009}
+
+\vspace{3em}
+
+
+\subsubsection{Photonic Interconnects with Superconducting Receivers}
+Considerations pertinent to photonic interconnects with superconducting receivers in neural systems are related to considerations pertinent to photonic interconnects with semiconducting receivers in digital systems \cite{mi2009,mi2017}, although distinct considerations become relevant. It may be possible that photonic communication is deemed suitable in one application space at the chip, wafer, and systems scales, while it is not suitable in another application space until the system scale. 
+
+\vspace{3em}
+There are several reasons we may expect photonic interconnects to be present in high-performance neural systems utilizing superconducting electronics and operating at low temperature:
+\begin{itemize}
+\item The energy per detection event due to the detector alone is at least two orders of magnitude smaller than with a photodiode
+\item This energy efficiency is further improved because the detectors can perceive a single photon, and order five to 10 photons are required to overcome noise associated with Poisson statistics
+\item Because of the manner in which neural systems utilize space and time, sources and detectors at neurons and synapses need not operate nearly as fast as in digital systems (100\,MHz firing rates would be extremely fast compared to biological systems) but they must operate over long distances (the 1\,cm spatial scale of a processor is very small for a complex neural system)
+\item Operating at low temperature makes silicon light sources a viable candidate. Such sources can have extremely low capacitance, and the potential limits of internal quantum efficiency remain to be determined. But the primary benefit of silicon light sources is not performance, but rather process simplicity, which leads directly to cost reduction and economic viability.
+\item Each neuron is itself a complex processor occupying at least 100\,\textmu $\times$ 100\,\textmu, and likely as big as a millimeter or two on a side, so if photonics is utilized for communication only between neurons (and not in the synaptic and dendritic processing occurring within each neuron), then the crossover condition where photonic communication becomes advantageous is satisfied. Miller calculates this to be on the order of 50\,\textmu m \cite{mi2009}.
+\end{itemize}
