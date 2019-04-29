@@ -1,0 +1,45 @@
+\subsection{\label{sec:keyes}Strengths of semiconductors for digital logic (Keyes)}
+\cite{ke1985a,ke1985b}
+\begin{itemize}
+\item Keyes in detail
+\item good logic device:
+\begin{itemize}
+\item binary
+\item output-input isolation
+\item fan-out/fan-in
+\item high gain
+\item low cost
+\item miniaturization/compaction
+\item power density
+\item reliability
+\item the ability to continue to scale
+\end{itemize}
+\item digital logic will always be more appropriate for arithmetic and high-arithmetic-depth calculations. Neural processing is more appropriate for contextualizing disparate information. the two are complimentary
+\item i do not expect that Si microelectronics will be displaced by an alternative hardware platform for digital logic. it may continue to evolve toward the asymptotic physical limit, but a completely different digital system that outperforms Si is unlikely. Si is optimal for the task (digital at 300K) given the possibilities contained in the periodic table
+\item transistor can be nonlinear resistor. JJ can be nonlinear inductor. how much do we make of this parallel? what does it teach us?
+\item high gain present in all stages of loop neurons
+\item input-output isolation observed from synapses to axon hillock (hTron)
+\item inversion through flux of the opposite circulation or MIs of opposite sign
+\item electromigration eliminated in superconductors, JJs and loops make better synapses than memristors because is's based on the quantum wave function, not the motion of atoms. electromigration in contacts to LEDs minimal due to infrequent firing and low current
+\item variability of operating temperature needs addressing (low power density, liquid helium coolin)
+\item multi-input logic gates not a problem in neuro like in digital. analog can be utilized to great advantage
+\item output impedance-matching problems in JJ circuits eliminated with photonic communication
+\item he estimates 4x increase from JJ logic. a factor of several hundred may be possible in theory. in practice, it is probably more like 10x, and there are other complicating factors. I agree with his assessment that JJs will not displace Si transistors for logic, though JJ logic is likely to be useful in other cryo computing systems
+\item writing in 1985 was pre-likharev and pre-soref
+\item optical computation based on optical bistability requires nonlinear optics, completely at odds with the requirements for energy efficiency as well as memory storage and reconfigurability. light for communication, not computation. do not use light to influence light. use light to influence electrons, and electrons to generate light.
+\item his comments on high gain in DC squid do not apply to our circuits. The way we use loops with MIs and JTLs does achieve high gain
+\item his comments on optical fanout limitations also do not apply with integrated waveguides
+\item our circuits satisfy all of his relevant criteria. At this point the key uncertainty regards to fabricaiton process (how many back-end planes, JJ Ic variation, light-production efficiency)
+\item level restoration in loop neuron synapses and dendrites also established by power lines, as with transistors (noise margins)
+\item ability to scale enabled with neural architecture and dedicated photonic connections because systems can continue to scale without being limited by communication bandwidth. the architecture itself is scalable due to the fractal concepts discussed in the neural section
+\item must compare to moving goalposts of continued si developments. we do this by comparing to systems envisioned to have full 3d integration of processing and memory at the wafer scale \cite{kuwa2017}. we're comparing the asymptotic limits of superconducting optoelectronic at 4K to the asymptotic limits of semiconducting optoelectronic and whatever operating temperature desired. we hope for significant opportunities for semiconductor-superconductor hybrid systems, discussed in sec \ref{sec:applications}.
+\item the use of JJs in loops effectively makes them more than two-terminal devices. bias, ground, and MI inputs. output-input isolation is achieved. synapses do not experience cross talk or feedback from the dendrite (-30dB, include calculation) due to high inductance of SI loops. DR loop doesn't receive feedback from the DI loop because of JTL, at least until saturation, which is actually advantageous, because that establishes it enforces high signal level.
+\item reset of hTron, slow, occurs during the refractory period, perhaps is limiting factor in speed, but it is the same as SPDs, so unless a faster single-photon detector is invented (that still meets all other criteria), this is the practical limit.
+\item threshold logic - AND is a threshold device. threshold logic works well in neural information processing, just incompatible with digital logic. we do not require such precise establishing of thresholds. we anticipate noise, and allow threshold to drift based on learning. 
+\item laser cavity dynamics and optical bistability for logic have failed for four decades, but even without investigating the reasons why, this approach to large-scale neural systems can be ruled out based on power considerations. 
+\item \cite{ke1985b} quote on pg 533 re conviction. The goal of my work right now is to discover evidence to build this conviction for soens.
+\item as keyes points out, many are lured to the promise of extremely high speed, and sacrifice other critical elements to get there. we do not fall prey to that temptation. timescales of the brain inform us that activity from 100 Hz to 0.1 Hz can lead to complex cognitive function. If we can achieve anything faster that this in artificial hardware while maintaining the connectivity, device complexity, and hierarchical, modular architecture, it would be a tremendous achievement. Approaches to developing artificial neurons that fire a rates above gigahertz often must sacrifice other aspects of system performance. Superconducting optoelectronic networks appear capable of activity at least ten thousand times faster than our own brains. The device complexity, architectural scalability, and low power density are more important than higher speed. 
+\end{itemize}
+
+\vspace{3em}
+Discussion of Goodman, Miller, others

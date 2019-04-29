@@ -97,22 +97,6 @@ C.~Mead.
 \newblock Neuromorphic electronic systems.
 \newblock {\em Proc. IEEE}, 78:1629, 1990.
 
-\bibitem{ke1985a}
-R.W. Keyes.
-\newblock What makes a good computer device?
-\newblock {\em Science}, 230:138, 1985.
-
-\bibitem{ke1985b}
-R.W. Keyes.
-\newblock Optical logic\textemdash in the light of computer technology.
-\newblock {\em Optica Acta}, 32:525, 1985.
-
-\bibitem{kuwa2017}
-A.~Kumar, Z.~Wan, W.W. Wilcke, and S.S. Iyer.
-\newblock Toward human-scale brain computing using 3d wafer scale integration.
-\newblock {\em ACM Journal on Emerging Technologies in Computing Systems},
-  13:45, 2017.
-
 \bibitem{heza2004}
 W.~Heywang and K.H. Zaininger.
 \newblock {\em Silicon: the {S}emiconductor {M}aterial}, chapter~2.
@@ -671,6 +655,22 @@ P.~Fries.
 S.~Dehane.
 \newblock {\em Consciousness and the brain}.
 \newblock Penguin, 2014.
+
+\bibitem{ke1985a}
+R.W. Keyes.
+\newblock What makes a good computer device?
+\newblock {\em Science}, 230:138, 1985.
+
+\bibitem{ke1985b}
+R.W. Keyes.
+\newblock Optical logic\textemdash in the light of computer technology.
+\newblock {\em Optica Acta}, 32:525, 1985.
+
+\bibitem{kuwa2017}
+A.~Kumar, Z.~Wan, W.W. Wilcke, and S.S. Iyer.
+\newblock Toward human-scale brain computing using 3d wafer scale integration.
+\newblock {\em ACM Journal on Emerging Technologies in Computing Systems},
+  13:45, 2017.
 
 \bibitem{navo2016}
 R.A. Nawrocki, R.M. Voyles, and S.E. Shaheen.
