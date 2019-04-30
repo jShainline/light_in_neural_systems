@@ -25,6 +25,15 @@ Repeated entry---line 4286 of file hardware_for_general_intelligence.bib
  : @article{joma1996
  :                  ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 4741 of file hardware_for_general_intelligence.bib
+ : @article{brso2013
+ :                  ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4813 of file hardware_for_general_intelligence.bib
+ : 
+ : @ARTICLE{apso2010,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "http://www.atimes.com/leibniz-chinese-invented-first-binary-code/"
 Warning--I didn't find a database entry for "http://www.leibniz-translations.com/binary.htm"
@@ -48,6 +57,7 @@ Warning--I didn't find a database entry for "shor2014"
 Warning--I didn't find a database entry for "suwa2017"
 Warning--I didn't find a database entry for "mi2015_fix_ref"
 Warning--I didn't find a database entry for "shha2017"
+Warning--I didn't find a database entry for "funa1993"
 Warning--I didn't find a database entry for "nata2013"
 Warning--I didn't find a database entry for "chca2013"
 Warning--I didn't find a database entry for "ke1985"
@@ -64,6 +74,8 @@ Warning--empty year in is2014
 Warning--empty journal in tu1947
 Warning--can't use both author and editor fields in ne1951
 Warning--can't use both author and editor fields in heza2004
+Warning--empty journal in jaha2004
+Warning--empty year in jaha2004
 Warning--empty year in he1949
 Warning--empty year in hepa2012
 Warning--empty year in bi1955
@@ -73,4 +85,4 @@ Warning--empty author in bu1950
 Warning--empty year in bu1950
 Warning--empty title in ai1989
 Warning--empty title in og1989
-(There were 7 error messages)
+(There were 9 error messages)
