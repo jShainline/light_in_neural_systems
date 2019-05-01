@@ -1,0 +1,88 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: hardware_for_general_intelligence.aux
+The style file: unsrt.bst
+Database file #1: hardware_for_general_intelligence.bib
+Repeated entry---line 1504 of file hardware_for_general_intelligence.bib
+ : @article{da1989
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3869 of file hardware_for_general_intelligence.bib
+ : @book{iz2007
+ :             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4043 of file hardware_for_general_intelligence.bib
+ : @article{libo2010
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4052 of file hardware_for_general_intelligence.bib
+ : @article{zhyi2015
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4106 of file hardware_for_general_intelligence.bib
+ : @article{rahu2008
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4286 of file hardware_for_general_intelligence.bib
+ : @article{joma1996
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4741 of file hardware_for_general_intelligence.bib
+ : @article{brso2013
+ :                  ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 4813 of file hardware_for_general_intelligence.bib
+ : 
+ : @ARTICLE{apso2010,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "http://www.atimes.com/leibniz-chinese-invented-first-binary-code/"
+Warning--I didn't find a database entry for "http://www.leibniz-translations.com/binary.htm"
+Warning--I didn't find a database entry for "https://hal.archives-ouvertes.fr/ads-00104781/document"
+Warning--I didn't find a database entry for "shICRC2018"
+Warning--I didn't find a database entry for "eskn2014"
+Warning--I didn't find a database entry for "ma1983"
+Warning--I didn't find a database entry for "more"
+Warning--I didn't find a database entry for "others"
+Warning--I didn't find a database entry for "hosc1997"
+Warning--I didn't find a database entry for "bepl2003"
+Warning--I didn't find a database entry for "http://www.humanconnectomeproject.org/"
+Warning--I didn't find a database entry for "ba2005_baks_book"
+Warning--I didn't find a database entry for "dover_book_on_fractals"
+Warning--I didn't find a database entry for "ba2005"
+Warning--I didn't find a database entry for "be2008"
+Warning--I didn't find a database entry for "xxx"
+Warning--I didn't find a database entry for "de2015"
+Warning--I didn't find a database entry for "one_from_reading_group"
+Warning--I didn't find a database entry for "shor2014"
+Warning--I didn't find a database entry for "suwa2017"
+Warning--I didn't find a database entry for "mi2015_fix_ref"
+Warning--I didn't find a database entry for "shha2017"
+Warning--I didn't find a database entry for "funa1993"
+Warning--I didn't find a database entry for "nata2013"
+Warning--I didn't find a database entry for "chca2013"
+Warning--I didn't find a database entry for "ke1985"
+Warning--I didn't find a database entry for "x"
+Warning--I didn't find a database entry for "y"
+Warning--I didn't find a database entry for "z"
+Warning--I didn't find a database entry for "thatpapersomeonepresentedatgroupmeeting"
+Warning--I didn't find a database entry for "siso1991"
+Warning--I didn't find a database entry for "dave2012"
+Warning--I didn't find a database entry for "omgi1994"
+Warning--empty journal in ne1945
+Warning--empty year in dy2012
+Warning--empty year in is2014
+Warning--empty journal in tu1947
+Warning--can't use both author and editor fields in ne1951
+Warning--can't use both author and editor fields in heza2004
+Warning--empty journal in jaha2004
+Warning--empty year in jaha2004
+Warning--empty year in he1949
+Warning--empty year in hepa2012
+Warning--empty year in bi1955
+Too many commas in name 7 of "J.S. Orcutt and B. Moss and C. Sun and J. Leu and M. Georgas and J. Shainline and E. Zgraggen, H. Li, J. Sun, M. Weaver and S. Urosevi\'{c} and M. Popovi\'{c} and R.J. Ram and Vladimir Stojanovi\'{c}" for entry orma2012
+while executing---line 944 of file unsrt.bst
+Warning--empty author in bu1950
+Warning--empty year in bu1950
+Warning--empty title in ai1989
+Warning--empty title in og1989
+(There were 9 error messages)

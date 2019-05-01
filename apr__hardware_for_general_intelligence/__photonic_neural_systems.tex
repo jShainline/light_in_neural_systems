@@ -4,7 +4,7 @@ Historically, optics in computation has aspired to achieve special-purpose accel
 \vspace{3em}
 Foundations of optical waveguide theory can be found in Refs.\,\cite{snlo1983} and \cite{hu2009}.
 
-\subsection{Optics for Digital Computing}
+\subsubsection{Optics for Digital Computing}
 %integrated-optical approaches to numerical optical processing
 \cite{ve1984} In 1984, Verber stated, ``A problem which has been common to almost all efforts to perform numerical computations by optical techniques has been the accuracy limitation imposed by the inrinsically analog nature of the devices. Although the ultimate solution to this problem is generally accepted to be in the application of optical bistable devices to produce fully binary optical systems, the long development times anticipated for these systems has led to several other approaches to higher accuracy computation using analog optical techniques.'' Approaches to improving the accuracy of analog optical computations have been proposed \cite{psca1980,arha1984}, but neither analog In 2019, these problems have not been solved, and binary optical systems have not proven capable of displacing CMOS for digital computing. 
 
@@ -112,7 +112,96 @@ hybrid devices utilizing an artificial nonlinearity implemented with an electro-
 
 The operation of synaptic weighting in deep learning reduces to matrix-vector multiplication. Such an operation can be achieved with an array of Mach-Zehnder interferometers. A recent demonstration accomplished this using thermo-optic phase shifters with silicon waveguides \cite{shha2016}. A network with four inputs and outputs was trained to classify four vowel sounds. The effort led to two start-up companies attempting to commercialize the technology to compete with specialized CMOS processors (such as tensor processing units) for deep learning. The photonic approach demonstrated so far made use of off chip light sources and detectors, and applied the nonlinearity in software. For such an approach to be competitive, significant system integration is required. The two senior authors of Ref.\,\cite{shha2016} have more recently moved back to a free-space approachin to deep learning \cite{}.
 
-The approach of using 2-D arrays of interferometers for routing and synaptic weighting pursued in Ref.\,\cite{shha2017} is incompatible with large-scale cognitive systems for several reasons. One reason is that the index shifts induced by thermo-optic phase shifters are small, and power dependent, leading to either large structures, high power consumption, or both. Cross talk between thermal elements necessitates placing the waveguides far apart, and it is difficult to utilize the vertical dimension interferometer arrays, so attempting to scale results in networks that are sprawling in the plane. Further, as described in Sec.\,\ref{sec:neuroscience}, an important mechanism of learning in spiking neural systems is through STDP, wherein the activity of the two neurons associated with a synapse leads to memory adaptation. With interferometer arrays, changing a single phase in the network will, in general, modify several synaptic weights. Therefore, while backpropagation can be implemented with such a network \cite{}, STDP cannot. 
+The approach of using 2-D arrays of interferometers for routing and synaptic weighting pursued in Ref.\,\cite{shha2017} is incompatible with large-scale cognitive systems for several reasons. One reason is that the index shifts induced by thermo-optic phase shifters are small, and power dependent, leading to either large structures, high power consumption, or both. Cross talk between thermal elements necessitates placing the waveguides far apart, and it is difficult to utilize the vertical dimension interferometer arrays, so attempting to scale results in networks that are sprawling in the plane. Further, as described in Sec.\,\ref{sec:neuroscience}, an important mechanism of learning in spiking neural systems is through STDP, wherein the activity of the two neurons associated with a synapse leads to memory adaptation. With interferometer arrays, changing a single phase in the network will, in general, modify several synaptic weights. Therefore, while backpropagation can be implemented with such a network \cite{humi2018}, STDP cannot. 
+
+\subsubsection{Photonic Reservoir Computing}
+
+\vspace{3em}
+Recurrent neural networks can approximate the trajectory of a dynamical system \cite{funa1993}
+Recurrent neural networks are Turing equivalent \cite{kisi1996}
+
+%Reservoir computing concept introduced in:
+\vspace{3em}
+%Harnessing Nonlinearity: Predicting Chaotic Systems and Saving Energy in Wireless Communication
+\cite{jaha2004}
+
+\vspace{3em}
+%Reconfigurable semiconductor laser networks based on diffractive coupling
+\cite{brfi2015}
+
+\vspace{3em}
+%Reinforcement learning in a large-scale photonic recurrent neural network
+\cite{buma2018}
+Free-space optics; scalable to order $10^5$ nodes; demonstrated reinforcement learning with 2025 nodes; each node is a pixel of a spatial light modulator; connections established with diffractive optical element; learning with a digital micromirror device. All weights are positive and all output weights are binary.
+
+The general architecture is not conducive to very large scale. The elements that perform the computation are based on integration of digital electronics with mechanical mirrors. The routing is not conducive to general networks with hierarchical construction and Rentian scaling. It is hard to get light out of the module. The power per node is high because light levels are high (compared to single photons). Optical setup sensitive to alignment. Requires external control for learning procedure. Readout of network state performed with a camera. The optoelectronic system steps through discrete time with a specified update equation. In the 2018 demonstration, update of 900 nodes occurred at 5\,Hz, limited by software control of the spatial light modulator. Diffractive optical element establishes synaptic weights. Scaling limit due to ``the imaging setup's field of view and not by the concept itself.''
+
+This is not a model for spiking neural networks. Synaptic weights are static after the training phase and do not permit any of the short- or long-term plasticity mechanisms nor dendritic processing that are central to the manner in which spiking neurons utilize time. This network has binary outputs that are readout in parallel. Internal node states are represented by optical field intensities, and therefore such a concept cannot be extended to the single-photon domain. Memory reconfiguration DOE is passive, but light is always on.
+
+``We demonstrate a network of up to 2025 diffractively coupled photonic nodes, forming a large-scale recurrent neural network.'' Terms like ``large-scale'' need to be defined in introduction (large scale means at least 1000 logic gates, tens of thousands of transistors per chip, VLSI still refers to chips with tens of billions of transistors per chip.)
+
+\vspace{3em}
+%Advances in photonic reservoir computing
+\cite{vabr2017}
+
+\vspace{3em}
+%Information processing using a single dynamical node as a complex system
+\cite{apso2010}
+
+\vspace{3em}
+%Optoelectronic {R}eservoir {C}omputing
+\cite{padu2012}
+
+\vspace{3em}
+%All-optical reservoir computing
+\cite{dusc2012}
+
+\vspace{3em}
+%Parallel photonic information processing at gigabyte per second data rates using transient states
+\cite{brso2013}
+
+\vspace{3em}
+%Toward optical signal processing using {P}hotonic {R}eservoir {C}omputing
+\cite{vadi2008}
+
+\vspace{3em}
+%Brain-{I}nspired {P}hotonic {S}ignal {P}rocessor for {G}enerating {P}eriodic {P}atterns and {E}mulating {C}haotic {S}ystems
+\cite{anha2017}
+
+\vspace{3em}
+%Tutorial: {P}hotonic neural networks in delay systems
+\cite{brpe2018}
+``Inspired by a strongly simplified interpretation of the human brain's structure, large numbers of simple nonlinear elements (neurons) are connected (synaptic links) into large networks. Information processing in ANNs usually relies on numerous simple nonlinear transformations and large scale linear matrix multiplications. The implementation of these operations in von Neumann architectures is highly inefficient, as it requires massive parallelism.''
+
+``[E]ven the recent astonishing developments cannot mask the fact that currently no ideal ANN-specific hardware, which fully implements physical hardware neurons and physical \textit{synaptic links}, exists. With such a novel platform, many orders of magnitude could be gained in speed and energy efficiency.''
+
+``Reservoir computers offer a compromise between performance and an implementation-friendly ANN topology.''
+
+Time-delay systems are an approach to reservoir computing that minimize the demands on hardware by extending computation across time rather than across space. A single nonlinear node can perform a computation similar to that achieved by a neural network, but the computation is spread out across time rather than space \cite{brpe2018}. The state of a node during a time window in a delay system corresponds to the state of a node at a spatial location in a neural network. Such an approach is appealing in the context of emerging hardware because a system comprising only a single node can perform a useful calculation, albeit with a slowdown due to time multiplexing proportional to the number of emulated nodes. Using the time domain in this way is somewhat reminiscent of information processing in biological neural systems wherein each node is engaged in different transient ensembles at different times, although the specific mathematical formalism describing delay systems as manifestations of recurrent neural networks are not nearly as general as the information processing principles of the brain, nor do they aspire to be.
+
+
+
+
+\vspace{3em}
+%All-{O}ptical {R}eservoir {C}omputing on a {P}hotonic {C}hip {U}sing {S}ilicon-{B}ased {R}ing {R}esonators
+\cite{cosc2018} 
+
+\vspace{3em}
+%Delay dynamics of neuromorphic optoelectronic nanoscale resonators: {P}erspectives and applications
+\cite{rofi2017}
+
+\vspace{3em}
+%Conditions for reservoir computing performance using semiconductor lasers with delayed optical feedback
+\cite{bubr2017}
+
+\vspace{3em}
+%A Unified Framework for Reservoir Computing and Extreme Learning Machines based on a Single Time-delayed Neuron
+\cite{orso2015}
+
+\vspace{3em}
+%Ultrafast photonic reinforcement learning based on laser chaos
+\cite{nate2017}
+
 
 \subsubsection{Spiking neurons with compound semiconductor lasers}
 %\cite{pena2018} Neuromorphic Photonic Integrated Circuits IEEE JSTQE
@@ -140,13 +229,6 @@ We have discussed here three approaches to establishing synaptic weights in phot
 The alternative is to set the synaptic weights in the electronic domain. The synaptic response is independent of the number of incident photons, and the synaptic weight is stored and implemented by an electronic circuit. Provided a synaptic terminal receives a photonic signal surpassing a certain threshold, a synaptic event is induced. The physical limit on the amplitude of this threshold signal is a single photon. Establishing the synaptic weight in this manner is most straightforward if each synapse is equipped with an independent photodetector. For integration with CMOS, the waveguide-integrated SiGe or defect detectors described above are good candidates. Logic circuits based on MOSFETs are the clear choice to implement synaptic, dendritic, and neuronal computations, and transistors operated in analog may play a role. Upon reaching threshold, the transistor circuits would drive a pulse through an on-chip laser, and the light thus produced would fan out to downstream connections. At those connections, as long as a number of photons greater than the threshold were received, the synaptic response would ensue, thus eliminating the effects of any noise on the photonic communication signal. The challenge here is the same at that mentioned above: it is hard to integrate light sources on silicon. If a million III-V or SiGe sources can be integrated on a 300-mm silicon optoelectronic wafer in a cost-effective manner, such an approach to optoelectronic networks will be viable.
 
 To reach the physical limit of single-photon synaptic threshold, superconducting-nanowire single-photon detectors (SPDs) can be used. We will describe these detectors in more detail in the next section, but for the present discussion we point out that these detectors respond to single photons, and their response is nearly identical \cite{} if one or more than one photon is detected. Thus, neuronal communication using these detectors enables the lowest possible communication signal level, and sources must produce only enough photons per synaptic connection so that even with noise, each synapse receives at least one photon, with a chosen tolerable error rate. Such communication appears to saturate a physical limitation for neuronal signaling with photons of a given wavelength. Whereas transistors were used for computation in the hardware example above, if SPDs are used for detection, circuits of JJs the clear choice for computation. Because SPDs and JJs both require operation near 4.2\,K, optoelectronic hardware operating in this modality has the potential to utilize silicon light sources, potentially bringing a tremendous advantage in cost and scalability. In the next section we will describe the synaptic, dendritic, and neuronal functions of these circuits. 
-
-\vspace{3em}
-%All-{O}ptical {R}eservoir {C}omputing on a {P}hotonic {C}hip {U}sing {S}ilicon-{B}ased {R}ing {R}esonators
-\cite{cosc2018} 
-
-%Delay dynamics of neuromorphic optoelectronic nanoscale resonators: {P}erspectives and applications
-\cite{rofi2017}
 
 
 

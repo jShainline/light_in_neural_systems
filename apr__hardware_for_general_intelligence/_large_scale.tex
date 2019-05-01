@@ -1,96 +1,11 @@
-\section{\label{sec:scaling}Large-scale optoelectronic systems}
+\section{\label{sec:scaling}Large-Scale Optoelectronic Systems}
 
-\subsection{Criteria for assessing cognitive neural hardware}
-\begin{itemize}
+\input{__metrics_for_neuromorphic_systems}
 
-\item network metrics
-\begin{itemize}
-\item total number of neurons in network
-\item degree distribution
-\item clustering coefficient on different scales
-\item average network path length
-\item modularity analysis
-\item rentian analysis
-\end{itemize}
+\input{__achieving_hierarchical_modularity}
 
-\item synaptic metrics
-\begin{itemize}
-\item range of achievable synaptic weights
-\item number of achievable synaptic weights
-\item max synaptic state retention time
-\item analysis of short-term plasticity responses (filter properties, energy consumed, area)
-\item analysis of stdp (range of values, update rates, energy required, time window control, area required)
-\item analysis of metaplasticity (mechanisms, range of rates, energy required, area required)
-\item total size of synapse
-\end{itemize}
+\input{__temperature_stages}
 
-\item dendritic metrics
-\begin{itemize}
-\item analysis of dendritic intermediate nonlinear processing (range of time scales, I/O (gain) curves, energy, num synapses per dendrite, operations performed)
-\item analysis of dendritic sequence detection (time scales, number of synapses involved, energy)
-\item available logic operations (Boolean, time of last firing, multisynaptic)
-\item number of values achievable in readout
-\item size of dendrites
-\end{itemize}
+\input{__neuromorphic_supercomputing}
 
-\item neuronal metrics
-\begin{itemize}
-\item total number of dendrites
-\item total number of synapses
-\item analysis of the rentian fan-in of the dendrito-synaptic arbor
-\item dynamic properties of threshold
-\item refractory period
-\item integration time (if different from dendritic integration)
-\item energy of neuronal firing
-\item timing jitter of neuronal firing
-\end{itemize}
-
-\item communication metrics
-\begin{itemize}
-\item total system bandwidth (at neuronal level, also including dendritic level where neuronal data rates are multiplied by information available to first layer of dendrites after any additional synaptic fanout)
-\item I/O 
-\end{itemize}
-
-\item system operation metrics
-\begin{itemize}
-\item operating temperature
-\item power consumption
-\item max spike events per second
-\item power consumed during max spike events per second
-\item power density
-\item temperature variation during operation
-\item total system size
-\end{itemize}
-
-\item system production metrics
-\begin{itemize}
-\item equipment required (i.e., technology node)
-\item device yield/tolerance to variation
-\item time required
-\item packaging strategy
-\item total material consumed
-\item total cost to produce 
-\end{itemize}
-
-\end{itemize}
-
-\begin{itemize}
-\item unprecedented integration of photonics and electronics in a scalable process that can be implemented with existing infrastructure--change a few implant conditions, swap out a few sputtering targets, improve BEOL dielectrics for photonics
-\item communication on various length scales, multi-planar on wafers, wafer-to-wafer vertical and lateral, fiber white matter
-\item feasibility of brain scale
-\item why si if no transistors?
-\begin{itemize}
-\item III-V substrates should be pursued as well. Our group is working on this, initial anecdata indicates similar efficiency
-\item big problem is fab. wafers are harder to scale, material harder to purify, oxide not as good for waveguide cladding. Similar consideration to mosfet gate. Overall manufacturability
-\item may eventually use transistors for perhaps faster refractory period
-\end{itemize}
-\item ultimate limits
-\end{itemize}
-
-
-For general networks, the algorithm by which partitions are identified can be made mathematically rigorous from a network theory perspective \cite{oz1992,oz2004}. For the analysis at hand, we consider the partitions of the network we have assigned in the hierarchy. For example ... (minicolumns, mesocolumns, macrocolumns on a wafer(s); multi-columnar modules, ...) 
-\subsection{Achieving hierarchical modularity}
-
-\subsection{Integrated systems across temperature stages}
-
-\subsection{Optimal environment for operation: the asteroid belt}
+\input{__optimal_environment}

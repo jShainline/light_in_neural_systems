@@ -102,6 +102,12 @@ W.~Heywang and K.H. Zaininger.
 \newblock {\em Silicon: the {S}emiconductor {M}aterial}, chapter~2.
 \newblock Springer-Verlag, 2004.
 
+\bibitem{jaha2004}
+H.~Jaeger and H.~Haas.
+\newblock {Harnessing Nonlinearity: Predicting Chaotic Systems and Saving
+  Energy in Wireless Communication}, journal = {Science}, year = {2004}, volume
+  = {304}, pages = {78},.
+
 \bibitem{abps1987}
 Y.S. Abu-Mostafa and D.~Psaltis.
 \newblock Optical neural computers.
@@ -951,6 +957,102 @@ Y.~Shen, N.C. Harris, S.~Skirlo, M.~Prabhu, T.~Baehr-Jones, M.~Hochberg,
 \newblock Deep learning with coherent nanophotonic circuits.
 \newblock {\em Nature Photonics}, 11:441, 2016.
 
+\bibitem{kisi1996}
+J.~Kilian and H.T. Siegelmann.
+\newblock The dynamic universality of sigmoidal neural networks.
+\newblock {\em Information and Computation}, 128:48, 1996.
+
+\bibitem{brfi2015}
+D.~Brunner and I.~Fischer.
+\newblock Reconfigurable semiconductor laser networks based on diffractive
+  coupling.
+\newblock {\em Opt. Lett.}, 40:3854, 2015.
+
+\bibitem{buma2018}
+J.~Bueno, S.~Maktoobi, L.~Froehly, I.~Fischer, M.~Jacquot, L.~Larger, and
+  D.~Brunner.
+\newblock Reinforcement learning in a large-scale photonic recurrent neural
+  network.
+\newblock {\em Optica}, 5:756, 2018.
+
+\bibitem{vabr2017}
+G.~Van der Sande, D.~Brunner, and M.C. Soriano.
+\newblock Advances in photonic reservoir computing.
+\newblock {\em Nanophotonics}, 6:561, 2017.
+
+\bibitem{apso2010}
+L.~Appeltant, M.C. Soriano, G.V.D. Sande, J.~Danckaert, S.~Massar, J.~Dambre,
+  B.~Schrauwen, C.R. Mirasso, and I.~Fischer.
+\newblock Information processing using a single dynamical node as a complex
+  system.
+\newblock {\em Nat. Comm.}, 2:468, 2010.
+
+\bibitem{padu2012}
+Y.~Paquot, F.~Duport, A~Smerieri, J.~Dambre, B.~Schrauwen, M.~Haelterman, and
+  S.~Massar.
+\newblock Optoelectronic {R}eservoir {C}omputing.
+\newblock {\em Sci. Rep.}, 2:287, 2012.
+
+\bibitem{dusc2012}
+F.~Duport, B.~Schneider, A.~Smerieri, M.~Haelterman, and S.~Massar.
+\newblock All-optical reservoir computing.
+\newblock {\em Opt. Express}, 20:22783, 2012.
+
+\bibitem{brso2013}
+D.~Brunner, M.C. Soriano, C.R. Mirasso, , and I.~Fischer.
+\newblock Parallel photonic information processing at gigabyte per second data
+  rates using transient states.
+\newblock {\em Nat. Comm.}, 4:1364, 2014.
+
+\bibitem{vadi2008}
+K.~Vandoorne, W.~Dierckx, B.~Schrauwen, D.~Verstraeten, R.~Baets, P.~Bienstman,
+  and J.~Van Campenhout.
+\newblock Toward optical signal processing using {P}hotonic {R}eservoir
+  {C}omputing.
+\newblock {\em Opt. Express}, 16:11182, 2008.
+
+\bibitem{anha2017}
+P.~Antonik, M.~Haelterman, and S.~Massar.
+\newblock Brain-{I}nspired {P}hotonic {S}ignal {P}rocessor for {G}enerating
+  {P}eriodic {P}atterns and {E}mulating {C}haotic {S}ystems.
+\newblock {\em Phys. Rev. App.}, 7:054014, 2017.
+
+\bibitem{brpe2018}
+D.~Brunner, B.~Penkovsky, B.A. Marquez, M.~Jacquot, I.~Fischer, and L.~Larger.
+\newblock Tutorial: {P}hotonic neural networks in delay systems.
+\newblock {\em J. Appl. Phys.}, 124:152004, 2018.
+
+\bibitem{cosc2018}
+F.~Coarer, M.~Sciamanna, A.~Katumba, M.~Freiberger, J.~Dambre, P.~Bienstman,
+  and D.~Rontani.
+\newblock All-{O}ptical {R}eservoir {C}omputing on a {P}hotonic {C}hip {U}sing
+  {S}ilicon-{B}ased {R}ing {R}esonators.
+\newblock {\em IEEE J. Sel. Topics Quant. Electron.}, 24:7600108, 2018.
+
+\bibitem{rofi2017}
+B.~Romeira, J.M.L. Figueredo, and J.~Javaloyes.
+\newblock Delay dynamics of neuromorphic optoelectronic nanoscale resonators:
+  {P}erspectives and applications.
+\newblock {\em Chaos}, 27:114323, 2017.
+
+\bibitem{bubr2017}
+J.~Bueno, D.~Brunner, M.C. Soriano, and I.~Fischer.
+\newblock Conditions for reservoir computing performance using semiconductor
+  lasers with delayed optical feedback.
+\newblock {\em Opt. Express}, 25:2401, 2017.
+
+\bibitem{orso2015}
+S.~Ort\'{i}n, M.C. Soriano, L.~Pesquera, D.~Brunner, D.~San-Mart\'{i}n,
+  I.~Fischer, C.R. Mirasso, and J.M. Guti\'{e}rrez.
+\newblock A unified framework for reservoir computing and extreme learning
+  machines based on a single time-delayed neuron.
+\newblock {\em Sci. Rep.}, 5:14945, 2015.
+
+\bibitem{nate2017}
+M.~Naruse, Y.~Terashima, A.~Uchida, and S.-J. Kim.
+\newblock Ultrafast photonic reinforcement learning based on laser chaos.
+\newblock {\em Sci. Rep.}, 7:8772, 2017.
+
 \bibitem{dukr1999}
 J.L.A. Dubbeldam, B.~Krauskopf, and D.~Lenstra.
 \newblock Excitability and coherence resonance in lasers with saturable
@@ -978,19 +1080,6 @@ A.N. Tait, T.~Ferreira de~Lima, E.~Zhou, A.X. Wu, M.A. Nahmias, B.J. Shastri,
 Z.~Cheng, C.~Rios, W.H.P. Pernice, C.D. Wright, and H.~Bhaskaran.
 \newblock On-chip photonic synapse.
 \newblock {\em Science Advances}, 3:1700160, 2017.
-
-\bibitem{cosc2018}
-F.~Coarer, M.~Sciamanna, A.~Katumba, M.~Freiberger, J.~Dambre, P.~Bienstman,
-  and D.~Rontani.
-\newblock All-{O}ptical {R}eservoir {C}omputing on a {P}hotonic {C}hip {U}sing
-  {S}ilicon-{B}ased {R}ing {R}esonators.
-\newblock {\em IEEE J. Sel. Topics Quant. Electron.}, 24:7600108, 2018.
-
-\bibitem{rofi2017}
-B.~Romeira, J.M.L. Figueredo, and J.~Javaloyes.
-\newblock Delay dynamics of neuromorphic optoelectronic nanoscale resonators:
-  {P}erspectives and applications.
-\newblock {\em Chaos}, 27:114323, 2017.
 
 \bibitem{bu1956}
 D.A. Buck.
@@ -1231,6 +1320,11 @@ D.~Huang, T.~Sze, A.~Landin, R.~Lytel, and H.L. Davidson.
 \newblock Optical {I}nterconnects: {O}ut of the {B}ox {F}orever?
 \newblock {\em IEEE J. Sel. Topics Quant. Electron.}, 9:614, 2003.
 
+\bibitem{walo2018}
+J.~Wang and Y.~Long.
+\newblock {On-chip silicon photonic signaling and processing: a review}.
+\newblock {\em Science Bulletin}, 63(19):1267--1310, oct 2018.
+
 \bibitem{oz1992}
 H.M. Ozaktas.
 \newblock Paradigms of connectivity for computer circuits and networks.
@@ -1250,11 +1344,6 @@ Y.~LeCun, Y.~Bengio, and G.~Hinton.
 I.~Goodfellow, Y.~Bengio, and A.~Courville.
 \newblock {\em Deep Learning}.
 \newblock MIT Press, 2016.
-
-\bibitem{kisi1996}
-J.~Kilian and H.T. Siegelmann.
-\newblock The dynamic universality of sigmoidal neural networks.
-\newblock {\em Information and Computation}, 128:48, 1996.
 
 \bibitem{vesc2007}
 D.~Verstraeten, B.~Schrauwen, M.~D'Haene, and D.~Stroobandt.
