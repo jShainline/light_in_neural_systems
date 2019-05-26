@@ -1,8 +1,9 @@
-\documentclass[twocolumn]{article}
+\documentclass[]{article}
 
 \usepackage{geometry}
 \geometry{textwidth = 18cm,textheight = 24cm}
 
+\usepackage{multicol}
 \usepackage{cite}
 \usepackage{caption}
 \usepackage{graphicx}
@@ -15,9 +16,6 @@
 \newcommand{\onlinecite}[1]{\hspace{-1 ex} \nocite{#1}\citenum{#1}} 
 
 \begin{document}
-
-\twocolumn[
-  \begin{@twocolumnfalse}
     
 \begin{center}
 \LARGE{Hardware for General Intelligence}\\ 
@@ -29,15 +27,15 @@
 \textit{\small National Institute of Standards and Technology, Boulder, CO, 80305}\\
 \vspace{0.3em}
 \small \today
-\end{center}
 
 \begin{abstract}
 \input{_abstract}
 \vspace{3em}
 \end{abstract}
 
-\end{@twocolumnfalse}
-]
+\end{center}
+
+\begin{multicols}{2}
 
 \setcounter{tocdepth}{2}
 \setcounter{secnumdepth}{4}
@@ -59,5 +57,7 @@
 
 \bibliographystyle{unsrt}
 \bibliography{hardware_for_general_intelligence}
+
+\end{multicols}
 
 \end{document}
