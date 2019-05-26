@@ -957,6 +957,12 @@ Y.~Shen, N.C. Harris, S.~Skirlo, M.~Prabhu, T.~Baehr-Jones, M.~Hochberg,
 \newblock Deep learning with coherent nanophotonic circuits.
 \newblock {\em Nature Photonics}, 11:441, 2016.
 
+\bibitem{funa1993}
+K.-I. Funahashi and Y.~Nakamura.
+\newblock Approximation of dynamical systems by continuous time recurrent
+  neural networks.
+\newblock {\em Neural Networks}, 6:801, 1993.
+
 \bibitem{kisi1996}
 J.~Kilian and H.T. Siegelmann.
 \newblock The dynamic universality of sigmoidal neural networks.
