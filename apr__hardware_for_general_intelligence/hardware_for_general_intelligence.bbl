@@ -884,40 +884,6 @@ K.K. Mehta, J.S. Orcutt, J.M. Shainline, O.~Tehar-Zahav, Z.~Sternberg,
   complementary metal-oxide-semiconductor process.
 \newblock {\em Opt. Lett.}, 39:1061, 2014.
 
-\bibitem{shxu2007}
-J.M. Shainline and J.~Xu.
-\newblock Silicon as an emissive optical medium.
-\newblock {\em Laser and Photonics Reviews}, 1:334, 2007.
-
-\bibitem{li2005}
-M.~Lipson.
-\newblock Guiding, modulating, and emitting light on silicon-challenges and
-  opportunities.
-\newblock {\em J. Lightwave Technology}, 23:4222, 2005.
-
-\bibitem{libo2010}
-D.~Liang and J.E. Bowers.
-\newblock Recent progress in lasers on silicon.
-\newblock {\em Nature Photonics}, 4:511, 2010.
-
-\bibitem{zhyi2015}
-Z.~Zhou, B.~Yin, and Jurgen Michel.
-\newblock On-chip light sources for silicon photonics.
-\newblock {\em Light: science and applications}, 4:e358, 2015.
-
-\bibitem{da1989}
-Gordon Davies.
-\newblock The optical properties of luminescence centres in silicon.
-\newblock {\em Physics Reports}, 176:83--188, 1989.
-
-\bibitem{orma2012}
-J.S. Orcutt, B.~Moss, C.~Sun, J.~Leu, M.~Georgas, J.~Shainline, J.~Sun
-  M.~Weaver E.~Zgraggen, H.~Li, S.~Urosevi\'{c}, M.~Popovi\'{c}, R.J. Ram, and
-  Vladimir Stojanovi\'{c}.
-\newblock Open foundry platform for high-performance electronic-photonic
-  integration.
-\newblock {\em Opt. Express}, 20:12222, 2012.
-
 \bibitem{godi1978}
 J.W. Goodman, A.R. Dias, and L.M. Woody.
 \newblock Fully-parallel, high-speed incoherent optical method for performing
@@ -1086,6 +1052,40 @@ A.N. Tait, T.~Ferreira de~Lima, E.~Zhou, A.X. Wu, M.A. Nahmias, B.J. Shastri,
 Z.~Cheng, C.~Rios, W.H.P. Pernice, C.D. Wright, and H.~Bhaskaran.
 \newblock On-chip photonic synapse.
 \newblock {\em Science Advances}, 3:1700160, 2017.
+
+\bibitem{shxu2007}
+J.M. Shainline and J.~Xu.
+\newblock Silicon as an emissive optical medium.
+\newblock {\em Laser and Photonics Reviews}, 1:334, 2007.
+
+\bibitem{li2005}
+M.~Lipson.
+\newblock Guiding, modulating, and emitting light on silicon-challenges and
+  opportunities.
+\newblock {\em J. Lightwave Technology}, 23:4222, 2005.
+
+\bibitem{libo2010}
+D.~Liang and J.E. Bowers.
+\newblock Recent progress in lasers on silicon.
+\newblock {\em Nature Photonics}, 4:511, 2010.
+
+\bibitem{zhyi2015}
+Z.~Zhou, B.~Yin, and Jurgen Michel.
+\newblock On-chip light sources for silicon photonics.
+\newblock {\em Light: science and applications}, 4:e358, 2015.
+
+\bibitem{da1989}
+Gordon Davies.
+\newblock The optical properties of luminescence centres in silicon.
+\newblock {\em Physics Reports}, 176:83--188, 1989.
+
+\bibitem{orma2012}
+J.S. Orcutt, B.~Moss, C.~Sun, J.~Leu, M.~Georgas, J.~Shainline, J.~Sun
+  M.~Weaver E.~Zgraggen, H.~Li, S.~Urosevi\'{c}, M.~Popovi\'{c}, R.J. Ram, and
+  Vladimir Stojanovi\'{c}.
+\newblock Open foundry platform for high-performance electronic-photonic
+  integration.
+\newblock {\em Opt. Express}, 20:12222, 2012.
 
 \bibitem{bu1956}
 D.A. Buck.
