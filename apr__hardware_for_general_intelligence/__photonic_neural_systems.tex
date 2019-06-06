@@ -205,7 +205,6 @@ Time-delay systems are an approach to reservoir computing that minimize the dema
 
 
 \subsubsection{Spiking Neurons with On-Chip Excitable Lasers}
-%\cite{pena2018} Neuromorphic Photonic Integrated Circuits IEEE JSTQE
 While the interferometric approach to deep learning discussed above makes use of static neurons, several approaches to spiking neurons have been pursued as well. One class of spiking photonic neurons leverages the carrier dynamics in compound semiconductor laser cavities. It has long been known that the equation governing lasers with gain and saturable absorber regions are isomorphic to the leaky integrate-and-fire neuron \cite{dukr1999}, with the number of excited carriers in the laser playing the role of the membrane potential. This correspondence has led to several designs \cite{nata2013} and experimental efforts (see Ref.\,\cite{prsh2017} and reference therein) to leverage this behavior to make spiking neurons that sum optical signals and produce optical pulses when a threshold has been reached. This work began in Er-doped fibers, and continues with on-chip implementations with III-V photonic systems, with much of the work being done in the Prucnal's group at Princeton. The refractory period of such neurons is set by the cavity photon decay time and is on the order of 10\,ps, while the integration time is set by the carrier relaxation time, and is on the order of 100\,ps. This short refractory period means such neurons can fire up to $10^9$ times faster than biological neurons, yet the short integration time means temporal correlations amongst neuronal firing events is forgotten rapidly. 
 
 While the goal of these efforts in excitable lasers is to perform neuro-inspired computing very rapidly with small networks, and not to achieve brain-scale systems, we nevertheless point out two features of this approach to using light in neural systems that are not conducive to achieving large-scale systems. The first is power consumption. To properly set the threshold of these neurons, the gain region must be continuously pumped. This requires between 100\,mW and 1\,W per neuron, even when the neuron is not firing. For a system of $10^{10}$ neurons, a gigawatt would be consumed, even with the system at rest. The second limitation regards computation. As discussed in Sec.\,\ref{sec:neuroscience}, neural information processing leverages many complex computations in synapses, dendrites, and neurons. In excitable lasers, all the computation occurs in the interaction between photons and carriers in the laser cavity. Multiply-accumulate operations can be performed with leak and threshold, but no path toward short-term synaptic plasticity or dendritic processing have been proposed. By relying on the exponential decay constants of photons and carriers, one is unable to tune the range of temporal information processing or supply the dendritic arbor with information across a wide range of temporal scales. These computations and time constants are more readily achieved in the electronic domain with circuits that can be engineered to perform complex functions rather than relying on material parameters, a point we revisit below.
@@ -218,6 +217,9 @@ Again, the goal of the work from the Princeton group is not to achieve brain-sca
 These considerations pertain to using wavelength for multiplexed routing, but there are independent reasons why using microring resonators to establish synaptic weights is not conducive to scaling. One challenge associated with microring weight banks is the fact that by changing a certain parameter (power delivered to heater, for example) the synaptic weight first increases, then saturates, the decreases as the resonance passes the target wavelength. This makes it very difficult for supervised or unsupervised learning to occur. Additionally, the shape of the resonance is nonlinear with very steep sections. Thus, to achieve uniform changes in synaptic weight, a nonuniform change in drive must be applied, and across much of the range of weights, the synaptic weight will be very noisy.
 
 Microring weight banks and Mach-Zehnder interferometer networks have two things in common: they both require implementing phase shifts in photonic components (which usually draws power, even in the steady state), and neither is capable of implementing STDP or other unsupervised learning techniques. To achieve the largest-scale neural systems, it is highly advantageous if storage of a synaptic weight draws no power. For a system at the scale of the brain, if each synapse draws even 10\,nW in the steady state, the system will consume 1\,MW just to remember what it has learned. 
+
+%A silicon photonic modulator neuron
+\cite{tafe2019}
 
 \subsubsection{Phase Change Materials for Synaptic Weighting and Neural Thresholding}
 One technique for establishing synaptic weights between neurons signaling with light is to leverage phase-change materials \cite{chri2017}. Such materials have the property that the coefficient of optical absorption is different between the two phases. Therefore, a variable attenuator can be devised wherein the crystallization state of a small patch of phase-change material integrated on a waveguide determines how many photons are transmitted through the synapse. Reference \cite{chri2017} showed that such a synapse could be used to implement a form of Hebbian learning, wherein two pulses incident closely in time could strengthen the synaptic weight by adjusting the crystallinity of the material and reducing absorption. 
@@ -267,3 +269,65 @@ Regarding the primary motivation for optical devices, Kogelnik wrote in 1981, ``
 
 \vspace{3em}
 When using light for computing in addition to communication in neural systems, information is often encoded in the amplitude of the light, and neurons often integrate the optical signal over time. There are multiple reasons why these uses of light are problematic: 1) encoding information in light amplitude is inefficient because it requires higher light levels to achieve dynamic range and overcome shot noise; 2) source noise is convoluted with synaptic weight; 3) integrating light intensity as the dynamical variable internal to the neuron (membrane potential) is limited because it is very difficult to store light in a cavity for longer than a few hundred picoseconds; 4) inhibition is difficult because light intensity can only be reduced with an additional optical signal if the phase between the two signals is controlled, which is extremely difficult in large systems with many synaptic signals.
+
+
+
+
+\vspace{3em}
+
+%Machine Learning with Neuromorphic Photonics
+\cite{fepe2019}
+
+%Neuromorphic Photonic Integrated Circuits IEEE JSTQE
+\cite{pena2018} 
+
+%Toward fast neural computing using all-photonic phase change spiking neurons
+\cite{chsa2018}
+
+%Architectures for optoelectronic analogs of self-organizing neural networks
+\cite{fa1987}
+
+%Overview of hybrid optical neural networks
+\cite{juyu1996}
+
+%Optical information processing based on an associative-memory model of neural nets with thresholding and feedback
+\cite{psfa1985}
+
+%The interconnectability of neuro-optic processors
+\cite{jast1986}
+
+%optical implementation of associative networks
+\cite{fili1987}
+
+%artificial neuron based on integrated semiconductor quantum dot mode-locked lasers
+\cite{meka2016}
+
+%hybrid optical-electronic convolutional neural networks with optimized diffractive optics for image classification
+\cite{chsi2018}
+
+%An all-optical neuron with sigmoid activation function
+\cite{mots2019}
+
+%Progress in neuromorphic photonics
+\cite{fesh2017}
+
+%Coherent optical neural network that learns desirable phase values
+\cite{kahi2003}
+
+%Reconfigurable optical neuron based on photoelectret materials
+\cite{mo2000}
+
+%Performance assessment of the modified-hybrid optical neural network filter
+\cite{kyle2008}
+
+%Large-Scale optical neural networks based on photoelectric multiplication
+\cite{hasl2018}
+
+%Advances in photonic reservoir computing
+\cite{vabr2017}
+
+%Reconfigurable semiconductor laser networks based on diffractive coupling
+\cite{brfi2015}
+
+%Optoelectronic reservoir computing
+\cite{padu2012}

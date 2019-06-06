@@ -34,6 +34,42 @@ I was expecting a `,' or a `}'---line 4813 of file hardware_for_general_intellig
  : @ARTICLE{apso2010,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Repeated entry---line 4852 of file hardware_for_general_intelligence.bib
+ : @article{bubr2017
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4861 of file hardware_for_general_intelligence.bib
+ : @article{orso2015
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4870 of file hardware_for_general_intelligence.bib
+ : @article{nate2017
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4879 of file hardware_for_general_intelligence.bib
+ : @article{anha2017
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4888 of file hardware_for_general_intelligence.bib
+ : @article{vadi2008
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4906 of file hardware_for_general_intelligence.bib
+ : @article{dusc2012
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4915 of file hardware_for_general_intelligence.bib
+ : @article{padu2012
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4924 of file hardware_for_general_intelligence.bib
+ : @article{brfi2015
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5059 of file hardware_for_general_intelligence.bib
+ : @article{chsa2018
+ :                  ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "http://www.atimes.com/leibniz-chinese-invented-first-binary-code/"
 Warning--I didn't find a database entry for "http://www.leibniz-translations.com/binary.htm"
@@ -57,14 +93,17 @@ Warning--I didn't find a database entry for "one_from_reading_group"
 Warning--I didn't find a database entry for "mi2015_fix_ref"
 Warning--I didn't find a database entry for "shha2017"
 Warning--I didn't find a database entry for "nata2013"
+Warning--I didn't find a database entry for "tafe2019"
 Warning--I didn't find a database entry for "shor2014"
 Warning--I didn't find a database entry for "suwa2017"
+Warning--I didn't find a database entry for "fepe2019"
 Warning--I didn't find a database entry for "chca2013"
 Warning--I didn't find a database entry for "ke1985"
 Warning--I didn't find a database entry for "x"
 Warning--I didn't find a database entry for "y"
 Warning--I didn't find a database entry for "z"
 Warning--I didn't find a database entry for "thatpapersomeonepresentedatgroupmeeting"
+Warning--I didn't find a database entry for "bo2014"
 Warning--I didn't find a database entry for "siso1991"
 Warning--I didn't find a database entry for "dave2012"
 Warning--I didn't find a database entry for "omgi1994"
@@ -85,4 +124,4 @@ Warning--empty author in bu1950
 Warning--empty year in bu1950
 Warning--empty title in ai1989
 Warning--empty title in og1989
-(There were 9 error messages)
+(There were 18 error messages)

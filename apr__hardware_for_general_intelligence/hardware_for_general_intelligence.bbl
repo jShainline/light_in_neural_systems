@@ -1046,7 +1046,7 @@ A.N. Tait, M.A. Nahmias, B.J. Shastri, and P.R. Prucnal.
 A.N. Tait, T.~Ferreira de~Lima, E.~Zhou, A.X. Wu, M.A. Nahmias, B.J. Shastri,
   and P.R. Prucnal.
 \newblock Neuromorphic photonic networks using silicon photonic weight banks.
-\newblock {\em Nature Sci. Rep.}, 7:7430, 2017.
+\newblock {\em Sci. Rep.}, 7:7430, 2017.
 
 \bibitem{chri2017}
 Z.~Cheng, C.~Rios, W.H.P. Pernice, C.D. Wright, and H.~Bhaskaran.
@@ -1086,6 +1086,92 @@ J.S. Orcutt, B.~Moss, C.~Sun, J.~Leu, M.~Georgas, J.~Shainline, J.~Sun
 \newblock Open foundry platform for high-performance electronic-photonic
   integration.
 \newblock {\em Opt. Express}, 20:12222, 2012.
+
+\bibitem{pena2018}
+H.-T. Peng, M.A. Nahmias, T.~Ferreira de~Lima, A.N. Tait, B.J. Shastri, and
+  P.R. Prucnal.
+\newblock Neuromorphic {P}hotonic {I}ntegrated {C}ircuits.
+\newblock {\em IEEE J. Sel. Topics Quant. Electron.}, 24:6101715, 2018.
+
+\bibitem{chsa2018}
+I.~Chakraborty, G.~Saha, A.~Sengupta, and K.~Roy.
+\newblock Toward fast neural computing using all-photonic phase change spiking
+  neurons.
+\newblock {\em Scientific Reports}, 8:12980, 2018.
+
+\bibitem{fa1987}
+N.H. Farhat.
+\newblock Architectures for optoelectronic analogs of self-organizing neural
+  networks.
+\newblock {\em Opt. Lett.}, 12:448, 1987.
+
+\bibitem{juyu1996}
+S.~Jutamulia and F.T.S. Yu.
+\newblock Overview of hybrid optical neural networks.
+\newblock {\em Optics and Laser Technology}, 28:59, 1996.
+
+\bibitem{psfa1985}
+D.~Psaltis and N.~Farhat.
+\newblock Optical information processing based on an associative-memory model
+  of neural nets with thresholding and feedback.
+\newblock {\em Opt. Lett.}, 10:98, 1985.
+
+\bibitem{jast1986}
+T.~Jannson, H.M. Stoll, and C.~Karaguleff.
+\newblock The interconnectability of neuro-optic processors.
+\newblock {\em SPIE Real Time Signal Processing IX}, 698:157, 1986.
+
+\bibitem{fili1987}
+A.D. Fisher, W.L. Lippincott, and J.N. Lee.
+\newblock Optical implementation of associative networks with versatile
+  adaptive learning capabilities.
+\newblock {\em Applied Optics}, 26:5039, 1987.
+
+\bibitem{meka2016}
+C.~Mesaritakis, A.~Kapsalis, A.~Bogris, and D.~Syvridis.
+\newblock Artificial neuron based on integrated semiconductor quantum dot
+  mode-locked lasers.
+\newblock {\em Sci. Rep.}, 6:39317, 2018.
+
+\bibitem{chsi2018}
+J.~Chang, V.~Sitzmann, X.~Dun, W.~Heidrich, and G.~Wetzstein.
+\newblock Hybrid optical-electronic convolutional neural networks with
+  optimized diffractive optics for image classification.
+\newblock {\em Sci. Rep.}, 8:12324, 2018.
+
+\bibitem{mots2019}
+G.~Mourgias-Alexandris, A.~Tsakyridis, N.~Passalis, A.~Tefas, K.~Vyrsokinos,
+  and N.~Pleros.
+\newblock An all-optical neuron with sigmoid activation function.
+\newblock {\em Opt. Express}, 27:9620, 2019.
+
+\bibitem{fesh2017}
+T.~Ferreira de~Lima, B.J. Shastri, A.N. Tait, M.A. Nahmias, and P.R. Prucnal.
+\newblock Progress in neuromorphic photonics.
+\newblock {\em Nanophotonics}, 6:577, 2017.
+
+\bibitem{kahi2003}
+S.~Kawata and A.~Hirose.
+\newblock Coherent optical neural network that learns desirable phase values in
+  the frequency domain by use of multiple optical-path differences.
+\newblock {\em Opt. Lett.}, 28:2524, 2003.
+
+\bibitem{mo2000}
+G.~Moagar-Poladian.
+\newblock Reconfigurable optical neuron based on photoelectret materials.
+\newblock {\em Applied Optics}, 39:782, 2000.
+
+\bibitem{kyle2008}
+I.~Kypraios, P.~Lei, P.M. Birch, R.C.D. Young, and C.R. Chatwin.
+\newblock Performance assessment of the modified-hybrid optical neural network
+  filter.
+\newblock {\em Applied Optics}, 47:3378, 2008.
+
+\bibitem{hasl2018}
+R.~Hamerly, A.~Sludds, L.~Bernstein, M.~Soljacic, and D.~Englund.
+\newblock Large-scale optical neural networks based on photoelectric
+  multiplication.
+\newblock {\em arXiv}, page 1812.07614, 2018.
 
 \bibitem{bu1956}
 D.A. Buck.
