@@ -1422,6 +1422,119 @@ H.M. Ozaktas.
 \newblock Paradigms of connectivity for computer circuits and networks.
 \newblock {\em Optical Engineering}, 31:1563, 1992.
 
+\bibitem{grco2016}
+C.~Granade, J.~Combes, and D.G. Cory.
+\newblock Practical bayesian tomography.
+\newblock {\em New J. Phys.}, 18:033024, 2016.
+
+\bibitem{stpo2016}
+G.I. Struchalin, I.A. Pogorelov, S.S. Straupe, K.S. Kravtsov, I.V. Radchenko, ,
+  and S.P. Kulik.
+\newblock Experimental adaptive quantum tomography of two-qubit states.
+\newblock {\em Phys. Rev. A}, 93:012103, 2016.
+
+\bibitem{clde2010}
+A.A. Clerk, M.H. Devoret, S.M. Girvin, F.~Marquardt, , and R.J. Schoelkopf.
+\newblock Introduction to quantum noise, measurement, and amplification.
+\newblock {\em arXiv}, 0810:4729, 2010.
+
+\bibitem{clde2018}
+A.~Opremcak, I.V. Pechenezhskiy, C.~Howington, B.G. Christensen, M.A. Beck, and
+  R.~McDermott.
+\newblock Measurement of a superconducting qubit with a microwave photon
+  counter.
+\newblock {\em Science}, 361:1239, 2018.
+
+\bibitem{jo1991}
+K.R.W. Jones.
+\newblock Principles of quantum inference.
+\newblock {\em Annals of Physics}, 140:1239, 1991.
+
+\bibitem{jo1994}
+K.R.W. Jones.
+\newblock Fundamental limits upon the measurement of state vectors.
+\newblock {\em Phys. Rev. A}, 50:3682, 1994.
+
+\bibitem{devu1997}
+R.~Derka, V.~Buzek, G.~Adam, and P.L. Knight.
+\newblock From quantum bayesian inference to quantum tomography.
+\newblock {\em arXiv}, page 9701029, 1997.
+
+\bibitem{scbr2001}
+R.~Schack, T.A. Brun, and C.M. Caves.
+\newblock Quantum bayes rule.
+\newblock {\em Phys. Rev. A}, 64, 2001.
+
+\bibitem{bl2010}
+R.~Blume-Kohout.
+\newblock Optimal, reliable estimation of quantum states.
+\newblock {\em New. J. Phys.}, 12, 2010.
+
+\bibitem{huho2012}
+F.~Huszar and N.M.T. Houlsby.
+\newblock Adaptive bayesian quantum tomography.
+\newblock {\em Phys. Rev. A}, 85, 2012.
+
+\bibitem{mabe2006}
+W.J. Ma, J.M. Beck, P.E. Latham, and A.~Pouget.
+\newblock Bayesian inference with probabilistic population codes.
+\newblock {\em Nature Neuroscience}, 9:1432, 2006.
+
+\bibitem{yash2007}
+T.~Yang and M.N. Shadlen.
+\newblock Probabilistic reasoning by neurons.
+\newblock {\em Nature}, 447:1075, 2007.
+
+\bibitem{bema2008}
+J.M. Beck, W.J. Ma, R.~Kiani, T.~Hanks, A.K. Churchland, J.~Roitman, M.N.
+  Shadlen, P.E. Latham, and A.~Pouget.
+\newblock Probabilistic population codes form bayesian decision making.
+\newblock {\em Neuron}, 60:1142, 2008.
+
+\bibitem{muwe2013}
+K.W. Murch, S.J. Weber, C.~Macklin, and I.~Siddiqi.
+\newblock Observing single quantum trajectories of a superconducting quantum
+  bit.
+\newblock {\em Nature}, 502, 2013.
+
+\bibitem{toma2018}
+G.~Torlai, G.~Mazzola, J.~Carrasquilla, M.~Troyer, R.~Melko, , and G.~Carleo.
+\newblock Neural-network quantum state tomography.
+\newblock {\em Nat. Phys.}, 14, 2018.
+
+\bibitem{bacl2006}
+M.J. Barber, J.W. Clark, and C.H. Anderson.
+\newblock Neural representation of probabilistic information.
+\newblock {\em Neural Computation}, 15, 2006.
+
+\bibitem{we2018}
+C.~Wetterich.
+\newblock Quantum computing with classical bits.
+\newblock {\em arXiv}, 1810:05960, 2018.
+
+\bibitem{peme2018}
+C.~Pehle, K.~Meier, M.~Oberthaler, and C.~Wetterich.
+\newblock Emulating quantum computation with artificial neural networks.
+\newblock {\em arXiv}, 1810:10335, 2018.
+
+\bibitem{catr2017}
+G.~Carleo and M.~Troyer.
+\newblock Solving the quantum many-body problem with artificial neural
+  networks.
+\newblock {\em Science}, 355, 2017.
+
+\bibitem{lemo2018}
+D.T. Lennon, H.~Moon, L.C. Camenzind, L.~Yu, D.M. Zumbuhl, G.A.D. Briggs, M.A.
+  Osborne, E.A. Laird, , and N.~Ares.
+\newblock Efficiently measuring a quantum device using machine learning.
+\newblock {\em arXiv}, 1810:10042, 2018.
+
+\bibitem{sh2018_full}
+J.M. Shainline, S.M. Buckley, A.N. McCaughan, J.~Chiles, A.~Jafari-Salim, R.P.
+  Mirin, and S.W. Nam.
+\newblock Superconducting optoelectronic neurons.
+\newblock {\em arXiv}, page 1805.01929, 2018.
+
 \bibitem{on1911}
 H.K. Onnes.
 \newblock The resistance of pure mercury at helium temperatures.
