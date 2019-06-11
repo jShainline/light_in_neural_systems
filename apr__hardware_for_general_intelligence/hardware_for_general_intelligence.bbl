@@ -119,6 +119,13 @@ J.J. Hopfield.
   abilities.
 \newblock {\em PNAS}, 79:2554, 1982.
 
+\bibitem{sisc2017}
+D.~Silver, J.~Schrittwieser, K.~Simonyan, I.~Antonoglou, A.~Huang, A.~Guez,
+  T.~Hubert, L.~Baker, M.~Lai, A.~Bolton, Y.~Chen, T.~Lillicrap, F.~Hui,
+  L.~Sifre, G.~van~den Driessche, T.~Graepel, and D.~Hassabis.
+\newblock Mastering the game of {G}o without human knowledge.
+\newblock {\em Nature}, 354:550, 2017.
+
 \bibitem{eskn2015}
 E.~Estrada and P.A. Knight.
 \newblock {\em A First Course in Network Theory}.
@@ -841,6 +848,17 @@ D.~Psaltis, D.~Brady, and K.~Wagner.
 \newblock Optical neural computers.
 \newblock {\em Sci. Am.}, 256:88, 1987.
 
+\bibitem{liri2018}
+X.~Lin, Y.~Rivenson, N.T. Yardimci, M.~Veli, Y.~Luo, M.~Jarrahi, and A.~Ozcan.
+\newblock All-optical machine learning using diffractive deep neural networks.
+\newblock {\em Science}, 361:1004, 2018.
+
+\bibitem{hasl2018}
+R.~Hamerly, A.~Sludds, L.~Bernstein, M.~Soljacic, and D.~Englund.
+\newblock Large-scale optical neural networks based on photoelectric
+  multiplication.
+\newblock {\em arXiv}, page 1812.07614, 2018.
+
 \bibitem{ra2007}
 D.G. Rabus.
 \newblock {\em Integrated Ring Resonators}.
@@ -1167,12 +1185,6 @@ I.~Kypraios, P.~Lei, P.M. Birch, R.C.D. Young, and C.R. Chatwin.
   filter.
 \newblock {\em Applied Optics}, 47:3378, 2008.
 
-\bibitem{hasl2018}
-R.~Hamerly, A.~Sludds, L.~Bernstein, M.~Soljacic, and D.~Englund.
-\newblock Large-scale optical neural networks based on photoelectric
-  multiplication.
-\newblock {\em arXiv}, page 1812.07614, 2018.
-
 \bibitem{bu1956}
 D.A. Buck.
 \newblock The cryotron--a superconductive computer component.
@@ -1422,6 +1434,12 @@ H.M. Ozaktas.
 \newblock Paradigms of connectivity for computer circuits and networks.
 \newblock {\em Optical Engineering}, 31:1563, 1992.
 
+\bibitem{kasv2019}
+J.~Kates-Harbeck, A.~Svyotkovskiy, and W.~Tang.
+\newblock Predicting disruptive instabilities in controlled fusion plasmas
+  through deep learning.
+\newblock {\em Nature}, 568:526, 2019.
+
 \bibitem{grco2016}
 C.~Granade, J.~Combes, and D.G. Cory.
 \newblock Practical bayesian tomography.
@@ -1475,6 +1493,11 @@ F.~Huszar and N.M.T. Houlsby.
 \newblock Adaptive bayesian quantum tomography.
 \newblock {\em Phys. Rev. A}, 85, 2012.
 
+\bibitem{toma2018}
+G.~Torlai, G.~Mazzola, J.~Carrasquilla, M.~Troyer, R.~Melko, , and G.~Carleo.
+\newblock Neural-network quantum state tomography.
+\newblock {\em Nat. Phys.}, 14, 2018.
+
 \bibitem{mabe2006}
 W.J. Ma, J.M. Beck, P.E. Latham, and A.~Pouget.
 \newblock Bayesian inference with probabilistic population codes.
@@ -1496,11 +1519,6 @@ K.W. Murch, S.J. Weber, C.~Macklin, and I.~Siddiqi.
 \newblock Observing single quantum trajectories of a superconducting quantum
   bit.
 \newblock {\em Nature}, 502, 2013.
-
-\bibitem{toma2018}
-G.~Torlai, G.~Mazzola, J.~Carrasquilla, M.~Troyer, R.~Melko, , and G.~Carleo.
-\newblock Neural-network quantum state tomography.
-\newblock {\em Nat. Phys.}, 14, 2018.
 
 \bibitem{bacl2006}
 M.J. Barber, J.W. Clark, and C.H. Anderson.
@@ -1534,6 +1552,11 @@ J.M. Shainline, S.M. Buckley, A.N. McCaughan, J.~Chiles, A.~Jafari-Salim, R.P.
   Mirin, and S.W. Nam.
 \newblock Superconducting optoelectronic neurons.
 \newblock {\em arXiv}, page 1805.01929, 2018.
+
+\bibitem{bo2014}
+N.~Bostrom.
+\newblock {\em Superintelligence}.
+\newblock Oxford University Press, 2014.
 
 \bibitem{on1911}
 H.K. Onnes.
