@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  11 JUN 2019 13:18
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  12 JUN 2019 12:03
 entering extended mode
 **loop_neurons.tex
 
@@ -15,29 +15,182 @@ german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
-File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(C:\Users\jms4\AppData\Roaming\MiKTeX\2.9\tex\latex\revtex\revtex4-1.cls
+Document Class: revtex4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revt
+ex4/ for documentation)
+ Copyright (c) 2009 The American Physical Society.
+ mailto:revtex@aps.org
+ Licensed under the LPPL:
+http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
+ Arthur Ogawa <arthur_ogawa at sbcglobal dot net>
+ Based on work by David Carlisle <david at dcarlisle.demon.co.uk>.
+ltxutil[2010/07/25/20:33:00 4.1r utilities package (portions licensed from W. E
+. Baxter web at superscript.com)]
+LaTeX Info: Redefining \@centercr on input line 308.
+Class revtex4-1 Info: Repairing broken LaTeX eqnarray on input line 358.
+\eqncolsep=\skip41
+Class revtex4-1 Info: Repairing hyperref-unfriendly LaTeX definition of \mpfoot
+note on input line 433.
+Class revtex4-1 Info: Repairing broken LateX \@sect on input line 755.
+\intertabularlinepenalty=\count79
+\@tbpen=\count80
+\@arstrutbox@hline=\box26
+Class revtex4-1 Info: Repairing broken LaTeX \@xbitor on input line 1786.
+Class revtex4-1 Info: Making \typeout \long on input line 2046.
+ltxfront[2010/07/25/20:33:00 4.1r frontmatter package (AO,DPC)]
+\c@affil=\count81
+\c@collab=\count82
+\absbox=\box27
+ltxgrid[2010/07/25/20:33:00 4.1r page grid package (portions licensed from W. E
+. Baxter web at superscript.com)]
+\c@linecount=\count83
+\output@latex=\toks14
+\box@size@1=\box28
+\box@size@2=\box29
+\@protection@box=\box30
+\@topmark@saved=\toks15
+\footins@saved=\box31
+\footins@recovered=\box32
+\column@recovered=\box33
+\pagesofar=\box34
+\footsofar=\box35
+\pagegrid@col=\count84
+Class revtex4-1 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
+ \\  on input line 5578.
+\c@part=\count85
+\c@section=\count86
+\c@subsection=\count87
+\c@subsubsection=\count88
+\c@paragraph=\count89
+\c@subparagraph=\count90
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\c@figure=\count91
+\fbox@1=\box36
+\c@table=\count92
+\fbox@2=\box37
+\c@video=\count93
+\fbox@4=\box38
+\@bibdataout=\write3
+\widetext@top=\box39
+\widetext@bot=\box40
+Class revtex4-1 Info: Selecting society aip on input line 7542.
+(C:\Users\jms4\AppData\Roaming\MiKTeX\2.9\tex\latex\revtex\aip4-1.rtx
+File: aip4-1.rtx 2010/07/25 4.1r AIP substyle for REVTeX
+Class revtex4-1 Info: RevTeX society AIP selected on input line 67.
 )
-\c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
-\bibindent=\dimen102
+
+Class revtex4-1 Warning: No journal specified, using default cha.
+
+Using journal substyle cha.
+Class revtex4-1 Info: Reading file aps10pt4-1.rtx on input line 7547.
+(C:\Users\jms4\AppData\Roaming\MiKTeX\2.9\tex\latex\revtex\aps10pt4-1.rtx
+File: aps10pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
+documentation)
+Class revtex4-1 Info: RevTeX pointsize 10pt selected on input line 30.
 )
+Class revtex4-1 Info: Overriding 10pt on input line 7547.
+
+(C:\Users\jms4\AppData\Roaming\MiKTeX\2.9\tex\latex\textcase\textcase.sty
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen102
+)
+LaTeX Info: Redefining \text on input line 39.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen103
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count94
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count95
+\leftroot@=\count96
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count97
+\DOTSCASE@=\count98
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box41
+\strutbox@=\box42
+\big@size=\dimen104
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count99
+\c@MaxMatrixCols=\count100
+\dotsspace@=\muskip10
+\c@parentequation=\count101
+\dspbrk@lvl=\count102
+\tag@help=\toks18
+\row@=\count103
+\column@=\count104
+\maxfields@=\count105
+\andhelp@=\toks19
+\eqnshift@=\dimen105
+\alignsep@=\dimen106
+\tagshift@=\dimen107
+\tagwidth@=\dimen108
+\totwidth@=\dimen109
+\lineht@=\dimen110
+\@envbody=\toks20
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(C:\Users\jms4\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip47
+\bibsep=\skip48
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count106
+)
+Class revtex4-1 Info: Repairing natbib's \BibitemShut on input line 7549.
+
+(C:\Users\jms4\AppData\Roaming\MiKTeX\2.9\tex\latex\revtex\revsymb4-1.sty
+Package: revsymb4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ f
+or documentation)
+LaTeX Info: Redefining \frak on input line 95.
+LaTeX Info: Redefining \Bbb on input line 111.
+LaTeX Info: Redefining \REV@mathfrak on input line 119.
+))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks14
+\KV@toks@=\toks22
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
@@ -50,41 +203,20 @@ Package ifvtex Info: VTeX not detected.
 ("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count87
-\Gm@cntv=\count88
-\c@Gm@tempcnt=\count89
-\Gm@bindingoffset=\dimen103
-\Gm@wd@mp=\dimen104
-\Gm@odd@mp=\dimen105
-\Gm@even@mp=\dimen106
-\Gm@layoutwidth=\dimen107
-\Gm@layoutheight=\dimen108
-\Gm@layouthoffset=\dimen109
-\Gm@layoutvoffset=\dimen110
-\Gm@dimlist=\toks15
+\Gm@cnth=\count107
+\Gm@cntv=\count108
+\c@Gm@tempcnt=\count109
+\Gm@bindingoffset=\dimen111
+\Gm@wd@mp=\dimen112
+\Gm@odd@mp=\dimen113
+\Gm@even@mp=\dimen114
+\Gm@layoutwidth=\dimen115
+\Gm@layoutheight=\dimen116
+\Gm@layouthoffset=\dimen117
+\Gm@layoutvoffset=\dimen118
+\Gm@dimlist=\toks23
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-(C:\Users\jms4\AppData\Roaming\MiKTeX\2.9\tex\latex\cite\cite.sty
-LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 373.
-Package: cite 2010/09/10  v 5.3
-)
-(C:\Users\jms4\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
-
-(C:\Users\jms4\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
-Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen111
-\captionmargin@=\dimen112
-\captionwidth=\dimen113
-\caption@tempdima=\dimen114
-\caption@indent=\dimen115
-\caption@parindent=\dimen116
-\caption@hangindent=\dimen117
-)
-\c@ContinuedFloat=\count90
-)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -108,79 +240,11 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count91
+\Gread@gobject=\count110
 ))
-\Gin@req@height=\dimen118
-\Gin@req@width=\dimen119
+\Gin@req@height=\dimen119
+\Gin@req@width=\dimen120
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip43
-
-For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
-Package: amstext 2000/06/29 v2.01
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
-File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks16
-\ex@=\dimen120
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
-Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen121
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
-Package: amsopn 1999/12/14 v2.01 operator names
-)
-\inf@bad=\count92
-LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count93
-\leftroot@=\count94
-LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count95
-\DOTSCASE@=\count96
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box26
-\strutbox@=\box27
-\big@size=\dimen122
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count97
-\c@MaxMatrixCols=\count98
-\dotsspace@=\muskip10
-\c@parentequation=\count99
-\dspbrk@lvl=\count100
-\tag@help=\toks17
-\row@=\count101
-\column@=\count102
-\maxfields@=\count103
-\andhelp@=\toks18
-\eqnshift@=\dimen123
-\alignsep@=\dimen124
-\tagshift@=\dimen125
-\tagwidth@=\dimen126
-\totwidth@=\dimen127
-\lineht@=\dimen128
-\@envbody=\toks19
-\multlinegap=\skip44
-\multlinetaggap=\skip45
-\mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
@@ -297,36 +361,35 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-(C:\Users\jms4\AppData\Roaming\MiKTeX\2.9\tex\latex\preprint\authblk.sty
-Package: authblk 2001/02/27 1.3 (PWD)
-\affilsep=\skip46
-\@affilsep=\skip47
-\c@Maxaffil=\count104
-\c@authors=\count105
-\c@affil=\count106
-)
+Class revtex4-1 Info: Patching LaTeX tabular. on input line 20.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 20.
+
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 20.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 20.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 20.
+
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\jap__loop_neurons\secon
 d_jap_submission__in_response_to_reviewer\loop_neurons.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 20.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 40.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 20.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -347,610 +410,525 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * \textheight=682.86613pt
 * \oddsidemargin=-21.1973pt
 * \evensidemargin=-21.1973pt
-* \topmargin=-64.42847pt
-* \headheight=12.0pt
-* \headsep=25.0pt
+* \topmargin=-68.42847pt
+* \headheight=25.0pt
+* \headsep=16.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=4.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \marginparwidth=30.0pt
+* \marginparsep=6.0pt
+* \columnsep=18.0pt
+* \skip\footins=39.0pt plus 4.0pt minus 12.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
-* \@twocolumntrue
+* \@twocolumnfalse
 * \@twosidefalse
 * \@mparswitchfalse
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: End \AtBeginDocument code.
 (C:\Users\jms4\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count107
-\scratchdimen=\dimen129
-\scratchbox=\box28
-\nofMPsegments=\count108
-\nofMParguments=\count109
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count110
-\MPscratchDim=\dimen130
-\MPnumerator=\count111
-\makeMPintoPDFobject=\count112
-\everyMPtoPDFconversion=\toks22
+\scratchcounter=\count111
+\scratchdimen=\dimen121
+\scratchbox=\box43
+\nofMPsegments=\count112
+\nofMParguments=\count113
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count114
+\MPscratchDim=\dimen122
+\MPnumerator=\count115
+\makeMPintoPDFobject=\count116
+\everyMPtoPDFconversion=\toks25
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 52.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 67.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 52.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 67.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 52.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 67.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 52.
+(Font)              <10> on input line 67.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 52.
+(Font)              <7> on input line 67.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 52.
-LaTeX Font Info:    Try loading font information for U+msa on input line 52.
+(Font)              <5> on input line 67.
+LaTeX Font Info:    Try loading font information for U+msa on input line 67.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 52.
+LaTeX Font Info:    Try loading font information for U+msb on input line 67.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 52.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 52.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1{C:/Users/jms4/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 70.
 
 
-] [2]
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmss.fd"
+File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 85.
+(Font)              <9> on input line 70.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 85.
- [3]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 101.
+(Font)              <6> on input line 70.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 70.
+ [1{C:/Users/jms4/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3]
+LaTeX Font Info:    Font shape `OT1/lmss/bx/it' in size <9> not available
+(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 116
+.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 119.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [4]
-<_general_schematic_small.pdf, id=29, 244.69318pt x 156.48964pt>
+<_general_schematic_small.pdf, id=27, 244.69318pt x 156.48964pt>
 File: _general_schematic_small.pdf Graphic file (type pdf)
 
 <use _general_schematic_small.pdf>
-Package pdftex.def Info: _general_schematic_small.pdf used on input line 119.
+Package pdftex.def Info: _general_schematic_small.pdf used on input line 137.
 (pdftex.def)             Requested size: 244.69386pt x 156.49164pt.
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 120
-.
+ [5 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/s
+econd_jap_submission__in_response_to_reviewer/_general_schematic_small.pdf>]
+Underfull \hbox (badness 1102) in paragraph at lines 146--147
+[]\OT1/lmr/m/n/10 The cur-rents in the synap-tic and neu-ronal loops
+ []
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmss.fd"
-File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [5 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
-second_jap_submission__in_response_to_reviewer/_general_schematic_small.pdf>] [
-6]
-<_receivers_schematic_small.pdf, id=73, 244.69318pt x 298.75415pt>
+
+Underfull \hbox (badness 1735) in paragraph at lines 159--160
+[]\OT1/lmr/m/n/10 Loop neu-rons com-bine sev-eral core de-vices: su-
+ []
+
+[6] <_receivers_schematic_small.pdf, id=70, 244.69318pt x 298.75415pt>
 File: _receivers_schematic_small.pdf Graphic file (type pdf)
 
 <use _receivers_schematic_small.pdf>
-Package pdftex.def Info: _receivers_schematic_small.pdf used on input line 155.
+Package pdftex.def Info: _receivers_schematic_small.pdf used on input line 173.
 
 (pdftex.def)             Requested size: 244.69386pt x 298.75797pt.
- [7] [8 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neuro
-ns/second_jap_submission__in_response_to_reviewer/_receivers_schematic_small.pd
-f>]
-<_receivers_circuitDiagrams_small.pdf, id=173, 244.69318pt x 250.68657pt>
+ [7]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 179.
+
+<_receivers_circuitDiagrams_small.pdf, id=75, 244.69318pt x 250.68657pt>
 File: _receivers_circuitDiagrams_small.pdf Graphic file (type pdf)
 
 <use _receivers_circuitDiagrams_small.pdf>
 Package pdftex.def Info: _receivers_circuitDiagrams_small.pdf used on input lin
-e 168.
+e 186.
 (pdftex.def)             Requested size: 244.69386pt x 250.68976pt.
 
-<_receivers_sffg_firingDetail_small.pdf, id=174, 244.69417pt x 404.17699pt>
+<_receivers_sffg_firingDetail_small.pdf, id=76, 244.69417pt x 404.17699pt>
 File: _receivers_sffg_firingDetail_small.pdf Graphic file (type pdf)
 
 <use _receivers_sffg_firingDetail_small.pdf>
 Package pdftex.def Info: _receivers_sffg_firingDetail_small.pdf used on input l
-ine 174.
+ine 192.
 (pdftex.def)             Requested size: 244.69386pt x 404.18216pt.
+ [8 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/s
+econd_jap_submission__in_response_to_reviewer/_receivers_schematic_small.pdf>]
 
-Underfull \vbox (badness 2020) has occurred while \output is active []
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 198.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/s
-econd_jap_submission__in_response_to_reviewer/_receivers_circuitDiagrams_small.
-pdf> <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
-second_jap_submission__in_response_to_reviewer/_receivers_sffg_firingDetail_sma
-ll.pdf>]
-[10]
-<_receivers_inhibitoryAndExcitatory_small.pdf, id=319, 244.69318pt x 137.26282p
+[9 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/se
+cond_jap_submission__in_response_to_reviewer/_receivers_circuitDiagrams_small.p
+df> <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/s
+econd_jap_submission__in_response_to_reviewer/_receivers_sffg_firingDetail_smal
+l.pdf>] [10]
+<_receivers_inhibitoryAndExcitatory_small.pdf, id=318, 244.69318pt x 137.26282p
 t>
 File: _receivers_inhibitoryAndExcitatory_small.pdf Graphic file (type pdf)
  <use _receivers_inhibitoryAndExcitatory_small.pdf>
 Package pdftex.def Info: _receivers_inhibitoryAndExcitatory_small.pdf used on i
-nput line 195.
+nput line 213.
 (pdftex.def)             Requested size: 244.69386pt x 137.26456pt.
 
-Underfull \hbox (badness 2818) in paragraph at lines 200--201
+Underfull \hbox (badness 1259) in paragraph at lines 216--217
+\OT1/lmr/m/n/10 hibitory con-nec-tions keep the net-work from ex-pe-ri-
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 218--219
 []\OT1/lmr/m/n/10 The sym-me-try be-tween in-hibitory and ex-ci-ta-tory
  []
 
-[11 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/s
-econd_jap_submission__in_response_to_reviewer/_receivers_inhibitoryAndExcitator
-y_small.pdf>]
-<_receivers_coincidence_small.pdf, id=337, 244.69318pt x 277.36926pt>
+<_receivers_coincidence_small.pdf, id=319, 244.69318pt x 277.36926pt>
 File: _receivers_coincidence_small.pdf Graphic file (type pdf)
 
 <use _receivers_coincidence_small.pdf>
-Package pdftex.def Info: _receivers_coincidence_small.pdf used on input line 20
-7.
+Package pdftex.def Info: _receivers_coincidence_small.pdf used on input line 22
+5.
 (pdftex.def)             Requested size: 244.69386pt x 277.3728pt.
 
-<_receivers_dendriticProcessing_small.pdf, id=338, 244.69417pt x 347.63176pt>
+<_receivers_dendriticProcessing_small.pdf, id=320, 244.69417pt x 347.63176pt>
 File: _receivers_dendriticProcessing_small.pdf Graphic file (type pdf)
 
 <use _receivers_dendriticProcessing_small.pdf>
 Package pdftex.def Info: _receivers_dendriticProcessing_small.pdf used on input
- line 213.
+ line 231.
 (pdftex.def)             Requested size: 244.69386pt x 347.6362pt.
+ [11 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
+second_jap_submission__in_response_to_reviewer/_receivers_inhibitoryAndExcitato
+ry_small.pdf>]
 
-Underfull \vbox (badness 2065) has occurred while \output is active []
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 236.
 
+[12 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/s
+econd_jap_submission__in_response_to_reviewer/_receivers_coincidence_small.pdf>
+ <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/seco
+nd_jap_submission__in_response_to_reviewer/_receivers_dendriticProcessing_small
+.pdf>]
+Underfull \hbox (badness 1112) in paragraph at lines 246--247
+[]\OT1/lmr/m/n/10 In Sec.I[] we ar-gue that cog-ni-tive sys-tems ben-e-fit
+ []
 
-Underfull \vbox (badness 4713) has occurred while \output is active []
-
- [12 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
-second_jap_submission__in_response_to_reviewer/_receivers_coincidence_small.pdf
-> <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/sec
-ond_jap_submission__in_response_to_reviewer/_receivers_dendriticProcessing_smal
-l.pdf>]
 [13]
-<_synapticPlasticity_schematic_small.pdf, id=445, 244.69318pt x 348.54616pt>
+<_synapticPlasticity_schematic_small.pdf, id=444, 244.69318pt x 348.54616pt>
 File: _synapticPlasticity_schematic_small.pdf Graphic file (type pdf)
 
 <use _synapticPlasticity_schematic_small.pdf>
 Package pdftex.def Info: _synapticPlasticity_schematic_small.pdf used on input 
-line 246.
+line 264.
 (pdftex.def)             Requested size: 244.69386pt x 348.55061pt.
- [14]
-Underfull \vbox (badness 3138) has occurred while \output is active []
-
-
-<_synapticPlasticity_binaryCircuit_small.pdf, id=449, 244.69417pt x 138.76843pt
+ [14 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
+second_jap_submission__in_response_to_reviewer/_synapticPlasticity_schematic_sm
+all.pdf>]
+<_synapticPlasticity_binaryCircuit_small.pdf, id=527, 244.69417pt x 138.76843pt
 >
 File: _synapticPlasticity_binaryCircuit_small.pdf Graphic file (type pdf)
  <use _synapticPlasticity_binaryCircuit_small.pdf>
 Package pdftex.def Info: _synapticPlasticity_binaryCircuit_small.pdf used on in
-put line 259.
+put line 277.
 (pdftex.def)             Requested size: 244.69386pt x 138.77019pt.
- [15 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
-second_jap_submission__in_response_to_reviewer/_synapticPlasticity_schematic_sm
-all.pdf>]
-<_synapticPlasticity_binary_small.pdf, id=532, 244.69318pt x 398.3382pt>
+
+<_synapticPlasticity_binary_small.pdf, id=528, 244.69318pt x 398.3382pt>
 File: _synapticPlasticity_binary_small.pdf Graphic file (type pdf)
 
 <use _synapticPlasticity_binary_small.pdf>
 Package pdftex.def Info: _synapticPlasticity_binary_small.pdf used on input lin
-e 266.
+e 284.
 (pdftex.def)             Requested size: 244.69386pt x 398.34329pt.
+ [15 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
+second_jap_submission__in_response_to_reviewer/_synapticPlasticity_binaryCircui
+t_small.pdf>]
 
-<_synapticPlasticity_supervisedCircuit_small.pdf, id=533, 244.69417pt x 199.169
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 289.
+
+
+<_synapticPlasticity_supervisedCircuit_small.pdf, id=570, 244.69417pt x 199.169
 1pt>
 File: _synapticPlasticity_supervisedCircuit_small.pdf Graphic file (type pdf)
  <use _synapticPlasticity_supervisedCircuit_small.pdf>
 Package pdftex.def Info: _synapticPlasticity_supervisedCircuit_small.pdf used o
-n input line 273.
+n input line 291.
 (pdftex.def)             Requested size: 244.69386pt x 199.17163pt.
 
-<_synapticPlasticity_supervised_small.pdf, id=534, 244.69318pt x 318.18875pt>
+<_synapticPlasticity_supervised_small.pdf, id=571, 244.69318pt x 318.18875pt>
 File: _synapticPlasticity_supervised_small.pdf Graphic file (type pdf)
 
 <use _synapticPlasticity_supervised_small.pdf>
 Package pdftex.def Info: _synapticPlasticity_supervised_small.pdf used on input
- line 279.
+ line 297.
 (pdftex.def)             Requested size: 244.69386pt x 318.19281pt.
-
-Underfull \vbox (badness 1152) has occurred while \output is active []
-
  [16 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
-second_jap_submission__in_response_to_reviewer/_synapticPlasticity_binaryCircui
-t_small.pdf> <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_
-neurons/second_jap_submission__in_response_to_reviewer/_synapticPlasticity_bina
-ry_small.pdf>]
-Underfull \vbox (badness 5908) has occurred while \output is active []
+second_jap_submission__in_response_to_reviewer/_synapticPlasticity_binary_small
+.pdf> <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons
+/second_jap_submission__in_response_to_reviewer/_synapticPlasticity_supervisedC
+ircuit_small.pdf>]
 
- [17 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
-second_jap_submission__in_response_to_reviewer/_synapticPlasticity_supervisedCi
-rcuit_small.pdf> <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__l
-oop_neurons/second_jap_submission__in_response_to_reviewer/_synapticPlasticity_
-supervised_small.pdf>]
-<_synapticPlasticity_Hebbian_1_small.pdf, id=795, 244.69318pt x 282.5245pt>
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 305.
+
+<_synapticPlasticity_Hebbian_1_small.pdf, id=713, 244.69318pt x 282.5245pt>
 File: _synapticPlasticity_Hebbian_1_small.pdf Graphic file (type pdf)
 
 <use _synapticPlasticity_Hebbian_1_small.pdf>
 Package pdftex.def Info: _synapticPlasticity_Hebbian_1_small.pdf used on input 
-line 296.
+line 314.
 (pdftex.def)             Requested size: 244.69386pt x 282.5281pt.
- [18 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
-second_jap_submission__in_response_to_reviewer/_synapticPlasticity_Hebbian_1_sm
-all.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [17 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
+second_jap_submission__in_response_to_reviewer/_synapticPlasticity_supervised_s
+mall.pdf>]
 
- [19]
-<_synapticPlasticity_stdp_small.pdf, id=869, 244.69318pt x 349.07513pt>
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 320.
+
+[18 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/s
+econd_jap_submission__in_response_to_reviewer/_synapticPlasticity_Hebbian_1_sma
+ll.pdf>]
+<_synapticPlasticity_stdp_small.pdf, id=864, 244.69318pt x 349.07513pt>
 File: _synapticPlasticity_stdp_small.pdf Graphic file (type pdf)
 
 <use _synapticPlasticity_stdp_small.pdf>
 Package pdftex.def Info: _synapticPlasticity_stdp_small.pdf used on input line 
-320.
+338.
 (pdftex.def)             Requested size: 244.69386pt x 349.07959pt.
-
-Underfull \vbox (badness 2418) has occurred while \output is active []
-
- [20 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
+ [19 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
 second_jap_submission__in_response_to_reviewer/_synapticPlasticity_stdp_small.p
 df>]
-<_transmitters_schematic_small.pdf, id=977, 244.69318pt x 327.20743pt>
+Underfull \hbox (badness 2573) in paragraph at lines 350--351
+[]\OT1/lmr/m/n/10 Other forms of pho-tonic synapses have re-cently
+ []
+
+
+Underfull \hbox (badness 2781) in paragraph at lines 350--351
+\OT1/lmr/m/n/10 been de-vel-oped and of-fer util-ity in mul-ti-ple neu-
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 350--351
+\OT1/lmr/m/n/10 ral contexts$[]$. One can lever-age phase shifts
+ []
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 350--351
+\OT1/lmr/m/n/10 in microrings$[]$ or Mach-Zehnder in-ter-fer-om-e-ters
+ []
+
+[20] <_transmitters_schematic_small.pdf, id=977, 244.69318pt x 327.20743pt>
 File: _transmitters_schematic_small.pdf Graphic file (type pdf)
 
 <use _transmitters_schematic_small.pdf>
 Package pdftex.def Info: _transmitters_schematic_small.pdf used on input line 3
-47.
+65.
 (pdftex.def)             Requested size: 244.69386pt x 327.21161pt.
- [21] [22 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neu
-rons/second_jap_submission__in_response_to_reviewer/_transmitters_schematic_sma
-ll.pdf>]
-<_transmitters_LED_circuit_small.pdf, id=1085, 244.69318pt x 128.03734pt>
+ [21 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
+second_jap_submission__in_response_to_reviewer/_transmitters_schematic_small.pd
+f>]
+<_transmitters_LED_circuit_small.pdf, id=1083, 244.69318pt x 128.03734pt>
 File: _transmitters_LED_circuit_small.pdf Graphic file (type pdf)
 
 <use _transmitters_LED_circuit_small.pdf>
 Package pdftex.def Info: _transmitters_LED_circuit_small.pdf used on input line
- 370.
+ 388.
 (pdftex.def)             Requested size: 244.69386pt x 128.03896pt.
+ [22]
 
-<_transmitters_LED_data_small.pdf, id=1086, 244.69417pt x 466.89832pt>
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 400.
+
+<_transmitters_LED_data_small.pdf, id=1087, 244.69417pt x 466.89832pt>
 File: _transmitters_LED_data_small.pdf Graphic file (type pdf)
 
 <use _transmitters_LED_data_small.pdf>
-Package pdftex.def Info: _transmitters_LED_data_small.pdf used on input line 38
-6.
+Package pdftex.def Info: _transmitters_LED_data_small.pdf used on input line 40
+4.
 (pdftex.def)             Requested size: 244.69386pt x 466.90427pt.
  [23 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
 second_jap_submission__in_response_to_reviewer/_transmitters_LED_circuit_small.
-pdf>]
+pdf> <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
+second_jap_submission__in_response_to_reviewer/_transmitters_LED_data_small.pdf
+>]
 
 pdfTeX warning: pdflatex (file C:/Users/jms4/Documents/GitHub/light_in_neural_s
 ystems/jap__loop_neurons/second_jap_submission__in_response_to_reviewer/_transm
 itters_hTron_circuit_small.pdf): PDF inclusion: found PDF version <1.7>, but at
  most version <1.5> allowed
-<_transmitters_hTron_circuit_small.pdf, id=1131, 244.69318pt x 271.17813pt>
+<_transmitters_hTron_circuit_small.pdf, id=1188, 244.69318pt x 271.17813pt>
 File: _transmitters_hTron_circuit_small.pdf Graphic file (type pdf)
 
 <use _transmitters_hTron_circuit_small.pdf>
 Package pdftex.def Info: _transmitters_hTron_circuit_small.pdf used on input li
-ne 399.
+ne 417.
 (pdftex.def)             Requested size: 244.69386pt x 271.1816pt.
- [24 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
-second_jap_submission__in_response_to_reviewer/_transmitters_LED_data_small.pdf
->]
-<_transmitters_hTron_data_1_small.pdf, id=1191, 244.69318pt x 287.70085pt>
+
+<_transmitters_hTron_data_1_small.pdf, id=1189, 244.69318pt x 287.70085pt>
 File: _transmitters_hTron_data_1_small.pdf Graphic file (type pdf)
 
 <use _transmitters_hTron_data_1_small.pdf>
 Package pdftex.def Info: _transmitters_hTron_data_1_small.pdf used on input lin
-e 407.
+e 425.
 (pdftex.def)             Requested size: 244.69386pt x 287.70453pt.
-
-Underfull \vbox (badness 4582) has occurred while \output is active []
-
- [25 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
+ [24 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
 second_jap_submission__in_response_to_reviewer/_transmitters_hTron_circuit_smal
-l.pdf> <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neuron
-s/second_jap_submission__in_response_to_reviewer/_transmitters_hTron_data_1_sma
-ll.pdf>]
-<_transmitters_hTron_data_2_small.pdf, id=1262, 244.69318pt x 305.21227pt>
+l.pdf>] [25 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_n
+eurons/second_jap_submission__in_response_to_reviewer/_transmitters_hTron_data_
+1_small.pdf>]
+<_transmitters_hTron_data_2_small.pdf, id=1263, 244.69318pt x 305.21227pt>
 File: _transmitters_hTron_data_2_small.pdf Graphic file (type pdf)
 
 <use _transmitters_hTron_data_2_small.pdf>
 Package pdftex.def Info: _transmitters_hTron_data_2_small.pdf used on input lin
-e 420.
+e 438.
 (pdftex.def)             Requested size: 244.69386pt x 305.21616pt.
- [26 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
-second_jap_submission__in_response_to_reviewer/_transmitters_hTron_data_2_small
-.pdf>]
-<_transmitters_jjTriggersNTron_small.pdf, id=1319, 244.69417pt x 284.72974pt>
+
+<_transmitters_jjTriggersNTron_small.pdf, id=1264, 244.69417pt x 284.72974pt>
 File: _transmitters_jjTriggersNTron_small.pdf Graphic file (type pdf)
 
 <use _transmitters_jjTriggersNTron_small.pdf>
 Package pdftex.def Info: _transmitters_jjTriggersNTron_small.pdf used on input 
-line 430.
+line 448.
 (pdftex.def)             Requested size: 244.69386pt x 284.73337pt.
+ [26 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
+second_jap_submission__in_response_to_reviewer/_transmitters_hTron_data_2_small
+.pdf> <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons
+/second_jap_submission__in_response_to_reviewer/_transmitters_jjTriggersNTron_s
+mall.pdf
 
+pdfTeX warning: pdflatex (file C:/Users/jms4/Documents/GitHub/light_in_neural_s
+ystems/jap__loop_neurons/second_jap_submission__in_response_to_reviewer/_transm
+itters_jjTriggersNTron_small.pdf): PDF inclusion: multiple pdfs with page group
+ included in a single page
+>]
 
 pdfTeX warning: pdflatex (file C:/Users/jms4/Documents/GitHub/light_in_neural_s
 ystems/jap__loop_neurons/second_jap_submission__in_response_to_reviewer/_transm
 itters_efficiency_small.pdf): PDF inclusion: found PDF version <1.7>, but at mo
 st version <1.5> allowed
-<_transmitters_efficiency_small.pdf, id=1320, 244.69318pt x 446.198pt>
+<_transmitters_efficiency_small.pdf, id=1397, 244.69318pt x 446.198pt>
 File: _transmitters_efficiency_small.pdf Graphic file (type pdf)
 
 <use _transmitters_efficiency_small.pdf>
 Package pdftex.def Info: _transmitters_efficiency_small.pdf used on input line 
-442.
+460.
 (pdftex.def)             Requested size: 244.69386pt x 446.2037pt.
  [27 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
-second_jap_submission__in_response_to_reviewer/_transmitters_jjTriggersNTron_sm
-all.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \hbox (badness 7344) in paragraph at lines 456--456
-[][]\OT1/lmr/bx/n/12 Discussion Re-gard-ing Trans-mit-ter
+second_jap_submission__in_response_to_reviewer/_transmitters_efficiency_small.p
+df>]
+Underfull \hbox (badness 1668) in paragraph at lines 472--473
+[]\OT1/lmr/m/n/10 In prac-tice, achiev-ing small, waveguide-integrated
  []
 
-<_transmitters_fullCircuit_small.pdf, id=1400, 489.38535pt x 380.92313pt>
+<_transmitters_fullCircuit_small.pdf, id=1454, 489.38535pt x 380.92313pt>
 File: _transmitters_fullCircuit_small.pdf Graphic file (type pdf)
 
 <use _transmitters_fullCircuit_small.pdf>
 Package pdftex.def Info: _transmitters_fullCircuit_small.pdf used on input line
- 459.
+ 477.
 (pdftex.def)             Requested size: 489.38731pt x 380.92798pt.
+ [28] [29 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neu
+rons/second_jap_submission__in_response_to_reviewer/_transmitters_fullCircuit_s
+mall.pdf>]
+Underfull \hbox (badness 2573) in paragraph at lines 502--503
+[]\OT1/lmr/m/n/10 Optical com-mu-ni-ca-tion be-tween neu-rons pro-vides
+ []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [28 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
-second_jap_submission__in_response_to_reviewer/_transmitters_efficiency_small.p
-df>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [29 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
-second_jap_submission__in_response_to_reviewer/_transmitters_fullCircuit_small.
-pdf>]
-[30] [31] <_networks_schematic_small.pdf, id=1535, 244.69417pt x 312.98131pt>
+[30] <_networks_schematic_small.pdf, id=1532, 244.69417pt x 312.98131pt>
 File: _networks_schematic_small.pdf Graphic file (type pdf)
 
 <use _networks_schematic_small.pdf>
-Package pdftex.def Info: _networks_schematic_small.pdf used on input line 501.
+Package pdftex.def Info: _networks_schematic_small.pdf used on input line 519.
 (pdftex.def)             Requested size: 244.69386pt x 312.98529pt.
-
-Underfull \hbox (badness 1406) in paragraph at lines 499--505
-\OT1/lmr/m/n/10 neu-rons are tiled in a grid to form a lo-cal sec-tor
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [32 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
+ [31 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
 second_jap_submission__in_response_to_reviewer/_networks_schematic_small.pdf>]
-<_networks_routingDiagram_small.pdf, id=1591, 489.38733pt x 381.2674pt>
+<_networks_routingDiagram_small.pdf, id=1589, 489.38733pt x 381.2674pt>
 File: _networks_routingDiagram_small.pdf Graphic file (type pdf)
 
 <use _networks_routingDiagram_small.pdf>
 Package pdftex.def Info: _networks_routingDiagram_small.pdf used on input line 
-514.
+532.
 (pdftex.def)             Requested size: 489.38731pt x 381.27226pt.
-
-<_networks_areaDiagram_small.pdf, id=1592, 244.69318pt x 318.60329pt>
+ [32]
+<_networks_areaDiagram_small.pdf, id=1594, 244.69318pt x 318.60329pt>
 File: _networks_areaDiagram_small.pdf Graphic file (type pdf)
 
 <use _networks_areaDiagram_small.pdf>
-Package pdftex.def Info: _networks_areaDiagram_small.pdf used on input line 529
+Package pdftex.def Info: _networks_areaDiagram_small.pdf used on input line 547
 .
 (pdftex.def)             Requested size: 244.69386pt x 318.60736pt.
- [33]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [34 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
+ [33 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
 second_jap_submission__in_response_to_reviewer/_networks_routingDiagram_small.p
 df>]
-<_networks_scaling_small.pdf, id=1628, 244.69318pt x 432.48175pt>
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 553.
+
+<_networks_scaling_small.pdf, id=1626, 244.69318pt x 432.48175pt>
 File: _networks_scaling_small.pdf Graphic file (type pdf)
 
 <use _networks_scaling_small.pdf>
-Package pdftex.def Info: _networks_scaling_small.pdf used on input line 540.
+Package pdftex.def Info: _networks_scaling_small.pdf used on input line 558.
 (pdftex.def)             Requested size: 244.69386pt x 432.48727pt.
- [35 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
+ [34 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
 second_jap_submission__in_response_to_reviewer/_networks_areaDiagram_small.pdf>
-]
-Underfull \vbox (badness 3240) has occurred while \output is active []
-
- [36 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
-second_jap_submission__in_response_to_reviewer/_networks_scaling_small.pdf>]
-Underfull \hbox (badness 1939) in paragraph at lines 572--572
-[][]\OT1/lmr/bx/n/12 Discussion Re-gard-ing Net-works of
+] [35 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons
+/second_jap_submission__in_response_to_reviewer/_networks_scaling_small.pdf>] [
+36] [37]
+Underfull \hbox (badness 1253) in paragraph at lines 629--630
+[]\OT1/lmr/m/n/10 Regarding the two-photon co-in-ci-dence de-tec-tor of
  []
 
-[37] [38] [39] [40] [41] [42]
-<_networks_feedForward_small.pdf, id=1741, 244.69318pt x 360.42455pt>
+[38] [39] [40] [41]
+<_networks_feedForward_small.pdf, id=1739, 244.69318pt x 360.42455pt>
 File: _networks_feedForward_small.pdf Graphic file (type pdf)
 
 <use _networks_feedForward_small.pdf>
-Package pdftex.def Info: _networks_feedForward_small.pdf used on input line 743
+Package pdftex.def Info: _networks_feedForward_small.pdf used on input line 759
 .
 (pdftex.def)             Requested size: 244.69386pt x 360.42914pt.
- [43 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
+ [42 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
 second_jap_submission__in_response_to_reviewer/_networks_feedForward_small.pdf>
 ]
-<_networks_contributionsToEnergy_small.pdf, id=1757, 244.69417pt x 167.22977pt>
+<_networks_contributionsToEnergy_small.pdf, id=1754, 244.69417pt x 167.22977pt>
 File: _networks_contributionsToEnergy_small.pdf Graphic file (type pdf)
 <use _networks_contributionsToEnergy_small.pdf>
 Package pdftex.def Info: _networks_contributionsToEnergy_small.pdf used on inpu
-t line 759.
+t line 775.
 (pdftex.def)             Requested size: 244.69386pt x 167.23189pt.
 
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\jap__loop_neurons\secon
-d_jap_submission__in_response_to_reviewer\loop_neurons.bbl [44 <C:/Users/jms4/D
+d_jap_submission__in_response_to_reviewer\loop_neurons.bbl [43 <C:/Users/jms4/D
 ocuments/GitHub/light_in_neural_systems/jap__loop_neurons/second_jap_submission
-__in_response_to_reviewer/_networks_contributionsToEnergy_small.pdf>]
-Underfull \hbox (badness 1087) in paragraph at lines 78--81
-\OT1/lmr/m/n/10 large-scale in-te-gra-tion.  \OT1/lmr/m/it/10 Na-ture Re-views 
-Neu-ro-
- []
-
+__in_response_to_reviewer/_networks_contributionsToEnergy_small.pdf>] [44]
 [45]
-Underfull \hbox (badness 2050) in paragraph at lines 180--184
-[]\OT1/lmr/m/n/10 M. Ru-bi-nov, O. Sporns, J.-P. Thivierge, and
+Underfull \hbox (badness 5726) in paragraph at lines 588--593
+ []\OT1/lmr/m/n/8 T.E. Po-tok, C. Schu-man, S.R. Young, R.M. Pat-ton,
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 307--311
-\OT1/lmr/m/n/10 pa-tov, A. Se-menov, K. Smirnov, B. Voronov,
- []
-
-[46]
-Underfull \hbox (badness 2735) in paragraph at lines 339--344
-\OT1/lmr/m/n/10 diodes waveguide-integrated with su-per-con-duct-
+Underfull \hbox (badness 1158) in paragraph at lines 685--691
+ []\OT1/lmr/m/n/8 D. Sil-ver, A. Huang, C.J. Mad-di-son, A. Guez, L. Sifre,
  []
 
 
-Underfull \hbox (badness 6944) in paragraph at lines 361--364
-[]\OT1/lmr/m/n/10 A.N. Mc-Caughan and K.K. Berggren.  A
+Underfull \hbox (badness 3525) in paragraph at lines 685--691
+ \OT1/lmr/m/n/8 N. Kalch-bren-ner, I. Sutskever, T. Lil-l-i-crap, M. Leach,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 361--364
-\OT1/lmr/m/n/10 superconducting-nanowire three-terminal elec-
+Underfull \hbox (badness 2293) in paragraph at lines 737--740
+ []\OT1/lmr/m/n/8 Z. Cheng, C. Rios, W.H.P. Per-nice, C.D. Wright, and
  []
 
 
-Underfull \hbox (badness 3108) in paragraph at lines 378--383
-\OT1/lmr/m/n/10 hoven, M.K. Smit, A. Fiore, and D. Heiss.
+Underfull \hbox (badness 1874) in paragraph at lines 761--765
+ []\OT1/lmr/m/n/8 T. Van Duzer, Y. Feng, X. Meng, S.R. White-ley, and
  []
 
-
-Underfull \hbox (badness 1077) in paragraph at lines 378--383
-\OT1/lmr/m/n/10 Waveguide-coupled nanopil-lar metal-cavity light-
- []
-
-[47]
-Underfull \hbox (badness 1320) in paragraph at lines 489--495
-\OT1/lmr/m/n/10 F. Mar-sili, R.P. Mirin, S.W. Nam, and A.M.
- []
-
-
-Underfull \hbox (badness 2875) in paragraph at lines 543--547
-[]\OT1/lmr/m/n/10 N. Takeuchi, D. Ozawa, Y. Ya-manashi, and
- []
-
-
-Underfull \hbox (badness 4291) in paragraph at lines 543--547
-\OT1/lmr/m/n/10 N. Yoskikawa.  An adi-a-batic quan-tum flux
- []
-
-
-Underfull \hbox (badness 1400) in paragraph at lines 572--575
-[]\OT1/lmr/m/n/10 Charles D Hill, El-dad Peretz, Samuel J Hile,
- []
-
-[48]
-Underfull \hbox (badness 1194) in paragraph at lines 663--666
-[]\OT1/lmr/m/n/10 K. Segall, S. Guo, P. Crotty, D. Schult, and
- []
-
-
-Underfull \hbox (badness 3838) in paragraph at lines 668--673
-[]\OT1/lmr/m/n/10 M.L. Schnei-der, C.A. Don-nelly, S.E. Russek,
- []
-
-
-Underfull \hbox (badness 1715) in paragraph at lines 685--691
-\OT1/lmr/m/n/10 S. Diele-man, D. Grewe, J. Nham, N. Kalch-
- []
-
-
-Underfull \hbox (badness 1748) in paragraph at lines 685--691
-\OT1/lmr/m/n/10 bren-ner, I. Sutskever, T. Lil-l-i-crap, M. Leach,
- []
-
-
-Underfull \hbox (badness 1924) in paragraph at lines 731--735
-[]\OT1/lmr/m/n/10 Y. Shen, N.C. Har-ris, S. Skirlo, M. Prabhu,
- []
-
-
-Underfull \hbox (badness 3838) in paragraph at lines 748--753
-[]\OT1/lmr/m/n/10 M.L. Schnei-der, C.A. Don-nelly, S.E. Russek,
- []
-
-
-Underfull \hbox (badness 5403) in paragraph at lines 755--759
-[]\OT1/lmr/m/n/10 A.D. Cor-coles, J.M. Chow, J.M. Gam-betta,
- []
-
-
-Underfull \hbox (badness 4378) in paragraph at lines 778--782
-[]\OT1/lmr/m/n/10 J.C. Las-jau-nias, M. Saint-Paul, O. Laborde,
- []
-
-[49]
-Underfull \hbox (badness 5939) in paragraph at lines 882--885
-[]\OT1/lmr/m/n/10 J. Ekin.  \OT1/lmr/m/it/10 Ex-per-i-men-tal tech-niques for l
-ow-
- []
-
-
-Underfull \hbox (badness 2512) in paragraph at lines 882--885
-\OT1/lmr/m/it/10 temperature mea-sure-ments\OT1/lmr/m/n/10 .  Ox-ford Uni-ver-s
-ity
- []
-
-
-Underfull \hbox (badness 7522) in paragraph at lines 892--897
-[]\OT1/lmr/m/n/10 J.F. Cheese-man, C.D. Mil-lar, U. Greg-gers,
- []
-
-[50]
-Underfull \hbox (badness 8132) in paragraph at lines 988--992
-[]\OT1/lmr/m/n/10 K.K. Likharev and V.K. Se-menov.  Rsfq
- []
-
-
-Underfull \hbox (badness 1163) in paragraph at lines 1029--1034
-[]\OT1/lmr/m/n/10 J. Chiles, N. Nader, D.D. Hick-stein, S.P. Yu,
- []
-
-) [51]
+[46]) [47]
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\jap__loop_neurons\secon
 d_jap_submission__in_response_to_reviewer\loop_neurons.aux) ) 
 Here is how much of TeX's memory you used:
- 4806 strings out of 493921
- 74934 string characters out of 3147285
- 130721 words of memory out of 3000000
- 7995 multiletter control sequences out of 15000+200000
- 80479 words of font info for 66 fonts, out of 3000000 for 9000
+ 6078 strings out of 493921
+ 88952 string characters out of 3147285
+ 183364 words of memory out of 3000000
+ 9258 multiletter control sequences out of 15000+200000
+ 71507 words of font info for 61 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,17n,39p,2642b,340s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,17n,32p,2644b,1082s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/
-MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/
-dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-maths
-y.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program
- Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program Files/MiKTeX 2.9/fo
+MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/
+enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-maths
+y.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Fi
+les/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
@@ -959,28 +937,30 @@ nts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 /Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program
  Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx9.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/lm/lmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
-mmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/lm/lmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri9.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/lm/lmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
-msy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy9.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on loop_neurons.pdf (51 pages, 12072973 bytes).
+9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi5.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr
+10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr5.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
+/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/lm/lmri8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmri9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss8.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/lm/lmss9.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmssbo10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/
+lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/lm/lmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/s
+ymbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symb
+ols/msbm10.pfb>
+Output written on loop_neurons.pdf (47 pages, 12068647 bytes).
 PDF statistics:
- 1897 PDF objects out of 2073 (max. 8388607)
+ 1894 PDF objects out of 2073 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
 

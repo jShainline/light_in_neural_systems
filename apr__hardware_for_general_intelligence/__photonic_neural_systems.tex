@@ -36,20 +36,73 @@ And this one used it in a system
 \subsubsection{Free-Space Optical Neural Nets}
 The late 1980s 
 
+
+%The interconnectability of neuro-optic processors
+\cite{jast1986}
+-focused on the optical interconnect network with free-space optics
+-focused on holographic technique
+-illustrated the complexity of the optics required to utilize this approach 
+-very high storage density, but impractical to implement compared to integrated systems on a chip
+-they find in a feasible system the potential to realize $10^8$ neurons and $10^{16}$ synapses that can be trained on $10^6$ inputs
+
+
 %Holography in artificial neural networks
 \cite{psbr1990}
+-review article summarizing neural networks implemented with semiconductor light sources, photorefractive materials for hologram that serves as host to a multitude of diffraction gratings that apply the synaptic weights and direct the light beams to realize connections, and semiconductor photodetectors to receive signals
+-``In recent years there has been a marked resurgence of interest in artificial neural networks.'' 1990
+-they list three primary motivations to move toward neural architectures: massive parallelism; dense interconnections; learning; all these years later, the motivations are still the same, but the implementations are different
+-arguments against: free-space routing only moves light in straight lines, hard to make dense interconnectivity of recurrent networks, everything is most straightforwardly laid out in a series of planes, with some planes having detectors and sources, potentially with computational circuits, and other planes have diffraction gratings, but the source/detector planes block light from being able to reach beyond them, so it really only works for feed-forward networks wherein connections only occur between adjacent layers; potentially useful for deep learning, not useful for cognition
+-uses encoding in optical intensity
+-only passive synapses and dendrites
+-synapses share the entire volume of the holographic medium, so they cannot be changed independently, much like MZI network
+-``Distributed connections have advantages and disadvantages\textemdash the disadvantage compared to the localized implementation is the reduced control of individual synapses. The adjustment of the strength of one synapse may inadvertently affect other synapses as well. Accommodating this limitation is perhaps the most crucial research issue in this field....''
+-``The advantages of the distributed holographic synapses are high storage density and ease of fabrication.''
+-This shared storage/synaptic cross talk precludes stdp; these challenges have not been solved.
+-$10^{12}$ synapses per cm$^3$ in principle, $10^9$ in practice, but it doesn't matter because you cant use them
+-``[T]he learning approach can provide a method for transferring some of the burden of programming the computer from the user to the computer.''
+-in the 90s, it was assumed that optical approaches referred to free space; integrated photonics and especially silicon photonics had not yet launched
+-semiconductor detectors, apply the nonlinearity in the electronic domain, generate light amplitude proportional to electronic output; can do all three on a monolithic chip
+-GaAs neurons: two transistors, a photodetector, and an LED
+-writing the appropriate gratings in photorefractive materials requires optics with phase-conjugate mirrors, which reflect light back along their original path
+-this is a beautiful use of sophisticated nonlinear optics, but has not proven to be sufficiently advantageous to merit the incorporation of sensitive optical apparatus in mainstream computing technology
+-strength of synapse determined by optical amplitude during writing
+-establishing synaptic weights requires cumbersome optical procedures, and writing each new synaptic weight can inadvertently others, so the whole thing must be done self-consistently
+-photorefractive LiNbO3 crystal
+-Hebbian-type, local, associative learning, not backprop in 1990
+-photorefractive crystals: photoconductive, electro-optic, and have traps that can be optically ionized
+-``The recorded hologram is stored in the spatial distribution of the ionized traps in the crystal.'' ``[W]e must...design a sequence of exposures that can load the appropriate weight values in the finite pool of trap sites that are available.''
 
 \vspace{3em}
-holographic gratings in photorefractive crystals store associative memories and use backprop for training, similar to recent Shanhui Fan \cite{waps1987} nonlinear etalon for sigmoid response; intended for image classification, not much different than deep learning today with sigmoid activation functions and backprop. ``This architecture combines the robustness of the distributed neural computation and the backpropagation learning procedure with the hight speed processing of nonlinear etalons, the self-aligning ability of phase conjugate mirrors, and the massive storage capacity of volume holograms to produce a powerful and flexible optical processor.'' Potential reasons this technology didn't catch on: free space optics, bulky, difficult to package, not fieldable, requires experience with optics to operate, difficult to scale to large systems, nonlinearity utilizes bistability \cite{gi1985} which has a history of being difficult to manage, based on photorefractive effect which is volatile, free-space interconnectivity is bulky and difficult, requires many sources, high power for nonlinear effects for hologram and etalon, how to get data in?, fan-out limited by gain of nonlinear devices and dictates an information-collapsing network architecture
+\cite{waps1987}
+holographic gratings in photorefractive crystals store associative memories and use backprop for training \cite{waps1987}, similar to recent Shanhui Fan, nonlinear etalon for sigmoid response; intended for image classification, not much different than deep learning today with sigmoid activation functions and backprop. ``This architecture combines the robustness of the distributed neural computation and the backpropagation learning procedure with the hight speed processing of nonlinear etalons, the self-aligning ability of phase conjugate mirrors, and the massive storage capacity of volume holograms to produce a powerful and flexible optical processor.'' Potential reasons this technology didn't catch on: free space optics, bulky, difficult to package, not fieldable, requires experience with optics to operate, difficult to scale to large systems, nonlinearity utilizes bistability \cite{gi1985} which has a history of being difficult to manage, based on photorefractive effect which is volatile, free-space interconnectivity is bulky and difficult, requires many sources, high power for nonlinear effects for hologram and etalon, how to get data in?, fan-out limited by gain of nonlinear devices and dictates an information-collapsing network architecture
 
 \vspace{3em}
 \cite{psbr1988}
-``...in an optical implementation each grating corresponds to a separate interconnection between two neurons...''
+-photorefractive crystals as media for holographic interconnections in neural networks
+-derive fundamental limitations to connections, but practical limitations are very different
+-feed-forward neural nets
+-``There is a nice compatibility between simple (multiplicative) Hebbian learning and holography; the strength of the connection between two neurons can be modified by recording a hologram with light from the two neurons.'' 
+-``...in an optical implementation each grating corresponds to a separate interconnection between two neurons...''
 
 \vspace{3em}
+%Optical Neural Computers
+\cite{abps1987}
 ``It is the ability to establish an extensive communication network among processing elements that primarily distinguishes optical technology from semiconductor technology in its application to computation.'' \cite{abps1987} However, in that and other related work at the time, the objective was to utilize optical signals propagating in free space to interconnect neural processing elements. Using light in this manner has the advantage that ``multiple beams of light can pass through lenses or prisms and still remain separate,'' \cite{abps1987} yet routing of free-space optical signals brings new challenges for complex neural systems. To achieve connectivity graphs corresponding to neural networks with feed-forward, feed-back, and recurrent connections, light cannot travel only in straight lines, but rather must branch and change direction many times. Construction of complex networks with free-space optics, mirrors, and lenses quickly leads to issues related to scaling. 
 
 As Goodman pointed out in 1985, ``quote from Goodman's paper'' The benefits of light for fan-out can be difficult to harness in free space. We may expect the situation to improve with on-chip waveguides. ``Two beams of light, unlike a pair of current-carrying wires, can cross without affecting each other.'' \cite{abps1987} At the same time that free-space optical neural computers were being developed based on holographic memory, the field of integrated photonics was emerging.
+
+%optical implementation of associative networks
+\cite{fili1987}
+-comparison of several optical associative networks
+-emphasis on multimodule approach, actually referring to network layers
+-layers are nonlinearly connected
+-each module (layer) is a complete, adaptive associative memory which can be modified by exposure to sets of associated information patterns, eg feature vectors
+-presentation of one pattern u should result in recall of paired pattern v
+-focused on optical hardware implementations for associative modules
+-argues that optics is better for low-precision analog arithmetic, but soens uses optics for binary communication, with analog operations performed in superconducting domain based on high beta L loops.
+-interesting summary of arguments in favor of optics for various computational tasks
+-proposals for optical holographic memories and optical perceptron neural networks go back to the 1960s (cite fili1987 and references therein)
+-dont need to discuss this paper in detail, just a review circa 1987 of optical approaches to associative memories, basically a published study by the navy
 
 \vspace{3em}
 Switching elements made from nonlinear optical materials require too much power to scale, and often require III-V materials. This leads to discussion of optical transistors, in which one optical beam controls the transmission of another. ``Each element can be either a purely optical switch or an optoelectronic combination of light detector, electronic switch and light emitter.'' \cite{abps1987}
@@ -78,6 +131,14 @@ Switching elements made from nonlinear optical materials require too much power 
 -serialization a form of time-multiplexing
 -not intended to be an approach to dynamical systems
 -they argue the approach is scalable to $10^6$ neurons
+
+\vspace{3em}
+%Optical associative memory model based on neural networks having variable interconnection weights
+\cite{maar1987}
+-Modification to Hopfield network
+-Simulated results
+-No physical optical system built
+-Optics for readout in vector-matrix multiplication
 
 \subsubsection{Free-Space Reservoir Computing}
 
@@ -194,6 +255,10 @@ This is not a model for spiking neural networks. Synaptic weights are static aft
 \cite{anha2017}
 
 \subsubsection{Reservoir Computing Implemented with Photonic Delay Systems}
+General comments:
+-Not modular or hierarchical without multi nodes, which requires complex timing between nodes, ends up with similar problems to time multiplexed interconnects
+-
+
 \vspace{3em}
 %Information processing using a single dynamical node as a complex system
 \cite{apso2010}
@@ -228,6 +293,11 @@ This is not a model for spiking neural networks. Synaptic weights are static aft
 \cite{brso2013}
 -semiconductor laser with delayed self-feedback
 -demonstrate spoken digit and speaker recognition and chaotic time-series prediction at data rates beyond 1 Gbyte/s
+-break delay cycle into N different, time-multiplexed transient states, typically with $100\le N \le 1000$.
+-data preprocessing and readout are carried out off-line
+-with N = 388, total loop delay time is 77.6 ns =$\tau_D = T_2$
+-The time allocated to each ``neuron'' is $T_2/N = 200ps = T_1$, but really one must use $T_1 = 200$\,ps because that is the characteristic time of relaxation oscillations of the laser, so you have $T_2 = NT_1$. This gives 5,000 neurons in a microsecond, 5 million neurons in a millisecond, and the scale of cortex would require a second, meaning gamma oscillations could not be faster than a second. Of course, there are many other reasons why information integration would not be possible at this scale.
+-For a network with N = 388, 10 mJ per digit of spoken digit recognition, better than desktop computer by 100x.
 
 
 \vspace{3em}
@@ -241,14 +311,28 @@ This is not a model for spiking neural networks. Synaptic weights are static aft
 \vspace{3em}
 %Conditions for reservoir computing performance using semiconductor lasers with delayed optical feedback
 \cite{bubr2017}
+-semiconductor laser with delayed feedback
+-connect its injection locking, consistence, and memory properties to RC performance in a non-linear prediction task
+-partial injection locking achieves a good combination of consistency and memory
+-``experimental identification of the best operation conditions for time series prediction tasks in a semiconductor laser based reservoir computer.''
+-one challenge in similar systems is that the dynamics of semiconductor lasers is very complex when signals are injected. stability is an issue. finding optimal operating points can be challenging. may be okay with a single dynamical node, but difficult for neurons based on excitable lasers
 
 \vspace{3em}
 %A Unified Framework for Reservoir Computing and Extreme Learning Machines based on a Single Time-delayed Neuron
 \cite{orso2015}
+-identifies the similarities between extreme learning machines and echo state networks
+-implements both on a single hardware platform
+-switching between the two by activating or deactivating one physical connection
+-same implementation as \cite{padu2012} and \cite{laso2012}, single time-delay neuron
+-experimental details: laser diode input; LiNbO3 MZI modulator; output splits 25\% to detector, 75\% to EDFA and then fiber delay (50.4 km) for echo-state network (247.2 us delay); delayed light is detected and signal affects modulator; additional input signal drives modulator
 
 \vspace{3em}
 %Ultrafast photonic reinforcement learning based on laser chaos
 \cite{nate2017}
+
+\vspace{3em}
+%Photonic information processing beyond Turing: an optoelectronic implementation of reservoir computing
+\cite{laso2012}
 
 
 \subsubsection{Spiking Neurons with On-Chip Excitable Lasers}
@@ -340,11 +424,6 @@ When using light for computing in addition to communication in neural systems, i
 %Optical information processing based on an associative-memory model of neural nets with thresholding and feedback
 \cite{psfa1985}
 
-%The interconnectability of neuro-optic processors
-\cite{jast1986}
-
-%optical implementation of associative networks
-\cite{fili1987}
 
 %artificial neuron based on integrated semiconductor quantum dot mode-locked lasers
 \cite{meka2016}
@@ -375,6 +454,8 @@ When using light for computing in addition to communication in neural systems, i
 
 %Reconfigurable semiconductor laser networks based on diffractive coupling
 \cite{brfi2015}
+-provide a means to couple many semiconductor lasers
+-8x8 array of single-mode VCSELs, square lattice, pitch of 250um
 
 %Optoelectronic reservoir computing
 \cite{padu2012}

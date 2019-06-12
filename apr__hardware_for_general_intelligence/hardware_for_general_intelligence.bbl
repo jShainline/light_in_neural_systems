@@ -833,6 +833,16 @@ H.~Kogelnik.
 \newblock Limits in {I}ntegrated {O}ptics.
 \newblock {\em Proc. IEEE}, 69:232, 1981.
 
+\bibitem{jast1986}
+T.~Jannson, H.M. Stoll, and C.~Karaguleff.
+\newblock The interconnectability of neuro-optic processors.
+\newblock {\em SPIE Real Time Signal Processing IX}, 698:157, 1986.
+
+\bibitem{psbr1990}
+D.~Psaltis, D.~Brady, X.-G. Gu, and S.~Lin.
+\newblock Holography in artificial neural networks.
+\newblock {\em Nature}, 343:325, 1990.
+
 \bibitem{waps1987}
 K.~Wagner and D.~Psaltis.
 \newblock Multilayer optical learning networks.
@@ -848,6 +858,12 @@ D.~Psaltis, D.~Brady, and K.~Wagner.
 \newblock Optical neural computers.
 \newblock {\em Sci. Am.}, 256:88, 1987.
 
+\bibitem{fili1987}
+A.D. Fisher, W.L. Lippincott, and J.N. Lee.
+\newblock Optical implementation of associative networks with versatile
+  adaptive learning capabilities.
+\newblock {\em Applied Optics}, 26:5039, 1987.
+
 \bibitem{liri2018}
 X.~Lin, Y.~Rivenson, N.T. Yardimci, M.~Veli, Y.~Luo, M.~Jarrahi, and A.~Ozcan.
 \newblock All-optical machine learning using diffractive deep neural networks.
@@ -858,6 +874,18 @@ R.~Hamerly, A.~Sludds, L.~Bernstein, M.~Soljacic, and D.~Englund.
 \newblock Large-scale optical neural networks based on photoelectric
   multiplication.
 \newblock {\em arXiv}, page 1812.07614, 2018.
+
+\bibitem{shha2016}
+Y.~Shen, N.C. Harris, S.~Skirlo, M.~Prabhu, T.~Baehr-Jones, M.~Hochberg,
+  X.~Sun, S.~Zhao, H.~Larochelle, D.~Englund, and M.~Soljacic.
+\newblock Deep learning with coherent nanophotonic circuits.
+\newblock {\em Nature Photonics}, 11:441, 2016.
+
+\bibitem{maar1987}
+B.~Macukow and H.H. Arsenault.
+\newblock Optical associative memory model based on neural networks having
+  variable interconnection weights.
+\newblock {\em Applied Optics}, 26:924, 1987.
 
 \bibitem{ra2007}
 D.G. Rabus.
@@ -908,12 +936,6 @@ J.W. Goodman, A.R. Dias, and L.M. Woody.
   discrete {F}ourier transforms.
 \newblock {\em Opt. Lett.}, 2:1, 1978.
 
-\bibitem{maar1987}
-B.~Macukow and H.H. Arsenault.
-\newblock Optical associative memory model based on neural networks having
-  variable interconnection weights.
-\newblock {\em Applied Optics}, 26:924, 1987.
-
 \bibitem{reze1994}
 M.~Reck, A.~Zeilinger, H.J. Bernstein, and P.~Bertani.
 \newblock Experimental {R}ealization of {A}ny {D}iscrete {U}nitary {O}perator.
@@ -934,12 +956,6 @@ T.W. Hughes, M.~Minkov, Y.~Shi, and S.~Fan.
 P.W. Smith.
 \newblock Hybrid bistable optical devices.
 \newblock {\em Opt. Eng.}, 19:456, 1980.
-
-\bibitem{shha2016}
-Y.~Shen, N.C. Harris, S.~Skirlo, M.~Prabhu, T.~Baehr-Jones, M.~Hochberg,
-  X.~Sun, S.~Zhao, H.~Larochelle, D.~Englund, and M.~Soljacic.
-\newblock Deep learning with coherent nanophotonic circuits.
-\newblock {\em Nature Photonics}, 11:441, 2016.
 
 \bibitem{funa1993}
 K.-I. Funahashi and Y.~Nakamura.
@@ -970,13 +986,6 @@ G.~Van der Sande, D.~Brunner, and M.C. Soriano.
 \newblock Advances in photonic reservoir computing.
 \newblock {\em Nanophotonics}, 6:561, 2017.
 
-\bibitem{apso2010}
-L.~Appeltant, M.C. Soriano, G.V.D. Sande, J.~Danckaert, S.~Massar, J.~Dambre,
-  B.~Schrauwen, C.R. Mirasso, and I.~Fischer.
-\newblock Information processing using a single dynamical node as a complex
-  system.
-\newblock {\em Nat. Comm.}, 2:468, 2010.
-
 \bibitem{padu2012}
 Y.~Paquot, F.~Duport, A~Smerieri, J.~Dambre, B.~Schrauwen, M.~Haelterman, and
   S.~Massar.
@@ -987,12 +996,6 @@ Y.~Paquot, F.~Duport, A~Smerieri, J.~Dambre, B.~Schrauwen, M.~Haelterman, and
 F.~Duport, B.~Schneider, A.~Smerieri, M.~Haelterman, and S.~Massar.
 \newblock All-optical reservoir computing.
 \newblock {\em Opt. Express}, 20:22783, 2012.
-
-\bibitem{brso2013}
-D.~Brunner, M.C. Soriano, C.R. Mirasso, , and I.~Fischer.
-\newblock Parallel photonic information processing at gigabyte per second data
-  rates using transient states.
-\newblock {\em Nat. Comm.}, 4:1364, 2014.
 
 \bibitem{vadi2008}
 K.~Vandoorne, W.~Dierckx, B.~Schrauwen, D.~Verstraeten, R.~Baets, P.~Bienstman,
@@ -1007,10 +1010,23 @@ P.~Antonik, M.~Haelterman, and S.~Massar.
   {P}eriodic {P}atterns and {E}mulating {C}haotic {S}ystems.
 \newblock {\em Phys. Rev. App.}, 7:054014, 2017.
 
+\bibitem{apso2010}
+L.~Appeltant, M.C. Soriano, G.V.D. Sande, J.~Danckaert, S.~Massar, J.~Dambre,
+  B.~Schrauwen, C.R. Mirasso, and I.~Fischer.
+\newblock Information processing using a single dynamical node as a complex
+  system.
+\newblock {\em Nat. Comm.}, 2:468, 2010.
+
 \bibitem{brpe2018}
 D.~Brunner, B.~Penkovsky, B.A. Marquez, M.~Jacquot, I.~Fischer, and L.~Larger.
 \newblock Tutorial: {P}hotonic neural networks in delay systems.
 \newblock {\em J. Appl. Phys.}, 124:152004, 2018.
+
+\bibitem{brso2013}
+D.~Brunner, M.C. Soriano, C.R. Mirasso, , and I.~Fischer.
+\newblock Parallel photonic information processing at gigabyte per second data
+  rates using transient states.
+\newblock {\em Nat. Comm.}, 4:1364, 2014.
 
 \bibitem{cosc2018}
 F.~Coarer, M.~Sciamanna, A.~Katumba, M.~Freiberger, J.~Dambre, P.~Bienstman,
@@ -1037,6 +1053,13 @@ S.~Ort\'{i}n, M.C. Soriano, L.~Pesquera, D.~Brunner, D.~San-Mart\'{i}n,
 \newblock A unified framework for reservoir computing and extreme learning
   machines based on a single time-delayed neuron.
 \newblock {\em Sci. Rep.}, 5:14945, 2015.
+
+\bibitem{laso2012}
+L.~Larger, M.C. Soriano, D.~Brunner, L.~Appeltant, J.M. Gutierrez, L.~Pesquera,
+  C.R. Mirasso, and I.~Fischer.
+\newblock Photonic information processing beyond turing: an optoelectronic
+  implementation of reservoir computing.
+\newblock {\em Opt. Express}, 20:3241, 2012.
 
 \bibitem{nate2017}
 M.~Naruse, Y.~Terashima, A.~Uchida, and S.-J. Kim.
@@ -1133,17 +1156,6 @@ D.~Psaltis and N.~Farhat.
 \newblock Optical information processing based on an associative-memory model
   of neural nets with thresholding and feedback.
 \newblock {\em Opt. Lett.}, 10:98, 1985.
-
-\bibitem{jast1986}
-T.~Jannson, H.M. Stoll, and C.~Karaguleff.
-\newblock The interconnectability of neuro-optic processors.
-\newblock {\em SPIE Real Time Signal Processing IX}, 698:157, 1986.
-
-\bibitem{fili1987}
-A.D. Fisher, W.L. Lippincott, and J.N. Lee.
-\newblock Optical implementation of associative networks with versatile
-  adaptive learning capabilities.
-\newblock {\em Applied Optics}, 26:5039, 1987.
 
 \bibitem{meka2016}
 C.~Mesaritakis, A.~Kapsalis, A.~Bogris, and D.~Syvridis.
