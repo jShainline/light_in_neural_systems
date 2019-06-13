@@ -1,0 +1,75 @@
+\subsection{\label{sec:overview_of_machine_learning}Overview of Machine Learning}
+
+%McCulloch and Pitts
+\cite{mcpi1943}
+
+%Rosenblatt perceptron
+\cite{ro1958}
+
+\subsubsection{Thermodynamic Models}
+%Hopfield
+%Neural networks and physical systems with emergent computational abilities
+\cite{ho1982}
+
+-strengths of Hopfield model: recognition from partial input, robustness, and error-correction capability \cite{psfa1985}
+
+%Boltzmann
+
+
+%----
+from http://pnb.mcmaster.ca/3w03/hopfield.html.
+Binary Hopfield Network
+
+The standard binary Hopfield network is a recurrently connected network with the following features:
+\begin{itemize}
+\item symmetrical connections: if there is a connection going from unit j to unit i having a connection weight equal to $W_{ij}$ then there is also a connection going from unit $i$ to unit $j$ with an equal weight.
+\item linear threshold activation: if the total weighted summed input (dot product of input and weights) to a unit is greater than or equal to zero, its state is set to 1, otherwise it is -1. Normally, the threshold is zero.
+\item asynchronous state updates: units are visited in random order and updated according to the above linear threshold rule.
+\item Energy function: it can be shown that the above state dynamics minimizes an energy function.
+\item Hebbian learning
+\end{itemize}
+
+The most important features of the Hopfield network are:
+\begin{itemize}
+\item Energy minimization during state updates guarantees that it will converge to a stable attractor.
+\item The learning (weight updates) also minimizes energy; therefore, the training patterns will become stable attractors (provided the capacity has not been exceeded).
+\end{itemize}
+
+However, there are some serious drawbacks to Hopfield networks:
+\begin{itemize}
+\item Capacity is only about .15 N, where N is the number of units.
+\item Local energy minima may occur, and the network may therefore get stuck in very poor (high Energy) states which do not satisfy the "constraints" imposed by the weights very well at all. These local minima are referred to as spurious attractors if they are stable attractors which are not part of the training set. Often, they are blends of two or more training patterns.
+\end{itemize}
+
+The Boltzmann machine, described below, was designed to overcome these limitations.
+
+%Boltzmann Machines
+
+The binary Boltzmann machine is very similar to the binary Hopfield network, with the addition of three features:
+\begin{itemize}
+\item Stochastic activation function: the state a unit is in is probabilistically related to its Energy gap. The bigger the energy gap between its current state and the opposite state, the more likely the unit will flip states.
+\item Temperature and simulated annealing: the probability that a unit is on is computed according to a sigmoid function of its total weighted summed input divided by T. If T is large, the network behaves very randomly. T is gradually reduced and at each value of T, all the units' states are updated. Eventually, at the lowest T, units are behaving less randomly and more like binary threshold units.
+\item Contrastive Hebbian Learning: A Boltzmann machine is trained in two phases, "clamped" and "unclamped". It can be trained either in supervised or unsupervised mode. 
+\end{itemize}
+Supervised training proceeds as follows for each training pattern:
+\begin{itemize}
+\item Clamped Phase: The input units' states are clamped to (set and not permitted to change from) the training pattern, and the output units' states are clamped to the target vector.
+\item All other units' states are initialized randomly, and are then permitted to update until they reach "equilibrium" (simulated annealing).
+\item Then Hebbian learning is applied.
+\item Unclamped Phase: The input units' states are clamped to the training pattern.
+\item All other units' states (both hidden and output) are initialized randomly, and are then permitted to update until they reach "equilibrium".
+\item Then anti-Hebbian learning (Hebbian learning with a negative sign) is applied.
+\end{itemize}
+
+The above two-phase learning rule must be applied for each training pattern, and for a great many iterations through the whole training set. Eventually, the output units' states should become identical in the clamped and unclamped phases, and so the two learning rules exactly cancel one another. Thus, at the point when the network is always producing the correct responses, the learning procedure naturally converges and all weight updates approach zero.
+The stochasticity enables the Boltzmann machine to overcome the problem of getting stuck in local energy minima, while the contrastive Hebb rule allows the network to be trained with hidden features and thus overcomes the capacity limitations of the Hopfield network. However, in practice, learning in the Boltzmann machine is hopelessly slow.
+%----
+
+\subsubsection{Deep Learning}
+
+
+
+\subsubsection{Reservoir Computing}
+%introduction of reservoir computing concepts
+\cite{jaha2004}
+%Harnessing Nonlinearity: Predicting Chaotic Systems and Saving Energy in Wireless Communication

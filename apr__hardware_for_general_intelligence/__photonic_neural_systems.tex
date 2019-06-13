@@ -14,7 +14,7 @@ Foundations of optical waveguide theory can be found in Refs.\,\cite{snlo1983} a
 The inability of all-optical systems to displace silicon microelectronics for digital computing does not mean light has no role to play in 
 
 \vspace{3em}
-After decades of research, the phrase ``all-optical'' now sets off alarm bells, and one must ask if the advantage gained (usually speed) is worth neglecting to utilize the myriad competencies of electrical circuits.
+After decades of research, the phrase ``all-optical'' should now set off alarm bells. One must ask if the advantage gained (usually speed) is worth neglecting to utilize the myriad competencies of electrical circuits. (or) One must ask why it might be advantageous to neglect to utilize the myriad competencies of electrical circuits. Optics can be employed in addition to electronics without omitting electrical circuits completely.
 
 \vspace{3em}
 This one demonstrated a functional photonic logic device
@@ -36,6 +36,92 @@ And this one used it in a system
 \subsubsection{Free-Space Optical Neural Nets}
 The late 1980s 
 
+%Optical information processing pased on an associative-memory model of neural nets with thresholding and feedback
+\cite{psfa1985}
+-focused on Hopfield model 
+-seeking to use parallelism and interconnectability of optics (linear) with bistable optical devices (nonlinear)
+-this paper and \cite{faps1985} should be discussed together
+-this paper is a theoretical proposal of the system implemented in \cite{faps1985}
+-GaAs LEDs with photodiodes and electronics for nonlinearity and feedback to be replaced by optical bistable devices
+-such bistable optical devices have still not reached sufficient maturity to enable large-scale systems or commercial products, but some neuromorphic proposals are still based on them
+-according to \cite{juyu1996}, this paper is ``generally considered to be the first paper to introduce the idea of the optical implementation for a neural network.'' \cite{juyu1996}
+
+%Optical implementation of the Hopfield model
+\cite{faps1985}
+-optical implementation of content addressable associative memory
+-nonlinear iterative feedback to a vector-matrix multiplier
+-numerical and experimental results
+-emphasize strengths of optics: parallel processing and massive interconnection capabilities
+-regarding Hopfield model, the authors state, ``A remarkable property of the model is that powerful global computation is performed with very simple, identical logic elements (the neurons).''
+-also cite \cite{psfa1985}
+-LEDs proposed as one means of implementing the logic elements: LED off, state = -1; LED on, state = 1
+-LED proposal uses free space propagation, photodetection, thresholding, gain, and feedback (nonlinear feedback)
+-for optical vector-matrix multiplier circa 1978, cite \cite{godi1978}
+-array of LEDs represents input vector, and an array of photodiodes detects the output vector
+-``The output is thresholded and fed back in parallel to drive the corresponding elements of the LED array.''
+-multiplication by the connection matrix uses horizontal imaging and vertical smearing on an optical mask with an anamorphic lens system
+-this is the downfall: the free-space optical setup is not conducive to fieldability or programmability. a software engineer cannot sit down at a computer and try new things. one needs a phd in optics to have any fun.
+-aspired to eliminate electronic feedback and replace with optical feedback, thereby complicating things further, but they envision a monolithic setup
+-LEDs were envisioned to be replaced by bistable optical devices (cite Keyes and his refutations)
+-experimental demonstration of 32 neuron system with 32 LEDs
+-with soens, we must agree: such hardware will not be adopted instead of silicon microelectronics if the goal is moderate-scale Hopfield networks or similar machine learning systems. to displace CMOS, any new hardware must do something CMOS cannot do.
+-also cite \cite{jaju1988} for optical Hopfield
+
+%Optical implementation of the {H}opfield model for two-dimensional associative memory
+\cite{jaju1988,}
+-two-state neurons are implemented with liguid crystal optical switches
+-three-dimensional holographic interconnections are also implemented with liquid crystals
+-demonstrated 4x4 array
+
+%Architectures for optoelectronic analogs of self-organizing neural networks
+\cite{fa1987}
+-seeking to add artificial intelligence to conventional computer controllers
+-focused on supervised learning by: ``1) computing the interconnectivity matrix for the associations that they are to learn and 2) changing the weights of the links between their neurons accordingly.''
+-``Such self-organizing networks therefore have the ability to form and store their own internal representations of the associations that they are presented with.''
+-seek to use optics to speed up learning of Hopfield and Boltzmann networks, specifically Boltzmann
+-similar architecture to \cite{faps1985}, still LED array
+-computer-controlled spatial light modulator to apply weights
+-learning is done with a particular algorithm implemented with detection, electronic and computer processing, and updating the SLM.
+-key quote: ``[T]he addition of such a module to a computer-controller through a high-speed interface can be viewed as providing the computer-controller with artificial intelligence capabilities by imparting to it neural net attributes.''
+
+%Coeherent optical eigenstate memory
+\cite{an1986}
+-associative memory
+-free-space optical cavity
+-``A gain medium internal to the resonator amplifies the field belonging to the eigenmode that most resembles the injected field; the other eigenmodes are suppressed through a competition for the gain.''
+-optical resonator with spherical mirrors remembers Hermite Gaussian fields
+-stored information can be programmed
+-volume hologram playing the role of a mirror can be programmed to store what the user wishes
+-experimental demonstration with two orthogonal patterns
+
+%Overview of hybrid optical neural networks
+\cite{juyu1996}
+-review circa 1996
+-``Neural networks that involve optical implementation are commonly called optical neural networks, although they should be correctly called hybrid optical neural networks....[T]hey always require non-linear functions that are difficult to implement optically. Most proposed optical neural networks leave this non-linear function to be implemented electronically.'' 
+-``From a practical point of view, we do not intend to make an artificial brain; instead we are attempting to construct an information processing system that mimics some behaviour of the brain and differs significantly from the von Neumann type computer architecture and algorithm.''
+-They cite two motivations to study neural networks in the 1980s: ``1) Although a computer can perform complex calculations precisely and quickly, when the task is to recognize an object the computer fails or performs poorly, and is extremely slow compared with the human brain or even an animal brain. 2) A computer needs an explicit set of instructions to perform a given task. Thus, a computer is like a loyal and strong slave but who lacks intelligence. Nevertheless, computer users also need intelligent workers, in addition to slaves, that can perform the task without receiving detailed orders.''
+-distilled to recognition capability and learning capability
+-limit discussion to feed-forward, binary neurons
+-emphasize that the key attribute of optics in feed-forward NNs is (incoherent) matrix-vector multiplication, referencing Goodman \cite{godi1978}
+-implementation with LEDs still prominent
+-discuss both incoherent and coherent implementations
+-Merits of optics: 1) The velocity of optical signals is independent of the number of interconnections; 2) optical signals are immune to mutual interference effects; 3) Optical signals can propagate in three-dimensional free space; 4) the interconnection can be altered properly using spatial light modulators; and 5) optical signals can be easily converted into electronic signals.
+-``The principal reason for using optics in neural networks, is that the very large interconnection or fan-in fan-out, of the order of $10^3$ to $10^6$, is quite impractical for VLSI technology because it uses a unique discrete channel for each input or output \cite{caki1989}. On the contrary, we may conceive that an optical neural network is not significant unless each neuron has more that 1000 interconnections with other neurons.''
+-learning in free-space optical setups is not easy and requires supervision. by contrast, implementing learning with electronic circuits is far more tractable.
+-``The architecture of a neural network is characterized by interconnection and non-linear operation. In principle, optics is naturally suitable for implementing the interconnection. On the other hand, the non-linear operation may be implemented by electronic means, including digital computers.''
+-``Hybrid optical neural networks may not materialize as commercial products unless each neuron in the network requires more than 1000 interconnections to solve problems.''
+
+%Optical Neural Networks
+\cite{caki1989}
+-review circa 1989
+-``Optical neural networks are the offspring of two parents: optical information processing and neural network theory.''
+-On strengths and weaknesses of brains relative to digital machines: ``Formal reasoning is hard, but inspired guessing is easy.''
+-``This is a vast and growing field. We will attempt a fair and balanced overview of the field but certainly not a complete literature survey.''
+-``Very large fan-in/fan-out ($10^3$ - $10^6$) is quite impractical for VLSI technology because it uses a unique discrete channel for each input or output.''
+-``Most optical neural networks use unconfined or free-space interconnections which avoid these problems by allowing freely crossing and overlapping interconnection paths.''
+-``[L]arge numbers of neurons and interconnections are the natural domain of optics.'' 
+-identify six optical interconnection methods present at that time: 1) fiber optic fan-in/fan-out; 2) holographic in-plane connection in integrated optics \cite{fees1988}; 3) optical parallel matrix-vector multipliers \cite{faps1985}; 4) lenslet-array multiple imaging \cite{fami1986}; 5) thick holographic associative networks; and 6) fixed hologram arrays \cite{ca1987}.
+-holograms can store a ton of information, but limit of interconnectivity is set by size of photodetectors on a surface
 
 %The interconnectability of neuro-optic processors
 \cite{jast1986}
@@ -45,6 +131,29 @@ The late 1980s
 -very high storage density, but impractical to implement compared to integrated systems on a chip
 -they find in a feasible system the potential to realize $10^8$ neurons and $10^{16}$ synapses that can be trained on $10^6$ inputs
 
+%Parallel optoelectronic realization of neural networks models using CID technology
+\cite{agne1988}
+-``Further advances in this field are...limited due to the absence of efficient and reliable hardware realizations of NN models.'' Perhaps, but advances in CMOS proved efficient for the deep learning boom.
+-``incorporate optics where microelectronics fails...the interconnectivity problem.''
+-Hopfield model with binary neurons
+-salient point is that SLM above detector array achieves connectivity matrix
+-not clear how sources are integrated
+
+%Parallel $N^4$ weighted optical interconnections
+\cite{ca1987}
+-main point here is NxN input plane can be fully connected to NxN output plane realizing $N^4$ connections.
+-uses NxN SLM as well as NxN hologram array
+-limited to two layers
+-in principle capable of $N^4 = 10^{12}$ connections
+
+%Optical implementation of the {H}opfield neural network using multiple fiber nets
+\cite{itki1989}
+-uses optical fibers for interconnection between nodes in a Hopfield network
+-``The coupling ratio from fiber to fiber represents the synaptic weight of the connection between units.''
+-intensity of light encodes synaptic weight
+-5x5 array demonstrated, $25^2$ connections
+-laser diodes and silicon photodetectors
+-one network for positive elements, one for negative 
 
 %Holography in artificial neural networks
 \cite{psbr1990}
@@ -104,6 +213,23 @@ As Goodman pointed out in 1985, ``quote from Goodman's paper'' The benefits of l
 -proposals for optical holographic memories and optical perceptron neural networks go back to the 1960s (cite fili1987 and references therein)
 -dont need to discuss this paper in detail, just a review circa 1987 of optical approaches to associative memories, basically a published study by the navy
 
+%Reconfigurable optical neuron based on photoelectret materials
+\cite{mo2000}
+-sandwich structure combining electro-optic medium and photoelectret
+-exotic material/physics
+-no feasible route to system scalability
+
+
+%Coherent optical neural network that learns desirable phase values
+\cite{kahi2003}
+-coherent optical neural network that learns a desired output phase as a function of frequency
+-uses liquid crystal SLM
+-very application-specific, intended to be used in optical communications or adaptive coherent optical image processing
+-parameters of neuron (inputs, outputs, weights) given complex values corresponding to light-wave properties
+-it is not clear how to utilize these wave properties of light in complex neural systems, as they require precise control at every synapse. we often would rather not have to keep track of all these parameters with control knobs, and unsupervised means of utilizing them are not obvious.
+-more likely to me that specialized modules may utilize color and phase, but central cognitive module will be much simpler to ensure scalability
+-learning with complex-valued Hebbian rule, updates achieved with a computer changing SLM settings
+
 \vspace{3em}
 Switching elements made from nonlinear optical materials require too much power to scale, and often require III-V materials. This leads to discussion of optical transistors, in which one optical beam controls the transmission of another. ``Each element can be either a purely optical switch or an optoelectronic combination of light detector, electronic switch and light emitter.'' \cite{abps1987}
 
@@ -139,8 +265,6 @@ Switching elements made from nonlinear optical materials require too much power 
 -Simulated results
 -No physical optical system built
 -Optics for readout in vector-matrix multiplication
-
-\subsubsection{Free-Space Reservoir Computing}
 
 \subsubsection{Photonic Delay Systems}
 In delay systems time is used to emulate space. This makes efficient use of hardware in that very few nodes can behave as many. This delay technique is a form of time multiplexing, and as such scaling results in significant latency. Such systems are useful in situations where power and hardware resources are at a premium, but this use of space and time is not conducive to the fractal use of space and time associated with cognition.
@@ -217,10 +341,6 @@ Recurrent neural networks are Turing equivalent \cite{kisi1996}
 \cite{jaha2004}
 
 \vspace{3em}
-%Reconfigurable semiconductor laser networks based on diffractive coupling
-\cite{brfi2015}
-
-\vspace{3em}
 %Reinforcement learning in a large-scale photonic recurrent neural network
 \cite{buma2018}
 Free-space optics; scalable to order $10^5$ nodes; demonstrated reinforcement learning with 2025 nodes; each node is a pixel of a spatial light modulator; connections established with diffractive optical element; learning with a digital micromirror device. All weights are positive and all output weights are binary.
@@ -247,8 +367,40 @@ This is not a model for spiking neural networks. Synaptic weights are static aft
 
 
 \vspace{3em}
+%Gent/Bienstman
+
 %Toward optical signal processing using {P}hotonic {R}eservoir {C}omputing
 \cite{vadi2008}
+-proposed photonic reservoir computing for large scale pattern recognition problems
+-network of semiconductor optical amplifiers as the basic building blocks
+-``Rather than simulating a nonlinear element using a software algorithm, we propose to implement such an element using a photonics device. This could have advantages in terms of speed and power efficiency.''
+-utilize dynamics resulting from interactions between photons and electrons in semiconductor lasers
+-numerical simulations
+-photonic reservoir, electronic readout
+-not initially obvious that coupled SOAs will make a good reservoir
+-seek to avoid waveguide crossings and are limited to one plane of waveguides, so simulated connectivity is limited
+
+%Parallel Reservoir Computing Using Optical Amplifiers
+\cite{vada2011}
+-follow on to \cite{vadi2008}
+-still simulations, investigating design parameters and significance of process variations
+-word recognition task
+-most important design parameters are ``the delay and the phase shift of the system's physical connections.'' this makes sense in the system under consideration (SOAs) because the time constants are very fast and the transfer function is phase sensitive
+-sensitive to SOA noise
+-three reasons to choose SOAs: 1) they have gain, so no separate component is needed to compensate for loss; 2) they are broadband, so fabrication tolerances are relaxed as compared to resonators; 3) their stead state characteristic resembles the upper part of a sigmoidal activation function, so knowledge gained from software may be applicable
+-memory of elements is set by carrier lifetime, 100-300\,ps
+-4x4 swirl topology dictated by the desire to avoid waveguide crossings
+-9x9 network simulated
+-``The result of the tanh network without leak rate at its optimal delay, is actually comparable to a tanh with leak rate and no (or minimal) delay. This reinforces the view that delay is an alternative approach to introducing memory next to leak rate.''
+
+%All-Optical Reservoir Computing on a Photonic Chip Using Silicon-Based Ring Resonators
+\cite{desc2018}
+-still simulation
+-swirl topology
+-4x4 grid of nodes
+-ring resonators as nodes, utilizing nonlinearity due to
+-xor as task
+-can perform xor at 20 Gb/s with error rates lower than 1e-3 using 2.5 mW
 
 \vspace{3em}
 %Brain-{I}nspired {P}hotonic {S}ignal {P}rocessor for {G}enerating {P}eriodic {P}atterns and {E}mulating {C}haotic {S}ystems
@@ -257,11 +409,10 @@ This is not a model for spiking neural networks. Synaptic weights are static aft
 \subsubsection{Reservoir Computing Implemented with Photonic Delay Systems}
 General comments:
 -Not modular or hierarchical without multi nodes, which requires complex timing between nodes, ends up with similar problems to time multiplexed interconnects
--
 
 \vspace{3em}
 %Information processing using a single dynamical node as a complex system
-\cite{apso2010}
+\cite{apso2011}
 -first demonstration of reservoir computing with a delay system
 -implemented electronically
 -Delay systems are defined as ``Nonlinear systems with delayed feedback and/or delayed coupling.''
@@ -401,9 +552,6 @@ Regarding the primary motivation for optical devices, Kogelnik wrote in 1981, ``
 \vspace{3em}
 When using light for computing in addition to communication in neural systems, information is often encoded in the amplitude of the light, and neurons often integrate the optical signal over time. There are multiple reasons why these uses of light are problematic: 1) encoding information in light amplitude is inefficient because it requires higher light levels to achieve dynamic range and overcome shot noise; 2) source noise is convoluted with synaptic weight; 3) integrating light intensity as the dynamical variable internal to the neuron (membrane potential) is limited because it is very difficult to store light in a cavity for longer than a few hundred picoseconds; 4) inhibition is difficult because light intensity can only be reduced with an additional optical signal if the phase between the two signals is controlled, which is extremely difficult in large systems with many synaptic signals.
 
-
-
-
 \vspace{3em}
 
 %Machine Learning with Neuromorphic Photonics
@@ -414,16 +562,6 @@ When using light for computing in addition to communication in neural systems, i
 
 %Toward fast neural computing using all-photonic phase change spiking neurons
 \cite{chsa2018}
-
-%Architectures for optoelectronic analogs of self-organizing neural networks
-\cite{fa1987}
-
-%Overview of hybrid optical neural networks
-\cite{juyu1996}
-
-%Optical information processing based on an associative-memory model of neural nets with thresholding and feedback
-\cite{psfa1985}
-
 
 %artificial neuron based on integrated semiconductor quantum dot mode-locked lasers
 \cite{meka2016}
@@ -437,15 +575,6 @@ When using light for computing in addition to communication in neural systems, i
 %Progress in neuromorphic photonics
 \cite{fesh2017}
 
-%Coherent optical neural network that learns desirable phase values
-\cite{kahi2003}
-
-%Reconfigurable optical neuron based on photoelectret materials
-\cite{mo2000}
-
-%Performance assessment of the modified-hybrid optical neural network filter
-\cite{kyle2008}
-
 %Large-Scale optical neural networks based on photoelectric multiplication
 \cite{hasl2018}
 
@@ -457,5 +586,34 @@ When using light for computing in addition to communication in neural systems, i
 -provide a means to couple many semiconductor lasers
 -8x8 array of single-mode VCSELs, square lattice, pitch of 250um
 
+
+%Solitary and coupled semiconductor ring lasers as optical spiking neurons
+\cite{coge2011}
+
+%A leaky integrate-and-fire laser neuron for ultrafast cognitive computing
+\cite{nash2013}
+
+%Spike processing with a graphene excitable laser
+\cite{shna2016}
+
+%Computing matrix inversion with optical networks
+\cite{wuso2014}
+
+%High-speed all-optical pattern recognition of dispersive fourier images through a photonic reservoir computing subsystem
+\cite{mebo2015}
+
 %Optoelectronic reservoir computing
-\cite{padu2012}
+\cite{padu2011}
+
+%Experimental demonstration of reservoir computing on a silicon photonics chip
+\cite{vame2014}
+
+%Machine Learning with Neuromorphic Photonics
+\cite{lipe2019}
+
+%A silicon photonic modulator neuron
+\cite{tafe2018}
+
+
+
+
