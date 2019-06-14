@@ -8,13 +8,20 @@ Historically, optics in computation has aspired to achieve special-purpose accel
 Foundations of optical waveguide theory can be found in Refs.\,\cite{snlo1983} and \cite{hu2009}.
 
 \subsubsection{Optics for Digital Computing}
+%Optical Bistability and Related Devices
+%big review article from 1982
+%72 pages, you have not read this article
+%the goal was optical transistors or optical memory
+%promising materials were GaAs and InSb
+\cite{absm1982}
+
 %integrated-optical approaches to numerical optical processing
 \cite{ve1984} In 1984, Verber stated, ``A problem which has been common to almost all efforts to perform numerical computations by optical techniques has been the accuracy limitation imposed by the inrinsically analog nature of the devices. Although the ultimate solution to this problem is generally accepted to be in the application of optical bistable devices to produce fully binary optical systems, the long development times anticipated for these systems has led to several other approaches to higher accuracy computation using analog optical techniques.'' Approaches to improving the accuracy of analog optical computations have been proposed \cite{psca1980,arha1984}, but neither analog nor digital approaches to all-optical computing have been successful. In 2019, these problems have not been solved, and binary optical systems have not proven capable of displacing CMOS for digital computing. 
 
 The inability of all-optical systems to displace silicon microelectronics for digital computing does not mean light has no role to play in 
 
 \vspace{3em}
-After decades of research, the phrase ``all-optical'' should now set off alarm bells. One must ask if the advantage gained (usually speed) is worth neglecting to utilize the myriad competencies of electrical circuits. (or) One must ask why it might be advantageous to neglect to utilize the myriad competencies of electrical circuits. Optics can be employed in addition to electronics without omitting electrical circuits completely.
+After decades of research, the phrase ``all-optical'' should now set off alarm bells. One must ask if the advantage gained (usually speed) is worth neglecting to utilize the myriad competencies of electrical circuits. (or) One must ask why it might be advantageous to neglect to utilize the myriad competencies of electrical circuits. Optics can be employed in addition to electronics without omitting electrical circuits completely. The goal of all-optical is usually speed and parallelism, and introducing electrical components can reduce bandwidth. Still, for systems as complex as required for cognition, it is unlikely an all-optical solution will surface.
 
 \vspace{3em}
 This one demonstrated a functional photonic logic device
@@ -24,7 +31,6 @@ This one demonstrated a functional photonic logic device
 And this one used it in a system
 %Six-stage digital free-space optical switching network using symmetric self-electro-optic-effect devices
 \cite{mccl1993}
-
 
 \vspace{3em}
 ``...it is the need to limit power dissipation that largely constrains clock rates in current electronic devices\textemdash lower operating voltages give slower speeds but correspondingly lower energies per operation.'' \cite{mi2010}.
@@ -213,11 +219,16 @@ As Goodman pointed out in 1985, ``quote from Goodman's paper'' The benefits of l
 -proposals for optical holographic memories and optical perceptron neural networks go back to the 1960s (cite fili1987 and references therein)
 -dont need to discuss this paper in detail, just a review circa 1987 of optical approaches to associative memories, basically a published study by the navy
 
-%Reconfigurable optical neuron based on photoelectret materials
-\cite{mo2000}
--sandwich structure combining electro-optic medium and photoelectret
--exotic material/physics
--no feasible route to system scalability
+\vspace{3em}
+%Optical associative memory model based on neural networks having variable interconnection weights
+\cite{maar1987}
+-Modification to Hopfield network
+-Simulated results
+-No physical optical system built
+-Optics for readout in vector-matrix multiplication
+
+%Adaptive multilayer optical neural network with optical thresholding
+\cite{safi1995}
 
 
 %Coherent optical neural network that learns desirable phase values
@@ -232,6 +243,15 @@ As Goodman pointed out in 1985, ``quote from Goodman's paper'' The benefits of l
 
 \vspace{3em}
 Switching elements made from nonlinear optical materials require too much power to scale, and often require III-V materials. This leads to discussion of optical transistors, in which one optical beam controls the transmission of another. ``Each element can be either a purely optical switch or an optoelectronic combination of light detector, electronic switch and light emitter.'' \cite{abps1987}
+
+%more recent
+
+%Reinforcement learning in a large-scale photonic recurrent neural network
+\cite{buma2018}
+-Free-space optics; scalable to order $10^5$ nodes; demonstrated reinforcement learning with 2025 nodes; each node is a pixel of a spatial light modulator; connections established with diffractive optical element; learning with a digital micromirror device. All weights are positive and all output weights are binary.
+-The general architecture is not conducive to very large scale. The elements that perform the computation are based on integration of digital electronics with mechanical mirrors. The routing is not conducive to general networks with hierarchical construction and Rentian scaling. It is hard to get light out of the module. The power per node is high because light levels are high (compared to single photons). Optical setup sensitive to alignment. Requires external control for learning procedure. Readout of network state performed with a camera. The optoelectronic system steps through discrete time with a specified update equation. In the 2018 demonstration, update of 900 nodes occurred at 5\,Hz, limited by software control of the spatial light modulator. Diffractive optical element establishes synaptic weights. Scaling limit due to ``the imaging setup's field of view and not by the concept itself.''
+-This is not a model for spiking neural networks. Synaptic weights are static after the training phase and do not permit any of the short- or long-term plasticity mechanisms nor dendritic processing that are central to the manner in which spiking neurons utilize time. This network has binary outputs that are readout in parallel. Internal node states are represented by optical field intensities, and therefore such a concept cannot be extended to the single-photon domain. Memory reconfiguration DOE is passive, but light is always on.
+-``We demonstrate a network of up to 2025 diffractively coupled photonic nodes, forming a large-scale recurrent neural network.'' Terms like ``large-scale'' need to be defined in introduction (large scale means at least 1000 logic gates, tens of thousands of transistors per chip, VLSI still refers to chips with tens of billions of transistors per chip.)
 
 \vspace{3em}
 %All-optical machine learning using diffractive deep neural networks
@@ -258,25 +278,25 @@ Switching elements made from nonlinear optical materials require too much power 
 -not intended to be an approach to dynamical systems
 -they argue the approach is scalable to $10^6$ neurons
 
-\vspace{3em}
-%Optical associative memory model based on neural networks having variable interconnection weights
-\cite{maar1987}
--Modification to Hopfield network
--Simulated results
--No physical optical system built
--Optics for readout in vector-matrix multiplication
+%hybrid optical-electronic convolutional neural networks with optimized diffractive optics for image classification
+\cite{chsi2018}
+-use a free-space optical neural network prior to electronic processing
+-they ``incorporate a layer of optical computing prior to either analog or digital electronic computing, improving performance while adding minimal electronic computational cost and processing time.''
+-incorporate convolutional layers
+-``By pushing the first convolutional layer of a CNN into the optics, we reduce the workload of the electronic processor during inference.''
+-``[A]n imaging scenario where the input signal is already an optical signal easily allows for propagation through additional passive optical elements prior to sensor readout.''
+-incorporate an optical convolutional layer optimized for a specific classification problem (compare to facial recognition in the brain)
+-assume light is incoherent and monochromatic
+-results in more hardware complexity, as now a CNN would require a free-space optical setup; probably only useful in artificial vision systems where free-space light is the signal, not when digital images need to be processed.
 
-\subsubsection{Photonic Delay Systems}
-In delay systems time is used to emulate space. This makes efficient use of hardware in that very few nodes can behave as many. This delay technique is a form of time multiplexing, and as such scaling results in significant latency. Such systems are useful in situations where power and hardware resources are at a premium, but this use of space and time is not conducive to the fractal use of space and time associated with cognition.
-
-\subsubsection{Photonic Fiber Neurons}
- 
 \subsubsection{Integrated Photonics and Superchips}
 Soref and Bennett and active silicon photonic devices in the late 1980s
 
 \vspace{3em}
 Goal was to follow the model of the integrated circuit, utilize lithographic fabrication and system complexity that can be achieved through integration of components on a chip. 
 
+\vspace{3em}
+discuss fibers as an intermediate step
 \paragraph{Components Required for Integrated Photonics}
 \begin{itemize}
 \item passives: waveguides and routing, beam splitters and power taps (y-junctions, evanescent couplers, adiabatic 50-50 beam splitters), spectral filters (microrings \cite{ra2007} and gratings), waveguide crossings
@@ -329,45 +349,40 @@ The operation of synaptic weighting in deep learning reduces to matrix-vector mu
 
 The approach of using 2-D arrays of interferometers for routing and synaptic weighting pursued in Ref.\,\cite{shha2017} is incompatible with large-scale cognitive systems for several reasons. One reason is that the index shifts induced by thermo-optic phase shifters are small, and power dependent, leading to either large structures, high power consumption, or both. Cross talk between thermal elements necessitates placing the waveguides far apart, and it is difficult to utilize the vertical dimension interferometer arrays, so attempting to scale results in networks that are sprawling in the plane. Further, as described in Sec.\,\ref{sec:neuroscience}, an important mechanism of learning in spiking neural systems is through STDP, wherein the activity of the two neurons associated with a synapse leads to memory adaptation. With interferometer arrays, changing a single phase in the network will, in general, modify several synaptic weights. Therefore, while backpropagation can be implemented with such a network \cite{humi2018}, STDP cannot. 
 
+%Design of optical neural networks with component imprecisions
+\cite{fama2019}
+-focused on feed-forward MZIs for deep learning
+-their goal is to design networks with built-in phase shifts for specific classification problems, then mass-produce a bunch of these at once
+-in this modality, tolerance to fabrication errors is very important
+-these are static MZIs, no dynamic reconfigurability, no relevance to learning machines for general intelligence
+-standard singular-value decomposition in the linear layers
+-they mention graphene saturable absorbers for nonlinearity, discarding entirely the benefits of scalable fabrication
+-they're considering optical bistability in microring resonators and two-photon absorption as alternatives, so they don't have a plan for that
+-just a simulation study, no experiments
+
 \subsubsection{Photonic Reservoir Computing}
+-most are actually with delay systems, but some are not
+-Bienstman (Ghent) and others have done theory related to reservoir systems without delay using both SOAs and Si microrings in the swirl topology to avoid waveguide crossings
+-first delay system paper was electronic, \cite{apso2011}
+-first photonic delay system paper \cite{laso2012}
+-similar work using MZIs and SOAs for nonlinearity followed
+-big names are Fischer (Spain), Soriano (Spain), Brunner (Spain), Massar (Ghent)
 
-\vspace{3em}
-Recurrent neural networks can approximate the trajectory of a dynamical system \cite{funa1993}
-Recurrent neural networks are Turing equivalent \cite{kisi1996}
 
-%Reservoir computing concept introduced in:
-\vspace{3em}
-%Harnessing Nonlinearity: Predicting Chaotic Systems and Saving Energy in Wireless Communication
-\cite{jaha2004}
-
-\vspace{3em}
-%Reinforcement learning in a large-scale photonic recurrent neural network
-\cite{buma2018}
-Free-space optics; scalable to order $10^5$ nodes; demonstrated reinforcement learning with 2025 nodes; each node is a pixel of a spatial light modulator; connections established with diffractive optical element; learning with a digital micromirror device. All weights are positive and all output weights are binary.
-
-The general architecture is not conducive to very large scale. The elements that perform the computation are based on integration of digital electronics with mechanical mirrors. The routing is not conducive to general networks with hierarchical construction and Rentian scaling. It is hard to get light out of the module. The power per node is high because light levels are high (compared to single photons). Optical setup sensitive to alignment. Requires external control for learning procedure. Readout of network state performed with a camera. The optoelectronic system steps through discrete time with a specified update equation. In the 2018 demonstration, update of 900 nodes occurred at 5\,Hz, limited by software control of the spatial light modulator. Diffractive optical element establishes synaptic weights. Scaling limit due to ``the imaging setup's field of view and not by the concept itself.''
-
-This is not a model for spiking neural networks. Synaptic weights are static after the training phase and do not permit any of the short- or long-term plasticity mechanisms nor dendritic processing that are central to the manner in which spiking neurons utilize time. This network has binary outputs that are readout in parallel. Internal node states are represented by optical field intensities, and therefore such a concept cannot be extended to the single-photon domain. Memory reconfiguration DOE is passive, but light is always on.
-
-``We demonstrate a network of up to 2025 diffractively coupled photonic nodes, forming a large-scale recurrent neural network.'' Terms like ``large-scale'' need to be defined in introduction (large scale means at least 1000 logic gates, tens of thousands of transistors per chip, VLSI still refers to chips with tens of billions of transistors per chip.)
-
-\vspace{3em}
 %Advances in photonic reservoir computing
 \cite{vabr2017}
-
-
-
-\vspace{3em}
-%Optoelectronic {R}eservoir {C}omputing
-\cite{padu2012}
-
-\vspace{3em}
-%All-optical reservoir computing
-\cite{dusc2012}
-
+-review of photonic reservoir computing
+-``much of the promise of photonic reservoirs lies in their minimal hardware requirements, a tremendous advantage over other hardware-intensive neural network models.''
+-two main approaches: multiple discrete optical nodes and single node with delayed feedback.
+-this review covers the material i have already covered here, so cite it as a summary
+-also a few more refs: using sesam for nonlinearity \cite{dedu2014}; others using semiconductor lasers with feedback \cite{ngve2014}
+-cite this article (\cite{vabr2017}) and say to see their bibliography for complete references regarding photonic reservoir computing
+-consider using Figs. 9,10 to summarize delay system
 
 \vspace{3em}
-%Gent/Bienstman
+%---------------------
+%Ghent/Bienstman
+%---------------------
 
 %Toward optical signal processing using {P}hotonic {R}eservoir {C}omputing
 \cite{vadi2008}
@@ -393,20 +408,60 @@ This is not a model for spiking neural networks. Synaptic weights are static aft
 -9x9 network simulated
 -``The result of the tanh network without leak rate at its optimal delay, is actually comparable to a tanh with leak rate and no (or minimal) delay. This reinforces the view that delay is an alternative approach to introducing memory next to leak rate.''
 
+%Cascadable excitability in microrings
+\cite{vafi2012}
+-theory and experiment
+-using free-carrier/thermal dynamics
+-si microrings
+-only keep free-carrier concentration and temperature so they can perform phase-plane analysis
+-cascadable excitation demonstrated between two rings
+
+%Experimental demonstration of reservoir computing on a silicon photonics chip
+\cite{vame2014}
+-gets rid of SOA that were the focus of their previous work
+-uses linear, passive silicon photonics
+-nonlinearity is implemented at the readout photodetectors
+-taking the weighted sum of the states is currently being done offline, but it is ``conceptually easy to also implement this linear combination of states in the optical domain, where a set of variable optical attenuators or modulators implement the weights.''
+-16 node square mesh that contains multiple feedback loops
+-connections are 2cm spirals with 1.2 dB loss per spiral
+-280ps delay per edge
+-these delays bring the timescales down to the point where electronics can manage them
+-demonstrate Boolean operations with memory
+-XOR, which they argue is non-trivial
+-2-bit XOR with one bit from current time step and one from previous
+-for XOR of bits from different delays, need to train different readout
+
 %All-Optical Reservoir Computing on a Photonic Chip Using Silicon-Based Ring Resonators
 \cite{desc2018}
--still simulation
+-simulation
 -swirl topology
 -4x4 grid of nodes
--ring resonators as nodes, utilizing nonlinearity due to
+-ring resonators as nodes, utilizing nonlinearity due to interplay between optical mode, free carriers, and thermal coupling to the environment
 -xor as task
 -can perform xor at 20 Gb/s with error rates lower than 1e-3 using 2.5 mW
 
-\vspace{3em}
-%Brain-{I}nspired {P}hotonic {S}ignal {P}rocessor for {G}enerating {P}eriodic {P}atterns and {E}mulating {C}haotic {S}ystems
-\cite{anha2017}
+%---------------------
+%end Ghent/Bienstman
+%---------------------
 
-\subsubsection{Reservoir Computing Implemented with Photonic Delay Systems}
+\vspace{3em}
+Recurrent neural networks can approximate the trajectory of a dynamical system \cite{funa1993}
+Recurrent neural networks are Turing equivalent \cite{kisi1996}
+
+%Reservoir computing concept introduced in:
+\vspace{3em}
+%Harnessing Nonlinearity: Predicting Chaotic Systems and Saving Energy in Wireless Communication
+\cite{jaha2004}
+
+\vspace{3em}
+
+
+\vspace{3em}
+%Advances in photonic reservoir computing
+\cite{vabr2017}
+
+
+%Delay Systems
 General comments:
 -Not modular or hierarchical without multi nodes, which requires complex timing between nodes, ends up with similar problems to time multiplexed interconnects
 
@@ -423,21 +478,37 @@ General comments:
 \vspace{3em}
 %Tutorial: {P}hotonic neural networks in delay systems
 \cite{brpe2018}
-``Inspired by a strongly simplified interpretation of the human brain's structure, large numbers of simple nonlinear elements (neurons) are connected (synaptic links) into large networks. Information processing in ANNs usually relies on numerous simple nonlinear transformations and large scale linear matrix multiplications. The implementation of these operations in von Neumann architectures is highly inefficient, as it requires massive parallelism.''
-
-``[E]ven the recent astonishing developments cannot mask the fact that currently no ideal ANN-specific hardware, which fully implements physical hardware neurons and physical \textit{synaptic links}, exists. With such a novel platform, many orders of magnitude could be gained in speed and energy efficiency.''
-
-``Reservoir computers offer a compromise between performance and an implementation-friendly ANN topology.''
-
-``[S]implicity is bought in expense of time multiplexing and de-multiplexing in the input and readout layer.'' 
-
-``[T]emporal multiplexing results in a reduction of the system's overall processing bandwidth by the number of neurons $N$.''
-
+-``Inspired by a strongly simplified interpretation of the human brain's structure, large numbers of simple nonlinear elements (neurons) are connected (synaptic links) into large networks. Information processing in ANNs usually relies on numerous simple nonlinear transformations and large scale linear matrix multiplications. The implementation of these operations in von Neumann architectures is highly inefficient, as it requires massive parallelism.''
+-``[E]ven the recent astonishing developments cannot mask the fact that currently no ideal ANN-specific hardware, which fully implements physical hardware neurons and physical \textit{synaptic links}, exists. With such a novel platform, many orders of magnitude could be gained in speed and energy efficiency.''
+-``Reservoir computers offer a compromise between performance and an implementation-friendly ANN topology.''
+-``[S]implicity is bought in expense of time multiplexing and de-multiplexing in the input and readout layer.'' 
+-``[T]emporal multiplexing results in a reduction of the system's overall processing bandwidth by the number of neurons $N$.''
 -The authors emphasize that in a delay system, ``[A]ll nonlinear transformations carried out by the virtual spatiotemporal network rely on the same physical component.'' The is the primary limitation to achieving complexity in such systems. The single node of the system quickly becomes a bottleneck, as all spatial degrees of freedom are represented as temporal degrees of freedom. Such technology is capable of implementing various types of artificial neural networks, which is the goal of the research, but it is not a promising route as a computational primitive for hardware intended to achieve cognition.
 -To increase the effective dimensionality of the system, the total delay time must be increased to allow inclusion of information from a larger number of virtual nodes. This reduces the speed with which a given computation can occur.
 -Used backpropagation through time.
 -Time-delay systems are an approach to reservoir computing that minimize the demands on hardware by extending computation across time rather than across space. A single nonlinear node can perform a computation similar to that achieved by a neural network, but the computation is spread out across time rather than space \cite{brpe2018}. The state of a node during a time window in a delay system corresponds to the state of a node at a spatial location in a neural network. Such an approach is appealing in the context of emerging hardware because a system comprising only a single node can perform a useful calculation, albeit with a slowdown due to time multiplexing proportional to the number of emulated nodes. Using the time domain in this way is somewhat reminiscent of information processing in biological neural systems wherein each node is engaged in different transient ensembles at different times, although the specific mathematical formalism describing delay systems as manifestations of recurrent neural networks are not nearly as general as the information processing principles of the brain, nor do they aspire to be.
 
+\vspace{3em}
+%Photonic information processing beyond Turing: an optoelectronic implementation of reservoir computing
+\cite{laso2012}
+-first photonic delay reservoir paper
+-LiNbO3 MZI modulator for nonlinearity
+-400 virtual nodes
+-21us delay time
+
+%Optoelectronic reservoir computing
+\cite{padu2012}
+-first experimental reservoir computer based on an opto-electronic architecture (actually tied with \cite{laso2012} to within five days)
+-experimental details: laser diode input; LiNbO3 MZI modulator; output splits 25\% to detector, 75\% to EDFA and then fiber delay (50.4 km) for echo-state network (247.2 us delay); delayed light is detected and signal affects modulator; additional input signal drives modulator
+-the authors acknowledge theirs is similar concept to \cite{apso2011} except using photonics instead of electronics for nonlinearity and delay
+
+%All-optical reservoir computing
+\cite{dusc2012}
+-same folks as \cite{padu2012}, but instead of using MZI, this paper uses semiconductor optical amplifier for nonlinearity
+-similar to theory of Beinstman, but using a single dynamical node with delay
+-cite \cite{luja2009,taya2019} for reservoir computing reviews circa 2009,2019
+-``The architecture we use is based on fiber optics delay loop with a single nonlinear node and off-line training. The nonlinearity is provided by the saturation gain effect in a SOA.''
+-so, same as \cite{laso2012}, but using SOA instead of MZI, so they call it all optical and consider this a strength.
 
 \vspace{3em}
 %Parallel photonic information processing at gigabyte per second data rates using transient states
@@ -450,14 +521,21 @@ General comments:
 -The time allocated to each ``neuron'' is $T_2/N = 200ps = T_1$, but really one must use $T_1 = 200$\,ps because that is the characteristic time of relaxation oscillations of the laser, so you have $T_2 = NT_1$. This gives 5,000 neurons in a microsecond, 5 million neurons in a millisecond, and the scale of cortex would require a second, meaning gamma oscillations could not be faster than a second. Of course, there are many other reasons why information integration would not be possible at this scale.
 -For a network with N = 388, 10 mJ per digit of spoken digit recognition, better than desktop computer by 100x.
 
+\vspace{3em}
+%Brain-{I}nspired {P}hotonic {S}ignal {P}rocessor for {G}enerating {P}eriodic {P}atterns and {E}mulating {C}haotic {S}ystems
+\cite{anha2017}
+-reservoir computing
+-goal is to achieve long-term prediction of time series by feeding the output from a reservoir back to itself
+-seek to understand the means by which biological circuits generate time series
+-also seek to enable technological generation of time series with photonic reservoir computing
+-optoelectronic delay system utilized, similar to \cite{apso2011,padu2012,laso2012}
+-readout uses FPGA, high-speed dedicated electronics
+-electronics demonstrated in \cite{andu2016}, but here they are used very differently: to feed the reservoir output back into the reservoir
 
 \vspace{3em}
 %All-{O}ptical {R}eservoir {C}omputing on a {P}hotonic {C}hip {U}sing {S}ilicon-{B}ased {R}ing {R}esonators
 \cite{cosc2018} 
 
-\vspace{3em}
-%Delay dynamics of neuromorphic optoelectronic nanoscale resonators: {P}erspectives and applications
-\cite{rofi2017}
 
 \vspace{3em}
 %Conditions for reservoir computing performance using semiconductor lasers with delayed optical feedback
@@ -475,21 +553,85 @@ General comments:
 -implements both on a single hardware platform
 -switching between the two by activating or deactivating one physical connection
 -same implementation as \cite{padu2012} and \cite{laso2012}, single time-delay neuron
--experimental details: laser diode input; LiNbO3 MZI modulator; output splits 25\% to detector, 75\% to EDFA and then fiber delay (50.4 km) for echo-state network (247.2 us delay); delayed light is detected and signal affects modulator; additional input signal drives modulator
+
+%delay systems
+In delay systems time is used to emulate space. This makes efficient use of hardware in that very few nodes can behave as many. This delay technique is a form of time multiplexing, and as such scaling results in significant latency. Such systems are useful in situations where power and hardware resources are at a premium, but this use of space and time is not conducive to the fractal use of space and time associated with cognition.
+
+%Fischer et al
+\cite{laso2012,apso2011,orso2015,brfi2015,brso2013,bubr2017,buma2018,brpe2018}
+
+%Delay dynamics of neuromorphic optoelectronic nanoscale resonators: {P}erspectives and applications
+\cite{rofi2017}
+
+\subsubsection{Spiking Neurons with Semiconductor Excitable Lasers}
+While the interferometric approach to deep learning discussed above makes use of static neurons, several approaches to spiking neurons have been pursued as well. One class of spiking photonic neurons leverages the carrier dynamics in compound semiconductor laser cavities. It has long been known that the equation governing lasers with gain and saturable absorber regions are isomorphic to the leaky integrate-and-fire neuron \cite{dukr1999}, with the number of excited carriers in the laser playing the role of the membrane potential. This correspondence has led to several designs \cite{nata2013} and experimental efforts (see Ref.\,\cite{prsh2017} and reference therein) to leverage this behavior to make spiking neurons that sum optical signals and produce optical pulses when a threshold has been reached. This work began in Er-doped fibers, and continues with on-chip implementations with III-V photonic systems, with much of the work being done in the Prucnal's group at Princeton. The refractory period of such neurons is set by the cavity photon decay time and is on the order of 10\,ps, while the integration time is set by the carrier relaxation time, and is on the order of 100\,ps. This short refractory period means such neurons can fire up to $10^9$ times faster than biological neurons, yet the short integration time means temporal correlations amongst neuronal firing events is forgotten rapidly. 
+
+While the goal of these efforts in excitable lasers is to perform neuro-inspired computing very rapidly with small networks, and not to achieve brain-scale systems, we nevertheless point out two features of this approach to using light in neural systems that are not conducive to achieving large-scale systems. The first is power consumption. To properly set the threshold of these neurons, the gain region must be continuously pumped. This requires between 100\,mW and 1\,W per neuron, even when the neuron is not firing. For a system of $10^{10}$ neurons, a gigawatt would be consumed, even with the system at rest. The second limitation regards computation. As discussed in Sec.\,\ref{sec:neuroscience}, neural information processing leverages many complex computations in synapses, dendrites, and neurons. In excitable lasers, all the computation occurs in the interaction between photons and carriers in the laser cavity. Multiply-accumulate operations can be performed with leak and threshold, but no path toward short-term synaptic plasticity or dendritic processing have been proposed. By relying on the exponential decay constants of photons and carriers, one is unable to tune the range of temporal information processing or supply the dendritic arbor with information across a wide range of temporal scales. These computations and time constants are more readily achieved in the electronic domain with circuits that can be engineered to perform complex functions rather than relying on material parameters, a point we revisit below.
+
+%artificial neuron based on integrated semiconductor quantum dot mode-locked lasers
+\cite{meka2016}
+-InAs/InGaAs semiconductor quantum-dot passively mode-locked laser
+-extensive bibliography of similar neurons, but argue theirs is unique because it can implement inhibition (\cite{alva2013} creates inhibition with phase)
+-2 mm Fabry-Perot cavity
+-``inhibition and excitation are associated with waveband switching effects triggered solely through optical injection from another optical neuron.''
+-the inhibitory neuron emits in an alternate band, which results in suppression of the activity in the excitatory band
+-sensitive to biasing conditions
+-will be extremely difficult to find biasing conditions where all neurons in a large network can work well together and be tuned to excite/inhibit appropriately
+-5V bias
+-optical isolator between two neurons to isolate signal from one neuron from reflecting back to itself (Keyes)
+-extremely fast 20GHz repetition frequency
+-high power 60 mW peak power
+-they want to avoid utilizing inhibition in the electronic domain because it is too complex
+-the scheme does not lend itself to dense integration and scaling, perhaps possible up to a few neurons
+
+%Ultrafast all-optical implementation of a leaky integrate-and-fire neuron
+\cite{krro2011}
+
+%Recent progress in semiconductor excitable lasers for photonic spike processing
+\cite{prsh2016}
+-big review article by Prucnal et al
+-72 pages, you have not read this. likely redundant with book
+
+%A leaky integrate-and-fire laser neuron for ultrafast cognitive computing
+\cite{nash2013}
+
+%SIMPEL: Circuit model for photonic spike processing laser neurons
+\cite{shna2015}
+-photodiodes accomplish inhibition
+
+%Spike processing with a graphene excitable laser
+\cite{shna2016}
+
+%Controllable spiking patterns in long-wavelength vertical cavity surface emitting lasers for neuromorphic photonics systems
+\cite{huja2015}
+
+%Excitability in optically injected microdisk lasers with phase controlled excitatory and inhibitory response
+\cite{alva2013}
+-Ghent/Bienstman
+-make comparison to pulsing si microrings used for reservoir computing
+-demonstrate class I excitability in optically injected microdisk lasers and propose a possible optical spiking neuron design
+-threshold and integrating behavior
+-optical phase control can be used to generate inhibitory response
+-input pulse power around 1uW for 0.2 ns for threshold
+-no transfer of excitation between disks demonstrated
+
+%Optical neuron using polarisation switching in a 1550nm-{VCSEL}
+\cite{huhe2010}
+
+%Solitary and coupled semiconductor ring lasers as optical spiking neurons
+\cite{coge2011}
 
 \vspace{3em}
 %Ultrafast photonic reinforcement learning based on laser chaos
 \cite{nate2017}
+-application specific to a particular reinforcement learning problem
+-using laser chaos as a source of randomness that outperforms pseudorandom number generators
 
-\vspace{3em}
-%Photonic information processing beyond Turing: an optoelectronic implementation of reservoir computing
-\cite{laso2012}
+%Reconfigurable semiconductor laser networks based on diffractive coupling
+\cite{brfi2015}
+-provide a means to couple many semiconductor lasers
+-8x8 array of single-mode VCSELs, square lattice, pitch of 250um
 
-
-\subsubsection{Spiking Neurons with On-Chip Excitable Lasers}
-While the interferometric approach to deep learning discussed above makes use of static neurons, several approaches to spiking neurons have been pursued as well. One class of spiking photonic neurons leverages the carrier dynamics in compound semiconductor laser cavities. It has long been known that the equation governing lasers with gain and saturable absorber regions are isomorphic to the leaky integrate-and-fire neuron \cite{dukr1999}, with the number of excited carriers in the laser playing the role of the membrane potential. This correspondence has led to several designs \cite{nata2013} and experimental efforts (see Ref.\,\cite{prsh2017} and reference therein) to leverage this behavior to make spiking neurons that sum optical signals and produce optical pulses when a threshold has been reached. This work began in Er-doped fibers, and continues with on-chip implementations with III-V photonic systems, with much of the work being done in the Prucnal's group at Princeton. The refractory period of such neurons is set by the cavity photon decay time and is on the order of 10\,ps, while the integration time is set by the carrier relaxation time, and is on the order of 100\,ps. This short refractory period means such neurons can fire up to $10^9$ times faster than biological neurons, yet the short integration time means temporal correlations amongst neuronal firing events is forgotten rapidly. 
-
-While the goal of these efforts in excitable lasers is to perform neuro-inspired computing very rapidly with small networks, and not to achieve brain-scale systems, we nevertheless point out two features of this approach to using light in neural systems that are not conducive to achieving large-scale systems. The first is power consumption. To properly set the threshold of these neurons, the gain region must be continuously pumped. This requires between 100\,mW and 1\,W per neuron, even when the neuron is not firing. For a system of $10^{10}$ neurons, a gigawatt would be consumed, even with the system at rest. The second limitation regards computation. As discussed in Sec.\,\ref{sec:neuroscience}, neural information processing leverages many complex computations in synapses, dendrites, and neurons. In excitable lasers, all the computation occurs in the interaction between photons and carriers in the laser cavity. Multiply-accumulate operations can be performed with leak and threshold, but no path toward short-term synaptic plasticity or dendritic processing have been proposed. By relying on the exponential decay constants of photons and carriers, one is unable to tune the range of temporal information processing or supply the dendritic arbor with information across a wide range of temporal scales. These computations and time constants are more readily achieved in the electronic domain with circuits that can be engineered to perform complex functions rather than relying on material parameters, a point we revisit below.
 
 \subsubsection{Wavelength-Division Multiplexing for Routing and Synaptic Weighting} 
 In addition to the work on excitable lasers as spiking neurons, the Princeton group has also pioneered the use of concepts from wavelength-division multiplexing for both signal routing and synaptic weighting \cite{tana20142,tafe2017}. Within this framework, each neuron within a cluster produces or modulates light at a distinct wavelength upon firing. The signals from all neurons within the cluster are multiplexed onto a single broadcast waveguide, and all other neurons tap all colors from this waveguide and apply synaptic weights based on the frequencies of microring resonances relative to the neuron wavelengths. For a cluster of $N$ neurons, $N$ different colors of light must be generated, $N$ microring filters must be used to multiplex these signals onto the broadcast waveguide, and each neuron must have $N-1$ microring filters to receive and weight the signals from all the other neurons. Thus, a cluster of $N$ neurons requires $N^2$ microring resonators. This approach to communication between neurons is referred to as ``broadcast-and-weight'', and is closely related to the operation of wavelength-division multiplexing in fiber communication networks.
@@ -499,6 +641,9 @@ Again, the goal of the work from the Princeton group is not to achieve brain-sca
 These considerations pertain to using wavelength for multiplexed routing, but there are independent reasons why using microring resonators to establish synaptic weights is not conducive to scaling. One challenge associated with microring weight banks is the fact that by changing a certain parameter (power delivered to heater, for example) the synaptic weight first increases, then saturates, the decreases as the resonance passes the target wavelength. This makes it very difficult for supervised or unsupervised learning to occur. Additionally, the shape of the resonance is nonlinear with very steep sections. Thus, to achieve uniform changes in synaptic weight, a nonuniform change in drive must be applied, and across much of the range of weights, the synaptic weight will be very noisy.
 
 Microring weight banks and Mach-Zehnder interferometer networks have two things in common: they both require implementing phase shifts in photonic components (which usually draws power, even in the steady state), and neither is capable of implementing STDP or other unsupervised learning techniques. To achieve the largest-scale neural systems, it is highly advantageous if storage of a synaptic weight draws no power. For a system at the scale of the brain, if each synapse draws even 10\,nW in the steady state, the system will consume 1\,MW just to remember what it has learned. 
+
+%Demonstration of WDM weighted addition for principal component analysis
+\cite{tach2015}
 
 %A silicon photonic modulator neuron
 \cite{tafe2019}
@@ -563,38 +708,8 @@ When using light for computing in addition to communication in neural systems, i
 %Toward fast neural computing using all-photonic phase change spiking neurons
 \cite{chsa2018}
 
-%artificial neuron based on integrated semiconductor quantum dot mode-locked lasers
-\cite{meka2016}
-
-%hybrid optical-electronic convolutional neural networks with optimized diffractive optics for image classification
-\cite{chsi2018}
-
-%An all-optical neuron with sigmoid activation function
-\cite{mots2019}
-
 %Progress in neuromorphic photonics
 \cite{fesh2017}
-
-%Large-Scale optical neural networks based on photoelectric multiplication
-\cite{hasl2018}
-
-%Advances in photonic reservoir computing
-\cite{vabr2017}
-
-%Reconfigurable semiconductor laser networks based on diffractive coupling
-\cite{brfi2015}
--provide a means to couple many semiconductor lasers
--8x8 array of single-mode VCSELs, square lattice, pitch of 250um
-
-
-%Solitary and coupled semiconductor ring lasers as optical spiking neurons
-\cite{coge2011}
-
-%A leaky integrate-and-fire laser neuron for ultrafast cognitive computing
-\cite{nash2013}
-
-%Spike processing with a graphene excitable laser
-\cite{shna2016}
 
 %Computing matrix inversion with optical networks
 \cite{wuso2014}
@@ -602,18 +717,25 @@ When using light for computing in addition to communication in neural systems, i
 %High-speed all-optical pattern recognition of dispersive fourier images through a photonic reservoir computing subsystem
 \cite{mebo2015}
 
-%Optoelectronic reservoir computing
-\cite{padu2011}
-
-%Experimental demonstration of reservoir computing on a silicon photonics chip
-\cite{vame2014}
-
 %Machine Learning with Neuromorphic Photonics
 \cite{lipe2019}
 
 %A silicon photonic modulator neuron
 \cite{tafe2018}
 
+%A high performance photonic pulse processing device
+\cite{rokr2009}
 
+%other
 
+%Reconfigurable optical neuron based on photoelectret materials
+\cite{mo2000}
+-sandwich structure combining electro-optic medium and photoelectret
+-exotic material/physics
+-no feasible route to system scalability
 
+%An all-optical neuron with sigmoid activation function
+\cite{mots2019}
+-WDM input and weighting scheme
+-logistic sigmoid activation function realized with a ``deeply-saturated differentially-biased Semiconductor Optical Amplifier-Mach-Zehnder Interferometer (SOA-MZI) followed by a SOA-Cross-Gain-Modulation (XGM) gate.''
+-the goal seems to be a very close fit with a sigmoid, no matter the cost
