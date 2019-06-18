@@ -1,13 +1,16 @@
 \subsection{\label{sec:photonic_neural_systems}Photonic Neural Systems}
-Like AI and superconductors, there have been several waves of photonics in computing. One theme is the use of light for highly parallel computation, exemplified by the special case of the Fourier transform. The late 1980s brought a surge in optical computing, with some efforts intending to displace silicon electronics for digital logic, such as with bistable lasers, and sometimes for the purpose of augmenting silicon electronics. Displacing Si electronics has failed for the reasons Keyes has pointed out.
+The strengths of optics in computing have been acknowledged for decades and have led to many attempts to design digital computing architectures around optical phenomena and devices. Like AI and superconductors, there have been several waves of photonics in computing. The first wave of interest began in the late 1970s and was triggered by the seminal paper from Goodman, Dias, and Woody regarding the use of optics for performing Fourier transforms with incoherent light \cite{godi1978}. This work generated a great deal of interest because it showed the power of optics for performing matrix-vector multiplication with complex quantities in a parallel manner using incoherent light that does not have phase as an accessible parameter. While other Fourier transform devices had been proposed, including in slab-guided modes in integrated photonic systems \cite{shha1968,anbo1977}, the work by Goodman, Dias, and Woody combined several key ideas at the right time to generate significant excitement around the use of optics in computing. The optical approach to matrix-vector multiplication introduced in Ref.\,\ref{godi1978} is now referred to as the \textit{Stanford architecture}, as the authors were working at Stanford University at the time of the publication.
 
-\vspace{3em}
-Historically, optics in computation has aspired to achieve special-purpose accelerators, such as Fourier transform devices (which can be implemented in free space with a lens, but also in slab-guided modes in integrated photonic systems \cite{shha1968,anbo1977}), as well as all-optical digital computing systems. At present, a major goal of photonics is to augment CMOS electronic hardware to aid in communication. Optical communication shows indisputable advantages over long distances, as exemplified in global fiber optic networks as well as local-area networks. On the chip scale, the advantages of optical communication must contend with the challenges of optoelectronic hardware integration. 
+Themes raised in the Stanford architecture persist to the present. The primary there is the use of light for highly parallel computation. Each light source can straightforwardly fan its signal out along many optical paths, and parallel computation can occur along each path independently. More generally, the primary strength of optics lies in communication\textemdash the ability to rapidly move information from one place to another without degradation. This strength is fundamental to the uncharged, massless, bosonic nature of photons which allows them to propagate without interaction. This strength is utilized from kHz and MHz frequencies for radio communication up to hundreds of THz for intercontinental data transmission over optical fiber.
 
-\vspace{3em}
-Foundations of optical waveguide theory can be found in Refs.\,\cite{snlo1983} and \cite{hu2009}.
+Another theme raised by the Stanford Architecture is the use of optics for special-purpose hardware accelerators that perform a specific task with performance unmatched by electronic approaches. Goodman et al. focused on the Fourier transform, but matrix-vector multiplication is the underlying operation. The non-interacting nature of light makes it excellent for parallel data transmission, which enables efficient matrix-vector multiplication. However, to construct a general purpose computer in the model of Turing, nonlinear operations are necessary. Efforts to augment the strength of light for communication with nonlinear optical devices for \textit{all-optical} computing surged in the 1980s following the work of Goodman, Dias, and Woody. These efforts can be separated roughly into two categories, with one track being focused on displacing silicon electronics for digital logic and general-purpose computing, and another track maintaining the purpose of augmenting silicon electronics with task-specific hardware accelerators that were envisioned to work in conjunction with electronic digital computers. The introduction of the Stanford architecture was shortly followed by a wave of interest in neural networks, and the use of optics for neural networks based on a similar architecture was quickly introduced \cite{psfa1985}.
+
+In the following subsection, we briefly review efforts to utilize light in digital computing from 1978 until the present to establish the context for the evolution of photonic neural systems.
 
 \subsubsection{Optics for Digital Computing}
+As stated above, the strengths of optics for information processing have been known for some time and have inspired many efforts to conceive of and construct systems for all-optical computing as well as hybrid optoelectronic architectures. The primary strengths of light for information processing are the potential for massive fan out and parallelism, low latency, and high bandwidth. These attributes motivated the Stanford architecture as well as a great deal of other research. The weakness of optics for information processing is that precisely the same as its strength: because photons are uncharged bosons, they do not interact, and therefore they do not have nonlinear responses. 
+
+
 %Optical Bistability and Related Devices
 %big review article from 1982
 %72 pages, you have not read this article
@@ -16,9 +19,9 @@ Foundations of optical waveguide theory can be found in Refs.\,\cite{snlo1983} a
 \cite{absm1982}
 
 %integrated-optical approaches to numerical optical processing
-\cite{ve1984} In 1984, Verber stated, ``A problem which has been common to almost all efforts to perform numerical computations by optical techniques has been the accuracy limitation imposed by the inrinsically analog nature of the devices. Although the ultimate solution to this problem is generally accepted to be in the application of optical bistable devices to produce fully binary optical systems, the long development times anticipated for these systems has led to several other approaches to higher accuracy computation using analog optical techniques.'' Approaches to improving the accuracy of analog optical computations have been proposed \cite{psca1980,arha1984}, but neither analog nor digital approaches to all-optical computing have been successful. In 2019, these problems have not been solved, and binary optical systems have not proven capable of displacing CMOS for digital computing. 
+\cite{ve1984} In 1984, Verber stated, ``A problem which has been common to almost all efforts to perform numerical computations by optical techniques has been the accuracy limitation imposed by the intrinsically analog nature of the devices. Although the ultimate solution to this problem is generally accepted to be in the application of optical bistable devices to produce fully binary optical systems, the long development times anticipated for these systems has led to several other approaches to higher accuracy computation using analog optical techniques.'' Approaches to improving the accuracy of analog optical computations have been proposed \cite{psca1980,arha1984}, but neither analog nor digital approaches to all-optical computing have been successful. In 2019, these problems have not been solved, and binary optical systems have not proven capable of displacing CMOS for digital computing. 
 
-The inability of all-optical systems to displace silicon microelectronics for digital computing does not mean light has no role to play in 
+The inability of all-optical systems to displace silicon microelectronics for digital computing does not mean light has no role to play in advanced computing generally and neural systems in particular. However, this history should be carefully considered when choosing the specific role for light in cognitive hardware.
 
 \vspace{3em}
 After decades of research, the phrase ``all-optical'' should now set off alarm bells. One must ask if the advantage gained (usually speed) is worth neglecting to utilize the myriad competencies of electrical circuits. (or) One must ask why it might be advantageous to neglect to utilize the myriad competencies of electrical circuits. Optics can be employed in addition to electronics without omitting electrical circuits completely. The goal of all-optical is usually speed and parallelism, and introducing electrical components can reduce bandwidth. Still, for systems as complex as required for cognition, it is unlikely an all-optical solution will surface.
@@ -38,6 +41,13 @@ And this one used it in a system
 \vspace{3em}
 ``...we have to remind ourselves that the field of integrated optics is still in its infancy, still in its research stage, and still searching for its proper role.'' \cite{ko1981}
 ``The arguments for optical wiring are understood even down to the chip-level, but chip-scale optical interconnect technology is still in its infancy.'' \cite{mi2010}
+
+Displacing Si electronics has failed for the reasons Keyes has pointed out.
+
+At present, a major goal of photonics is to augment CMOS electronic hardware to aid in communication. Optical communication shows indisputable advantages over long distances, as exemplified in global fiber optic networks as well as local-area networks. On the chip scale, the advantages of optical communication must contend with the challenges of optoelectronic hardware integration. 
+
+\vspace{3em}
+Foundations of optical waveguide theory can be found in Refs.\,\cite{snlo1983} and \cite{hu2009}.
 
 \subsubsection{Free-Space Optical Neural Nets}
 The late 1980s 
@@ -739,3 +749,6 @@ When using light for computing in addition to communication in neural systems, i
 -WDM input and weighting scheme
 -logistic sigmoid activation function realized with a ``deeply-saturated differentially-biased Semiconductor Optical Amplifier-Mach-Zehnder Interferometer (SOA-MZI) followed by a SOA-Cross-Gain-Modulation (XGM) gate.''
 -the goal seems to be a very close fit with a sigmoid, no matter the cost
+
+\vspace{3em}
+Did you emphasize that the Stanford architecture intended to utilize incoherent LEDs, as did the first optical neural nets by Psaltis et al?
