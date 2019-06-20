@@ -912,6 +912,43 @@ J.-B. Li, S.~Liang, S.~Xiao, M.-D. He, L.-H. Liu, J.-H. Luo, and L.-Q. Chen.
   quantum dot-dna nanohybrid.
 \newblock {\em J. Phys. D: Appl. Phys.}, 52:035401, 2019.
 
+\bibitem{mi2010}
+D.A.B. Miller.
+\newblock Are optical transistors the logical next step?
+\newblock {\em Nature Photonics}, 4:3, 2010.
+
+\bibitem{sole1985}
+R.~Soref and J.P. Lorenzo.
+\newblock Single-crystal silicon: {A} new material for 1.3 and 1.6\,\textmu m
+  integrated-optical components.
+\newblock {\em Electronics Letters}, 21:953, 1985.
+
+\bibitem{sole1986}
+R.~Soref and J.P. Lorenzo.
+\newblock All-silicon active and passive guided-wave components for $\lambda =
+  1.3$ and 1.6\,\textmu m.
+\newblock {\em IEEE J. Quant. Electron.}, {QE}-22:873, 1986.
+
+\bibitem{sobe1987}
+R.~Soref and B.~Bennett.
+\newblock Electrooptical effects in silicon.
+\newblock {\em IEEE J. Quant. Electron.}, {QE}-23:123, 1987.
+
+\bibitem{so1993}
+R.~Soref.
+\newblock Silicon-{B}ased {O}ptoelectronics.
+\newblock {\em Proceedings of the IEEE}, 81:1687, 1993.
+
+\bibitem{snlo1983}
+A.W. Snyder and J.D. Love.
+\newblock {\em Optical {W}aveguide {T}heory}.
+\newblock Chapman and Hall Ltd., 1983.
+
+\bibitem{hu2009}
+R.G. Hunsperger.
+\newblock {\em Integrated Optics: Theory and Technology}.
+\newblock Springer-Verlag, 2009.
+
 \bibitem{ra2007}
 D.G. Rabus.
 \newblock {\em Integrated Ring Resonators}.
@@ -928,11 +965,6 @@ C.M. Verber.
   {P}rocessing.
 \newblock {\em Proc. IEEE}, 72:942, 1984.
 
-\bibitem{sobe1987}
-R.~Soref and B.~Bennett.
-\newblock Electrooptical effects in silicon.
-\newblock {\em IEEE J. Quant. Elect.}, {QE}-23:123, 1987.
-
 \bibitem{rema2010}
 G.~Reed, G.~Mashanovich, F.Y. Gardes, and D.J. Thomson.
 \newblock Silicon optical modulators.
@@ -948,11 +980,6 @@ Q.~Xu, S.~Manipatruni, B.~Schmidt, J.~Shakya, and Michal Lipson.
 \newblock 12.5 gbit/s carrier-injection-based silicon micro-ring silicon
   modulators.
 \newblock {\em Opt. Express}, 15:430, 2007.
-
-\bibitem{so1993}
-R.~Soref.
-\newblock Silicon-based optoelectronics.
-\newblock {\em Proceedings of the IEEE}, 81:1687, 1993.
 
 \bibitem{meor2014}
 K.K. Mehta, J.S. Orcutt, J.M. Shainline, O.~Tehar-Zahav, Z.~Sternberg,
@@ -978,25 +1005,10 @@ R.~Arrathoon and M.H. Hassoun.
 \newblock Optical threshold logic elements for digital computation.
 \newblock {\em Opt. Lett.}, 9:143, 1984.
 
-\bibitem{mi2010}
-D.A.B. Miller.
-\newblock Are optical transistors the logical next step?
-\newblock {\em Nature Photonics}, 4:3, 2010.
-
 \bibitem{ko1981}
 H.~Kogelnik.
 \newblock Limits in {I}ntegrated {O}ptics.
 \newblock {\em Proc. IEEE}, 69:232, 1981.
-
-\bibitem{snlo1983}
-A.W. Snyder and J.D. Love.
-\newblock {\em Optical {W}aveguide {T}heory}.
-\newblock Chapman and Hall Ltd., 1983.
-
-\bibitem{hu2009}
-R.G. Hunsperger.
-\newblock {\em Integrated Optics: Theory and Technology}.
-\newblock Springer-Verlag, 2009.
 
 \bibitem{faps1985}
 N.H. Farhat, D.~Psaltis, A.~Prata, and E.~Paek.

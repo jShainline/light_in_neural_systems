@@ -9,76 +9,80 @@ Repeated entry---line 3757 of file hardware_for_general_intelligence.bib
  : @book{iz2007
  :             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3931 of file hardware_for_general_intelligence.bib
+Repeated entry---line 3886 of file hardware_for_general_intelligence.bib
+ : @article{so1993
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3958 of file hardware_for_general_intelligence.bib
  : @article{libo2010
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3940 of file hardware_for_general_intelligence.bib
+Repeated entry---line 3967 of file hardware_for_general_intelligence.bib
  : @article{zhyi2015
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3994 of file hardware_for_general_intelligence.bib
+Repeated entry---line 4021 of file hardware_for_general_intelligence.bib
  : @article{rahu2008
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4174 of file hardware_for_general_intelligence.bib
+Repeated entry---line 4201 of file hardware_for_general_intelligence.bib
  : @article{joma1996
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4755 of file hardware_for_general_intelligence.bib
+I was expecting a `,' or a `}'---line 4782 of file hardware_for_general_intelligence.bib
  : 
  : @ARTICLE{apso2010,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 4993 of file hardware_for_general_intelligence.bib
+Repeated entry---line 5020 of file hardware_for_general_intelligence.bib
  : @article{brso2013
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5028 of file hardware_for_general_intelligence.bib
- : @article{bubr2017
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5037 of file hardware_for_general_intelligence.bib
- : @article{orso2015
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5046 of file hardware_for_general_intelligence.bib
- : @article{nate2017
  :                  ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 5055 of file hardware_for_general_intelligence.bib
- : @article{anha2017
+ : @article{bubr2017
  :                  ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 5064 of file hardware_for_general_intelligence.bib
- : @article{vadi2008
+ : @article{orso2015
  :                  ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 5073 of file hardware_for_general_intelligence.bib
- : @article{brso2013
+ : @article{nate2017
  :                  ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 5082 of file hardware_for_general_intelligence.bib
- : @article{dusc2012
+ : @article{anha2017
  :                  ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 5091 of file hardware_for_general_intelligence.bib
+ : @article{vadi2008
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5100 of file hardware_for_general_intelligence.bib
+ : @article{brso2013
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5109 of file hardware_for_general_intelligence.bib
+ : @article{dusc2012
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5118 of file hardware_for_general_intelligence.bib
  : @article{brfi2015
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5190 of file hardware_for_general_intelligence.bib
+Repeated entry---line 5217 of file hardware_for_general_intelligence.bib
  : @article{psfa1985
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5235 of file hardware_for_general_intelligence.bib
+Repeated entry---line 5262 of file hardware_for_general_intelligence.bib
  : @article{chsa2018
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5555 of file hardware_for_general_intelligence.bib
+Repeated entry---line 5582 of file hardware_for_general_intelligence.bib
  : @article{dukr1999
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5582 of file hardware_for_general_intelligence.bib
+Repeated entry---line 5609 of file hardware_for_general_intelligence.bib
  : @article{coge2011
  :                  ,
 I'm skipping whatever remains of this entry
@@ -103,6 +107,7 @@ Warning--I didn't find a database entry for "xxx"
 Warning--I didn't find a database entry for "de2015"
 Warning--I didn't find a database entry for "one_from_reading_group"
 Warning--I didn't find a database entry for "abms1982"
+Warning--I didn't find a database entry for "solo1986"
 Warning--I didn't find a database entry for "fees1988"
 Warning--I didn't find a database entry for "mi2015_fix_ref"
 Warning--I didn't find a database entry for "shha2017"
@@ -141,4 +146,4 @@ Warning--empty author in bu1950
 Warning--empty year in bu1950
 Warning--empty title in ai1989
 Warning--empty title in og1989
-(There were 21 error messages)
+(There were 22 error messages)
