@@ -5,18 +5,77 @@ Themes raised in the Stanford architecture persist to the present. The primary t
 
 Another theme raised by the Stanford Architecture is the use of optics for special-purpose hardware accelerators that perform a specific task with performance unmatched by electronic approaches. Goodman et al. focused on the Fourier transform, but matrix-vector multiplication is the underlying operation. The non-interacting nature of light makes it excellent for parallel data transmission, which enables efficient matrix-vector multiplication. However, to construct a general purpose computer in the model of Turing, nonlinear operations are necessary. Efforts to augment the strength of light for communication with nonlinear optical devices for \textit{all-optical} computing surged in the 1980s following the work of Goodman, Dias, and Woody. These efforts can be separated roughly into two categories, with one track being focused on displacing silicon electronics for digital logic and general-purpose computing, and another track maintaining the purpose of augmenting silicon electronics with task-specific hardware accelerators that were envisioned to work in conjunction with electronic digital computers. The introduction of the Stanford architecture was shortly followed by a wave of interest in neural networks, and the use of optics for neural networks based on a similar architecture was quickly introduced \cite{psfa1985}.
 
-In the following subsection, we briefly review efforts to utilize light in digital computing from 1978 until the present to establish the context for the evolution of photonic neural systems.
+In the following subsection, we briefly review efforts to utilize light in digital computing from the 1970s until the present to establish the context for the evolution of photonic neural systems.
 
-\subsubsection{Optics for Digital Computing}
-As stated above, the strengths of optics for information processing have been known for some time and have inspired many efforts to conceive of and construct systems for all-optical computing as well as hybrid optoelectronic architectures. The primary strengths of light for information processing are the potential for massive fan out and parallelism, low latency, and high bandwidth. These attributes motivated the Stanford architecture as well as a great deal of other research. The weakness of optics for information processing is that precisely the same as its strength: because photons are uncharged bosons, they do not interact, and therefore they do not have nonlinear responses. 
+\subsubsection{Optical Logic Elements}
+As stated above, the strengths of optics for information processing have been known for some time and have inspired many efforts to conceive of and construct systems for all-optical computing as well as hybrid optoelectronic architectures. The primary strengths of light for information processing are the potential for massive fan out and parallelism, low latency, and high bandwidth. These attributes motivated the Stanford architecture as well as a great deal of other research. The weakness of optics for information processing is that precisely the same as its strength: because photons are uncharged bosons, they do not interact, and therefore they do not have nonlinear responses, and are therefore limited in the input-output transfer functions they can instantiate for computation. Efforts to leverage the strengths of optics for computing have paid significant attention to techniques and devices to give rise to optical nonlinearities that can be leveraged for digital logic gates.
+
+Devices demonstrating optical bistability have been a primary direction of research to enable optical devices that can be used to construct logic gates. The state of the field was reviewed comprehensively in 1982 by Abraham and Smith \cite{abms1982}, and the authors summarize the subject: ``Optical bistability is a general title for a number of static and dynamic phenomena that result from the interplay of optical non-linearity and feedback.'' The 1985 book by Gibbs also summarizes the field at that time \cite{gi1985}. The primary goals of optical bistable devices are to construct optical transistors and optical memory elements. An optical transistor is a device wherein one optical beam controls the propagation of another optical beam. Optical memory is most often implemented by using an optical signal to change the state of a solid-state element, which can then be interrogated optically. It is essentially impossible to induce light to halt its motion, and it is difficult to extend the decay lifetime of photons propagating within a cavity beyond the nanosecond scale, so optical memory based on the storage of photons in a particular location is not feasible.
+
+The first demonstration of optical bistability was achieved by Gibbs, McCall, and Venkatesan in 1976 \cite{gimc1976}. The physical system achieving the bistability comprised a Fabry-Perot interferometer filled with sodium vapor. The sodium vapor provided a nonlinear dispersive medium so that the transmitted intensity was a nonlinear function of the incident intensity. Miller, Smith, and Johnston leveraged a similar effect in a Fabry-Perot cavity formed from an InSb crystal in 1979 \cite{mism1979}. In this work, the nonlinear refraction was based on electronic nonlinearity related to states below the semiconductor band gap, and the use of a semiconductor crystal rather than an atomic vapor made the system more likely to be useful in complex computing systems. Reference \onlinecite{mism1979} demonstrated optical differential gain and bistability. Because the system enabled a weak beam to modulate the transmission of a powerful beam, this system provided the first example of an optical transistor. The overall small signal power gain was greater than six. Subsequent work integrated devices leveraging this principle as a 2D array of etalons \cite{jele1986,vewi1986} for the purpose of performing logical operations. 
+
+An alternative approach to bistable optical devices was based on the self-electrooptic effect device. Work on self-electrooptic devices was also carried out by Miller, beginning in 1984 \cite{mich1984}. The principle of operation is based on adjustable absorption controlled with an electric field applied perpendicular to the plane of the quantum well that shifts the band edge, known as the quantum confined Stark effect \cite{mich1984b}. In a self-electrooptic effect device, the quantum confined Stark effect as well as optical detection are present in a single structure, leading to optoelectronic feedback that produces bistability. A number of configurations of such devices have been implemented, with the symmetric self-electrooptic effect device introduced by Lentine et al. being the most successful \cite{lehi1988,lehi1989}. In this implementation, two $p$-$i$-$n$ diodes with quantum wells in the intrinsic regions are combined, each serving as the load for the other. As Lentine states, ``This device has complimentary outputs whose switching point is determined by the ratio of the two optical input powers and acts as a set-reset latch.'' One strength of this device is that it has time-sequential gain, meaning once set with low-power beams, it can be subsequently read out with high-power beams. This results in good input-output isolation because the large output occurs at a later time than the inputs. Additionally, while previous electrooptical devices with optical bistability required critical biasing very close to a nonlinear threshold, no such biasing was required.
+
+A switching network comprised of symmetric self-electrooptic-effect devices was demonstrated by McCormick et al. in 1993 \cite{mccl1993}. This free-space optical system comprised a 32$\times$32 switching node array of these devices. Light propagated perpendicular to the plane of the device array, and 16 input channels were connected to 32 output channels with each channel transmitting 32 bits in parallel. The input data to be routed entered on optical fibers and was coupled to free space. Six stages of electrooptic devices were present, each with input control lasers, electronic control through an electronic computer, and with optics between the stages. The output was again coupled to fibers. (consider showing figure 2 from \cite{mccl1993})
+
+Other approaches to the creation of optical transistors have continued to be proposed as nanoscale patterning of photonic devices has become commonplace. One example is the design of an optical transistor based on a photonic crystal cavity \cite{yafa2003} that was presented in 2003 by Yanik, Fan, Solja\v{c}i\'{c}, and Joannopoulos. In this on-chip structure, two waveguides lead into a photonic crystal cavity, and two waveguides lead out. In this case, the photonic crystal cavity plays the role of the Fabry-Perot utilized by Miller et al., and a control beam input into one of the inputs shifts the resonance of the cavity through the Kerr nonlinearity. With this beam present, transmission of the signal beam is high, while without the control beam, transmission of the signal beam is low. The authors simulated this operation with material parameters corresponding to AlGaAs, and found that with a modest $Q$ factor of 5000, the contrast ratio between on and off states could be as high as 10 with a few milliwatts of input power. 
+
+Another optical transistor leveraging nano-scale optical phenomena is based on switching a single molecule between internal electronic states and has been demonstrated by Sandoghdar's group in 2009 \cite{hwpo2009}. Other recent efforts to realize bistable optical devices for computing and telecommunications include the use of graphene \cite{wawu2016,guru2017}, semiconductor quantum wells \cite{suzh2019,saeb2018}, and semiconductor quantum dots \cite{lili2019}. 
+
+After 40 years of effort in optical logic devices, no candidate looks promising to displace the electronic transistor for large-scale digital computing. As Miller stated in 2010, ``Only one device has apparently ever satisfied [the success] criteria well enough to allow large logic systems to be constructed.'' \cite{mi2010} Miller was referring to the self-electrooptic-effect devices of Lentine \cite{lehi1989} and the switching systems of McCormick \cite{mccl1993}. Difficulties with optical logic devices do not mean the field of photonics has stalled in the past several decades. To the contrary, tremendous progress has been made. Much of this progress has been enabled by the birth of silicon photonics. Let us put this discussion of optical logic devices to the side while we discuss integrated silicon photonics. Then we will attempt to synthesize what the past 40 year of research in optical technologies can teach us regarding the design of hardware for cognitive systems.
+
+%Based on this brief summary of optical logic devices, can we identify common trends that can guide future thinking on the use of optics in computing in general and for cognitive hardware in particular?
+
+\subsubsection{Integrated Silicon Photonics}
+Soref and Bennett and active silicon photonic devices in the late 1980s
+
+\vspace{3em}
+Goal was to follow the model of the integrated circuit, utilize lithographic fabrication and system complexity that can be achieved through integration of components on a chip. 
+
+\vspace{3em}
+discuss fibers as an intermediate step
+\paragraph{Components Required for Integrated Photonics}
+\begin{itemize}
+\item passives: waveguides and routing, beam splitters and power taps (y-junctions, evanescent couplers, adiabatic 50-50 beam splitters), spectral filters (microrings \cite{ra2007} and gratings), waveguide crossings
+\item sources
+\item detectors
+\item electrooptic: modulators and phase shifters (rings, MZIs \cite{ohno1975}), SAW transducers for imparting a phase shift
+\end{itemize}
+
+\paragraph{Materials for Integrated Photonics}
+\begin{itemize}
+\item III-V
+\item LiNbO$_3$
+\item silica
+\item silicon
+\item SiN
+\end{itemize}
+
+\vspace{3em}
+Active integrated photonic components were beginning to be developed in the mid 1970s \cite{ohno1975}, and by the mid 1980s many elements of the field of integrated photonics were taking shape \cite{ve1984}. Primary applications included RF signal processing and analog numerical processing \cite{ve1984}. Proposals for all-optical digital computers were made based on the key element of a bistable optical cavity. However, the important sub-field of silicon photonics had not yet emerged.
+
+\vspace{3em}
+In 1987, Soref and Bennett introduced the concept of using the shift in index of refraction that results from free carriers in silicon to achieve active optical components based on silicon waveguides \cite{sobe1987}. This insight would have to wait until the development of silicon-on-insulator wafers in the early 2000s to be put into practice. Since then, an explosion of activity has occurred in the rapidly developing field of silicon photonics. Electro-optic effects have been used to make a variety of modulators \cite{rema2010} operating into the 10s of GHz based most commonly on Mach-Zehnder interferometers \cite{lisa2005} or microring resonators \cite{xuma2007}. In addition to the free-carrier electro-optic effects, in 1993 Soref also pointed to thermo-optic effects as a means to make dynamic photonic components on an optoelectronic chip \cite{so1993}. The combination of electro-optic effects for fast index perturbation and thermo-optic effects for slow resonance tuning, in conjunction with etched silicon waveguide structures in silicon-on-insulator substrates, established a foundation of active components capable of signal switching, filtering, and modulation. In his 1993 paper, titled \textit{Silicon-based optoelectronics}, Soref presented a more expansive view of the potential for what he termed ``superchips'' that combine the strengths of photonics and electronics monolithically on a single silicon chip. Silicon had long been the material of choice for integrated microelectronics, but Soref had identified a path to make silicon also a powerhouse in photonics as well.
+
+To make use of silicon as a waveguiding medium so that the active components described above can be implemented, one must utilize light with photon energy less than the band gap of silicon ($E_{\mathrm{g}}=1.17$\,eV/$\lambda = 1.06$\,\textmu m at 0\,K; $E_{\mathrm{g}}=1.11$\,eV/$\lambda = 1.12$\,\textmu m at 300\,K). The buried oxide of silicon-on-insulator wafers becomes absorptive for $\lambda \gtrsim 2$\,\textmu m. Thus, the transparency window of silicon-on-insulator waveguides enables operation with wavelengths below 1.2\,\textmu m, and includes the important telecom bands (O-band:1260\,nm-1360\,nm; C-band: 1530\,nm-1565\,nm), whose significance results from the very low attenuation of optical fibers at these wavelengths. Thus, silicon integrated photonic components can be interfaced with optical fibers for communication across long distances. 
+
+Yet if a material is transparent, it is not efficient for detecting light. To create photodetectors in silicon waveguides, two approaches are taken. One approach is to utilize SiGe regions patterned in Si waveguides, as the band gap of Si is narrowed by the incorporation of Ge. Germanium is present in many contemporary CMOS processes for strain engineering, and can be economically incorporated in the foundry because, like silicon, it is a group IV element, and therefore shares process compatibility and does not act as a dopant in Si. Waveguide-integrated \cite{} and resonator-integrated \cite{} SiGe detectors operating at the O-band and C-band. These detectors have been demonstrated with high efficiency approaching 1\,A/W. The other approach is to introduce defects the silicon lattice, either through ion implantation or the use of poly-crystalline or amorphous silicon. These defects introduce absorptive states within the band gap. Detectors based on this principle have been demonstrated with $x$\,A/W responsivity \cite{meor2014}. 
+
+%The Introduction of Silicon-on-Insulator
+SOI in early 2000s, guiding light on a chip is a different ballgame
+
+\vspace{3em}
+Integrated Silicon Photonics for Communication above a certain length scale in digital electronics
+-monolithic with processors?
+-in package?
+-off-chip light sources?
+-WDM
 
 
-%Optical Bistability and Related Devices
-%big review article from 1982
-%72 pages, you have not read this article
-%the goal was optical transistors or optical memory
 %promising materials were GaAs and InSb
-\cite{absm1982}
+
+%Fast and reliable storage using a 5 bit, nonvolatile photonic memory cell
+\cite{liyo2018}
 
 %integrated-optical approaches to numerical optical processing
 \cite{ve1984} In 1984, Verber stated, ``A problem which has been common to almost all efforts to perform numerical computations by optical techniques has been the accuracy limitation imposed by the intrinsically analog nature of the devices. Although the ultimate solution to this problem is generally accepted to be in the application of optical bistable devices to produce fully binary optical systems, the long development times anticipated for these systems has led to several other approaches to higher accuracy computation using analog optical techniques.'' Approaches to improving the accuracy of analog optical computations have been proposed \cite{psca1980,arha1984}, but neither analog nor digital approaches to all-optical computing have been successful. In 2019, these problems have not been solved, and binary optical systems have not proven capable of displacing CMOS for digital computing. 
@@ -26,14 +85,7 @@ The inability of all-optical systems to displace silicon microelectronics for di
 \vspace{3em}
 After decades of research, the phrase ``all-optical'' should now set off alarm bells. One must ask if the advantage gained (usually speed) is worth neglecting to utilize the myriad competencies of electrical circuits. (or) One must ask why it might be advantageous to neglect to utilize the myriad competencies of electrical circuits. Optics can be employed in addition to electronics without omitting electrical circuits completely. The goal of all-optical is usually speed and parallelism, and introducing electrical components can reduce bandwidth. Still, for systems as complex as required for cognition, it is unlikely an all-optical solution will surface.
 
-\vspace{3em}
-This one demonstrated a functional photonic logic device
-%Symmetric Self-Electrooptic Effect Device: Optical Set-Reset Latch, Differential Logic Gate, and Differential Modulator/Detector
-\cite{lehi1989}
 
-And this one used it in a system
-%Six-stage digital free-space optical switching network using symmetric self-electro-optic-effect devices
-\cite{mccl1993}
 
 \vspace{3em}
 ``...it is the need to limit power dissipation that largely constrains clock rates in current electronic devices\textemdash lower operating voltages give slower speeds but correspondingly lower energies per operation.'' \cite{mi2010}.
@@ -48,6 +100,9 @@ At present, a major goal of photonics is to augment CMOS electronic hardware to 
 
 \vspace{3em}
 Foundations of optical waveguide theory can be found in Refs.\,\cite{snlo1983} and \cite{hu2009}.
+
+\vspace{3em}
+Need to mention here that the Stanford architecture intended to utilize incoherent LEDs because they are simple, scalable, and do not require precise control of phase across many optical paths.
 
 \subsubsection{Free-Space Optical Neural Nets}
 The late 1980s 
@@ -241,6 +296,9 @@ As Goodman pointed out in 1985, ``quote from Goodman's paper'' The benefits of l
 \cite{safi1995}
 
 
+\vspace{3em}
+Need to mention here that the first optical neural networks by Psaltis intended to utilize incoherent LEDs because they are simple, scalable, and do not require precise control of phase across many optical paths.
+
 %Coherent optical neural network that learns desirable phase values
 \cite{kahi2003}
 -coherent optical neural network that learns a desired output phase as a function of frequency
@@ -299,50 +357,7 @@ Switching elements made from nonlinear optical materials require too much power 
 -assume light is incoherent and monochromatic
 -results in more hardware complexity, as now a CNN would require a free-space optical setup; probably only useful in artificial vision systems where free-space light is the signal, not when digital images need to be processed.
 
-\subsubsection{Integrated Photonics and Superchips}
-Soref and Bennett and active silicon photonic devices in the late 1980s
 
-\vspace{3em}
-Goal was to follow the model of the integrated circuit, utilize lithographic fabrication and system complexity that can be achieved through integration of components on a chip. 
-
-\vspace{3em}
-discuss fibers as an intermediate step
-\paragraph{Components Required for Integrated Photonics}
-\begin{itemize}
-\item passives: waveguides and routing, beam splitters and power taps (y-junctions, evanescent couplers, adiabatic 50-50 beam splitters), spectral filters (microrings \cite{ra2007} and gratings), waveguide crossings
-\item sources
-\item detectors
-\item electrooptic: modulators and phase shifters (rings, MZIs \cite{ohno1975}), SAW transducers for imparting a phase shift
-\end{itemize}
-
-\paragraph{Materials for Integrated Photonics}
-\begin{itemize}
-\item III-V
-\item LiNbO$_3$
-\item silica
-\item silicon
-\item SiN
-\end{itemize}
-
-\vspace{3em}
-Active integrated photonic components were beginning to be developed in the mid 1970s \cite{ohno1975}, and by the mid 1980s many elements of the field of integrated photonics were taking shape \cite{ve1984}. Primary applications included RF signal processing and analog numerical processing \cite{ve1984}. Proposals for all-optical digital computers were made based on the key element of a bistable optical cavity. However, the important sub-field of silicon photonics had not yet emerged.
-
-\vspace{3em}
-In 1987, Soref and Bennett introduced the concept of using the shift in index of refraction that results from free carriers in silicon to achieve active optical components based on silicon waveguides \cite{sobe1987}. This insight would have to wait until the development of silicon-on-insulator wafers in the early 2000s to be put into practice. Since then, an explosion of activity has occurred in the rapidly developing field of silicon photonics. Electro-optic effects have been used to make a variety of modulators \cite{rema2010} operating into the 10s of GHz based most commonly on Mach-Zehnder interferometers \cite{lisa2005} or microring resonators \cite{xuma2007}. In addition to the free-carrier electro-optic effects, in 1993 Soref also pointed to thermo-optic effects as a means to make dynamic photonic components on an optoelectronic chip \cite{so1993}. The combination of electro-optic effects for fast index perturbation and thermo-optic effects for slow resonance tuning, in conjunction with etched silicon waveguide structures in silicon-on-insulator substrates, established a foundation of active components capable of signal switching, filtering, and modulation. In his 1993 paper, titled \textit{Silicon-based optoelectronics}, Soref presented a more expansive view of the potential for what he termed ``superchips'' that combine the strengths of photonics and electronics monolithically on a single silicon chip. Silicon had long been the material of choice for integrated microelectronics, but Soref had identified a path to make silicon also a powerhouse in photonics as well.
-
-To make use of silicon as a waveguiding medium so that the active components described above can be implemented, one must utilize light with photon energy less than the band gap of silicon ($E_{\mathrm{g}}=1.17$\,eV/$\lambda = 1.06$\,\textmu m at 0\,K; $E_{\mathrm{g}}=1.11$\,eV/$\lambda = 1.12$\,\textmu m at 300\,K). The buried oxide of silicon-on-insulator wafers becomes absorptive for $\lambda \gtrsim 2$\,\textmu m. Thus, the transparency window of silicon-on-insulator waveguides enables operation with wavelengths below 1.2\,\textmu m, and includes the important telecom bands (O-band:1260\,nm-1360\,nm; C-band: 1530\,nm-1565\,nm), whose significance results from the very low attenuation of optical fibers at these wavelengths. Thus, silicon integrated photonic components can be interfaced with optical fibers for communication across long distances. 
-
-Yet if a material is transparent, it is not efficient for detecting light. To create photodetectors in silicon waveguides, two approaches are taken. One approach is to utilize SiGe regions patterned in Si waveguides, as the band gap of Si is narrowed by the incorporation of Ge. Germanium is present in many contemporary CMOS processes for strain engineering, and can be economically incorporated in the foundry because, like silicon, it is a group IV element, and therefore shares process compatibility and does not act as a dopant in Si. Waveguide-integrated \cite{} and resonator-integrated \cite{} SiGe detectors operating at the O-band and C-band. These detectors have been demonstrated with high efficiency approaching 1\,A/W. The other approach is to introduce defects the silicon lattice, either through ion implantation or the use of poly-crystalline or amorphous silicon. These defects introduce absorptive states within the band gap. Detectors based on this principle have been demonstrated with $x$\,A/W responsivity \cite{meor2014}. 
-
-\subsubsection{The Introduction of Silicon-on-Insulator}
-SOI in early 2000s, guiding light on a chip is a different ballgame
-
-\vspace{3em}
-Integrated Silicon Photonics for Communication above a certain length scale in digital electronics
--monolithic with processors?
--in package?
--off-chip light sources?
--WDM
 
 \subsubsection{Deep learning with silicon photonics}
 Like superconducting neural systems, the goal of nearly all efforts in optoelectronic neural systems and neuromorphic photonics is not to develop general intelligence, but rather to realize neural systems for specific tasks such as inference or control. For most efforts, the motivation for using light is the speed, either of laser cavity dynamics or optical communication. Device and hardware choices toward these ends may be different than for the focus of this article, which is general intelligence. We intend to explain why specific choices are not conducive to the present goal, even if they are suitable for other applications.

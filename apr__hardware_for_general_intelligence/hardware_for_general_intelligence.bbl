@@ -789,6 +789,12 @@ J.~Hasler and B.~Marr.
 \newblock Finding a roadmap to achieve large neuromorphic hardware systems.
 \newblock {\em Front. Neurosci.}, 7:118, 2013.
 
+\bibitem{godi1978}
+J.W. Goodman, A.R. Dias, and L.M. Woody.
+\newblock Fully-parallel, high-speed incoherent optical method for performing
+  discrete {F}ourier transforms.
+\newblock {\em Opt. Lett.}, 2:1, 1978.
+
 \bibitem{shha1968}
 R.~Shubert and J.H. Harris.
 \newblock Optical surface waves on thin films and their application to
@@ -800,36 +806,54 @@ D.B. Anderson, J.J. Boyde, M.C. Hamilton, and R.R. August.
 \newblock An integrated optical approach to the {F}ourier transform.
 \newblock {\em IEEE J. Quant. Electron.}, QE-13:268, 1977.
 
-\bibitem{snlo1983}
-A.W. Snyder and J.D. Love.
-\newblock {\em Optical {W}aveguide {T}heory}.
-\newblock Chapman and Hall Ltd., 1983.
+\bibitem{gi1985}
+H.M. Gibbs.
+\newblock {\em Controlling Light with Light}.
+\newblock Academic Press, 1985.
 
-\bibitem{hu2009}
-R.G. Hunsperger.
-\newblock {\em Integrated Optics: Theory and Technology}.
-\newblock Springer-Verlag, 2009.
+\bibitem{gimc1976}
+H.M. Gibbs, S.L. McCall, and T.N.C. Venkatesan.
+\newblock Differential gain and bistability using a sodium-filled fabry-perot
+  interferometer.
+\newblock {\em Phys. Rev. Lett.}, 36:1135, 1976.
 
-\bibitem{absm1982}
-E.~Abraham and S.D. Smith.
-\newblock Optical bistability and related devices.
-\newblock {\em Reports on Progress in Physics}, 45:815, 1982.
+\bibitem{mism1979}
+D.A.B. Miller, S.D. Smith, and A.~Johnston.
+\newblock Optical bistability and signal amplification in a semiconductor
+  crystal: applications of new low-power nonlinear effects in insb.
+\newblock {\em Appl. Phys. Lett.}, 35:658, 1979.
 
-\bibitem{ve1984}
-C.M. Verber.
-\newblock Integrated-{O}ptical {A}pproaches to {N}umerical {O}ptical
-  {P}rocessing.
-\newblock {\em Proc. IEEE}, 72:942, 1984.
+\bibitem{jele1986}
+J.L. Jewell, Y.H. Lee, J.F. Duffy, A.C. Gossard, and W.~Wiegmann.
+\newblock Parallel operation and crosstalk measurements in {GaAs} etalon
+  optical logic devices.
+\newblock {\em Appl. Phys. Lett.}, 48:1342, 1986.
 
-\bibitem{psca1980}
-D.~Psaltis, D.~Casaent, D.~Neft, and M.~Carlotto.
-\newblock Accurate {N}umerical {C}omputation by {O}ptical {C}onvolution.
-\newblock {\em Proc. SPIE}, 232:151, 1980.
+\bibitem{vewi1986}
+T.~Venkatesan, B.~Wilkens, Y.H. Lee, M.~Warren, G.~Olbright, N.~Peyghambarian,
+  J.S. Smith, and A.Y. Yariv.
+\newblock Fabrication of arrays of {GaAs} optical bistable devices.
+\newblock {\em Appl. Phys. Lett.}, 48:145, 1986.
 
-\bibitem{arha1984}
-R.~Arrathoon and M.H. Hassoun.
-\newblock Optical threshold logic elements for digital computation.
-\newblock {\em Opt. Lett.}, 9:143, 1984.
+\bibitem{mich1984}
+D.A.B. Miller, D.S. Chemla, T.C. Damen, A.C. Gossard, W.~Wiegmann, T.H. Wood,
+  and C.A. Burrus.
+\newblock Novel hybrid optically bistable switch: {T}he quantum well
+  self-electro-optic effect device.
+\newblock {\em Appl. Phys. Lett.}, 45:13, 1984.
+
+\bibitem{mich1984b}
+D.A.B. Miller, D.S. Chemla, T.C. Damen, A.C. Gossard, W.~Wiegmann, T.H. Wood,
+  and C.A. Burrus.
+\newblock Band-edge electroabsorption in quantum well structures: {T}he quantum
+  confined stark effect.
+\newblock {\em Phys. Rev. Lett.}, 53:2173, 1984.
+
+\bibitem{lehi1988}
+A.L. Lentine, H.S. Hinton, D.A.B. Miller, J.E. Henry, J.E. Cunningham, and
+  L.M.F. Chirovsky.
+\newblock Symmetric self-electrooptic effect device: Optical set-reset latch.
+\newblock {\em Appl. Phys. Lett.}, 52:1419, 1988.
 
 \bibitem{lehi1989}
 A.L. Lentine, H.S. Hinton, D.A.B. Miller, J.E. Henry, J.E. Cunningham, and
@@ -846,6 +870,114 @@ F.B. McCormick, T.J. Cloonan, F.A.P. Tooley, A.L. Lentine, J.M. Sasian, J.L.
   symmetric self-electro-optic-effect devices.
 \newblock {\em Applied Optics}, 32:5153, 1993.
 
+\bibitem{yafa2003}
+M.F. Yanik, S.~Fan, and M.~Solja\v{c}i\'{c}.
+\newblock All-optical transistor action with bistable switching in a photonic
+  crystal cross-waveguide geometry.
+\newblock {\em Opt. Lett.}, 28:2506, 2003.
+
+\bibitem{hwpo2009}
+J.~Hwang, M.~Potoschnig, R.~Lettow, G.~Zumofen, A.~Renn, S.~\"{o}tzinger, and
+  V.~Sandoghdar.
+\newblock A single-molecule optical transistor.
+\newblock {\em Nature}, 460:76, 2009.
+
+\bibitem{wawu2016}
+H.~Wang, J.~Wu, J.~Guo, L.~Jiang, Y.~Xiang, and S.~Wen.
+\newblock Low-threshold optical bistability with multilayer graphene-covering
+  otto configuration.
+\newblock {\em J. Phys. D: Appl. Phys.}, 49:255306, 2016.
+
+\bibitem{guru2017}
+J.~Guo, B.~Ruan, J.~Zhu, X.~Dai, Y.~Xiang, and H.~Zhang.
+\newblock Low-threshold optical bistability in a metasurface with graphene.
+\newblock {\em J. Phys. D: Appl. Phys.}, 50:434003, 2017.
+
+\bibitem{suzh2019}
+D.~Sun, H.~Zhang, and H.~Sun.
+\newblock Controllable optical bistability and multistability in asymmetric
+  quantum wells via fano-type interference.
+\newblock {\em J. Phys. B: Atomic, Molecular and Optical Physics}, 52:035501,
+  2019.
+
+\bibitem{saeb2018}
+M.~Sahrai, S.~Ebadollahi-Bakhtevar, H.~Tajalli, and A.~Vafafard.
+\newblock High-speed electro-optical switching in an ingaasp/inp quantum well
+  nanostructure.
+\newblock {\em Mater. Res. Express}, 5:115902, 2018.
+
+\bibitem{lili2019}
+J.-B. Li, S.~Liang, S.~Xiao, M.-D. He, L.-H. Liu, J.-H. Luo, and L.-Q. Chen.
+\newblock A sensitive biosensor based on optical bistability in a semiconductor
+  quantum dot-dna nanohybrid.
+\newblock {\em J. Phys. D: Appl. Phys.}, 52:035401, 2019.
+
+\bibitem{ra2007}
+D.G. Rabus.
+\newblock {\em Integrated Ring Resonators}.
+\newblock Springer-Verlag, 2007.
+
+\bibitem{ohno1975}
+Y.~Ohmachi and J.~Noda.
+\newblock Electrooptic light modulator with branched ridge waveguide.
+\newblock {\em Appl. Phys. Lett.}, 27:544, 1975.
+
+\bibitem{ve1984}
+C.M. Verber.
+\newblock Integrated-{O}ptical {A}pproaches to {N}umerical {O}ptical
+  {P}rocessing.
+\newblock {\em Proc. IEEE}, 72:942, 1984.
+
+\bibitem{sobe1987}
+R.~Soref and B.~Bennett.
+\newblock Electrooptical effects in silicon.
+\newblock {\em IEEE J. Quant. Elect.}, {QE}-23:123, 1987.
+
+\bibitem{rema2010}
+G.~Reed, G.~Mashanovich, F.Y. Gardes, and D.J. Thomson.
+\newblock Silicon optical modulators.
+\newblock {\em Nat. Photon.}, 4:518, 2010.
+
+\bibitem{lisa2005}
+L.~Liao, D.~Samara-Rubio, M.~Morse, A.~Liu, and D.~Hodge.
+\newblock High speed silicon mach-zehnder modulator.
+\newblock {\em Opt. Express}, 13:3129, 2005.
+
+\bibitem{xuma2007}
+Q.~Xu, S.~Manipatruni, B.~Schmidt, J.~Shakya, and Michal Lipson.
+\newblock 12.5 gbit/s carrier-injection-based silicon micro-ring silicon
+  modulators.
+\newblock {\em Opt. Express}, 15:430, 2007.
+
+\bibitem{so1993}
+R.~Soref.
+\newblock Silicon-based optoelectronics.
+\newblock {\em Proceedings of the IEEE}, 81:1687, 1993.
+
+\bibitem{meor2014}
+K.K. Mehta, J.S. Orcutt, J.M. Shainline, O.~Tehar-Zahav, Z.~Sternberg,
+  R.~Meade, M.A. Popovi{\' c}, and Rajeev~J. Ram.
+\newblock Polycrystalline silicon ring resonator photodiodes in a bulk
+  complementary metal-oxide-semiconductor process.
+\newblock {\em Opt. Lett.}, 39:1061, 2014.
+
+\bibitem{liyo2018}
+X.~Li, N.~Youngblood, C.~R\'{i}os, Z.~Cheng, C.D. Wright, W.H.P. Pernice, and
+  H.~Bhaskaran.
+\newblock Fast and reliable storage using a 5 bit, nonvolatile photonic memory
+  cell.
+\newblock {\em Optica}, 6:1, 2018.
+
+\bibitem{psca1980}
+D.~Psaltis, D.~Casaent, D.~Neft, and M.~Carlotto.
+\newblock Accurate {N}umerical {C}omputation by {O}ptical {C}onvolution.
+\newblock {\em Proc. SPIE}, 232:151, 1980.
+
+\bibitem{arha1984}
+R.~Arrathoon and M.H. Hassoun.
+\newblock Optical threshold logic elements for digital computation.
+\newblock {\em Opt. Lett.}, 9:143, 1984.
+
 \bibitem{mi2010}
 D.A.B. Miller.
 \newblock Are optical transistors the logical next step?
@@ -856,6 +988,16 @@ H.~Kogelnik.
 \newblock Limits in {I}ntegrated {O}ptics.
 \newblock {\em Proc. IEEE}, 69:232, 1981.
 
+\bibitem{snlo1983}
+A.W. Snyder and J.D. Love.
+\newblock {\em Optical {W}aveguide {T}heory}.
+\newblock Chapman and Hall Ltd., 1983.
+
+\bibitem{hu2009}
+R.G. Hunsperger.
+\newblock {\em Integrated Optics: Theory and Technology}.
+\newblock Springer-Verlag, 2009.
+
 \bibitem{faps1985}
 N.H. Farhat, D.~Psaltis, A.~Prata, and E.~Paek.
 \newblock Optical implementation of the {H}opfield model.
@@ -865,12 +1007,6 @@ N.H. Farhat, D.~Psaltis, A.~Prata, and E.~Paek.
 S.~Jutamulia and F.T.S. Yu.
 \newblock Overview of hybrid optical neural networks.
 \newblock {\em Optics and Laser Technology}, 28:59, 1996.
-
-\bibitem{godi1978}
-J.W. Goodman, A.R. Dias, and L.M. Woody.
-\newblock Fully-parallel, high-speed incoherent optical method for performing
-  discrete {F}ourier transforms.
-\newblock {\em Opt. Lett.}, 2:1, 1978.
 
 \bibitem{jaju1988}
 J.~Jang, S.~Jung, S.~Lee, and S.~Shin.
@@ -933,11 +1069,6 @@ K.~Wagner and D.~Psaltis.
 \newblock Multilayer optical learning networks.
 \newblock {\em Applied Optics}, 26:5061, 1987.
 
-\bibitem{gi1985}
-H.M. Gibbs.
-\newblock {\em Controlling Light with Light}.
-\newblock Academic Press, 1985.
-
 \bibitem{psbr1988}
 D.~Psaltis, D.~Brady, and K.~Wagner.
 \newblock Optical neural computers.
@@ -995,49 +1126,6 @@ J.~Chang, V.~Sitzmann, X.~Dun, W.~Heidrich, and G.~Wetzstein.
 \newblock Hybrid optical-electronic convolutional neural networks with
   optimized diffractive optics for image classification.
 \newblock {\em Sci. Rep.}, 8:12324, 2018.
-
-\bibitem{ra2007}
-D.G. Rabus.
-\newblock {\em Integrated Ring Resonators}.
-\newblock Springer-Verlag, 2007.
-
-\bibitem{ohno1975}
-Y.~Ohmachi and J.~Noda.
-\newblock Electrooptic light modulator with branched ridge waveguide.
-\newblock {\em Appl. Phys. Lett.}, 27:544, 1975.
-
-\bibitem{sobe1987}
-R.~Soref and B.~Bennett.
-\newblock Electrooptical effects in silicon.
-\newblock {\em IEEE J. Quant. Elect.}, 23:123, 1987.
-
-\bibitem{rema2010}
-G.~Reed, G.~Mashanovich, F.Y. Gardes, and D.J. Thomson.
-\newblock Silicon optical modulators.
-\newblock {\em Nat. Photon.}, 4:518, 2010.
-
-\bibitem{lisa2005}
-L.~Liao, D.~Samara-Rubio, M.~Morse, A.~Liu, and D.~Hodge.
-\newblock High speed silicon mach-zehnder modulator.
-\newblock {\em Opt. Express}, 13:3129, 2005.
-
-\bibitem{xuma2007}
-Q.~Xu, S.~Manipatruni, B.~Schmidt, J.~Shakya, and Michal Lipson.
-\newblock 12.5 gbit/s carrier-injection-based silicon micro-ring silicon
-  modulators.
-\newblock {\em Opt. Express}, 15:430, 2007.
-
-\bibitem{so1993}
-R.~Soref.
-\newblock Silicon-based optoelectronics.
-\newblock {\em Proceedings of the IEEE}, 81:1687, 1993.
-
-\bibitem{meor2014}
-K.K. Mehta, J.S. Orcutt, J.M. Shainline, O.~Tehar-Zahav, Z.~Sternberg,
-  R.~Meade, M.A. Popovi{\' c}, and Rajeev~J. Ram.
-\newblock Polycrystalline silicon ring resonator photodiodes in a bulk
-  complementary metal-oxide-semiconductor process.
-\newblock {\em Opt. Lett.}, 39:1061, 2014.
 
 \bibitem{reze1994}
 M.~Reck, A.~Zeilinger, H.J. Bernstein, and P.~Bertani.
