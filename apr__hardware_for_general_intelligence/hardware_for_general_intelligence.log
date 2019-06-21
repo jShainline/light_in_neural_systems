@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  21 JUN 2019 16:29
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  21 JUN 2019 16:57
 entering extended mode
 **hardware_for_general_intelligence.tex
 
@@ -770,65 +770,68 @@ Package multicol Warning: I moved some lines to the next page.
 
 [41] [42] [43] [44]
 
-LaTeX Warning: Citation `' on page 45 undefined on input line 175.
+LaTeX Warning: Citation `' on page 45 undefined on input line 177.
 
+[45]
 
-LaTeX Warning: Citation `fees1988' on page 45 undefined on input line 227.
+LaTeX Warning: Citation `fees1988' on page 46 undefined on input line 229.
 
-[45] [46] [47] [48]
+[46] [47] [48]
 
-LaTeX Warning: Citation `mi2015_fix_ref' on page 49 undefined on input line 401
+LaTeX Warning: Citation `mi2015_fix_ref' on page 49 undefined on input line 403
 .
 
 
-LaTeX Warning: Citation `shha2017' on page 49 undefined on input line 401.
+LaTeX Warning: Citation `shha2017' on page 49 undefined on input line 403.
 
 
-LaTeX Warning: Citation `shha2017' on page 49 undefined on input line 408.
+LaTeX Warning: Citation `shha2017' on page 49 undefined on input line 410.
 
 [49]
-Underfull \hbox (badness 10000) in paragraph at lines 470--476
-[] \OT1/lmr/m/n/10 [228] -theory and ex-per-i-ment -using free-
+Underfull \hbox (badness 10000) in paragraph at lines 472--478
+[] \OT1/lmr/m/n/10 [229] -theory and ex-per-i-ment -using free-
  []
 
 [50] [51]
 
-LaTeX Warning: Citation `nata2013' on page 52 undefined on input line 625.
-
-
-LaTeX Warning: Citation `krro2011' on page 52 undefined on input line 646.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 694--694
-[]\OT1/lmr/bx/n/10 Wavelength-Division Mul-ti-plex-ing for
- []
+LaTeX Warning: Citation `nata2013' on page 52 undefined on input line 627.
 
 [52]
 
-LaTeX Warning: Citation `tafe2019' on page 53 undefined on input line 707.
+LaTeX Warning: Citation `krro2011' on page 53 undefined on input line 648.
 
-[53] [54]
-Underfull \hbox (badness 6412) in paragraph at lines 731--732
+
+Underfull \hbox (badness 10000) in paragraph at lines 696--696
+[]\OT1/lmr/bx/n/10 Wavelength-Division Mul-ti-plex-ing for
+ []
+
+[53]
+
+LaTeX Warning: Citation `tafe2019' on page 54 undefined on input line 709.
+
+[54]
+Underfull \hbox (badness 6412) in paragraph at lines 733--734
  \OT1/lmr/bx/n/10 3.4.11.2 Sil-i-con Light Sources: the Great
  []
 
 
 LaTeX Warning: Reference `fig:silicon_absorption_emission' on page 55 undefined
- on input line 739.
-
-
-LaTeX Warning: Citation `shor2014' on page 55 undefined on input line 746.
-
-
-LaTeX Warning: Citation `suwa2017' on page 55 undefined on input line 746.
+ on input line 741.
 
 [55]
 
-LaTeX Warning: Citation `fepe2019' on page 56 undefined on input line 772.
+LaTeX Warning: Citation `shor2014' on page 56 undefined on input line 748.
+
+
+LaTeX Warning: Citation `suwa2017' on page 56 undefined on input line 748.
+
+[56]
+
+LaTeX Warning: Citation `fepe2019' on page 57 undefined on input line 774.
 
 )
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr__hardware_for_gener
-al_intelligence\__superconductor_neural_systems.tex [56]
+al_intelligence\__superconductor_neural_systems.tex
 <figures/jj.png, id=205, 1003.75pt x 1003.75pt>
 File: figures/jj.png Graphic file (type png)
  <use figures/jj.png>
@@ -852,12 +855,11 @@ LaTeX Warning: Reference `fig:jj' on page 57 undefined on input line 13.
 
 LaTeX Warning: Reference `fig:jj' on page 57 undefined on input line 15.
 
-[57]
+[57] [58]
 Underfull \hbox (badness 10000) in paragraph at lines 38--40
 []\OT1/lmr/m/n/10 recent work on ba-sic sci-ence of MJJs:
  []
 
-[58]
 
 LaTeX Warning: Citation `chca2013' undefined on input line 54.
 
@@ -884,22 +886,23 @@ LaTeX Warning: Citation `sh2019_fluxonic' undefined on input line 2.
 LaTeX Warning: Citation `sh2019_fluxonic' on page 62 undefined on input line 2.
 
 
+[62]
 
-LaTeX Warning: Citation `ke1985' on page 62 undefined on input line 38.
-
-
-LaTeX Warning: Citation `x' on page 62 undefined on input line 45.
+LaTeX Warning: Citation `ke1985' on page 63 undefined on input line 38.
 
 
-LaTeX Warning: Citation `y' on page 62 undefined on input line 45.
+LaTeX Warning: Citation `x' on page 63 undefined on input line 45.
 
 
-LaTeX Warning: Citation `z' on page 62 undefined on input line 45.
+LaTeX Warning: Citation `y' on page 63 undefined on input line 45.
 
 
-LaTeX Warning: Reference `fig:snspd' on page 62 undefined on input line 45.
+LaTeX Warning: Citation `z' on page 63 undefined on input line 45.
 
-[62] [63] [64]
+
+LaTeX Warning: Reference `fig:snspd' on page 63 undefined on input line 45.
+
+[63] [64]
 
 LaTeX Warning: Reference `sec:optoelectronicNeurons' on page 65 undefined on in
 put line 152.
@@ -908,9 +911,9 @@ put line 152.
 LaTeX Warning: Citation `thatpapersomeonepresentedatgroupmeeting' on page 65 un
 defined on input line 155.
 
-)
+[65])
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr__hardware_for_gener
-al_intelligence\__comparison_of_interconnects.tex [65]
+al_intelligence\__comparison_of_interconnects.tex
 
 LaTeX Warning: Reference `sec:neural_systems' on page 66 undefined on input lin
 e 32.
@@ -922,11 +925,11 @@ LaTeX Warning: Citation `xxx' on page 67 undefined on input line 47.
 
 LaTeX Warning: Citation `yyy' on page 67 undefined on input line 47.
 
-[67] [68])
+[67] [68] [69])
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr__hardware_for_gener
 al_intelligence\__comparison_of_devices.tex))
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr__hardware_for_gener
-al_intelligence\_large_scale.tex [69]
+al_intelligence\_large_scale.tex
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr__hardware_for_gener
 al_intelligence\__metrics_for_neuromorphic_systems.tex [70])
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr__hardware_for_gener
@@ -936,20 +939,20 @@ al_intelligence\__temperature_stages.tex)
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr__hardware_for_gener
 al_intelligence\__neuromorphic_supercomputing.tex)
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr__hardware_for_gener
-al_intelligence\__optimal_environment.tex))
+al_intelligence\__optimal_environment.tex)) [71]
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr__hardware_for_gener
-al_intelligence\_application_spaces.tex [71]
+al_intelligence\_application_spaces.tex [72]
 
 LaTeX Warning: Citation `add_more_bayesian_neuro_refs_here_and_in_neuro_section
-' on page 72 undefined on input line 67.
+' on page 73 undefined on input line 67.
 
-[72])
+[73])
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr__hardware_for_gener
 al_intelligence\_outlook.tex
 
-LaTeX Warning: Citation `si1962' on page 73 undefined on input line 3.
+LaTeX Warning: Citation `si1962' on page 74 undefined on input line 3.
 
-[73] [74] [75])
+[74] [75])
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr__hardware_for_gener
 al_intelligence\___misc_notes.tex [76] [77] [78] [79]
 
@@ -994,42 +997,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 1018--1021
  []
 
 [88] [89]
-Underfull \hbox (badness 10000) in paragraph at lines 1279--1282
+Underfull \hbox (badness 10000) in paragraph at lines 1284--1287
 []\OT1/lmr/m/n/10 K. Van-doorne, J. Dambre, D. Ver-straeten,
  []
 
 
-Underfull \hbox (badness 5607) in paragraph at lines 1284--1288
+Underfull \hbox (badness 5607) in paragraph at lines 1289--1293
 []\OT1/lmr/m/n/10 T. Van Vaeren-bergh, M. Fiers, P. Mechet,
  []
 
 
-Underfull \hbox (badness 5578) in paragraph at lines 1290--1295
+Underfull \hbox (badness 5578) in paragraph at lines 1295--1300
 []\OT1/lmr/m/n/10 K. Van-doorne, P. Mechet, T. Van Vaeren-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1315--1318
+Underfull \hbox (badness 10000) in paragraph at lines 1320--1323
 []\OT1/lmr/m/n/10 D. Brun-ner, B. Penkovsky, B.A. Mar-quez,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1361--1366
+Underfull \hbox (badness 10000) in paragraph at lines 1366--1371
 []\OT1/lmr/m/n/10 F. Coarer, M. Scia-manna, A. Ka-tumba,
  []
 
 [90] [91]
-Underfull \hbox (badness 10000) in paragraph at lines 1578--1580
+Underfull \hbox (badness 10000) in paragraph at lines 1583--1585
 []\OT1/lmr/m/n/10 https://spectrum.ieee.org/tech-history/heroic-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1578--1580
+Underfull \hbox (badness 10000) in paragraph at lines 1583--1585
 \OT1/lmr/m/n/10 failures/dudley-bucks-forgotten-cryotron-computer.
  []
 
 
-Underfull \hbox (badness 8132) in paragraph at lines 1612--1616
+Underfull \hbox (badness 8132) in paragraph at lines 1617--1621
 []\OT1/lmr/m/n/10 K.K. Likharev and V.K. Se-menov.  Rsfq
  []
 
@@ -1041,10 +1044,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5000 strings out of 493921
- 80221 string characters out of 3147285
- 143621 words of memory out of 3000000
- 8118 multiletter control sequences out of 15000+200000
+ 5001 strings out of 493921
+ 80229 string characters out of 3147285
+ 143626 words of memory out of 3000000
+ 8119 multiletter control sequences out of 15000+200000
  72278 words of font info for 56 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  36i,16n,39p,3465b,414s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1070,7 +1073,7 @@ iKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
 y7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program
  Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on hardware_for_general_intelligence.pdf (94 pages, 879317 bytes
+Output written on hardware_for_general_intelligence.pdf (94 pages, 882371 bytes
 ).
 PDF statistics:
  407 PDF objects out of 1000 (max. 8388607)
