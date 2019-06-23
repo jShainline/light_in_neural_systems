@@ -26,8 +26,8 @@ After 40 years of effort in optical logic devices, no candidate looks promising 
 
 %Based on this brief summary of optical logic devices, can we identify common trends that can guide future thinking on the use of optics in computing in general and for cognitive hardware in particular?
 
-\subsubsection{Integrated Silicon Photonics}
-By the mid 1980s, silicon microelectronics was well established as the supreme technology for computing. The scaling predictions made by Moore in 1965 \cite{mo1965} had held for two decades, while other material platforms for electronics and photonics had not met with the same success. Within this context, a new perspective on the role of light in computing was put forward in a series of papers by Soref, Lorenzo, and Bennett from 1985 to 1987 \cite{sole1985,sole1986,sobe1987}. The state of the field was reviewed by Soref in 1993 in Ref.\,\cite{so1993}. While other materials (primarily compound semiconductors) had been developed for integrated optical components prior to the work by Soref et al., this series of papers pointed to the potential for integrated optical components to be incorporated with silicon microelectronics monolithically. As the authors stated, ``Silicon is a `new' material in the context of integrated optics even though Si is the most thoroughly studied semiconductor in the world. There is reason to believe that Si can serve as the medium for a variety of guided-wave optical components in much the same manner as III-V semiconductor compounds, while at the same time avoiding the inherent complexities of binary, ternary, and quarternary alloys.'' \cite{sole1986} They further describe their two primary motivations: 1) to utilize the fabrication processes that have been developed for the Si electronic circuit industry in the production of photonic devices; and 2) to monolithically combine silicon electronic circuits with guided-wave optoelectronic components.
+\subsubsection{\label{sec:integrated_silicon_photonics}Integrated Silicon Photonics}
+By the mid 1980s, silicon microelectronics was well established as the supreme technology for computing. The scaling predictions made by Moore in 1965 \cite{mo1965} had held for two decades, while other material platforms for electronics and photonics had not met with the same success. Within this context, a new perspective on the role of light in computing was put forward in a series of papers by Soref, Lorenzo, and Bennett from 1985 to 1987 \cite{sole1985,sole1986,sobe1987}. The state of the field was reviewed by Soref in 1993 in Ref.\,\cite{so1993}. While other materials (primarily compound semiconductors) had been developed for integrated optical components prior to the work by Soref et al., this series of papers pointed to the potential for integrated optical components to be incorporated with silicon microelectronics monolithically. As the authors stated, ``Silicon is a `new' material in the context of integrated optics even though Si is the most thoroughly studied semiconductor in the world. There is reason to believe that Si can serve as the medium for a variety of guided-wave optical components in much the same manner as III-V semiconductor compounds, while at the same time avoiding the inherent complexities of binary, ternary, and quarternary alloys.'' \cite{sole1986} They further describe their two primary motivations: 1) to utilize the fabrication processes that have been developed for the Si electronic circuit industry in the production of photonic devices; and 2) to monolithically combine silicon electronic circuits with guided-wave optoelectronic components. The goal was to follow the model of the integrated circuit that had become tremendously successful by the mid 1980s. This model utilizes lithographic fabrication to realize system complexity that can be achieved only through integration of components on a chip.
 
 In the first paper of the series, passive waveguides and power dividers were demonstrated at $\lambda = 1.3$\,\textmu m, a wavelength at which optical fibers are highly transmissive, indiciating the potential for silicon photonic components to interface with both electronic computational infrastructure as well as fiber-optic communication infrastructure. Optical confinement was achieved in the vertical dimension by epitaxially growing intrinsic silicon on a heavily $n$-type doped silicon substrate, which has a slightly lower index of refraction \footnote{The index change due to free carriers can be calculated with the classical dispersion formula given in Ref.\,\cite{sole1985}: $\Delta n = -(e^2\lambda^2/8\pi^2 c^2n\epsilon_0)(\Delta N_em_{ce}^*+\Delta N_hm_{ch}^*]$, where $e$ is the charge of an electron, $\lambda$ is the optical wavelength, $n$ is the refractive index of the intrinsic material, $\epsilon_0$ is the permittivity of free space, $c$ is the velocity of light in vacuum, $N_e$ ($N_h$) is the concentration of donors (acceptors), and $m_ce^*$ ($m_ch^*$) is the effective mass of electrons (holes).}. In the lateral dimension, confinement was achieved by etching a fraction of the depth of the epitaxial intrinsic silicon, leading to a so-called rib waveguide configuration \footnote{A rib waveguide results from partial etching of the high-index layer, while a ridge waveguide results from etching completely through the high-index layer. Foundations of optical waveguide theory can be found in Refs.\,\cite{snlo1983} and \cite{hu2009}.}. The waveguide structure is shown in Fig.\,\ref{fig:soref_waveguide}(a) (use Fig. 2 from \cite{sole1985}). The passive power splitter is shown in Fig.\,\ref{fig:soref_waveguide}(b). These are the first silicon photonic components.
 
@@ -53,21 +53,9 @@ Other arguments are made against further integration of photonic components with
 
 However, as we will argue in Sec.\,\ref{sec:superconducting_optoelectronic}, the situation is very different in the context of neural computing at low temperature. First, silicon light sources do exist, and they are as easy to manufacture as silicon transistors. The significance of this fact for economic scaling cannot be overstated. Second, photonic devices do not play the role of simple switches, like transistors. Instead, micron-scale light sources produce pulses of photons that fan-out to 10,000 destinations. Therefore, while a single light source may occupy the area of several hundred transistors, each source creates a signal that can reach thousands more destinations. While this one-to-10,000 fan-out operation is not often employed in digital communication, it is essential in neural systems. Third, the area they occupy does not displace electronic components, because superconducting electronic components can be fabricated above the active silicon layer. Silicon transistors are confined to a plane due to thermal considerations: the heat generated by multiple planes of transistors cannot be adequately removed, so a single plane must be exposed to cooling fluid. The same is not true for superconducting electronics comprising Josephson junctions and single-photon detectors. Three-dimensional integration of multiple planes of these devices has been demonstrated, and the limits remain to be explored. These are three of the reasons why the limits to optoelectronic integration of silicon photonics with silicon microelectronics for digital computing may not be the same limits encountered in neural computing, particularly if we take the plunge into liquid helium. Before exploring these concepts that are relevant to superconducting optoelectronic networks in more detail in Sec.\,\ref{sec:superconducting_optoelectronic}, we next review other efforts to employ light in neural information processing.
 
-
-
-
-
-
-\subsubsection{Materials Considerations for Silicon Photonics}
-Silicon in the active material in CMOS transistor circuits, while SiO$_2$ is the primary electrical insulator. A third material\textemdash silicon nitride\textemdash is also important as an insulator, etch stop, and interface layer in CMOS circuit fabrication. Most fortuitously, SiN is also extremely useful as a low-loss, passive waveguiding layer in silicon photonics. These three materials have an auspicious relationship to each other in the optical domain based based on their indices of refraction. Near $\lambda =$\,1550\,nm, the indices are (to two significant figures) 1.5, 2, and 3.5 for SiO$_2$, SiN, and Si, respectively. The index contrast between Si and SiO$_2$ is quite high, enabling compact waveguide devices to be constructed with radius of curvature on the order of the wavelength. However, the primary loss mechanism in SOI waveguides is scattering due to sidewall roughness, and this loss scales as the index contrast square \cite{vlmc2004}. The index contrast between SiN and SiO$_2$ is still high enough to enable confinement and routing bends with radii of tens of microns, but this index contrast is significantly lower leading to much lower loss. Thus, the silicon photonics material platform, combining SiO$_2$, SiN, and Si, provides an active layer (Si) that can be used for modulation, switching, and dense local interconnectivity, as well as a low-loss passive layer (SiN) that can be used for longer-distance routing, all embedded in a passivating SiO$2$ matrix, and all integrated on a bulk-silicon handle wafer, most conducive to large-scale fabrication.
-
-There is one thing thing missing from this discussion, and that is the source of light.
-
-
-
-
-\vspace{3em}
-Goal was to follow the model of the integrated circuit, utilize lithographic fabrication and system complexity that can be achieved through integration of components on a chip. 
+%-------------
+%misc notes for this secton
+%------------- 
 
 \vspace{3em}
 discuss fibers as an intermediate step
@@ -139,45 +127,59 @@ At present, a major goal of photonics is to augment CMOS electronic hardware to 
 \vspace{3em}
 Need to mention here that the Stanford architecture intended to utilize incoherent LEDs because they are simple, scalable, and do not require precise control of phase across many optical paths.
 
+%-------------
+%end misc notes for this secton
+%-------------
+
 \subsubsection{Free-Space Optical Neural Nets}
-The late 1980s 
+To understand the motivations for free-space optical neural nets, we can consider the perspective from a review article by Caulfield, Kinser, and Rogers written in 1989 \cite{caki1989}. The authors write, ``Optical neural networks are the offspring of two parents: optical information processing and neural network theory.'' They pointed to the high fan-out capability of optical signals, and noted that free-space interconnections allow ``freely crossing and overlapping interconnection paths.'' To the authors is appeared that ``large numbers of neurons and interconnections are the natural domain of optics.'' In the 1996 review by Jutamulia and Yu \cite{juya1996}, five merits of optics for neural networks are cited: 1) The velocity of optical signals is independent of the number of interconnections; 2) optical signals are immune to mutual interference effects; 3) Optical signals can propagate in three-dimensional free space; 4) the interconnection can be altered properly using spatial light modulators; and 5) optical signals can be easily converted into electronic signals. The authors specifically emphasize that the key attribute of optics in feed-forward neural networks is (incoherent) matrix-vector multiplication, based on the Stanford architecture of Goodman et al. \cite{godi1978}. 
 
-%Optical information processing pased on an associative-memory model of neural nets with thresholding and feedback
-\cite{psfa1985}
--focused on Hopfield model 
--seeking to use parallelism and interconnectability of optics (linear) with bistable optical devices (nonlinear)
--this paper and \cite{faps1985} should be discussed together
--this paper is a theoretical proposal of the system implemented in \cite{faps1985}
--GaAs LEDs with photodiodes and electronics for nonlinearity and feedback to be replaced by optical bistable devices
--such bistable optical devices have still not reached sufficient maturity to enable large-scale systems or commercial products, but some neuromorphic proposals are still based on them
--according to \cite{juyu1996}, this paper is ``generally considered to be the first paper to introduce the idea of the optical implementation for a neural network.'' \cite{juyu1996}
+The first free-space optical neural network was proposed by Psaltis and Farhat in 1985 \cite{psfa1985}, the same year Soref and Lorenzo implemented the first silicon photonic waveguides. This work described an implementation of the Hopfield model that had been introduced three years earlier (see Sec.\,\ref{sec:overview_of_machine_learning}). The objective was to combine the parallelism and interconnectability of optics, which are linear phenomena, with bistable optical devices to provide the thresholding nonlinearity required by in the Hopfield model. While most implementations of the Hopfield model have used only software running on digital computers, this early proposal can be considered a task-specific hardware accelerator. The hardware proposed by Psaltis and Farhat combined compound-semiconductor LEDs with photodiodes and electronics for a initial implementation of nonlinearity to be replaced by optical bistable devices in subsequent generations. While LEDs and laser diodes have become a mature technology with applications from memory access to lighting, bistable optical devices have still not reached sufficient maturity to enable large-scale systems or commercial products either in digital computing or in neural systems. As we will see, both LEDs and optical bistable devices are presently being pursued for their potential in optical and optoelectronic neural systems.
 
-%Optical implementation of the Hopfield model
-\cite{faps1985}
--optical implementation of content addressable associative memory
--nonlinear iterative feedback to a vector-matrix multiplier
--numerical and experimental results
--emphasize strengths of optics: parallel processing and massive interconnection capabilities
--regarding Hopfield model, the authors state, ``A remarkable property of the model is that powerful global computation is performed with very simple, identical logic elements (the neurons).''
--also cite \cite{psfa1985}
--LEDs proposed as one means of implementing the logic elements: LED off, state = -1; LED on, state = 1
--LED proposal uses free space propagation, photodetection, thresholding, gain, and feedback (nonlinear feedback)
--for optical vector-matrix multiplier circa 1978, cite \cite{godi1978}
--array of LEDs represents input vector, and an array of photodiodes detects the output vector
--``The output is thresholded and fed back in parallel to drive the corresponding elements of the LED array.''
--multiplication by the connection matrix uses horizontal imaging and vertical smearing on an optical mask with an anamorphic lens system
--this is the downfall: the free-space optical setup is not conducive to fieldability or programmability. a software engineer cannot sit down at a computer and try new things. one needs a phd in optics to have any fun.
--aspired to eliminate electronic feedback and replace with optical feedback, thereby complicating things further, but they envision a monolithic setup
--LEDs were envisioned to be replaced by bistable optical devices (cite Keyes and his refutations)
--experimental demonstration of 32 neuron system with 32 LEDs
--with soens, we must agree: such hardware will not be adopted instead of silicon microelectronics if the goal is moderate-scale Hopfield networks or similar machine learning systems. to displace CMOS, any new hardware must do something CMOS cannot do.
--also cite \cite{jaju1988} for optical Hopfield
+The proposal for an optical neural network presented in Ref.\,\ref{psfa1985} was experimentally demonstrated by Farhat, Psaltis, Prata, and Paek, also in 1985 \cite{faps1985}. In that work, a Hopfield network was demonstrated, thus achieving an optical implementation of content-addressable associative memory. The experimental setup is shown in Fig.\,\ref{fig:first_optical_neural_network}. In this first construction of an optical Hopfield network demonstrated in Ref.\,\cite{faps1985}, LEDs played the role of the logic elements: the state of each neuron was represented by an LED (left of Fig.\,\ref{fig:first_optical_neural_network}(a)); with the LED off, the associated neuron state was equal to -1, while the LED being on represented the 1 state. The light from the LEDs then propagates through free space, interacts with a memory mask that implements matrix-vector multiplication, much like in the Stanford architecture \cite{godi1978}, and the outputs are detected on photodiodes. The system then implemented nonlinear iterative feedback to the matrix-vector multiplier. The nonlinear feedback was carried out by converting an optical signal to the electrical domain with the photodiode, applying gain and nonlinearity in the electronic domain, and converting back to optical with the current drive on each LED, although the intention was to eventually eliminate the intermediate electrical processing. In this construction, an array of LEDs represents the input vector, and an array of photodiodes detects the output vector. ``The output is thresholded and fed back in parallel to drive the corresponding elements of the LED array.'' Through the iterative procedure, the network reaches a steady state that corresponds to the retrieval of the intended memory. In this initial demonstration, a 32-neuron system was implemented with an array of 32 LEDs and 32 photodetectors. 
 
-%Optical implementation of the {H}opfield model for two-dimensional associative memory
-\cite{jaju1988,}
--two-state neurons are implemented with liguid crystal optical switches
--three-dimensional holographic interconnections are also implemented with liquid crystals
--demonstrated 4x4 array
+These original studies of optical neural networks sparked significant further interest in the subject. Multiple related research efforts branched off of this starting point. In 1986, Anderson implemented a different form of associative memory \cite{an1986} based on optical eigenstates in a resonator. As the author explained, ``A gain medium internal to the resonator amplifies the field belonging to the eigenmode that most resembles the injected field; the other eigenmodes are suppressed through a competition for the gain.'' In this concept, an optical resonator with spherical mirrors remembers Hermite Gaussian fields, and the stored information can be programmed by a user. Programming occurs by writing patterns in a volume hologram that plays the role of one of the mirrors. This original demonstration was able to recall one of two stored patterns based on input of part of one of the patterns.
+
+This idea of using a volume hologram to store memory took hold for optical neural network. In 1986, Jannson, Stoll, and Karaguleff studied the use of a volume hologram to store synaptic states, as shown in the schematic of Fig.\,\ref{fig:volume_hologram_synapses} (use Fig. 1 of jast1986). While the optical apparatus is complex, requiring a saturable phase-conjugate mirror, the technique can lead to very high storage density. The idea is to have sources, such as the LEDs of Psaltis and Farhat, provide inputs, and use free-space propagation with optical components to steer the beams. The state of the neurons can be controlled by the intensity of the sources or by intensity modulation controlled by a spatial light modulator. But the interconnections between neurons\textemdash the synapses\textemdash are established and weighted based on the internal state of the volume hologram. Optical-wavelength-scale gratings written in the holographic medium route each input to many outputs, thereby utilizing the massive parallelism and connectivity of optics. In Ref.\,\cite{jast1986}, the authors calculate that this approach can realize $10^8$ neurons and $10^{16}$ synapses that can be trained on $10^6$ inputs. 
+
+The use of volume holograms for storage of synaptic weights was further explored in subsequent years. In 1987, Wagner and Psaltis used holographic gratings in photorefractive crystals to store associative memories \cite{waps1987}. In a photorefractive crystal (often LiNbO$_3$), the memory is written through a procedure where input beams interfere with beams routed from target outputs to interfere within the crystal to establish the volume hologram by populating charge traps in the crystal and thereby modifying the index of refraction locally. The networks had a multilayer, feed-forward architecture, and a form of backpropagation was used for training. The work introduced the use of a nonlinear etalon to achieve a sigmoidal response. The objective was still to achieve an associative memory, in this case for image classification. The concepts of this work bear strong resemblance to more modern deep learning, although the hardware is significantly different that what has become commonplace. The authors argued, ``This architecture combines the robustness of the distributed neural computation and the backpropagation learning procedure with the high speed processing of nonlinear etalons, the self-aligning ability of phase conjugate mirrors, and the massive storage capacity of volume holograms to produce a powerful and flexible optical processor.''
+
+The photorefractive crystals that store the volume holograms in this architecture were investigated in more detail 1988 by Psaltis, Brady, and Wagner \cite{psbr1988}. The technique commonly employs phase-conjugate mirrors, which reflect light back along their original path. In Ref.\,\cite{psbr1988}, the objective was to derive fundamental limits to the number of interconnections that could be achieved in feed-forward neural networks using this approach to routing of free-space beams; the practical limits may be quite different. As the authors noted, ``...in an optical implementation each grating corresponds to a separate interconnection between two neurons....'' They further explain, ``There is a nice compatibility between simple (multiplicative) Hebbian learning and holography; the strength of the connection between two neurons can be modified by recording a hologram with light from the two neurons.'' The authors concluded, ``The density of interconnections which may be implemented in these crystals is limited by physical and geometrical constraints to the range of from $10^8$ to $10^{10}$ per cm$^3$. This extraordinary synaptic memory density, and the use of volume storage rather than surface storage, was a strong motivator for this work to persist. 
+ 
+Other approaches for implementation of volume holograms were presented, including with liquid crystal gratings \cite{jaju1988}. In Ref.\,\cite{jaju1988}, it was also shown that two-state neurons (as utilized in a Hopfield network), could be implemented with liguid crystal optical switched. Beyond volume holograms, other approaches to photonic interconnection were championed. In 1987, Caulfield calculated that 2D arrays of inputs and outputs could be connected all-to-all using a spatial light modulator, in principle capable of achieving $10^{12}$ connections in a realistic system. In 1988, the group of Yariv utilized spatial light modulators located in a plane parallel to an array of detectors to achieve the synaptic connection matrix \cite{agne1988} in a Hopfield model with binary neurons. In 1989, a Hopfield neural network was implemented by Ito and Kitayama using optical fibers for interconnection between nodes. ``The coupling ratio from fiber to fiber represents the synaptic weight of the connection between units.'' In that work, a $5\times 5$ array was demonstrated, thus implementing $25^2$ connections. The light sources were compound-semiconductor laser diodes, and signals were detected with silicon photodetectors. In that approach, one network implemented nodes with positive weights, and another network implemented negative weights. In their 1989 review \cite{caki1989}, Caulfield, Kinser, and Rogers identify six optical interconnection methods present at that time: 1) fiber optic fan-in/fan-out; 2) holographic in-plane connection in integrated optics \cite{fees1988}; 3) optical parallel matrix-vector multipliers \cite{faps1985}; 4) lenslet-array multiple imaging \cite{fami1986}; 5) thick holographic associative networks; and 6) fixed hologram arrays \cite{ca1987}.
+
+In their 1990 review, ``Holography in Artificial Neural Networks'', Psaltis et al. summarize neural networks implemented with semiconductor light sources; photorefractive materials for the hologram that serves as host to a multitude of diffraction gratings that apply the synaptic weights and direct the light beams to realize connections; and semiconductor photodetectors to receive output signals from the network \cite{psbr1990}. The authors list three primary motivations to move toward neural architectures: 1) massive parallelism; 2) dense interconnections; and 3) realizing computational systems that can learn. Decades later, the motivations are still the same, but the implementations are different. While recent and ongoing work still aspires to utilize free-space optics for deep learning \cite{}, we must ask ourselves why these systems, with decades to incubate, have not displaced conventional hardware for neural networks and deep learning. To begin, Ref.\,\cite{agne1988} stated in 1988: ``Further advances in this field are...limited due to the absence of efficient and reliable hardware realizations of [neural network] models.'' While this may have been true, it ended up being the case that hardware advances in silicon microelectronics proved efficient to initiate the presently occurring deep learning boom, thereby significantly reducing the motivation to develop new hardware, particularly drastically different hardware, such as free-space optics. 
+
+However, the current deep learning boom is leading to rapid saturation of what CMOS hardware can achieve in this context. Moore and Dennard scaling will not provide the same fuel in the next thirty years as the did for the past thirty years, so is there a new reason to expect some of these concepts of free-space optics to have another chance to have a large-scale impact on neural networks in the modern context of deep learning? There are reasons to remain skeptical. Specifically regarding holographic connections written within the volume of a photorefractive crystal, the strength of each synapse is determined by optical amplitude during writing. A complex procedure of many exposures establishes synaptic weights, and writing each new synaptic weight can inadvertently modify others. Psaltis et al. wrote in 1990 ``Distributed connections have advantages and disadvantages\textemdash the disadvantage compared to the localized implementation is the reduced control of individual synapses. The adjustment of the strength of one synapse may inadvertently affect other synapses as well. Accommodating this limitation is perhaps the most crucial research issue in this field....'' This problem has not been solved. The density of this storage technique is extremely enticing, but so is the prospect of storing bits in electronic spins of single dopants densely embedded is a solid-state matrix. Accessing the information stored in the matrix is, however, extremely difficult. While extraordinary in principle, such technologies may be inaccessible in practice. While photorefractive media written into a hologram through the use of phase-conjugate mirrors is a beautiful use of sophisticated nonlinear optics, it not likely to be sufficiently advantageous to merit the incorporation of sensitive optical apparatus in mainstream computing technology.
+
+More generally, as stated by Jutamulia and Yu \cite{juya1996}, nearly all efforts in optical neural nets are really efforts in optoelectronic neural nets, as the difficulties of working with bistable optical devices \cite{ke1985} have steered nearly all work to utilize optical-to-electrical conversion and electronic nonlinearities, with notable exceptions \cite{prsh2017}. Thus, optoelectronic apparatus implementing neural systems must have electronic components as well as optical components, including passives as well as sources and detectors. For scalability under economic constraints, such hardware capable of outperforming silicon microelectronic circuits must integrate these components monolithically, or at least with a co-packaged, chiplet approach. The necessary levels of optoelectronic integration may just now be emerging as viable for the described task, driven by the digital computing applications of silicon photonics discussed in Sec.\,\ref{sec:integrated_silicon_photonics}. However, if such silicon photonics approaches are going to be employed, they will little resemble the hardware of free-space neural nets, as discussed below in Sec.\,\ref{sec:integrated_photonics_for_deep_learning}. There is one general class of reasons to expect that no free-space optical approach will gain widespread traction: free space optical components and systems are bulky and difficult to package, making fieldability expensive. The bulk nature makes it is difficult to engineer entire systems that are simply ``plug-and-play'' and do not require experience with optics to operate. Thus, scaling to large systems is problematic, as planar, many-step lithography cannot be used to construct many of the complex elements.
+
+Specifically related to the subject of this article, new considerations arise when we consider hardware not for deep learning, but for active cognition. In this context, highly complex, recurrent and adaptive networks are required, as discussed in Sec.\,\ref{sec:neural_systems}. In terms of achieving the graph structure, free-space routing only moves light in straight lines, and it is difficult to construct modular and heirarchical recurrent graphs with interconnectivity. For free-space optics, everything is most straightforwardly laid out in a series of planes, with light propagating between adjacent planes. Combining Lateral and feed-forward connections is difficult. Integrated photonic devices are likely much better suited to form the lateral connections, which are dominant in many regions of the brain. We will discuss an architecture that combines integrated-photonic lateral connections with free-space feed-forward and feed-back communication in Sec.\,\ref{sec:soens}. Further, all the approaches to optoelectronic neural systems discussed thus far implement only passive synapses and dendrites. Cognitive hardware requires much more complex functionality, which is best achieved with electronic components. The pursuit of sophisticated optical neural systems therefore intertwines with the exploration of neuromorphic electronics that is a stronger candidate for implementing computational functions, learning, and memory. Finally, most optical neural systems encode synaptic weights in optical amplitude or intensity. In this way, some portion of the computation occurs in the optical domain. As we will argue in Sec.\,\ref{sec:soens}, this optical weighting results in energy and noise penalties. Instead, I will argue next that the proper role of light in neural systems is for communication only, and monolithic optoelectronic integration is required for complexity. Optical communication is likely to be carried out over integrated-photonic waveguides at the local scale, with free-space connections when suitable, and long-range communication over fiber optics.
+
+
+
+
+-``[T]he learning approach can provide a method for transferring some of the burden of programming the computer from the user to the computer.''
+-Hebbian-type, local, associative learning, not backprop in 1990
+-photorefractive crystals: photoconductive, electro-optic, and have traps that can be optically ionized
+-``The recorded hologram is stored in the spatial distribution of the ionized traps in the crystal.'' ``[W]e must...design a sequence of exposures that can load the appropriate weight values in the finite pool of trap sites that are available.''
+-in all these studies, the intensity of light encodes synaptic weight
+
+-learning in free-space optical setups is not easy and requires supervision. by contrast, implementing learning with electronic circuits is far more tractable.
+
+-\cite{juya1996} ``Neural networks that involve optical implementation are commonly called optical neural networks, although they should be correctly called hybrid optical neural networks....[T]hey always require non-linear functions that are difficult to implement optically. Most proposed optical neural networks leave this non-linear function to be implemented electronically.''
+- in juya1996, LEDs still prominent as sources \cite{juya1996}
+--``Hybrid optical neural networks may not materialize as commercial products unless each neuron in the network requires more than 1000 interconnections to solve problems.'' \cite{juya1996}
+
+\vspace{3em}
+%Optical Neural Computers
+\cite{abps1987}
+``It is the ability to establish an extensive communication network among processing elements that primarily distinguishes optical technology from semiconductor technology in its application to computation.'' \cite{abps1987} However, in that and other related work at the time, the objective was to utilize optical signals propagating in free space to interconnect neural processing elements. Using light in this manner has the advantage that ``multiple beams of light can pass through lenses or prisms and still remain separate,'' \cite{abps1987} yet routing of free-space optical signals brings new challenges for complex neural systems. To achieve connectivity graphs corresponding to neural networks with feed-forward, feed-back, and recurrent connections, light cannot travel only in straight lines, but rather must branch and change direction many times. Construction of complex networks with free-space optics, mirrors, and lenses quickly leads to issues related to scaling. 
+
+
+
+
+
 
 %Architectures for optoelectronic analogs of self-organizing neural networks
 \cite{fa1987}
@@ -190,119 +192,18 @@ The late 1980s
 -learning is done with a particular algorithm implemented with detection, electronic and computer processing, and updating the SLM.
 -key quote: ``[T]he addition of such a module to a computer-controller through a high-speed interface can be viewed as providing the computer-controller with artificial intelligence capabilities by imparting to it neural net attributes.''
 
-%Coeherent optical eigenstate memory
-\cite{an1986}
--associative memory
--free-space optical cavity
--``A gain medium internal to the resonator amplifies the field belonging to the eigenmode that most resembles the injected field; the other eigenmodes are suppressed through a competition for the gain.''
--optical resonator with spherical mirrors remembers Hermite Gaussian fields
--stored information can be programmed
--volume hologram playing the role of a mirror can be programmed to store what the user wishes
--experimental demonstration with two orthogonal patterns
 
-%Overview of hybrid optical neural networks
-\cite{juyu1996}
--review circa 1996
--``Neural networks that involve optical implementation are commonly called optical neural networks, although they should be correctly called hybrid optical neural networks....[T]hey always require non-linear functions that are difficult to implement optically. Most proposed optical neural networks leave this non-linear function to be implemented electronically.'' 
--``From a practical point of view, we do not intend to make an artificial brain; instead we are attempting to construct an information processing system that mimics some behaviour of the brain and differs significantly from the von Neumann type computer architecture and algorithm.''
--They cite two motivations to study neural networks in the 1980s: ``1) Although a computer can perform complex calculations precisely and quickly, when the task is to recognize an object the computer fails or performs poorly, and is extremely slow compared with the human brain or even an animal brain. 2) A computer needs an explicit set of instructions to perform a given task. Thus, a computer is like a loyal and strong slave but who lacks intelligence. Nevertheless, computer users also need intelligent workers, in addition to slaves, that can perform the task without receiving detailed orders.''
--distilled to recognition capability and learning capability
--limit discussion to feed-forward, binary neurons
--emphasize that the key attribute of optics in feed-forward NNs is (incoherent) matrix-vector multiplication, referencing Goodman \cite{godi1978}
--implementation with LEDs still prominent
--discuss both incoherent and coherent implementations
--Merits of optics: 1) The velocity of optical signals is independent of the number of interconnections; 2) optical signals are immune to mutual interference effects; 3) Optical signals can propagate in three-dimensional free space; 4) the interconnection can be altered properly using spatial light modulators; and 5) optical signals can be easily converted into electronic signals.
--``The principal reason for using optics in neural networks, is that the very large interconnection or fan-in fan-out, of the order of $10^3$ to $10^6$, is quite impractical for VLSI technology because it uses a unique discrete channel for each input or output \cite{caki1989}. On the contrary, we may conceive that an optical neural network is not significant unless each neuron has more that 1000 interconnections with other neurons.''
--learning in free-space optical setups is not easy and requires supervision. by contrast, implementing learning with electronic circuits is far more tractable.
--``The architecture of a neural network is characterized by interconnection and non-linear operation. In principle, optics is naturally suitable for implementing the interconnection. On the other hand, the non-linear operation may be implemented by electronic means, including digital computers.''
--``Hybrid optical neural networks may not materialize as commercial products unless each neuron in the network requires more than 1000 interconnections to solve problems.''
 
-%Optical Neural Networks
-\cite{caki1989}
--review circa 1989
--``Optical neural networks are the offspring of two parents: optical information processing and neural network theory.''
--On strengths and weaknesses of brains relative to digital machines: ``Formal reasoning is hard, but inspired guessing is easy.''
--``This is a vast and growing field. We will attempt a fair and balanced overview of the field but certainly not a complete literature survey.''
--``Very large fan-in/fan-out ($10^3$ - $10^6$) is quite impractical for VLSI technology because it uses a unique discrete channel for each input or output.''
--``Most optical neural networks use unconfined or free-space interconnections which avoid these problems by allowing freely crossing and overlapping interconnection paths.''
--``[L]arge numbers of neurons and interconnections are the natural domain of optics.'' 
--identify six optical interconnection methods present at that time: 1) fiber optic fan-in/fan-out; 2) holographic in-plane connection in integrated optics \cite{fees1988}; 3) optical parallel matrix-vector multipliers \cite{faps1985}; 4) lenslet-array multiple imaging \cite{fami1986}; 5) thick holographic associative networks; and 6) fixed hologram arrays \cite{ca1987}.
--holograms can store a ton of information, but limit of interconnectivity is set by size of photodetectors on a surface
 
-%The interconnectability of neuro-optic processors
-\cite{jast1986}
--focused on the optical interconnect network with free-space optics
--focused on holographic technique
--illustrated the complexity of the optics required to utilize this approach 
--very high storage density, but impractical to implement compared to integrated systems on a chip
--they find in a feasible system the potential to realize $10^8$ neurons and $10^{16}$ synapses that can be trained on $10^6$ inputs
 
-%Parallel optoelectronic realization of neural networks models using CID technology
-\cite{agne1988}
--``Further advances in this field are...limited due to the absence of efficient and reliable hardware realizations of NN models.'' Perhaps, but advances in CMOS proved efficient for the deep learning boom.
--``incorporate optics where microelectronics fails...the interconnectivity problem.''
--Hopfield model with binary neurons
--salient point is that SLM above detector array achieves connectivity matrix
--not clear how sources are integrated
 
-%Parallel $N^4$ weighted optical interconnections
-\cite{ca1987}
--main point here is NxN input plane can be fully connected to NxN output plane realizing $N^4$ connections.
--uses NxN SLM as well as NxN hologram array
--limited to two layers
--in principle capable of $N^4 = 10^{12}$ connections
 
-%Optical implementation of the {H}opfield neural network using multiple fiber nets
-\cite{itki1989}
--uses optical fibers for interconnection between nodes in a Hopfield network
--``The coupling ratio from fiber to fiber represents the synaptic weight of the connection between units.''
--intensity of light encodes synaptic weight
--5x5 array demonstrated, $25^2$ connections
--laser diodes and silicon photodetectors
--one network for positive elements, one for negative 
 
-%Holography in artificial neural networks
-\cite{psbr1990}
--review article summarizing neural networks implemented with semiconductor light sources, photorefractive materials for hologram that serves as host to a multitude of diffraction gratings that apply the synaptic weights and direct the light beams to realize connections, and semiconductor photodetectors to receive signals
--``In recent years there has been a marked resurgence of interest in artificial neural networks.'' 1990
--they list three primary motivations to move toward neural architectures: massive parallelism; dense interconnections; learning; all these years later, the motivations are still the same, but the implementations are different
--arguments against: free-space routing only moves light in straight lines, hard to make dense interconnectivity of recurrent networks, everything is most straightforwardly laid out in a series of planes, with some planes having detectors and sources, potentially with computational circuits, and other planes have diffraction gratings, but the source/detector planes block light from being able to reach beyond them, so it really only works for feed-forward networks wherein connections only occur between adjacent layers; potentially useful for deep learning, not useful for cognition
--uses encoding in optical intensity
--only passive synapses and dendrites
--synapses share the entire volume of the holographic medium, so they cannot be changed independently, much like MZI network
--``Distributed connections have advantages and disadvantages\textemdash the disadvantage compared to the localized implementation is the reduced control of individual synapses. The adjustment of the strength of one synapse may inadvertently affect other synapses as well. Accommodating this limitation is perhaps the most crucial research issue in this field....''
--``The advantages of the distributed holographic synapses are high storage density and ease of fabrication.''
--This shared storage/synaptic cross talk precludes stdp; these challenges have not been solved.
--$10^{12}$ synapses per cm$^3$ in principle, $10^9$ in practice, but it doesn't matter because you cant use them
--``[T]he learning approach can provide a method for transferring some of the burden of programming the computer from the user to the computer.''
--in the 90s, it was assumed that optical approaches referred to free space; integrated photonics and especially silicon photonics had not yet launched
--semiconductor detectors, apply the nonlinearity in the electronic domain, generate light amplitude proportional to electronic output; can do all three on a monolithic chip
--GaAs neurons: two transistors, a photodetector, and an LED
--writing the appropriate gratings in photorefractive materials requires optics with phase-conjugate mirrors, which reflect light back along their original path
--this is a beautiful use of sophisticated nonlinear optics, but has not proven to be sufficiently advantageous to merit the incorporation of sensitive optical apparatus in mainstream computing technology
--strength of synapse determined by optical amplitude during writing
--establishing synaptic weights requires cumbersome optical procedures, and writing each new synaptic weight can inadvertently others, so the whole thing must be done self-consistently
--photorefractive LiNbO3 crystal
--Hebbian-type, local, associative learning, not backprop in 1990
--photorefractive crystals: photoconductive, electro-optic, and have traps that can be optically ionized
--``The recorded hologram is stored in the spatial distribution of the ionized traps in the crystal.'' ``[W]e must...design a sequence of exposures that can load the appropriate weight values in the finite pool of trap sites that are available.''
 
-\vspace{3em}
-\cite{waps1987}
-holographic gratings in photorefractive crystals store associative memories and use backprop for training \cite{waps1987}, similar to recent Shanhui Fan, nonlinear etalon for sigmoid response; intended for image classification, not much different than deep learning today with sigmoid activation functions and backprop. ``This architecture combines the robustness of the distributed neural computation and the backpropagation learning procedure with the hight speed processing of nonlinear etalons, the self-aligning ability of phase conjugate mirrors, and the massive storage capacity of volume holograms to produce a powerful and flexible optical processor.'' Potential reasons this technology didn't catch on: free space optics, bulky, difficult to package, not fieldable, requires experience with optics to operate, difficult to scale to large systems, nonlinearity utilizes bistability \cite{gi1985} which has a history of being difficult to manage, based on photorefractive effect which is volatile, free-space interconnectivity is bulky and difficult, requires many sources, high power for nonlinear effects for hologram and etalon, how to get data in?, fan-out limited by gain of nonlinear devices and dictates an information-collapsing network architecture
 
-\vspace{3em}
-\cite{psbr1988}
--photorefractive crystals as media for holographic interconnections in neural networks
--derive fundamental limitations to connections, but practical limitations are very different
--feed-forward neural nets
--``There is a nice compatibility between simple (multiplicative) Hebbian learning and holography; the strength of the connection between two neurons can be modified by recording a hologram with light from the two neurons.'' 
--``...in an optical implementation each grating corresponds to a separate interconnection between two neurons...''
 
-\vspace{3em}
-%Optical Neural Computers
-\cite{abps1987}
-``It is the ability to establish an extensive communication network among processing elements that primarily distinguishes optical technology from semiconductor technology in its application to computation.'' \cite{abps1987} However, in that and other related work at the time, the objective was to utilize optical signals propagating in free space to interconnect neural processing elements. Using light in this manner has the advantage that ``multiple beams of light can pass through lenses or prisms and still remain separate,'' \cite{abps1987} yet routing of free-space optical signals brings new challenges for complex neural systems. To achieve connectivity graphs corresponding to neural networks with feed-forward, feed-back, and recurrent connections, light cannot travel only in straight lines, but rather must branch and change direction many times. Construction of complex networks with free-space optics, mirrors, and lenses quickly leads to issues related to scaling. 
+
+
 
 As Goodman pointed out in 1985, ``quote from Goodman's paper'' The benefits of light for fan-out can be difficult to harness in free space. We may expect the situation to improve with on-chip waveguides. ``Two beams of light, unlike a pair of current-carrying wires, can cross without affecting each other.'' \cite{abps1987} At the same time that free-space optical neural computers were being developed based on holographic memory, the field of integrated photonics was emerging.
 
@@ -392,9 +293,23 @@ Switching elements made from nonlinear optical materials require too much power 
 -assume light is incoherent and monochromatic
 -results in more hardware complexity, as now a CNN would require a free-space optical setup; probably only useful in artificial vision systems where free-space light is the signal, not when digital images need to be processed.
 
+%-------------------------------
+%misc notes on this section
+%------------------------------
+-re: faps1985 LEDs were envisioned to be replaced by bistable optical devices (cite Keyes and his refutations)
+-holographic storage with free-space optics impractical to implement compared to integrated systems on a chip
+-emphasize strengths of optics: parallel processing and massive interconnection capabilities
+-downfall: the free-space optical setup is not conducive to fieldability or programmability. a software engineer cannot sit down at a computer and try new things. one needs a phd in optics to have any fun.
+-with soens, we must agree: such hardware will not be adopted instead of silicon microelectronics if the goal is moderate-scale Hopfield networks or similar machine learning systems. to displace CMOS, any new hardware must do something CMOS cannot do.
+%-------------------------------
+%end misc notes on this section
+%------------------------------
 
 
 \subsubsection{Deep learning with silicon photonics}
+-Much of the work in free-space neural networks occurred in the 1980s and 1990s, when integrated photonics was still new, and silicon photonics was in its infancy.
+-Much like the photorefractive media discussed above, wherein synapses share the entire volume of the holographic medium and cannot be changed independently, an MZI network has a similar limitation.
+
 Like superconducting neural systems, the goal of nearly all efforts in optoelectronic neural systems and neuromorphic photonics is not to develop general intelligence, but rather to realize neural systems for specific tasks such as inference or control. For most efforts, the motivation for using light is the speed, either of laser cavity dynamics or optical communication. Device and hardware choices toward these ends may be different than for the focus of this article, which is general intelligence. We intend to explain why specific choices are not conducive to the present goal, even if they are suitable for other applications.
 
 We consider deep learning to be based on feed-forward networks of non-spiking neurons trained through a supervised algorithm such as backpropagation. While markedly different from the recurrent networks of dynamical nodes that learn from experience through local plasticity mechanisms, the relative simplicity of deep learning makes it a natural place to begin utilizing principles of neural information processing. Feed-forward neural networks have been studied with free-space optics since the height of optical computing excitement in the late 1980s and early 1990s, and after the developments in silicon photonics following Soref, similar principles were developed in an integrated context. 
@@ -419,6 +334,9 @@ The approach of using 2-D arrays of interferometers for routing and synaptic wei
 -they mention graphene saturable absorbers for nonlinearity, discarding entirely the benefits of scalable fabrication
 -they're considering optical bistability in microring resonators and two-photon absorption as alternatives, so they don't have a plan for that
 -just a simulation study, no experiments
+
+\vspace{3em}
+\cite{waps1987} similar to recent Shanhui Fan
 
 \subsubsection{Photonic Reservoir Computing}
 -most are actually with delay systems, but some are not
@@ -720,6 +638,15 @@ The alternative is to set the synaptic weights in the electronic domain. The syn
 
 To reach the physical limit of single-photon synaptic threshold, superconducting-nanowire single-photon detectors (SPDs) can be used. We will describe these detectors in more detail in the next section, but for the present discussion we point out that these detectors respond to single photons, and their response is nearly identical \cite{} if one or more than one photon is detected. Thus, neuronal communication using these detectors enables the lowest possible communication signal level, and sources must produce only enough photons per synaptic connection so that even with noise, each synapse receives at least one photon, with a chosen tolerable error rate. Such communication appears to saturate a physical limitation for neuronal signaling with photons of a given wavelength. Whereas transistors were used for computation in the hardware example above, if SPDs are used for detection, circuits of JJs the clear choice for computation. Because SPDs and JJs both require operation near 4.2\,K, optoelectronic hardware operating in this modality has the potential to utilize silicon light sources, potentially bringing a tremendous advantage in cost and scalability. In the next section we will describe the synaptic, dendritic, and neuronal functions of these circuits. 
 
+
+
+
+
+\subsubsection{Materials Considerations for Silicon Photonics}
+Silicon in the active material in CMOS transistor circuits, while SiO$_2$ is the primary electrical insulator. A third material\textemdash silicon nitride\textemdash is also important as an insulator, etch stop, and interface layer in CMOS circuit fabrication. Most fortuitously, SiN is also extremely useful as a low-loss, passive waveguiding layer in silicon photonics. These three materials have an auspicious relationship to each other in the optical domain based based on their indices of refraction. Near $\lambda =$\,1550\,nm, the indices are (to two significant figures) 1.5, 2, and 3.5 for SiO$_2$, SiN, and Si, respectively. The index contrast between Si and SiO$_2$ is quite high, enabling compact waveguide devices to be constructed with radius of curvature on the order of the wavelength. However, the primary loss mechanism in SOI waveguides is scattering due to sidewall roughness, and this loss scales as the index contrast square \cite{vlmc2004}. The index contrast between SiN and SiO$_2$ is still high enough to enable confinement and routing bends with radii of tens of microns, but this index contrast is significantly lower leading to much lower loss. Thus, the silicon photonics material platform, combining SiO$_2$, SiN, and Si, provides an active layer (Si) that can be used for modulation, switching, and dense local interconnectivity, as well as a low-loss passive layer (SiN) that can be used for longer-distance routing, all embedded in a passivating SiO$2$ matrix, and all integrated on a bulk-silicon handle wafer, most conducive to large-scale fabrication.
+
+There is one thing thing missing from this discussion, and that is the source of light.
+
 \subsubsection{Where are the Light Sources?}
 
 \paragraph{Considerations for Digital Communication}
@@ -743,6 +670,10 @@ Similarly, light sources based on defects in silicon have been studied extensive
 In addition to these two approaches to light sources on silicon, a major effort has been undertaken in the last 15 years to achieve hybrid integration of III-V light sources on silicon. Process incompatibility and lattice mismatch make it difficult to grow III-V gain media directly on silicon. Independent processing of Si and III-V substrates followed by wafer bonding is being pursued, but contemporary CMOS is very comfortable at 300-mm-wafer scale, while III-V processing has stayed at 150\,mm or below. Many such subtleties and complexities of process and materials integration have limited hybrid system performance and kept costs high. Many of the challenges are practical rather than fundamental, but nevertheless place real limits on the technologies that are achieved.
 
 \paragraph{Hybrid Materials Integration}
+%recent demonstration of GeSn optically pumped lasers
+%Optically Pumped GeSn Lasers Operating at 270 K with Broad Waveguide Structures on Si
+%Soref is an author
+\cite{zhdo2019}
 
 \paragraph{Systems with Off-Chip Sources}
 Considerable work continues in the development of light sources on silicon. At present, many efforts are proceeding to demonstrate exciting systems on chip with optical communication based on external III-V lasers fiber-coupled to silicon optoelectronic processors. Such work began commercially with the founding of Luxtera in 2001 with the goal being to utilize integrated silicon photonics for network interconnects. More recently, the effort led by Stojanovic, Popovic, and Ram has led to the development of silicon photonic systems implemented in existing CMOS processes with zero changes to the process. This effort has demonstrated basic components, such as waveguides, filters and modulators in 45-nm \cite{orma2012,shor2014,meor2014} and 32-nm technology nodes \cite{}. This ``zero-change'' approach (initially funded by DARPA \cite{}) has matured to the point where all-optical communication with 11 wavelength-division multiplexed channels was used between a processor and DRAM \cite{suwa2015,suwa2017} in the same 45-nm silicon-on-insulator process that was used to create the IBM Power 7 processor (Watson, PlayStation 3). This feat represents a significant milestone in the technological trajectory connecting global photonic networks down to optoelectronic systems on a single chip, perhaps fulfilling Soref's vision of a superchip. In this work, the III-V light sources are external to the silicon chip with fiber coupling between. Some in the field contend this will remain the most tractable solution in the long term. 
