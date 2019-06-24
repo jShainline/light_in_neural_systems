@@ -1,92 +1,92 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: hardware_for_general_intelligence.aux
 The style file: unsrt.bst
 Database file #1: hardware_for_general_intelligence.bib
-Repeated entry---line 1531 of file hardware_for_general_intelligence.bib
+Repeated entry---line 1540 of file hardware_for_general_intelligence.bib
  : @article{da1989
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3802 of file hardware_for_general_intelligence.bib
+Repeated entry---line 3811 of file hardware_for_general_intelligence.bib
  : @book{iz2007
  :             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3949 of file hardware_for_general_intelligence.bib
+Repeated entry---line 3958 of file hardware_for_general_intelligence.bib
  : @article{xusc2005
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3994 of file hardware_for_general_intelligence.bib
+Repeated entry---line 4003 of file hardware_for_general_intelligence.bib
  : @article{so1993
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4075 of file hardware_for_general_intelligence.bib
+Repeated entry---line 4084 of file hardware_for_general_intelligence.bib
  : @article{libo2010
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4084 of file hardware_for_general_intelligence.bib
+Repeated entry---line 4093 of file hardware_for_general_intelligence.bib
  : @article{zhyi2015
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4138 of file hardware_for_general_intelligence.bib
+Repeated entry---line 4147 of file hardware_for_general_intelligence.bib
  : @article{rahu2008
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4318 of file hardware_for_general_intelligence.bib
+Repeated entry---line 4327 of file hardware_for_general_intelligence.bib
  : @article{joma1996
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4899 of file hardware_for_general_intelligence.bib
+I was expecting a `,' or a `}'---line 4908 of file hardware_for_general_intelligence.bib
  : 
  : @ARTICLE{apso2010,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 5137 of file hardware_for_general_intelligence.bib
+Repeated entry---line 5146 of file hardware_for_general_intelligence.bib
  : @article{brso2013
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5172 of file hardware_for_general_intelligence.bib
- : @article{bubr2017
  :                  ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 5181 of file hardware_for_general_intelligence.bib
- : @article{orso2015
+ : @article{bubr2017
  :                  ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 5190 of file hardware_for_general_intelligence.bib
- : @article{nate2017
+ : @article{orso2015
  :                  ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 5199 of file hardware_for_general_intelligence.bib
- : @article{anha2017
+ : @article{nate2017
  :                  ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 5208 of file hardware_for_general_intelligence.bib
- : @article{vadi2008
+ : @article{anha2017
  :                  ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 5217 of file hardware_for_general_intelligence.bib
- : @article{brso2013
+ : @article{vadi2008
  :                  ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 5226 of file hardware_for_general_intelligence.bib
- : @article{dusc2012
+ : @article{brso2013
  :                  ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 5235 of file hardware_for_general_intelligence.bib
+ : @article{dusc2012
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5244 of file hardware_for_general_intelligence.bib
  : @article{brfi2015
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5334 of file hardware_for_general_intelligence.bib
+Repeated entry---line 5343 of file hardware_for_general_intelligence.bib
  : @article{psfa1985
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5379 of file hardware_for_general_intelligence.bib
+Repeated entry---line 5388 of file hardware_for_general_intelligence.bib
  : @article{chsa2018
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5699 of file hardware_for_general_intelligence.bib
+Repeated entry---line 5708 of file hardware_for_general_intelligence.bib
  : @article{dukr1999
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5726 of file hardware_for_general_intelligence.bib
+Repeated entry---line 5735 of file hardware_for_general_intelligence.bib
  : @article{coge2011
  :                  ,
 I'm skipping whatever remains of this entry
@@ -94,6 +94,7 @@ Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "http://www.atimes.com/leibniz-chinese-invented-first-binary-code/"
 Warning--I didn't find a database entry for "http://www.leibniz-translations.com/binary.htm"
 Warning--I didn't find a database entry for "https://hal.archives-ouvertes.fr/ads-00104781/document"
+Warning--I didn't find a database entry for "juya1996"
 Warning--I didn't find a database entry for "shICRC2018"
 Warning--I didn't find a database entry for "eskn2014"
 Warning--I didn't find a database entry for "ma1983"
@@ -113,6 +114,7 @@ Warning--I didn't find a database entry for "one_from_reading_group"
 Warning--I didn't find a database entry for "abms1982"
 Warning--I didn't find a database entry for "solo1986"
 Warning--I didn't find a database entry for "fees1988"
+Warning--I didn't find a database entry for "ke1985"
 Warning--I didn't find a database entry for "mi2015_fix_ref"
 Warning--I didn't find a database entry for "shha2017"
 Warning--I didn't find a database entry for "nata2013"
@@ -123,7 +125,6 @@ Warning--I didn't find a database entry for "suwa2017"
 Warning--I didn't find a database entry for "fepe2019"
 Warning--I didn't find a database entry for "chca2013"
 Warning--I didn't find a database entry for "sh2019_fluxonic"
-Warning--I didn't find a database entry for "ke1985"
 Warning--I didn't find a database entry for "x"
 Warning--I didn't find a database entry for "y"
 Warning--I didn't find a database entry for "z"

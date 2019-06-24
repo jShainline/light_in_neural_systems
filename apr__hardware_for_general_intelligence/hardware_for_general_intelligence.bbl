@@ -669,6 +669,16 @@ S.~Dehane.
 \newblock {\em Consciousness and the brain}.
 \newblock Penguin, 2014.
 
+\bibitem{caki1989}
+H.J. Caulfield, J.~Kinser, and S.K. Rogers.
+\newblock Optical neural networks.
+\newblock {\em Proc. IEEE}, 77:1573, 1989.
+
+\bibitem{psbr1990}
+D.~Psaltis, D.~Brady, X.-G. Gu, and S.~Lin.
+\newblock Holography in artificial neural networks.
+\newblock {\em Nature}, 343:325, 1990.
+
 \bibitem{ro1958}
 F.~Rosenblatt.
 \newblock The perceptron: a probabilistic model for information storage and
@@ -680,6 +690,11 @@ D.~Psaltis and N.~Farhat.
 \newblock Optical information processing based on an associative-memory model
   of neural nets with thresholding and feedback.
 \newblock {\em Opt. Lett.}, 10:98, 1985.
+
+\bibitem{faps1985}
+N.H. Farhat, D.~Psaltis, A.~Prata, and E.~Paek.
+\newblock Optical implementation of the {H}opfield model.
+\newblock {\em Applied Optics}, 24:1469, 1985.
 
 \bibitem{mana2002}
 W.~Maass, T.~Natschl\"{a}ger, and H.~Markram.
@@ -1044,12 +1059,6 @@ A.F.J. Levi.
 \newblock Silicon photonics' last-meter problem.
 \newblock {\em IEEE Spectrum}, 09.18:39, 2018.
 
-\bibitem{vlmc2004}
-Y.A. Vlasov and S.J. McNab.
-\newblock Losses in single-mode silicon-on-insulator strip waveguides and
-  bends.
-\newblock {\em Opt. Express}, 12:1622, 2004.
-
 \bibitem{ra2007}
 D.G. Rabus.
 \newblock {\em Integrated Ring Resonators}.
@@ -1088,15 +1097,25 @@ H.~Kogelnik.
 \newblock Limits in {I}ntegrated {O}ptics.
 \newblock {\em Proc. IEEE}, 69:232, 1981.
 
-\bibitem{faps1985}
-N.H. Farhat, D.~Psaltis, A.~Prata, and E.~Paek.
-\newblock Optical implementation of the {H}opfield model.
-\newblock {\em Applied Optics}, 24:1469, 1985.
+\bibitem{an1986}
+D.Z. Anderson.
+\newblock Coherent optical eigenstate memory.
+\newblock {\em Opt. Lett.}, 11:56, 1986.
 
-\bibitem{juyu1996}
-S.~Jutamulia and F.T.S. Yu.
-\newblock Overview of hybrid optical neural networks.
-\newblock {\em Optics and Laser Technology}, 28:59, 1996.
+\bibitem{jast1986}
+T.~Jannson, H.M. Stoll, and C.~Karaguleff.
+\newblock The interconnectability of neuro-optic processors.
+\newblock {\em SPIE Real Time Signal Processing IX}, 698:157, 1986.
+
+\bibitem{waps1987}
+K.~Wagner and D.~Psaltis.
+\newblock Multilayer optical learning networks.
+\newblock {\em Applied Optics}, 26:5061, 1987.
+
+\bibitem{psbr1988}
+D.~Psaltis, D.~Brady, and K.~Wagner.
+\newblock Optical neural computers.
+\newblock {\em Sci. Am.}, 256:88, 1987.
 
 \bibitem{jaju1988}
 J.~Jang, S.~Jung, S.~Lee, and S.~Shin.
@@ -1104,21 +1123,11 @@ J.~Jang, S.~Jung, S.~Lee, and S.~Shin.
   associative memory.
 \newblock {\em Opt. Lett.}, 13:248, 1988.
 
-\bibitem{fa1987}
-N.H. Farhat.
-\newblock Architectures for optoelectronic analogs of self-organizing neural
-  networks.
-\newblock {\em Opt. Lett.}, 12:448, 1987.
-
-\bibitem{an1986}
-D.Z. Anderson.
-\newblock Coherent optical eigenstate memory.
-\newblock {\em Opt. Lett.}, 11:56, 1986.
-
-\bibitem{caki1989}
-H.J. Caulfield, J.~Kinser, and S.K. Rogers.
-\newblock Optical neural networks.
-\newblock {\em Proc. IEEE}, 77:1573, 1989.
+\bibitem{agne1988}
+A.~Agranat, C.F. Neugebauer, and A.~Yariv.
+\newblock Parallel optoelectronic realization of neural networks models using
+  cid technology.
+\newblock {\em Applied Optics}, 27:4354, 1988.
 
 \bibitem{fami1986}
 N.H. Farhat, S.~Miyahara, and K.S. Lee.
@@ -1131,38 +1140,6 @@ N.H. Farhat, S.~Miyahara, and K.S. Lee.
 H.J. Caulfield.
 \newblock Parallel $n^4$ weighted optical interconnections.
 \newblock {\em Applied Optics}, 26:4039, 1987.
-
-\bibitem{jast1986}
-T.~Jannson, H.M. Stoll, and C.~Karaguleff.
-\newblock The interconnectability of neuro-optic processors.
-\newblock {\em SPIE Real Time Signal Processing IX}, 698:157, 1986.
-
-\bibitem{agne1988}
-A.~Agranat, C.F. Neugebauer, and A.~Yariv.
-\newblock Parallel optoelectronic realization of neural networks models using
-  cid technology.
-\newblock {\em Applied Optics}, 27:4354, 1988.
-
-\bibitem{itki1989}
-F.~Ito and K.~i.~Kitayama.
-\newblock Optical implementation of the {H}opfield neural network using
-  multiple fiber nets.
-\newblock {\em Applied Optics}, 28:4176, 1989.
-
-\bibitem{psbr1990}
-D.~Psaltis, D.~Brady, X.-G. Gu, and S.~Lin.
-\newblock Holography in artificial neural networks.
-\newblock {\em Nature}, 343:325, 1990.
-
-\bibitem{waps1987}
-K.~Wagner and D.~Psaltis.
-\newblock Multilayer optical learning networks.
-\newblock {\em Applied Optics}, 26:5061, 1987.
-
-\bibitem{psbr1988}
-D.~Psaltis, D.~Brady, and K.~Wagner.
-\newblock Optical neural computers.
-\newblock {\em Sci. Am.}, 256:88, 1987.
 
 \bibitem{fili1987}
 A.D. Fisher, W.L. Lippincott, and J.N. Lee.
@@ -1181,11 +1158,10 @@ I.~Saxena and E.~Fiesler.
 \newblock Adaptive multilayer optical neural network with optical thresholding.
 \newblock {\em Opt. Engineering}, 34:2435, 1995.
 
-\bibitem{kahi2003}
-S.~Kawata and A.~Hirose.
-\newblock Coherent optical neural network that learns desirable phase values in
-  the frequency domain by use of multiple optical-path differences.
-\newblock {\em Opt. Lett.}, 28:2524, 2003.
+\bibitem{mo2000}
+G.~Moagar-Poladian.
+\newblock Reconfigurable optical neuron based on photoelectret materials.
+\newblock {\em Applied Optics}, 39:782, 2000.
 
 \bibitem{buma2018}
 J.~Bueno, S.~Maktoobi, L.~Froehly, I.~Fischer, M.~Jacquot, L.~Larger, and
@@ -1194,16 +1170,22 @@ J.~Bueno, S.~Maktoobi, L.~Froehly, I.~Fischer, M.~Jacquot, L.~Larger, and
   network.
 \newblock {\em Optica}, 5:756, 2018.
 
-\bibitem{liri2018}
-X.~Lin, Y.~Rivenson, N.T. Yardimci, M.~Veli, Y.~Luo, M.~Jarrahi, and A.~Ozcan.
-\newblock All-optical machine learning using diffractive deep neural networks.
-\newblock {\em Science}, 361:1004, 2018.
-
 \bibitem{hasl2018}
 R.~Hamerly, A.~Sludds, L.~Bernstein, M.~Soljacic, and D.~Englund.
 \newblock Large-scale optical neural networks based on photoelectric
   multiplication.
 \newblock {\em arXiv}, page 1812.07614, 2018.
+
+\bibitem{liri2018}
+X.~Lin, Y.~Rivenson, N.T. Yardimci, M.~Veli, Y.~Luo, M.~Jarrahi, and A.~Ozcan.
+\newblock All-optical machine learning using diffractive deep neural networks.
+\newblock {\em Science}, 361:1004, 2018.
+
+\bibitem{chsi2018}
+J.~Chang, V.~Sitzmann, X.~Dun, W.~Heidrich, and G.~Wetzstein.
+\newblock Hybrid optical-electronic convolutional neural networks with
+  optimized diffractive optics for image classification.
+\newblock {\em Sci. Rep.}, 8:12324, 2018.
 
 \bibitem{shha2016}
 Y.~Shen, N.C. Harris, S.~Skirlo, M.~Prabhu, T.~Baehr-Jones, M.~Hochberg,
@@ -1211,11 +1193,10 @@ Y.~Shen, N.C. Harris, S.~Skirlo, M.~Prabhu, T.~Baehr-Jones, M.~Hochberg,
 \newblock Deep learning with coherent nanophotonic circuits.
 \newblock {\em Nature Photonics}, 11:441, 2016.
 
-\bibitem{chsi2018}
-J.~Chang, V.~Sitzmann, X.~Dun, W.~Heidrich, and G.~Wetzstein.
-\newblock Hybrid optical-electronic convolutional neural networks with
-  optimized diffractive optics for image classification.
-\newblock {\em Sci. Rep.}, 8:12324, 2018.
+\bibitem{prsh2017}
+P.R. Prucnal and B.J. Shastri.
+\newblock {\em Neuromorphic photonics}.
+\newblock CRC Press, New York, first edition, 2017.
 
 \bibitem{reze1994}
 M.~Reck, A.~Zeilinger, H.J. Bernstein, and P.~Bertani.
@@ -1400,11 +1381,6 @@ J.L.A. Dubbeldam, B.~Krauskopf, and D.~Lenstra.
   absorber.
 \newblock {\em Phys. Rev. E}, 60:6580, 1999.
 
-\bibitem{prsh2017}
-P.R. Prucnal and B.J. Shastri.
-\newblock {\em Neuromorphic photonics}.
-\newblock CRC Press, New York, first edition, 2017.
-
 \bibitem{meka2016}
 C.~Mesaritakis, A.~Kapsalis, A.~Bogris, and D.~Syvridis.
 \newblock Artificial neuron based on integrated semiconductor quantum dot
@@ -1485,6 +1461,12 @@ Z.~Cheng, C.~Rios, W.H.P. Pernice, C.D. Wright, and H.~Bhaskaran.
 \newblock On-chip photonic synapse.
 \newblock {\em Science Advances}, 3:1700160, 2017.
 
+\bibitem{vlmc2004}
+Y.A. Vlasov and S.J. McNab.
+\newblock Losses in single-mode silicon-on-insulator strip waveguides and
+  bends.
+\newblock {\em Opt. Express}, 12:1622, 2004.
+
 \bibitem{li2005}
 M.~Lipson.
 \newblock Guiding, modulating, and emitting light on silicon-challenges and
@@ -1505,6 +1487,13 @@ Z.~Zhou, B.~Yin, and Jurgen Michel.
 Gordon Davies.
 \newblock The optical properties of luminescence centres in silicon.
 \newblock {\em Physics Reports}, 176:83--188, 1989.
+
+\bibitem{zhdo2019}
+Y.~Zhou, W.~Dou, W.~Du, S.~Ojo, H.~Tran, S.A. Ghetmiri, J.~Liu, G.~Sun,
+  R.~Soref, J.~Margetis, J.~Tolle, B.~Li, Z.~Chen, M.~Mortasavi, and S.-Q. Yu.
+\newblock Optically pumped {GeSn} lasers operating at 270 k with broad
+  waveguide structures on si.
+\newblock {\em ACS Photonics}, 6:1434, 2019.
 
 \bibitem{enpo1985}
 H.~Ennen, G.~Pomrenke, A.~Axmann, K.~Eisele, W.~Haydl, and J.~Schneider.
@@ -1562,11 +1551,6 @@ A.N. Tait, T.~Ferreira de~Lima, M.A. Nahmias, H.B. Miller, H.-T. Peng, B.J.
 D.~Rosenbluth, K.~Kravtsov, M.P. Fok, and P.R. Prucnal.
 \newblock A high performance photonic pulse processing device.
 \newblock {\em Opt. Express}, 17:22767, 2009.
-
-\bibitem{mo2000}
-G.~Moagar-Poladian.
-\newblock Reconfigurable optical neuron based on photoelectret materials.
-\newblock {\em Applied Optics}, 39:782, 2000.
 
 \bibitem{mots2019}
 G.~Mourgias-Alexandris, A.~Tsakyridis, N.~Passalis, A.~Tefas, K.~Vyrsokinos,
