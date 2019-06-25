@@ -1187,12 +1187,6 @@ J.~Chang, V.~Sitzmann, X.~Dun, W.~Heidrich, and G.~Wetzstein.
   optimized diffractive optics for image classification.
 \newblock {\em Sci. Rep.}, 8:12324, 2018.
 
-\bibitem{shha2016}
-Y.~Shen, N.C. Harris, S.~Skirlo, M.~Prabhu, T.~Baehr-Jones, M.~Hochberg,
-  X.~Sun, S.~Zhao, H.~Larochelle, D.~Englund, and M.~Soljacic.
-\newblock Deep learning with coherent nanophotonic circuits.
-\newblock {\em Nature Photonics}, 11:441, 2016.
-
 \bibitem{prsh2017}
 P.R. Prucnal and B.J. Shastri.
 \newblock {\em Neuromorphic photonics}.
@@ -1208,21 +1202,89 @@ G.~Strang.
 \newblock {\em Introduction to Linear Algebra}.
 \newblock Wellesley-Cambridge Press, 2016.
 
+\bibitem{mi2015}
+D.A.B. Miller.
+\newblock Perfect optics with imperfect components.
+\newblock {\em Optica}, 2:747, 2015.
+
+\bibitem{shha2017}
+Y.~Shen, N.C. Harris, S.~Skirlo, M.~Prabhu, T.~Baehr-Jones, M.~Hochberg,
+  X.~Sun, S.~Zhao, H.~Larochelle, D.~Englund, and M.~Soljacic.
+\newblock Deep learning with coherent nanophotonic circuits.
+\newblock {\em Nature Photonics}, 11:441, 2017.
+
 \bibitem{humi2018}
 T.W. Hughes, M.~Minkov, Y.~Shi, and S.~Fan.
 \newblock Training of photonic neural networks through in situ backpropagation
   and gradient descent.
 \newblock {\em Optica}, 5:864, 2018.
 
+\bibitem{wihu2019}
+I.A.D. Willliamson, T.W. Hughes, M.~Minkov, B.~Bartlett, S.~Pai, and S.~Fan.
+\newblock Reprogrammable electro-optic nonlinear activation functions for
+  optical neural networks.
+\newblock {\em arXiv}, 1903:04579, 2019.
+
 \bibitem{sm1980}
 P.W. Smith.
 \newblock Hybrid bistable optical devices.
 \newblock {\em Opt. Eng.}, 19:456, 1980.
 
-\bibitem{fama2019}
-M.Y.-S. Fang, S.~Manipatruni, C.~Wierzynski, A.~Khosrowshahi, and M.R. DeWeese.
-\newblock Design of optical neural networks with component imprecisions.
-\newblock {\em Opt. Express}, 27:14009, 2019.
+\bibitem{chbu2017}
+J.~Chiles, S.~Buckley, N.~Nader, S.W. Nam, R.P. Mirin, and J.M. Shainline.
+\newblock Multi-planar amorphous silicon photonics with compact interplanar
+  couplers, cross talk mitigation, and low crossing loss.
+\newblock {\em APL Photonics}, 2:116101, 2017.
+
+\bibitem{chbu2018}
+J.~Chiles, S.M. Buckley, S.W. Nam, R.P. Mirin, and J.M. Shainline.
+\newblock Design, fabrication, and metrology of 10 x 100 multi-planar
+  integrated photonic routing manifolds for neural networks.
+\newblock {\em APL Photonics}, page 106101, 2018.
+
+\bibitem{sami2017}
+W.D. Sacher, J.C. Mikkelsen, P.~Dumais, J.~Jiang, D.~Goodwill, X.~Luo,
+  Y.~Huang, Y.~Yang, A.~Bois, P.G.-Q. Lo, E.~Bernier, and J.K.S. Poon.
+\newblock Tri-layer silicon nitride-on-silicon photonic platform for
+  ultra-low-loss crossings and interlayer transitions.
+\newblock {\em Opt. Express}, 25:30862, 2017.
+
+\bibitem{vabr2017}
+G.~Van der Sande, D.~Brunner, and M.C. Soriano.
+\newblock Advances in photonic reservoir computing.
+\newblock {\em Nanophotonics}, 6:561, 2017.
+
+\bibitem{vadi2008}
+K.~Vandoorne, W.~Dierckx, B.~Schrauwen, D.~Verstraeten, R.~Baets, P.~Bienstman,
+  and J.~Van Campenhout.
+\newblock Toward optical signal processing using {P}hotonic {R}eservoir
+  {C}omputing.
+\newblock {\em Opt. Express}, 16:11182, 2008.
+
+\bibitem{vada2011}
+K.~Vandoorne, J.~Dambre, D.~Verstraeten, B.~Schrauwen, and P.~Bienstman.
+\newblock Parallel reservoir computing using optical amplifiers.
+\newblock {\em IEEE Trans. Neural Networks}, 22:1469, 2011.
+
+\bibitem{jobo2006}
+T.J. Johnson, M.~Borselli, and O.~Painter.
+\newblock Self-induced optical modulation of the transmission of a high-$q$
+  silicon microdisk resonator.
+\newblock {\em Optics Express}, 14:817, 2006.
+
+\bibitem{vame2014}
+K.~Vandoorne, P.~Mechet, T.~Van Vaerenbergh, M.~Fiers, G.~Morthier,
+  D.~Verstraeten, B.~Schrauwen, J.~Dambre, and P.~Bienstman.
+\newblock Experimental demonstration of reservoir computing on a silicon
+  photonics chip.
+\newblock {\em Nat. Comm.}, 5:3541, 2014.
+
+\bibitem{desc2018}
+F.~Denis-Le Coarer, M.~Sciamanna, A.~Katumba, M.~Freiberger, J.~Dambre,
+  P.~Bienstman, and D.~Rontani.
+\newblock All-optical reservoir computing on a photonic chip using
+  silicon-based ring resonators.
+\newblock {\em IEEE J. Sel. Topics in Quant. Electron.}, 24:7600108, 2018.
 
 \bibitem{apso2011}
 L.~Appeltant, M.C. Soriano, G.~Van der Sande, J.~Canckaert, S.~Massar,
@@ -1238,11 +1300,6 @@ L.~Larger, M.C. Soriano, D.~Brunner, L.~Appeltant, J.M. Gutierrez, L.~Pesquera,
   implementation of reservoir computing.
 \newblock {\em Opt. Express}, 20:3241, 2012.
 
-\bibitem{vabr2017}
-G.~Van der Sande, D.~Brunner, and M.C. Soriano.
-\newblock Advances in photonic reservoir computing.
-\newblock {\em Nanophotonics}, 6:561, 2017.
-
 \bibitem{dedu2014}
 A.~Dejonckheere, F.~Duport, and A.~Smerieri.
 \newblock All-optical reservoir computer based on saturation of absorption.
@@ -1253,38 +1310,6 @@ R.M. Nguimdo, G.~Verschaffelt, J.~Danckaert, and G.~Van der Sande.
 \newblock Fast photonic information processing using semiconductor lasers with
   delayed optical feedback: role of phase dynamics.
 \newblock {\em Opt. Express}, 22:8672, 2014.
-
-\bibitem{vadi2008}
-K.~Vandoorne, W.~Dierckx, B.~Schrauwen, D.~Verstraeten, R.~Baets, P.~Bienstman,
-  and J.~Van Campenhout.
-\newblock Toward optical signal processing using {P}hotonic {R}eservoir
-  {C}omputing.
-\newblock {\em Opt. Express}, 16:11182, 2008.
-
-\bibitem{vada2011}
-K.~Vandoorne, J.~Dambre, D.~Verstraeten, B.~Schrauwen, and P.~Bienstman.
-\newblock Parallel reservoir computing using optical amplifiers.
-\newblock {\em IEEE Trans. Neural Networks}, 22:1469, 2011.
-
-\bibitem{vafi2012}
-T.~Van Vaerenbergh, M.~Fiers, P.~Mechet, T.~Spuesens, R.~Kumar, G.~Morthier,
-  B.~Schrauwen, J.~Dambre, and P.~Bienstman.
-\newblock Cascadable excitability in microrings.
-\newblock {\em Opt. Express}, 20:20292, 2012.
-
-\bibitem{vame2014}
-K.~Vandoorne, P.~Mechet, T.~Van Vaerenbergh, M.~Fiers, G.~Morthier,
-  D.~Verstraeten, B.~Schrauwen, J.~Dambre, and P.~Bienstman.
-\newblock Experimental demonstration of reservoir computing on a silicon
-  photonics chip.
-\newblock {\em Nat. Comm.}, 5:3541, 2014.
-
-\bibitem{desc2018}
-F.~Denis-Le Coarer, M.~Sciamanna, A.~Katumba, M.~Freiberger, J.~Dambre,
-  P.~Bienstman, and D.~Rontani.
-\newblock All-optical reservoir computing on a photonic chip using
-  silicon-based ring resonators.
-\newblock {\em IEEE J. Sel. Topics in Quant. Electron.}, 24:7600108, 2018.
 
 \bibitem{funa1993}
 K.-I. Funahashi and Y.~Nakamura.
