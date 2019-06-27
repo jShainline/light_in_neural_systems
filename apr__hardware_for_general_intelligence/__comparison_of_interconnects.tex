@@ -99,6 +99,13 @@ In any photonic routing architecture, the on-wafer connectivity will be limited 
 \vspace{3em}
 As Goodman pointed out in 1985, ``quote from Goodman's paper'' The benefits of light for fan-out can be difficult to harness in free space. We may expect the situation to improve with on-chip waveguides. ``Two beams of light, unlike a pair of current-carrying wires, can cross without affecting each other.'' \cite{abps1987} At the same time that free-space optical neural computers were being developed based on holographic memory, the field of integrated photonics was emerging.
 
+\vspace{3em}
+Attempting to establish synaptic weights by precisely controlling the phase of optical signals for each synaptic connection is a problematic foundation in one intends to construct a cognitive system at the scale of the brain. It is tempting to use phase for modulation or frequency for multiplexing, but physical features are are not well-equipped to achieve basic synaptic and neuronal functions.
+
+\vspace{3em}
+Waveguide planes are an aspect of hardware, while network layers are a concept from architecture. To minimize waveguide crossings and interplanar transitions, lower planes are used for local connections, and upper planes are used for distant connections. Groups of planes corresponding to certain communication lengths scales are identified by the material composition of the waveguides in the planes as this material composition dictates the index contrast and therefore loss as well as waveguide size. We expect to utilize at least three materials for three levels of this communication hierarchy: silicon, silicon nitride, and low-index-contrast glass. The loss/density trade off is a primary affector of Rentian scaling potential. The tuning along this loss/density curve is continuous with SiO$_x$N$_y$ by varying $x$ and $y$. Mature material stacks will result from a combination of considerations at the holistic, system level, including power consumption, computational capabilities, and cost/feasibility of fabrication.
+
+
 \subsubsection{Photonic Interconnects with Superconducting Receivers}
 Considerations pertinent to photonic interconnects with superconducting receivers in neural systems are related to considerations pertinent to photonic interconnects with semiconducting receivers in digital systems \cite{mi2009,mi2017}, although distinct considerations become relevant. It may be possible that photonic communication is deemed suitable in one application space at the chip, wafer, and systems scales, while it is not suitable in another application space until the system scale. 
 
