@@ -182,8 +182,11 @@ In addition to the work discussed thus far, many other studies related to optica
 %-No physical optical system built
 %-Optics for readout in vector-matrix multiplication
 
+%Optical learning neurochip with internal analog memory
+A snapshot of the field in 1993 is captured in the Applied Optics feature issue edited by Wagner and Psaltis \cite{waps1993}. Here we highlight just one article from that issue. In the work by Nitta et al \cite{nioh1993} ...
+
 %Adaptive multilayer optical neural network with optical thresholding
-%\cite{safi1995}
+\cite{safi1995}
 
 As the excitement around deep learning has grown in recent years, free-space optical neural networks have seen a resurgence. At least four new papers in this domain were published in 2018 \cite{buma2018,hasl2018,liri2018,chsi2018}. In Ref.\,\cite{buma2018} Bueno et al. pursued free-space optics for reservoir computing. They demonstrated an optical neural network based on a recurrent graph achieved with a spatial light modulator combined with a digital micro-mirror device accomplishing the variable weights of the output layer. The authors constructed a recurrent neural network of 900 nodes to serve as the reservoir (see Sec.\,\ref{sec:overview_of_machine_learning}). All connections established with the spatial light modulator were fixed and positive, while all training occurred in the output layer through the digital micro-mirror device that established binary weights. During training, the optoelectronic system steps through discrete time with a specified update equation. In this demonstration, update of 900 nodes occurred at 5\,Hz, limited by software control interface. The authors estimate the system could scale to $10^5$ interconnected nodes, which is a useful scale for reservoir computing. 
 
@@ -241,6 +244,14 @@ Spatial scaling is difficult for any integrated photonic technology due to the l
 
 Beyond considerations of power and spatial footprint, if we consider the application to cognitive systems rather than deep learning, the approach of using arrays of interferometers for routing and synaptic weighting is incompatible with large-scale cognitive systems for two primary reasons. First, as described in Sec.\,\ref{sec:neuroscience}, an important mechanism of learning in spiking neural systems is through STDP, wherein the activity of the two neurons associated with a synapse leads to memory adaptation. With interferometer arrays, changing a single phase in the network will, in general, modify many synaptic weights. This is similar to the limitation of writing synaptic weights as gratings in a holographic medium: the synapses are not independent. While backpropagation can be implemented with such a network \cite{humi2018}, STDP cannot. Second, this approach to routing is solely focused on achieving feed-forward graph structures and is not amenable to constructing recurrent neural networks with hieararchical modularity. Thus, matrix-vector multiplication via networks of interferometers is not likely to be the primary means of establishing synaptic weighting nor is it likely to achieve the complex structural graphs required of cognitive systems demonstrating general intelligence.
 
+
+%An all-optical neuron with sigmoid activation function
+\cite{mots2019}
+-WDM input and weighting scheme
+-logistic sigmoid activation function realized with a ``deeply-saturated differentially-biased Semiconductor Optical Amplifier-Mach-Zehnder Interferometer (SOA-MZI) followed by a SOA-Cross-Gain-Modulation (XGM) gate.''
+-the goal seems to be a very close fit with a sigmoid, no matter the cost
+
+
 Other efforts to utilize light for neuro-inspired machine learning are numerous. We now turn our attention away from feed-forward neural networks for deep learning and onto methods of using light for reservoir computing.
 
 \subsubsection{Photonic Reservoir Computing}
@@ -279,10 +290,183 @@ This delay technique is a form of time multiplexing, and as such scaling results
 %Delay dynamics of neuromorphic optoelectronic nanoscale resonators: {P}erspectives and applications
 \cite{rofi2017}
 
-\subsubsection{Spiking Neurons with Semiconductor Excitable Lasers}
+\subsubsection{Spiking Neurons with Semiconductor Lasers}
+-separate by laser type, VCSELs, semiconductor ring lasers, fiber lasers
+-note that these experiments are not included in the section on free-space implementations, but many of them use free-space optics
+-the point of this section is specifically on the use of semiconductor lasers to produce pulses; if free-space optics are used, the same weaknesses apply
+
 While the interferometric approach to deep learning discussed above makes use of static neurons, several approaches to spiking neurons have been pursued as well. One class of spiking photonic neurons leverages the carrier dynamics in compound semiconductor laser cavities. The equation governing lasers with gain and saturable absorber regions are isomorphic to the leaky integrate-and-fire neuron \cite{dukr1999}, with the number of excited carriers in the laser playing the role of the membrane potential. This correspondence has led to several designs \cite{nata2013} and experimental efforts (see Ref.\,\cite{prsh2017} and reference therein for a complete bibliography) to leverage this behavior to make spiking neurons that sum optical signals and produce optical pulses when a threshold has been reached. This work began in Er-doped fibers, and continues with on-chip implementations with III-V photonic systems, with much of the work being done in the group of Prucnal at Princeton. The refractory period of such neurons is set by the cavity photon decay time and is on the order of 10\,ps, while the integration time is set by the carrier relaxation time, and is on the order of 100\,ps. This short refractory period means such neurons can fire up to $10^9$ times faster than biological neurons, yet the short integration time means temporal correlations among neuronal firing events are forgotten rapidly, and the inability to broadly tune this time scale points to the potential for advantages to be gained from optoelectronic integration. 
 
 While the goal of these efforts in excitable lasers is to perform neuro-inspired computing very rapidly with small networks, and not to achieve brain-scale systems, we nevertheless point out two features of this approach to using light in neural systems that are not conducive to achieving large-scale systems. The first is power consumption. To properly set the threshold of these neurons, the gain region must be continuously pumped. This requires between 100\,mW and 1\,W per neuron, even when the neuron is not firing. For a system of $10^{10}$ neurons, a gigawatt would be consumed, even with the system at rest. The second limitation regards computation. As discussed in Sec.\,\ref{sec:neuroscience}, neural information processing leverages many complex computations in synapses, dendrites, and neurons. In excitable lasers, all the computation occurs in the interaction between photons and carriers in the laser cavity. Multiply-accumulate operations can be performed with leak and threshold, but no path toward short-term synaptic plasticity or dendritic processing have been proposed. By relying on the exponential decay constants of photons and carriers, one is unable to tune the range of temporal information processing or supply the dendritic arbor with information across a wide range of temporal scales. These computations and time constants are more readily achieved in the electronic domain with circuits that can be engineered to perform complex functions rather than relying on material parameters, a point we revisit below.
+
+%Neural network using longitudinal modes of an injection laser with external feedback
+\cite{cosc1996}
+-Colack et al.
+-competition between modes in a laser cavity
+-``A new optical neural-network concept using the control of the modes of an injection laser by external feedback is described by a simple laser model. This approach uses the wavelength dispersed longitudinal modes of the laser as neurons and the amount of external feedback as connection weights.''
+-Simulations and experiments with GaAlAs injection lasers
+-``The inputs and connection weights to this laser neural network are provided by external masks which control the amount of feedback reaching the laser.''
+-stochastic learning employed
+-Winner-take-all and XOR operations are performed, depending on the mask
+-very high speed operation, measured in giga connections per second
+-``In this report, we focus on utilizing the longitudinal modes and obtain the desired nonlinearities in the frequency domain in a single laser, rather than the spatial domain.''
+-Summation and a sigmoidal activation function are modeled. In this case, the sigmoidal activation function provides a nonlinear response of the number of photons in mode $m$ as a function of the output power reflected back into cavity mode $m$.
+-The sigmoidal saturation is due to competition with other modes and is controlled with external masks.
+-This is in the steady state, not a model of spiking neurons
+
+%Optical mode neural network by use of the nonlinear response of a laser diode to external optical feedback 
+\cite{mosc1997}
+-Mos et al.
+-competition between modes in a laser cavity
+
+%Optical neuron by use of a laser diode with injection seeding and external optical feedback
+\cite{moho2000}
+-Mos et al.
+-All-optical neuron
+-multimode laser diode
+-inputs are applied and threshold is achieved in the optical domain, they cite Jutamulia \cite{juyu1996} regarding nonlinearity applied in electrical domain and consider optical thresholding one of the strengths of this work.
+-The shape of the threshold function is adjusted through external feedback
+-One of the two cavity modes corresponds to the output of the neuron, and when light is injected at this wavelength, it is an excitatory input
+-The other cavity mode competes for gain, so light injected at this wavelength accomplishes inhibition
+-Free-space optics are used
+-Envision wavelength conversion to turn laser output to inhibitory signal
+-Envision weighted interconnection between lasers using a free-space optical matrix vector multiplier and they cite Goodman 1978, Stanford architecture \cite{godi1978}
+-Again, amplitude of optical signal is weight
+-Also suggest a number of wavelength converters, pointing toward WDM inputs with the various wavelengths competing for gain: ``Due to mode competition only the wavelength with the highest amout of summed excitatory input will lase, suppressing laser action at any other wavelength.'' Similar work on winner-take-all competition in multimode laser cavities in \cite{cosc1996,mosc1997}
+
+%Synchronization of laser oscillators, associative memory, and optical neurocomputing
+\cite{hoiz2000}
+-Hoppensteadt and Izhikevich
+-Consider oscillatory neurons communicating via phases rather than amplitudes
+-``Memorized patterns correspond to synchronized states where the neurons oscillate with equal frequencies and with prescribed phase relations.''
+-``...motivated by the theoretical and experimental observations that cortical neurons are sensitive to the fine temporal structure (timing or phase) of the incoming pulse train.'' Such an idea would eventually lead to optical spiking neurons
+-theoretical study
+-assuming holographic interconnection medium
+
+
+%Tunable vertical-cavity surface-emitting laser with feedback to implement a pulsed neural model. 1. {P}rinciples and experimental demonstration
+\cite{rowa2007a}
+-Romariz and Wagner
+-companion paper to rowa2007b
+-good introduction to motivations for spike coding
+-``An optical approach with a potential impact on this field of research has to implement important dynamic aspects of these pulsing models in a simple setup, with the capacity for integration in large arrays. The pulsing optical neurons should easily combine optical and electrical input signals. The necessary nonlinearities should neither require high-power optics nor complex electronic circuitry. And it should be able to utilize the other key advantages of optical approaches including massive parallelism and global interconnection capabilities.''
+-Neurons similar to FitzHugh-Nagumo model
+-``The system employs the wavelength tunability of a semiconductor laser source, the nonlinear response (in wavelength) of a birefringence-based filter, and simple linear electronic feedback. Surprisingly, nonlinear dynamical behavior can be achieved with only linear optical and electronic components by using this mechanism of wavelength tunability.''
+-consider using Fig. 1
+-As opposed to utilizing nonlinear variation material properties with intensity, this work uses variation in laser wavelength. ``The fundamental idea behind this approach is that the intensity output of a spectrally selective linear optical system can vary nonlinearly with wavelength. If this modulated intensity is detected and the photocurrent is used to drive the electronic system that modulates the laser wavelength, complex nonlinear dynamics can result.''
+-``The wavelength variable was previously explored in a static ANN implementation in the work by Mos et al. \cite{moju2000}. Specifically, the authors explore the fact that the amount of power emitted by a laser diode in a particular wavelength varies nonlinearly with the amount of optical power seeded to the cavity in the same wavelength. Our approach is different, though, in the use of external linear electronic feedback only, whose parameters are easier to control.''
+-``The implementation described here is based on the concept of birefringent phase delay and its variation with wavelength.''
+-``...establish a feedback loop by using the detected signal as the input to the circuit that produces the driving current $i(t)$.'' Make comparison to using detected signal to drive MZI in photonic delay systems
+-Why don't we plan to make neurons this way? This approach with free-space optics and electrical feedback to bulk optical components is must less conducive to scaling that the approach with simple, pulsed, waveguide-integrated silicon LEDs and dense integration with basic superconducting electronic circuits. Our light levels are lower by orders of magnitude, and our approach does not hinge on the control and tuning of resonant frequencies of many coupled optical cavities or emission wavelengths of many coupled lasers
+-use single-mode VCSEL, consider incorporating Fig. 5. Fig. 5 demonstrates why such an approach is difficult to scale. Goes back to the basic challenges of scaling free-space optical devices. 
+-``In the regime explored here, the wavelength modulation mechanism is mainly thermal: current injection increases the temperature, and hence the index of refraction, as well as the cavity length through thermal expansion.''
+
+%Tunable vertical-cavity surface-emitting laser with feedback to implement a pulsed neural model. 2. {H}igh-frequency effects and optical coupling
+\cite{rowa2007b}
+-Romariz and Wagner
+-companion paper to rowa2007a
+-LiNbO$_3$ is birefringent crystal
+-VCSEL emisison demonstrates pulsing and bursting at 1.2\,MHz seen in simulation and experiments. However, output amplitude is not constant, indicating spikes are not binary communication events, and neuron output amplitude is convoluted with synaptic weights. The best way to deal with this is to utilize detectors that have an amplitude-independent response, and this precludes encoding synaptic weight in optical amplitude.
+-This paper shows coupling between two such neurons, referred to as sending and receiving circuits. Challenges to mutual coupling of many such neurons are discussed. Some of these challenges can be understood from the following comments: ``When optical coupling is allowed, the receiving circuit spikes are more frequent (but irregular, and not in one-to-one relationship to the sending circuit). Individual oscillator conditions are too different here to allow locking with weak coupling. The receiving circuit produced oscillations more easily, probably because of a smaller threshold of its VCSEL. A few adjustments in the optical feedback circuit were done to have similar dynamic conditions for both circuits. After that, the receiving circuit was biased to instability, and when coupling was established the waveform of the receiving circuits became much more regular.'' These challenges point to problems with device variations, requirements for critical biasing, and related challenges that preclude scaling to billions of interconnected neurons, even before challenges with bulk optics are considered. Challenges with bulk optics are summarized in the comment by the author: ``In combining more than one VCSEL, the most difficult part was guaranteeing the uniform collimation and alignment of all beams.'' This challenge was encountered with coupling two such devices. Coupling billions with modular, hierarchical graphs structures is infeasible with free-space coupling using bulk optics.
+-Pulsing in 1-5\,MHz range limited by thermal effects in VCSELs.
+
+%Optical neuron using polarisation switching in a 1550nm-VCSEL
+\cite{huhe2010}
+-Hurtado et al.
+-Uses two different polarizations, one for excitation and one for inhibition
+-solve none of the problems of rowa2017a and rowa2017b
+
+%A high performance photonic pulse processing device
+\cite{rokr2009}
+-Rosenbluth et al., Prucnal last author
+-initial paper before krro2011 demonstrating some of the desired neuron functions
+
+%Ultrafast all-optical implementation of a leaky integrate-and-fire neuron
+\cite{krro2011}
+-focused on enabling high speed, trying to simply go faster than VLSI approaches
+-follow on to \cite{rokr2009}
+-based on the metric of speed alone, the authors claim these neurons, ``significantly outperform VLSI circuit-based neurons,'' citing Ref.\,\onlinecite{voma2007}
+-leaky integrate-and-fire model
+-``The entire setup is based on fiber optic components operating in the 1550 nm telecommunication band.'' This work is an effort to employ concepts from fiber optic networks used in telecommunications for neural computing. While the hardware may be suited for the former application, it is not well suited to the latter.
+-all-optical thresholders
+-this approach has no potential for scaling due to fan in problems, power consumption, and general complexity of combining many components in fiber-optic apparatus, but the authors only seem to care about speed relative to CMOS neurons
+
+%excitability in a semiconductor laser with saturable absorber
+\cite{baku2011}
+-three classes of excitability: class 1-the frequency of self-oscillations is zero at the transition (or bifurcation) point, class 2-oscillations are born with nonzero frequency, class 3-excitability is related to a specific transition to Q-switch-like pulsing through a homoclinic bifurcation in lasers with SA
+-focus on class III excitability ``which arises as a competition between gain and saturable absorption in an incoherently pumped device.'' 
+-class III is particularly useful because pulses are very fast and coherence is not required
+-demonstration based on VCSEL (two InGaAs/AlGaAs quantum wells) grown with one more quantum well for a saturable absorber
+
+%A leaky integrate-and-fire laser neuron for ultrafast cognitive computing
+\cite{nash2013}
+-Nahmias et al. (Shastri, Tait, Prucnal)
+-Design of new laser
+-leaky integrate-and-fire model
+-based on VCSEL with integrated saturable absorber
+-similar design to baku2011
+
+%Solitary and coupled semiconductor ring lasers as optical spiking neurons
+\cite{coge2011}
+-Coomans et al
+-theoretical
+-semiconductor ring lasers
+-behavior very sensitive to phase of driving pulses relative to phase of field within cavity
+-two coupled rings simulated, phase and frequency sensitivity barriers to scaling
+
+%Investigation of vertical cavity surface emitting laser dynamics for neuromorphic photonic systems
+\cite{husc2012}
+-in short, utilization of cavity dynamics in semiconductor lasers does not offer the controllable functionality to be a promising computational primitive in neural systems. Yes, these devices do exhibit neuron-like nonlinearities and pulsing behavior on very fast timescales, but this does not mean they are scalable neural computing leading to cognitive systems.
+-they have high fan-out, but not high fan-in. for fan-in to a single mode device, all inputs must be coupled to that mode. 
+-like their previous work (\cite{huhe2010}), they use polarization switching in VCSELs
+-laser nonlinear dynamics result from carrier-photon coupling and lead to highly complex behaviors that are not easily controlled or tuned
+
+%Excitability in optically injected microdisk lasers with phase controlled excitatory and inhibitory response
+\cite{alva2013}
+-Ghent/Bienstman
+-make comparison to pulsing si microrings used for reservoir computing
+-demonstrate class I excitability in optically injected microdisk lasers and propose a possible optical spiking neuron design
+-threshold and integrating behavior
+-optical phase control can be used to generate inhibitory response
+-input pulse power around 1uW for 0.2 ns for threshold
+-no transfer of excitation between disks demonstrated
+
+%Relative refractory period in an excitable semiconductor laser
+\cite{sebr2014}
+-Selmi et al.
+-``neuronlike excitable behavior in a micropillar laser with saturable absorber.''
+-``Under a double pulsed excitation we study the absolute and relative refractory periods...and interpret the results in terms of a dynamical inhibition mediated by the carrier dynamics.''
+-emphasize the motivation is speed relative to biology and electronics
+-optically pumped micropillar laser with active and passive zones, passive zone for saturable absorber, InGaAs/AlGaAs quantum wells
+-pulse perturbation on the order of 10\,nJ. this plays the role of a synapse event. 50 billion photons
+-as with all excitable laser systems, the device is biased to be close to lasing threshold, in this case with an optical pump. The excitable threshold disappears if the pump is too weak.
+-find an absolute refractory period of 150\,ps and a relative refractive period out to 350\,ps as the injected carrier concentration returns
+-there is not a straightforward means to adjust this refractory period without changing biasing conditions, i.e., refractory period cannot be tuned independently of threshold; it is determined by carrier physics in the semiconductor
+
+%temporal summation in a neuromimetic micropillar laser
+\cite{sebr2015}
+-Selmi et al.
+-Related to \cite{sebr2014}
+-same experimental platform as \cite{sebr2014} (micropillar laser)
+-Focus of this article is on temporal summation
+-``Temporal summation refers to the ability of the system to integrate different, potentially delayed, presynaptic stimuli, and to emit a spike if the integration of the inputs exceeds the excitable threshold.''
+-integration window determined by the time constant of the leak
+-``...we investigate the response of a micropillar laser with an integrated saturable absorber to subthreshold stimuli and show that the system can integrate the stimuli and emit an excitable spike if the stimuli are close enough in time.''
+-The micropillar laser is biased close to threshold, and two pulses (amplitudes of 74\% and 80\% of excitable threshold) are input with variable delay $\delta$
+-The integration time is on the order of hundreds of picoseconds, again set by carrier dynamics. There does not appear to be a way to tune this value to give longer integration times or different integration times at different neurons or synapses
+-both refraction and integration occur on few-hundred-picosecond timescale, and this cannot be chosen in design over a broad range
+-amplitude of response convolutes input amplitude and delay between two pulses--communication not binary
+
+%Controllable spiking patterns in long-wavelength vertical cavity surface emitting lasers for neuromorphic photonics systems
+\cite{huja2015}
+-Hurtado and Javaloyes
+-1310\,nm VCSELs
+-Multiple controllable spiking patterns are achieved in a 1310 in response to injection of two different polarizations
+-``reproducible spiking responses are demonstrated experimentally at sub-nanosecond speed resolution and with a controlled number of spikes fired.''
+-bursts are demonstrated, but no means is proposed for how to engineer receivers to be selective only to bursts with a given repetition rate, as is done in biological neurons based on short-term plasticity at synapses
+-different spike response patterns are generated based on external pumping with an optical signal with controlled temporal perturbations.
+-``We demonstrate that the porperties of the achieved spiking responses (e.g., number of spikes fired and total temporal length of the generated pattern) can be controlled at will by acting on the characteristics of the pertubations induced in the optically injected signal (e.g., intensity and duration).''
+-pump injection levels 45\,\textmu W and higher in design, 60\,\textmu W and higher in practice
 
 %artificial neuron based on integrated semiconductor quantum dot mode-locked lasers
 \cite{meka2016}
@@ -300,16 +484,13 @@ While the goal of these efforts in excitable lasers is to perform neuro-inspired
 -they want to avoid utilizing inhibition in the electronic domain because it is too complex
 -the scheme does not lend itself to dense integration and scaling, perhaps possible up to a few neurons
 
-%Ultrafast all-optical implementation of a leaky integrate-and-fire neuron
-\cite{krro2011}
+
+
 
 %Recent progress in semiconductor excitable lasers for photonic spike processing
 \cite{prsh2016}
 -big review article by Prucnal et al
 -72 pages, you have not read this. likely redundant with book
-
-%A leaky integrate-and-fire laser neuron for ultrafast cognitive computing
-\cite{nash2013}
 
 %SIMPEL: Circuit model for photonic spike processing laser neurons
 \cite{shna2015}
@@ -317,41 +498,98 @@ While the goal of these efforts in excitable lasers is to perform neuro-inspired
 
 %Spike processing with a graphene excitable laser
 \cite{shna2016}
+-Shastri et al. from Prucnal's group
+-claim to be ``the first unified, experimental demonstration of low-level spike processing functions in an optical platform.''
+-claim to demonstrate: logic-level restoration, cascadability, and input-output isolation
+-``We include a simulation model that explains all of the observed behaviors: integration, thresholding, refractoriness, and pulse generation.''
+-propose small, integrated device, but only demonstrate a fiber version
+-``Research advances in graphene microfabrication may make it a standard technology accessible in integrated laser platforms, which, together with a suitable networking platform, could lead to a scalable platform for optical computing.''
+-experimental system ``based on a graphene fiber ring laser platform.''
+-``The fiber ring laser contains an erbium doped fiber amplifier (gain sections) and liquid exfoliated graphene (absorber section), interacting with one another in a fiber ring (cavity). The ring laser pulses periodically if driven above a threshold, modulated by the passive saturation of graphene absorption.''
+-``The integrated device contains electrically pumped quantum wells (gain section), two sheets of graphene (absorber section), and a distributed feedback-grating (section).'' this last parentheses must have a typo in the paper. makes no sense
+-``In this design, we consider a hybrid silicon III-V laser platform in which the graphene layers are sandwiched in between the silicon and III-V layers. The hybrid III-V platform is highly scalable and amenable to both passive and active photonic integration.'' It is not clear what supports this claim of scalablility.
+-``Excitability is defined by three main criteria: (i) an unperturbed system rests at a stable equilibrium; (ii) a perturbation above the excitability threshold triggers a large excursion from this equilibrium; and (iii) the system then settles back to the attractor in what is called the refractory period, after which the system can be excited again.''
+-``In this system, an excitatory pulse increases the carrier concentration within the gain region by an amount proportional to its energy (integrated power) through gain enhancement. Beyond some threshold excitation energy, the absorber is saturated, resulting in the release of a pulse. This is followed by a relative refractory period during which the arrival of a second excitatory pulse is unable to cause the laser to fire as the gain recovers.''
+-how is inhibition implemented?
+-single mode laser; how is optical fan-in implemented?
+-they acknowledge spiking is analog in time, but digital in amplitude, yet the amplitude of input spikes affects response, and thus encodes information
+-bursting with inter-spike intervals on the order of 10s of microseconds
+-The erbium-doped section is pumped continuously to keep it close to threshold. This is a primary reason for extraordinary power inefficiency, requiring hundreds of milliwatts even in the steady state (\cite{shna2016}, supplementary information and \cite{prsh2017}, pg. 101).
+-primary weaknesses: 1) laser requires biasing close to lasing threshold, constantly dissipating power, which makes neuron threshold depend on critical biasing and results in far too much power consumption; 2) fiber-based approach has no hope for scaling, while integrated approach requires graphene sandwiched between Si and III-V, as if just Si to III-V wasn't hard enough; 3) if lasers are single mode, fan-in is impossible, and phases of inputs interfere; 4) spiking neurons aspire to have binary communication events, meaning the response of the receiving element should be independent of the amplitude of the input spike, but whether or not an exictable laser reaches threshold depends entirely on the amplitudes of the incoming communication events, and information is encoded in the height of pulses as well as their timing; 5) there does not appear to be a means of implementing inhibition; 6) because laser cavity is resonant, all neurons must be tuned.
 
-%Controllable spiking patterns in long-wavelength vertical cavity surface emitting lasers for neuromorphic photonics systems
-\cite{huja2015}
-
-%Excitability in optically injected microdisk lasers with phase controlled excitatory and inhibitory response
-\cite{alva2013}
--Ghent/Bienstman
--make comparison to pulsing si microrings used for reservoir computing
--demonstrate class I excitability in optically injected microdisk lasers and propose a possible optical spiking neuron design
--threshold and integrating behavior
--optical phase control can be used to generate inhibitory response
--input pulse power around 1uW for 0.2 ns for threshold
--no transfer of excitation between disks demonstrated
-
-%Optical neuron using polarisation switching in a 1550nm-{VCSEL}
-\cite{huhe2010}
-
-%Solitary and coupled semiconductor ring lasers as optical spiking neurons
-\cite{coge2011}
-
-\vspace{3em}
 %Ultrafast photonic reinforcement learning based on laser chaos
 \cite{nate2017}
 -application specific to a particular reinforcement learning problem
 -using laser chaos as a source of randomness that outperforms pseudorandom number generators
+
+%Controllable spiking patterns in long-wavelength vertical cavity surface emitting lasers for neuromorphic photonics systems
+\cite{huja2015}
 
 %Reconfigurable semiconductor laser networks based on diffractive coupling
 \cite{brfi2015}
 -provide a means to couple many semiconductor lasers
 -8x8 array of single-mode VCSELs, square lattice, pitch of 250um
 
-\subsubsection{Phase Change Materials for Synaptic Weighting and Neural Thresholding}
+%---------------------------
+%misc notes for this section
+%---------------------------
+-with any all-optical platform, communication and computation are based on optical signals. amplitude of communicated signals encodes weight.
+-in neuron designs utilizing optical nonlinearities in single-mode structures, all-optical fan-in can only be implemented with low loss if different frequencies are used for each input, and spectral add-drop multiplexing is employed. This leads to the limitations in connectivity we have discussed. For this reason, designs utilizing optical fan-in to single-mode devices can be ruled out as components in highly scalable neural architectures.
+%---------------------------
+%end misc notes for this section
+%---------------------------
+
+\subsubsection{Phase-Change Materials for Synaptic Weighting and Neural Thresholding}
 One technique for establishing synaptic weights between neurons signaling with light is to leverage phase-change materials \cite{chri2017}. Such materials have the property that the coefficient of optical absorption is different between the two phases. Therefore, a variable attenuator can be devised wherein the crystallization state of a small patch of phase-change material integrated on a waveguide determines how many photons are transmitted through the synapse. Reference \cite{chri2017} showed that such a synapse could be used to implement a form of Hebbian learning, wherein two pulses incident closely in time could strengthen the synaptic weight by adjusting the crystallinity of the material and reducing absorption. 
 
-Such Hebbian update in this system represents a novel route toward synaptic weighting in photonic neural systems. Unfortunately, the material studied in Ref.\,\cite{chri2017} requires billions of photons for Hebbian update, thereby exceeding the communication energy limit of a single photon by at least nine orders of magnitude. Additionally, the patch of phase-change material has no way of keeping track of the order in time or even the source of input pulses, so anti-Hebbian synaptic weakening cannot be achieved, and a route to full STDP has not been proposed. 
+Such Hebbian update in this system represents a novel route toward synaptic weighting in photonic neural systems. Unfortunately, the material studied in Ref.\,\cite{chri2017} requires billions of photons for Hebbian update, thereby exceeding the communication energy limit of a single photon by at least nine orders of magnitude. Additionally, the patch of phase-change material has no way of keeping track of the order in time or even the source of input pulses. The proposed route to full STDP utilizes a circulator and interferometer at each synapse and appears far too complicated to be implemented at each synapse in a large system. 
+
+%Toward fast neural computing using all-photonic phase change spiking neurons
+\cite{chsa2018}
+-Chakraborty et al.
+-proposes concept to use phase change material for spiking neuron
+-phase required to implement inhibition, so coherence is required and phases of all input synapses to a given neuron need to be precisely controlled relative to each other. simply unworkable in large systems
+-propose firing action based on a photonic amplifier, a circulator, and a waveguide with a phase-change element on top initially in crystalline (absorptive) phase
+-on a clock, the read and write phases for the integration unit and firing unit alternate in successive cycles
+-clock based operation eliminates nearly all information-processing benefits of spike-based processing in cognitive systems
+-neuronal firing must be accompanied by a reset pulse to reset the state of all devices, including the phase-change material, to their original state. it is essentially a latching device that a separate reset step
+
+%A photonic-in memory
+\cite{chsa2019}
+-propose use of phase-change material for thresholding in optical neurons
+-seemingly the same as 2018 paper
+-basic idea is that a waveguide with a phase change material is initially opaque. light from synapses, if bright enough, can cause pcm to switch phase, becoming transparent. then the light from the synapses passes through, potentially with amplification
+
+%All-optical spiking neurosynaptic networks with self-learning capabilities
+\cite{feyo2019}
+-Feldmann et al.
+-Phase-change materials provide variable attenuation
+-This requires information to be encoded in optical amplitude, so communication cannot be binary, and neuron output amplitude is convoluted with synaptic weight
+-input pulses use WDM to fan in
+-Each neuron is a ring resonator ``with its own integrated PCM cell that can be switched...by incoming combined pulses,'' thereby shifting the resonance and loss
+-Temporal duration of integration determined by thermal relaxation time of phase change material
+-requires precise frequency tuning of synaptic as well as neuronal elements, as resonance plays a role in synaptic fan-in (WDM) and neuronal thresholding
+-synaptic ring resonators don't attenuate as in Tait's concept, but rather just by absorption in PCM
+-all light coupled on and off chip with grating couplers, no source integration
+-SiN waveguides
+-four input wavelengths demonstrated here
+-if the combined input power is high enough to switch the neuronal PCM cell, the PCM becomes transparent, and the light is allowed to pass through
+-unlike a neuron, the amplitude of the output depends on the amplitude of the input. there is no gain in the neuron, and reaching threshold only means the inputs are allowed to pass, not that a separate pulse is generated. thus, there is no logic-level restoration
+-threshold is 430\,pJ (three billion photons)
+-operation is clocked, and each neuron must be manually reset after each spike event
+-the clock rate was not given
+-operation on a clock completely misses the point of spiking operation
+-``Although individual PCM devices in endurance experiments have already shown $10^{12}$ switching cycles \cite{}, further improvements in material design and device engineering are needed for high-speed and long-term switching operation.''
+-even if those improvements occur, these concepts are deeply flawed.
+-supervised and unsupervised learning
+-four-pixel inputs
+-neuron is operated in a clocked way
+-unsupervised learning approach can only weaken synaptic weights and requires synaptic inputs and neuronal outputs to overlap in time with no temporal correlation window, pointing to the benefits that could be gained by integration with electronic circuits
+-in a layered architecture, gain is added, in this case artificially through a grating coupler from an off-chip light source
+-each layer requires WDM MUX and DEMUX, so number of neurons in a layer is limited by DWDM
+-need one ring resonator per synapse
+-in layer demonstration, the collector is implemented off-chip using fiber based WDM compoents.
+-inhibition not mentioned 
 
 
 \subsubsection{Wavelength-Division Multiplexing for Routing and Synaptic Weighting} 
@@ -446,9 +684,6 @@ When using light for computing in addition to communication in neural systems, i
 %Neuromorphic Photonic Integrated Circuits IEEE JSTQE
 \cite{pena2018} 
 
-%Toward fast neural computing using all-photonic phase change spiking neurons
-\cite{chsa2018}
-
 %Progress in neuromorphic photonics
 \cite{fesh2017}
 
@@ -458,22 +693,14 @@ When using light for computing in addition to communication in neural systems, i
 %High-speed all-optical pattern recognition of dispersive fourier images through a photonic reservoir computing subsystem
 \cite{mebo2015}
 
-%Machine Learning with Neuromorphic Photonics
-\cite{lipe2019}
-
 %A silicon photonic modulator neuron
-\cite{tafe2018}
+\cite{tafe2019}
 
 %A high performance photonic pulse processing device
 \cite{rokr2009}
 
 %other
 
-%An all-optical neuron with sigmoid activation function
-\cite{mots2019}
--WDM input and weighting scheme
--logistic sigmoid activation function realized with a ``deeply-saturated differentially-biased Semiconductor Optical Amplifier-Mach-Zehnder Interferometer (SOA-MZI) followed by a SOA-Cross-Gain-Modulation (XGM) gate.''
--the goal seems to be a very close fit with a sigmoid, no matter the cost
 
 \vspace{3em}
 Did you emphasize that the Stanford architecture intended to utilize incoherent LEDs, as did the first optical neural nets by Psaltis et al?

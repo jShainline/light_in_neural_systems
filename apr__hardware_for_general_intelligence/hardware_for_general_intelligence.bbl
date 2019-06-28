@@ -1184,6 +1184,16 @@ G.~Moagar-Poladian.
 \newblock Reconfigurable optical neuron based on photoelectret materials.
 \newblock {\em Applied Optics}, 39:782, 2000.
 
+\bibitem{waps1993}
+K.~Wagner and D.~Psaltis.
+\newblock Optical neural networks: an introduction by the feature editors.
+\newblock {\em Applied Optics}, 32:1261, 1993.
+
+\bibitem{nioh1993}
+Y.~Nitta, J.~Ohta, S.~Tai, and K.~Kyuma.
+\newblock Optical learning neurochip with internal analog memory.
+\newblock {\em Applied Optics}, 32:1264, 1993.
+
 \bibitem{buma2018}
 J.~Bueno, S.~Maktoobi, L.~Froehly, I.~Fischer, M.~Jacquot, L.~Larger, and
   D.~Brunner.
@@ -1269,6 +1279,12 @@ W.D. Sacher, J.C. Mikkelsen, P.~Dumais, J.~Jiang, D.~Goodwill, X.~Luo,
 \newblock Tri-layer silicon nitride-on-silicon photonic platform for
   ultra-low-loss crossings and interlayer transitions.
 \newblock {\em Opt. Express}, 25:30862, 2017.
+
+\bibitem{mots2019}
+G.~Mourgias-Alexandris, A.~Tsakyridis, N.~Passalis, A.~Tefas, K.~Vyrsokinos,
+  and N.~Pleros.
+\newblock An all-optical neuron with sigmoid activation function.
+\newblock {\em Opt. Express}, 27:9620, 2019.
 
 \bibitem{luja2009}
 M.~Luko\v{s}evi\v{c}ius and H.~Jaeger.
@@ -1393,11 +1409,77 @@ J.L.A. Dubbeldam, B.~Krauskopf, and D.~Lenstra.
   absorber.
 \newblock {\em Phys. Rev. E}, 60:6580, 1999.
 
-\bibitem{meka2016}
-C.~Mesaritakis, A.~Kapsalis, A.~Bogris, and D.~Syvridis.
-\newblock Artificial neuron based on integrated semiconductor quantum dot
-  mode-locked lasers.
-\newblock {\em Sci. Rep.}, 6:39317, 2018.
+\bibitem{cosc1996}
+S.B. Colak, J.J.H.B. Schleipen, and C.T.H. Liedenbaum.
+\newblock Neural network using longitudinal modes of an injection laser with
+  external feedback.
+\newblock {\em IEEE Trans. Neural Networks}, 7:1389, 1996.
+
+\bibitem{mosc1997}
+E.C. Mos, J.J.H.B.~Schleipen an~H.~de Waardt, and G.D. Khoe.
+\newblock Optical mode neural network by use of the nonlinear response of a
+  laser diode to external optical feedback.
+\newblock {\em Appl. Opt.}, 36:6654, 1997.
+
+\bibitem{moho2000}
+E.C. Mos, J.J.L. Hoppenbrouwers, M.T. Hill, M.W. Bl\"{u}m, J.J.H.B. Schleipen,
+  and H.~de~Waardt.
+\newblock Optical neuron by use of a laser diode with injection seeding and
+  external optical feedback.
+\newblock {\em IEEE Trans. Neural Networks}, 11:988, 2000.
+
+\bibitem{hoiz2000}
+F.C. Hoppensteadt and E.M. Izhikevich.
+\newblock Synchronization of laser oscillators, associative memory, and optical
+  neurocomputing.
+\newblock {\em Phys. Rev. E}, 62:4010, 2000.
+
+\bibitem{rowa2007a}
+A.R.S. Romariz and K.H. Wagner.
+\newblock Tunable vertical-cavity surface-emitting laser with feedback to
+  implement a pulsed neural model. 1. {P}rinciples and experimental
+  demonstration.
+\newblock {\em Applied Optics}, 46:4736, 2007.
+
+\bibitem{rowa2007b}
+A.R.S. Romariz and K.H. Wagner.
+\newblock Tunable vertical-cavity surface-emitting laser with feedback to
+  implement a pulsed neural model. 2. {H}igh-frequency effects and optical
+  coupling.
+\newblock {\em Applied Optics}, 46:4746, 2007.
+
+\bibitem{huhe2010}
+A.~Hurtado, I.D. Henning, and M.J. Adams.
+\newblock Optical neuron using polarisation switching in a 1550nm-{VCSEL}.
+\newblock {\em Opt. Express}, 18:25170, 2010.
+
+\bibitem{rokr2009}
+D.~Rosenbluth, K.~Kravtsov, M.P. Fok, and P.R. Prucnal.
+\newblock A high performance photonic pulse processing device.
+\newblock {\em Opt. Express}, 17:22767, 2009.
+
+\bibitem{voma2007}
+R.J. Vogelstein, U.~Mallik, J.T. Vogelstein, and G.~Cauwenberghs.
+\newblock Dynamically reconfigurable silicon array of spiking neurons with
+  conductance-based synapses.
+\newblock {\em IEEE Trans. Neural Networks}, 18:253, 2007.
+
+\bibitem{baku2011}
+S.~Barbay, R.~Kuszelewicz, and A.M. Yacomotti.
+\newblock Excitability in a semiconductor laser with saturable absorber.
+\newblock {\em Opt. Lett.}, 36:4476, 2011.
+
+\bibitem{nash2013}
+M.A. Nahmias, B.J. Shastri, A.N. Tait, and P.R. Prucnal.
+\newblock A leaky integrate-and-fire laser neuron for ultrafast cognitive
+  computing.
+\newblock {\em IEEE J. Sel. Top. Quant. Electron.}, 19:1800212, 2013.
+
+\bibitem{coge2011}
+W.~Coomans, L.~Gelens, S.~Beri, J.~Danckaert, and G.~Van der Sande.
+\newblock Solitary and coupled semiconductor ring lasers as optical spiking
+  neurons.
+\newblock {\em Phys. Rev. E}, 84:036209, 2011.
 
 \bibitem{alva2013}
 K.~Alexander, T.~Van Vaerenbergh, M.~Fiers, P.~Mechet, J.~Dambre, and
@@ -1406,17 +1488,33 @@ K.~Alexander, T.~Van Vaerenbergh, M.~Fiers, P.~Mechet, J.~Dambre, and
   controlled excitatory and inhibitory response.
 \newblock {\em Opt. Express}, 21:26182, 2013.
 
+\bibitem{sebr2014}
+F.~Selmi, R.~Braive, G.~Beaudoin, I.~Sagnes, R.~Kuszelewicz, and S.~Barbay.
+\newblock Relative refractory period in an excitable semiconductor laser.
+\newblock {\em Phys. Rev. Lett.}, 112:183902, 2016.
+
+\bibitem{sebr2015}
+F.~Selmi, R.~Braive, G.~Beaudoin, I.~Sagnes, R.~Kuszelewicz, and S.~Barbay.
+\newblock Temporal summation in a neuromimetic micropillar laser.
+\newblock {\em Opt. Lett.}, 40:5690, 2015.
+
+\bibitem{huja2015}
+A.~Hurtado and J.~Javaloyes.
+\newblock Controllable spiking patterns in long-wavelength vertical cavity
+  surface emitting lasers for neuromorphic photonics systems.
+\newblock {\em Appl. Phys. Lett.}, 107:241103, 2015.
+
+\bibitem{meka2016}
+C.~Mesaritakis, A.~Kapsalis, A.~Bogris, and D.~Syvridis.
+\newblock Artificial neuron based on integrated semiconductor quantum dot
+  mode-locked lasers.
+\newblock {\em Sci. Rep.}, 6:39317, 2018.
+
 \bibitem{prsh2016}
 P.R. Prucnal, B.J. Shastri, T.~Ferreira de~Lima, M.A. Nahmias, and A.N. Tait.
 \newblock Recent progress in semiconductor excitable lasers for photonic spike
   processing.
 \newblock {\em Advances in Optics and Photonics}, 8:228, 2016.
-
-\bibitem{nash2013}
-M.A. Nahmias, B.J. Shastri, A.N. Tait, and P.R. Prucnal.
-\newblock A leaky integrate-and-fire laser neuron for ultrafast cognitive
-  computing.
-\newblock {\em IEEE J. Sel. Top. Quant. Electron.}, 19:1800212, 2013.
 
 \bibitem{shna2015}
 B.J. Shastri, M.A. Nahmias, A.N. Tait, B.~Wu, and P.R. Prucnal.
@@ -1428,23 +1526,6 @@ B.J. Shastri, M.A. Nahmias, A.N. Tait, A.W. Rodriguez, B.~Wu, and P.R. Prucnal.
 \newblock Spike processing with a graphene excitable laser.
 \newblock {\em Nature Sci. Rep.}, 6:19126, 2016.
 
-\bibitem{huja2015}
-A.~Hurtado and J.~Javaloyes.
-\newblock Controllable spiking patterns in long-wavelength vertical cavity
-  surface emitting lasers for neuromorphic photonics systems.
-\newblock {\em Appl. Phys. Lett.}, 107:241103, 2015.
-
-\bibitem{huhe2010}
-A.~Hurtado, I.D. Henning, and M.J. Adams.
-\newblock Optical neuron using polarisation switching in a 1550nm-{VCSEL}.
-\newblock {\em Opt. Express}, 18:25170, 2010.
-
-\bibitem{coge2011}
-W.~Coomans, L.~Gelens, S.~Beri, J.~Danckaert, and G.~Van der Sande.
-\newblock Solitary and coupled semiconductor ring lasers as optical spiking
-  neurons.
-\newblock {\em Phys. Rev. E}, 84:036209, 2011.
-
 \bibitem{nate2017}
 M.~Naruse, Y.~Terashima, A.~Uchida, and S.-J. Kim.
 \newblock Ultrafast photonic reinforcement learning based on laser chaos.
@@ -1454,6 +1535,18 @@ M.~Naruse, Y.~Terashima, A.~Uchida, and S.-J. Kim.
 Z.~Cheng, C.~Rios, W.H.P. Pernice, C.D. Wright, and H.~Bhaskaran.
 \newblock On-chip photonic synapse.
 \newblock {\em Science Advances}, 3:1700160, 2017.
+
+\bibitem{chsa2018}
+I.~Chakraborty, G.~Saha, A.~Sengupta, and K.~Roy.
+\newblock Toward fast neural computing using all-photonic phase change spiking
+  neurons.
+\newblock {\em Scientific Reports}, 8:12980, 2018.
+
+\bibitem{chsa2019}
+I.~Chakraborty, G.~Saha, and K.~Roy.
+\newblock Photonic in-memory computing primitive for spiking neural networks
+  using phase-change materials.
+\newblock {\em Phys. Rev. Applied}, 11:014063, 2019.
 
 \bibitem{tana20142}
 A.N. Tait, M.A. Nahmias, B.J. Shastri, and P.R. Prucnal.
@@ -1472,6 +1565,12 @@ A.N. Tait, J.~Chang, B.J. Shastri, M.A. Nahmias, and P.R. Prucnal.
 \newblock Demonstration of wdm weighted addition for principal component
   analysis.
 \newblock {\em Opt. Express}, 23:12758, 2015.
+
+\bibitem{tafe2019}
+A.N. Tait, T.~Ferreira de~Lima, M.A. Nahmias, H.B. Miller, H.-T. Peng, B.J.
+  Shastri, and P.R. Prucnal.
+\newblock A silicon photonic modulator neuron.
+\newblock {\em Phys. Rev. Applied}, 11:064043, 2019.
 
 \bibitem{vlmc2004}
 Y.A. Vlasov and S.J. McNab.
@@ -1525,12 +1624,6 @@ H.-T. Peng, M.A. Nahmias, T.~Ferreira de~Lima, A.N. Tait, B.J. Shastri, and
 \newblock Neuromorphic {P}hotonic {I}ntegrated {C}ircuits.
 \newblock {\em IEEE J. Sel. Topics Quant. Electron.}, 24:6101715, 2018.
 
-\bibitem{chsa2018}
-I.~Chakraborty, G.~Saha, A.~Sengupta, and K.~Roy.
-\newblock Toward fast neural computing using all-photonic phase change spiking
-  neurons.
-\newblock {\em Scientific Reports}, 8:12980, 2018.
-
 \bibitem{fesh2017}
 T.~Ferreira de~Lima, B.J. Shastri, A.N. Tait, M.A. Nahmias, and P.R. Prucnal.
 \newblock Progress in neuromorphic photonics.
@@ -1546,29 +1639,6 @@ C.~Mesaritakis, A.~Bogris, A.~Kapsalis, and D.~Syvridis.
 \newblock High-speed all-optical pattern recognition of dispersive fourier
   images through a photonic reservoir computing subsystem.
 \newblock {\em Opt. Lett}, 40:3416, 2015.
-
-\bibitem{lipe2019}
-T.~Ferreira de~Lima, H.-T. Peng, A.N. Tait, M.A. Nahmias, H.B. Miller, B.J.
-  Shastri, and P.R. Prucnal.
-\newblock Machine learning with neuromorphic photonics.
-\newblock {\em J. Lightwave Technol.}, 37:1515, 2019.
-
-\bibitem{tafe2018}
-A.N. Tait, T.~Ferreira de~Lima, M.A. Nahmias, H.B. Miller, H.-T. Peng, B.J.
-  Shastri, and P.R. Prucnal.
-\newblock A silicon photonic modulator neuron.
-\newblock {\em arXiv}, page 1812.11898, 2018.
-
-\bibitem{rokr2009}
-D.~Rosenbluth, K.~Kravtsov, M.P. Fok, and P.R. Prucnal.
-\newblock A high performance photonic pulse processing device.
-\newblock {\em Opt. Express}, 17:22767, 2009.
-
-\bibitem{mots2019}
-G.~Mourgias-Alexandris, A.~Tsakyridis, N.~Passalis, A.~Tefas, K.~Vyrsokinos,
-  and N.~Pleros.
-\newblock An all-optical neuron with sigmoid activation function.
-\newblock {\em Opt. Express}, 27:9620, 2019.
 
 \bibitem{bu1956}
 D.A. Buck.
