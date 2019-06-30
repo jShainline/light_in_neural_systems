@@ -189,6 +189,11 @@ M.~Bota, O.~Sporns, and L.W. Swanson.
   underlying cognition.
 \newblock {\em PNAS}, page E2093, 2015.
 
+\bibitem{si1962}
+H.A. Simon.
+\newblock The {A}rchitecture of {C}omplexity.
+\newblock {\em Proc. Amer. Phil. Soc.}, 106:467, 1962.
+
 \bibitem{bagr2010}
 D.S. Bassett, D.L. Greenfield, A.~Meyer-Lindenberg, D.R. Weinberger, S.W.
   Moore, and E.T. Bullmore.
@@ -784,6 +789,18 @@ T.~Pfeil, A.~Grubl, and K.~Meier.
 S.B. Furber, F.~Galluppi, S.~Temple, and L.A. Plana.
 \newblock The spinnaker project.
 \newblock {\em Proceedings of the IEEE}, 102:652, 2014.
+
+\bibitem{inch2006}
+G.~Indiveri, E.~Chicca, and R.~Douglas.
+\newblock A vlsi array of low-power spiking neurons and bistable synapses with
+  spike-timing dependent plasticity.
+\newblock {\em IEEE Trans. Neural Networks}, 17:211, 2006.
+
+\bibitem{voma2007}
+R.J. Vogelstein, U.~Mallik, J.T. Vogelstein, and G.~Cauwenberghs.
+\newblock Dynamically reconfigurable silicon array of spiking neurons with
+  conductance-based synapses.
+\newblock {\em IEEE Trans. Neural Networks}, 18:253, 2007.
 
 \bibitem{mi2017}
 D.A.B. Miller.
@@ -1458,12 +1475,6 @@ D.~Rosenbluth, K.~Kravtsov, M.P. Fok, and P.R. Prucnal.
 \newblock A high performance photonic pulse processing device.
 \newblock {\em Opt. Express}, 17:22767, 2009.
 
-\bibitem{voma2007}
-R.J. Vogelstein, U.~Mallik, J.T. Vogelstein, and G.~Cauwenberghs.
-\newblock Dynamically reconfigurable silicon array of spiking neurons with
-  conductance-based synapses.
-\newblock {\em IEEE Trans. Neural Networks}, 18:253, 2007.
-
 \bibitem{baku2011}
 S.~Barbay, R.~Kuszelewicz, and A.M. Yacomotti.
 \newblock Excitability in a semiconductor laser with saturable absorber.
@@ -1577,46 +1588,6 @@ Y.A. Vlasov and S.J. McNab.
 \newblock Losses in single-mode silicon-on-insulator strip waveguides and
   bends.
 \newblock {\em Opt. Express}, 12:1622, 2004.
-
-\bibitem{li2005}
-M.~Lipson.
-\newblock Guiding, modulating, and emitting light on silicon-challenges and
-  opportunities.
-\newblock {\em J. Lightwave Technology}, 23:4222, 2005.
-
-\bibitem{libo2010}
-D.~Liang and J.E. Bowers.
-\newblock Recent progress in lasers on silicon.
-\newblock {\em Nature Photonics}, 4:511, 2010.
-
-\bibitem{zhyi2015}
-Z.~Zhou, B.~Yin, and Jurgen Michel.
-\newblock On-chip light sources for silicon photonics.
-\newblock {\em Light: science and applications}, 4:e358, 2015.
-
-\bibitem{da1989}
-Gordon Davies.
-\newblock The optical properties of luminescence centres in silicon.
-\newblock {\em Physics Reports}, 176:83--188, 1989.
-
-\bibitem{zhdo2019}
-Y.~Zhou, W.~Dou, W.~Du, S.~Ojo, H.~Tran, S.A. Ghetmiri, J.~Liu, G.~Sun,
-  R.~Soref, J.~Margetis, J.~Tolle, B.~Li, Z.~Chen, M.~Mortasavi, and S.-Q. Yu.
-\newblock Optically pumped {GeSn} lasers operating at 270 k with broad
-  waveguide structures on si.
-\newblock {\em ACS Photonics}, 6:1434, 2019.
-
-\bibitem{enpo1985}
-H.~Ennen, G.~Pomrenke, A.~Axmann, K.~Eisele, W.~Haydl, and J.~Schneider.
-\newblock 1.54 $\mu$ m electroluminescence of erbium-doped silicon grown by
-  molecular beam epitaxy.
-\newblock {\em Appl. Phys. Lett.}, 46:381, 1985.
-
-\bibitem{brha1986}
-T.G. Brown and D.G. Hall.
-\newblock Observation of electroluminescence from excitons bound to
-  isoelectronic impurities in crystalline silicon.
-\newblock {\em J. Appl. Phys.}, 59:1399, 1986.
 
 \bibitem{pena2018}
 H.-T. Peng, M.A. Nahmias, T.~Ferreira de~Lima, A.N. Tait, B.J. Shastri, and
@@ -1900,6 +1871,46 @@ D.~Huang, T.~Sze, A.~Landin, R.~Lytel, and H.L. Davidson.
 J.~Wang and Y.~Long.
 \newblock {On-chip silicon photonic signaling and processing: a review}.
 \newblock {\em Science Bulletin}, 63(19):1267--1310, oct 2018.
+
+\bibitem{enpo1985}
+H.~Ennen, G.~Pomrenke, A.~Axmann, K.~Eisele, W.~Haydl, and J.~Schneider.
+\newblock 1.54 $\mu$ m electroluminescence of erbium-doped silicon grown by
+  molecular beam epitaxy.
+\newblock {\em Appl. Phys. Lett.}, 46:381, 1985.
+
+\bibitem{brha1986}
+T.G. Brown and D.G. Hall.
+\newblock Observation of electroluminescence from excitons bound to
+  isoelectronic impurities in crystalline silicon.
+\newblock {\em J. Appl. Phys.}, 59:1399, 1986.
+
+\bibitem{li2005}
+M.~Lipson.
+\newblock Guiding, modulating, and emitting light on silicon-challenges and
+  opportunities.
+\newblock {\em J. Lightwave Technology}, 23:4222, 2005.
+
+\bibitem{libo2010}
+D.~Liang and J.E. Bowers.
+\newblock Recent progress in lasers on silicon.
+\newblock {\em Nature Photonics}, 4:511, 2010.
+
+\bibitem{zhyi2015}
+Z.~Zhou, B.~Yin, and Jurgen Michel.
+\newblock On-chip light sources for silicon photonics.
+\newblock {\em Light: science and applications}, 4:e358, 2015.
+
+\bibitem{da1989}
+Gordon Davies.
+\newblock The optical properties of luminescence centres in silicon.
+\newblock {\em Physics Reports}, 176:83--188, 1989.
+
+\bibitem{zhdo2019}
+Y.~Zhou, W.~Dou, W.~Du, S.~Ojo, H.~Tran, S.A. Ghetmiri, J.~Liu, G.~Sun,
+  R.~Soref, J.~Margetis, J.~Tolle, B.~Li, Z.~Chen, M.~Mortasavi, and S.-Q. Yu.
+\newblock Optically pumped {GeSn} lasers operating at 270 k with broad
+  waveguide structures on si.
+\newblock {\em ACS Photonics}, 6:1434, 2019.
 
 \bibitem{oz1992}
 H.M. Ozaktas.
