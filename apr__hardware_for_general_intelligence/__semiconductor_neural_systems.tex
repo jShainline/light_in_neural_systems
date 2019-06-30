@@ -29,8 +29,8 @@ There are a number of large-scale efforts in silicon-microelectronic neural syst
  -32x8 synaptic circuits
  -input/output AER interfacing circuits
  -each neuron receives input current from two inhibitory and six excitatory synapses
- -neuron circuits use 83x31um^2
- -inhibitory (excitatory) synapses occupy 55x31um^2 (145x31um^2)
+ -neuron circuits use $83x31um^2$
+ -inhibitory (excitatory) synapses occupy $55x31um^2$ ($145x31um^2$)
  -``The 6x32 excitatory synapses are divided into two groups that have independent bias settings for the synaptic weights parameters. All other bias parameters a global. The two sets of independent bias settings for the excitatory synapses allow us to model populations of synapses with different characteristics (e.g., long and short time constants, weak and strong excitatory weights, etc.).''
  -AER with four-phase handshaking protocol
  -Collisions handled with on-chip arbitration circuits
@@ -39,6 +39,11 @@ There are a number of large-scale efforts in silicon-microelectronic neural syst
 
 %Dynamically reconfigurable silicon array of spiking neurons with conductance-based synapses
 \cite{voma2007}
+
+%A Recurrent Model of Orientation Maps with Simple and Complex Cells
+\cite{mebo2004}
+
+
 
 \subsubsection{The von Neumann bottleneck}
 While silicon microelectronics based on the field-effect transistor has made advances far beyond what was considered possible during the conception of the first electronic computers in the 1950s, modern CMOS neural systems still bear remarkable resemblances to early computing machines. In particular, the separation of processing and memory is present in many neural systems. Von Neumann understood that communication between processing and memory was likely to be a limitation, and this pinch point is still referred to as the ``von Neumann bottleneck''. This bottleneck is particularly problematic for implementing artificial neural systems, because processing and memory are not separate in neural systems. The synapses and dendrites that perform the first stages of computation are also the elements that store memory in their synaptic weights. Synaptic weights affect the dynamical operation of the neurons, and the dynamical operation of the neurons affects the synaptic weights. Therefore, when emulating the behavior of a neural system with a Turing machine employing the von Neumann architecture, significant communication between processors and memory is required. Some efforts side step this challenge by eliminating synaptic plasticity all together, leading to neuromorphic systems that perform inference, but do not learn \cite{mear2014}. Others include synaptic plasticity mechanisms to enable learning during operation, and bear the costs of reduced speed of network activity \cite{fuga2014,dasr2018}. 
