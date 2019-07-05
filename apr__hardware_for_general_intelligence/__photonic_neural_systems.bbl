@@ -1,0 +1,840 @@
+\begin{thebibliography}{100}
+
+\bibitem{godi1978}
+J.W. Goodman, A.R. Dias, and L.M. Woody.
+\newblock Fully-parallel, high-speed incoherent optical method for performing
+  discrete {F}ourier transforms.
+\newblock {\em Opt. Lett.}, 2:1, 1978.
+
+\bibitem{shha1968}
+R.~Shubert and J.H. Harris.
+\newblock Optical surface waves on thin films and their application to
+  integrated data processors.
+\newblock {\em IEEE Trans. Microwave Theory Tech.}, MTT-16:1048, 1968.
+
+\bibitem{anbo1977}
+D.B. Anderson, J.J. Boyde, M.C. Hamilton, and R.R. August.
+\newblock An integrated optical approach to the {F}ourier transform.
+\newblock {\em IEEE J. Quant. Electron.}, QE-13:268, 1977.
+
+\bibitem{psfa1985}
+D.~Psaltis and N.~Farhat.
+\newblock Optical information processing based on an associative-memory model
+  of neural nets with thresholding and feedback.
+\newblock {\em Opt. Lett.}, 10:98, 1985.
+
+\bibitem{gi1985}
+H.M. Gibbs.
+\newblock {\em Controlling Light with Light}.
+\newblock Academic Press, 1985.
+
+\bibitem{gimc1976}
+H.M. Gibbs, S.L. McCall, and T.N.C. Venkatesan.
+\newblock Differential gain and bistability using a sodium-filled fabry-perot
+  interferometer.
+\newblock {\em Phys. Rev. Lett.}, 36:1135, 1976.
+
+\bibitem{mism1979}
+D.A.B. Miller, S.D. Smith, and A.~Johnston.
+\newblock Optical bistability and signal amplification in a semiconductor
+  crystal: applications of new low-power nonlinear effects in insb.
+\newblock {\em Appl. Phys. Lett.}, 35:658, 1979.
+
+\bibitem{jele1986}
+J.L. Jewell, Y.H. Lee, J.F. Duffy, A.C. Gossard, and W.~Wiegmann.
+\newblock Parallel operation and crosstalk measurements in {GaAs} etalon
+  optical logic devices.
+\newblock {\em Appl. Phys. Lett.}, 48:1342, 1986.
+
+\bibitem{vewi1986}
+T.~Venkatesan, B.~Wilkens, Y.H. Lee, M.~Warren, G.~Olbright, N.~Peyghambarian,
+  J.S. Smith, and A.Y. Yariv.
+\newblock Fabrication of arrays of {GaAs} optical bistable devices.
+\newblock {\em Appl. Phys. Lett.}, 48:145, 1986.
+
+\bibitem{mich1984}
+D.A.B. Miller, D.S. Chemla, T.C. Damen, A.C. Gossard, W.~Wiegmann, T.H. Wood,
+  and C.A. Burrus.
+\newblock Novel hybrid optically bistable switch: {T}he quantum well
+  self-electro-optic effect device.
+\newblock {\em Appl. Phys. Lett.}, 45:13, 1984.
+
+\bibitem{mich1984b}
+D.A.B. Miller, D.S. Chemla, T.C. Damen, A.C. Gossard, W.~Wiegmann, T.H. Wood,
+  and C.A. Burrus.
+\newblock Band-edge electroabsorption in quantum well structures: {T}he quantum
+  confined stark effect.
+\newblock {\em Phys. Rev. Lett.}, 53:2173, 1984.
+
+\bibitem{lehi1988}
+A.L. Lentine, H.S. Hinton, D.A.B. Miller, J.E. Henry, J.E. Cunningham, and
+  L.M.F. Chirovsky.
+\newblock Symmetric self-electrooptic effect device: Optical set-reset latch.
+\newblock {\em Appl. Phys. Lett.}, 52:1419, 1988.
+
+\bibitem{lehi1989}
+A.L. Lentine, H.S. Hinton, D.A.B. Miller, J.E. Henry, J.E. Cunningham, and
+  L.M.F. Chirovsky.
+\newblock Symmetric self-electrooptic effect device: Optical set-reset latch,
+  differential logic gate, and differential modulator/detector.
+\newblock {\em IEEE J. Quant. Electron.}, 25:1928, 1989.
+
+\bibitem{mccl1993}
+F.B. McCormick, T.J. Cloonan, F.A.P. Tooley, A.L. Lentine, J.M. Sasian, J.L.
+  Brubaker, R.L. Morrison, S.L. Walker, R.J. Crisci, R.A. Novotny, S.J.
+  Hinterlong, H.S. Hinton, and E.~Keerbis.
+\newblock Six-stage digital free-space optical switching network using
+  symmetric self-electro-optic-effect devices.
+\newblock {\em Applied Optics}, 32:5153, 1993.
+
+\bibitem{yafa2003}
+M.F. Yanik, S.~Fan, and M.~Solja\v{c}i\'{c}.
+\newblock All-optical transistor action with bistable switching in a photonic
+  crystal cross-waveguide geometry.
+\newblock {\em Opt. Lett.}, 28:2506, 2003.
+
+\bibitem{hwpo2009}
+J.~Hwang, M.~Potoschnig, R.~Lettow, G.~Zumofen, A.~Renn, S.~\"{o}tzinger, and
+  V.~Sandoghdar.
+\newblock A single-molecule optical transistor.
+\newblock {\em Nature}, 460:76, 2009.
+
+\bibitem{wawu2016}
+H.~Wang, J.~Wu, J.~Guo, L.~Jiang, Y.~Xiang, and S.~Wen.
+\newblock Low-threshold optical bistability with multilayer graphene-covering
+  otto configuration.
+\newblock {\em J. Phys. D: Appl. Phys.}, 49:255306, 2016.
+
+\bibitem{guru2017}
+J.~Guo, B.~Ruan, J.~Zhu, X.~Dai, Y.~Xiang, and H.~Zhang.
+\newblock Low-threshold optical bistability in a metasurface with graphene.
+\newblock {\em J. Phys. D: Appl. Phys.}, 50:434003, 2017.
+
+\bibitem{suzh2019}
+D.~Sun, H.~Zhang, and H.~Sun.
+\newblock Controllable optical bistability and multistability in asymmetric
+  quantum wells via fano-type interference.
+\newblock {\em J. Phys. B: Atomic, Molecular and Optical Physics}, 52:035501,
+  2019.
+
+\bibitem{saeb2018}
+M.~Sahrai, S.~Ebadollahi-Bakhtevar, H.~Tajalli, and A.~Vafafard.
+\newblock High-speed electro-optical switching in an ingaasp/inp quantum well
+  nanostructure.
+\newblock {\em Mater. Res. Express}, 5:115902, 2018.
+
+\bibitem{lili2019}
+J.-B. Li, S.~Liang, S.~Xiao, M.-D. He, L.-H. Liu, J.-H. Luo, and L.-Q. Chen.
+\newblock A sensitive biosensor based on optical bistability in a semiconductor
+  quantum dot-dna nanohybrid.
+\newblock {\em J. Phys. D: Appl. Phys.}, 52:035401, 2019.
+
+\bibitem{mi2010}
+D.A.B. Miller.
+\newblock Are optical transistors the logical next step?
+\newblock {\em Nature Photonics}, 4:3, 2010.
+
+\bibitem{mo1965}
+G.E. Moore.
+\newblock Cramming more components onto integrated circuits.
+\newblock {\em Electronics}, 38, 1965.
+
+\bibitem{sole1985}
+R.~Soref and J.P. Lorenzo.
+\newblock Single-crystal silicon: {A} new material for 1.3 and 1.6\,\textmu m
+  integrated-optical components.
+\newblock {\em Electronics Letters}, 21:953, 1985.
+
+\bibitem{sole1986}
+R.~Soref and J.P. Lorenzo.
+\newblock All-silicon active and passive guided-wave components for $\lambda =
+  1.3$ and 1.6\,\textmu m.
+\newblock {\em IEEE J. Quant. Electron.}, {QE}-22:873, 1986.
+
+\bibitem{sobe1987}
+R.~Soref and B.~Bennett.
+\newblock Electrooptical effects in silicon.
+\newblock {\em IEEE J. Quant. Electron.}, {QE}-23:123, 1987.
+
+\bibitem{so1993}
+R.~Soref.
+\newblock Silicon-{B}ased {O}ptoelectronics.
+\newblock {\em Proceedings of the IEEE}, 81:1687, 1993.
+
+\bibitem{snlo1983}
+A.W. Snyder and J.D. Love.
+\newblock {\em Optical {W}aveguide {T}heory}.
+\newblock Chapman and Hall Ltd., 1983.
+
+\bibitem{hu2009}
+R.G. Hunsperger.
+\newblock {\em Integrated Optics: Theory and Technology}.
+\newblock Springer-Verlag, 2009.
+
+\bibitem{cecr2003}
+G.K. Celler and S.~Cristoloveanu.
+\newblock Frontiers of silicon-on-insulator.
+\newblock {\em J. Appl. Phys.}, 93:4955, 2003.
+
+\bibitem{lijo2004}
+A.~Liu, R.~Jones, L.~Liao, D.~Samara-Rubio, D.~Rubin, O.~Cohen, R.~Nicolaescu,
+  and M.~Paniccia.
+\newblock A high-speed silicon optical modulator based on a
+  metal-oxide-semiconductor capacitor.
+\newblock {\em Nature}, 427:615, 2004.
+
+\bibitem{lisa2005}
+L.~Liao, D.~Samara-Rubio, M.~Morse, A.~Liu, and D.~Hodge.
+\newblock High speed silicon mach-zehnder modulator.
+\newblock {\em Opt. Express}, 13:3129, 2005.
+
+\bibitem{xusc2005}
+Q.~Xu, B.~Schmidt, S.~Pradhana, and M.~Lipson.
+\newblock Micrometre-scale silicon electro-optic modulator.
+\newblock {\em Nature}, 435:325, 2005.
+
+\bibitem{xuma2007}
+Q.~Xu, S.~Manipatruni, B.~Schmidt, J.~Shakya, and Michal Lipson.
+\newblock 12.5 gbit/s carrier-injection-based silicon micro-ring silicon
+  modulators.
+\newblock {\em Opt. Express}, 15:430, 2007.
+
+\bibitem{rema2010}
+G.~Reed, G.~Mashanovich, F.Y. Gardes, and D.J. Thomson.
+\newblock Silicon optical modulators.
+\newblock {\em Nat. Photon.}, 4:518, 2010.
+
+\bibitem{wi2018}
+J.~Witzens.
+\newblock High-{S}peed {S}ilicon {P}hotonics {M}odulators.
+\newblock {\em Proceedings of the IEEE}, 106:2158, 2018.
+
+\bibitem{pasa2015}
+D.~Patel, A.~Samani, V.~Veerasubramanian, S.~Ghosh, and D.V. Plant.
+\newblock Silicon photonic segmented modulator-based electro-optic {DAC} for
+  100 {G}b/s {PAM}-4 generation.
+\newblock {\em IEEE Photonics Technology Letters}, 27:2433, 2015.
+
+\bibitem{orma2012}
+J.S. Orcutt, B.~Moss, C.~Sun, J.~Leu, M.~Georgas, J.~Shainline, J.~Sun
+  M.~Weaver E.~Zgraggen, H.~Li, S.~Urosevi\'{c}, M.~Popovi\'{c}, R.J. Ram, and
+  Vladimir Stojanovi\'{c}.
+\newblock Open foundry platform for high-performance electronic-photonic
+  integration.
+\newblock {\em Opt. Express}, 20:12222, 2012.
+
+\bibitem{shor2013}
+J.M. Shainline, J.S. Orcutt, , M.T. Wade, K.~Nammari, B.~Moss, M.~Georgas,
+  C.~Sun, Rajeev~J. Ram, V.~Stojanovi\'{c}, and M.A. Popovi\'{c}.
+\newblock Depletion-mode carrier-plasma optical modulator in zero-change
+  advanced cmos.
+\newblock {\em Opt. Lett.}, 38:2657, 2013.
+
+\bibitem{alch2016}
+L.~Alloatti, D.~Cheian, and R.J. Ram.
+\newblock High-speed modulator with interleaved junctions in zero-change cmos
+  photonics.
+\newblock {\em Appl. Phys. Lett.}, 108:131101, 2016.
+
+\bibitem{alra2016}
+L.~Alloatti and R.J. Ram.
+\newblock Resonance-enhanced waveguide-coupled silicon-germanium detector.
+\newblock {\em Appl. Phys. Lett.}, 108:071105, 2016.
+
+\bibitem{shor2013b}
+J.M. Shainline, J.S. Orcutt, , M.T. Wade, K.~Nammari, O.~Tehar-Zahav,
+  Z.~Sternberg, R.~Meade, Rajeev~J. Ram, V.~Stojanovi\'{c}, and M.A.
+  Popovi\'{c}.
+\newblock Depletion-mode polysilicon optical modulators in a bulk complementary
+  metal-oxide semiconductor process.
+\newblock {\em Opt. Lett.}, 38:2729, 2013.
+
+\bibitem{meor2014}
+K.K. Mehta, J.S. Orcutt, J.M. Shainline, O.~Tehar-Zahav, Z.~Sternberg,
+  R.~Meade, M.A. Popovi{\' c}, and Rajeev~J. Ram.
+\newblock Polycrystalline silicon ring resonator photodiodes in a bulk
+  complementary metal-oxide-semiconductor process.
+\newblock {\em Opt. Lett.}, 39:1061, 2014.
+
+\bibitem{suwa2015}
+C.~Sun, M.T. Wade, Y.~Lee, J.S. Orcutt, L.~Alloatti, M.S. Georgas, A.S.
+  Waterman, J.M. Shainline, R.R. Avizienis, S.~Lin, B.R. Moss, R.~Kumar,
+  F.~Pavanello, A.H. Atabaki, H.M. Cook, A.J. Ou, J.C. Leu, Y.-H. Chen,
+  K.~Asanovi{\' c}, R.J. Ram, M.A. Popovi{\' c}, and V.M. Stojanovi{\' c}.
+\newblock Single-chip microprocessor that communicates directly using light.
+\newblock {\em Nature}, 528:534, 2015.
+
+\bibitem{stra2018}
+V.~Stojanovic, R.J. Ram, M.~Popovic, S.~Lin, S.~Moazeni, M.~Wade, C.~Sun,
+  L.~Alloatti, A.~Atabaki, F.~Pavanello, N.~Mehta, and P.~Bhargava.
+\newblock Monolithic silicon-photonic platforms in state-of-the-art cmos soi
+  processes.
+\newblock {\em Opt. Express}, 26:13106, 2018.
+
+\bibitem{shxu2007}
+J.M. Shainline and J.~Xu.
+\newblock Silicon as an emissive optical medium.
+\newblock {\em Laser and Photonics Reviews}, 1:334, 2007.
+
+\bibitem{mi2017}
+D.A.B. Miller.
+\newblock Attojoule optoelectronics for low-energy information processing and
+  communications.
+\newblock {\em J. Lightwave Technol.}, 35:346, 2017.
+
+\bibitem{le2018}
+A.F.J. Levi.
+\newblock Silicon photonics' last-meter problem.
+\newblock {\em IEEE Spectrum}, 09.18:39, 2018.
+
+\bibitem{ra2007}
+D.G. Rabus.
+\newblock {\em Integrated Ring Resonators}.
+\newblock Springer-Verlag, 2007.
+
+\bibitem{ohno1975}
+Y.~Ohmachi and J.~Noda.
+\newblock Electrooptic light modulator with branched ridge waveguide.
+\newblock {\em Appl. Phys. Lett.}, 27:544, 1975.
+
+\bibitem{ve1984}
+C.M. Verber.
+\newblock Integrated-{O}ptical {A}pproaches to {N}umerical {O}ptical
+  {P}rocessing.
+\newblock {\em Proc. IEEE}, 72:942, 1984.
+
+\bibitem{liyo2018}
+X.~Li, N.~Youngblood, C.~R\'{i}os, Z.~Cheng, C.D. Wright, W.H.P. Pernice, and
+  H.~Bhaskaran.
+\newblock Fast and reliable storage using a 5 bit, nonvolatile photonic memory
+  cell.
+\newblock {\em Optica}, 6:1, 2018.
+
+\bibitem{psca1980}
+D.~Psaltis, D.~Casaent, D.~Neft, and M.~Carlotto.
+\newblock Accurate {N}umerical {C}omputation by {O}ptical {C}onvolution.
+\newblock {\em Proc. SPIE}, 232:151, 1980.
+
+\bibitem{arha1984}
+R.~Arrathoon and M.H. Hassoun.
+\newblock Optical threshold logic elements for digital computation.
+\newblock {\em Opt. Lett.}, 9:143, 1984.
+
+\bibitem{ko1981}
+H.~Kogelnik.
+\newblock Limits in {I}ntegrated {O}ptics.
+\newblock {\em Proc. IEEE}, 69:232, 1981.
+
+\bibitem{abps1987}
+Y.S. Abu-Mostafa and D.~Psaltis.
+\newblock Optical neural computers.
+\newblock {\em Sci. Am.}, 256:88, 1987.
+
+\bibitem{juyu1996}
+S.~Jutamulia and F.T.S. Yu.
+\newblock Overview of hybrid optical neural networks.
+\newblock {\em Optics and Laser Technology}, 28:59, 1996.
+
+\bibitem{faps1985}
+N.H. Farhat, D.~Psaltis, A.~Prata, and E.~Paek.
+\newblock Optical implementation of the {H}opfield model.
+\newblock {\em Applied Optics}, 24:1469, 1985.
+
+\bibitem{an1986}
+D.Z. Anderson.
+\newblock Coherent optical eigenstate memory.
+\newblock {\em Opt. Lett.}, 11:56, 1986.
+
+\bibitem{jast1986}
+T.~Jannson, H.M. Stoll, and C.~Karaguleff.
+\newblock The interconnectability of neuro-optic processors.
+\newblock {\em SPIE Real Time Signal Processing IX}, 698:157, 1986.
+
+\bibitem{waps1987}
+K.~Wagner and D.~Psaltis.
+\newblock Multilayer optical learning networks.
+\newblock {\em Applied Optics}, 26:5061, 1987.
+
+\bibitem{psbr1988}
+D.~Psaltis, D.~Brady, and K.~Wagner.
+\newblock Optical neural computers.
+\newblock {\em Sci. Am.}, 256:88, 1987.
+
+\bibitem{jaju1988}
+J.~Jang, S.~Jung, S.~Lee, and S.~Shin.
+\newblock Optical implementation of the {H}opfield model for two-dimensional
+  associative memory.
+\newblock {\em Opt. Lett.}, 13:248, 1988.
+
+\bibitem{agne1988}
+A.~Agranat, C.F. Neugebauer, and A.~Yariv.
+\newblock Parallel optoelectronic realization of neural networks models using
+  cid technology.
+\newblock {\em Applied Optics}, 27:4354, 1988.
+
+\bibitem{caki1989}
+H.J. Caulfield, J.~Kinser, and S.K. Rogers.
+\newblock Optical neural networks.
+\newblock {\em Proc. IEEE}, 77:1573, 1989.
+
+\bibitem{fami1986}
+N.H. Farhat, S.~Miyahara, and K.S. Lee.
+\newblock Optical analog of two-dimensional neural networks and their
+  application in recognition of radar targets.
+\newblock In {\em Neural Networks for Computing}, page 146. Amer. Inst. Phys.,
+  1986.
+
+\bibitem{ca1987}
+H.J. Caulfield.
+\newblock Parallel $n^4$ weighted optical interconnections.
+\newblock {\em Applied Optics}, 26:4039, 1987.
+
+\bibitem{fili1987}
+A.D. Fisher, W.L. Lippincott, and J.N. Lee.
+\newblock Optical implementation of associative networks with versatile
+  adaptive learning capabilities.
+\newblock {\em Applied Optics}, 26:5039, 1987.
+
+\bibitem{maar1987}
+B.~Macukow and H.H. Arsenault.
+\newblock Optical associative memory model based on neural networks having
+  variable interconnection weights.
+\newblock {\em Applied Optics}, 26:924, 1987.
+
+\bibitem{safi1995}
+I.~Saxena and E.~Fiesler.
+\newblock Adaptive multilayer optical neural network with optical thresholding.
+\newblock {\em Opt. Engineering}, 34:2435, 1995.
+
+\bibitem{mo2000}
+G.~Moagar-Poladian.
+\newblock Reconfigurable optical neuron based on photoelectret materials.
+\newblock {\em Applied Optics}, 39:782, 2000.
+
+\bibitem{waps1993}
+K.~Wagner and D.~Psaltis.
+\newblock Optical neural networks: an introduction by the feature editors.
+\newblock {\em Applied Optics}, 32:1261, 1993.
+
+\bibitem{nioh1993}
+Y.~Nitta, J.~Ohta, S.~Tai, and K.~Kyuma.
+\newblock Optical learning neurochip with internal analog memory.
+\newblock {\em Applied Optics}, 32:1264, 1993.
+
+\bibitem{buma2018}
+J.~Bueno, S.~Maktoobi, L.~Froehly, I.~Fischer, M.~Jacquot, L.~Larger, and
+  D.~Brunner.
+\newblock Reinforcement learning in a large-scale photonic recurrent neural
+  network.
+\newblock {\em Optica}, 5:756, 2018.
+
+\bibitem{hasl2018}
+R.~Hamerly, A.~Sludds, L.~Bernstein, M.~Soljacic, and D.~Englund.
+\newblock Large-scale optical neural networks based on photoelectric
+  multiplication.
+\newblock {\em arXiv}, page 1812.07614, 2018.
+
+\bibitem{liri2018}
+X.~Lin, Y.~Rivenson, N.T. Yardimci, M.~Veli, Y.~Luo, M.~Jarrahi, and A.~Ozcan.
+\newblock All-optical machine learning using diffractive deep neural networks.
+\newblock {\em Science}, 361:1004, 2018.
+
+\bibitem{chsi2018}
+J.~Chang, V.~Sitzmann, X.~Dun, W.~Heidrich, and G.~Wetzstein.
+\newblock Hybrid optical-electronic convolutional neural networks with
+  optimized diffractive optics for image classification.
+\newblock {\em Sci. Rep.}, 8:12324, 2018.
+
+\bibitem{psbr1990}
+D.~Psaltis, D.~Brady, X.-G. Gu, and S.~Lin.
+\newblock Holography in artificial neural networks.
+\newblock {\em Nature}, 343:325, 1990.
+
+\bibitem{prsh2017}
+P.R. Prucnal and B.J. Shastri.
+\newblock {\em Neuromorphic photonics}.
+\newblock CRC Press, New York, first edition, 2017.
+
+\bibitem{reze1994}
+M.~Reck, A.~Zeilinger, H.J. Bernstein, and P.~Bertani.
+\newblock Experimental {R}ealization of {A}ny {D}iscrete {U}nitary {O}perator.
+\newblock {\em Phys. Rev. Lett.}, 73:58, 1994.
+
+\bibitem{st2016}
+G.~Strang.
+\newblock {\em Introduction to Linear Algebra}.
+\newblock Wellesley-Cambridge Press, 2016.
+
+\bibitem{mi2015}
+D.A.B. Miller.
+\newblock Perfect optics with imperfect components.
+\newblock {\em Optica}, 2:747, 2015.
+
+\bibitem{shha2017}
+Y.~Shen, N.C. Harris, S.~Skirlo, M.~Prabhu, T.~Baehr-Jones, M.~Hochberg,
+  X.~Sun, S.~Zhao, H.~Larochelle, D.~Englund, and M.~Soljacic.
+\newblock Deep learning with coherent nanophotonic circuits.
+\newblock {\em Nature Photonics}, 11:441, 2017.
+
+\bibitem{humi2018}
+T.W. Hughes, M.~Minkov, Y.~Shi, and S.~Fan.
+\newblock Training of photonic neural networks through in situ backpropagation
+  and gradient descent.
+\newblock {\em Optica}, 5:864, 2018.
+
+\bibitem{wihu2019}
+I.A.D. Willliamson, T.W. Hughes, M.~Minkov, B.~Bartlett, S.~Pai, and S.~Fan.
+\newblock Reprogrammable electro-optic nonlinear activation functions for
+  optical neural networks.
+\newblock {\em arXiv}, 1903:04579, 2019.
+
+\bibitem{sm1980}
+P.W. Smith.
+\newblock Hybrid bistable optical devices.
+\newblock {\em Opt. Eng.}, 19:456, 1980.
+
+\bibitem{chbu2017}
+J.~Chiles, S.~Buckley, N.~Nader, S.W. Nam, R.P. Mirin, and J.M. Shainline.
+\newblock Multi-planar amorphous silicon photonics with compact interplanar
+  couplers, cross talk mitigation, and low crossing loss.
+\newblock {\em APL Photonics}, 2:116101, 2017.
+
+\bibitem{chbu2018}
+J.~Chiles, S.M. Buckley, S.W. Nam, R.P. Mirin, and J.M. Shainline.
+\newblock Design, fabrication, and metrology of 10 x 100 multi-planar
+  integrated photonic routing manifolds for neural networks.
+\newblock {\em APL Photonics}, page 106101, 2018.
+
+\bibitem{sami2017}
+W.D. Sacher, J.C. Mikkelsen, P.~Dumais, J.~Jiang, D.~Goodwill, X.~Luo,
+  Y.~Huang, Y.~Yang, A.~Bois, P.G.-Q. Lo, E.~Bernier, and J.K.S. Poon.
+\newblock Tri-layer silicon nitride-on-silicon photonic platform for
+  ultra-low-loss crossings and interlayer transitions.
+\newblock {\em Opt. Express}, 25:30862, 2017.
+
+\bibitem{mots2019}
+G.~Mourgias-Alexandris, A.~Tsakyridis, N.~Passalis, A.~Tefas, K.~Vyrsokinos,
+  and N.~Pleros.
+\newblock An all-optical neuron with sigmoid activation function.
+\newblock {\em Opt. Express}, 27:9620, 2019.
+
+\bibitem{luja2009}
+M.~Luko\v{s}evi\v{c}ius and H.~Jaeger.
+\newblock Reservoir computing approaches to recurrent neural network training.
+\newblock {\em Comput. Sci. Rev.}, 3:127, 2009.
+
+\bibitem{taya2019}
+G.~Tanaka, T.~Yamane, J.B. H\'{e}roux, R.~Nakane, N.~Kanazawa, S.~Takeda,
+  H.~Numata, D.~Nakano, and A.~Hirose.
+\newblock Recent advances in physical reservoir computing: a review.
+\newblock {\em Neural Networks}, 115:100, 2019.
+
+\bibitem{vabr2017}
+G.~Van der Sande, D.~Brunner, and M.C. Soriano.
+\newblock Advances in photonic reservoir computing.
+\newblock {\em Nanophotonics}, 6:561, 2017.
+
+\bibitem{vadi2008}
+K.~Vandoorne, W.~Dierckx, B.~Schrauwen, D.~Verstraeten, R.~Baets, P.~Bienstman,
+  and J.~Van Campenhout.
+\newblock Toward optical signal processing using {P}hotonic {R}eservoir
+  {C}omputing.
+\newblock {\em Opt. Express}, 16:11182, 2008.
+
+\bibitem{vada2011}
+K.~Vandoorne, J.~Dambre, D.~Verstraeten, B.~Schrauwen, and P.~Bienstman.
+\newblock Parallel reservoir computing using optical amplifiers.
+\newblock {\em IEEE Trans. Neural Networks}, 22:1469, 2011.
+
+\bibitem{jobo2006}
+T.J. Johnson, M.~Borselli, and O.~Painter.
+\newblock Self-induced optical modulation of the transmission of a high-$q$
+  silicon microdisk resonator.
+\newblock {\em Optics Express}, 14:817, 2006.
+
+\bibitem{vame2014}
+K.~Vandoorne, P.~Mechet, T.~Van Vaerenbergh, M.~Fiers, G.~Morthier,
+  D.~Verstraeten, B.~Schrauwen, J.~Dambre, and P.~Bienstman.
+\newblock Experimental demonstration of reservoir computing on a silicon
+  photonics chip.
+\newblock {\em Nat. Comm.}, 5:3541, 2014.
+
+\bibitem{desc2018}
+F.~Denis-Le Coarer, M.~Sciamanna, A.~Katumba, M.~Freiberger, J.~Dambre,
+  P.~Bienstman, and D.~Rontani.
+\newblock All-optical reservoir computing on a photonic chip using
+  silicon-based ring resonators.
+\newblock {\em IEEE J. Sel. Topics in Quant. Electron.}, 24:7600108, 2018.
+
+\bibitem{brpe2018}
+D.~Brunner, B.~Penkovsky, B.A. Marquez, M.~Jacquot, I.~Fischer, and L.~Larger.
+\newblock Tutorial: {P}hotonic neural networks in delay systems.
+\newblock {\em J. Appl. Phys.}, 124:152004, 2018.
+
+\bibitem{apso2011}
+L.~Appeltant, M.C. Soriano, G.~Van der Sande, J.~Canckaert, S.~Massar,
+  J.~Dambre, B.~Schrauwen, C.R. Mirasso, and I.~Fischer.
+\newblock Information processing using a single dynamical node as a complex
+  system.
+\newblock {\em Nature Communications}, 2:468, 2011.
+
+\bibitem{laso2012}
+L.~Larger, M.C. Soriano, D.~Brunner, L.~Appeltant, J.M. Gutierrez, L.~Pesquera,
+  C.R. Mirasso, and I.~Fischer.
+\newblock Photonic information processing beyond turing: an optoelectronic
+  implementation of reservoir computing.
+\newblock {\em Opt. Express}, 20:3241, 2012.
+
+\bibitem{orso2015}
+S.~Ort\'{i}n, M.C. Soriano, L.~Pesquera, D.~Brunner, D.~San-Mart\'{i}n,
+  I.~Fischer, C.R. Mirasso, and J.M. Guti\'{e}rrez.
+\newblock A unified framework for reservoir computing and extreme learning
+  machines based on a single time-delayed neuron.
+\newblock {\em Sci. Rep.}, 5:14945, 2015.
+
+\bibitem{brfi2015}
+D.~Brunner and I.~Fischer.
+\newblock Reconfigurable semiconductor laser networks based on diffractive
+  coupling.
+\newblock {\em Opt. Lett.}, 40:3854, 2015.
+
+\bibitem{brso2013}
+D.~Brunner, M.C. Soriano, C.R. Mirasso, and I.~Fischer.
+\newblock Parallel photonic information processing at gigabyte per second data
+  rates using transient states.
+\newblock {\em Nat. Comm.}, 4:1364, 2013.
+
+\bibitem{bubr2017}
+J.~Bueno, D.~Brunner, M.C. Soriano, and I.~Fischer.
+\newblock Conditions for reservoir computing performance using semiconductor
+  lasers with delayed optical feedback.
+\newblock {\em Opt. Express}, 25:2401, 2017.
+
+\bibitem{padu2012}
+Y.~Paquot, F.~Duport, A~Smerieri, J.~Dambre, B.~Schrauwen, M.~Haelterman, and
+  S.~Massar.
+\newblock Optoelectronic {R}eservoir {C}omputing.
+\newblock {\em Sci. Rep.}, 2:287, 2012.
+
+\bibitem{dusc2012}
+F.~Duport, B.~Schneider, A.~Smerieri, M.~Haelterman, and S.~Massar.
+\newblock All-optical reservoir computing.
+\newblock {\em Opt. Express}, 20:22783, 2012.
+
+\bibitem{anha2017}
+P.~Antonik, M.~Haelterman, and S.~Massar.
+\newblock Brain-{I}nspired {P}hotonic {S}ignal {P}rocessor for {G}enerating
+  {P}eriodic {P}atterns and {E}mulating {C}haotic {S}ystems.
+\newblock {\em Phys. Rev. App.}, 7:054014, 2017.
+
+\bibitem{cosc2018}
+F.~Coarer, M.~Sciamanna, A.~Katumba, M.~Freiberger, J.~Dambre, P.~Bienstman,
+  and D.~Rontani.
+\newblock All-{O}ptical {R}eservoir {C}omputing on a {P}hotonic {C}hip {U}sing
+  {S}ilicon-{B}ased {R}ing {R}esonators.
+\newblock {\em IEEE J. Sel. Topics Quant. Electron.}, 24:7600108, 2018.
+
+\bibitem{rofi2017}
+B.~Romeira, J.M.L. Figueredo, and J.~Javaloyes.
+\newblock Delay dynamics of neuromorphic optoelectronic nanoscale resonators:
+  {P}erspectives and applications.
+\newblock {\em Chaos}, 27:114323, 2017.
+
+\bibitem{dukr1999}
+J.L.A. Dubbeldam, B.~Krauskopf, and D.~Lenstra.
+\newblock Excitability and coherence resonance in lasers with saturable
+  absorber.
+\newblock {\em Phys. Rev. E}, 60:6580, 1999.
+
+\bibitem{cosc1996}
+S.B. Colak, J.J.H.B. Schleipen, and C.T.H. Liedenbaum.
+\newblock Neural network using longitudinal modes of an injection laser with
+  external feedback.
+\newblock {\em IEEE Trans. Neural Networks}, 7:1389, 1996.
+
+\bibitem{mosc1997}
+E.C. Mos, J.J.H.B.~Schleipen an~H.~de Waardt, and G.D. Khoe.
+\newblock Optical mode neural network by use of the nonlinear response of a
+  laser diode to external optical feedback.
+\newblock {\em Appl. Opt.}, 36:6654, 1997.
+
+\bibitem{moho2000}
+E.C. Mos, J.J.L. Hoppenbrouwers, M.T. Hill, M.W. Bl\"{u}m, J.J.H.B. Schleipen,
+  and H.~de~Waardt.
+\newblock Optical neuron by use of a laser diode with injection seeding and
+  external optical feedback.
+\newblock {\em IEEE Trans. Neural Networks}, 11:988, 2000.
+
+\bibitem{hoiz2000}
+F.C. Hoppensteadt and E.M. Izhikevich.
+\newblock Synchronization of laser oscillators, associative memory, and optical
+  neurocomputing.
+\newblock {\em Phys. Rev. E}, 62:4010, 2000.
+
+\bibitem{rowa2007a}
+A.R.S. Romariz and K.H. Wagner.
+\newblock Tunable vertical-cavity surface-emitting laser with feedback to
+  implement a pulsed neural model. 1. {P}rinciples and experimental
+  demonstration.
+\newblock {\em Applied Optics}, 46:4736, 2007.
+
+\bibitem{rowa2007b}
+A.R.S. Romariz and K.H. Wagner.
+\newblock Tunable vertical-cavity surface-emitting laser with feedback to
+  implement a pulsed neural model. 2. {H}igh-frequency effects and optical
+  coupling.
+\newblock {\em Applied Optics}, 46:4746, 2007.
+
+\bibitem{huhe2010}
+A.~Hurtado, I.D. Henning, and M.J. Adams.
+\newblock Optical neuron using polarisation switching in a 1550nm-{VCSEL}.
+\newblock {\em Opt. Express}, 18:25170, 2010.
+
+\bibitem{rokr2009}
+D.~Rosenbluth, K.~Kravtsov, M.P. Fok, and P.R. Prucnal.
+\newblock A high performance photonic pulse processing device.
+\newblock {\em Opt. Express}, 17:22767, 2009.
+
+\bibitem{voma2007}
+R.J. Vogelstein, U.~Mallik, J.T. Vogelstein, and G.~Cauwenberghs.
+\newblock Dynamically reconfigurable silicon array of spiking neurons with
+  conductance-based synapses.
+\newblock {\em IEEE Trans. Neural Networks}, 18:253, 2007.
+
+\bibitem{baku2011}
+S.~Barbay, R.~Kuszelewicz, and A.M. Yacomotti.
+\newblock Excitability in a semiconductor laser with saturable absorber.
+\newblock {\em Opt. Lett.}, 36:4476, 2011.
+
+\bibitem{nash2013}
+M.A. Nahmias, B.J. Shastri, A.N. Tait, and P.R. Prucnal.
+\newblock A leaky integrate-and-fire laser neuron for ultrafast cognitive
+  computing.
+\newblock {\em IEEE J. Sel. Top. Quant. Electron.}, 19:1800212, 2013.
+
+\bibitem{coge2011}
+W.~Coomans, L.~Gelens, S.~Beri, J.~Danckaert, and G.~Van der Sande.
+\newblock Solitary and coupled semiconductor ring lasers as optical spiking
+  neurons.
+\newblock {\em Phys. Rev. E}, 84:036209, 2011.
+
+\bibitem{alva2013}
+K.~Alexander, T.~Van Vaerenbergh, M.~Fiers, P.~Mechet, J.~Dambre, and
+  P.~Bienstman.
+\newblock Excitability in optically injected microdisk lasers with phase
+  controlled excitatory and inhibitory response.
+\newblock {\em Opt. Express}, 21:26182, 2013.
+
+\bibitem{sebr2014}
+F.~Selmi, R.~Braive, G.~Beaudoin, I.~Sagnes, R.~Kuszelewicz, and S.~Barbay.
+\newblock Relative refractory period in an excitable semiconductor laser.
+\newblock {\em Phys. Rev. Lett.}, 112:183902, 2016.
+
+\bibitem{sebr2015}
+F.~Selmi, R.~Braive, G.~Beaudoin, I.~Sagnes, R.~Kuszelewicz, and S.~Barbay.
+\newblock Temporal summation in a neuromimetic micropillar laser.
+\newblock {\em Opt. Lett.}, 40:5690, 2015.
+
+\bibitem{huja2015}
+A.~Hurtado and J.~Javaloyes.
+\newblock Controllable spiking patterns in long-wavelength vertical cavity
+  surface emitting lasers for neuromorphic photonics systems.
+\newblock {\em Appl. Phys. Lett.}, 107:241103, 2015.
+
+\bibitem{meka2016}
+C.~Mesaritakis, A.~Kapsalis, A.~Bogris, and D.~Syvridis.
+\newblock Artificial neuron based on integrated semiconductor quantum dot
+  mode-locked lasers.
+\newblock {\em Sci. Rep.}, 6:39317, 2018.
+
+\bibitem{prsh2016}
+P.R. Prucnal, B.J. Shastri, T.~Ferreira de~Lima, M.A. Nahmias, and A.N. Tait.
+\newblock Recent progress in semiconductor excitable lasers for photonic spike
+  processing.
+\newblock {\em Advances in Optics and Photonics}, 8:228, 2016.
+
+\bibitem{shna2015}
+B.J. Shastri, M.A. Nahmias, A.N. Tait, B.~Wu, and P.R. Prucnal.
+\newblock Simpel: Circuit model for photonic spike processing laser neurons.
+\newblock {\em Opt. Express}, 23:8029, 2015.
+
+\bibitem{shna2016}
+B.J. Shastri, M.A. Nahmias, A.N. Tait, A.W. Rodriguez, B.~Wu, and P.R. Prucnal.
+\newblock Spike processing with a graphene excitable laser.
+\newblock {\em Nature Sci. Rep.}, 6:19126, 2016.
+
+\bibitem{nate2017}
+M.~Naruse, Y.~Terashima, A.~Uchida, and S.-J. Kim.
+\newblock Ultrafast photonic reinforcement learning based on laser chaos.
+\newblock {\em Sci. Rep.}, 7:8772, 2017.
+
+\bibitem{chri2017}
+Z.~Cheng, C.~Rios, W.H.P. Pernice, C.D. Wright, and H.~Bhaskaran.
+\newblock On-chip photonic synapse.
+\newblock {\em Science Advances}, 3:1700160, 2017.
+
+\bibitem{chsa2018}
+I.~Chakraborty, G.~Saha, A.~Sengupta, and K.~Roy.
+\newblock Toward fast neural computing using all-photonic phase change spiking
+  neurons.
+\newblock {\em Scientific Reports}, 8:12980, 2018.
+
+\bibitem{chsa2019}
+I.~Chakraborty, G.~Saha, and K.~Roy.
+\newblock Photonic in-memory computing primitive for spiking neural networks
+  using phase-change materials.
+\newblock {\em Phys. Rev. Applied}, 11:014063, 2019.
+
+\bibitem{tana20142}
+A.N. Tait, M.A. Nahmias, B.J. Shastri, and P.R. Prucnal.
+\newblock Broadcast and weight: an integrated network for scalable photonic
+  spike processing.
+\newblock {\em J. Lightwave Technol.}, 32:3427, 2014.
+
+\bibitem{tafe2017}
+A.N. Tait, T.~Ferreira de~Lima, E.~Zhou, A.X. Wu, M.A. Nahmias, B.J. Shastri,
+  and P.R. Prucnal.
+\newblock Neuromorphic photonic networks using silicon photonic weight banks.
+\newblock {\em Sci. Rep.}, 7:7430, 2017.
+
+\bibitem{tach2015}
+A.N. Tait, J.~Chang, B.J. Shastri, M.A. Nahmias, and P.R. Prucnal.
+\newblock Demonstration of wdm weighted addition for principal component
+  analysis.
+\newblock {\em Opt. Express}, 23:12758, 2015.
+
+\bibitem{tafe2019}
+A.N. Tait, T.~Ferreira de~Lima, M.A. Nahmias, H.B. Miller, H.-T. Peng, B.J.
+  Shastri, and P.R. Prucnal.
+\newblock A silicon photonic modulator neuron.
+\newblock {\em Phys. Rev. Applied}, 11:064043, 2019.
+
+\bibitem{vlmc2004}
+Y.A. Vlasov and S.J. McNab.
+\newblock Losses in single-mode silicon-on-insulator strip waveguides and
+  bends.
+\newblock {\em Opt. Express}, 12:1622, 2004.
+
+\bibitem{pena2018}
+H.-T. Peng, M.A. Nahmias, T.~Ferreira de~Lima, A.N. Tait, B.J. Shastri, and
+  P.R. Prucnal.
+\newblock Neuromorphic {P}hotonic {I}ntegrated {C}ircuits.
+\newblock {\em IEEE J. Sel. Topics Quant. Electron.}, 24:6101715, 2018.
+
+\bibitem{fesh2017}
+T.~Ferreira de~Lima, B.J. Shastri, A.N. Tait, M.A. Nahmias, and P.R. Prucnal.
+\newblock Progress in neuromorphic photonics.
+\newblock {\em Nanophotonics}, 6:577, 2017.
+
+\bibitem{wuso2014}
+K.~Wu, C.~Soci, P.P. Shum, and N.I. Zheludev.
+\newblock Computing matrix inversion with optical networks.
+\newblock {\em Opt. Express}, 22:295, 2014.
+
+\bibitem{mebo2015}
+C.~Mesaritakis, A.~Bogris, A.~Kapsalis, and D.~Syvridis.
+\newblock High-speed all-optical pattern recognition of dispersive fourier
+  images through a photonic reservoir computing subsystem.
+\newblock {\em Opt. Lett}, 40:3416, 2015.
+
+\end{thebibliography}

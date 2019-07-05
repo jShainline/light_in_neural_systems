@@ -1,7 +1,7 @@
 \subsection{\label{sec:photonic_neural_systems}Photonic Neural Systems}
-The strengths of optics in computing have been acknowledged for decades and have led to many attempts to design digital computing architectures around optical phenomena and devices. Like AI and superconductors, there have been several waves of photonics in computing. The first wave of interest began in the late 1970s and was triggered by the seminal paper from Goodman, Dias, and Woody regarding the use of optics for performing Fourier transforms with incoherent light \cite{godi1978}. This work generated a great deal of interest because it showed the power of optics for performing matrix-vector multiplication with complex quantities in a parallel manner using incoherent light that does not have phase as an accessible parameter. A primary favorable feature of optical matrix-vector multiplication is that the time required for the operation is, in principle, nearly independent of the dimension of matrix. This is in contrast to a quadratic temporal scaling with conventional digital approaches. While other Fourier transform devices had been proposed, including in slab-guided modes in integrated photonic systems \cite{shha1968,anbo1977}, the work by Goodman, Dias, and Woody combined several key ideas at the right time to generate significant excitement around the use of optics in computing. The optical approach to matrix-vector multiplication introduced in Ref.\,\ref{godi1978} is now referred to as the \textit{Stanford architecture}, as the authors were working at Stanford University at the time of the publication.
+The strengths of optics in computing have been acknowledged for decades and have led to many attempts to design digital computing architectures around optical phenomena and devices. Like AI and superconductors, there have been several waves of photonics in computing. The first wave of interest began in the late 1970s and was triggered by the seminal paper from Goodman, Dias, and Woody regarding the use of optics for performing Fourier transforms with incoherent light \cite{godi1978}. This work generated a great deal of interest because it showed the power of optics for performing matrix-vector multiplication with complex quantities in a parallel manner using incoherent light that does not have phase as an accessible parameter. A primary favorable feature of optical matrix-vector multiplication is that the time required for the operation is, in principle, nearly independent of the dimension of matrix. This is in contrast to a quadratic temporal scaling with conventional digital approaches. While other Fourier transform devices had been proposed, including in slab-guided modes in integrated photonic systems \cite{shha1968,anbo1977}, the work by Goodman, Dias, and Woody combined several key ideas at the right time to generate significant excitement around the use of optics in computing. The optical approach to matrix-vector multiplication introduced in Ref.\,\onlinecite{godi1978} is now referred to as the \textit{Stanford architecture}, as the authors were working at Stanford University at the time of the publication.
 
-Themes raised in the Stanford architecture persist to the present. The primary there is the use of light for highly parallel computation. Each light source can straightforwardly fan its signal out along many optical paths, and parallel computation can occur along each path independently. More generally, the primary strength of optics lies in communication\textemdash the ability to rapidly move information from one place to another without degradation. This strength is fundamental to the uncharged, massless, bosonic nature of photons which allows them to propagate without interaction. This strength is utilized from kHz and MHz frequencies for radio communication up to hundreds of THz for intercontinental data transmission over optical fiber.
+Themes raised in the Stanford architecture persist to the present. The primary theme is the use of light for highly parallel computation. Each light source can straightforwardly fan its signal out along many optical paths, and parallel computation can occur along each path independently. More generally, the primary strength of optics lies in communication\textemdash the ability to rapidly move information from one place to another without degradation. This strength is fundamental to the uncharged, massless, bosonic nature of photons which allows them to propagate without interaction. This strength is utilized from kHz and MHz frequencies for radio communication up to hundreds of THz for intercontinental data transmission over optical fiber.
 
 Another theme raised by the Stanford Architecture is the use of optics for special-purpose hardware accelerators that perform a specific task with performance unmatched by electronic approaches. Goodman et al. focused on the Fourier transform, but matrix-vector multiplication is the underlying operation. The non-interacting nature of light makes it excellent for parallel data transmission, which enables efficient matrix-vector multiplication. However, to construct a general purpose computer in the model of Turing, nonlinear operations are necessary. Efforts to augment the strength of light for communication with nonlinear optical devices for \textit{all-optical} computing surged in the 1980s following the work of Goodman, Dias, and Woody. These efforts can be separated roughly into two categories, with one track being focused on displacing silicon electronics for digital logic and general-purpose computing, and another track maintaining the purpose of augmenting silicon electronics with task-specific hardware accelerators that were envisioned to work in conjunction with electronic digital computers. The introduction of the Stanford architecture was shortly followed by a wave of interest in neural networks, and the use of optics for neural networks based on a similar architecture was quickly introduced \cite{psfa1985}.
 
@@ -638,6 +638,21 @@ When using light for computing in addition to communication in neural systems, i
 
 \vspace{3em}
 
+%An integrated analog O/E/O link for multi-channel laser neurons
+\cite{nata2016}
+-Nahmias et al. (Tait, Shastri, Prucnal)
+-Continuous-time perceptron-like neuron model (non-spiking)
+-WDM for fan-in
+-photodetector receives all optical inputs, converts to electrical signal that drives laser
+-photodetector accomplishes summation
+-nonlinearity due to laser threshold
+-laser operates at 3V with 85-95mA current (0.255-0.285W just sitting there)
+-above threshold, response is linear, so linear and nonlinear modes can be achieved
+-bandwidth limitation due to 250 MHz photodetector
+-good conversation about cascadability
+-huge problems related to tuning laser outputs to filters accomplishing synaptic weights
+-proposing tuning emission with photonic crystals
+
 %Machine Learning with Neuromorphic Photonics
 \cite{fepe2019}
 
@@ -660,10 +675,14 @@ When using light for computing in addition to communication in neural systems, i
 \cite{rokr2009}
 
 %other
+%Network of time-multiplexed optical parametric oscillators as a coherent Ising machine
+\cite{mawa2014}
+
 
 
 \vspace{3em}
 Did you emphasize that the Stanford architecture intended to utilize incoherent LEDs, as did the first optical neural nets by Psaltis et al?
 
 \paragraph{Key Takeaways Regarding Photonic Neural Systems}
+
 
