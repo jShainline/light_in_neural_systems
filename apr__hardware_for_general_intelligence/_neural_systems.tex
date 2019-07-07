@@ -5,10 +5,16 @@ Here I review the concepts of neural information processing. One central concept
 
 \vspace{3em}
 I go into some detail regarding neural systems because these concepts are central to the design of high-performance neural systems. With some exceptions, efforts related to hardware for neuromorphic computing do not incorporate the architectural principles of neural systems, choosing instead to focus on feed-forward graphs for deep learning. Similarly, many efforts ignore the important computations occurring at synapses, treating a synapse as a simple variable attenuator. And in many efforts, the information processing performed in dendrites are neglected all together, replacing the complex computations of the dendritic tree with a point neuron model. All of these simplifications can be justified if one does not aim to create hardware for general intelligence. However, with high performance as the primary focus of this review, we cannot expect to glean the most crucial insights if we neglect to consider the basic principles of neural information processing. 
-\begin{figure} 
-    \centering{\includegraphics[width=8.6cm]{figures/neural_elephant.png}}
-	\captionof{figure}{\label{fig:neural_elephant}}
-\end{figure}
+\includegraphics[width=8.6cm]{figures/_neural_elephant.pdf}
+\captionof{figure}{\label{fig:neural_elephant}The neural elephant.}
+
+\includegraphics[width=8.6cm]{figures/_ramon_y_cajal.png}
+\captionof{figure}{\label{fig:ramon_y_cajal}Drawing of a giant pyramidal neuron by Santiago Ram\'{o}n y Cajal. ``Branching upward from its cell body is one set of very long dendrites over a millimeter in length that extend all the way to the surface of the brain (e). Other dendrites surround the cell body (d). Output signals from the neuron travel from teh cell body into the axon (a), which splits into several branches (c).'' From Ref.\,\onlinecite{ra2017}.}
+
+\end{multicols}
+\includegraphics[width=17.2cm]{figures/_portraits_of_the_mind.png}
+\captionof{figure}{\label{fig:portraits_of_the_mind}Microscope images of neurons in the brain. (a) The network of the barrel cortex in a rat brain. (b) Neurons in the cerebellum with distinct regions for neuron cell bodies and axonal communication tracts. (Make comparison to later routing diagrams) (c) Mouse hippocampus showing multiple regions dense with cell bodies and others dense with axonal communication tracts in a highly specialized architecture. From Ref.\,\onlinecite{sc2010}.}
+\begin{multicols}{2}
 
 \input{__spatial_structure_of_neural_systems}
 

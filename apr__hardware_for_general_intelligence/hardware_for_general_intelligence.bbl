@@ -126,6 +126,16 @@ D.~Silver, J.~Schrittwieser, K.~Simonyan, I.~Antonoglou, A.~Huang, A.~Guez,
 \newblock Mastering the game of {G}o without human knowledge.
 \newblock {\em Nature}, 354:550, 2017.
 
+\bibitem{ra2017}
+L.W. Swanson, E.A. Newman, A.~Araque, J.M. Dubinsky, L.~King, and E.~Himmel.
+\newblock {\em The {B}eautiful {B}rain}.
+\newblock Abrams, 2017.
+
+\bibitem{sc2010}
+C.~Schoonover.
+\newblock {\em Portraits of the {M}ind}.
+\newblock Abrams, 2010.
+
 \bibitem{eskn2015}
 E.~Estrada and P.A. Knight.
 \newblock {\em A First Course in Network Theory}.
@@ -193,6 +203,11 @@ M.~Bota, O.~Sporns, and L.W. Swanson.
 H.A. Simon.
 \newblock The {A}rchitecture of {C}omplexity.
 \newblock {\em Proc. Amer. Phil. Soc.}, 106:467, 1962.
+
+\bibitem{sp2010}
+O.~Sporns.
+\newblock {\em Networks of the Brain}.
+\newblock The MIT Press, Cambridge, Massachusetts, first edition, 2010.
 
 \bibitem{bagr2010}
 D.S. Bassett, D.L. Greenfield, A.~Meyer-Lindenberg, D.R. Weinberger, S.W.
@@ -579,11 +594,6 @@ C.G. Langton.
   computation.
 \newblock {\em Physica D}, 42:12, 1990.
 
-\bibitem{sp2010}
-O.~Sporns.
-\newblock {\em Networks of the Brain}.
-\newblock The MIT Press, Cambridge, Massachusetts, first edition, 2010.
-
 \bibitem{plth2006}
 D.~Plenz and T.C. Thiagarajan.
 \newblock The organizing principles of neuronal avalanches: cell assemblies in
@@ -969,6 +979,11 @@ D.A.B. Miller.
 \newblock Are optical transistors the logical next step?
 \newblock {\em Nature Photonics}, 4:3, 2010.
 
+\bibitem{so1993}
+R.~Soref.
+\newblock Silicon-{B}ased {O}ptoelectronics.
+\newblock {\em Proceedings of the IEEE}, 81:1687, 1993.
+
 \bibitem{sole1985}
 R.~Soref and J.P. Lorenzo.
 \newblock Single-crystal silicon: {A} new material for 1.3 and 1.6\,\textmu m
@@ -985,11 +1000,6 @@ R.~Soref and J.P. Lorenzo.
 R.~Soref and B.~Bennett.
 \newblock Electrooptical effects in silicon.
 \newblock {\em IEEE J. Quant. Electron.}, {QE}-23:123, 1987.
-
-\bibitem{so1993}
-R.~Soref.
-\newblock Silicon-{B}ased {O}ptoelectronics.
-\newblock {\em Proceedings of the IEEE}, 81:1687, 1993.
 
 \bibitem{snlo1983}
 A.W. Snyder and J.D. Love.
@@ -1592,6 +1602,12 @@ Y.A. Vlasov and S.J. McNab.
 \newblock Losses in single-mode silicon-on-insulator strip waveguides and
   bends.
 \newblock {\em Opt. Express}, 12:1622, 2004.
+
+\bibitem{tafe2016}
+A.N. Tait, T.~Ferreira de~Lima, M.A. Nahmias, B.J. Shastri, and P.R. Prucnal.
+\newblock Continuous calibration of microring weights for analog optical
+  networks.
+\newblock {\em IEEE Photonics Technology Letters}, 28:887, 2016.
 
 \bibitem{pena2018}
 H.-T. Peng, M.A. Nahmias, T.~Ferreira de~Lima, A.N. Tait, B.J. Shastri, and

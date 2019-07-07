@@ -38,61 +38,65 @@ I was expecting a `,' or a `}'---line 4944 of file hardware_for_general_intellig
  : @ARTICLE{apso2010,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 5227 of file hardware_for_general_intelligence.bib
+Repeated entry---line 5245 of file hardware_for_general_intelligence.bib
  : @article{brso2013
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5262 of file hardware_for_general_intelligence.bib
- : @article{bubr2017
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 5271 of file hardware_for_general_intelligence.bib
- : @article{orso2015
  :                  ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 5280 of file hardware_for_general_intelligence.bib
- : @article{nate2017
+ : @article{bubr2017
  :                  ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 5289 of file hardware_for_general_intelligence.bib
- : @article{anha2017
+ : @article{orso2015
  :                  ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 5298 of file hardware_for_general_intelligence.bib
- : @article{vadi2008
+ : @article{nate2017
  :                  ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 5307 of file hardware_for_general_intelligence.bib
- : @article{brso2013
+ : @article{anha2017
  :                  ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 5316 of file hardware_for_general_intelligence.bib
- : @article{dusc2012
+ : @article{vadi2008
  :                  ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 5325 of file hardware_for_general_intelligence.bib
+ : @article{brso2013
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5334 of file hardware_for_general_intelligence.bib
+ : @article{dusc2012
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5343 of file hardware_for_general_intelligence.bib
  : @article{brfi2015
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5424 of file hardware_for_general_intelligence.bib
+Repeated entry---line 5442 of file hardware_for_general_intelligence.bib
  : @article{psfa1985
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5469 of file hardware_for_general_intelligence.bib
+Repeated entry---line 5487 of file hardware_for_general_intelligence.bib
  : @article{chsa2018
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5845 of file hardware_for_general_intelligence.bib
+Repeated entry---line 5863 of file hardware_for_general_intelligence.bib
  : @article{dukr1999
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5863 of file hardware_for_general_intelligence.bib
+Repeated entry---line 5881 of file hardware_for_general_intelligence.bib
  : @article{baku2011
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5872 of file hardware_for_general_intelligence.bib
+Repeated entry---line 5890 of file hardware_for_general_intelligence.bib
  : @article{coge2011
  :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6074 of file hardware_for_general_intelligence.bib
+ : @book{sc2010
+ :             ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "http://www.atimes.com/leibniz-chinese-invented-first-binary-code/"
@@ -126,6 +130,7 @@ Warning--I didn't find a database entry for "moju2000"
 Warning--I didn't find a database entry for "krro2011"
 Warning--I didn't find a database entry for "husc2012"
 Warning--I didn't find a database entry for "feyo2019"
+Warning--I didn't find a database entry for "nata2016"
 Warning--I didn't find a database entry for "fepe2019"
 Warning--I didn't find a database entry for "chca2013"
 Warning--I didn't find a database entry for "sh2019_fluxonic"
@@ -155,4 +160,4 @@ Warning--empty author in bu1950
 Warning--empty year in bu1950
 Warning--empty title in ai1989
 Warning--empty title in og1989
-(There were 24 error messages)
+(There were 25 error messages)
