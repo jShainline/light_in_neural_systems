@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  7 JUL 2019 13:25
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  8 JUL 2019 13:02
 entering extended mode
 **hardware_for_general_intelligence.tex
 
@@ -579,14 +579,14 @@ File: figures/_neural_elephant.pdf Graphic file (type pdf)
 <use figures/_neural_elephant.pdf>
 Package pdftex.def Info: figures/_neural_elephant.pdf used on input line 8.
 (pdftex.def)             Requested size: 244.69386pt x 177.29495pt.
-
-<figures/_ramon_y_cajal.png, id=38, 578.16pt x 946.53625pt>
+ [9]
+<figures/_ramon_y_cajal.png, id=41, 578.16pt x 946.53625pt>
 File: figures/_ramon_y_cajal.png Graphic file (type png)
 
 <use figures/_ramon_y_cajal.png>
 Package pdftex.def Info: figures/_ramon_y_cajal.png used on input line 11.
 (pdftex.def)             Requested size: 244.69386pt x 400.58998pt.
- [9]
+
 <figures/_portraits_of_the_mind.png, id=42, 2165.08875pt x 569.12625pt>
 File: figures/_portraits_of_the_mind.png Graphic file (type png)
 
@@ -1263,7 +1263,7 @@ Here is how much of TeX's memory you used:
  8214 multiletter control sequences out of 15000+200000
  76504 words of font info for 57 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,16n,39p,4112b,884s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,16n,39p,4112b,818s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Fil
 es/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fon
 ts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ma
@@ -1287,7 +1287,7 @@ type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
 msy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on hardware_for_general_intelligence.pdf (108 pages, 39169115 by
+Output written on hardware_for_general_intelligence.pdf (108 pages, 39169584 by
 tes).
 PDF statistics:
  701 PDF objects out of 1000 (max. 8388607)
