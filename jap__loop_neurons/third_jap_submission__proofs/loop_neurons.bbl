@@ -707,8 +707,8 @@ D.J. Amit and S.~Fusi.
 
 \bibitem{somi2000}
 S.~Song, K.D. Miller, and L.F. Abbott.
-\newblock Competitive hebbian learning through spike-timing-dependent synaptic
-  plasticity.
+\newblock Competitive {H}ebbian learning through spike-timing-dependent
+  synaptic plasticity.
 \newblock {\em Nature Neuroscience}, 3:919, 2000.
 
 \bibitem{prsh2017}
@@ -769,11 +769,6 @@ H.~Suzuki, A.~Inoue, T.~Imamura, and S.~Hasuo.
 \newblock A josephson driver to interface josephson junctions to semiconductor
   transistors.
 \newblock {\em IEDM Tech. Dig.}, 88:290, 1988.
-
-\bibitem{bu2018}
-S.M.~Buckley et~al.
-\newblock Light emitter design for superconducting optoelectronic networks.
-\newblock {\em in preparation}, 2018.
 
 \bibitem{lasa1988}
 J.C. Lasjaunias, M.~Saint-Paul, O.~Laborde, O.~Thomas, J.P. Senateur, and
@@ -981,7 +976,8 @@ R.C. Zeller and R.O. Pohl.
 \newblock {\em Phys. Rev. B}, 4:2029, 1971.
 
 \bibitem{mcve2019}
-A.N.~McCaughan et~al.
+A.N. McCaughan, V.B. Verma, S.M. Buckley, A.N. Tait, S.W. Nam, and J.M.
+  Shainline.
 \newblock An ultrahigh-impedance superconducting thermal switch for interfacing
   superconductors to semiconductors and optoelectronics.
 \newblock {\em arXiv}, 1903:10461, 2019.
