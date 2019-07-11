@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  10 JUL 2019 17:00
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  11 JUL 2019 14:52
 entering extended mode
 **loop_neurons.tex
 
@@ -592,106 +592,109 @@ LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
 hird_jap_submission__proofs/_receivers_coincidence_small.pdf> <C:/Users/jms4/Do
 cuments/GitHub/light_in_neural_systems/jap__loop_neurons/third_jap_submission__
 proofs/_receivers_dendriticProcessing_small.pdf>]
-Underfull \hbox (badness 1112) in paragraph at lines 246--247
+Underfull \hbox (badness 1112) in paragraph at lines 244--245
 []\OT1/lmr/m/n/10 In Sec.I[] we ar-gue that cog-ni-tive sys-tems ben-e-fit
  []
 
 [13]
-<_synapticPlasticity_schematic_small.pdf, id=446, 244.69318pt x 348.54616pt>
+<_synapticPlasticity_schematic_small.pdf, id=474, 244.69318pt x 348.54616pt>
 File: _synapticPlasticity_schematic_small.pdf Graphic file (type pdf)
 
 <use _synapticPlasticity_schematic_small.pdf>
 Package pdftex.def Info: _synapticPlasticity_schematic_small.pdf used on input 
-line 264.
+line 262.
 (pdftex.def)             Requested size: 244.69386pt x 348.55061pt.
  [14 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
 third_jap_submission__proofs/_synapticPlasticity_schematic_small.pdf>]
-<_synapticPlasticity_binaryCircuit_small.pdf, id=529, 244.69417pt x 138.76843pt
+<_synapticPlasticity_binaryCircuit_small.pdf, id=557, 244.69417pt x 138.76843pt
 >
 File: _synapticPlasticity_binaryCircuit_small.pdf Graphic file (type pdf)
  <use _synapticPlasticity_binaryCircuit_small.pdf>
 Package pdftex.def Info: _synapticPlasticity_binaryCircuit_small.pdf used on in
-put line 277.
+put line 275.
 (pdftex.def)             Requested size: 244.69386pt x 138.77019pt.
 
-<_synapticPlasticity_binary_small.pdf, id=530, 244.69318pt x 398.3382pt>
+<_synapticPlasticity_binary_small.pdf, id=558, 244.69318pt x 398.3382pt>
 File: _synapticPlasticity_binary_small.pdf Graphic file (type pdf)
 
 <use _synapticPlasticity_binary_small.pdf>
 Package pdftex.def Info: _synapticPlasticity_binary_small.pdf used on input lin
-e 284.
+e 282.
 (pdftex.def)             Requested size: 244.69386pt x 398.34329pt.
- [15 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
-third_jap_submission__proofs/_synapticPlasticity_binaryCircuit_small.pdf>]
-<_synapticPlasticity_supervisedCircuit_small.pdf, id=572, 244.69417pt x 199.169
+
+<_synapticPlasticity_supervisedCircuit_small.pdf, id=559, 244.69417pt x 199.169
 1pt>
 File: _synapticPlasticity_supervisedCircuit_small.pdf Graphic file (type pdf)
  <use _synapticPlasticity_supervisedCircuit_small.pdf>
 Package pdftex.def Info: _synapticPlasticity_supervisedCircuit_small.pdf used o
-n input line 291.
+n input line 289.
 (pdftex.def)             Requested size: 244.69386pt x 199.17163pt.
 
-<_synapticPlasticity_supervised_small.pdf, id=573, 244.69318pt x 318.18875pt>
+<_synapticPlasticity_supervised_small.pdf, id=560, 244.69318pt x 318.18875pt>
 File: _synapticPlasticity_supervised_small.pdf Graphic file (type pdf)
 
 <use _synapticPlasticity_supervised_small.pdf>
 Package pdftex.def Info: _synapticPlasticity_supervised_small.pdf used on input
- line 297.
+ line 295.
 (pdftex.def)             Requested size: 244.69386pt x 318.19281pt.
- [16 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
-third_jap_submission__proofs/_synapticPlasticity_binary_small.pdf> <C:/Users/jm
-s4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/third_jap_submiss
-ion__proofs/_synapticPlasticity_supervisedCircuit_small.pdf>]
+ [15 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
+third_jap_submission__proofs/_synapticPlasticity_binaryCircuit_small.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 301.
+ on input line 299.
 
-[17 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/t
-hird_jap_submission__proofs/_synapticPlasticity_supervised_small.pdf>]
-<_synapticPlasticity_Hebbian_1_small.pdf, id=796, 244.69318pt x 282.5245pt>
+[16 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/t
+hird_jap_submission__proofs/_synapticPlasticity_binary_small.pdf> <C:/Users/jms
+4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/third_jap_submissi
+on__proofs/_synapticPlasticity_supervisedCircuit_small.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 305.
+
+<_synapticPlasticity_Hebbian_1_small.pdf, id=743, 244.69318pt x 282.5245pt>
 File: _synapticPlasticity_Hebbian_1_small.pdf Graphic file (type pdf)
 
 <use _synapticPlasticity_Hebbian_1_small.pdf>
 Package pdftex.def Info: _synapticPlasticity_Hebbian_1_small.pdf used on input 
-line 314.
+line 312.
 (pdftex.def)             Requested size: 244.69386pt x 282.5281pt.
- [18 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
-third_jap_submission__proofs/_synapticPlasticity_Hebbian_1_small.pdf>]
-<_synapticPlasticity_stdp_small.pdf, id=866, 244.69318pt x 349.07513pt>
+ [17 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
+third_jap_submission__proofs/_synapticPlasticity_supervised_small.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 318.
+
+[18 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/t
+hird_jap_submission__proofs/_synapticPlasticity_Hebbian_1_small.pdf>]
+<_synapticPlasticity_stdp_small.pdf, id=894, 244.69318pt x 349.07513pt>
 File: _synapticPlasticity_stdp_small.pdf Graphic file (type pdf)
 
 <use _synapticPlasticity_stdp_small.pdf>
 Package pdftex.def Info: _synapticPlasticity_stdp_small.pdf used on input line 
-338.
+336.
 (pdftex.def)             Requested size: 244.69386pt x 349.07959pt.
- [19]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 348.
-
-
-Underfull \hbox (badness 2573) in paragraph at lines 350--351
+ [19 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
+third_jap_submission__proofs/_synapticPlasticity_stdp_small.pdf>]
+Underfull \hbox (badness 2573) in paragraph at lines 348--349
 []\OT1/lmr/m/n/10 Other forms of pho-tonic synapses have re-cently
  []
 
 
-Underfull \hbox (badness 2781) in paragraph at lines 350--351
+Underfull \hbox (badness 2781) in paragraph at lines 348--349
 \OT1/lmr/m/n/10 been de-vel-oped and of-fer util-ity in mul-ti-ple neu-
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 350--351
+Underfull \hbox (badness 1308) in paragraph at lines 348--349
 \OT1/lmr/m/n/10 ral contexts$[]$. One can lever-age phase shifts
  []
 
 
-Underfull \hbox (badness 1286) in paragraph at lines 350--351
+Underfull \hbox (badness 1286) in paragraph at lines 348--349
 \OT1/lmr/m/n/10 in microrings$[]$ or Mach-Zehnder in-ter-fer-om-e-ters
  []
 
-[20 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/t
-hird_jap_submission__proofs/_synapticPlasticity_stdp_small.pdf>]
-<_transmitters_schematic_small.pdf, id=979, 244.69318pt x 327.20743pt>
+[20] <_transmitters_schematic_small.pdf, id=1007, 244.69318pt x 327.20743pt>
 File: _transmitters_schematic_small.pdf Graphic file (type pdf)
 
 <use _transmitters_schematic_small.pdf>
@@ -700,15 +703,16 @@ Package pdftex.def Info: _transmitters_schematic_small.pdf used on input line 3
 (pdftex.def)             Requested size: 244.69386pt x 327.21161pt.
  [21 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
 third_jap_submission__proofs/_transmitters_schematic_small.pdf>]
-<_transmitters_LED_circuit_small.pdf, id=1084, 244.69318pt x 128.03734pt>
+<_transmitters_LED_circuit_small.pdf, id=1113, 244.69318pt x 128.03734pt>
 File: _transmitters_LED_circuit_small.pdf Graphic file (type pdf)
 
 <use _transmitters_LED_circuit_small.pdf>
 Package pdftex.def Info: _transmitters_LED_circuit_small.pdf used on input line
  388.
 (pdftex.def)             Requested size: 244.69386pt x 128.03896pt.
- [22]
-<_transmitters_LED_data_small.pdf, id=1089, 244.69417pt x 466.89832pt>
+ [22 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
+third_jap_submission__proofs/_transmitters_LED_circuit_small.pdf>]
+<_transmitters_LED_data_small.pdf, id=1158, 244.69417pt x 466.89832pt>
 File: _transmitters_LED_data_small.pdf Graphic file (type pdf)
 
 <use _transmitters_LED_data_small.pdf>
@@ -716,51 +720,47 @@ Package pdftex.def Info: _transmitters_LED_data_small.pdf used on input line 40
 4.
 (pdftex.def)             Requested size: 244.69386pt x 466.90427pt.
  [23 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
-third_jap_submission__proofs/_transmitters_LED_circuit_small.pdf>]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 413.
-
-
+third_jap_submission__proofs/_transmitters_LED_data_small.pdf>]
 
 pdfTeX warning: pdflatex (file C:/Users/jms4/Documents/GitHub/light_in_neural_s
 ystems/jap__loop_neurons/third_jap_submission__proofs/_transmitters_hTron_circu
 it_small.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5
 > allowed
-<_transmitters_hTron_circuit_small.pdf, id=1134, 244.69318pt x 271.17813pt>
+<_transmitters_hTron_circuit_small.pdf, id=1218, 244.69318pt x 271.17813pt>
 File: _transmitters_hTron_circuit_small.pdf Graphic file (type pdf)
 
 <use _transmitters_hTron_circuit_small.pdf>
 Package pdftex.def Info: _transmitters_hTron_circuit_small.pdf used on input li
 ne 417.
 (pdftex.def)             Requested size: 244.69386pt x 271.1816pt.
- [24 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
-third_jap_submission__proofs/_transmitters_LED_data_small.pdf> <C:/Users/jms4/D
-ocuments/GitHub/light_in_neural_systems/jap__loop_neurons/third_jap_submission_
-_proofs/_transmitters_hTron_circuit_small.pdf
 
-pdfTeX warning: pdflatex (file C:/Users/jms4/Documents/GitHub/light_in_neural_s
-ystems/jap__loop_neurons/third_jap_submission__proofs/_transmitters_hTron_circu
-it_small.pdf): PDF inclusion: multiple pdfs with page group included in a singl
-e page
->] <_transmitters_hTron_data_1_small.pdf, id=1248, 244.69318pt x 287.70085pt>
+<_transmitters_hTron_data_1_small.pdf, id=1219, 244.69318pt x 287.70085pt>
 File: _transmitters_hTron_data_1_small.pdf Graphic file (type pdf)
 
 <use _transmitters_hTron_data_1_small.pdf>
 Package pdftex.def Info: _transmitters_hTron_data_1_small.pdf used on input lin
 e 425.
 (pdftex.def)             Requested size: 244.69386pt x 287.70453pt.
- [25 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
-third_jap_submission__proofs/_transmitters_hTron_data_1_small.pdf>]
-<_transmitters_hTron_data_2_small.pdf, id=1265, 244.69318pt x 305.21227pt>
+ [24 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
+third_jap_submission__proofs/_transmitters_hTron_circuit_small.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 430.
+
+<_transmitters_hTron_data_2_small.pdf, id=1277, 244.69318pt x 305.21227pt>
 File: _transmitters_hTron_data_2_small.pdf Graphic file (type pdf)
 
 <use _transmitters_hTron_data_2_small.pdf>
 Package pdftex.def Info: _transmitters_hTron_data_2_small.pdf used on input lin
 e 438.
 (pdftex.def)             Requested size: 244.69386pt x 305.21616pt.
+ [25 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
+third_jap_submission__proofs/_transmitters_hTron_data_1_small.pdf>]
 
-<_transmitters_jjTriggersNTron_small.pdf, id=1266, 244.69417pt x 284.72974pt>
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 445.
+
+<_transmitters_jjTriggersNTron_small.pdf, id=1294, 244.69417pt x 284.72974pt>
 File: _transmitters_jjTriggersNTron_small.pdf Graphic file (type pdf)
 
 <use _transmitters_jjTriggersNTron_small.pdf>
@@ -768,18 +768,21 @@ Package pdftex.def Info: _transmitters_jjTriggersNTron_small.pdf used on input
 line 448.
 (pdftex.def)             Requested size: 244.69386pt x 284.73337pt.
  [26 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
-third_jap_submission__proofs/_transmitters_hTron_data_2_small.pdf>]
+third_jap_submission__proofs/_transmitters_hTron_data_2_small.pdf> <C:/Users/jm
+s4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/third_jap_submiss
+ion__proofs/_transmitters_jjTriggersNTron_small.pdf
 
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 455.
-
-
+pdfTeX warning: pdflatex (file C:/Users/jms4/Documents/GitHub/light_in_neural_s
+ystems/jap__loop_neurons/third_jap_submission__proofs/_transmitters_jjTriggersN
+Tron_small.pdf): PDF inclusion: multiple pdfs with page group included in a sin
+gle page
+>]
 
 pdfTeX warning: pdflatex (file C:/Users/jms4/Documents/GitHub/light_in_neural_s
 ystems/jap__loop_neurons/third_jap_submission__proofs/_transmitters_efficiency_
 small.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
 llowed
-<_transmitters_efficiency_small.pdf, id=1323, 244.69318pt x 446.198pt>
+<_transmitters_efficiency_small.pdf, id=1427, 244.69318pt x 446.198pt>
 File: _transmitters_efficiency_small.pdf Graphic file (type pdf)
 
 <use _transmitters_efficiency_small.pdf>
@@ -787,20 +790,12 @@ Package pdftex.def Info: _transmitters_efficiency_small.pdf used on input line
 460.
 (pdftex.def)             Requested size: 244.69386pt x 446.2037pt.
  [27 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
-third_jap_submission__proofs/_transmitters_jjTriggersNTron_small.pdf> <C:/Users
-/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/third_jap_subm
-ission__proofs/_transmitters_efficiency_small.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/jms4/Documents/GitHub/light_in_neural_s
-ystems/jap__loop_neurons/third_jap_submission__proofs/_transmitters_efficiency_
-small.pdf): PDF inclusion: multiple pdfs with page group included in a single p
-age
->]
+third_jap_submission__proofs/_transmitters_efficiency_small.pdf>]
 Underfull \hbox (badness 1668) in paragraph at lines 472--473
 []\OT1/lmr/m/n/10 In prac-tice, achiev-ing small, waveguide-integrated
  []
 
-<_transmitters_fullCircuit_small.pdf, id=1456, 489.38535pt x 380.92313pt>
+<_transmitters_fullCircuit_small.pdf, id=1484, 489.38535pt x 380.92313pt>
 File: _transmitters_fullCircuit_small.pdf Graphic file (type pdf)
 
 <use _transmitters_fullCircuit_small.pdf>
@@ -813,75 +808,71 @@ Underfull \hbox (badness 2573) in paragraph at lines 502--503
 []\OT1/lmr/m/n/10 Optical com-mu-ni-ca-tion be-tween neu-rons pro-vides
  []
 
-[30] <_networks_schematic_small.pdf, id=1534, 244.69417pt x 312.98131pt>
+[30] <_networks_schematic_small.pdf, id=1562, 244.69417pt x 312.98131pt>
 File: _networks_schematic_small.pdf Graphic file (type pdf)
 
 <use _networks_schematic_small.pdf>
 Package pdftex.def Info: _networks_schematic_small.pdf used on input line 519.
 (pdftex.def)             Requested size: 244.69386pt x 312.98529pt.
- [31]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 525.
-
-<_networks_routingDiagram_small.pdf, id=1539, 489.38733pt x 381.2674pt>
+ [31 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
+third_jap_submission__proofs/_networks_schematic_small.pdf>]
+<_networks_routingDiagram_small.pdf, id=1619, 489.38733pt x 381.2674pt>
 File: _networks_routingDiagram_small.pdf Graphic file (type pdf)
 
 <use _networks_routingDiagram_small.pdf>
 Package pdftex.def Info: _networks_routingDiagram_small.pdf used on input line 
 532.
 (pdftex.def)             Requested size: 489.38731pt x 381.27226pt.
- [32 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
-third_jap_submission__proofs/_networks_schematic_small.pdf>] [33 <C:/Users/jms4
-/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/third_jap_submissio
-n__proofs/_networks_routingDiagram_small.pdf>] <_networks_areaDiagram_small.pdf
-, id=1627, 244.69318pt x 318.60329pt>
+ [32]
+<_networks_areaDiagram_small.pdf, id=1624, 244.69318pt x 318.60329pt>
 File: _networks_areaDiagram_small.pdf Graphic file (type pdf)
 
 <use _networks_areaDiagram_small.pdf>
 Package pdftex.def Info: _networks_areaDiagram_small.pdf used on input line 547
 .
 (pdftex.def)             Requested size: 244.69386pt x 318.60736pt.
+ [33 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
+third_jap_submission__proofs/_networks_routingDiagram_small.pdf>]
 
-<_networks_scaling_small.pdf, id=1628, 244.69318pt x 432.48175pt>
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 553.
+
+<_networks_scaling_small.pdf, id=1656, 244.69318pt x 432.48175pt>
 File: _networks_scaling_small.pdf Graphic file (type pdf)
 
 <use _networks_scaling_small.pdf>
 Package pdftex.def Info: _networks_scaling_small.pdf used on input line 558.
 (pdftex.def)             Requested size: 244.69386pt x 432.48727pt.
  [34 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
-third_jap_submission__proofs/_networks_areaDiagram_small.pdf>] [35 <C:/Users/jm
-s4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/third_jap_submiss
-ion__proofs/_networks_scaling_small.pdf>]
-[36] [37] [38]
+third_jap_submission__proofs/_networks_areaDiagram_small.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 564.
+
+[35 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/t
+hird_jap_submission__proofs/_networks_scaling_small.pdf>] [36] [37]
 Underfull \hbox (badness 1253) in paragraph at lines 629--630
 []\OT1/lmr/m/n/10 Regarding the two-photon co-in-ci-dence de-tec-tor of
  []
 
-[39] [40] [41]
-<_networks_feedForward_small.pdf, id=1740, 244.69318pt x 360.42455pt>
+[38] [39] [40] [41]
+<_networks_feedForward_small.pdf, id=1769, 244.69318pt x 360.42455pt>
 File: _networks_feedForward_small.pdf Graphic file (type pdf)
 
 <use _networks_feedForward_small.pdf>
 Package pdftex.def Info: _networks_feedForward_small.pdf used on input line 759
 .
 (pdftex.def)             Requested size: 244.69386pt x 360.42914pt.
- [42]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 769.
-
-
-<_networks_contributionsToEnergy_small.pdf, id=1745, 244.69417pt x 167.22977pt>
+ [42 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
+third_jap_submission__proofs/_networks_feedForward_small.pdf>]
+<_networks_contributionsToEnergy_small.pdf, id=1784, 244.69417pt x 167.22977pt>
 File: _networks_contributionsToEnergy_small.pdf Graphic file (type pdf)
 <use _networks_contributionsToEnergy_small.pdf>
 Package pdftex.def Info: _networks_contributionsToEnergy_small.pdf used on inpu
 t line 775.
 (pdftex.def)             Requested size: 244.69386pt x 167.23189pt.
  [43 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/jap__loop_neurons/
-third_jap_submission__proofs/_networks_feedForward_small.pdf> <C:/Users/jms4/Do
-cuments/GitHub/light_in_neural_systems/jap__loop_neurons/third_jap_submission__
-proofs/_networks_contributionsToEnergy_small.pdf>]
+third_jap_submission__proofs/_networks_contributionsToEnergy_small.pdf>]
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\jap__loop_neurons\third
 _jap_submission__proofs\loop_neurons.bbl [44] [45]
 Underfull \hbox (badness 5726) in paragraph at lines 588--594
@@ -898,7 +889,7 @@ Underfull \hbox (badness 3525) in paragraph at lines 686--692
  \OT1/lmr/m/n/8 N. Kalch-bren-ner, I. Sutskever, T. Lil-l-i-crap, M. Leach,
  []
 
-[46]
+
 Underfull \hbox (badness 2293) in paragraph at lines 738--741
  []\OT1/lmr/m/n/8 Z. Cheng, C. Rios, W.H.P. Per-nice, C.D. Wright, and
  []
@@ -908,17 +899,17 @@ Underfull \hbox (badness 1874) in paragraph at lines 762--766
  []\OT1/lmr/m/n/8 T. Van Duzer, Y. Feng, X. Meng, S.R. White-ley, and
  []
 
-[47]) [48]
+[46]) [47]
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\jap__loop_neurons\third
 _jap_submission__proofs\loop_neurons.aux) ) 
 Here is how much of TeX's memory you used:
- 6075 strings out of 493921
- 88746 string characters out of 3147285
- 158600 words of memory out of 3000000
- 9255 multiletter control sequences out of 15000+200000
- 71507 words of font info for 61 fonts, out of 3000000 for 9000
+ 6077 strings out of 493921
+ 88738 string characters out of 3147285
+ 191116 words of memory out of 3000000
+ 9256 multiletter control sequences out of 15000+200000
+ 74453 words of font info for 62 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,17n,32p,2778b,1112s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,17n,32p,2329b,1077s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/e
 nc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm
 .enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program 
@@ -932,29 +923,30 @@ iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
-ic/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi5.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmm
-i9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/lm/lmr5.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
-m/lmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmri8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri9.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/lm/lmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/lm/lmss9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
-sbo10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/lm/lmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy9.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on loop_neurons.pdf (48 pages, 12072041 bytes).
+ic/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/lm/lmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/lm/lmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
+mi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi9.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/lm/lmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri8.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri9.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/lm/lmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
+ss9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbo10.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/lm/lmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy9.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on loop_neurons.pdf (47 pages, 12351937 bytes).
 PDF statistics:
- 1898 PDF objects out of 2073 (max. 8388607)
+ 1928 PDF objects out of 2073 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
