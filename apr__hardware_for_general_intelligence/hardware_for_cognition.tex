@@ -1,0 +1,68 @@
+\documentclass[]{article}
+
+\usepackage{geometry}
+\geometry{textwidth = 18cm,textheight = 24cm}
+
+\usepackage{multicol}
+\usepackage{cite}
+\usepackage{caption}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{textcomp}
+\usepackage{lmodern}
+\usepackage{authblk}
+
+\newcommand{\onlinecite}[1]{\hspace{-1 ex} \nocite{#1}\citenum{#1}} 
+
+\begin{document}
+    
+\begin{center}
+\LARGE{Hardware for Cognition}\\ 
+\vspace{0.3em}
+\large Jeffrey M. Shainline\\
+\vspace{0.0em}
+\textit{\small National Institute of Standards and Technology, Boulder, CO, 80305}\\
+\vspace{0.3em}
+\small \today
+
+\begin{abstract}
+\input{_abstract}
+\vspace{1em}
+\end{abstract}
+
+\end{center}
+
+\begin{multicols}{2}
+
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{4}
+\tableofcontents
+
+
+\input{_introduction}
+
+\input{_neural_systems}
+
+\input{_hardware_platforms}
+
+\input{_large_scale}
+
+\input{_application_spaces}
+
+\input{_outlook}
+
+\vspace{3em}
+Need key takeaways at the end of each section
+\vspace{3em}
+
+\input{_definitions}
+
+\input{___misc_notes}
+
+\bibliographystyle{unsrt}
+\bibliography{hardware_for_cognition}
+
+\end{multicols}
+
+\end{document}
