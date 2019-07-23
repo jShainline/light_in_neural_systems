@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  17 JUL 2019 10:30
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  22 JUL 2019 13:42
 entering extended mode
 **hardware_for_cognition.tex
 
@@ -509,16 +509,12 @@ LaTeX Warning: Citation `juya1996' on page 7 undefined on input line 30.
 [7])
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr__hardware_for_gener
 al_intelligence\_neural_systems.tex
+<figures/_neural_elephant.png, id=34, 604.2575pt x 437.635pt>
+File: figures/_neural_elephant.png Graphic file (type png)
 
-pdfTeX warning: pdflatex (file C:/Users/jms4/Documents/GitHub/light_in_neural_s
-ystems/apr__hardware_for_general_intelligence/figures/_neural_elephant.pdf): PD
-F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/_neural_elephant.pdf, id=34, 302.4389pt x 219.1357pt>
-File: figures/_neural_elephant.pdf Graphic file (type pdf)
-
-<use figures/_neural_elephant.pdf>
-Package pdftex.def Info: figures/_neural_elephant.pdf used on input line 8.
-(pdftex.def)             Requested size: 244.69386pt x 177.29495pt.
+<use figures/_neural_elephant.png>
+Package pdftex.def Info: figures/_neural_elephant.png used on input line 8.
+(pdftex.def)             Requested size: 244.69386pt x 177.22116pt.
 
 <figures/_ramon_y_cajal.png, id=35, 578.16pt x 946.53625pt>
 File: figures/_ramon_y_cajal.png Graphic file (type png)
@@ -527,7 +523,7 @@ File: figures/_ramon_y_cajal.png Graphic file (type png)
 Package pdftex.def Info: figures/_ramon_y_cajal.png used on input line 11.
 (pdftex.def)             Requested size: 244.69386pt x 400.58998pt.
  [8 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/apr__hardware_for_g
-eneral_intelligence/figures/_neural_elephant.pdf>]
+eneral_intelligence/figures/_neural_elephant.png (PNG copy)>]
 Overfull \vbox (150.58998pt too high) has occurred while \output is active []
 
 
@@ -909,7 +905,7 @@ Overfull \vbox (25.58998pt too high) has occurred while \output is active []
 Overfull \vbox (24.58998pt too high) has occurred while \output is active []
 
 
-<figures/_portraits_of_the_mind.png, id=62, 2165.08875pt x 569.12625pt>
+<figures/_portraits_of_the_mind.png, id=39, 2165.08875pt x 569.12625pt>
 File: figures/_portraits_of_the_mind.png Graphic file (type png)
 
 <use figures/_portraits_of_the_mind.png>
@@ -932,7 +928,7 @@ mind.png (PNG copy)>]
 
 LaTeX Warning: Reference `fig:data' on page 10 undefined on input line 13.
 
-<data_plots.pdf, id=66, 244.69318pt x 438.3025pt>
+<data_plots.pdf, id=43, 244.69318pt x 438.3025pt>
 File: data_plots.pdf Graphic file (type pdf)
  <use data_plots.pdf>
 Package pdftex.def Info: data_plots.pdf used on input line 15.
@@ -956,14 +952,14 @@ environment!.
 LaTeX Warning: Citation `eskn2014' on page 10 undefined on input line 20.
 
 [10]
-<figures/_sporns_hierarchical_modularity.png, id=75, 681.54625pt x 669.50125pt>
+<figures/_sporns_hierarchical_modularity.png, id=52, 681.54625pt x 669.50125pt>
 File: figures/_sporns_hierarchical_modularity.png Graphic file (type png)
 <use figures/_sporns_hierarchical_modularity.png>
 Package pdftex.def Info: figures/_sporns_hierarchical_modularity.png used on in
 put line 42.
 (pdftex.def)             Requested size: 244.69386pt x 240.36646pt.
 
-<figures/_sporns_complexity.png, id=76, 828.09375pt x 545.03625pt>
+<figures/_sporns_complexity.png, id=53, 828.09375pt x 545.03625pt>
 File: figures/_sporns_complexity.png Graphic file (type png)
 
 <use figures/_sporns_complexity.png>
@@ -971,7 +967,7 @@ Package pdftex.def Info: figures/_sporns_complexity.png used on input line 45.
 (pdftex.def)             Requested size: 244.69386pt x 161.05043pt.
  [11 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/apr__hardware_for_
 general_intelligence/figures/_sporns_hierarchical_modularity.png (PNG copy)>]
-<figures/_sporns_complexity_and_hierarchical_modularity.png, id=82, 689.57625pt
+<figures/_sporns_complexity_and_hierarchical_modularity.png, id=59, 689.57625pt
  x 832.10875pt>
 File: figures/_sporns_complexity_and_hierarchical_modularity.png Graphic file (
 type png)
@@ -1114,7 +1110,7 @@ al_intelligence\__photonic_neural_systems.tex
 pdfTeX warning: pdflatex (file C:/Users/jms4/Documents/GitHub/light_in_neural_s
 ystems/apr__hardware_for_general_intelligence/figures/_stanford_architecture.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/_stanford_architecture.pdf, id=179, 521.77135pt x 649.76755pt>
+<figures/_stanford_architecture.pdf, id=156, 521.77135pt x 649.76755pt>
 File: figures/_stanford_architecture.pdf Graphic file (type pdf)
 
 <use figures/_stanford_architecture.pdf>
@@ -1132,7 +1128,7 @@ pdfTeX warning: pdflatex (file C:/Users/jms4/Documents/GitHub/light_in_neural_s
 ystems/apr__hardware_for_general_intelligence/figures/_optical_switching_networ
 k.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<figures/_optical_switching_network.pdf, id=212, 848.53812pt x 526.28922pt>
+<figures/_optical_switching_network.pdf, id=189, 848.53812pt x 526.28922pt>
 File: figures/_optical_switching_network.pdf Graphic file (type pdf)
 
 <use figures/_optical_switching_network.pdf>
@@ -1144,7 +1140,7 @@ ine 21.
 pdfTeX warning: pdflatex (file C:/Users/jms4/Documents/GitHub/light_in_neural_s
 ystems/apr__hardware_for_general_intelligence/figures/_soref_1993.pdf): PDF inc
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/_soref_1993.pdf, id=213, 837.99678pt x 1140.08932pt>
+<figures/_soref_1993.pdf, id=190, 837.99678pt x 1140.08932pt>
 File: figures/_soref_1993.pdf Graphic file (type pdf)
 
 <use figures/_soref_1993.pdf>
@@ -1156,7 +1152,7 @@ general_intelligence/figures/_optical_switching_network.pdf>]
 pdfTeX warning: pdflatex (file C:/Users/jms4/Documents/GitHub/light_in_neural_s
 ystems/apr__hardware_for_general_intelligence/figures/_soref_1985.pdf): PDF inc
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/_soref_1985.pdf, id=243, 471.32587pt x 726.8395pt>
+<figures/_soref_1985.pdf, id=220, 471.32587pt x 726.8395pt>
 File: figures/_soref_1985.pdf Graphic file (type pdf)
 
 <use figures/_soref_1985.pdf>
@@ -1203,7 +1199,7 @@ pdfTeX warning: pdflatex (file C:/Users/jms4/Documents/GitHub/light_in_neural_s
 ystems/apr__hardware_for_general_intelligence/figures/_first_optical_neural_net
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
-<figures/_first_optical_neural_net.pdf, id=319, 712.26pt x 574.47626pt>
+<figures/_first_optical_neural_net.pdf, id=296, 712.26pt x 574.47626pt>
 File: figures/_first_optical_neural_net.pdf Graphic file (type pdf)
 
 <use figures/_first_optical_neural_net.pdf>
@@ -1219,7 +1215,7 @@ LaTeX Warning: Reference `psfa1985' on page 48 undefined on input line 150.
 pdfTeX warning: pdflatex (file C:/Users/jms4/Documents/GitHub/light_in_neural_s
 ystems/apr__hardware_for_general_intelligence/figures/_neuro_optic_processor.pd
 f): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/_neuro_optic_processor.pdf, id=320, 650.52135pt x 514.995pt>
+<figures/_neuro_optic_processor.pdf, id=297, 650.52135pt x 514.995pt>
 File: figures/_neuro_optic_processor.pdf Graphic file (type pdf)
 
 <use figures/_neuro_optic_processor.pdf>
@@ -1271,7 +1267,7 @@ LaTeX Warning: Reference `shha2017' on page 54 undefined on input line 254.
 pdfTeX warning: pdflatex (file C:/Users/jms4/Documents/GitHub/light_in_neural_s
 ystems/apr__hardware_for_general_intelligence/figures/_delay_systems.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/_delay_systems.pdf, id=399, 452.50256pt x 423.89265pt>
+<figures/_delay_systems.pdf, id=376, 452.50256pt x 423.89265pt>
 File: figures/_delay_systems.pdf Graphic file (type pdf)
 
 <use figures/_delay_systems.pdf>
@@ -1284,7 +1280,7 @@ pdfTeX warning: pdflatex (file C:/Users/jms4/Documents/GitHub/light_in_neural_s
 ystems/apr__hardware_for_general_intelligence/figures/_optoelectronic_delay_sys
 tem.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
 owed
-<figures/_optoelectronic_delay_system.pdf, id=427, 916.30031pt x 458.52603pt>
+<figures/_optoelectronic_delay_system.pdf, id=404, 916.30031pt x 458.52603pt>
 File: figures/_optoelectronic_delay_system.pdf Graphic file (type pdf)
 
 <use figures/_optoelectronic_delay_system.pdf>
@@ -1340,7 +1336,7 @@ LaTeX Warning: Citation `fepe2019' on page 65 undefined on input line 678.
 )
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr__hardware_for_gener
 al_intelligence\__superconductor_neural_systems.tex [65]
-<figures/jj.png, id=480, 1003.75pt x 1003.75pt>
+<figures/jj.png, id=457, 1003.75pt x 1003.75pt>
 File: figures/jj.png Graphic file (type png)
  <use figures/jj.png>
 Package pdftex.def Info: figures/jj.png used on input line 8.
@@ -1610,9 +1606,9 @@ type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
 msy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on hardware_for_cognition.pdf (107 pages, 39166243 bytes).
+Output written on hardware_for_cognition.pdf (107 pages, 9448161 bytes).
 PDF statistics:
- 698 PDF objects out of 1000 (max. 8388607)
+ 675 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
