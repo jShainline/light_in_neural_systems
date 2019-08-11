@@ -1302,7 +1302,7 @@ J.~Chiles, S.~Buckley, N.~Nader, S.W. Nam, R.P. Mirin, and J.M. Shainline.
 J.~Chiles, S.M. Buckley, S.W. Nam, R.P. Mirin, and J.M. Shainline.
 \newblock Design, fabrication, and metrology of 10 x 100 multi-planar
   integrated photonic routing manifolds for neural networks.
-\newblock {\em APL Photonics}, page 106101, 2018.
+\newblock {\em APL Photonics}, 3:106101, 2018.
 
 \bibitem{sami2017}
 W.D. Sacher, J.C. Mikkelsen, P.~Dumais, J.~Jiang, D.~Goodwill, X.~Luo,
@@ -1637,6 +1637,19 @@ A.~Marandi, Z.~Wang, K.~Takata, R.L. Byer, and Y.~Yamamoto.
   coherent ising machine.
 \newblock {\em Nat. Phot.}, 8:937, 2014.
 
+\bibitem{mime2018}
+M.~Miscuglio, A.~Mehrabian, Z.~Hu, S.I. Azzam, J.~George, A.V. Kildishev,
+  M.~Pelton, and V.J. Sorger.
+\newblock All-optical nonlinear activation function for photonic neural
+  networks.
+\newblock {\em Opt. Mater. Express}, 8:3851, 2018.
+
+\bibitem{geme2019}
+J.K. George, A.~Mehrabian, R.~Amin, J.~Meng, T.~Ferreira de~Lima, A.N. Tait,
+  B.J. Shastri, T.~El-Ghazawi, P.R. Prucnal, and V.J. Sorger.
+\newblock Neuromorphic photonics with electro-absorption modulators.
+\newblock {\em Opt. Express}, 27:5181, 2019.
+
 \bibitem{bu1956}
 D.A. Buck.
 \newblock The cryotron--a superconductive computer component.
@@ -1855,12 +1868,6 @@ J.M. Shainline, S.M. Buckley, A.N. McCaughan, J.~Chiles, A.~Jafari-Salim, R.P.
   Mirin, and S.W. Nam.
 \newblock Circuit designs for superconducting optoelectronic loop neurons.
 \newblock {\em J. Appl. Phys.}, page 152130, 2018.
-
-\bibitem{sh2018_full}
-J.M. Shainline, S.M. Buckley, A.N. McCaughan, J.~Chiles, A.~Jafari-Salim, R.P.
-  Mirin, and S.W. Nam.
-\newblock Superconducting optoelectronic neurons.
-\newblock {\em arXiv}, page 1805.01929, 2018.
 
 \bibitem{kafe2015}
 O.~Kahl, S.~Ferrari, V.~Kovalyuk, G.N. Goltsman, A.~Korneev, and W.H.P.

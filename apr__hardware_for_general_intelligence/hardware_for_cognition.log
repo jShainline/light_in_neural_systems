@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  22 JUL 2019 13:42
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  8 AUG 2019 15:45
 entering extended mode
 **hardware_for_cognition.tex
 
@@ -1328,10 +1328,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 613--613
 
 [63] [64]
 
-LaTeX Warning: Citation `nata2016' on page 65 undefined on input line 660.
+LaTeX Warning: Citation `nata2016' on page 65 undefined on input line 656.
 
 
-LaTeX Warning: Citation `fepe2019' on page 65 undefined on input line 678.
+LaTeX Warning: Citation `fepe2019' on page 65 undefined on input line 674.
+
+
+LaTeX Warning: Citation `2018' on page 65 undefined on input line 705.
 
 )
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr__hardware_for_gener
@@ -1394,6 +1397,12 @@ Underfull \hbox (badness 6658) in paragraph at lines 100--101
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr__hardware_for_gener
 al_intelligence\__superconducting_optoelectronic_neural_systems.tex
 
+LaTeX Warning: Citation `sh2018_full' undefined on input line 2.
+
+
+LaTeX Warning: Citation `sh2018_full' on page 71 undefined on input line 2.
+
+
 LaTeX Warning: Citation `sh2019_fluxonic' undefined on input line 2.
 
 
@@ -1445,24 +1454,24 @@ LaTeX Warning: Citation `yyy' on page 76 undefined on input line 47.
 
 [76] [77]
 
-LaTeX Warning: Citation `juya1996' on page 78 undefined on input line 95.
+LaTeX Warning: Citation `juya1996' on page 78 undefined on input line 98.
 
 
-LaTeX Warning: Citation `juya1996' on page 78 undefined on input line 96.
+LaTeX Warning: Citation `juya1996' on page 78 undefined on input line 99.
 
 
-LaTeX Warning: Citation `juya1996' on page 78 undefined on input line 97.
+LaTeX Warning: Citation `juya1996' on page 78 undefined on input line 100.
 
 [78] [79]
 
 LaTeX Warning: Reference `fig:silicon_absorption_emission' on page 80 undefined
- on input line 139.
+ on input line 142.
 
 
-LaTeX Warning: Citation `shor2014' on page 80 undefined on input line 150.
+LaTeX Warning: Citation `shor2014' on page 80 undefined on input line 153.
 
 
-LaTeX Warning: Citation `suwa2017' on page 80 undefined on input line 150.
+LaTeX Warning: Citation `suwa2017' on page 80 undefined on input line 153.
 
 [80])
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr__hardware_for_gener
@@ -1485,7 +1494,11 @@ al_intelligence\_application_spaces.tex [83]
 LaTeX Warning: Citation `add_more_bayesian_neuro_refs_here_and_in_neuro_section
 ' on page 84 undefined on input line 67.
 
-[84])
+[84]
+
+LaTeX Warning: Citation `sh2018_full' on page 85 undefined on input line 71.
+
+)
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr__hardware_for_gener
 al_intelligence\_outlook.tex [85] [86] [87])
 (C:\Users\jms4\Documents\GitHub\light_in_neural_systems\apr__hardware_for_gener
@@ -1554,17 +1567,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 1425--1430
  []
 
 [103]
-Underfull \hbox (badness 10000) in paragraph at lines 1646--1648
+Underfull \hbox (badness 10000) in paragraph at lines 1659--1661
 []\OT1/lmr/m/n/10 https://spectrum.ieee.org/tech-history/heroic-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1646--1648
+Underfull \hbox (badness 10000) in paragraph at lines 1659--1661
 \OT1/lmr/m/n/10 failures/dudley-bucks-forgotten-cryotron-computer.
  []
 
 
-Underfull \hbox (badness 8132) in paragraph at lines 1680--1684
+Underfull \hbox (badness 8132) in paragraph at lines 1693--1697
 []\OT1/lmr/m/n/10 K.K. Likharev and V.K. Se-menov.  Rsfq
  []
 
@@ -1576,10 +1589,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5113 strings out of 493921
- 83516 string characters out of 3147285
- 135858 words of memory out of 3000000
- 8214 multiletter control sequences out of 15000+200000
+ 5116 strings out of 493921
+ 83542 string characters out of 3147285
+ 135863 words of memory out of 3000000
+ 8217 multiletter control sequences out of 15000+200000
  76504 words of font info for 57 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  36i,16n,39p,4101b,435s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1606,7 +1619,7 @@ type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
 msy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on hardware_for_cognition.pdf (107 pages, 9448161 bytes).
+Output written on hardware_for_cognition.pdf (107 pages, 9449891 bytes).
 PDF statistics:
  675 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
