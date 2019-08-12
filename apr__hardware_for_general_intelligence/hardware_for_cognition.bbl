@@ -851,6 +851,25 @@ J.~Hasler and B.~Marr.
 \newblock Finding a roadmap to achieve large neuromorphic hardware systems.
 \newblock {\em Front. Neurosci.}, 7:118, 2013.
 
+\bibitem{dame2000_1}
+J.A. Davis and J.D. Meindl.
+\newblock {Compact Distributed RLC Interconnect Models\textemdash Part I:
+  Single Line Transient, Time Delay, and Overshoot Expressions}.
+\newblock {\em IEEE Trans. Electron Devices}, 47:2068, 2000.
+
+\bibitem{dame2000_2}
+J.A. Davis and J.D. Meindl.
+\newblock {Compact Distributed RLC Interconnect Models\textemdash Part II:
+  Coupled Line Transient Expressions and Peak Crosstalk in Multilevel
+  Networks}.
+\newblock {\em IEEE Trans. Electron Devices}, 47:2078, 2000.
+
+\bibitem{dame2000_3}
+J.A. Davis and J.D. Meindl.
+\newblock {Compact Distributed RLC Interconnect Models\textemdash Part III:
+  Transients in Single and Coupled Lines with Capacitive Load Termination}.
+\newblock {\em IEEE Trans. Electron Devices}, 50:1081, 2003.
+
 \bibitem{godi1978}
 J.W. Goodman, A.R. Dias, and L.M. Woody.
 \newblock Fully-parallel, high-speed incoherent optical method for performing

@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  8 APR 2019 11:17
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.3.13)  12 AUG 2019 09:13
 entering extended mode
 **optoelectronic_intelligence.tex
 
-(C:\Users\jms4\Documents\GitHub\light_in_neural_systems\ne_optoelectronic_intel
-ligence\optoelectronic_intelligence.tex
+(C:\Users\jms4\Documents\GitHub\light_in_neural_systems\ne__optoelectronic_inte
+lligence\optoelectronic_intelligence.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -297,8 +297,8 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-(C:\Users\jms4\Documents\GitHub\light_in_neural_systems\ne_optoelectronic_intel
-ligence\optoelectronic_intelligence.aux)
+(C:\Users\jms4\Documents\GitHub\light_in_neural_systems\ne__optoelectronic_inte
+lligence\optoelectronic_intelligence.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
@@ -392,9 +392,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [1{C:/Users/jms4/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
-] [2 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/ne_optoelectronic_
-intelligence/complexity_across_scales.png>] <data_plots.png, id=19, 979.66pt x 
-1164.35pt>
+] [2 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/ne__optoelectronic
+_intelligence/complexity_across_scales.png>] <data_plots.png, id=19, 979.66pt x
+ 1164.35pt>
 File: data_plots.png Graphic file (type png)
 
 <use data_plots.png>
@@ -439,8 +439,9 @@ Underfull \hbox (badness 1648) in paragraph at lines 62--62
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/ne_optoelectronic_i
-ntelligence/data_plots.png>] <experimental.png, id=26, 2918.905pt x 1971.365pt>
+ [3 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/ne__optoelectronic_
+intelligence/data_plots.png>] <experimental.png, id=26, 2918.905pt x 1971.365pt
+>
 File: experimental.png Graphic file (type png)
 
 <use experimental.png>
@@ -449,8 +450,8 @@ Package pdftex.def Info: experimental.png used on input line 68.
  [4]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/ne_optoelectronic_i
-ntelligence/experimental.png>]
+ [5 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/ne__optoelectronic_
+intelligence/experimental.png>]
 <communication_across_scales.png, id=36, 2003.485pt x 1365.1pt>
 File: communication_across_scales.png Graphic file (type png)
 
@@ -458,10 +459,10 @@ File: communication_across_scales.png Graphic file (type png)
 Package pdftex.def Info: communication_across_scales.png used on input line 95.
 
 (pdftex.def)             Requested size: 500.76868pt x 341.19084pt.
- [6] [7 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/ne_optoelectron
-ic_intelligence/communication_across_scales.png (PNG copy)>]
-(C:\Users\jms4\Documents\GitHub\light_in_neural_systems\ne_optoelectronic_intel
-ligence\optoelectronic_intelligence.bbl
+ [6] [7 <C:/Users/jms4/Documents/GitHub/light_in_neural_systems/ne__optoelectro
+nic_intelligence/communication_across_scales.png (PNG copy)>]
+(C:\Users\jms4\Documents\GitHub\light_in_neural_systems\ne__optoelectronic_inte
+lligence\optoelectronic_intelligence.bbl
 Underfull \hbox (badness 1122) in paragraph at lines 74--81
 \OT1/lmr/m/n/10 Cas-sidy, J. Sawada, F. Akopyan, B.L. Jack-son,
  []
@@ -485,29 +486,29 @@ Underfull \hbox (badness 1112) in paragraph at lines 247--252
 ) [10
 
 ]
-(C:\Users\jms4\Documents\GitHub\light_in_neural_systems\ne_optoelectronic_intel
-ligence\optoelectronic_intelligence.aux) ) 
+(C:\Users\jms4\Documents\GitHub\light_in_neural_systems\ne__optoelectronic_inte
+lligence\optoelectronic_intelligence.aux) ) 
 Here is how much of TeX's memory you used:
  4322 strings out of 493921
- 64440 string characters out of 3147285
+ 64449 string characters out of 3147285
  133307 words of memory out of 3000000
  7555 multiletter control sequences out of 15000+200000
  43662 words of font info for 39 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  36i,7n,39p,1931b,348s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/en
-c/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.
-enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program F
-iles/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program Files/MiKTeX 2.9/font
-s/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm
-/lmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/lm/lmri9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lms
-y10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb>
+{C:/Program Files/MiKTeX 2.9/fonts/e
+nc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy
+.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program 
+Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
+m/lmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/lm/lmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/lm/lmri9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lm
+sy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb>
 Output written on optoelectronic_intelligence.pdf (10 pages, 5665621 bytes).
 PDF statistics:
  97 PDF objects out of 1000 (max. 8388607)
