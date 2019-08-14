@@ -619,11 +619,38 @@ These considerations pertain to using wavelength for multiplexed routing, but th
 
 Microring weight banks and Mach-Zehnder interferometer networks have two things in common: they both require implementing phase shifts in photonic components (which usually draws power, even in the steady state), and neither is capable of implementing STDP or other unsupervised learning techniques. To achieve the largest-scale neural systems, it is highly advantageous if storage of a synaptic weight draws no power. For a system at the scale of the brain, if each synapse draws even 10\,nW in the steady state, the system will consume 1\,MW just to remember what it has learned. 
 
+\vspace{3em}
+
+%search desktop for high_dynamic_range_analog_photonic_links
+
+
 %Demonstration of WDM weighted addition for principal component analysis
 \cite{tach2015}
 
 %A silicon photonic modulator neuron
 \cite{tafe2019}
+With this design:
+\begin{itemize}
+\item Laser always on gives 10\,dB/ns with 1\,dB/cm and $n_g = 3$
+\item each MRR requires thermal tuning, and there is one for each synapse and each neuron (a fatal weakness on its own)
+\begin{itemize}
+\item this carries huge power penalty
+\item the also adds significant complexity of control circuits (a fatal weakness on its own)
+\item synaptic weights will drift during operation due to temperature variations
+\end{itemize}
+\item the use of WDM appears helpful, but upon further inspection it is a hindrance
+\begin{itemize}
+\item limits fan-out to order 100 (a fatal weakness on its own)
+\item leads to non-monotonic synaptic efficacy as a function of control parameter (a fatal weakness on its own)
+\item if implemented with MRRs, leads to exponential dependence on control parameter (a fatal weakness on its own)
+\item puts more stringent requirements on light sources (requires III-V)
+\end{itemize}
+\item communication is analog, so source noise and loss are convolved with synaptic weight
+\item a single synapse varies from excitatory to inhibitory as control parameter is varied
+\item light level in MRR can affect resonance through TPA induced FCA, leading to instability
+\item the type of response observed depends on the amplitude of the input (pg. 5)
+\item for spiking neurons with this hardware, memory times limited by PD RC
+\end{itemize}
 
 \vspace{3em}
 We cannot demand exquisite accuracy in fabrication or in control during operation at each synapse if we aim for large-scale cognitive systems. The system must autonomously adapt to functional operating points.

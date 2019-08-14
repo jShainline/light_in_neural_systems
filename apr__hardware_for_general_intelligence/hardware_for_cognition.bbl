@@ -870,6 +870,19 @@ J.A. Davis and J.D. Meindl.
   Transients in Single and Coupled Lines with Capacitive Load Termination}.
 \newblock {\em IEEE Trans. Electron Devices}, 50:1081, 2003.
 
+\bibitem{dade1998_1}
+J.A. Davis, V.K. De, and J.D. Meindl.
+\newblock {A Stochastic Wire-Length Distribution for Gigascale Integration
+  (GSI)—Part I: Derivation and Validation}.
+\newblock {\em IEEE Trans. Electron Devices}, 45:580, 1998.
+
+\bibitem{dade1998_2}
+J.A. Davis, V.K. De, and J.D. Meindl.
+\newblock {A Stochastic Wire-Length Distribution for Gigascale Integration
+  (GSI)—Part II: Applications to Clock Frequency, Power Dissipation, and Chip
+  Size Estimation}.
+\newblock {\em IEEE Trans. Electron Devices}, 45:590, 1998.
+
 \bibitem{godi1978}
 J.W. Goodman, A.R. Dias, and L.M. Woody.
 \newblock Fully-parallel, high-speed incoherent optical method for performing
@@ -1969,6 +1982,16 @@ H.M. Ozaktas.
 \newblock Paradigms of connectivity for computer circuits and networks.
 \newblock {\em Optical Engineering}, 31:1563, 1992.
 
+\bibitem{baha2008}
+J.~Ballato et~al.
+\newblock {Silicon optical fiber}.
+\newblock {\em Opt. Express}, 16:18675, 2008.
+
+\bibitem{pegi2016}
+A.C. Peacock, U.J. Gibson, and J.~Ballato.
+\newblock {Silicon optical fibers\textemdash past, present, and future}.
+\newblock {\em Adv. Phys. X}, 1:114, 2016.
+
 \bibitem{kasv2019}
 J.~Kates-Harbeck, A.~Svyotkovskiy, and W.~Tang.
 \newblock Predicting disruptive instabilities in controlled fusion plasmas
@@ -2117,5 +2140,10 @@ B.~Scellier and Y.~Bengio.
 S.~Dehaene, H.~Lau, and S.~Kouider.
 \newblock What is consciousness, and could machines have it?
 \newblock {\em Science}, 358:486, 2017.
+
+\bibitem{ma2014}
+I.L. Markov.
+\newblock {Limits on fundamental limits to computation}.
+\newblock {\em Nature}, 512:147, 2014.
 
 \end{thebibliography}

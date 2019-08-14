@@ -76,33 +76,33 @@
 \contentsline {subsubsection}{\numberline {3.4.8}Wavelength-Division Multiplexing for Routing and Synaptic Weighting}{63}
 \contentsline {subsubsection}{\numberline {3.4.9}Synaptic weights in the electronic domain}{64}
 \contentsline {subsubsection}{\numberline {3.4.10}Materials Considerations for Silicon Photonics}{65}
-\contentsline {paragraph}{\numberline {3.4.10.1}Key Takeaways Regarding Photonic Neural Systems}{65}
+\contentsline {paragraph}{\numberline {3.4.10.1}Key Takeaways Regarding Photonic Neural Systems}{66}
 \contentsline {subsection}{\numberline {3.5}Superconductor electronic neural systems}{66}
 \contentsline {subsubsection}{\numberline {3.5.1}Josephson junctions}{66}
-\contentsline {subsubsection}{\numberline {3.5.2}Superconducting digital logic}{66}
-\contentsline {subsubsection}{\numberline {3.5.3}Neurons based on Josephson junctions}{67}
+\contentsline {subsubsection}{\numberline {3.5.2}Superconducting digital logic}{67}
+\contentsline {subsubsection}{\numberline {3.5.3}Neurons based on Josephson junctions}{68}
 \contentsline {subsubsection}{\numberline {3.5.4}Strengths and weaknesses of JJ circuits for neural operation}{69}
 \contentsline {subsection}{\numberline {3.6}Superconducting Optoelectronic Systems}{71}
 \contentsline {subsubsection}{\numberline {3.6.1}Basic Motivations}{71}
 \contentsline {subsubsection}{\numberline {3.6.2}computational circuits}{71}
-\contentsline {subsubsection}{\numberline {3.6.3}Communication Circuits}{71}
-\contentsline {subsubsection}{\numberline {3.6.4}Large-Scale Systems}{71}
-\contentsline {subsubsection}{\numberline {3.6.5}Misc. SOEN Notes}{71}
-\contentsline {subsubsection}{\numberline {3.6.6}Superconducting optoelectronic neural systems may overcome challenges of digital systems}{74}
+\contentsline {subsubsection}{\numberline {3.6.3}Communication Circuits}{72}
+\contentsline {subsubsection}{\numberline {3.6.4}Large-Scale Systems}{72}
+\contentsline {subsubsection}{\numberline {3.6.5}Misc. SOEN Notes}{72}
+\contentsline {subsubsection}{\numberline {3.6.6}Superconducting optoelectronic neural systems may overcome challenges of digital systems}{75}
 \contentsline {subsection}{\numberline {3.7}Comparison of Interconnect Technologies}{75}
 \contentsline {subsubsection}{\numberline {3.7.1}Copper Interconnects}{75}
 \contentsline {subsubsection}{\numberline {3.7.2}Superconducting Interconnects}{76}
 \contentsline {paragraph}{\numberline {3.7.2.1}Passive Superconducting Fan Out}{76}
 \contentsline {paragraph}{\numberline {3.7.2.2}Active Superconducting Fan Out}{77}
-\contentsline {subsubsection}{\numberline {3.7.3}Photonic Interconnects}{77}
-\contentsline {paragraph}{\numberline {3.7.3.1}Photonic Communication in Digital Systems}{77}
+\contentsline {subsubsection}{\numberline {3.7.3}Photonic Interconnects}{78}
+\contentsline {paragraph}{\numberline {3.7.3.1}Photonic Communication in Digital Systems}{78}
 \contentsline {paragraph}{\numberline {3.7.3.2}Photonic Communication in Neural Systems}{78}
 \contentsline {subsubsection}{\numberline {3.7.4}Where are the Light Sources?}{79}
 \contentsline {paragraph}{\numberline {3.7.4.1}Silicon Light Sources Work at Low Temperature}{79}
-\contentsline {paragraph}{\numberline {3.7.4.2}Considerations for Digital Communication}{79}
-\contentsline {paragraph}{\numberline {3.7.4.3}Silicon Light Sources: the Great Achilles' Heel}{79}
-\contentsline {paragraph}{\numberline {3.7.4.4}Hybrid Materials Integration}{80}
-\contentsline {paragraph}{\numberline {3.7.4.5}Systems with Off-Chip Sources}{80}
+\contentsline {paragraph}{\numberline {3.7.4.2}Considerations for Digital Communication}{80}
+\contentsline {paragraph}{\numberline {3.7.4.3}Silicon Light Sources: the Great Achilles' Heel}{80}
+\contentsline {paragraph}{\numberline {3.7.4.4}Hybrid Materials Integration}{81}
+\contentsline {paragraph}{\numberline {3.7.4.5}Systems with Off-Chip Sources}{81}
 \contentsline {subsubsection}{\numberline {3.7.5}Photonic Interconnects with Superconducting Receivers}{81}
 \contentsline {subsubsection}{\numberline {3.7.6}Summary}{81}
 \contentsline {paragraph}{\numberline {3.7.6.1}Key Takeaways Regarding the Comparison of Interconnect Technologies}{82}
@@ -112,8 +112,8 @@
 \contentsline {subsection}{\numberline {4.2}Achieving Hierarchical Modularity}{83}
 \contentsline {subsection}{\numberline {4.3}Integrated Systems Across Temperature Stages}{83}
 \contentsline {subsection}{\numberline {4.4}Neuromorphic Supercomputing}{83}
-\contentsline {subsection}{\numberline {4.5}Optimal Environment for Operation}{83}
-\contentsline {section}{\numberline {5}Application spaces}{83}
+\contentsline {subsection}{\numberline {4.5}Optimal Environment for Operation}{84}
+\contentsline {section}{\numberline {5}Application spaces}{84}
 \contentsline {subsection}{\numberline {5.1}Data Analysis at Particle Colliders}{84}
 \contentsline {subsection}{\numberline {5.2}Stabilization of Fusion Reactors}{84}
 \contentsline {subsection}{\numberline {5.3}Telescope Interfaces for Astronomical Observation}{84}
@@ -122,7 +122,7 @@
 \contentsline {subsection}{\numberline {5.6}Hybrid Cognitive Systems}{84}
 \contentsline {subsubsection}{\numberline {5.6.1}Neural-deep learning hybrid systems}{84}
 \contentsline {subsubsection}{\numberline {5.6.2}Classical-quantum-neural hybrid systems}{84}
-\contentsline {subsubsection}{\numberline {5.6.3}SOENs as the central cognitive hub}{85}
+\contentsline {subsubsection}{\numberline {5.6.3}SOENs as the central cognitive hub}{86}
 \contentsline {subsection}{\numberline {5.7}General Intelligence}{86}
 \contentsline {section}{\numberline {6}Outlook}{86}
-\contentsline {subsection}{\numberline {6.1}Achieving Superintelligence}{86}
+\contentsline {subsection}{\numberline {6.1}Achieving Superintelligence}{87}
