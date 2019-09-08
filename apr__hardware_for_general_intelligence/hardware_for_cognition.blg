@@ -1,100 +1,100 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: hardware_for_cognition.aux
 The style file: unsrt.bst
 Database file #1: hardware_for_cognition.bib
-Repeated entry---line 1499 of file hardware_for_cognition.bib
+Repeated entry---line 1500 of file hardware_for_cognition.bib
  : @article{da1989
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3806 of file hardware_for_cognition.bib
+Repeated entry---line 3822 of file hardware_for_cognition.bib
  : @book{iz2007
  :             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3953 of file hardware_for_cognition.bib
+Repeated entry---line 3969 of file hardware_for_cognition.bib
  : @article{xusc2005
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3998 of file hardware_for_cognition.bib
+Repeated entry---line 4014 of file hardware_for_cognition.bib
  : @article{so1993
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4079 of file hardware_for_cognition.bib
+Repeated entry---line 4095 of file hardware_for_cognition.bib
  : @article{libo2010
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4088 of file hardware_for_cognition.bib
+Repeated entry---line 4104 of file hardware_for_cognition.bib
  : @article{zhyi2015
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4142 of file hardware_for_cognition.bib
+Repeated entry---line 4158 of file hardware_for_cognition.bib
  : @article{rahu2008
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4322 of file hardware_for_cognition.bib
+Repeated entry---line 4338 of file hardware_for_cognition.bib
  : @article{joma1996
  :                  ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 4903 of file hardware_for_cognition.bib
+I was expecting a `,' or a `}'---line 4919 of file hardware_for_cognition.bib
  : 
  : @ARTICLE{apso2010,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 5204 of file hardware_for_cognition.bib
+Repeated entry---line 5220 of file hardware_for_cognition.bib
  : @article{brso2013
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5239 of file hardware_for_cognition.bib
+Repeated entry---line 5255 of file hardware_for_cognition.bib
  : @article{bubr2017
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5248 of file hardware_for_cognition.bib
+Repeated entry---line 5264 of file hardware_for_cognition.bib
  : @article{orso2015
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5257 of file hardware_for_cognition.bib
+Repeated entry---line 5273 of file hardware_for_cognition.bib
  : @article{nate2017
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5266 of file hardware_for_cognition.bib
+Repeated entry---line 5282 of file hardware_for_cognition.bib
  : @article{anha2017
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5275 of file hardware_for_cognition.bib
+Repeated entry---line 5291 of file hardware_for_cognition.bib
  : @article{vadi2008
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5284 of file hardware_for_cognition.bib
+Repeated entry---line 5300 of file hardware_for_cognition.bib
  : @article{brso2013
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5293 of file hardware_for_cognition.bib
+Repeated entry---line 5309 of file hardware_for_cognition.bib
  : @article{dusc2012
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5302 of file hardware_for_cognition.bib
+Repeated entry---line 5318 of file hardware_for_cognition.bib
  : @article{brfi2015
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5401 of file hardware_for_cognition.bib
+Repeated entry---line 5417 of file hardware_for_cognition.bib
  : @article{psfa1985
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5446 of file hardware_for_cognition.bib
+Repeated entry---line 5462 of file hardware_for_cognition.bib
  : @article{chsa2018
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5851 of file hardware_for_cognition.bib
+Repeated entry---line 5867 of file hardware_for_cognition.bib
  : @article{dukr1999
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5869 of file hardware_for_cognition.bib
+Repeated entry---line 5885 of file hardware_for_cognition.bib
  : @article{baku2011
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5878 of file hardware_for_cognition.bib
+Repeated entry---line 5894 of file hardware_for_cognition.bib
  : @article{coge2011
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6062 of file hardware_for_cognition.bib
+Repeated entry---line 6078 of file hardware_for_cognition.bib
  : @book{sc2010
  :             ,
 I'm skipping whatever remains of this entry
@@ -141,8 +141,10 @@ Warning--I didn't find a database entry for "y"
 Warning--I didn't find a database entry for "z"
 Warning--I didn't find a database entry for "thatpapersomeonepresentedatgroupmeeting"
 Warning--I didn't find a database entry for "yyy"
+Warning--I didn't find a database entry for "chhe2010"
 Warning--I didn't find a database entry for "shor2014"
 Warning--I didn't find a database entry for "suwa2017"
+Warning--I didn't find a database entry for "ligr1988"
 Warning--I didn't find a database entry for "add_more_bayesian_neuro_refs_here_and_in_neuro_section"
 Warning--I didn't find a database entry for "siso1991"
 Warning--I didn't find a database entry for "dave2012"
@@ -162,4 +164,5 @@ Warning--empty author in bu1950
 Warning--empty year in bu1950
 Warning--empty title in ai1989
 Warning--empty title in og1989
+Warning--can't use both author and editor fields in tana2014
 (There were 25 error messages)

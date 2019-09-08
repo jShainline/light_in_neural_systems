@@ -60,6 +60,7 @@ In the case of active superconducting fan out, each synapse comprises at least o
 \vspace{3em}
 The number of JJs in active fanout goes inversely with the width of wire. Exact functional form is difficult. This affects $n_{fq}$ (num created per synapse event), but more importantly affects complexity of bias lines. This must be compared to wWg affecting loss and number of photons. Rayleigh scaling is important.
 
+
 \subsubsection{Photonic Interconnects}
 Fan out is limited if electrons are used for communication. The basic problem is the same whether superconducting lines of normal conductor are utilized: if downstream devices must be driven by charge, there is a fan out problem. In the case of transistors, capacitors must be charged. In the superconducting domain, JJs must be driven above $I_{\mathrm{c}}$. In both cases, it is impractical to source enough charge to drive many downstream elements, and fan out is limited. By contrast, with photons and single-photon detectors, the problem is tractable. If each downstream element requires $\mathcal{O}(1)$ photon for activation, and the response is identical whether one or more photons is received, a single optical source can easily produce enough photons to drive thousands of synaptic elements. Ten thousand near-infrared photons contain a femtojoule of energy. Further, it appears possible to design and implement a passive photonic routing infrastructure that can route thousands of photons to thousands of destinations, even if those destinations are located in distant regions of a multi-module network. All routing is passive, and no memory is required to keep track of destination addresses.
 
@@ -67,6 +68,53 @@ Fan out is limited if electrons are used for communication. The basic problem is
 With photonic routing, distant connections still require wider wires (waveguides), but for a connection that is 10x further away, we may require a wire that is 2x the width to maintain the same loss (index contrast, Rayleigh scattering), whereas for passive superconducting we require 10x the width to maintain the same inductance (this compares signal amplitudes).
 
 \paragraph{Photonic Communication in Digital Systems}
+
+Digital systems often seek a relatively small number (several hundred or fewer) communication channels with very high data rates.
+
+%Architectural exploration of chip-scale photonic interconnection network designs using physical-layer analysis
+\cite{chhe2010}
+- distinguish between ``wavelength-selective routing'' and ``space routing''
+- wavelength-selective uses wavelength filters throughout the network. filters are sensitive to fabrication imperfections and must be tuned
+- wavelength selective gives low latency, but does not leverage full throughput that optics can provide
+- ``Space routing focuses on the use of multiwavelength transmission to enable messages with high-aggregate bandwidth.'' route the entire spectrum of wavelength channels concurrently from source to destination
+- ``The required circuit-switching protocol will induce an overhead that creates longer latencies.''
+- all elements for photonic interconnection networks have been demonstrated
+  - waveguides
+  - waveguide crossings
+  - vertical and horizontal off-chip couplers
+  - modulators
+  - photodetectors
+  - filters
+  - 1 x 2 and 2 x 2 photonic switching elements
+- max power a waveguide can contain limited by nonlinear effects
+- min power limited by photodetector responsivity
+- ``restricts the number of wavelength channels that can be employed, and the number of access points that the network can accommodate.''
+- $P-S\geq IL_{max}+10log_{10}n$ (Eq. 1 pb 1307) determines number of channels 
+- power budget is $P-S-IL_{max}$
+- assuming 30dB power budget and low-loss crossings of 0.05 dB, they find 196 access points can be accommodated in the blocking torus and 24 in the non-blocking
+- the number of neurons that can be accommodated in the broadcast-and-weight architecture scales as the square root of this number
+- more lenient estimations assuming no propagation loss can be conducted, for example, assuming a si waveguide can accommodate 1W and a photodetector can detect 10uW, we find the number of neurons is limited to 316 with all-to-all connections
+- max power will likely be limited by two-photon absorption, and in that case the coherence of the light is important \cite{cafo1967}. incoherent light leads to less tpa, but most frequency-multiplexing designs use coherent laser light sources
+- for broadcast-and-weight, the limit due to channel cross talk is more stringent, limiting the number of neurons to 35 \cite{tana2014}
+- this is even more stringent than the digital communication case, where 62 wavelengths may be tolerated in some cases
+- this analysis considered power handling in straight waveguides. considering intensity buildup in microrings
+- introduces unwanted trade-off between higher Q for denser spacing and lower Q for higher power
+- also trade off between higher Q for denser spacing leading to more difficulty controlling synaptic weights
+- discuss alongside \cite{prsh2011}
+- one would like to utilize similar multiplexing strategies as are used in digital communication systems. unfortunately, straightforward extension of these principles to highly connected neural systems immediately leads to scaling limitations in systems with just a few tens of neurons.
+- whether power handling or channel spacing limits are considered, using frequency as the means by which each neuron is identified is not a viable path toward photonic neural systems above a few tens of neurons
+- frequency multiplexing can be employed to decrease the volume of space required for long-distance interconnects, but not all neurons in a large system can have a unique color, so demultiplexing on the receiver side cannot be carried out in the same manner as in digital communication systems
+- frequency multiplexing may be useful to reduce the volume of white matter in large-scale neural systems, but many approaches to utilizing frequency require significantly more complexity in light sources, tuning of add/drop filters, and still require new insights to leverage frequency multiplexing when each sender cannot have a unique frequency.
+- ref. \cite{sh2019_jap} proposed using only a few frequencies (five in that case) to perform different operations (action potential transmission as well as synaptic update operations for learning). in that model, each neuron would have a dedicated axonal waveguide branching to reach each synaptic connection, and each neuron would transmit the same five frequencies. however, even this design requires cumbersome multiplexing/demultiplexing hardware at each transmitting neuron and receiving synapse, and it has subsequently been argued that only a single photon is needed to perform action potential propagation as well as synaptic update operations, provided additional electrical circuitry is included at the synaptic receivers. such an approach is likely to be more energy efficient and robust in large-scale systems
+
+
+%A micrometre-scale Raman silicon laser with a microwatt threshold
+\cite{tain2013}
+
+Limits on number of channels in WDM:
+- frequency mux/demux
+- power in wg
+
 
 \paragraph{Photonic Communication in Neural Systems}
 
@@ -175,3 +223,32 @@ Optics may be promising to overcome these limitations, but in free space, routin
 
 
 \paragraph{Key Takeaways Regarding the Comparison of Interconnect Technologies}
+
+
+\vspace{3em}
+Comparison of Fully Three-Dimensional Optical, Normally Conducting, and Superconducting Interconnections (this paper is crucial)
+\cite{ozer1999}
+\begin{itemize}
+\item In introduction: ``We show that, even if fully three-dimensional plain or repeatered normally conducting interconnections are possible, they are still inferior to optical interconnections. Fully three-dimensional superconducting interconnections, however, are comparable with optical interconnections.''
+\item regarding VLSI interconnections: ``Little room for improvement by modification of parameters such as the aspect ratios of the lines and so forth is left.''
+\item this paper addresses fully three-dimensional designs wherein passives and actives can both be placed arbitrarily in three space
+\item however, ``Provided the interconnections are permitted to be routed through three-dimensional space, there is no disadvantage in restricting the active devices to a plane.''
+\item fully 3D interconnections with 2D actives does not limit overall volume, signal delay, or clock rate
+\item purely geometrical considerations, valid for optical as well (i suspect interplanar couplers have been ignored)
+\item They refer to 3d when the number of wiring/waveguiding layers approaches the number of line tracks in a 2d plane
+\item note ref. 6 (\cite{ligr1988}) early 3D integration
+\item also search computer for 3d chip stacking for 2008 article on TSVs
+\item ozer1999 compares to fully 3D VLSI even if unrealizable because it represents an appropriate basis for comparison with optical as a best case for normally conducting interconnections
+\item both optical and superconducting offer performance superior to this best case
+\item repeatering only applies if actives can be incorporated on all layers. better performance with repeatering, but more complex and expensive manufacturing
+\item optical and superconducting both superior to even 3D repeatered vlsi
+\item ``...most optical architectures provide interconnections between planes of sources and detectors''
+\item envisioning self-electro-optic effect devices flip-chip bonded to silicon with 50\,\textmu m pitch
+\item free-space optical interconnection
+\item consider trade-offs between $S=1/\tau$ (inverse signal delay), $B$ (bit rate or bandwidth), $N$ (number of devices or computing elements), $H$ (bisection of system, number of connections crossing an imaginary plane that divides the system into two approximately equal parts, related to Tononi's consciousness metric)
+\item $HB$ or $HS$ often more useful than $NB$ or $NS$
+\item often takes the form $H = k\kappa N^p$, with $\kappa$ a constant, $2/3\le p \le 1$ a measure of the connectivity, and $k$ is the average number of connections per element (keep separate from $\kappa$ so that $\kappa = (p-2/3)^{-1}(p+1/3)^{-1}$
+\item ``For optical and superconducting interconnections there is no upper limit to $B$ for any value of $N$. One can simultaneously choose $N$ and $B$ arbitrarily large.'' I don't see how this is justified. Certainly not true with slow light sources or very large systems
+\end{itemize}
+
+

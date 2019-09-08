@@ -36,7 +36,7 @@ G.M. Edelman.
 \bibitem{mo1965}
 G.E. Moore.
 \newblock Cramming more components onto integrated circuits.
-\newblock {\em Electronics}, 38, 1965.
+\newblock {\em Electronics}, 38:114, 1965.
 
 \bibitem{dy2012}
 G.~Dyson.
@@ -1932,6 +1932,35 @@ D.~Huang, T.~Sze, A.~Landin, R.~Lytel, and H.L. Davidson.
 \newblock Optical {I}nterconnects: {O}ut of the {B}ox {F}orever?
 \newblock {\em IEEE J. Sel. Topics Quant. Electron.}, 9:614, 2003.
 
+\bibitem{cafo1967}
+S.~Carusotto, G.~Fornaca, and E.~Polacco.
+\newblock {Two-Photon Absorption and Coherence}.
+\newblock {\em Phys. Rev.}, 157:1207, 1967.
+
+\bibitem{tana2014}
+A.N. Tait, M.A. Nahmias, Y.~Tian, B.J. Shastri, and P.R. Prucnal.
+\newblock {\em Nanophotonic Information Physics}.
+\newblock Springer, 2014.
+
+\bibitem{prsh2011}
+K.~Preston, N.~Sherwood-Droz, J.S. Levy, and M.~Lipson.
+\newblock {Performance Guidelines for WDM Interconnects Based on Silicon
+  Microring Resonators}.
+\newblock In {\em Conference on Lasers and Electrooptics}, page CThP4. Optical
+  Society of America, 2011.
+
+\bibitem{sh2019_jap}
+J.M. Shainline, S.M. Buckley, A.N. McCaughan, J.~Chiles,
+  M.~Castellanos-Beltran, C.A. Donnelly, M.L. Schneider, A.~Jafari-Salim, R.P.
+  Mirin, and S.W. Nam.
+\newblock Superconducting optoelectronic loop neurons.
+\newblock {\em J. Appl. Phys.}, 126:044902, 2019.
+
+\bibitem{tain2013}
+Y.~Takahashi, Y.~Inui, M.~Chihara, T.~Asano an~dR. Terawaki, and S.~Noda.
+\newblock {A micrometre-scale Raman silicon laser with a microwatt threshold}.
+\newblock {\em Nature}, 498:470, 2013.
+
 \bibitem{walo2018}
 J.~Wang and Y.~Long.
 \newblock {On-chip silicon photonic signaling and processing: a review}.
@@ -1976,6 +2005,12 @@ Y.~Zhou, W.~Dou, W.~Du, S.~Ojo, H.~Tran, S.A. Ghetmiri, J.~Liu, G.~Sun,
 \newblock Optically pumped {GeSn} lasers operating at 270 k with broad
   waveguide structures on si.
 \newblock {\em ACS Photonics}, 6:1434, 2019.
+
+\bibitem{ozer1999}
+H.M. Ozaktas and M.F. Erden.
+\newblock {Comparison of Fully Three-Dimensional Optical, Normally Conducting,
+  and Superconducting Interconnections}.
+\newblock {\em App. Opt.}, 38:7264, 1999.
 
 \bibitem{oz1992}
 H.M. Ozaktas.
