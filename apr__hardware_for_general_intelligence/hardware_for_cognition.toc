@@ -84,7 +84,7 @@
 \contentsline {subsubsection}{\numberline {3.5.4}Strengths and weaknesses of JJ circuits for neural operation}{69}
 \contentsline {subsection}{\numberline {3.6}Superconducting Optoelectronic Systems}{71}
 \contentsline {subsubsection}{\numberline {3.6.1}Basic Motivations}{71}
-\contentsline {subsubsection}{\numberline {3.6.2}computational circuits}{71}
+\contentsline {subsubsection}{\numberline {3.6.2}computational circuits}{72}
 \contentsline {subsubsection}{\numberline {3.6.3}Communication Circuits}{72}
 \contentsline {subsubsection}{\numberline {3.6.4}Large-Scale Systems}{72}
 \contentsline {subsubsection}{\numberline {3.6.5}Misc. SOEN Notes}{72}
@@ -114,8 +114,8 @@
 \contentsline {subsection}{\numberline {4.4}Neuromorphic Supercomputing}{85}
 \contentsline {subsection}{\numberline {4.5}Optimal Environment for Operation}{85}
 \contentsline {section}{\numberline {5}Application spaces}{85}
-\contentsline {subsection}{\numberline {5.1}Data Analysis at Particle Colliders}{85}
-\contentsline {subsection}{\numberline {5.2}Stabilization of Fusion Reactors}{85}
+\contentsline {subsection}{\numberline {5.1}Data Analysis at Particle Colliders}{86}
+\contentsline {subsection}{\numberline {5.2}Stabilization of Fusion Reactors}{86}
 \contentsline {subsection}{\numberline {5.3}Telescope Interfaces for Astronomical Observation}{86}
 \contentsline {subsection}{\numberline {5.4}Theoretical Neuroscience}{86}
 \contentsline {subsection}{\numberline {5.5}Simulation of Evolutionary and Developmental Biology}{86}
