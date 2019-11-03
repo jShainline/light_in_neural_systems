@@ -1,6 +1,9 @@
 \subsection{\label{sec:spatial_structure_of_neural_systems}Spatial Structure of Neural Systems}
 The core principle behind the ability of neural systems to efficiently move information across space is that networks are comprised of specialized modules arranged in a hierarchical configuration. This modular and hierarchical architecture repeats in a self-similar manner from the scale of neurons up to the scale of the system as a whole. To understand these spatial principles quantitatively, we begin by summarizing the relevant concepts from graph theory \cite{eskn2015}.
 
+\vspace{1em}
+consider beginning with a brief description of what aspects of brain anatomy we're discussing (synapses, dendrites, soma, axons, mini-columns, columns, areas, sheet of cortex, other brain structures, thalamus, hippocampus)
+
 \subsubsection{Adjacency matrix}
 In order for the neurons to differentiate their responses while efficiently exchanging information across the network, certain structural network considerations are pertinent \cite{rusp2010}. The structures of neural systems are analyzed in the framework of network theory \cite{eskn2015}. In network theory, a system is discussed as a set of nodes connected by a set of edges. To facilitate mathematical analysis, the system is represented by an adjacency matrix, $\mathbf{A}$. Each column of $\mathbf{A}$ represents a node in the network, and if an edge connects node $i$ to node $j$, $A_{ij} = 1$, otherwise $A_{ij} = 0$. Connections can be directed, in which case $\mathbf{A}$ will be, in general, non-symmetric. Connections can also we weighted, in which case the adjacency matrix becomes a weight matrix, $\mathbf{W}$, whose elements represent not only the presence of edges, but also their strength.
 
@@ -47,6 +50,9 @@ A \textbf{\textit{hierarchic system}} is ``a system that is composed of interrel
 
 \includegraphics[width=8.6cm]{figures/_sporns_complexity_and_hierarchical_modularity.png}
 \captionof{figure}{\label{fig:sporns_complexity_and_hierarchical_modularity}Complexity and hierarchical modularity. From Ref.\,\onlinecite{sp2010}, pg. 291.}
+
+\vspace{1em}
+emphasize that hierarchy is defined by connections and exists even in the unform, 2D sheet of the cortex.
 
 \subsubsection{Rentian Analysis}
 %\begin{figure} 
