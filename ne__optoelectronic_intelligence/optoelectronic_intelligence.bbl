@@ -122,7 +122,7 @@ J.M. Shainline, S.M. Buckley, R.P. Mirin, and S.W. Nam.
 J.M. Shainline, S.M. Buckley, A.N. McCaughan, J.~Chiles, A.~Jafari-Salim, R.P.
   Mirin, and S.W. Nam.
 \newblock Circuit designs for superconducting optoelectronic loop neurons.
-\newblock {\em J. Appl. Phys.}, page 152130, 2018.
+\newblock {\em J. Appl. Phys.}, 124:152130, 2018.
 
 \bibitem{buch2017}
 S.~Buckley, J.~Chiles, A.N. McCaughan, G.~Moody, K.L. Silverman, M.J. Stevens,
@@ -139,7 +139,7 @@ R.F. Betzel and D.S. Bassett.
 \bibitem{sh2019_fluxonic}
 J.M. Shainline.
 \newblock Fluxonic processing of photonic synapse events.
-\newblock {\em arXiv}, page 1904.02807, 2019.
+\newblock {\em IEEE J. Sel. Top. Quant. Electron.}, 26:7700315, 2019.
 
 \bibitem{eskn2015}
 E.~Estrada and P.A. Knight.
@@ -205,9 +205,9 @@ J.~Chiles, S.M. Buckley, S.W. Nam, R.P. Mirin, and J.M. Shainline.
 \bibitem{mc2019}
 A.N. McCaughan, V.B. Verma, S.M. Buckley, A.N. Tait, S.W. Nam, and J.M.
   Shainline.
-\newblock An ultrahigh-impedance superconducting thermal switch for interfacing
-  superconductors to semiconductors and optoelectronics.
-\newblock {\em arXiv}, page 1903.10461, 2019.
+\newblock A superconducting thermal switch with ultrahigh impedance for
+  interfacing superconductors to semiconductors.
+\newblock {\em Nature Electronics}, 2:451, 2019.
 
 \bibitem{prsh2017}
 P.R. Prucnal and B.J. Shastri.
