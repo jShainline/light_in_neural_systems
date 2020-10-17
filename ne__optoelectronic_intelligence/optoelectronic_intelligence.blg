@@ -1,5 +1,9 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: optoelectronic_intelligence.aux
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: optoelectronic_intelligence.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: unsrt.bst
+Reallocating 'name_of_file' (item size: 1) to 28 items.
 Database file #1: optoelectronic_intelligence.bib
 Repeated entry---line 3646 of file optoelectronic_intelligence.bib
  : @article{libo2010
@@ -10,4 +14,45 @@ Repeated entry---line 3655 of file optoelectronic_intelligence.bib
  :                  ,
 I'm skipping whatever remains of this entry
 Warning--empty year in hepa2012
+You've used 49 entries,
+            1791 wiz_defined-function locations,
+            729 strings with 10936 characters,
+and the built_in function-call counts, 10857 in all, are:
+= -- 811
+> -- 723
+< -- 1
++ -- 261
+- -- 212
+* -- 789
+:= -- 1917
+add.period$ -- 149
+call.type$ -- 49
+change.case$ -- 45
+chr.to.int$ -- 0
+cite$ -- 50
+duplicate$ -- 465
+empty$ -- 975
+format.name$ -- 212
+if$ -- 2321
+int.to.chr$ -- 0
+int.to.str$ -- 49
+missing$ -- 57
+newline$ -- 249
+num.names$ -- 49
+pop$ -- 97
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 166
+stack$ -- 0
+substring$ -- 462
+swap$ -- 63
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 89
+width$ -- 51
+write$ -- 542
 (There were 2 error messages)

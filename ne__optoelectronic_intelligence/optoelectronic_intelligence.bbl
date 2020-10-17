@@ -190,6 +190,13 @@ F.~Marsili, V.B. Verma, J.A. Stern, S.~Harrington, A.E. Lita, T.~Gerrits,
 \newblock Detecting single infrared photons with 93\% system efficiency.
 \newblock {\em Nat. Photon.}, 7:210, 2013.
 
+\bibitem{mcve2019}
+A.N. McCaughan, V.B. Verma, S.M. Buckley, A.N. Tait, S.W. Nam, and J.M.
+  Shainline.
+\newblock A superconducting thermal switch with ultrahigh impedance for
+  interfacing superconductors to semiconductors.
+\newblock {\em Nature Electronics}, 2:451, 2019.
+
 \bibitem{chbu2017}
 J.~Chiles, S.~Buckley, N.~Nader, S.W. Nam, R.P. Mirin, and J.M. Shainline.
 \newblock Multi-planar amorphous silicon photonics with compact interplanar
@@ -201,13 +208,6 @@ J.~Chiles, S.M. Buckley, S.W. Nam, R.P. Mirin, and J.M. Shainline.
 \newblock Design, fabrication, and metrology of 10 x 100 multi-planar
   integrated photonic routing manifolds for neural networks.
 \newblock {\em APL Photonics}, page 106101, 2018.
-
-\bibitem{mc2019}
-A.N. McCaughan, V.B. Verma, S.M. Buckley, A.N. Tait, S.W. Nam, and J.M.
-  Shainline.
-\newblock A superconducting thermal switch with ultrahigh impedance for
-  interfacing superconductors to semiconductors.
-\newblock {\em Nature Electronics}, 2:451, 2019.
 
 \bibitem{prsh2017}
 P.R. Prucnal and B.J. Shastri.
