@@ -1,0 +1,5 @@
+Looking back
+
+GC - Why does humanity need an AGI? This is not within the scope of this paper; more of a general question inspired by reading it. I think one answer is to challenge the philosophers into understanding what biological vs. artificial intelligence means. A few years ago, I was at NICE and a mathemetician stood up to a panel to say that there is no math yet to describe neural networks except maybe Category Theory, which is still in its infancy. He was pretty angry about people making claims based on Shannon information theory. Integrated information is certainly speculative and probably will be regarded as wrong in 5 years, but I believe in it as a solid attempt to put math to consciousness. That's the primary reason I think this paper is outstanding – it puts physics to integrated information.
+
+
