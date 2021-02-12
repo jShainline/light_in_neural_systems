@@ -48,7 +48,7 @@ C.~Koch.
 
 \bibitem{bu2006}
 G.~Buzsaki.
-\newblock {\em Rhythms of the brain}.
+\newblock {\em Rhythms of the Brain}.
 \newblock Oxford University Press, 2006.
 
 \bibitem{suwa2015}
@@ -107,12 +107,6 @@ Z.~Zhou, B.~Yin, and Jurgen Michel.
 \newblock On-chip light sources for silicon photonics.
 \newblock {\em Light: science and applications}, 4:e358, 2015.
 
-\bibitem{sh2018_ICRC}
-J.M. Shainline.
-\newblock The largest cognitive systems will be optoelectronic.
-\newblock In {\em IEEE International Conference on Rebooting Computing}. IEEE,
-  Nov 2018.
-
 \bibitem{shbu2017}
 J.M. Shainline, S.M. Buckley, R.P. Mirin, and S.W. Nam.
 \newblock Superconducting optoelectronic circuits for neuromorphic computing.
@@ -131,6 +125,12 @@ S.~Buckley, J.~Chiles, A.N. McCaughan, G.~Moody, K.L. Silverman, M.J. Stevens,
   superconducting single-photon detectors.
 \newblock {\em Appl. Phys. Lett.}, 111:141101, 2017.
 
+\bibitem{sh2018_ICRC}
+J.M. Shainline.
+\newblock The largest cognitive systems will be optoelectronic.
+\newblock In {\em IEEE International Conference on Rebooting Computing}. IEEE,
+  Nov 2018.
+
 \bibitem{beba2016}
 R.F. Betzel and D.S. Bassett.
 \newblock Multi-scale brain networks.
@@ -142,10 +142,26 @@ A.N. Khambhati, M.G. Mattar, N.F. Wymbs, S.T. Grafton, and D.S. Bassett.
   configuration}.
 \newblock {\em NeuroImage}, 166:385, 2018.
 
-\bibitem{sh2019_fluxonic}
-J.M. Shainline.
-\newblock Fluxonic processing of photonic synapse events.
-\newblock {\em IEEE J. Sel. Top. Quant. Electron.}, 26:7700315, 2019.
+\bibitem{budr2004}
+G.~Buzsaki and A.~Draguhn.
+\newblock Neuronal oscillations in cortical networks.
+\newblock {\em Science}, 304:1926, 2004.
+
+\bibitem{fr2015}
+P.~Fries.
+\newblock {Rhythms for Cognition: Communication Through Coherence}.
+\newblock {\em Neuron}, 88:220, 2015.
+
+\bibitem{bu2019}
+G.~Buzsaki.
+\newblock {\em {The Brain from Inside Out}}.
+\newblock Oxford University Press, 2019.
+
+\bibitem{plth2006}
+D.~Plenz and T.C. Thiagarajan.
+\newblock The organizing principles of neuronal avalanches: cell assemblies in
+  the cortex?
+\newblock {\em Trends in Neuroscience}, 30:101, 2006.
 
 \bibitem{eskn2015}
 E.~Estrada and P.A. Knight.
@@ -156,19 +172,6 @@ E.~Estrada and P.A. Knight.
 D.J. Watts and S.H. Strogatz.
 \newblock Collective dynamics of small-world networks.
 \newblock {\em Nature}, 393:440, 1998.
-
-\bibitem{plth2006}
-D.~Plenz and T.C. Thiagarajan.
-\newblock The organizing principles of neuronal avalanches: cell assemblies in
-  the cortex?
-\newblock {\em Trends in Neuroscience}, 30:101, 2006.
-
-\bibitem{peth2009}
-T.~Petermann, T.C. Thiagarajan, M.A. Lebedev, M.A.L. Nicolelis, D.R. Chialvo,
-  and D.~Plenz.
-\newblock Spontaneous cortical activity in awake monkeys composed of neuronal
-  avalanches.
-\newblock {\em PNAS}, 106:15921, 2009.
 
 \bibitem{mage2012}
 H.~Markram, W.~Gerstner, and P.J. Sjostrom.
@@ -185,10 +188,10 @@ S.~Fusi, P.J. Drew, and L.F. Abbott.
 \newblock Casdcade models of synaptically stored memories.
 \newblock {\em Neuron}, 45:599, 2005.
 
-\bibitem{ke1982}
-R.W. Keyes.
-\newblock The wire-limited logic chip.
-\newblock {\em IEEE J. Sol.-Sta. Circuits}, SC-17:1232, 1982.
+\bibitem{sh2020}
+J.M. Shainline.
+\newblock Fluxonic processing of photonic synapse events.
+\newblock {\em IEEE J. Sel. Top. Quant. Electron.}, 26:7700315, 2019.
 
 \bibitem{mave2013}
 F.~Marsili, V.B. Verma, J.A. Stern, S.~Harrington, A.E. Lita, T.~Gerrits,
@@ -225,6 +228,19 @@ A.N. Tait, M.A. Nahmias, B.J. Shastri, and P.R. Prucnal.
 \newblock Broadcast and weight: an integrated network for scalable photonic
   spike processing.
 \newblock {\em J. Lightwave Technol.}, 32:3427, 2014.
+
+\bibitem{li2005}
+M.~Lipson.
+\newblock {Guiding, Modulating, and Emitting Light on Silicon-Challenges and
+  Opportunities}.
+\newblock {\em J. Lightwave Technology}, 23:4222, 2005.
+
+\bibitem{prsh2011}
+K.~Preston, N.~Sherwood-Droz, J.S. Levy, and M.~Lipson.
+\newblock {Performance Guidelines for WDM Interconnects Based on Silicon
+  Microring Resonators}.
+\newblock In {\em Conference on Lasers and Electrooptics}, page CThP4. Optical
+  Society of America, 2011.
 
 \bibitem{chsa2018}
 I.~Chakraborty, G.~Saha, A.~Sengupta, and K.~Roy.
@@ -296,6 +312,11 @@ J.L. Hennessy and D.A. Patterson.
 \newblock Elsevier.
 \newblock Appendix F.
 
+\bibitem{ke1982}
+R.W. Keyes.
+\newblock The wire-limited logic chip.
+\newblock {\em IEEE J. Sol.-Sta. Circuits}, SC-17:1232, 1982.
+
 \bibitem{kuwa2017}
 A.~Kumar, Z.~Wan, W.W. Wilcke, and S.S. Iyer.
 \newblock Toward human-scale brain computing using 3d wafer scale integration.
@@ -320,5 +341,12 @@ S.~Buckley, A.N. Tait, G.~Moody, B.~Primavera, S.~Olsen, J.~Herman, K.L.
 \newblock {Optimization of photoluminescence from W centers in
   silicon-on-insulator}.
 \newblock {\em Opt. Express}, 29:16057, 2020.
+
+\bibitem{sh2019}
+J.M. Shainline, S.M. Buckley, A.N. McCaughan, J.~Chiles, A.~Jafari-Salim,
+  M.~Castellanos-Beltran, C.A. Donnelly, M.L. Schneider, R.P. Mirin, and S.W.
+  Nam.
+\newblock Superconducting optoelectronic loop neurons.
+\newblock {\em J. Appl. Phys.}, 126:044902, 2019.
 
 \end{thebibliography}

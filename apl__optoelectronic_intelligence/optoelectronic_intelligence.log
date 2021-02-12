@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.4)  11 FEB 2021 20:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.4)  11 FEB 2021 20:24
 entering extended mode
 **./optoelectronic_intelligence.tex
 (optoelectronic_intelligence.tex
@@ -354,18 +354,10 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 5
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
-LaTeX Warning: Citation `khma2018' on page 2 undefined on input line 54.
+LaTeX Warning: Citation `bu2005' on page 2 undefined on input line 54.
 
-Runaway argument?
-{Neuroscience provides key insights as to how neural systems integrat\ETC.
-! Paragraph ended before \@textcolor was complete.
-<to be read again> 
-                   \par 
-l.55 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+
+LaTeX Warning: Citation `baga2011' on page 2 undefined on input line 54.
 
 
 LaTeX Warning: Citation `bu2005' on page 2 undefined on input line 56.
@@ -392,17 +384,10 @@ LaTeX Warning: Citation `mela2010' on page 2 undefined on input line 58.
 LaTeX Warning: Citation `beba2017' on page 2 undefined on input line 58.
 
 
-LaTeX Warning: Citation `khma2018' on page 2 undefined on input line 58.
-
-
 LaTeX Warning: Citation `babu2010' on page 2 undefined on input line 58.
 
 
 LaTeX Warning: Citation `spte2016' on page 2 undefined on input line 58.
-
-
-LaTeX Warning: Reference `fig:path_length' on page 2 undefined on input line 62
-.
 
 [2]
 
@@ -484,67 +469,24 @@ LaTeX Warning: Citation `prsh2011' on page 4 undefined on input line 88.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2837) has occurred while \output is active []
 
- [5 <./experimental.png>]
-
-LaTeX Warning: Citation `mi2017' on page 6 undefined on input line 100.
-
-
-LaTeX Warning: Citation `hala2020' on page 6 undefined on input line 100.
-
-
-LaTeX Warning: Citation `vema2012' on page 6 undefined on input line 102.
-
-
-LaTeX Warning: Citation `hama2013' on page 6 undefined on input line 104.
-
-
-LaTeX Warning: Citation `upji2019' on page 6 undefined on input line 104.
-
-[6]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-LaTeX Warning: File `nodes_on_wafer.png' not found on input line 116.
-
-
-! Package pdftex.def Error: File `nodes_on_wafer.png' not found: using draft se
-tting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.116 ...graphics[width=8.6cm]{nodes_on_wafer.png}
-                                                  }
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-116.
-(C:\Users\jeffr\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmtt.fd
-File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-
-LaTeX Warning: Reference `fig:nodes_on_wafer' on page 7 undefined on input line
- 119.
-
-
-LaTeX Warning: Reference `fig:nodes_on_wafer' on page 7 undefined on input line
- 119.
-
-[7]
-<spatial_hierarchy.png, id=44, 2003.485pt x 1365.1pt>
+ [5 <./experimental.png>] [6]
+<nodes_on_wafer.png, id=40, 979.66pt x 562.1pt>
+File: nodes_on_wafer.png Graphic file (type png)
+<use nodes_on_wafer.png>
+Package pdftex.def Info: nodes_on_wafer.png  used on input line 116.
+(pdftex.def)             Requested size: 244.69386pt x 140.396pt.
+ [7]
+<spatial_hierarchy.png, id=45, 2003.485pt x 1365.1pt>
 File: spatial_hierarchy.png Graphic file (type png)
 <use spatial_hierarchy.png>
 Package pdftex.def Info: spatial_hierarchy.png  used on input line 122.
 (pdftex.def)             Requested size: 500.76868pt x 341.19084pt.
- [8] [9 <./spatial_hierarchy.png (PNG copy)>]
 
-LaTeX Warning: Citation `buta2020' on page 10 undefined on input line 142.
+Underfull \vbox (badness 1789) has occurred while \output is active []
 
+ [8 <./nodes_on_wafer.png>] [9 <./spatial_hierarchy.png (PNG copy)>]
 
 LaTeX Warning: Citation `sh2019' on page 10 undefined on input line 144.
 
@@ -563,26 +505,33 @@ Underfull \hbox (badness 3209) in paragraph at lines 88--93
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 174--177
+Underfull \hbox (badness 1874) in paragraph at lines 177--180
 []\OT1/lmr/m/n/10 H. Markram, W. Ger-st-ner, and P.J. Sjostrom.
  []
 
 [11]
-Underfull \hbox (badness 1112) in paragraph at lines 253--258
+Underfull \hbox (badness 1565) in paragraph at lines 239--244
+[]\OT1/lmr/m/n/10 K. Pre-ston, N. Sherwood-Droz, J.S. Levy, and
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 269--274
 []\OT1/lmr/m/n/10 K. Segall, M. LeGro, S. Ka-plan, O. Svi-tel-skiy,
  []
 
 
-Underfull \hbox (badness 3758) in paragraph at lines 278--282
+Underfull \hbox (badness 3758) in paragraph at lines 294--298
 []\OT1/lmr/m/n/10 V.B. Verma, F. Mar-sili, S. Har-ring-ton, A.E.
  []
 
 
-Underfull \hbox (badness 2359) in paragraph at lines 278--282
+Underfull \hbox (badness 2359) in paragraph at lines 294--298
 \OT1/lmr/m/n/10 Lita, R.P. Mirin, and S.W. Nam.  A three-
  []
 
-) [12] (optoelectronic_intelligence.aux)
+[12]) [13
+
+] (optoelectronic_intelligence.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -591,35 +540,33 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 5324 strings out of 481225
- 81274 string characters out of 2906175
- 346513 words of memory out of 3000000
- 20791 multiletter control sequences out of 15000+200000
- 578367 words of font info for 56 fonts, out of 3000000 for 9000
+ 5262 strings out of 481225
+ 80315 string characters out of 2906175
+ 346718 words of memory out of 3000000
+ 20745 multiletter control sequences out of 15000+200000
+ 578056 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,7n,43p,2179b,374s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/jeffr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C
-:/Users/jeffr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rmtt.enc}{C:/
-Users/jeffr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/
-Users/jeffr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/
-Users/jeffr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Use
-rs/jeffr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Use
-rs/jeffr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Use
-rs/jeffr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx9.pfb><C:/User
-s/jeffr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/User
-s/jeffr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users
-/jeffr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/
-jeffr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/j
-effr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/jef
-fr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/jeffr
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/jeffr
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/jeffr/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/jeffr/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/jeffr/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on optoelectronic_intelligence.pdf (12 pages, 5324026 bytes).
+:/Users/jeffr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C
+:/Users/jeffr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C
+:/Users/jeffr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/U
+sers/jeffr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/U
+sers/jeffr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/U
+sers/jeffr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx9.pfb><C:/Us
+ers/jeffr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Us
+ers/jeffr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Use
+rs/jeffr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/User
+s/jeffr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users
+/jeffr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/j
+effr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/jef
+fr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/jef
+fr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/jeff
+r/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/jeff
+r/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb>
+Output written on optoelectronic_intelligence.pdf (13 pages, 5341409 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
+ 113 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
