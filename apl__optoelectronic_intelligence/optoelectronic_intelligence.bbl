@@ -136,6 +136,12 @@ R.F. Betzel and D.S. Bassett.
 \newblock Multi-scale brain networks.
 \newblock {\em NeuroImage}, 160:73, 2016.
 
+\bibitem{khma2018}
+A.N. Khambhati, M.G. Mattar, N.F. Wymbs, S.T. Grafton, and D.S. Bassett.
+\newblock {Beyond modularity: Fine-scale mechanisms and rules for brain network
+  configuration}.
+\newblock {\em NeuroImage}, 166:385, 2018.
+
 \bibitem{sh2019_fluxonic}
 J.M. Shainline.
 \newblock Fluxonic processing of photonic synapse events.
@@ -257,6 +263,33 @@ M.L. Schneider, C.A. Donnelly, S.E. Russek, B.~Baek, M.R. Pufall, P.F. Hopkins,
   josephson junctions.
 \newblock {\em Science Advances}, 4:1701329, 2018.
 
+\bibitem{mi2017}
+D.A.B. Miller.
+\newblock Attojoule optoelectronics for low-energy information processing and
+  communications.
+\newblock {\em J. Lightwave Technol.}, 35:346, 2017.
+
+\bibitem{hala2020}
+Y.~Han and K.M. Lau.
+\newblock {III-V lasers selectively grown on (001) silicon}.
+\newblock {\em J. Appl. Phys.}, 128:200901, 2020.
+
+\bibitem{vema2012}
+V.B. Verma, F.~Marsili, S.~Harrington, A.E. Lita, R.P. Mirin, and S.W. Nam.
+\newblock A three-dimensional, polarization-insensitive superconducting
+  nanowire avalanche photodetector.
+\newblock {\em Appl. Phys. Lett.}, 101:251114, 2012.
+
+\bibitem{hama2013}
+J.~Hasler and B.~Marr.
+\newblock Finding a roadmap to achieve large neuromorphic hardware systems.
+\newblock {\em Front. Neurosci.}, 7:118, 2013.
+
+\bibitem{upji2019}
+N.K. Upadhyay, H.~Jiang, Z.~Wang, S.~Asapu, Q.~Xia, and J.J. Yang.
+\newblock {Emerging Memory Devices for Neuromorphic Computing}.
+\newblock {\em Advanced Materials Technologies}, 4:1800589, 2019.
+
 \bibitem{hepa2012}
 J.L. Hennessy and D.A. Patterson.
 \newblock {\em Computer Architecture}.
@@ -280,5 +313,12 @@ K.~Zhang and T.J. Sejnowski.
 \newblock A universal scaling law between gray matter and white matter in
   cerebral cortex.
 \newblock {\em PNAS}, 97:5621, 2000.
+
+\bibitem{buta2020}
+S.~Buckley, A.N. Tait, G.~Moody, B.~Primavera, S.~Olsen, J.~Herman, K.L.
+  Silverman, S.~Papa Rao, S.W. Nam, R.P. Mirin, and J.M. Shainline.
+\newblock {Optimization of photoluminescence from W centers in
+  silicon-on-insulator}.
+\newblock {\em Opt. Express}, 29:16057, 2020.
 
 \end{thebibliography}
