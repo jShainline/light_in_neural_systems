@@ -125,16 +125,17 @@ S.~Buckley, J.~Chiles, A.N. McCaughan, G.~Moody, K.L. Silverman, M.J. Stevens,
   superconducting single-photon detectors.
 \newblock {\em Appl. Phys. Lett.}, 111:141101, 2017.
 
-\bibitem{sh2018_ICRC}
-J.M. Shainline.
-\newblock The largest cognitive systems will be optoelectronic.
-\newblock In {\em IEEE International Conference on Rebooting Computing}. IEEE,
-  Nov 2018.
+\bibitem{sh2019}
+J.M. Shainline, S.M. Buckley, A.N. McCaughan, J.~Chiles, A.~Jafari-Salim,
+  M.~Castellanos-Beltran, C.A. Donnelly, M.L. Schneider, R.P. Mirin, and S.W.
+  Nam.
+\newblock Superconducting optoelectronic loop neurons.
+\newblock {\em J. Appl. Phys.}, 126:044902, 2019.
 
-\bibitem{beba2016}
+\bibitem{beba2017}
 R.F. Betzel and D.S. Bassett.
 \newblock Multi-scale brain networks.
-\newblock {\em NeuroImage}, 160:73, 2016.
+\newblock {\em NeuroImage}, 160:73, 2017.
 
 \bibitem{khma2018}
 A.N. Khambhati, M.G. Mattar, N.F. Wymbs, S.T. Grafton, and D.S. Bassett.
@@ -142,10 +143,33 @@ A.N. Khambhati, M.G. Mattar, N.F. Wymbs, S.T. Grafton, and D.S. Bassett.
   configuration}.
 \newblock {\em NeuroImage}, 166:385, 2018.
 
+\bibitem{baga2011}
+D.S. Bassett and M.S. Gazzaniga.
+\newblock {Understanding complexity in the human brain}.
+\newblock {\em Trends in Cognitive Sciences}, 15:200, 2011.
+
 \bibitem{budr2004}
 G.~Buzsaki and A.~Draguhn.
 \newblock Neuronal oscillations in cortical networks.
 \newblock {\em Science}, 304:1926, 2004.
+
+\bibitem{caed2006}
+R.T. Canolty, E.~Edwards, S.S. Dalal, M.~Soltani, S.S. Nagarajan, H.E. Kirsch,
+  M.S. Berger, N.M. Barbaro, and R.T. Knight.
+\newblock {High Gamma Power is Phase-Locked to Theta Oscillations in Human
+  Neocortex}.
+\newblock {\em Science}, 313:1626, 2006.
+
+\bibitem{jeco2007}
+O.~Jensen and L.L. Colgin.
+\newblock Cross-frequency coupling between neuronal oscillations.
+\newblock {\em Trends in Cognitive Sciences}, 11:268, 2007.
+
+\bibitem{stsa2000}
+A.~von Stein and J.~Sarnthein.
+\newblock Different frequencies for different scales of cortical integration:
+  from local gamma to long range alpha/theta synchronization.
+\newblock {\em Int. J. Psychophysiology}, 38:301, 2000.
 
 \bibitem{fr2015}
 P.~Fries.
@@ -157,11 +181,29 @@ G.~Buzsaki.
 \newblock {\em {The Brain from Inside Out}}.
 \newblock Oxford University Press, 2019.
 
+\bibitem{mela2010}
+D.~Meunier, R.~Lambiotte, and E.T. Bullmore.
+\newblock {Modular and hierarchically modular organization of brain networks}.
+\newblock {\em Frontiers in Neuroscience}, 4:200, 2010.
+
 \bibitem{plth2006}
 D.~Plenz and T.C. Thiagarajan.
 \newblock The organizing principles of neuronal avalanches: cell assemblies in
   the cortex?
 \newblock {\em Trends in Neuroscience}, 30:101, 2006.
+
+\bibitem{bagr2010}
+D.S. Bassett, D.L. Greenfield, A.~Meyer-Lindenberg, D.R. Weinberger, S.W.
+  Moore, and E.T. Bullmore.
+\newblock Efficient physical embedding of topologically complex information
+  processing networks in brains and computer circuits.
+\newblock {\em PLoS Computational Biology}, 6:1, 2010.
+
+\bibitem{spte2016}
+M.M. Sperry, Q.K. Telesford, F.~Klimm, and D.S. Bassett.
+\newblock Rentian scaling for the measurement of optimal embedding of complex
+  networks into physical space.
+\newblock {\em J. Complex Networks}, 5:199, 2017.
 
 \bibitem{eskn2015}
 E.~Estrada and P.A. Knight.
@@ -199,6 +241,16 @@ F.~Marsili, V.B. Verma, J.A. Stern, S.~Harrington, A.E. Lita, T.~Gerrits,
 \newblock Detecting single infrared photons with 93\% system efficiency.
 \newblock {\em Nat. Photon.}, 7:210, 2013.
 
+\bibitem{vatu1998}
+T.~Van Duzer and C.W. Turner.
+\newblock {\em Principles of superconductive devices and circuits}.
+\newblock Prentice Hall, USA, second edition, 1998.
+
+\bibitem{ka1999}
+Alan~M. Kadin.
+\newblock {\em Introduction to superconducting circuits}.
+\newblock John Wiley and Sons, USA, first edition, 1999.
+
 \bibitem{mcve2019}
 A.N. McCaughan, V.B. Verma, S.M. Buckley, A.N. Tait, S.W. Nam, and J.M.
   Shainline.
@@ -217,6 +269,48 @@ J.~Chiles, S.M. Buckley, S.W. Nam, R.P. Mirin, and J.M. Shainline.
 \newblock Design, fabrication, and metrology of 10 x 100 multi-planar
   integrated photonic routing manifolds for neural networks.
 \newblock {\em APL Photonics}, page 106101, 2018.
+
+\bibitem{buta2020_2}
+S.~Buckley, A.N. Tait, J.~Chiles, A.N. McCaughan, S.~Khan, R.P. Mirin, S.W.
+  Nam, and J.M. Shainline.
+\newblock {Integrated-Photonic Characterization of Single-Photon Detectors for
+  Use in Neuromorphic Synapses}.
+\newblock {\em Phys. Rev. Applied}, 14:054008, 2020.
+
+\bibitem{buta2020}
+S.~Buckley, A.N. Tait, G.~Moody, B.~Primavera, S.~Olsen, J.~Herman, K.L.
+  Silverman, S.~Papa Rao, S.W. Nam, R.P. Mirin, and J.M. Shainline.
+\newblock {Optimization of photoluminescence from W centers in
+  silicon-on-insulator}.
+\newblock {\em Opt. Express}, 29:16057, 2020.
+
+\bibitem{bexi2020}
+K.~Berggren et~al.
+\newblock Roadmap on emerging hardware and technology for machine learning.
+\newblock {\em Nanotechnology}, 32:012002, 2020.
+
+\bibitem{shta2021}
+B.J. Shastri, A.N. Tait, T.~Ferreira de~Lima, W.H.P. Pernice, H.~Bhaskaran,
+  C.D. Wright, and P.R. Prucnal.
+\newblock Photonics for artificial intelligence and neuromorphic computing.
+\newblock {\em Nat. Photonics}, 15:102, 2021.
+
+\bibitem{psfa1985}
+D.~Psaltis and N.~Farhat.
+\newblock Optical information processing based on an associative-memory model
+  of neural nets with thresholding and feedback.
+\newblock {\em Opt. Lett.}, 10:98, 1985.
+
+\bibitem{faps1985}
+N.H. Farhat, D.~Psaltis, A.~Prata, and E.~Paek.
+\newblock Optical implementation of the {H}opfield model.
+\newblock {\em Applied Optics}, 24:1469, 1985.
+
+\bibitem{ho1982}
+J.J. Hopfield.
+\newblock Neural networks and physical systems with emergent computational
+  abilities.
+\newblock {\em PNAS}, 79:2554, 1982.
 
 \bibitem{prsh2017}
 P.R. Prucnal and B.J. Shastri.
@@ -259,6 +353,46 @@ Y.~Shen, N.C. Harris, S.~Skirlo, M.~Prabhu, T.~Baehr-Jones, M.~Hochberg,
 \newblock Deep learning with coherent nanophotonic circuits.
 \newblock {\em Nature Photonics}, 11:441, 2016.
 
+\bibitem{humi2018}
+T.W. Hughes, M.~Minkov, Y.~Shi, and S.~Fan.
+\newblock Training of photonic neural networks through in situ backpropagation
+  and gradient descent.
+\newblock {\em Optica}, 5:864, 2018.
+
+\bibitem{funa1993}
+K.-I. Funahashi and Y.~Nakamura.
+\newblock Approximation of dynamical systems by continuous time recurrent
+  neural networks.
+\newblock {\em Neural Networks}, 6:801, 1993.
+
+\bibitem{vada2011}
+K.~Vandoorne, J.~Dambre, D.~Verstraeten, B.~Schrauwen, and P.~Bienstman.
+\newblock Parallel reservoir computing using optical amplifiers.
+\newblock {\em IEEE Trans. Neural Networks}, 22:1469, 2011.
+
+\bibitem{orso2015}
+S.~Ort\'{i}n, M.C. Soriano, L.~Pesquera, D.~Brunner, D.~San-Mart\'{i}n,
+  I.~Fischer, C.R. Mirasso, and J.M. Guti\'{e}rrez.
+\newblock A unified framework for reservoir computing and extreme learning
+  machines based on a single time-delayed neuron.
+\newblock {\em Sci. Rep.}, 5:14945, 2015.
+
+\bibitem{vabr2017}
+G.~Van der Sande, D.~Brunner, and M.C. Soriano.
+\newblock Advances in photonic reservoir computing.
+\newblock {\em Nanophotonics}, 6:561, 2017.
+
+\bibitem{brpe2018}
+D.~Brunner, B.~Penkovsky, B.A. Marquez, M.~Jacquot, I.~Fischer, and L.~Larger.
+\newblock Tutorial: {P}hotonic neural networks in delay systems.
+\newblock {\em J. Appl. Phys.}, 124:152004, 2018.
+
+\bibitem{li1997}
+J.E. Lisman.
+\newblock Bursts as a unit of neural information: making unreliable synapses
+  reliable.
+\newblock {\em Trends Neurosci.}, 20:38, 1997.
+
 \bibitem{hias2007}
 T.~Hirose, T.~Asai, and Y.~Amemiya.
 \newblock Pulsed neural networks consisting of single-flux-quantum spiking
@@ -278,6 +412,55 @@ M.L. Schneider, C.A. Donnelly, S.E. Russek, B.~Baek, M.R. Pufall, P.F. Hopkins,
 \newblock Ultralow power artificial synapses using nanotextured magnetic
   josephson junctions.
 \newblock {\em Science Advances}, 4:1701329, 2018.
+
+\bibitem{ai1989}
+K.~Aihara et~al.
+\newblock {\em Extended Abstracts The Japan Society of Applied Physics and
+  Related Socities}, pages I--77, 1989.
+
+\bibitem{og1989}
+T.~Ogata et~al.
+\newblock {\em Extended Abstracts The Japan Society of Applied Physics and
+  Related Socities}, pages I--77, 1989.
+
+\bibitem{hago1991}
+Y.~Harada and E.~Goto.
+\newblock Artificial neural network circuits with josephson devices.
+\newblock {\em IEEE Trans. Magnetics}, 27:2863, 1991.
+
+\bibitem{hiak1991}
+M.~Hidaka and L.A. Akers.
+\newblock An artificial neural cell implemented with superconducting circuits.
+\newblock {\em Supercond. Sci. Technol.}, 4:654, 1991.
+
+\bibitem{sckl2016}
+A.E. Schegolev, N.V. Klenov, I.I. Soloviev, and M.V. Tereshonok.
+\newblock Adiabatic superconducting cells for ultra-low-power artificial neural
+  networks.
+\newblock {\em Beilstein Journal of Nanotechnology}, 7:1397, 2016.
+
+\bibitem{klsc2018}
+N.V. Klenov, A.E. Schegolev, I.I. Soloviev, S.V. Bakurskiy, and M.V.
+  Tereshonok.
+\newblock Energy efficient superconducting neural networks for high-speed
+  intellectual data processing systems.
+\newblock {\em IEEE. Trans. Appl. Supercond.}, 28:1301006, 2018.
+
+\bibitem{sosc2018}
+I.I. Soloviev, A.E. Schegolev, N.V. Klenov, S.V. Bakurskiy, M.Y. Kupriyanov,
+  M.V. Tereshonok, A.V. Shadrin, V.S. Stolyarov, and A.A. Golubov.
+\newblock Adiabatic superconducting artificial neural network: basic cells.
+\newblock {\em J. Appl. Phys.}, 124:152113, 2018.
+
+\bibitem{crsc2010}
+P.~Crotty, D.~Schult, and K.~Segall.
+\newblock Josephson junction simulation of neurons.
+\newblock {\em Phys. Rev. E}, 82:011914, 2010.
+
+\bibitem{kiha2018}
+S.G. Kim, J.S. Han, H.~Kim, S.Y. Kim, and H.W. Jang.
+\newblock {Recent Advances in Memristive Materials for Artificial Synapses}.
+\newblock {\em Advanced Materials Technologies}, 3:1800457, 2018.
 
 \bibitem{mi2017}
 D.A.B. Miller.
@@ -329,24 +512,16 @@ M.~Cabezon, I.~Garces, A.~Villafranca, J.~Pozo, P.~Kumar, and A.~Kazmierczak.
   grating couplers.
 \newblock {\em Applied Optics}, 51:8090, 2012.
 
+\bibitem{khbu2020}
+S.~Khan, S.M. Buckley, J.~Chiles, R.P. Mirin, S.W. Nam, and J.M. Shainline.
+\newblock {Low-loss, high-bandwidth fiber-to-chip coupling using capped
+  adiabatic tapered fibers}.
+\newblock {\em Appl. Phys. Lett. Photonics}, 5:056101, 2020.
+
 \bibitem{zhse2000}
 K.~Zhang and T.J. Sejnowski.
 \newblock A universal scaling law between gray matter and white matter in
   cerebral cortex.
 \newblock {\em PNAS}, 97:5621, 2000.
-
-\bibitem{buta2020}
-S.~Buckley, A.N. Tait, G.~Moody, B.~Primavera, S.~Olsen, J.~Herman, K.L.
-  Silverman, S.~Papa Rao, S.W. Nam, R.P. Mirin, and J.M. Shainline.
-\newblock {Optimization of photoluminescence from W centers in
-  silicon-on-insulator}.
-\newblock {\em Opt. Express}, 29:16057, 2020.
-
-\bibitem{sh2019}
-J.M. Shainline, S.M. Buckley, A.N. McCaughan, J.~Chiles, A.~Jafari-Salim,
-  M.~Castellanos-Beltran, C.A. Donnelly, M.L. Schneider, R.P. Mirin, and S.W.
-  Nam.
-\newblock Superconducting optoelectronic loop neurons.
-\newblock {\em J. Appl. Phys.}, 126:044902, 2019.
 
 \end{thebibliography}

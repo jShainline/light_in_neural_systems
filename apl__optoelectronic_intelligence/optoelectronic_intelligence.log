@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.4)  11 FEB 2021 20:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.4)  12 FEB 2021 15:15
 entering extended mode
 **./optoelectronic_intelligence.tex
 (optoelectronic_intelligence.tex
@@ -345,155 +345,118 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <complexity_across_scales.png, id=12, 2091.815pt x 1080.035pt>
 File: complexity_across_scales.png Graphic file (type png)
 <use complexity_across_scales.png>
-Package pdftex.def Info: complexity_across_scales.png  used on input line 50.
+Package pdftex.def Info: complexity_across_scales.png  used on input line 49.
 (pdftex.def)             Requested size: 500.76868pt x 258.55449pt.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 5
-1.
+0.
 
 (C:\Users\jeffr\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-
-LaTeX Warning: Citation `bu2005' on page 2 undefined on input line 54.
-
-
-LaTeX Warning: Citation `baga2011' on page 2 undefined on input line 54.
-
-
-LaTeX Warning: Citation `bu2005' on page 2 undefined on input line 56.
-
-
-LaTeX Warning: Citation `budr2004' on page 2 undefined on input line 56.
-
-
-LaTeX Warning: Citation `bu2005' on page 2 undefined on input line 56.
-
-
-LaTeX Warning: Citation `ca2006' on page 2 undefined on input line 56.
-
-
-LaTeX Warning: Citation `fr2015' on page 2 undefined on input line 56.
-
-
-LaTeX Warning: Citation `bu2019' on page 2 undefined on input line 56.
-
-
-LaTeX Warning: Citation `mela2010' on page 2 undefined on input line 58.
-
-
-LaTeX Warning: Citation `beba2017' on page 2 undefined on input line 58.
-
-
-LaTeX Warning: Citation `babu2010' on page 2 undefined on input line 58.
-
-
-LaTeX Warning: Citation `spte2016' on page 2 undefined on input line 58.
-
-[2]
-
-LaTeX Warning: Citation `sh2020' on page 3 undefined on input line 64.
-
-
-LaTeX Warning: Citation `sh2020' on page 3 undefined on input line 66.
-
-
-LaTeX Warning: Citation `sh2020' on page 3 undefined on input line 66.
-
-[3 <./complexity_across_scales.png>]
-<path_length.png, id=23, 979.66pt x 582.175pt>
-File: path_length.png Graphic file (type png)
-<use path_length.png>
-Package pdftex.def Info: path_length.png  used on input line 69.
-(pdftex.def)             Requested size: 244.69386pt x 145.41014pt.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 7
-0.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
+1.
 
 (C:\Users\jeffr\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-70.
+61.
 
 (C:\Users\jeffr\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-70.
+61.
 
 (C:\Users\jeffr\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 70.
+(Font)              <10> on input line 61.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 70.
+(Font)              <7> on input line 61.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 70.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 70.
+(Font)              <5> on input line 61.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 61.
 
 
 (C:\Users\jeffr\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 70.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 61.
 
 
 (C:\Users\jeffr\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 1648) in paragraph at lines 73--73
-[][]\OT1/lmr/bx/n/14.4 Optoelectronic synapses, den-
+[2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 <./complexity_across_scales.png>]
+<path_length.png, id=23, 979.66pt x 582.175pt>
+File: path_length.png Graphic file (type png)
+<use path_length.png>
+Package pdftex.def Info: path_length.png  used on input line 68.
+(pdftex.def)             Requested size: 244.69386pt x 145.41014pt.
+<spd_jj_synapse.png, id=24, 979.66pt x 509.905pt>
+File: spd_jj_synapse.png Graphic file (type png)
+<use spd_jj_synapse.png>
+Package pdftex.def Info: spd_jj_synapse.png  used on input line 74.
+(pdftex.def)             Requested size: 244.69386pt x 127.35922pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./path_length.png> <./spd_jj_synapse.png (PNG copy)>]
+<experimental.png, id=30, 2003.485pt x 985.6825pt>
+File: experimental.png Graphic file (type png)
+<use experimental.png>
+Package pdftex.def Info: experimental.png  used on input line 82.
+(pdftex.def)             Requested size: 489.38731pt x 240.76486pt.
+
+Underfull \hbox (badness 1127) in paragraph at lines 91--91
+[][][]\OT1/lmr/bx/n/14.4 The land-scape of re-search in
  []
 
 
-LaTeX Warning: Citation `sh2020' on page 4 undefined on input line 74.
+Underfull \hbox (badness 1281) in paragraph at lines 91--91
+\OT1/lmr/bx/n/14.4 pho-tonic and su-per-con-duct-ing
+ []
 
-
-LaTeX Warning: Citation `sh2020' undefined on input line 74.
-
-
-LaTeX Warning: Citation `sh2020' on page 4 undefined on input line 74.
-
-<experimental.png, id=24, 2003.485pt x 985.6825pt>
-File: experimental.png Graphic file (type png)
-<use experimental.png>
-Package pdftex.def Info: experimental.png  used on input line 79.
-(pdftex.def)             Requested size: 489.38731pt x 240.76486pt.
-
-LaTeX Warning: Citation `li2005' on page 4 undefined on input line 88.
-
-
-LaTeX Warning: Citation `prsh2011' on page 4 undefined on input line 88.
-
-[4 <./path_length.png>]
+[5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \vbox (badness 2837) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5 <./experimental.png>] [6]
-<nodes_on_wafer.png, id=40, 979.66pt x 562.1pt>
+ [6 <./experimental.png>]
+
+LaTeX Warning: Citation `scdo2020' on page 7 undefined on input line 106.
+
+
+LaTeX Warning: Citation `scse2020' on page 7 undefined on input line 108.
+
+
+LaTeX Warning: Citation `scse2020' on page 7 undefined on input line 108.
+
+[7] [8] [9]
+<nodes_on_wafer.png, id=51, 979.66pt x 562.1pt>
 File: nodes_on_wafer.png Graphic file (type png)
 <use nodes_on_wafer.png>
-Package pdftex.def Info: nodes_on_wafer.png  used on input line 116.
+Package pdftex.def Info: nodes_on_wafer.png  used on input line 134.
 (pdftex.def)             Requested size: 244.69386pt x 140.396pt.
- [7]
-<spatial_hierarchy.png, id=45, 2003.485pt x 1365.1pt>
+<spatial_hierarchy.png, id=52, 2003.485pt x 1365.1pt>
 File: spatial_hierarchy.png Graphic file (type png)
 <use spatial_hierarchy.png>
-Package pdftex.def Info: spatial_hierarchy.png  used on input line 122.
+Package pdftex.def Info: spatial_hierarchy.png  used on input line 140.
 (pdftex.def)             Requested size: 500.76868pt x 341.19084pt.
 
 Underfull \vbox (badness 1789) has occurred while \output is active []
 
- [8 <./nodes_on_wafer.png>] [9 <./spatial_hierarchy.png (PNG copy)>]
+ [10 <./nodes_on_wafer.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Citation `sh2019' on page 10 undefined on input line 144.
-
-
-LaTeX Warning: Citation `sh2020' on page 10 undefined on input line 144.
-
-(optoelectronic_intelligence.bbl [10]
+ [11 <./spatial_hierarchy.png (PNG copy)>] (optoelectronic_intelligence.bbl [12
+]
 Underfull \hbox (badness 1122) in paragraph at lines 74--81
 \OT1/lmr/m/n/10 Cas-sidy, J. Sawada, F. Akopyan, B.L. Jack-son,
  []
@@ -504,32 +467,47 @@ Underfull \hbox (badness 3209) in paragraph at lines 88--93
  ,
  []
 
-
-Underfull \hbox (badness 1874) in paragraph at lines 177--180
+[13]
+Underfull \hbox (badness 1874) in paragraph at lines 218--221
 []\OT1/lmr/m/n/10 H. Markram, W. Ger-st-ner, and P.J. Sjostrom.
  []
 
-[11]
-Underfull \hbox (badness 1565) in paragraph at lines 239--244
+[14]
+Underfull \hbox (badness 1565) in paragraph at lines 339--344
 []\OT1/lmr/m/n/10 K. Pre-ston, N. Sherwood-Droz, J.S. Levy, and
  []
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 269--274
-[]\OT1/lmr/m/n/10 K. Segall, M. LeGro, S. Ka-plan, O. Svi-tel-skiy,
+Underfull \hbox (badness 10000) in paragraph at lines 375--378
+[]\OT1/lmr/m/n/10 K. Van-doorne, J. Dambre, D. Ver-straeten,
  []
 
 
-Underfull \hbox (badness 3758) in paragraph at lines 294--298
+Underfull \hbox (badness 10000) in paragraph at lines 392--395
+[]\OT1/lmr/m/n/10 D. Brun-ner, B. Penkovsky, B.A. Mar-quez,
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 392--395
+\OT1/lmr/m/n/10 M. Jacquot, I. Fis-cher, and L. Larger.  Tu-to-
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 409--414
+[]\OT1/lmr/m/n/10 K. Segall, M. LeGro, S. Ka-plan, O. Svi-tel-skiy,
+ []
+
+[15]
+Underfull \hbox (badness 3758) in paragraph at lines 483--487
 []\OT1/lmr/m/n/10 V.B. Verma, F. Mar-sili, S. Har-ring-ton, A.E.
  []
 
 
-Underfull \hbox (badness 2359) in paragraph at lines 294--298
+Underfull \hbox (badness 2359) in paragraph at lines 483--487
 \OT1/lmr/m/n/10 Lita, R.P. Mirin, and S.W. Nam.  A three-
  []
 
-[12]) [13
+) [16
 
 ] (optoelectronic_intelligence.aux)
 
@@ -540,13 +518,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 5262 strings out of 481225
- 80315 string characters out of 2906175
- 346718 words of memory out of 3000000
- 20745 multiletter control sequences out of 15000+200000
+ 5297 strings out of 481225
+ 80718 string characters out of 2906175
+ 347625 words of memory out of 3000000
+ 20779 multiletter control sequences out of 15000+200000
  578056 words of font info for 55 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,7n,43p,2179b,374s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,7n,43p,2738b,374s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/jeffr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C
 :/Users/jeffr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C
 :/Users/jeffr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C
@@ -564,9 +542,9 @@ fr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/jef
 fr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/jeff
 r/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/jeff
 r/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb>
-Output written on optoelectronic_intelligence.pdf (13 pages, 5341409 bytes).
+Output written on optoelectronic_intelligence.pdf (16 pages, 5416585 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
+ 123 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

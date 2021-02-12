@@ -5,62 +5,59 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: unsrt.bst
 Reallocating 'name_of_file' (item size: 1) to 28 items.
 Database file #1: optoelectronic_intelligence.bib
-Repeated entry---line 3713 of file optoelectronic_intelligence.bib
+Repeated entry---line 3747 of file optoelectronic_intelligence.bib
  : @article{libo2010
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3722 of file optoelectronic_intelligence.bib
+Repeated entry---line 3756 of file optoelectronic_intelligence.bib
  : @article{zhyi2015
  :                  ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "bu2005"
-Warning--I didn't find a database entry for "baga2011"
-Warning--I didn't find a database entry for "ca2006"
-Warning--I didn't find a database entry for "mela2010"
-Warning--I didn't find a database entry for "beba2017"
-Warning--I didn't find a database entry for "babu2010"
-Warning--I didn't find a database entry for "spte2016"
+Warning--I didn't find a database entry for "scdo2020"
+Warning--I didn't find a database entry for "scse2020"
 Warning--I didn't find a database entry for ""
+Warning--empty title in ai1989
+Warning--empty title in og1989
 Warning--empty year in hepa2012
-You've used 61 entries,
+You've used 92 entries,
             1791 wiz_defined-function locations,
-            795 strings with 12665 characters,
-and the built_in function-call counts, 13595 in all, are:
-= -- 1028
-> -- 881
-< -- 2
-+ -- 319
-- -- 258
-* -- 978
-:= -- 2382
-add.period$ -- 186
-call.type$ -- 61
-change.case$ -- 56
+            944 strings with 17420 characters,
+and the built_in function-call counts, 20457 in all, are:
+= -- 1560
+> -- 1298
+< -- 4
++ -- 470
+- -- 378
+* -- 1487
+:= -- 3578
+add.period$ -- 276
+call.type$ -- 92
+change.case$ -- 85
 chr.to.int$ -- 0
-cite$ -- 62
-duplicate$ -- 588
-empty$ -- 1230
-format.name$ -- 258
-if$ -- 2920
+cite$ -- 95
+duplicate$ -- 876
+empty$ -- 1853
+format.name$ -- 378
+if$ -- 4392
 int.to.chr$ -- 0
-int.to.str$ -- 61
-missing$ -- 70
-newline$ -- 309
-num.names$ -- 61
-pop$ -- 120
+int.to.str$ -- 92
+missing$ -- 103
+newline$ -- 462
+num.names$ -- 92
+pop$ -- 160
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 218
+skip$ -- 330
 stack$ -- 0
-substring$ -- 607
-swap$ -- 87
-text.length$ -- 2
+substring$ -- 979
+swap$ -- 127
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 112
-width$ -- 63
-write$ -- 674
+warning$ -- 3
+while$ -- 175
+width$ -- 94
+write$ -- 1013
 (There were 2 error messages)
