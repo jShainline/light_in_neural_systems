@@ -295,6 +295,22 @@ B.J. Shastri, A.N. Tait, T.~Ferreira de~Lima, W.H.P. Pernice, H.~Bhaskaran,
 \newblock Photonics for artificial intelligence and neuromorphic computing.
 \newblock {\em Nat. Photonics}, 15:102, 2021.
 
+\bibitem{me1990}
+C.~Mead.
+\newblock Neuromorphic electronic systems.
+\newblock {\em Proc. IEEE}, 78:1629, 1990.
+
+\bibitem{lide2015}
+S.-C. Liu, T.~Delbruck, G.~Indiveri, A.~Whatley, and R.~Douglas, editors.
+\newblock {\em Event-based neuromorphic systems}.
+\newblock John Wiley and Sons, 2015.
+
+\bibitem{hepa2012}
+J.L. Hennessy and D.A. Patterson.
+\newblock {\em Computer Architecture}.
+\newblock Elsevier.
+\newblock Appendix F.
+
 \bibitem{psfa1985}
 D.~Psaltis and N.~Farhat.
 \newblock Optical information processing based on an associative-memory model
@@ -488,12 +504,6 @@ J.~Hasler and B.~Marr.
 N.K. Upadhyay, H.~Jiang, Z.~Wang, S.~Asapu, Q.~Xia, and J.J. Yang.
 \newblock {Emerging Memory Devices for Neuromorphic Computing}.
 \newblock {\em Advanced Materials Technologies}, 4:1800589, 2019.
-
-\bibitem{hepa2012}
-J.L. Hennessy and D.A. Patterson.
-\newblock {\em Computer Architecture}.
-\newblock Elsevier.
-\newblock Appendix F.
 
 \bibitem{ke1982}
 R.W. Keyes.
