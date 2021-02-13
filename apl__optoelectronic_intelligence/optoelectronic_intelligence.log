@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.4)  12 FEB 2021 20:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.4)  13 FEB 2021 13:41
 entering extended mode
 **./optoelectronic_intelligence.tex
 (optoelectronic_intelligence.tex
@@ -497,12 +497,12 @@ Package pdftex.def Info: spatial_hierarchy.png  used on input line 148.
 (pdftex.def)             Requested size: 500.76868pt x 341.19084pt.
  [10 <./nodes_on_wafer.png>] [11 <./spatial_hierarchy.png (PNG copy)>]
 [12] (optoelectronic_intelligence.bbl [13] [14]
-Underfull \hbox (badness 10000) in paragraph at lines 369--372
+Underfull \hbox (badness 10000) in paragraph at lines 385--388
 []\OT1/lmr/m/n/10 K. Van-doorne, J. Dambre, D. Ver-straeten,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--389
+Underfull \hbox (badness 10000) in paragraph at lines 402--405
 []\OT1/lmr/m/n/10 D. Brun-ner, B. Penkovsky, B.A. Mar-quez,
  []
 
@@ -517,7 +517,7 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Here is how much of TeX's memory you used:
  5097 strings out of 481225
  76092 string characters out of 2906175
- 350110 words of memory out of 3000000
+ 351111 words of memory out of 3000000
  20591 multiletter control sequences out of 15000+200000
  593407 words of font info for 72 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -541,7 +541,7 @@ ppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/jeffr/A
 ppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/jeffr/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/jeffr/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb>
-Output written on optoelectronic_intelligence.pdf (16 pages, 5448712 bytes).
+Output written on optoelectronic_intelligence.pdf (16 pages, 5449214 bytes).
 PDF statistics:
  131 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
