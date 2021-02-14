@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.4)  13 FEB 2021 13:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.4)  13 FEB 2021 20:21
 entering extended mode
 **./optoelectronic_intelligence.tex
 (optoelectronic_intelligence.tex
@@ -442,61 +442,82 @@ Package pdftex.def Info: complexity_across_scales.png  used on input line 53.
 <path_length.png, id=25, 979.66pt x 582.175pt>
 File: path_length.png Graphic file (type png)
 <use path_length.png>
-Package pdftex.def Info: path_length.png  used on input line 72.
+Package pdftex.def Info: path_length.png  used on input line 70.
 (pdftex.def)             Requested size: 244.69386pt x 145.41014pt.
-<spd_jj_synapse.png, id=26, 979.66pt x 509.905pt>
+
+
+LaTeX Warning: Reference `fig:block_diagrams' on page 4 undefined on input line
+ 76.
+
+<block_diagrams.png, id=26, 979.66pt x 1051.93pt>
+File: block_diagrams.png Graphic file (type png)
+<use block_diagrams.png>
+Package pdftex.def Info: block_diagrams.png  used on input line 78.
+(pdftex.def)             Requested size: 244.69386pt x 262.74109pt.
+<spd_jj_synapse.png, id=27, 979.66pt x 509.905pt>
 File: spd_jj_synapse.png Graphic file (type png)
 <use spd_jj_synapse.png>
-Package pdftex.def Info: spd_jj_synapse.png  used on input line 78.
+Package pdftex.def Info: spd_jj_synapse.png  used on input line 85.
 (pdftex.def)             Requested size: 244.69386pt x 127.35922pt.
- [4 <./path_length.png> <./spd_jj_synapse.png (PNG copy)>]
-<experimental.png, id=32, 2003.485pt x 985.6825pt>
+[4 <./path_length.png> <./block_diagrams.png>]
+<experimental.png, id=35, 2003.485pt x 985.6825pt>
 File: experimental.png Graphic file (type png)
 <use experimental.png>
-Package pdftex.def Info: experimental.png  used on input line 86.
+Package pdftex.def Info: experimental.png  used on input line 93.
 (pdftex.def)             Requested size: 489.38731pt x 240.76486pt.
- [5]
+ [5 <./spd_jj_synapse.png (PNG copy)>] [6 <./experimental.png>]
 
-LaTeX Warning: Citation `me1989' on page 6 undefined on input line 99.
-
-
-LaTeX Warning: Citation `me1990' on page 6 undefined on input line 99.
+LaTeX Warning: Citation `me1989' on page 7 undefined on input line 106.
 
 
-LaTeX Warning: Citation `lide2015' on page 6 undefined on input line 99.
-
-[6 <./experimental.png>]
-
-LaTeX Warning: Citation `godi1978' on page 7 undefined on input line 106.
+LaTeX Warning: Citation `voma2007' on page 7 undefined on input line 106.
 
 
-Underfull \hbox (badness 6893) in paragraph at lines 112--112
+LaTeX Warning: Citation `inli2011' on page 7 undefined on input line 106.
+
+
+LaTeX Warning: Citation `chst2014' on page 7 undefined on input line 106.
+
+
+LaTeX Warning: Citation `aast2018' on page 7 undefined on input line 106.
+
+
+LaTeX Warning: Citation `boro2018' on page 7 undefined on input line 106.
+
+
+LaTeX Warning: Citation `stin2019' on page 7 undefined on input line 106.
+
+
+LaTeX Warning: Citation `godi1978' on page 7 undefined on input line 113.
+
+[7]
+Underfull \hbox (badness 6893) in paragraph at lines 119--119
 []\OT1/lmr/bx/n/12 Superconducting elec-tronic neu-ral
  []
 
-[7]
 
-LaTeX Warning: Citation `scdo2020' on page 8 undefined on input line 115.
-
-
-LaTeX Warning: Citation `scse2020' on page 8 undefined on input line 117.
+LaTeX Warning: Citation `scdo2020' on page 8 undefined on input line 122.
 
 
-LaTeX Warning: Citation `scse2020' on page 8 undefined on input line 117.
+LaTeX Warning: Citation `scse2020' on page 8 undefined on input line 124.
+
+
+LaTeX Warning: Citation `scse2020' on page 8 undefined on input line 124.
 
 [8] [9]
-<nodes_on_wafer.png, id=53, 979.66pt x 562.1pt>
+<nodes_on_wafer.png, id=55, 979.66pt x 562.1pt>
 File: nodes_on_wafer.png Graphic file (type png)
 <use nodes_on_wafer.png>
-Package pdftex.def Info: nodes_on_wafer.png  used on input line 142.
+Package pdftex.def Info: nodes_on_wafer.png  used on input line 149.
 (pdftex.def)             Requested size: 244.69386pt x 140.396pt.
-<spatial_hierarchy.png, id=54, 2003.485pt x 1365.1pt>
+ [10 <./nodes_on_wafer.png>]
+<spatial_hierarchy.png, id=60, 2003.485pt x 1365.1pt>
 File: spatial_hierarchy.png Graphic file (type png)
 <use spatial_hierarchy.png>
-Package pdftex.def Info: spatial_hierarchy.png  used on input line 148.
+Package pdftex.def Info: spatial_hierarchy.png  used on input line 155.
 (pdftex.def)             Requested size: 500.76868pt x 341.19084pt.
- [10 <./nodes_on_wafer.png>] [11 <./spatial_hierarchy.png (PNG copy)>]
-[12] (optoelectronic_intelligence.bbl [13] [14]
+ [11] [12 <./spatial_hierarchy.png (PNG copy)>] (optoelectronic_intelligence.bb
+l [13] [14] [15]
 Underfull \hbox (badness 10000) in paragraph at lines 385--388
 []\OT1/lmr/m/n/10 K. Van-doorne, J. Dambre, D. Ver-straeten,
  []
@@ -506,7 +527,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 402--405
 []\OT1/lmr/m/n/10 D. Brun-ner, B. Penkovsky, B.A. Mar-quez,
  []
 
-[15]) [16] (optoelectronic_intelligence.aux)
+[16]) [17] (optoelectronic_intelligence.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -515,10 +536,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 5097 strings out of 481225
- 76092 string characters out of 2906175
- 351111 words of memory out of 3000000
- 20591 multiletter control sequences out of 15000+200000
+ 5110 strings out of 481225
+ 76299 string characters out of 2906175
+ 345119 words of memory out of 3000000
+ 20603 multiletter control sequences out of 15000+200000
  593407 words of font info for 72 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,7n,43p,2738b,415s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -541,9 +562,9 @@ ppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/jeffr/A
 ppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/jeffr/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/jeffr/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb>
-Output written on optoelectronic_intelligence.pdf (16 pages, 5449214 bytes).
+Output written on optoelectronic_intelligence.pdf (17 pages, 5509814 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
+ 136 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

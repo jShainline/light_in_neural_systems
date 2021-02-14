@@ -13,53 +13,65 @@ Repeated entry---line 3756 of file optoelectronic_intelligence.bib
  : @article{zhyi2015
  :                  ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 3962 of file optoelectronic_intelligence.bib
+ : @article{chst2014
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3970 of file optoelectronic_intelligence.bib
+ : @article{inli2011
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3978 of file optoelectronic_intelligence.bib
+ : @article{inli2011
+ :                  ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "me1989"
-Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "godi1978"
 Warning--I didn't find a database entry for "scdo2020"
 Warning--I didn't find a database entry for "scse2020"
+Warning--I didn't find a database entry for ""
 Warning--empty year in hepa2012
 Warning--empty title in ai1989
 Warning--empty title in og1989
-You've used 94 entries,
+You've used 100 entries,
             1791 wiz_defined-function locations,
-            956 strings with 17609 characters,
-and the built_in function-call counts, 20840 in all, are:
-= -- 1589
-> -- 1320
+            983 strings with 18817 characters,
+and the built_in function-call counts, 22392 in all, are:
+= -- 1687
+> -- 1464
 < -- 4
-+ -- 478
-- -- 384
-* -- 1510
-:= -- 3644
-add.period$ -- 282
-call.type$ -- 94
-change.case$ -- 86
++ -- 528
+- -- 428
+* -- 1648
+:= -- 3936
+add.period$ -- 300
+call.type$ -- 100
+change.case$ -- 92
 chr.to.int$ -- 0
-cite$ -- 97
-duplicate$ -- 896
-empty$ -- 1892
-format.name$ -- 384
-if$ -- 4476
+cite$ -- 103
+duplicate$ -- 950
+empty$ -- 2008
+format.name$ -- 428
+if$ -- 4790
 int.to.chr$ -- 0
-int.to.str$ -- 94
-missing$ -- 105
-newline$ -- 472
-num.names$ -- 95
-pop$ -- 167
+int.to.str$ -- 100
+missing$ -- 111
+newline$ -- 502
+num.names$ -- 101
+pop$ -- 173
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 335
+skip$ -- 352
 stack$ -- 0
-substring$ -- 991
-swap$ -- 129
+substring$ -- 1051
+swap$ -- 135
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 178
-width$ -- 96
-write$ -- 1034
-(There were 2 error messages)
+while$ -- 190
+width$ -- 103
+write$ -- 1100
+(There were 5 error messages)

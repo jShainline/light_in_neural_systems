@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{ba1988}
 B.J. Baars.
@@ -304,6 +304,44 @@ C.~Mead.
 S.-C. Liu, T.~Delbruck, G.~Indiveri, A.~Whatley, and R.~Douglas, editors.
 \newblock {\em Event-based neuromorphic systems}.
 \newblock John Wiley and Sons, 2015.
+
+\bibitem{voma2007}
+R.J. Vogelstein, U.~Mallik, J.T. Vogelstein, and G.~Cauwenberghs.
+\newblock Dynamically reconfigurable silicon array of spiking neurons with
+  conductance-based synapses.
+\newblock {\em IEEE Trans. Neural Networks}, 18:253, 2007.
+
+\bibitem{inli2011}
+G.~Indiveri, B.~Linares-Barranco, T.J. Hamilton, A.~van Schaik,
+  R.~Etienne-Cummings, T.~Delbruck, S.-C. Liu, P.~Dudek, P.~H{\: a}fliger,
+  S.~Renaud, J.~Schemmel, G.~Cauwenberghs, J.~Arthur, K.~Hynna, F.~Flolwosele,
+  S.~Saighi, T.~Serrano-Gotarredona, J.~Wijekoon, Y.~Wang, and K.~Boahen.
+\newblock Neuromorphic silicon neuron circuits.
+\newblock {\em Front. Neurosci.}, 73:73, 2011.
+
+\bibitem{chst2014}
+E.~Chicca, F.~Stefanini, C.~Bartolozzi, and G.~Indiveri.
+\newblock {Neuromorphic Electronic Circuits for Building Autonomous Cognitive
+  Systems}.
+\newblock {\em Proc. IEEE}, 102:1367, 2014.
+
+\bibitem{aast2018}
+S.A. Aamir, Y.~Stradmann, P.~M\"{u}ller, C.~Pehle, A.~Hartel, A.~Gr\"{u}bl,
+  J.~Schemmel, and K.~Meier.
+\newblock {An Accelerated LIF Neuronal Network Array for Large-Scale
+  Mixed-Signal Neuromorphic Architecture}.
+\newblock {\em IEEE Trans. Circuits Sys.}, 65:4299, 2018.
+
+\bibitem{boro2018}
+P.A. Bogdan, A.G.D. Rowler, O.~Rhodes, and S.B. Furber.
+\newblock {Structural Plasticity on the SpiNNaker Many-Core Neuromorphic
+  System}.
+\newblock {\em Front. Neurosci.}, 12:434, 2018.
+
+\bibitem{stin2019}
+D.~Strukov, G.~Indiveri, J.~Grollier, and S.~Fusi.
+\newblock {Building Brain-Inspired Computing}.
+\newblock {\em Nat. Comm.}, 10:4838, 2019.
 
 \bibitem{hepa2012}
 J.L. Hennessy and D.A. Patterson.
