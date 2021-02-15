@@ -5,73 +5,73 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: unsrt.bst
 Reallocating 'name_of_file' (item size: 1) to 28 items.
 Database file #1: optoelectronic_intelligence.bib
-Repeated entry---line 3747 of file optoelectronic_intelligence.bib
+Warning--I'm ignoring me1989's extra "title" field
+--line 140 of file optoelectronic_intelligence.bib
+Repeated entry---line 3779 of file optoelectronic_intelligence.bib
  : @article{libo2010
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3756 of file optoelectronic_intelligence.bib
+Repeated entry---line 3788 of file optoelectronic_intelligence.bib
  : @article{zhyi2015
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3962 of file optoelectronic_intelligence.bib
+Repeated entry---line 3994 of file optoelectronic_intelligence.bib
  : @article{chst2014
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3970 of file optoelectronic_intelligence.bib
+Repeated entry---line 4002 of file optoelectronic_intelligence.bib
  : @article{inli2011
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3978 of file optoelectronic_intelligence.bib
+Repeated entry---line 4010 of file optoelectronic_intelligence.bib
  : @article{inli2011
  :                  ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "me1989"
-Warning--I didn't find a database entry for "godi1978"
-Warning--I didn't find a database entry for "scdo2020"
-Warning--I didn't find a database entry for "scse2020"
-Warning--I didn't find a database entry for ""
+Repeated entry---line 4058 of file optoelectronic_intelligence.bib
+ : @article{scpo2017
+ :                  ,
+I'm skipping whatever remains of this entry
+Warning--empty year in me1989
 Warning--empty year in hepa2012
-Warning--empty title in ai1989
-Warning--empty title in og1989
-You've used 100 entries,
+You've used 107 entries,
             1791 wiz_defined-function locations,
-            983 strings with 18817 characters,
-and the built_in function-call counts, 22392 in all, are:
-= -- 1687
-> -- 1464
-< -- 4
-+ -- 528
-- -- 428
-* -- 1648
-:= -- 3936
-add.period$ -- 300
-call.type$ -- 100
-change.case$ -- 92
+            1017 strings with 20243 characters,
+and the built_in function-call counts, 24441 in all, are:
+= -- 1846
+> -- 1623
+< -- 3
++ -- 583
+- -- 476
+* -- 1799
+:= -- 4276
+add.period$ -- 323
+call.type$ -- 107
+change.case$ -- 100
 chr.to.int$ -- 0
-cite$ -- 103
-duplicate$ -- 950
-empty$ -- 2008
-format.name$ -- 428
-if$ -- 4790
+cite$ -- 109
+duplicate$ -- 1041
+empty$ -- 2158
+format.name$ -- 476
+if$ -- 5233
 int.to.chr$ -- 0
-int.to.str$ -- 100
-missing$ -- 111
-newline$ -- 502
-num.names$ -- 101
-pop$ -- 173
+int.to.str$ -- 107
+missing$ -- 119
+newline$ -- 539
+num.names$ -- 108
+pop$ -- 184
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 352
+skip$ -- 413
 stack$ -- 0
-substring$ -- 1051
-swap$ -- 135
-text.length$ -- 4
+substring$ -- 1153
+swap$ -- 169
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 190
-width$ -- 103
-write$ -- 1100
-(There were 5 error messages)
+warning$ -- 2
+while$ -- 201
+width$ -- 110
+write$ -- 1179
+(There were 6 error messages)
