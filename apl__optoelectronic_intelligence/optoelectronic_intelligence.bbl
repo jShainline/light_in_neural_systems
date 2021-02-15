@@ -125,13 +125,6 @@ S.~Buckley, J.~Chiles, A.N. McCaughan, G.~Moody, K.L. Silverman, M.J. Stevens,
   superconducting single-photon detectors.
 \newblock {\em Appl. Phys. Lett.}, 111:141101, 2017.
 
-\bibitem{sh2019}
-J.M. Shainline, S.M. Buckley, A.N. McCaughan, J.~Chiles, A.~Jafari-Salim,
-  M.~Castellanos-Beltran, C.A. Donnelly, M.L. Schneider, R.P. Mirin, and S.W.
-  Nam.
-\newblock Superconducting optoelectronic loop neurons.
-\newblock {\em J. Appl. Phys.}, 126:044902, 2019.
-
 \bibitem{beba2017}
 R.F. Betzel and D.S. Bassett.
 \newblock Multi-scale brain networks.
@@ -142,11 +135,6 @@ A.N. Khambhati, M.G. Mattar, N.F. Wymbs, S.T. Grafton, and D.S. Bassett.
 \newblock {Beyond modularity: Fine-scale mechanisms and rules for brain network
   configuration}.
 \newblock {\em NeuroImage}, 166:385, 2018.
-
-\bibitem{baga2011}
-D.S. Bassett and M.S. Gazzaniga.
-\newblock {Understanding complexity in the human brain}.
-\newblock {\em Trends in Cognitive Sciences}, 15:200, 2011.
 
 \bibitem{budr2004}
 G.~Buzsaki and A.~Draguhn.
@@ -204,6 +192,25 @@ M.M. Sperry, Q.K. Telesford, F.~Klimm, and D.S. Bassett.
 \newblock Rentian scaling for the measurement of optimal embedding of complex
   networks into physical space.
 \newblock {\em J. Complex Networks}, 5:199, 2017.
+
+\bibitem{scva2014}
+H.G. Schnack, N.E.M. van Haren, R.M. Brouwer, A.~Evans, S.~Durston, D.I.
+  Boomsma, R.S. Kahn, and H.E.~Hulshoff Pol.
+\newblock Changes in thickness and surface area of the human cortex and their
+  relationship with intelligence.
+\newblock {\em Cerebral Cortex}, 25:1608, 2014.
+
+\bibitem{sh2019}
+J.M. Shainline, S.M. Buckley, A.N. McCaughan, J.~Chiles, A.~Jafari-Salim,
+  M.~Castellanos-Beltran, C.A. Donnelly, M.L. Schneider, R.P. Mirin, and S.W.
+  Nam.
+\newblock Superconducting optoelectronic loop neurons.
+\newblock {\em J. Appl. Phys.}, 126:044902, 2019.
+
+\bibitem{kora1996}
+C.~Koch, M.~Rapp, and I.~Segev.
+\newblock {A Brief History of Time (constants)}.
+\newblock {\em Cerebral Cortex}, 6:93, 1996.
 
 \bibitem{eskn2015}
 E.~Estrada and P.A. Knight.
@@ -284,6 +291,12 @@ S.~Buckley, A.N. Tait, G.~Moody, B.~Primavera, S.~Olsen, J.~Herman, K.L.
   silicon-on-insulator}.
 \newblock {\em Opt. Express}, 29:16057, 2020.
 
+\bibitem{scpo2017}
+C.D. Schuman, T.E. Potok, R.M. Patton, J.D. Birdwell, M.E. Dean, G.S. Rose, and
+  J.S. Plank.
+\newblock A survey of neuromorphic computing and neural networks in hardware.
+\newblock {\em arXiv}, page arXiv:1705.06963v1, 2017.
+
 \bibitem{bexi2020}
 K.~Berggren et~al.
 \newblock Roadmap on emerging hardware and technology for machine learning.
@@ -295,9 +308,14 @@ B.J. Shastri, A.N. Tait, T.~Ferreira de~Lima, W.H.P. Pernice, H.~Bhaskaran,
 \newblock Photonics for artificial intelligence and neuromorphic computing.
 \newblock {\em Nat. Photonics}, 15:102, 2021.
 
+\bibitem{me1989}
+C.~Mead.
+\newblock {\em {Analog VLSI and Neural Systems}}.
+\newblock Addison Wesley.
+
 \bibitem{me1990}
 C.~Mead.
-\newblock Neuromorphic electronic systems.
+\newblock {Neuromorphic Electronic Systems}.
 \newblock {\em Proc. IEEE}, 78:1629, 1990.
 
 \bibitem{lide2015}
@@ -366,10 +384,35 @@ J.J. Hopfield.
   abilities.
 \newblock {\em PNAS}, 79:2554, 1982.
 
+\bibitem{habe2019}
+R.~Hamerly, L.~Bernstein, A.~Sludds, M.~Solja\v{c}i\'{c}, and D.~Englund.
+\newblock {Large-Scale Optical Neural Networks Based on Photoelectric
+  Multiplication}.
+\newblock {\em Phys. Rev. X}, 9:021032, 2019.
+
 \bibitem{prsh2017}
 P.R. Prucnal and B.J. Shastri.
 \newblock {\em Neuromorphic photonics}.
 \newblock CRC Press, New York, first edition, 2017.
+
+\bibitem{shha2016}
+Y.~Shen, N.C. Harris, S.~Skirlo, M.~Prabhu, T.~Baehr-Jones, M.~Hochberg,
+  X.~Sun, S.~Zhao, H.~Larochelle, D.~Englund, and M.~Soljacic.
+\newblock Deep learning with coherent nanophotonic circuits.
+\newblock {\em Nature Photonics}, 11:441, 2016.
+
+\bibitem{vame2014}
+K.~Vandoorne, P.~Mechet, T.~Van Vaerenbergh, M.~Fiers, G.~Morthier,
+  D.~Verstraeten, B.~Schrauwen, J.~Dambre, and P.~Bienstman.
+\newblock Experimental demonstration of reservoir computing on a silicon
+  photonics chip.
+\newblock {\em Nat. Comm.}, 5:3541, 2014.
+
+\bibitem{tafe2019}
+A.N. Tait, T.~Ferreira de~Lima, M.A. Nahmias, H.B. Miller, H.-T. Peng, B.J.
+  Shastri, and P.R. Prucnal.
+\newblock Silicon photonic modulator neuron.
+\newblock {\em Phys. Rev. Applied}, 11:064043, Jun 2019.
 
 \bibitem{tana20142}
 A.N. Tait, M.A. Nahmias, B.J. Shastri, and P.R. Prucnal.
@@ -400,12 +443,6 @@ I.~Chakraborty, G.~Saha, A.~Sengupta, and K.~Roy.
 Z.~Cheng, C.~Rios, W.H.P. Pernice, C.D. Wright, and H.~Bhaskaran.
 \newblock On-chip photonic synapse.
 \newblock {\em Science Advances}, 3:1700160, 2017.
-
-\bibitem{shha2016}
-Y.~Shen, N.C. Harris, S.~Skirlo, M.~Prabhu, T.~Baehr-Jones, M.~Hochberg,
-  X.~Sun, S.~Zhao, H.~Larochelle, D.~Englund, and M.~Soljacic.
-\newblock Deep learning with coherent nanophotonic circuits.
-\newblock {\em Nature Photonics}, 11:441, 2016.
 
 \bibitem{humi2018}
 T.W. Hughes, M.~Minkov, Y.~Shi, and S.~Fan.
@@ -447,36 +484,6 @@ J.E. Lisman.
   reliable.
 \newblock {\em Trends Neurosci.}, 20:38, 1997.
 
-\bibitem{hias2007}
-T.~Hirose, T.~Asai, and Y.~Amemiya.
-\newblock Pulsed neural networks consisting of single-flux-quantum spiking
-  neurons.
-\newblock {\em Physica C}, 463:1072, 2007.
-
-\bibitem{sele2017}
-K.~Segall, M.~LeGro, S.~Kaplan, O.~Svitelskiy, S.~Khadka, P.~Crotty, and
-  D.~Schult.
-\newblock Synchronization dynamics on the picosecond time scale in coupled
-  josephson junction networks.
-\newblock {\em Physical Review E}, 95:032220, 2017.
-
-\bibitem{scdo2018}
-M.L. Schneider, C.A. Donnelly, S.E. Russek, B.~Baek, M.R. Pufall, P.F. Hopkins,
-  P.~Dresselhaus, S.P. Benz, and W.H. Rippard.
-\newblock Ultralow power artificial synapses using nanotextured magnetic
-  josephson junctions.
-\newblock {\em Science Advances}, 4:1701329, 2018.
-
-\bibitem{ai1989}
-K.~Aihara et~al.
-\newblock {\em Extended Abstracts The Japan Society of Applied Physics and
-  Related Socities}, pages I--77, 1989.
-
-\bibitem{og1989}
-T.~Ogata et~al.
-\newblock {\em Extended Abstracts The Japan Society of Applied Physics and
-  Related Socities}, pages I--77, 1989.
-
 \bibitem{hago1991}
 Y.~Harada and E.~Goto.
 \newblock Artificial neural network circuits with josephson devices.
@@ -511,16 +518,53 @@ P.~Crotty, D.~Schult, and K.~Segall.
 \newblock Josephson junction simulation of neurons.
 \newblock {\em Phys. Rev. E}, 82:011914, 2010.
 
+\bibitem{scdo2018}
+M.L. Schneider, C.A. Donnelly, S.E. Russek, B.~Baek, M.R. Pufall, P.F. Hopkins,
+  P.~Dresselhaus, S.P. Benz, and W.H. Rippard.
+\newblock Ultralow power artificial synapses using nanotextured magnetic
+  josephson junctions.
+\newblock {\em Science Advances}, 4:1701329, 2018.
+
+\bibitem{sele2017}
+K.~Segall, M.~LeGro, S.~Kaplan, O.~Svitelskiy, S.~Khadka, P.~Crotty, and
+  D.~Schult.
+\newblock Synchronization dynamics on the picosecond time scale in coupled
+  josephson junction networks.
+\newblock {\em Physical Review E}, 95:032220, 2017.
+
 \bibitem{kiha2018}
 S.G. Kim, J.S. Han, H.~Kim, S.Y. Kim, and H.W. Jang.
 \newblock {Recent Advances in Memristive Materials for Artificial Synapses}.
 \newblock {\em Advanced Materials Technologies}, 3:1800457, 2018.
+
+\bibitem{scdo2018b}
+M.L. Schneider, C.A. Donnelly, and S.E. Russek.
+\newblock Tutorial: high-speed low-power neuromorphic systems based on magnetic
+  josephson junctions.
+\newblock {\em J. Appl. Phys.}, 124:161102, 2018.
+
+\bibitem{scse2020}
+M.L. Schneider and K.~Segall.
+\newblock {Fan-out and Fan-in Properties of Superconducting Neuromorphic
+  Circuits}.
+\newblock {\em J. Appl. Phys.}, 128:214903, 2020.
+
+\bibitem{hias2007}
+T.~Hirose, T.~Asai, and Y.~Amemiya.
+\newblock Pulsed neural networks consisting of single-flux-quantum spiking
+  neurons.
+\newblock {\em Physica C}, 463:1072, 2007.
 
 \bibitem{mi2017}
 D.A.B. Miller.
 \newblock Attojoule optoelectronics for low-energy information processing and
   communications.
 \newblock {\em J. Lightwave Technol.}, 35:346, 2017.
+
+\bibitem{tapa2019}
+M.~Tand, J.-S. Park, Z.~Wang, S.~Chen, P.~Jurczak, A.~Seeds, and H.~Liu.
+\newblock {Integration of III-V Lasers on Si for Si Photonics}.
+\newblock {\em Prog. Quant. Electron.}, 66:1, 2019.
 
 \bibitem{hala2020}
 Y.~Han and K.M. Lau.
