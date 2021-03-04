@@ -1,77 +1,77 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: optoelectronic_intelligence.aux
+The top-level auxiliary file: optoelectronic_intelligence__with_colors.aux
 Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: unsrt.bst
 Reallocating 'name_of_file' (item size: 1) to 28 items.
 Database file #1: optoelectronic_intelligence.bib
 Warning--I'm ignoring me1989's extra "title" field
 --line 140 of file optoelectronic_intelligence.bib
-Repeated entry---line 3748 of file optoelectronic_intelligence.bib
+Repeated entry---line 3779 of file optoelectronic_intelligence.bib
  : @article{libo2010
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3757 of file optoelectronic_intelligence.bib
+Repeated entry---line 3788 of file optoelectronic_intelligence.bib
  : @article{zhyi2015
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3946 of file optoelectronic_intelligence.bib
+Repeated entry---line 3994 of file optoelectronic_intelligence.bib
  : @article{chst2014
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3954 of file optoelectronic_intelligence.bib
- : @article{inli2011
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 3962 of file optoelectronic_intelligence.bib
+Repeated entry---line 4002 of file optoelectronic_intelligence.bib
  : @article{inli2011
  :                  ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 4010 of file optoelectronic_intelligence.bib
+ : @article{inli2011
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 4058 of file optoelectronic_intelligence.bib
  : @article{scpo2017
  :                  ,
 I'm skipping whatever remains of this entry
 Warning--empty year in me1989
 Warning--empty year in hepa2012
-You've used 109 entries,
+You've used 108 entries,
             1791 wiz_defined-function locations,
-            1026 strings with 20908 characters,
-and the built_in function-call counts, 25167 in all, are:
-= -- 1886
-> -- 1706
+            1023 strings with 20588 characters,
+and the built_in function-call counts, 24754 in all, are:
+= -- 1866
+> -- 1652
 < -- 3
-+ -- 611
-- -- 502
-* -- 1875
-:= -- 4413
-add.period$ -- 329
-call.type$ -- 109
-change.case$ -- 102
++ -- 593
+- -- 485
+* -- 1829
+:= -- 4333
+add.period$ -- 326
+call.type$ -- 108
+change.case$ -- 101
 chr.to.int$ -- 0
-cite$ -- 111
-duplicate$ -- 1059
-empty$ -- 2203
-format.name$ -- 502
-if$ -- 5375
+cite$ -- 110
+duplicate$ -- 1050
+empty$ -- 2181
+format.name$ -- 485
+if$ -- 5296
 int.to.chr$ -- 0
-int.to.str$ -- 109
-missing$ -- 121
-newline$ -- 549
-num.names$ -- 110
-pop$ -- 186
+int.to.str$ -- 108
+missing$ -- 120
+newline$ -- 544
+num.names$ -- 109
+pop$ -- 185
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 419
+skip$ -- 416
 stack$ -- 0
-substring$ -- 1192
-swap$ -- 171
+substring$ -- 1174
+swap$ -- 170
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 205
-width$ -- 112
-write$ -- 1201
+while$ -- 203
+width$ -- 111
+write$ -- 1190
 (There were 6 error messages)

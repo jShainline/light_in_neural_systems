@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.4)  4 MAR 2021 12:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.4)  16 FEB 2021 15:16
 entering extended mode
-**./optoelectronic_intelligence.tex
-(optoelectronic_intelligence.tex
+**./optoelectronic_intelligence__with_colors.tex
+(optoelectronic_intelligence__with_colors.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-07-17>
 (C:\Users\jeffr\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -227,8 +227,8 @@ mode.def
 File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count194
 \l__pdf_internal_box=\box48
-) (optoelectronic_intelligence.aux)
-\openout1 = `optoelectronic_intelligence.aux'.
+) (optoelectronic_intelligence__with_colors.aux)
+\openout1 = `optoelectronic_intelligence__with_colors.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
@@ -380,7 +380,7 @@ File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 pdfTeX warning: pdflatex (file ./block_diagrams.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<block_diagrams.pdf, id=44, 244.69417pt x 428.2449pt>
+<block_diagrams.pdf, id=47, 244.69417pt x 428.2449pt>
 File: block_diagrams.pdf Graphic file (type pdf)
 <use block_diagrams.pdf>
 Package pdftex.def Info: block_diagrams.pdf  used on input line 74.
@@ -389,7 +389,7 @@ Package pdftex.def Info: block_diagrams.pdf  used on input line 74.
 
 pdfTeX warning: pdflatex (file ./spd_jj_synapse.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<spd_jj_synapse.pdf, id=45, 244.69318pt x 127.51941pt>
+<spd_jj_synapse.pdf, id=48, 244.69318pt x 127.51941pt>
 File: spd_jj_synapse.pdf Graphic file (type pdf)
 <use spd_jj_synapse.pdf>
 Package pdftex.def Info: spd_jj_synapse.pdf  used on input line 83.
@@ -404,14 +404,14 @@ Underfull \vbox (badness 5403) has occurred while \output is active []
 
 pdfTeX warning: pdflatex (file ./experimental.pdf): PDF inclusion: found PDF ve
 rsion <1.6>, but at most version <1.5> allowed
-<experimental.pdf, id=75, 2003.485pt x 985.6825pt>
+<experimental.pdf, id=78, 2003.485pt x 985.6825pt>
 File: experimental.pdf Graphic file (type pdf)
 <use experimental.pdf>
 Package pdftex.def Info: experimental.pdf  used on input line 90.
 (pdftex.def)             Requested size: 489.38731pt x 240.76486pt.
 [5 <./spd_jj_synapse.pdf>]
 Underfull \hbox (badness 1127) in paragraph at lines 99--99
-[][]\OT1/lmr/bx/n/14.4 The land-scape of re-search in
+[][][]\OT1/lmr/bx/n/14.4 The land-scape of re-search in
  []
 
 
@@ -433,7 +433,7 @@ Underfull \hbox (badness 1609) in paragraph at lines 119--120
 
 pdfTeX warning: pdflatex (file ./nodes_on_wafer.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<nodes_on_wafer.pdf, id=147, 244.69318pt x 140.37946pt>
+<nodes_on_wafer.pdf, id=150, 244.69318pt x 140.37946pt>
 File: nodes_on_wafer.pdf Graphic file (type pdf)
 <use nodes_on_wafer.pdf>
 Package pdftex.def Info: nodes_on_wafer.pdf  used on input line 148.
@@ -442,7 +442,7 @@ Package pdftex.def Info: nodes_on_wafer.pdf  used on input line 148.
 
 pdfTeX warning: pdflatex (file ./spatial_hierarchy.pdf): PDF inclusion: found P
 DF version <1.6>, but at most version <1.5> allowed
-<spatial_hierarchy.pdf, id=148, 2003.485pt x 1365.1pt>
+<spatial_hierarchy.pdf, id=151, 2003.485pt x 1365.1pt>
 File: spatial_hierarchy.pdf Graphic file (type pdf)
 <use spatial_hierarchy.pdf>
 Package pdftex.def Info: spatial_hierarchy.pdf  used on input line 154.
@@ -453,7 +453,8 @@ Underfull \vbox (badness 1796) has occurred while \output is active []
  [10 <./nodes_on_wafer.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11 <./spatial_hierarchy.pdf>] [12] (optoelectronic_intelligence.bbl
+ [11 <./spatial_hierarchy.pdf>] [12] (optoelectronic_intelligence__with_colors.
+bbl
 Underfull \hbox (badness 1616) in paragraph at lines 88--93
 \OT1/lmr/m/it/10 Trans. Neu-ral Net-works and Learn-ing Sys-tems\OT1/lmr/m/n/10
  ,
@@ -475,91 +476,82 @@ Underfull \hbox (badness 3039) in paragraph at lines 281--286
  []
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 334--340
+Underfull \hbox (badness 1112) in paragraph at lines 333--339
 \OT1/lmr/m/n/10 A. van Schaik, R. Etienne-Cummings, T. Del-
  []
 
-[15]
-Underfull \hbox (badness 1924) in paragraph at lines 400--404
+
+Underfull \hbox (badness 1924) in paragraph at lines 399--403
 []\OT1/lmr/m/n/10 Y. Shen, N.C. Har-ris, S. Skirlo, M. Prabhu,
  []
 
-
-Underfull \hbox (badness 5578) in paragraph at lines 406--411
+[15]
+Underfull \hbox (badness 5578) in paragraph at lines 405--410
 []\OT1/lmr/m/n/10 K. Van-doorne, P. Mechet, T. Van Vaeren-
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 406--411
+Underfull \hbox (badness 1270) in paragraph at lines 405--410
 \OT1/lmr/m/n/10 bergh, M. Fiers, G. Mor-thier, D. Ver-straeten,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--464
+Underfull \hbox (badness 10000) in paragraph at lines 460--463
 []\OT1/lmr/m/n/10 K. Van-doorne, J. Dambre, D. Ver-straeten,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 478--481
+Underfull \hbox (badness 10000) in paragraph at lines 477--480
 []\OT1/lmr/m/n/10 D. Brun-ner, B. Penkovsky, B.A. Mar-quez,
  []
 
 
-Underfull \hbox (badness 3838) in paragraph at lines 523--528
+Underfull \hbox (badness 3838) in paragraph at lines 522--527
 []\OT1/lmr/m/n/10 M.L. Schnei-der, C.A. Don-nelly, S.E. Russek,
  []
 
 [16]
-Underfull \hbox (badness 2452) in paragraph at lines 576--580
+Underfull \hbox (badness 2452) in paragraph at lines 575--579
 []\OT1/lmr/m/n/10 V.B. Verma, F. Mar-sili, S. Har-ring-ton, A.E.
  []
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 576--580
+Underfull \hbox (badness 1661) in paragraph at lines 575--579
 \OT1/lmr/m/n/10 Lita, R.P. Mirin, and S.W. Nam.  A three-
  []
 
-
-Underfull \hbox (badness 6173) in paragraph at lines 589--594
-\OT1/lmr/m/n/10 F. China, M. Hi-daka, Y. Ya-manashi, and
- []
-
-
-Underfull \hbox (badness 7379) in paragraph at lines 589--594
-\OT1/lmr/m/n/10 N. Yoshikawa.  Three-dimensional adi-a-batic
- []
-
-) [17] (optoelectronic_intelligence.aux) ) 
+) [17] (optoelectronic_intelligence__with_colors.aux) ) 
 Here is how much of TeX's memory you used:
- 4982 strings out of 481225
- 74927 string characters out of 2906175
- 335511 words of memory out of 3000000
- 20484 multiletter control sequences out of 15000+200000
+ 4981 strings out of 481225
+ 75099 string characters out of 2906175
+ 335792 words of memory out of 3000000
+ 20483 multiletter control sequences out of 15000+200000
  589164 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,8n,43p,2329b,372s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/jeffr/AppData/Local/Program
-s/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/jeffr/AppData/Local/Programs/Mi
-KTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/jeffr/AppData/Local/Programs/Mi
-KTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/jeffr/AppData/Local/Programs/MiKTe
-X/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Users/jeffr/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/lm/lmbx12.pfb><C:/Users/jeffr/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/lm/lmbx9.pfb><C:/Users/jeffr/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/lm/lmmi10.pfb><C:/Users/jeffr/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/lm/lmr10.pfb><C:/Users/jeffr/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/lm/lmr12.pfb><C:/Users/jeffr/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/lm/lmr17.pfb><C:/Users/jeffr/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/lm/lmr7.pfb><C:/Users/jeffr/AppData/Local/Programs/MiKTeX/font
-s/type1/public/lm/lmr9.pfb><C:/Users/jeffr/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/lm/lmri10.pfb><C:/Users/jeffr/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/lm/lmri9.pfb><C:/Users/jeffr/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/lm/lmss10.pfb><C:/Users/jeffr/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/lm/lmss8.pfb><C:/Users/jeffr/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/lm/lmsy10.pfb><C:/Users/jeffr/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/lm/lmsy7.pfb>
-Output written on optoelectronic_intelligence.pdf (17 pages, 1993978 bytes).
+ 38i,8n,43p,2367b,372s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/jeffr/AppData/
+Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/jeffr/AppData/Loca
+l/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/jeffr/AppData/Loca
+l/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/jeffr/AppData/Local/P
+rograms/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}<C:/Users/jeffr/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/jeffr/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/lm/lmbx9.pfb><C:/Users/jeffr/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/jeffr/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/jeffr/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/jeffr/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/jeffr/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/jeffr/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/jeffr/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/jeffr/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/jeffr/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/jeffr/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/lm/lmss8.pfb><C:/Users/jeffr/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/jeffr/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/lm/lmsy7.pfb>
+Output written on optoelectronic_intelligence__with_colors.pdf (17 pages, 22688
+53 bytes).
 PDF statistics:
- 244 PDF objects out of 1000 (max. 8388607)
+ 247 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

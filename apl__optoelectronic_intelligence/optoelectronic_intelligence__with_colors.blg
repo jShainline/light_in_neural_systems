@@ -33,45 +33,45 @@ Repeated entry---line 4058 of file optoelectronic_intelligence.bib
 I'm skipping whatever remains of this entry
 Warning--empty year in me1989
 Warning--empty year in hepa2012
-You've used 108 entries,
+You've used 109 entries,
             1791 wiz_defined-function locations,
-            1023 strings with 20588 characters,
-and the built_in function-call counts, 24754 in all, are:
-= -- 1866
-> -- 1652
+            1027 strings with 20825 characters,
+and the built_in function-call counts, 25045 in all, are:
+= -- 1885
+> -- 1678
 < -- 3
-+ -- 593
-- -- 485
-* -- 1829
-:= -- 4333
-add.period$ -- 326
-call.type$ -- 108
-change.case$ -- 101
++ -- 602
+- -- 493
+* -- 1856
+:= -- 4386
+add.period$ -- 329
+call.type$ -- 109
+change.case$ -- 102
 chr.to.int$ -- 0
-cite$ -- 110
-duplicate$ -- 1050
-empty$ -- 2181
-format.name$ -- 485
-if$ -- 5296
+cite$ -- 111
+duplicate$ -- 1059
+empty$ -- 2203
+format.name$ -- 493
+if$ -- 5355
 int.to.chr$ -- 0
-int.to.str$ -- 108
-missing$ -- 120
-newline$ -- 544
-num.names$ -- 109
-pop$ -- 185
+int.to.str$ -- 109
+missing$ -- 121
+newline$ -- 549
+num.names$ -- 110
+pop$ -- 186
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 416
+skip$ -- 419
 stack$ -- 0
-substring$ -- 1174
-swap$ -- 170
+substring$ -- 1192
+swap$ -- 171
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 203
-width$ -- 111
-write$ -- 1190
+while$ -- 205
+width$ -- 112
+write$ -- 1201
 (There were 6 error messages)

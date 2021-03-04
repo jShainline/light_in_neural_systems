@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.4)  16 FEB 2021 15:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.4)  4 MAR 2021 12:28
 entering extended mode
 **./optoelectronic_intelligence__with_colors.tex
 (optoelectronic_intelligence__with_colors.tex
@@ -380,7 +380,7 @@ File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 pdfTeX warning: pdflatex (file ./block_diagrams.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<block_diagrams.pdf, id=47, 244.69417pt x 428.2449pt>
+<block_diagrams.pdf, id=44, 244.69417pt x 428.2449pt>
 File: block_diagrams.pdf Graphic file (type pdf)
 <use block_diagrams.pdf>
 Package pdftex.def Info: block_diagrams.pdf  used on input line 74.
@@ -389,7 +389,7 @@ Package pdftex.def Info: block_diagrams.pdf  used on input line 74.
 
 pdfTeX warning: pdflatex (file ./spd_jj_synapse.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<spd_jj_synapse.pdf, id=48, 244.69318pt x 127.51941pt>
+<spd_jj_synapse.pdf, id=45, 244.69318pt x 127.51941pt>
 File: spd_jj_synapse.pdf Graphic file (type pdf)
 <use spd_jj_synapse.pdf>
 Package pdftex.def Info: spd_jj_synapse.pdf  used on input line 83.
@@ -404,14 +404,14 @@ Underfull \vbox (badness 5403) has occurred while \output is active []
 
 pdfTeX warning: pdflatex (file ./experimental.pdf): PDF inclusion: found PDF ve
 rsion <1.6>, but at most version <1.5> allowed
-<experimental.pdf, id=78, 2003.485pt x 985.6825pt>
+<experimental.pdf, id=75, 2003.485pt x 985.6825pt>
 File: experimental.pdf Graphic file (type pdf)
 <use experimental.pdf>
 Package pdftex.def Info: experimental.pdf  used on input line 90.
 (pdftex.def)             Requested size: 489.38731pt x 240.76486pt.
 [5 <./spd_jj_synapse.pdf>]
 Underfull \hbox (badness 1127) in paragraph at lines 99--99
-[][][]\OT1/lmr/bx/n/14.4 The land-scape of re-search in
+[][]\OT1/lmr/bx/n/14.4 The land-scape of re-search in
  []
 
 
@@ -433,7 +433,7 @@ Underfull \hbox (badness 1609) in paragraph at lines 119--120
 
 pdfTeX warning: pdflatex (file ./nodes_on_wafer.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<nodes_on_wafer.pdf, id=150, 244.69318pt x 140.37946pt>
+<nodes_on_wafer.pdf, id=147, 244.69318pt x 140.37946pt>
 File: nodes_on_wafer.pdf Graphic file (type pdf)
 <use nodes_on_wafer.pdf>
 Package pdftex.def Info: nodes_on_wafer.pdf  used on input line 148.
@@ -442,7 +442,7 @@ Package pdftex.def Info: nodes_on_wafer.pdf  used on input line 148.
 
 pdfTeX warning: pdflatex (file ./spatial_hierarchy.pdf): PDF inclusion: found P
 DF version <1.6>, but at most version <1.5> allowed
-<spatial_hierarchy.pdf, id=151, 2003.485pt x 1365.1pt>
+<spatial_hierarchy.pdf, id=148, 2003.485pt x 1365.1pt>
 File: spatial_hierarchy.pdf Graphic file (type pdf)
 <use spatial_hierarchy.pdf>
 Package pdftex.def Info: spatial_hierarchy.pdf  used on input line 154.
@@ -520,15 +520,25 @@ Underfull \hbox (badness 1661) in paragraph at lines 575--579
 \OT1/lmr/m/n/10 Lita, R.P. Mirin, and S.W. Nam.  A three-
  []
 
+
+Underfull \hbox (badness 6173) in paragraph at lines 588--593
+\OT1/lmr/m/n/10 F. China, M. Hi-daka, Y. Ya-manashi, and
+ []
+
+
+Underfull \hbox (badness 7379) in paragraph at lines 588--593
+\OT1/lmr/m/n/10 N. Yoshikawa.  Three-dimensional adi-a-batic
+ []
+
 ) [17] (optoelectronic_intelligence__with_colors.aux) ) 
 Here is how much of TeX's memory you used:
- 4981 strings out of 481225
- 75099 string characters out of 2906175
- 335792 words of memory out of 3000000
- 20483 multiletter control sequences out of 15000+200000
+ 4982 strings out of 481225
+ 75109 string characters out of 2906175
+ 335550 words of memory out of 3000000
+ 20484 multiletter control sequences out of 15000+200000
  589164 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,8n,43p,2367b,372s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,8n,43p,2342b,372s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/jeffr/AppData/
 Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/jeffr/AppData/Loca
 l/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/jeffr/AppData/Loca
@@ -548,10 +558,10 @@ iKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/jeffr/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/lm/lmss8.pfb><C:/Users/jeffr/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/jeffr/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/lm/lmsy7.pfb>
-Output written on optoelectronic_intelligence__with_colors.pdf (17 pages, 22688
-53 bytes).
+Output written on optoelectronic_intelligence__with_colors.pdf (17 pages, 19938
+94 bytes).
 PDF statistics:
- 247 PDF objects out of 1000 (max. 8388607)
+ 244 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
