@@ -7,27 +7,27 @@ Reallocating 'name_of_file' (item size: 1) to 28 items.
 Database file #1: optoelectronic_intelligence.bib
 Warning--I'm ignoring me1989's extra "title" field
 --line 140 of file optoelectronic_intelligence.bib
-Repeated entry---line 3748 of file optoelectronic_intelligence.bib
+Repeated entry---line 3749 of file optoelectronic_intelligence.bib
  : @article{libo2010
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3757 of file optoelectronic_intelligence.bib
+Repeated entry---line 3758 of file optoelectronic_intelligence.bib
  : @article{zhyi2015
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3946 of file optoelectronic_intelligence.bib
+Repeated entry---line 3949 of file optoelectronic_intelligence.bib
  : @article{chst2014
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3954 of file optoelectronic_intelligence.bib
+Repeated entry---line 3957 of file optoelectronic_intelligence.bib
  : @article{inli2011
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3962 of file optoelectronic_intelligence.bib
+Repeated entry---line 3965 of file optoelectronic_intelligence.bib
  : @article{inli2011
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4010 of file optoelectronic_intelligence.bib
+Repeated entry---line 4013 of file optoelectronic_intelligence.bib
  : @article{scpo2017
  :                  ,
 I'm skipping whatever remains of this entry
@@ -35,24 +35,24 @@ Warning--empty year in me1989
 Warning--empty year in hepa2012
 You've used 109 entries,
             1791 wiz_defined-function locations,
-            1026 strings with 20908 characters,
-and the built_in function-call counts, 25167 in all, are:
-= -- 1886
+            1025 strings with 20891 characters,
+and the built_in function-call counts, 25150 in all, are:
+= -- 1883
 > -- 1706
 < -- 3
 + -- 611
 - -- 502
-* -- 1875
-:= -- 4413
+* -- 1878
+:= -- 4410
 add.period$ -- 329
 call.type$ -- 109
 change.case$ -- 102
 chr.to.int$ -- 0
 cite$ -- 111
 duplicate$ -- 1059
-empty$ -- 2203
+empty$ -- 2202
 format.name$ -- 502
-if$ -- 5375
+if$ -- 5371
 int.to.chr$ -- 0
 int.to.str$ -- 109
 missing$ -- 121
@@ -64,7 +64,7 @@ purify$ -- 0
 quote$ -- 0
 skip$ -- 419
 stack$ -- 0
-substring$ -- 1192
+substring$ -- 1183
 swap$ -- 171
 text.length$ -- 3
 text.prefix$ -- 0

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.4)  4 MAR 2021 12:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.8.4)  17 MAR 2021 10:19
 entering extended mode
 **./optoelectronic_intelligence.tex
 (optoelectronic_intelligence.tex
@@ -386,20 +386,17 @@ File: block_diagrams.pdf Graphic file (type pdf)
 Package pdftex.def Info: block_diagrams.pdf  used on input line 74.
 (pdftex.def)             Requested size: 244.69386pt x 428.25038pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 <./block_diagrams.pdf>]
 
 pdfTeX warning: pdflatex (file ./spd_jj_synapse.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<spd_jj_synapse.pdf, id=45, 244.69318pt x 127.51941pt>
+<spd_jj_synapse.pdf, id=74, 244.69318pt x 127.51941pt>
 File: spd_jj_synapse.pdf Graphic file (type pdf)
 <use spd_jj_synapse.pdf>
 Package pdftex.def Info: spd_jj_synapse.pdf  used on input line 83.
 (pdftex.def)             Requested size: 244.69386pt x 127.52103pt.
-
-Underfull \vbox (badness 4416) has occurred while \output is active []
-
- [4 <./block_diagrams.pdf>]
-Underfull \vbox (badness 5403) has occurred while \output is active []
-
 
 
 pdfTeX warning: pdflatex (file ./experimental.pdf): PDF inclusion: found PDF ve
@@ -409,7 +406,10 @@ File: experimental.pdf Graphic file (type pdf)
 <use experimental.pdf>
 Package pdftex.def Info: experimental.pdf  used on input line 90.
 (pdftex.def)             Requested size: 489.38731pt x 240.76486pt.
-[5 <./spd_jj_synapse.pdf>]
+
+Underfull \vbox (badness 5403) has occurred while \output is active []
+
+ [5 <./spd_jj_synapse.pdf>]
 Underfull \hbox (badness 1127) in paragraph at lines 99--99
 [][]\OT1/lmr/bx/n/14.4 The land-scape of re-search in
  []
@@ -419,7 +419,13 @@ Underfull \hbox (badness 1281) in paragraph at lines 99--99
 \OT1/lmr/bx/n/14.4 pho-tonic and su-per-con-duct-ing
  []
 
-[6 <./experimental.pdf>] [7]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 8132) has occurred while \output is active []
+
+ [6 <./experimental.pdf>] [7]
 Underfull \hbox (badness 6893) in paragraph at lines 118--118
 []\OT1/lmr/bx/n/12 Superconducting elec-tronic neu-ral
  []
@@ -438,38 +444,39 @@ File: nodes_on_wafer.pdf Graphic file (type pdf)
 <use nodes_on_wafer.pdf>
 Package pdftex.def Info: nodes_on_wafer.pdf  used on input line 148.
 (pdftex.def)             Requested size: 244.69386pt x 140.38124pt.
-
+[10 <./nodes_on_wafer.pdf>]
 
 pdfTeX warning: pdflatex (file ./spatial_hierarchy.pdf): PDF inclusion: found P
 DF version <1.6>, but at most version <1.5> allowed
-<spatial_hierarchy.pdf, id=148, 2003.485pt x 1365.1pt>
+<spatial_hierarchy.pdf, id=169, 2003.485pt x 1365.1pt>
 File: spatial_hierarchy.pdf Graphic file (type pdf)
 <use spatial_hierarchy.pdf>
 Package pdftex.def Info: spatial_hierarchy.pdf  used on input line 154.
 (pdftex.def)             Requested size: 500.76868pt x 341.19084pt.
-
-Underfull \vbox (badness 1796) has occurred while \output is active []
-
- [10 <./nodes_on_wafer.pdf>]
+[11]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11 <./spatial_hierarchy.pdf>] [12] (optoelectronic_intelligence.bbl
+ [12 <./spatial_hierarchy.pdf>]
+Underfull \vbox (badness 7486) has occurred while \output is active []
+
+
+(optoelectronic_intelligence.bbl [13]
 Underfull \hbox (badness 1616) in paragraph at lines 88--93
 \OT1/lmr/m/it/10 Trans. Neu-ral Net-works and Learn-ing Sys-tems\OT1/lmr/m/n/10
  ,
  []
 
-[13]
+
 Underfull \hbox (badness 2735) in paragraph at lines 122--127
 \OT1/lmr/m/n/10 diodes waveguide-integrated with su-per-con-duct-
  []
 
-
+[14]
 Underfull \hbox (badness 1057) in paragraph at lines 226--229
 []\OT1/lmr/m/n/10 H. Markram, W. Ger-st-ner, and P.J. Sjostrom.
  []
 
-[14]
+
 Underfull \hbox (badness 3039) in paragraph at lines 281--286
 \OT1/lmr/m/n/10 S. Khan, R.P. Mirin, S.W. Nam, and J.M.
  []
@@ -504,12 +511,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 478--481
 []\OT1/lmr/m/n/10 D. Brun-ner, B. Penkovsky, B.A. Mar-quez,
  []
 
-
+[16]
 Underfull \hbox (badness 3838) in paragraph at lines 523--528
 []\OT1/lmr/m/n/10 M.L. Schnei-der, C.A. Don-nelly, S.E. Russek,
  []
 
-[16]
+
 Underfull \hbox (badness 2452) in paragraph at lines 576--580
 []\OT1/lmr/m/n/10 V.B. Verma, F. Mar-sili, S. Har-ring-ton, A.E.
  []
@@ -531,13 +538,13 @@ Underfull \hbox (badness 7379) in paragraph at lines 589--594
 
 ) [17] (optoelectronic_intelligence.aux) ) 
 Here is how much of TeX's memory you used:
- 4982 strings out of 481225
- 74927 string characters out of 2906175
- 335511 words of memory out of 3000000
- 20484 multiletter control sequences out of 15000+200000
+ 4983 strings out of 481225
+ 74935 string characters out of 2906175
+ 344891 words of memory out of 3000000
+ 20485 multiletter control sequences out of 15000+200000
  589164 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,8n,43p,2329b,372s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,8n,43p,2352b,372s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/jeffr/AppData/Local/Program
 s/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/jeffr/AppData/Local/Programs/Mi
 KTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/jeffr/AppData/Local/Programs/Mi
@@ -557,7 +564,7 @@ ype1/public/lm/lmss10.pfb><C:/Users/jeffr/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/lm/lmss8.pfb><C:/Users/jeffr/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/lm/lmsy10.pfb><C:/Users/jeffr/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/lm/lmsy7.pfb>
-Output written on optoelectronic_intelligence.pdf (17 pages, 1993978 bytes).
+Output written on optoelectronic_intelligence.pdf (17 pages, 1995080 bytes).
 PDF statistics:
  244 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
